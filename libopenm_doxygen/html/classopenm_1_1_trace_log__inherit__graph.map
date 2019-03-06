@@ -1,0 +1,5 @@
+<map id="openm::TraceLog" name="openm::TraceLog">
+<area shape="rect" id="node2" href="$classopenm_1_1_log_base.html" title="Log base class: log to console and into log files. " alt="" coords="5,80,125,107"/>
+<area shape="rect" id="node3" href="$structopenm_1_1_i_log_base.html" title="base for log public interface " alt="" coords="72,5,195,32"/>
+<area shape="rect" id="node4" href="$structopenm_1_1_i_trace.html" title="trace log public interface: model event log to console and into log files " alt="" coords="149,80,253,107"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="openm::IPackedAdapter" name="openm::IPackedAdapter">
+<area shape="rect" id="node2" href="$structopenm_1_1_empty_packed_adapter.html" title="pack and unpack adapter for metadata table db rows (empty implementation). " alt="" coords="5,87,201,114"/>
+<area shape="rect" id="node3" href="$structopenm_1_1_meta_mpi_packed_adapter.html" title="MPI&#45;based adapter to pack and unpack vector of metadata db rows. " alt="" coords="226,80,434,121"/>
+</map>

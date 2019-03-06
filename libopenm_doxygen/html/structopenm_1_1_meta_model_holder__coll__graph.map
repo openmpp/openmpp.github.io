@@ -1,0 +1,6 @@
+<map id="openm::MetaModelHolder" name="openm::MetaModelHolder">
+<area shape="rect" id="node2" href="$structopenm_1_1_model_dic_lang_row.html" title="model_dic table row and default model language code. " alt="" coords="13,248,189,275"/>
+<area shape="rect" id="node3" href="$structopenm_1_1_model_dic_row.html" title="model_dic table row. " alt="" coords="27,172,175,199"/>
+<area shape="rect" id="node4" href="$structopenm_1_1_i_meta_row.html" title="openm::IMetaRow\&lt; ModelDic\lRow \&gt;" alt="" coords="5,81,197,123"/>
+<area shape="rect" id="node5" href="$structopenm_1_1_i_row_base.html" title="db&#45;row abstract base " alt="" coords="38,5,165,32"/>
+</map>

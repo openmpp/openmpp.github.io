@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Select parameter values from model run result</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for selectRunParameter {openMpp}"><tr><td>selectRunParameter {openMpp}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>
+Select parameter values from model run result
+</h2>
+
+<h3>Description</h3>
+
+<p>Select parameter values from model run result
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+selectRunParameter(dbCon, defRs, runId, paramName)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>dbCon</code></td>
+<td>
+
+<p>database connection
+</p>
+</td></tr>
+<tr valign="top"><td><code>defRs</code></td>
+<td>
+
+<p>model definition: database rows describing model input parameters and output tables
+</p>
+</td></tr>
+<tr valign="top"><td><code>runId</code></td>
+<td>
+
+<p>id of model run results, must be positive integer
+</p>
+</td></tr>
+<tr valign="top"><td><code>paramName</code></td>
+<td>
+
+<p>parameter name, i.e.: &quot;sexAge&quot;
+</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>That call return values of input parameter from model run results with id <code>runId</code>.
+</p>
+<p>You must use <code>getModel</code> function in order to find model definition <code>defRs</code>.
+</p>
+
+
+<h3>Value</h3>
+
+<p>Data frame of database rows with parameter dimensions and values:
+</p>
+<table summary="R valueblock">
+<tr valign="top"><td><code>sub_id</code></td>
+<td>
+<p> parameter sub-value index or zero if parameter has no sub-values </p>
+</td></tr>
+<tr valign="top"><td><code>dim0,...,dimN</code></td>
+<td>
+<p> dimension items enum ids (not returned if rank is zero) </p>
+</td></tr>
+<tr valign="top"><td><code>value</code></td>
+<td>
+<p> parameter value </p>
+</td></tr>
+</table>
+
+
+<h3>Note</h3>
+
+<p>To run examples you must have modelOne database modelOne.sqlite in current directory
+</p>
+
+
+<h3>Author(s)</h3>
+
+<p>amc1999
+</p>
+
+
+<h3>References</h3>
+
+<p>OpenM++ documentation: http://ompp.sourceforge.net/wiki/
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="getModel.html">getModel</a></code>
+<code><a href="getFistRunId.html">getFirstRunId</a></code>
+<code><a href="getLastRunId.html">getLastRunId</a></code>
+<code><a href="selectRunAccumulator.html">selectRunAccumulator</a></code>
+<code><a href="selectRunOutputValue.html">selectRunOutputValue</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+  #
+  # connect to database
+  #
+  theDb &lt;- dbConnect(RSQLite::SQLite(), "modelOne.sqlite", synchronous = "full")
+  invisible(dbGetQuery(theDb, "PRAGMA busy_timeout = 86400")) # recommended
+  
+  # get definition for "modelOne" model
+  #
+  # use model name only to identify the model
+  # if there are multiple versions of the model in database 
+  # then first one is selected: where model id = min(model_id) for "modelOne"
+  #
+  defRs &lt;- getModel(theDb, "modelOne")
+  
+  # get first run id of that model
+  runId &lt;- getFirstRunId(theDb, defRs)
+  if (runId &lt;= 0L) stop("model run results not found")
+  
+  # select parameter "ageSex" value from model run results
+  #  
+  paramValueRs &lt;- selectRunParameter(theDb, defRs, runId, "ageSex")
+  
+  dbDisconnect(theDb)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>openMpp</em> version 0.8.1 <a href="00Index.html">Index</a>]</div>
+</body></html>

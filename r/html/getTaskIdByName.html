@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Return modeling task id by name</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for getTaskIdByName {openMpp}"><tr><td>getTaskIdByName {openMpp}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>
+Return modeling task id by name
+</h2>
+
+<h3>Description</h3>
+
+<p>Return modeling task id by name
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+getTaskIdByName(dbCon, defRs = NA, taskName)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>dbCon</code></td>
+<td>
+
+<p>database connection
+</p>
+</td></tr>
+<tr valign="top"><td><code>defRs</code></td>
+<td>
+
+<p>(optional) model definition: database rows describing model input parameters and output tables
+</p>
+</td></tr>
+<tr valign="top"><td><code>taskName</code></td>
+<td>
+
+<p>name of modeling task
+</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>Return modeling task id by name. 
+If there is no task with that name then return is negative.
+If there are multiple tasks with that name then return min(task id) with such name.
+If model definition <code>defRs</code> argument supplied then search for within specific model.
+</p>
+<p>Modeling task is named set of model inputs and contains name and vector of model workset id's. 
+Please see <code><a href="createWorkset.html">createWorkset</a></code> for mode details about workset (workset: working set of model input parameters).
+</p>
+<p>Modeling task is a convinient way to bundle together multiple inputs of the model. 
+After task created you can run the model with specifing task name or task id 
+and model will iterate through task input worksets and produce output result for each of those inputs.
+</p>
+
+
+<h3>Value</h3>
+
+<p>modeling task id: positive integer on success or negative if not found.
+</p>
+
+
+<h3>Note</h3>
+
+<p>To run examples you must have modelOne database modelOne.sqlite in current directory
+</p>
+
+
+<h3>Author(s)</h3>
+
+<p>amc1999
+</p>
+
+
+<h3>References</h3>
+
+<p>OpenM++ documentation: http://ompp.sourceforge.net/wiki/
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="getModel.html">getModel</a></code>
+<code><a href="createTask.html">createTask</a></code>
+<code><a href="selectTask.html">selectTask</a></code>
+<code><a href="selectTaskRun.html">selectTaskRun</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+  theDb &lt;- dbConnect(RSQLite::SQLite(), "modelOne.sqlite", synchronous = "full")
+  invisible(dbGetQuery(theDb, "PRAGMA busy_timeout = 86400")) # recommended
+
+  # try to find "taskOne" task id for any model
+  taskId &lt;- getTaskIdByName(theDb, taskName = "taskOne")
+  if (taskId &lt;= 0L) warning("task not found: ", "taskOne")
+  
+  # get model by name: use such call if you have only one version of the model
+  defRs &lt;- getModel(theDb, "modelOne")
+
+  # try to find "taskOne" task id for "modelOne"
+  taskId &lt;- getTaskIdByName(theDb, defRs, "taskOne")
+  if (taskId &lt;= 0L) warning("task not found: ", "taskOne")
+
+  dbDisconnect(theDb)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>openMpp</em> version 0.8.1 <a href="00Index.html">Index</a>]</div>
+</body></html>

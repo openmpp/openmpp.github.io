@@ -1,0 +1,5 @@
+<map id="Constant" name="Constant">
+<area shape="rect" id="node2" href="$class_literal.html" title="Literal encapsulates a C++ literal or an openM++ literal. " alt="" coords="5,124,63,151"/>
+<area shape="rect" id="node3" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++. " alt="" coords="87,124,154,151"/>
+<area shape="rect" id="node4" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables. " alt="" coords="69,5,172,32"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="common/log.h" name="common/log.h">
+<area shape="rect" id="node2" href="$file_8cpp.html" title="OpenM++ common file utility functions. " alt="" coords="5,80,123,107"/>
+<area shape="rect" id="node3" href="$ini_reader_8cpp.html" title="OpenM++ ini&#45;file reader: load ini&#45;file and return values. " alt="" coords="147,80,301,107"/>
+<area shape="rect" id="node4" href="$log_8cpp.html" title="OpenM++: log to console and into log files. " alt="" coords="326,80,445,107"/>
+<area shape="rect" id="node5" href="$utf8_convert_8cpp.html" title="OpenM++ UTF&#45;8 converter: text bytes from source encoding (from Windows code page) to UTF&#45;8..." alt="" coords="469,80,635,107"/>
+</map>

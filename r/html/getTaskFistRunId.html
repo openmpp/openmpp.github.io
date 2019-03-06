@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Return first id of modeling task run</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for getTaskFirstRunId {openMpp}"><tr><td>getTaskFirstRunId {openMpp}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>
+Return first id of modeling task run
+</h2>
+
+<h3>Description</h3>
+
+<p>Return first id of modeling task run
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+getTaskFirstRunId(dbCon, taskId)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>dbCon</code></td>
+<td>
+
+<p>database connection
+</p>
+</td></tr>
+<tr valign="top"><td><code>taskId</code></td>
+<td>
+
+<p>modeling task id
+</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>Return id of the first run for modeling task, it is positive integer.
+If there is no run(s) for that modeling task then return negative value.
+</p>
+
+
+<h3>Value</h3>
+
+<p>Task run id: positive integer on success or negative on if not found.
+</p>
+
+
+<h3>Note</h3>
+
+<p>To run examples you must have modelOne database modelOne.sqlite in current directory
+</p>
+
+
+<h3>Author(s)</h3>
+
+<p>amc1999
+</p>
+
+
+<h3>References</h3>
+
+<p>OpenM++ documentation: http://ompp.sourceforge.net/wiki/
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="getTaskLastRunId.html">getTaskLastRunId</a></code>
+<code><a href="getModel.html">getModel</a></code>
+<code><a href="getWorksetRunIds.html">getWorksetRunIds</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+  theDb &lt;- dbConnect(RSQLite::SQLite(), "modelOne.sqlite", synchronous = "full")
+  invisible(dbGetQuery(theDb, "PRAGMA busy_timeout = 86400")) # recommended
+
+  # get model by name: use such call if you have only one version of the model
+  defRs &lt;- getModel(theDb, "modelOne")
+  
+  # get task id of "taskOne"
+  taskId &lt;- getTaskIdByName(theDb, defRs, "taskOne")
+  if (firstId &lt;= 0L) warning("task run(s) not found, task id: ", taskId)
+
+  # get first task run id
+  firstId &lt;- getTaskFirstRunId(theDb, taskId)
+  if (firstId &lt;= 0L) stop("task run(s) not found")
+
+  # get last (most recent) task run id
+  lastId &lt;- getTaskLastRunId(theDb, taskId)
+  if (lastId &lt;= 0L) warning("task run(s) not found")
+  
+  dbDisconnect(theDb)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>openMpp</em> version 0.8.1 <a href="00Index.html">Index</a>]</div>
+</body></html>

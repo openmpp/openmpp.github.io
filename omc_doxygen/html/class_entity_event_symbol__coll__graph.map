@@ -1,0 +1,13 @@
+<map id="EntityEventSymbol" name="EntityEventSymbol">
+<area shape="rect" id="node6" href="$class_entity_symbol.html" title="EntitySymbol. " alt="" coords="430,213,530,240"/>
+<area shape="rect" id="node2" href="$class_entity_data_member_symbol.html" title="EntityDataMemberSymbol" alt="" coords="175,659,350,685"/>
+<area shape="rect" id="node11" href="$class_attribute_symbol.html" title="AttributeSymbol" alt="" coords="373,855,488,881"/>
+<area shape="rect" id="node12" href="$class_entity_internal_symbol.html" title="Internal data symbol. " alt="" coords="300,749,443,776"/>
+<area shape="rect" id="node3" href="$class_entity_member_symbol.html" title="EntityMemberSymbol" alt="" coords="208,443,354,470"/>
+<area shape="rect" id="node7" href="$class_entity_func_symbol.html" title="Symbol for a function member of an agent. " alt="" coords="459,659,588,685"/>
+<area shape="rect" id="node4" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++. " alt="" coords="162,124,229,151"/>
+<area shape="rect" id="node13" href="$class_type_symbol.html" title="TypeSymbol. " alt="" coords="80,273,175,299"/>
+<area shape="rect" id="node5" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables. " alt="" coords="144,5,247,32"/>
+<area shape="rect" id="node8" href="$class_code_block.html" title="CodeBlock" alt="" coords="765,443,850,470"/>
+<area shape="rect" id="node10" href="$class_builtin_attribute_symbol.html" title="BuiltinAttributeSymbol. " alt="" coords="490,931,640,957"/>
+</map>

@@ -1,0 +1,281 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Create new working set of model parameters</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for createWorkset {openMpp}"><tr><td>createWorkset {openMpp}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>
+Create new working set of model parameters
+</h2>
+
+<h3>Description</h3>
+
+<p>Create new workset FULL set of model parameters, it must include ALL model parameters 
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+createWorkset(dbCon, defRs, setDef, ...)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>dbCon</code></td>
+<td>
+
+<p>database connection
+</p>
+</td></tr>
+<tr valign="top"><td><code>defRs</code></td>
+<td>
+
+<p>model definition: database rows describing model input parameters and output tables
+</p>
+</td></tr>
+<tr valign="top"><td><code>setDef</code></td>
+<td>
+
+<p>if not NA then workset description data frame:
+</p>
+
+<ul>
+<li> <p><code>$name</code> working set name, must be unique
+</p>
+</li>
+<li> <p><code>$lang</code> language code 
+</p>
+</li>
+<li> <p><code>$descr</code> working set description 
+</p>
+</li>
+<li> <p><code>$note</code> (optional) working set notes 
+</p>
+</li></ul>
+
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+
+<p>list of parameters value and (optional) value notes.
+</p>
+<p>Each element is also a list of $name, $subCount, $subId, $value, $txt:
+</p>
+
+<ul>
+<li> <p><code>$name</code> parameter name (character) 
+</p>
+</li>
+<li> <p><code>$subCount</code> (optional) number of parameter sub-values, default: 1
+</p>
+</li>
+<li><p>subId (optional) parameter sub-value index, default: 0
+</p>
+</li>
+<li> <p><code>$value</code> parameter value
+it can be scalar value, vector or data frame
+size of $value must be equal to production of dimension sizes
+if data frame then 
+it must have $dim0, $dim1,..., $value columns
+and each column length is equal to production of dimension sizes
+</p>
+</li>
+<li> <p><code>$txt</code> (optional) workset parameter text:
+data frame with $lang = language code and $note = value notes
+</p>
+</li></ul>
+
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>That call allow you to create new working set of input parameters which contains ALL model parameters.
+</p>
+<p>Workset is a working set of model parameters and can be a full set, 
+which include values of all model parameters or subset and include only some parameters.
+</p>
+<p>Each model must have &quot;default&quot; workset. 
+Default workset is a first workset of the model with set_id = min(set_id) for that model. 
+Default workset always include ALL model parameters (it is a full set).
+</p>
+<p>If you want to create new workset as a full set of model parameters
+then you must pass ALL model parameters into <code>createWorkset</code> through ... argument list. 
+</p>
+<p>If you already have result of model run in your database 
+and want to modify only some input parameters (subset) then call <code><a href="createWorksetBasedOnRun.html">createWorksetBasedOnRun</a></code> 
+in order to create workset using parameters from previous model run and supply some new values. 
+</p>
+<p>You can create subset of model parameters ONLY based on existing run results. 
+Otherwise you have to pass ALL (full set) of parameters in order to create workset.
+</p>
+<p>Each workset has unique set id (positive integer) and unique name. 
+To find set id by name use <code><a href="getWorksetIdByName.html">getWorksetIdByName</a></code> call.
+</p>
+<p>Working set must be read-only to run the model, so, typically you want to call <code><a href="setReadonlyWorkset.html">setReadonlyWorkset</a></code>
+after <code>createWorkset</code>.
+</p>
+<p>Parameter(s) can have can have multiple sub-values (by default only one value, no sub-values).
+If you want to have multiple sub-values then $subCount must be &gt;1 (default =1).
+If parameter have multiple sub-values then you can specify sub-value index as $subId (default =0).
+</p>
+<p>You must use <code>getModel</code> function in order to find model definition <code>defRs</code>.
+</p>
+
+
+<h3>Value</h3>
+
+<p>Return id of new working set or 0L on error
+</p>
+
+
+<h3>Note</h3>
+
+<p>To run examples you must have modelOne database modelOne.sqlite in current directory
+</p>
+
+
+<h3>Author(s)</h3>
+
+<p>amc1999
+</p>
+
+
+<h3>References</h3>
+
+<p>OpenM++ documentation: http://ompp.sourceforge.net/wiki/
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="getModel.html">getModel</a></code>
+<code><a href="getDefaultWorksetId.html">getDefaultWorksetId</a></code>
+<code><a href="getWorksetIdByName.html">getWorksetIdByName</a></code>
+<code><a href="createWorksetBasedOnRun.html">createWorksetBasedOnRun</a></code>
+<code><a href="copyWorksetParameterFromRun.html">copyWorksetParameterFromRun</a></code>
+<code><a href="setReadonlyWorkset.html">setReadonlyWorkset</a></code>
+<code><a href="setReadonlyDefaultWorkset.html">setReadonlyDefaultWorkset</a></code>
+<code><a href="updateWorksetParameter.html">updateWorksetParameter</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+  #
+  # model parameters:
+  #   age by sex:    double[4, 2] 
+  #   salary by age: int[3, 4]
+  #   salary level:  int enum[3]
+  #   base salary:   int enum scalar value
+  #   starting seed: int scalar value
+  #   file path:     string parameter
+  #
+  
+  # age by sex parameter value and notes
+  ageSex &lt;- list(
+    name = "ageSex",  # parameter name
+    subCount = 1L,    # no sub-values, only one parameter value
+    subId = 0L,       # no sub-values, only one parameter value
+    value = c(
+      10,
+      rep(c(1, 2, 3), times = 2),
+      20
+    ),
+    txt = data.frame(
+      lang = c("EN", "FR"),
+      note = c(
+        "age by sex value notes", # EN value notes
+        NA                        # NA == no FR value notes 
+      ),
+      stringsAsFactors = FALSE
+    )
+  )
+  
+  # salary by age parameter, one sub-value by default
+  salaryAge &lt;- list(
+    name = "salaryAge",
+    value = c(
+      100L,
+      rep(c(10L, 20L, 30L), times = 3),
+      200L,
+      300L
+    ),
+    txt = data.frame(
+      lang = c("EN", "FR"),
+      note = c("salary by age value notes", "FR salary by age value notes"),
+      stringsAsFactors = FALSE
+    )
+  )
+  
+  # salary level (low, medium, high) by full-or-part time job
+  salaryFull &lt;- list(
+    name = "salaryFull", value = c(33L, 33L, 22L),
+    txt = data.frame(
+      lang = c("EN"), note = c("salary level for full or part time job"), stringsAsFactors = FALSE
+    )
+  )
+  
+  # base salary parameter enum value
+  baseSalary &lt;- list(
+    name = "baseSalary", value = 22L,
+    txt = data.frame(
+      lang = c("EN"), note = c("base salary notes"), stringsAsFactors = FALSE
+    )
+  )
+  
+  # starting seed parameter value and notes
+  startingSeed &lt;- list(
+    name = "StartingSeed", value = 127L,
+    txt = data.frame(
+      lang = c("EN"), note = c("random generator starting seed"), stringsAsFactors = FALSE
+    )
+  )
+  
+  # file path parameter value and notes, "filePath" is string parameter
+  filePath &lt;- list(
+    name = "filePath", value = "file R path",
+    txt = data.frame(
+      lang = c("EN"), note = c("file path string parameter"), stringsAsFactors = FALSE
+    )
+  )
+  
+  #
+  # name, description and notes for this set of model parameters
+  # name MUST be unique
+  #
+  inputSet &lt;- data.frame(
+    name = "myData",
+    lang = c("EN", "FR"),
+    descr = c("full set of parameters", "description in French"),
+    note = c("full set of parameters notes", NA),
+    stringsAsFactors = FALSE
+  )
+  
+  theDb &lt;- dbConnect(RSQLite::SQLite(), "modelOne.sqlite", synchronous = "full")
+  invisible(dbGetQuery(theDb, "PRAGMA busy_timeout = 86400")) # recommended
+  
+  # get model by name: use such call if you have only one version of the model
+  defRs &lt;- getModel(theDb, "modelOne")
+  
+  # create new workset with ALL model parameters
+  setId &lt;- createWorkset(theDb, defRs, inputSet, ageSex, salaryAge, salaryFull, baseSalary, startingSeed, filePath)
+  if (setId &lt;= 0L) stop("workset creation failed: ", defRs$modelDic$model_name, " ", defRs$modelDic$model_digest)
+  
+  # make workset read-only in order to run the model
+  setReadonlyWorkset(theDb, defRs, TRUE, setId)
+  
+  dbDisconnect(theDb)
+  #
+  # you can run the model now with new parameters
+  #
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>openMpp</em> version 0.8.1 <a href="00Index.html">Index</a>]</div>
+</body></html>

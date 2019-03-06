@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Return ids of model run results for specified working set</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for getWorksetRunIds {openMpp}"><tr><td>getWorksetRunIds {openMpp}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>
+Return ids of model run results for specified working set
+</h2>
+
+<h3>Description</h3>
+
+<p>Return ids of model run results where input parameters are from specified working set.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+getWorksetRunIds(dbCon, worksetId)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>dbCon</code></td>
+<td>
+
+<p>database connection
+</p>
+</td></tr>
+<tr valign="top"><td><code>worksetId</code></td>
+<td>
+
+<p>id of parameters working set, must be positive integer
+</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>Return ids of model run results where input parameters are from specified working set.
+</p>
+<p>Please keep in mind: there is no established link in database between input data working set and model run results.
+Input data can be modified or even deleted after model run. 
+If you really want to find input parameters values for specific model run then <code>selectRunParameter</code> should be used.
+</p>
+<p>It is recommended to create modeling task by <code>createTask</code> 
+to include multiple working sets of input parameters and run the model using such input.
+</p>
+
+
+<h3>Value</h3>
+
+<p>Data frame with integer $run_id column
+</p>
+
+
+<h3>Note</h3>
+
+<p>To run examples you must have modelOne database modelOne.sqlite in current directory
+</p>
+
+
+<h3>Author(s)</h3>
+
+<p>amc1999
+</p>
+
+
+<h3>References</h3>
+
+<p>OpenM++ documentation: http://ompp.sourceforge.net/wiki/
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="createTask.html">createTask</a></code>
+<code><a href="getModel.html">getModel</a></code>
+<code><a href="getFistRunId.html">getFirstRunId</a></code>
+<code><a href="getLastRunId.html">getLastRunId</a></code>
+<code><a href="getDefaultWorksetId.html">getDefaultWorksetId</a></code>
+<code><a href="getWorksetIdByName.html">getWorksetIdByName</a></code>
+<code><a href="selectRunParameter.html">selectRunParameter</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+  theDb &lt;- dbConnect(RSQLite::SQLite(), "modelOne.sqlite", synchronous = "full")
+  invisible(dbGetQuery(theDb, "PRAGMA busy_timeout = 86400")) # recommended
+
+  runIdRs &lt;- getWorksetRunIds(theDb, 2L)
+
+  dbDisconnect(theDb)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>openMpp</em> version 0.8.1 <a href="00Index.html">Index</a>]</div>
+</body></html>

@@ -1,0 +1,4 @@
+<map id="openm::MpiRecvArray" name="openm::MpiRecvArray">
+<area shape="rect" id="node2" href="$classopenm_1_1_i_msg_recv_array.html" title="public interface to receive value array " alt="" coords="5,80,161,107"/>
+<area shape="rect" id="node3" href="$classopenm_1_1_i_msg_recv.html" title="public interface for message receiver " alt="" coords="21,5,146,32"/>
+</map>

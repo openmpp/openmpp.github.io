@@ -1,0 +1,13 @@
+<map id="msg/msgMpiSend.h" name="msg/msgMpiSend.h">
+<area shape="rect" id="node2" href="$msg_common_8h.html" title="OpenM++: message passing library common classes and interfaces. " alt="" coords="1409,155,1520,181"/>
+<area shape="rect" id="node35" href="$msg_mpi_packed_8h.html" title="OpenM++ message passing library: pack and unpack wrapper class for MPI&#45;based implementation. " alt="" coords="1453,80,1575,107"/>
+<area shape="rect" id="node9" href="$helper_8h.html" title="OpenM++ common helper utilities. " alt="" coords="1043,304,1111,331"/>
+<area shape="rect" id="node25" href="$msg_8h.html" title="OpenM++: message passing library public interface. " alt="" coords="1345,379,1403,405"/>
+<area shape="rect" id="node33" href="$msg_empty_8h.html" title="OpenM++: empty implementation of message passing library. " alt="" coords="1509,229,1605,256"/>
+<area shape="rect" id="node10" href="$om_helper_8h.html" title="OpenM++ common helper utilities. " alt="" coords="752,603,951,629"/>
+<area shape="rect" id="node26" href="$om_log_8h.html" title="OpenM++: public interface for log and trace support. " alt="" coords="1259,603,1387,629"/>
+<area shape="rect" id="node28" href="$om_model_run_state_8h.html" title="OpenM++ modeling library: model run state public interface. " alt="" coords="899,528,1095,555"/>
+<area shape="rect" id="node29" href="$db_common_8h.html" title="OpenM++ data library: public interface for db common structures. " alt="" coords="1163,453,1337,480"/>
+<area shape="rect" id="node31" href="$om_error_8h.html" title="OpenM++: public interface for errors and exceptions. " alt="" coords="1119,528,1253,555"/>
+<area shape="rect" id="node34" href="$msg_exec_base_8h.html" title="OpenM++: message passing library base class. " alt="" coords="1503,304,1621,331"/>
+</map>

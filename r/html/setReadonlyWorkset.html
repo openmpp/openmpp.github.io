@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Set or clear read-only status of model parameters working set</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for setReadonlyWorkset {openMpp}"><tr><td>setReadonlyWorkset {openMpp}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>
+Set or clear read-only status of model parameters working set
+</h2>
+
+<h3>Description</h3>
+
+<p>Set or clear read-only status of model parameters working set
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+setReadonlyWorkset(dbCon, defRs, isReadonly, worksetId)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>dbCon</code></td>
+<td>
+
+<p>database connection
+</p>
+</td></tr>
+<tr valign="top"><td><code>defRs</code></td>
+<td>
+
+<p>model definition: database rows describing model input parameters and output tables
+</p>
+</td></tr>
+<tr valign="top"><td><code>isReadonly</code></td>
+<td>
+
+<p>if TRUE then mark working set as read-only else clear read-only status
+</p>
+</td></tr>
+<tr valign="top"><td><code>worksetId</code></td>
+<td>
+
+<p>id of parameters working set, must be positive integer
+</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>Workset must be NOT read-only in order to update parameters by <code><a href="updateWorksetParameter.html">updateWorksetParameter</a></code>.
+And workset must be read-only to run the model, so, typically you want to wrap <code><a href="updateWorksetParameter.html">updateWorksetParameter</a></code>
+by <code>setReadonlyDefaultWorkset</code> or <code>setReadonlyWorkset</code> calls.
+</p>
+<p>Workset is a working set of model parameters and can be a full set, 
+which include values of all model parameters or subset and include only some parameters.
+</p>
+<p>Each model must have &quot;default&quot; workset. 
+Default workset is a first workset of the model with set_id = min(set_id) for that model. 
+Default workset always include ALL model parameters (it is a full set).
+</p>
+<p>You must use <code>getModel</code> function in order to find model definition <code>defRs</code>.
+</p>
+
+
+<h3>Value</h3>
+
+<p>Return working set id or 0L if not found
+</p>
+
+
+<h3>Note</h3>
+
+<p>To run examples you must have modelOne database modelOne.sqlite in current directory
+</p>
+
+
+<h3>Author(s)</h3>
+
+<p>amc1999
+</p>
+
+
+<h3>References</h3>
+
+<p>OpenM++ documentation: http://ompp.sourceforge.net/wiki/
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="getModel.html">getModel</a></code>
+<code><a href="getDefaultWorksetId.html">getDefaultWorksetId</a></code>
+<code><a href="getWorksetIdByName.html">getWorksetIdByName</a></code>
+<code><a href="copyWorksetParameterFromRun.html">copyWorksetParameterFromRun</a></code>
+<code><a href="setReadonlyDefaultWorkset.html">setReadonlyDefaultWorkset</a></code>
+<code><a href="updateWorksetParameter.html">updateWorksetParameter</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+  theDb &lt;- dbConnect(RSQLite::SQLite(), "modelOne.sqlite", synchronous = "full")
+  invisible(dbGetQuery(theDb, "PRAGMA busy_timeout = 86400")) # recommended
+
+  # get model by name: use such call if you have only one version of the model
+  defRs &lt;- getModel(theDb, "modelOne")
+  
+  # reset read-only status of workset  
+  setId &lt;- 3L
+  if (setReadonlyWorkset(theDb, defRs, FALSE, setId) &lt;= 0L) {
+    stop("workset not found: ", setId, " for model: ", defRs$modelDic$model_name, " ", defRs$modelDic$model_digest)
+  }
+  
+  # you can update model parameters now:
+  #
+  # updateWorksetParameter(theDb, defRs, setId, ageSex)
+  
+  # make workset read-only in order to run the model
+  setReadonlyWorkset(theDb, defRs, TRUE, setId)
+  
+  dbDisconnect(theDb)
+  #
+  # you can run the model now with new parameter values in workset id = 3
+  #
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>openMpp</em> version 0.8.1 <a href="00Index.html">Index</a>]</div>
+</body></html>

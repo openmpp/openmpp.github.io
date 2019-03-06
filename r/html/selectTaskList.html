@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Select list of modeling tasks</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for selectTaskList {openMpp}"><tr><td>selectTaskList {openMpp}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>
+Select list of modeling tasks
+</h2>
+
+<h3>Description</h3>
+
+<p>Select list of modeling tasks for the model
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+selectTaskList(dbCon, defRs)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>dbCon</code></td>
+<td>
+
+<p>database connection
+</p>
+</td></tr>
+<tr valign="top"><td><code>defRs</code></td>
+<td>
+
+<p>model definition: database rows describing model input parameters and output tables
+</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>This call return list of tasks for specified model.
+</p>
+
+
+<h3>Value</h3>
+
+<p>List of database rows:
+</p>
+<table summary="R valueblock">
+<tr valign="top"><td><code>taskLst</code></td>
+<td>
+<p> task_lst rows: task id and name </p>
+</td></tr>
+<tr valign="top"><td><code>taskTxt</code></td>
+<td>
+<p> task_txt rows: language, description, notes </p>
+</td></tr>
+</table>
+
+
+<h3>Note</h3>
+
+<p>To run examples you must have modelOne database modelOne.sqlite in current directory
+</p>
+
+
+<h3>Author(s)</h3>
+
+<p>amc1999
+</p>
+
+
+<h3>References</h3>
+
+<p>OpenM++ documentation: http://ompp.sourceforge.net/wiki/
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="getModel.html">getModel</a></code>
+<code><a href="getTaskIdByName.html">getTaskIdByName</a></code>
+<code><a href="getTaskFistRunId.html">getTaskFirstRunId</a></code>
+<code><a href="getTaskLastRunId.html">getTaskLastRunId</a></code>
+<code><a href="selectTask.html">selectTask</a></code>
+<code><a href="selectTaskRun.html">selectTaskRun</a></code>
+<code><a href="selectTaskRunList.html">selectTaskRunList</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+  #
+  # connect to database
+  #
+  theDb &lt;- dbConnect(RSQLite::SQLite(), "modelOne.sqlite", synchronous = "full")
+  invisible(dbGetQuery(theDb, "PRAGMA busy_timeout = 86400")) # recommended
+  
+  # get definition for "modelOne" model
+  #
+  # use model name only to identify the model
+  # if there are multiple versions of the model in database 
+  # then first one is selected: where model id = min(model_id) for "modelOne"
+  #
+  defRs &lt;- getModel(theDb, "modelOne")
+  
+  taskId &lt;- getTaskIdByName(theDb, defRs, "taskOne")
+  if (taskId &lt;= 0L) stop("task: ", "taskOne", " not found for model: ", defRs$modelDic$model_name, " ", defRs$modelDic$model_digest)
+  
+  # select task name, description and input list
+  taskRs &lt;- selectTaskList(theDb, taskId)
+  
+  # select list of all tasks for the model
+  taskLstRs &lt;- selectTaskList(theDb, defRs)
+  
+  dbDisconnect(theDb)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>openMpp</em> version 0.8.1 <a href="00Index.html">Index</a>]</div>
+</body></html>

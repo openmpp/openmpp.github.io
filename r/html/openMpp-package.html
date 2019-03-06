@@ -1,0 +1,210 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Read and write OpenM++ database from R</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for openMpp-package {openMpp}"><tr><td>openMpp-package {openMpp}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>
+Read and write OpenM++ database from R
+</h2>
+
+<h3>Description</h3>
+
+ 
+<p>Set input parameters and get output results of OpenM++ models using R.
+</p>
+
+
+<h3>Details</h3>
+
+
+<table summary="Rd table">
+<tr>
+ <td style="text-align: left;">
+Package: </td><td style="text-align: left;"> openMpp</td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+Type: </td><td style="text-align: left;"> Package</td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+Version: </td><td style="text-align: left;"> 0.8</td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+Date: </td><td style="text-align: left;"> 2016-12-27</td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+License: </td><td style="text-align: left;"> MIT license</td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+</td>
+</tr>
+
+</table>
+
+
+<dl>
+<dt>createTask</dt><dd>
+<p>Create new modeling task
+</p>
+</dd>
+<dt>createWorkset</dt><dd>
+<p>Create new working set of model parameters
+</p>
+</dd>
+<dt>createWorksetBasedOnRun</dt><dd>
+<p>Create new working set of model parameters based on parameters from existing model run 
+</p>
+</dd>
+<dt>copyWorksetParameterFromRun</dt><dd>
+<p>Copy parameters to working set from existing model run
+</p>
+</dd>
+<dt>getDefaultWorksetId</dt><dd>
+<p>Return default working set id
+</p>
+</dd>
+<dt>getFirstRunId</dt><dd>
+<p>Return id of first model run results
+</p>
+</dd>
+<dt>getLastRunId</dt><dd>
+<p>Return id of last model run results
+</p>
+</dd>
+<dt>getTaskFirstRunId</dt><dd>
+<p>Return first id of modeling task run
+</p>
+</dd>
+<dt>getTaskLastRunId</dt><dd>
+<p>Return last id of modeling task run
+</p>
+</dd>
+<dt>getLanguages</dt><dd>
+<p>Return language rows from lang_lst table
+</p>
+</dd>
+<dt>getModel</dt><dd>
+<p>Find OpenM++ model definition in database
+</p>
+</dd>
+<dt>getTaskIdByName</dt><dd>
+<p>Return modeling task id by name
+</p>
+</dd>
+<dt>getWorksetIdByName</dt><dd>
+<p>Return working set id by name
+</p>
+</dd>
+<dt>getWorksetRunIds</dt><dd>
+<p>Return ids of model run results for specified working set
+</p>
+</dd>
+<dt>selectRunAccumulator</dt><dd>
+<p>Select output table accumulator values from model run result
+</p>
+</dd>
+<dt>selectRunOutputValue</dt><dd>
+<p>Select output table expression values from model run result
+</p>
+</dd>
+<dt>selectRunParameter</dt><dd>
+<p>Select parameter values from model run result
+</p>
+</dd>
+<dt>selectTask</dt><dd>
+<p>Select modeling task text (name, description, notes) and input workset id's
+</p>
+</dd>
+<dt>selectTaskList</dt><dd>
+<p>Select list of modeling tasks for the model
+</p>
+</dd>
+<dt>selectTaskRun</dt><dd>
+<p>Select modeling task run: status and results
+</p>
+</dd>
+<dt>selectTaskRunList</dt><dd>
+<p>Select list of modeling task runs
+</p>
+</dd>
+<dt>setReadonlyDefaultWorkset</dt><dd>
+<p>Set or clear read-only status of default working set
+</p>
+</dd>
+<dt>setReadonlyWorkset</dt><dd>
+<p>Set or clear read-only status for default working set of model parameters
+</p>
+</dd>
+<dt>setTaskWaitCompleted</dt><dd>
+<p>Set modeling task &quot;wait completed&quot; status
+</p>
+</dd>
+<dt>updateTask</dt><dd>
+<p>Update modeling task with new text (name, description, notes) or additional input working sets
+</p>
+</dd>
+<dt>updateWorksetParameter</dt><dd>
+<p>Update parameters working set with new values and value notes
+</p>
+</dd>
+<dt>toQuoted</dt><dd>
+<p>Return SQL-quoted string: O'Connor -&gt; 'O&rdquo;Connor'
+</p>
+</dd>
+</dl>
+
+
+
+<h3>Author(s)</h3>
+
+<p>amc1999
+</p>
+<p>Maintainer: amc1999 &lt;openmpp99@gmail.com&gt;
+</p>
+
+
+<h3>References</h3>
+
+<p>OpenM++ documentation: http://ompp.sourceforge.net/wiki/
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="createTask.html">createTask</a></code>
+<code><a href="createWorkset.html">createWorkset</a></code>
+<code><a href="createWorksetBasedOnRun.html">createWorksetBasedOnRun</a></code>
+<code><a href="copyWorksetParameterFromRun.html">copyWorksetParameterFromRun</a></code>
+<code><a href="getDefaultWorksetId.html">getDefaultWorksetId</a></code>
+<code><a href="getFistRunId.html">getFirstRunId</a></code>
+<code><a href="getLastRunId.html">getLastRunId</a></code>
+<code><a href="getLanguages.html">getLanguages</a></code>
+<code><a href="getModel.html">getModel</a></code>
+<code><a href="getTaskIdByName.html">getTaskIdByName</a></code>
+<code><a href="getTaskFistRunId.html">getTaskFirstRunId</a></code>
+<code><a href="getTaskLastRunId.html">getTaskLastRunId</a></code>
+<code><a href="getWorksetIdByName.html">getWorksetIdByName</a></code>
+<code><a href="getWorksetRunIds.html">getWorksetRunIds</a></code>
+<code><a href="selectRunAccumulator.html">selectRunAccumulator</a></code>
+<code><a href="selectRunOutputValue.html">selectRunOutputValue</a></code>
+<code><a href="selectRunParameter.html">selectRunParameter</a></code>
+<code><a href="selectTask.html">selectTask</a></code>
+<code><a href="selectTaskList.html">selectTaskList</a></code>
+<code><a href="selectTaskRun.html">selectTaskRun</a></code>
+<code><a href="selectTaskRunList.html">selectTaskRunList</a></code>
+<code><a href="setReadonlyDefaultWorkset.html">setReadonlyDefaultWorkset</a></code>
+<code><a href="setReadonlyWorkset.html">setReadonlyWorkset</a></code>
+<code><a href="setTaskWaitCompleted.html">setTaskWaitCompleted</a></code>
+<code><a href="updateTask.html">updateTask</a></code>
+<code><a href="updateWorksetParameter.html">updateWorksetParameter</a></code>
+<code><a href="toQuoted.html">toQuoted</a></code>
+</p>
+
+<hr /><div style="text-align: center;">[Package <em>openMpp</em> version 0.8.1 <a href="00Index.html">Index</a>]</div>
+</body></html>

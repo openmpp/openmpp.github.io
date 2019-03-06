@@ -1,0 +1,20 @@
+<map id="db/omc/modelSqlBuilder.h" name="db/omc/modelSqlBuilder.h">
+<area shape="rect" id="node4" href="$helper_8h.html" title="OpenM++ common helper utilities. " alt="" coords="763,155,831,181"/>
+<area shape="rect" id="node24" href="$crc32_8h.html" title="OpenM++ CRC&#45;32 impelementation, it is same CRC&#45;32 as V.42, gzip, PNG. " alt="" coords="232,528,297,555"/>
+<area shape="rect" id="node25" href="$md5_8h_source.html" title="md5.h" alt="" coords="79,80,138,107"/>
+<area shape="rect" id="node27" href="$db_exec_8h.html" title="OpenM++ data library: public interface. " alt="" coords="1009,304,1086,331"/>
+<area shape="rect" id="node35" href="$om_file_8h.html" title="OpenM++ common file utilities. " alt="" coords="357,155,540,181"/>
+<area shape="rect" id="node36" href="$ini_reader_8h.html" title="OpenM++ common file utilities. " alt="" coords="439,80,637,107"/>
+<area shape="rect" id="node37" href="$model_builder_8h.html" title="OpenM++ data library: public interface to produce model creation script. " alt="" coords="1209,155,1392,181"/>
+<area shape="rect" id="node41" href="$db_meta_table_8h.html" title="OpenM++ data library: db tables for model metadata. " alt="" coords="817,229,923,256"/>
+<area shape="rect" id="node42" href="$model_sql_writer_8h.html" title="OpenM++ data library: wrapper around file stream to write into sql script file. " alt="" coords="565,155,687,181"/>
+<area shape="rect" id="node43" href="$model_insert_sql_8h.html" title="OpenM++ data library: class to produce insert sql statements for new model. " alt="" coords="957,80,1076,107"/>
+<area shape="rect" id="node45" href="$model_expression_sql_8h.html" title="OpenM++ data library: classes to translate output table accumulators and expressions into sql..." alt="" coords="1101,80,1253,107"/>
+<area shape="rect" id="node5" href="$om_helper_8h.html" title="OpenM++ common helper utilities. " alt="" coords="633,528,832,555"/>
+<area shape="rect" id="node29" href="$om_log_8h.html" title="OpenM++: public interface for log and trace support. " alt="" coords="1041,379,1169,405"/>
+<area shape="rect" id="node31" href="$db_common_8h.html" title="OpenM++ data library: public interface for db common structures. " alt="" coords="1193,379,1366,405"/>
+<area shape="rect" id="node33" href="$om_error_8h.html" title="OpenM++: public interface for errors and exceptions. " alt="" coords="1121,453,1256,480"/>
+<area shape="rect" id="node38" href="$db_meta_row_8h.html" title="OpenM++ data library: db rows of model metadata tables. " alt="" coords="1149,304,1250,331"/>
+<area shape="rect" id="node39" href="$meta_model_holder_8h.html" title="OpenM++ modeling library: holder struct for model metadata. " alt="" coords="1237,229,1372,256"/>
+<area shape="rect" id="node40" href="$meta_set_holder_8h.html" title="OpenM++ modeling library: holder struct for working sets metadata. " alt="" coords="1396,229,1515,256"/>
+</map>

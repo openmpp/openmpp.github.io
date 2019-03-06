@@ -1,0 +1,59 @@
+html, body {
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 100%;
+}
+
+#pagebody {
+  min-height: 100%;
+  position: relative;
+  font-family: sans-serif; 
+}
+#pagebody a {
+  color: blue;
+  text-decoration: none;
+  outline-style: none;
+}
+#pagebody a:hover {
+  color: red;
+}
+
+#pagemain {
+  padding-bottom: 1rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2rem;
+  color: black;
+  background-color: #cccccc;
+  font-size: small;
+  text-align: center;
+}
+footer img {
+  text-decoration: none;
+  border-style: none;
+}
+
+.topmenu {
+  background-color: #cccccc;
+}
+nav.topmenu {
+  height: 2rem;
+}
+a.topmenu {
+  padding-right: 1em;
+}
+a.topmenu:hover {
+  color: red;
+}
+
+.dmain {
+}
+.dmain dd {
+  line-height: 1.4;
+  padding-bottom: 0.5em;
+  line-height: 1.4;
+}

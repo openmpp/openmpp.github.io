@@ -1,0 +1,16 @@
+<map id="IdentityAttributeSymbol" name="IdentityAttributeSymbol">
+<area shape="rect" id="node2" href="$class_maintained_attribute_symbol.html" title="MaintainedAttributeSymbol. " alt="" coords="999,175,1178,201"/>
+<area shape="rect" id="node3" href="$class_attribute_symbol.html" title="AttributeSymbol" alt="" coords="574,5,689,32"/>
+<area shape="rect" id="node13" href="$class_builtin_attribute_symbol.html" title="BuiltinAttributeSymbol. " alt="" coords="556,124,707,151"/>
+<area shape="rect" id="node4" href="$class_entity_data_member_symbol.html" title="EntityDataMemberSymbol" alt="" coords="189,659,364,685"/>
+<area shape="rect" id="node12" href="$class_entity_event_symbol.html" title="Event time member symbol for an event. " alt="" coords="553,777,685,804"/>
+<area shape="rect" id="node15" href="$class_entity_internal_symbol.html" title="Internal data symbol. " alt="" coords="337,777,480,804"/>
+<area shape="rect" id="node5" href="$class_entity_member_symbol.html" title="EntityMemberSymbol" alt="" coords="189,443,335,470"/>
+<area shape="rect" id="node9" href="$class_entity_func_symbol.html" title="Symbol for a function member of an agent. " alt="" coords="717,659,847,685"/>
+<area shape="rect" id="node6" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++. " alt="" coords="195,124,262,151"/>
+<area shape="rect" id="node8" href="$class_entity_symbol.html" title="EntitySymbol. " alt="" coords="581,227,681,253"/>
+<area shape="rect" id="node14" href="$class_type_symbol.html" title="TypeSymbol. " alt="" coords="5,280,100,307"/>
+<area shape="rect" id="node7" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables. " alt="" coords="177,5,280,32"/>
+<area shape="rect" id="node10" href="$class_code_block.html" title="CodeBlock" alt="" coords="850,443,935,470"/>
+<area shape="rect" id="node16" href="$class_expr_for_attribute.html" title="Expression tree element in an identity attribute. " alt="" coords="931,659,1049,685"/>
+</map>

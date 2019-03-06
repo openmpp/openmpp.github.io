@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classopenm_1_1_db_exec_base.html" title="base class for database connection wrapper " alt="" coords="5,5,151,32"/>
+<area shape="rect" id="node2" href="$classopenm_1_1_db_exec_sqlite.html" title="db connection wrapper for SQLite. " alt="" coords="199,31,347,57"/>
+<area shape="rect" id="node3" href="$classopenm_1_1_i_db_exec.html" title="database connection wrapper to execute sql commands. " alt="" coords="19,56,137,83"/>
+</map>

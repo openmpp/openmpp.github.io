@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Set modeling task &quot;wait completed&quot; status</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for setTaskWaitCompleted {openMpp}"><tr><td>setTaskWaitCompleted {openMpp}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>
+Set modeling task &quot;wait completed&quot; status
+</h2>
+
+<h3>Description</h3>
+
+<p>Set modeling task &quot;wait completed&quot; status
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+setTaskWaitCompleted(dbCon, taskRunId, isWaitCompleted = FALSE)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>dbCon</code></td>
+<td>
+
+<p>database connection
+</p>
+</td></tr>
+<tr valign="top"><td><code>taskRunId</code></td>
+<td>
+
+<p>id of modeling task run
+</p>
+</td></tr>
+<tr valign="top"><td><code>isWaitCompleted</code></td>
+<td>
+
+<p>if true then signal to running model &quot;task is ready to be completed&quot;
+</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>Using this <code>setTaskWaitCompleted</code> call to signal currently running model &quot;task is ready to be completed&quot;.
+</p>
+<p>Task run status can be one of:
+</p>
+
+<ul>
+<li> <p><code>i</code> = not yet started
+</p>
+</li>
+<li> <p><code>p</code> = run in progress
+</p>
+</li>
+<li> <p><code>w</code> = run in progress, wait for additional input
+</p>
+</li>
+<li> <p><code>s</code> = completed successfully
+</p>
+</li>
+<li> <p><code>e</code> = failed (error)
+</p>
+</li>
+<li> <p><code>x</code> = reserved
+</p>
+</li></ul>
+
+<p>Status <code>w</code> means task can be dynamically updated by external script.
+Model executable is waiting for additional input into or for &quot;ready to be completed&quot; signal.
+Use <code>setTaskWaitCompleted</code> function to mark task as &quot;ready to be completed&quot;.
+Use <code>updateTask</code> function to insert additional task input.
+</p>
+<p>Model executable must be running with <code>-OpenM.TaskWait true</code> argument in order to handle dynamical task input.
+For example:
+</p>
+<p><code>modelOne -OpenM.TaskName taskOne -OpenM.TaskWait true</code>
+</p>
+
+
+<h3>Value</h3>
+
+<p>Return task id or 0L on error
+</p>
+
+
+<h3>Note</h3>
+
+<p>To run examples you must have modelOne database modelOne.sqlite in current directory
+</p>
+
+
+<h3>Author(s)</h3>
+
+<p>amc1999
+</p>
+
+
+<h3>References</h3>
+
+<p>OpenM++ documentation: http://ompp.sourceforge.net/wiki/
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="getModel.html">getModel</a></code>
+<code><a href="getTaskIdByName.html">getTaskIdByName</a></code>
+<code><a href="createTask.html">createTask</a></code>
+</p>
+
+<hr /><div style="text-align: center;">[Package <em>openMpp</em> version 0.8.1 <a href="00Index.html">Index</a>]</div>
+</body></html>

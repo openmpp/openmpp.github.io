@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Find OpenM++ model definition in database</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for getModel {openMpp}"><tr><td>getModel {openMpp}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>
+Find OpenM++ model definition in database
+</h2>
+
+<h3>Description</h3>
+
+<p>Find model in database and return OpenM++ model definition (input parameters and output tables)
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+getModel(dbCon, modelName, modelDigest = NA)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>dbCon</code></td>
+<td>
+
+<p>database connection
+</p>
+</td></tr>
+<tr valign="top"><td><code>modelName</code></td>
+<td>
+
+<p>model name, ie: &quot;modelOne&quot;
+</p>
+</td></tr>
+<tr valign="top"><td><code>modelDigest</code></td>
+<td>
+
+<p>(optional) model digest, ie: &quot;20120817_1604590148&quot;
+if digest is NA or NULL then first model with min(model_id) is used
+</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>Find model in database and return OpenM++ model definition (input parameters and output tables).
+</p>
+<p>Model can be identified by by name and model digest string, which serves as model version. 
+If you have only one version of the model in database then you can omit digest argument. 
+If there are multiple models with same name in database and digest is NA or NULL then first model with min(model_id) is used.
+</p>
+
+
+<h3>Value</h3>
+
+<p>List of database rows describing model parameters:
+</p>
+<table summary="R valueblock">
+<tr valign="top"><td><code>modelDic</code></td>
+<td>
+<p> model_dic row </p>
+</td></tr>
+<tr valign="top"><td><code>langLst</code></td>
+<td>
+<p> list of languages (lang_lst table rows) </p>
+</td></tr>
+<tr valign="top"><td><code>typeDic</code></td>
+<td>
+<p> type_dic rows of the model </p>
+</td></tr>
+<tr valign="top"><td><code>typeEnum</code></td>
+<td>
+<p> type_enum_lst rows of the model, optional, can be empty </p>
+</td></tr>
+<tr valign="top"><td><code>paramDic</code></td>
+<td>
+<p> parameter_dic rows of the model </p>
+</td></tr>
+<tr valign="top"><td><code>paramDims</code></td>
+<td>
+<p> parameter_dims rows of the model, optional, can be empty </p>
+</td></tr>
+<tr valign="top"><td><code>tableDic</code></td>
+<td>
+<p> table_dic rows of the model </p>
+</td></tr>
+<tr valign="top"><td><code>tableDims</code></td>
+<td>
+<p> table_dims rows of the model, optional, can be empty </p>
+</td></tr>
+<tr valign="top"><td><code>tableAcc</code></td>
+<td>
+<p> table_acc rows of the model </p>
+</td></tr>
+<tr valign="top"><td><code>tableExpr</code></td>
+<td>
+<p> table_expr rows of the model </p>
+</td></tr>
+</table>
+
+
+<h3>Note</h3>
+
+<p>To run examples you must have modelOne database modelOne.sqlite in current directory
+</p>
+
+
+<h3>Author(s)</h3>
+
+<p>amc1999
+</p>
+
+
+<h3>References</h3>
+
+<p>OpenM++ documentation: http://ompp.sourceforge.net/wiki/
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="getLanguages.html">getLanguages</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+  theDb &lt;- dbConnect(RSQLite::SQLite(), "modelOne.sqlite", synchronous = "full")
+  invisible(dbGetQuery(theDb, "PRAGMA busy_timeout = 86400")) # recommended
+  
+  # find the model: get model definition from database
+  #
+  # model can be found by name and (optional) digest
+  # digest is used to identify exact version of the model 
+  # if digest is missing or NA or NULL 
+  # and there are multiple versions of the model with the same name
+  # then first model with min(model_id) is used
+  #
+  
+  # get model by name: use such call if you have only one version of the model
+  defRs &lt;- getModel(theDb, "modelOne")
+  
+  # use model digest to identify exact version of the model
+  def2012August17 &lt;- getModel(theDb, "modelOne", "20120817_1604590148")
+  
+  dbDisconnect(theDb)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>openMpp</em> version 0.8.1 <a href="00Index.html">Index</a>]</div>
+</body></html>

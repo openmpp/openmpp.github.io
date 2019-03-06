@@ -1,0 +1,4 @@
+<map id="openm::MsgEmptySendBase" name="openm::MsgEmptySendBase">
+<area shape="rect" id="node2" href="$classopenm_1_1_msg_empty_send_array.html" title="non&#45;blocking send of value array (empty implementation) " alt="" coords="5,80,199,107"/>
+<area shape="rect" id="node3" href="$classopenm_1_1_msg_empty_send_packed.html" title="non&#45;blocking send of packed data (empty implementation) " alt="" coords="223,80,429,107"/>
+</map>

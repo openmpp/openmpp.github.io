@@ -1,0 +1,12 @@
+<map id="msg/msgCommon.h" name="msg/msgCommon.h">
+<area shape="rect" id="node2" href="$msg_exec_base_8cpp.html" title="OpenM++: message passing library base class. " alt="" coords="5,80,167,107"/>
+<area shape="rect" id="node3" href="$msg_mpi_packed_8h.html" title="OpenM++ message passing library: pack and unpack wrapper class for MPI&#45;based implementation. " alt="" coords="242,80,394,107"/>
+<area shape="rect" id="node5" href="$msg_mpi_exec_8h.html" title="OpenM++: message passing library main class for MPI&#45;based implementation. " alt="" coords="311,229,450,256"/>
+<area shape="rect" id="node6" href="$msg_mpi_send_8h.html" title="OpenM++ message passing library: sender class for MPI&#45;based implementation. " alt="" coords="205,155,343,181"/>
+<area shape="rect" id="node7" href="$msg_mpi_recv_8h.html" title="OpenM++ message passing library: receiver class for MPI&#45;based implementation. " alt="" coords="469,155,605,181"/>
+<area shape="rect" id="node8" href="$msg_mpi_exec_8cpp.html" title="OpenM++: message passing library main class for MPI&#45;based implementation. " alt="" coords="519,80,671,107"/>
+<area shape="rect" id="node9" href="$msg_mpi_packed_8cpp.html" title="OpenM++ message passing library: pack and unpack wrapper class for MPI&#45;based implementation. " alt="" coords="696,80,863,107"/>
+<area shape="rect" id="node10" href="$msg_mpi_recv_8cpp.html" title="OpenM++ message passing library: receiver classes for MPI&#45;based implementation. " alt="" coords="887,80,1037,107"/>
+<area shape="rect" id="node11" href="$msg_mpi_send_8cpp.html" title="OpenM++ message passing library: sender classes for MPI&#45;based implementation. " alt="" coords="1062,80,1214,107"/>
+<area shape="rect" id="node4" href="$msg_mpi_8h.html" title="OpenM++: message passing library common classes and interfaces. " alt="" coords="273,304,381,331"/>
+</map>
