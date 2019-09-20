@@ -82,6 +82,7 @@ $(document).ready(function(){initNavTree('classopenm_1_1_i_db_exec.html','');});
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="classopenm_1_1_i_db_exec-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">openm::IDbExec Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
@@ -176,9 +177,6 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a4603a8c52130fd2576d619b22782184a"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_i_db_exec.html#a4603a8c52130fd2576d619b22782184a">isValidProviderName</a> (const char *i_sqlProvider)</td></tr>
 <tr class="memdesc:a4603a8c52130fd2576d619b22782184a"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if provider name is valid.  <a href="#a4603a8c52130fd2576d619b22782184a">More...</a><br /></td></tr>
 <tr class="separator:a4603a8c52130fd2576d619b22782184a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae9d6c60fb5a6bd193900a417b7da8285"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_i_db_exec.html#ae9d6c60fb5a6bd193900a417b7da8285">maxDbTableNameSize</a> (const string &amp;i_sqlProvider)</td></tr>
-<tr class="memdesc:ae9d6c60fb5a6bd193900a417b7da8285"><td class="mdescLeft">&#160;</td><td class="mdescRight">return max length of db table or view name.  <a href="#ae9d6c60fb5a6bd193900a417b7da8285">More...</a><br /></td></tr>
-<tr class="separator:ae9d6c60fb5a6bd193900a417b7da8285"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac83ce7689f5e7dd66fc821c9d16cad59"><td class="memItemLeft" align="right" valign="top"><a id="ac83ce7689f5e7dd66fc821c9d16cad59"></a>
 static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_i_db_exec.html#ac83ce7689f5e7dd66fc821c9d16cad59">bigIntTypeName</a> (const string &amp;i_sqlProvider)</td></tr>
 <tr class="memdesc:ac83ce7689f5e7dd66fc821c9d16cad59"><td class="mdescLeft">&#160;</td><td class="mdescRight">return type name for BIGINT sql type <br /></td></tr>
@@ -202,6 +200,12 @@ static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
 <tr class="memitem:a1af7a6c0560f01e84b8a7c64254356b6"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_i_db_exec.html#a1af7a6c0560f01e84b8a7c64254356b6">makeSqlCreateViewReplace</a> (const string &amp;i_sqlProvider, const string &amp;i_viewName, const string &amp;i_viewBodySql)</td></tr>
 <tr class="memdesc:a1af7a6c0560f01e84b8a7c64254356b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">make sql statement to create or replace view.  <a href="#a1af7a6c0560f01e84b8a7c64254356b6">More...</a><br /></td></tr>
 <tr class="separator:a1af7a6c0560f01e84b8a7c64254356b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:aac9bfa83cbc8f010338eb3f4bc2386eb"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_i_db_exec.html#aac9bfa83cbc8f010338eb3f4bc2386eb">maxDbTableNameSize</a> = 63</td></tr>
+<tr class="memdesc:aac9bfa83cbc8f010338eb3f4bc2386eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">return max length of db table or view name.  <a href="#aac9bfa83cbc8f010338eb3f4bc2386eb">More...</a><br /></td></tr>
+<tr class="separator:aac9bfa83cbc8f010338eb3f4bc2386eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>database connection wrapper to execute sql commands. </p>
@@ -695,34 +699,6 @@ usage example: <br />
 <dl class="section return"><dt>Returns</dt><dd>string with create view statment (db-provider specific)</dd></dl>
 <p>it does return db-provider specific sql to create view if not already exists, for example: <br />
 </p><div class="fragment"><div class="line">     CREATE VIEW IF NOT EXISTS viewName AS ...select or other view body deifinition sql...</div><div class="line">or:</div><div class="line">     CREATE OR REPLACE VIEW viewName AS ...select or other view body deifinition sql...</div></div><!-- fragment -->
-</div>
-</div>
-<a id="ae9d6c60fb5a6bd193900a417b7da8285"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae9d6c60fb5a6bd193900a417b7da8285">&#9670;&nbsp;</a></span>maxDbTableNameSize()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int IDbExec::maxDbTableNameSize </td>
-          <td>(</td>
-          <td class="paramtype">const string &amp;&#160;</td>
-          <td class="paramname"><em>i_sqlProvider</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>return max length of db table or view name. </p>
-
 </div>
 </div>
 <a id="a3961312d5f091ac484ab1ca523f4dfd0"></a>
@@ -1407,6 +1383,33 @@ it may throw exception if selected row count not equal i_size </p>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="aac9bfa83cbc8f010338eb3f4bc2386eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac9bfa83cbc8f010338eb3f4bc2386eb">&#9670;&nbsp;</a></span>maxDbTableNameSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int IDbExec::maxDbTableNameSize = 63</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>return max length of db table or view name. </p>
+<p>max length of db table or view name.</p>
+<p>Current max name sizes: PostgreSQL=63 MySQL=64 MSSQL=128 DB2=128 Oracle=128 (Oracle antiques not supported) </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>include/<a class="el" href="db_exec_8h_source.html">dbExec.h</a></li>
 <li>db/<a class="el" href="db_exec_8cpp.html">dbExec.cpp</a></li>
@@ -1418,7 +1421,7 @@ it may throw exception if selected row count not equal i_size </p>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceopenm.html">openm</a></li><li class="navelem"><a class="el" href="classopenm_1_1_i_db_exec.html">IDbExec</a></li>
-    <li class="footer">Generated on Tue Mar 5 2019 20:50:09 for OpenM++ runtime library (libopenm) by
+    <li class="footer">Generated on Fri Sep 20 2019 16:56:08 for OpenM++ runtime library (libopenm) by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>
