@@ -5,6 +5,6 @@ var classopenm_1_1_table_dims_table =
     [ "~TableDimsTable", "classopenm_1_1_table_dims_table.html#a45addc3408d15204c7c6c653aa384e55", null ],
     [ "byKey", "classopenm_1_1_table_dims_table.html#a429021258814b81d90807526ca5fd451", null ],
     [ "byModelIdTableId", "classopenm_1_1_table_dims_table.html#a59f74f4d3b6b8c561b68189bf03d3587", null ],
-    [ "rowsCRef", "classopenm_1_1_table_dims_table.html#ad24e6eec19676c3862075e932fcaea51", null ],
-    [ "rowsRef", "classopenm_1_1_table_dims_table.html#a158189429f8bc563f4ab2c42e814a44c", null ]
+    [ "rowsCRef", "classopenm_1_1_table_dims_table.html#a7beb05a5231a9fca71580ebdcfdeb98d", null ],
+    [ "rowsRef", "classopenm_1_1_table_dims_table.html#a2fcf791c74094e107c55c3040cf42bb9", null ]
 ];

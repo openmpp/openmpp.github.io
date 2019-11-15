@@ -105,9 +105,9 @@ Public Member Functions</h2></td></tr>
 virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_parameter_run_writer.html#a83fc90562dd330bf1e72a41e5d9df317">sizeOf</a> (void) const noexcept=0</td></tr>
 <tr class="memdesc:a83fc90562dd330bf1e72a41e5d9df317"><td class="mdescLeft">&#160;</td><td class="mdescRight">return input parameter size: total number of values in the table <br /></td></tr>
 <tr class="separator:a83fc90562dd330bf1e72a41e5d9df317"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42a033dc0ddc5907831307eac8769778"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_parameter_run_writer.html#a42a033dc0ddc5907831307eac8769778">loadCsvParameter</a> (<a class="el" href="classopenm_1_1_i_db_exec.html">IDbExec</a> *i_dbExec, int i_paramSubCount, const char *i_filePath, bool i_isIdCsv=false)=0</td></tr>
-<tr class="memdesc:a42a033dc0ddc5907831307eac8769778"><td class="mdescLeft">&#160;</td><td class="mdescRight">load parameter values from csv file into run table.  <a href="#a42a033dc0ddc5907831307eac8769778">More...</a><br /></td></tr>
-<tr class="separator:a42a033dc0ddc5907831307eac8769778"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af85bf3d77191e4c9b06ce83c292074ff"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_parameter_run_writer.html#af85bf3d77191e4c9b06ce83c292074ff">loadCsvParameter</a> (<a class="el" href="classopenm_1_1_i_db_exec.html">IDbExec</a> *i_dbExec, const vector&lt; int &gt; &amp;i_subIdArr, const char *i_filePath, bool i_isIdCsv=false)=0</td></tr>
+<tr class="memdesc:af85bf3d77191e4c9b06ce83c292074ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">load parameter values from csv file into run table.  <a href="#af85bf3d77191e4c9b06ce83c292074ff">More...</a><br /></td></tr>
+<tr class="separator:af85bf3d77191e4c9b06ce83c292074ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9118f7e8f5d3cf2e626bfbc6bc0d60b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_parameter_run_writer.html#ae9118f7e8f5d3cf2e626bfbc6bc0d60b">digestParameter</a> (<a class="el" href="classopenm_1_1_i_db_exec.html">IDbExec</a> *i_dbExec, int i_paramSubCount, const type_info &amp;i_type)=0</td></tr>
 <tr class="memdesc:ae9118f7e8f5d3cf2e626bfbc6bc0d60b"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculate run parameter values digest and store only single copy of parameter values.  <a href="#ae9118f7e8f5d3cf2e626bfbc6bc0d60b">More...</a><br /></td></tr>
 <tr class="separator:ae9118f7e8f5d3cf2e626bfbc6bc0d60b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -176,8 +176,8 @@ static <a class="el" href="structopenm_1_1_i_parameter_run_writer.html">IParamet
 
 </div>
 </div>
-<a id="a42a033dc0ddc5907831307eac8769778"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a42a033dc0ddc5907831307eac8769778">&#9670;&nbsp;</a></span>loadCsvParameter()</h2>
+<a id="af85bf3d77191e4c9b06ce83c292074ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af85bf3d77191e4c9b06ce83c292074ff">&#9670;&nbsp;</a></span>loadCsvParameter()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -194,8 +194,8 @@ static <a class="el" href="structopenm_1_1_i_parameter_run_writer.html">IParamet
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>i_paramSubCount</em>, </td>
+          <td class="paramtype">const vector&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>i_subIdArr</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -226,14 +226,14 @@ static <a class="el" href="structopenm_1_1_i_parameter_run_writer.html">IParamet
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">i_dbExec</td><td>database connection </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">i_paramSubCount</td><td>number of parameter sub-values </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i_subIdArr</td><td>sub-value id's to select from csv </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">i_filePath</td><td>path to parameter.csv file </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">i_isIdCsv</td><td>if true then create csv file contains enum id's, default: enum code </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="classopenm_1_1_parameter_run_writer.html#a7f4d9d3c665bb50fbc2763bcc0064459">openm::ParameterRunWriter</a>.</p>
+<p>Implemented in <a class="el" href="classopenm_1_1_parameter_run_writer.html#af6aaf10cf5b13ea7c84516a97af6fe28">openm::ParameterRunWriter</a>.</p>
 
 </div>
 </div>
@@ -247,7 +247,7 @@ static <a class="el" href="structopenm_1_1_i_parameter_run_writer.html">IParamet
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceopenm.html">openm</a></li><li class="navelem"><a class="el" href="structopenm_1_1_i_parameter_run_writer.html">IParameterRunWriter</a></li>
-    <li class="footer">Generated on Fri Sep 20 2019 16:56:10 for OpenM++ runtime library (libopenm) by
+    <li class="footer">Generated on Fri Nov 15 2019 13:10:48 for OpenM++ runtime library (libopenm) by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

@@ -115,48 +115,48 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7bf371897a06c67f2434f2784716c400"><td class="memItemLeft" align="right" valign="top"><a id="a7bf371897a06c67f2434f2784716c400"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>RunOptionTable</b> (<a class="el" href="namespaceopenm.html#a4c490122908976114609adac8c178fee">IRowBaseVec</a> &amp;io_rowVec)</td></tr>
 <tr class="separator:a7bf371897a06c67f2434f2784716c400"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0411dbbf080788f85e7a052d59cb102"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceopenm.html#a4c490122908976114609adac8c178fee">IRowBaseVec</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_option_table.html#ac0411dbbf080788f85e7a052d59cb102">rowsCRef</a> (void) const</td></tr>
-<tr class="memdesc:ac0411dbbf080788f85e7a052d59cb102"><td class="mdescLeft">&#160;</td><td class="mdescRight">get const reference to list of all table rows.  <a href="#ac0411dbbf080788f85e7a052d59cb102">More...</a><br /></td></tr>
-<tr class="separator:ac0411dbbf080788f85e7a052d59cb102"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd52ff57b18ef9bddb197624887c4fe9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceopenm.html#a4c490122908976114609adac8c178fee">IRowBaseVec</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_option_table.html#afd52ff57b18ef9bddb197624887c4fe9">rowsRef</a> (void)</td></tr>
-<tr class="memdesc:afd52ff57b18ef9bddb197624887c4fe9"><td class="mdescLeft">&#160;</td><td class="mdescRight">get reference to list of all table rows.  <a href="#afd52ff57b18ef9bddb197624887c4fe9">More...</a><br /></td></tr>
-<tr class="separator:afd52ff57b18ef9bddb197624887c4fe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad166b214c29d5ea20954b9fb16538702"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structopenm_1_1_run_option_row.html">RunOptionRow</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_option_table.html#ad166b214c29d5ea20954b9fb16538702">byKey</a> (int i_runId, const string &amp;i_key) const</td></tr>
-<tr class="memdesc:ad166b214c29d5ea20954b9fb16538702"><td class="mdescLeft">&#160;</td><td class="mdescRight">binary search row by primary key: run id and option key, return NULL if not found.  <a href="#ad166b214c29d5ea20954b9fb16538702">More...</a><br /></td></tr>
-<tr class="separator:ad166b214c29d5ea20954b9fb16538702"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09dc3acf5fb6c11e076edd7f84f1eb0b"><td class="memItemLeft" align="right" valign="top">vector&lt; <a class="el" href="structopenm_1_1_run_option_row.html">RunOptionRow</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_option_table.html#a09dc3acf5fb6c11e076edd7f84f1eb0b">byRunId</a> (int i_runId) const</td></tr>
-<tr class="memdesc:a09dc3acf5fb6c11e076edd7f84f1eb0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">get list of rows by run id.  <a href="#a09dc3acf5fb6c11e076edd7f84f1eb0b">More...</a><br /></td></tr>
-<tr class="separator:a09dc3acf5fb6c11e076edd7f84f1eb0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf76dd52adebaf31f5ae241750dac222"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_option_table.html#acf76dd52adebaf31f5ae241750dac222">isExist</a> (int i_runId, const char *i_key) const noexcept</td></tr>
-<tr class="memdesc:acf76dd52adebaf31f5ae241750dac222"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if primary key (run id, option key) found.  <a href="#acf76dd52adebaf31f5ae241750dac222">More...</a><br /></td></tr>
-<tr class="separator:acf76dd52adebaf31f5ae241750dac222"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae33bba1cb7d15310c52b68cf1bdb507a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_option_table.html#ae33bba1cb7d15310c52b68cf1bdb507a">isExist</a> (const char *i_key) const noexcept</td></tr>
-<tr class="memdesc:ae33bba1cb7d15310c52b68cf1bdb507a"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if option key found.  <a href="#ae33bba1cb7d15310c52b68cf1bdb507a">More...</a><br /></td></tr>
-<tr class="separator:ae33bba1cb7d15310c52b68cf1bdb507a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5779a768bfa1545259a6b2b894a92584"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_option_table.html#a5779a768bfa1545259a6b2b894a92584">strValue</a> (int i_runId, const char *i_key, const string &amp;i_default=&quot;&quot;) const noexcept</td></tr>
-<tr class="memdesc:a5779a768bfa1545259a6b2b894a92584"><td class="mdescLeft">&#160;</td><td class="mdescRight">return string value by primary key (run id, option key) or default value if not found.  <a href="#a5779a768bfa1545259a6b2b894a92584">More...</a><br /></td></tr>
-<tr class="separator:a5779a768bfa1545259a6b2b894a92584"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0fe83c16e4e8a6762b43861b7d65814"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_option_table.html#ad0fe83c16e4e8a6762b43861b7d65814">strValue</a> (const char *i_key, const string &amp;i_default=&quot;&quot;) const noexcept</td></tr>
-<tr class="memdesc:ad0fe83c16e4e8a6762b43861b7d65814"><td class="mdescLeft">&#160;</td><td class="mdescRight">return string value by option key (first found) or default value if not found.  <a href="#ad0fe83c16e4e8a6762b43861b7d65814">More...</a><br /></td></tr>
-<tr class="separator:ad0fe83c16e4e8a6762b43861b7d65814"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1501ff26e8084c782dbbfca160590a30"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_option_table.html#a1501ff26e8084c782dbbfca160590a30">boolValue</a> (int i_runId, const char *i_key) const noexcept</td></tr>
-<tr class="memdesc:a1501ff26e8084c782dbbfca160590a30"><td class="mdescLeft">&#160;</td><td class="mdescRight">return boolean value by primary key (run id, option key) or false if not found or value not "yes", "1", "true".  <a href="#a1501ff26e8084c782dbbfca160590a30">More...</a><br /></td></tr>
-<tr class="separator:a1501ff26e8084c782dbbfca160590a30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc29f0d704633aeb0f5b783f7a2504a5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_option_table.html#abc29f0d704633aeb0f5b783f7a2504a5">boolValue</a> (const char *i_key) const noexcept</td></tr>
-<tr class="memdesc:abc29f0d704633aeb0f5b783f7a2504a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">return boolean value by option key (first found) or false if not found or value not "yes", "1", "true".  <a href="#abc29f0d704633aeb0f5b783f7a2504a5">More...</a><br /></td></tr>
-<tr class="separator:abc29f0d704633aeb0f5b783f7a2504a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40d498cdbfe13751f94ac20577390c0b"><td class="memItemLeft" align="right" valign="top">long long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_option_table.html#a40d498cdbfe13751f94ac20577390c0b">longValue</a> (int i_runId, const char *i_key, long long i_default) const noexcept</td></tr>
-<tr class="memdesc:a40d498cdbfe13751f94ac20577390c0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">return long value by primary key (run id, option key) or default if not found or can not be converted to long.  <a href="#a40d498cdbfe13751f94ac20577390c0b">More...</a><br /></td></tr>
-<tr class="separator:a40d498cdbfe13751f94ac20577390c0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b60624d8288eb69c3ee2b75f08ce4f0"><td class="memItemLeft" align="right" valign="top">long long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_option_table.html#a2b60624d8288eb69c3ee2b75f08ce4f0">longValue</a> (const char *i_key, long long i_default) const noexcept</td></tr>
-<tr class="memdesc:a2b60624d8288eb69c3ee2b75f08ce4f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">return long value by option key (first found) or default if not found or can not be converted to long.  <a href="#a2b60624d8288eb69c3ee2b75f08ce4f0">More...</a><br /></td></tr>
-<tr class="separator:a2b60624d8288eb69c3ee2b75f08ce4f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab973dc4e93a107c1f792bc94ec1b1fdb"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_option_table.html#ab973dc4e93a107c1f792bc94ec1b1fdb">doubleValue</a> (int i_runId, const char *i_key, double i_default) const noexcept</td></tr>
-<tr class="memdesc:ab973dc4e93a107c1f792bc94ec1b1fdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">return double value by primary key (run id, option key) or default if not found or can not be converted to double.  <a href="#ab973dc4e93a107c1f792bc94ec1b1fdb">More...</a><br /></td></tr>
-<tr class="separator:ab973dc4e93a107c1f792bc94ec1b1fdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7adf5a6fa25e88a6ed639ce26ac084e8"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_option_table.html#a7adf5a6fa25e88a6ed639ce26ac084e8">doubleValue</a> (const char *i_key, double i_default) const noexcept</td></tr>
-<tr class="memdesc:a7adf5a6fa25e88a6ed639ce26ac084e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">return double value by option key (first found) or default if not found or can not be converted to double.  <a href="#a7adf5a6fa25e88a6ed639ce26ac084e8">More...</a><br /></td></tr>
-<tr class="separator:a7adf5a6fa25e88a6ed639ce26ac084e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e2b625cec9760c4c3b92d41e6984cbe"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceopenm.html#a4c490122908976114609adac8c178fee">IRowBaseVec</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_option_table.html#a9e2b625cec9760c4c3b92d41e6984cbe">rowsCRef</a> (void) const override</td></tr>
+<tr class="memdesc:a9e2b625cec9760c4c3b92d41e6984cbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">get const reference to list of all table rows.  <a href="#a9e2b625cec9760c4c3b92d41e6984cbe">More...</a><br /></td></tr>
+<tr class="separator:a9e2b625cec9760c4c3b92d41e6984cbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1171653630df897fc877948ade91a078"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceopenm.html#a4c490122908976114609adac8c178fee">IRowBaseVec</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_option_table.html#a1171653630df897fc877948ade91a078">rowsRef</a> (void) override</td></tr>
+<tr class="memdesc:a1171653630df897fc877948ade91a078"><td class="mdescLeft">&#160;</td><td class="mdescRight">get reference to list of all table rows.  <a href="#a1171653630df897fc877948ade91a078">More...</a><br /></td></tr>
+<tr class="separator:a1171653630df897fc877948ade91a078"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75290ab93f545bcc6939c4dae345de7d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structopenm_1_1_run_option_row.html">RunOptionRow</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_option_table.html#a75290ab93f545bcc6939c4dae345de7d">byKey</a> (int i_runId, const string &amp;i_key) const override</td></tr>
+<tr class="memdesc:a75290ab93f545bcc6939c4dae345de7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">binary search row by primary key: run id and option key, return NULL if not found.  <a href="#a75290ab93f545bcc6939c4dae345de7d">More...</a><br /></td></tr>
+<tr class="separator:a75290ab93f545bcc6939c4dae345de7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a178936a124fb289fc258263cb0754d27"><td class="memItemLeft" align="right" valign="top">vector&lt; <a class="el" href="structopenm_1_1_run_option_row.html">RunOptionRow</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_option_table.html#a178936a124fb289fc258263cb0754d27">byRunId</a> (int i_runId) const override</td></tr>
+<tr class="memdesc:a178936a124fb289fc258263cb0754d27"><td class="mdescLeft">&#160;</td><td class="mdescRight">get list of rows by run id.  <a href="#a178936a124fb289fc258263cb0754d27">More...</a><br /></td></tr>
+<tr class="separator:a178936a124fb289fc258263cb0754d27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bd7bb4c15dbca0fef506d69939061ba"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_option_table.html#a3bd7bb4c15dbca0fef506d69939061ba">isExist</a> (int i_runId, const char *i_key) const noexcept override</td></tr>
+<tr class="memdesc:a3bd7bb4c15dbca0fef506d69939061ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if primary key (run id, option key) found.  <a href="#a3bd7bb4c15dbca0fef506d69939061ba">More...</a><br /></td></tr>
+<tr class="separator:a3bd7bb4c15dbca0fef506d69939061ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2d7cd3f450260f02e369c14d34fe0a7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_option_table.html#ab2d7cd3f450260f02e369c14d34fe0a7">isExist</a> (const char *i_key) const noexcept override</td></tr>
+<tr class="memdesc:ab2d7cd3f450260f02e369c14d34fe0a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if option key found.  <a href="#ab2d7cd3f450260f02e369c14d34fe0a7">More...</a><br /></td></tr>
+<tr class="separator:ab2d7cd3f450260f02e369c14d34fe0a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e839f5bc6f7042c1ced02c058041d3e"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_option_table.html#a4e839f5bc6f7042c1ced02c058041d3e">strValue</a> (int i_runId, const char *i_key, const string &amp;i_default=&quot;&quot;) const noexcept override</td></tr>
+<tr class="memdesc:a4e839f5bc6f7042c1ced02c058041d3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">return string value by primary key (run id, option key) or default value if not found.  <a href="#a4e839f5bc6f7042c1ced02c058041d3e">More...</a><br /></td></tr>
+<tr class="separator:a4e839f5bc6f7042c1ced02c058041d3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4730bdf3aa0662b47e6f1fa12ef3cf3"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_option_table.html#ae4730bdf3aa0662b47e6f1fa12ef3cf3">strValue</a> (const char *i_key, const string &amp;i_default=&quot;&quot;) const noexcept override</td></tr>
+<tr class="memdesc:ae4730bdf3aa0662b47e6f1fa12ef3cf3"><td class="mdescLeft">&#160;</td><td class="mdescRight">return string value by option key (first found) or default value if not found.  <a href="#ae4730bdf3aa0662b47e6f1fa12ef3cf3">More...</a><br /></td></tr>
+<tr class="separator:ae4730bdf3aa0662b47e6f1fa12ef3cf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ea587430021aaf5c2332f71822dfcca"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_option_table.html#a3ea587430021aaf5c2332f71822dfcca">boolValue</a> (int i_runId, const char *i_key) const noexcept override</td></tr>
+<tr class="memdesc:a3ea587430021aaf5c2332f71822dfcca"><td class="mdescLeft">&#160;</td><td class="mdescRight">return boolean value by primary key (run id, option key) or false if not found or value not "yes", "1", "true".  <a href="#a3ea587430021aaf5c2332f71822dfcca">More...</a><br /></td></tr>
+<tr class="separator:a3ea587430021aaf5c2332f71822dfcca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad675b7cc5b40a185bbd7889d23ec50f3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_option_table.html#ad675b7cc5b40a185bbd7889d23ec50f3">boolValue</a> (const char *i_key) const noexcept override</td></tr>
+<tr class="memdesc:ad675b7cc5b40a185bbd7889d23ec50f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">return boolean value by option key (first found) or false if not found or value not "yes", "1", "true".  <a href="#ad675b7cc5b40a185bbd7889d23ec50f3">More...</a><br /></td></tr>
+<tr class="separator:ad675b7cc5b40a185bbd7889d23ec50f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae710ac245cd66c02b0b82b253ec261c4"><td class="memItemLeft" align="right" valign="top">long long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_option_table.html#ae710ac245cd66c02b0b82b253ec261c4">longValue</a> (int i_runId, const char *i_key, long long i_default) const noexcept override</td></tr>
+<tr class="memdesc:ae710ac245cd66c02b0b82b253ec261c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">return long value by primary key (run id, option key) or default if not found or can not be converted to long.  <a href="#ae710ac245cd66c02b0b82b253ec261c4">More...</a><br /></td></tr>
+<tr class="separator:ae710ac245cd66c02b0b82b253ec261c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33b888005b6a4973331535ad796bc708"><td class="memItemLeft" align="right" valign="top">long long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_option_table.html#a33b888005b6a4973331535ad796bc708">longValue</a> (const char *i_key, long long i_default) const noexcept override</td></tr>
+<tr class="memdesc:a33b888005b6a4973331535ad796bc708"><td class="mdescLeft">&#160;</td><td class="mdescRight">return long value by option key (first found) or default if not found or can not be converted to long.  <a href="#a33b888005b6a4973331535ad796bc708">More...</a><br /></td></tr>
+<tr class="separator:a33b888005b6a4973331535ad796bc708"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d78ca900f0d43732d0af72b790d2139"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_option_table.html#a7d78ca900f0d43732d0af72b790d2139">doubleValue</a> (int i_runId, const char *i_key, double i_default) const noexcept override</td></tr>
+<tr class="memdesc:a7d78ca900f0d43732d0af72b790d2139"><td class="mdescLeft">&#160;</td><td class="mdescRight">return double value by primary key (run id, option key) or default if not found or can not be converted to double.  <a href="#a7d78ca900f0d43732d0af72b790d2139">More...</a><br /></td></tr>
+<tr class="separator:a7d78ca900f0d43732d0af72b790d2139"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75d6a9c90beebaaabf16764302f20eec"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_option_table.html#a75d6a9c90beebaaabf16764302f20eec">doubleValue</a> (const char *i_key, double i_default) const noexcept override</td></tr>
+<tr class="memdesc:a75d6a9c90beebaaabf16764302f20eec"><td class="mdescLeft">&#160;</td><td class="mdescRight">return double value by option key (first found) or default if not found or can not be converted to double.  <a href="#a75d6a9c90beebaaabf16764302f20eec">More...</a><br /></td></tr>
+<tr class="separator:a75d6a9c90beebaaabf16764302f20eec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_structopenm_1_1_i_meta_loaded_table"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structopenm_1_1_i_meta_loaded_table')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structopenm_1_1_i_meta_loaded_table.html">openm::IMetaLoadedTable&lt; RunOptionRow &gt;</a></td></tr>
 <tr class="memitem:adb24ac609a54b26010ee391160715cf5 inherit pub_methods_structopenm_1_1_i_meta_loaded_table"><td class="memItemLeft" align="right" valign="top">IRowBaseVec::difference_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_meta_loaded_table.html#adb24ac609a54b26010ee391160715cf5">rowCount</a> (void) const</td></tr>
 <tr class="memdesc:adb24ac609a54b26010ee391160715cf5 inherit pub_methods_structopenm_1_1_i_meta_loaded_table"><td class="mdescLeft">&#160;</td><td class="mdescRight">return number of rows.  <a href="structopenm_1_1_i_meta_loaded_table.html#adb24ac609a54b26010ee391160715cf5">More...</a><br /></td></tr>
@@ -210,8 +210,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:ae812dc78a5ebb0e3dca624b600dd7082 inherit pro_static_methods_structopenm_1_1_i_meta_table"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a1501ff26e8084c782dbbfca160590a30"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1501ff26e8084c782dbbfca160590a30">&#9670;&nbsp;</a></span>boolValue() <span class="overload">[1/2]</span></h2>
+<a id="a3ea587430021aaf5c2332f71822dfcca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ea587430021aaf5c2332f71822dfcca">&#9670;&nbsp;</a></span>boolValue() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -239,7 +239,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -250,8 +250,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="abc29f0d704633aeb0f5b783f7a2504a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc29f0d704633aeb0f5b783f7a2504a5">&#9670;&nbsp;</a></span>boolValue() <span class="overload">[2/2]</span></h2>
+<a id="ad675b7cc5b40a185bbd7889d23ec50f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad675b7cc5b40a185bbd7889d23ec50f3">&#9670;&nbsp;</a></span>boolValue() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -269,7 +269,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -280,8 +280,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ad166b214c29d5ea20954b9fb16538702"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad166b214c29d5ea20954b9fb16538702">&#9670;&nbsp;</a></span>byKey()</h2>
+<a id="a75290ab93f545bcc6939c4dae345de7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75290ab93f545bcc6939c4dae345de7d">&#9670;&nbsp;</a></span>byKey()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -309,7 +309,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -320,8 +320,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a09dc3acf5fb6c11e076edd7f84f1eb0b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a09dc3acf5fb6c11e076edd7f84f1eb0b">&#9670;&nbsp;</a></span>byRunId()</h2>
+<a id="a178936a124fb289fc258263cb0754d27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a178936a124fb289fc258263cb0754d27">&#9670;&nbsp;</a></span>byRunId()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -339,7 +339,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -350,8 +350,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ab973dc4e93a107c1f792bc94ec1b1fdb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab973dc4e93a107c1f792bc94ec1b1fdb">&#9670;&nbsp;</a></span>doubleValue() <span class="overload">[1/2]</span></h2>
+<a id="a7d78ca900f0d43732d0af72b790d2139"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d78ca900f0d43732d0af72b790d2139">&#9670;&nbsp;</a></span>doubleValue() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -385,7 +385,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -396,8 +396,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a7adf5a6fa25e88a6ed639ce26ac084e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7adf5a6fa25e88a6ed639ce26ac084e8">&#9670;&nbsp;</a></span>doubleValue() <span class="overload">[2/2]</span></h2>
+<a id="a75d6a9c90beebaaabf16764302f20eec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75d6a9c90beebaaabf16764302f20eec">&#9670;&nbsp;</a></span>doubleValue() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -425,7 +425,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -436,8 +436,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="acf76dd52adebaf31f5ae241750dac222"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf76dd52adebaf31f5ae241750dac222">&#9670;&nbsp;</a></span>isExist() <span class="overload">[1/2]</span></h2>
+<a id="a3bd7bb4c15dbca0fef506d69939061ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bd7bb4c15dbca0fef506d69939061ba">&#9670;&nbsp;</a></span>isExist() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -465,7 +465,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -476,8 +476,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ae33bba1cb7d15310c52b68cf1bdb507a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae33bba1cb7d15310c52b68cf1bdb507a">&#9670;&nbsp;</a></span>isExist() <span class="overload">[2/2]</span></h2>
+<a id="ab2d7cd3f450260f02e369c14d34fe0a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2d7cd3f450260f02e369c14d34fe0a7">&#9670;&nbsp;</a></span>isExist() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -495,7 +495,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -506,8 +506,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a40d498cdbfe13751f94ac20577390c0b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a40d498cdbfe13751f94ac20577390c0b">&#9670;&nbsp;</a></span>longValue() <span class="overload">[1/2]</span></h2>
+<a id="ae710ac245cd66c02b0b82b253ec261c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae710ac245cd66c02b0b82b253ec261c4">&#9670;&nbsp;</a></span>longValue() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -541,7 +541,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -552,8 +552,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a2b60624d8288eb69c3ee2b75f08ce4f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b60624d8288eb69c3ee2b75f08ce4f0">&#9670;&nbsp;</a></span>longValue() <span class="overload">[2/2]</span></h2>
+<a id="a33b888005b6a4973331535ad796bc708"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33b888005b6a4973331535ad796bc708">&#9670;&nbsp;</a></span>longValue() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -581,7 +581,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -592,8 +592,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ac0411dbbf080788f85e7a052d59cb102"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac0411dbbf080788f85e7a052d59cb102">&#9670;&nbsp;</a></span>rowsCRef()</h2>
+<a id="a9e2b625cec9760c4c3b92d41e6984cbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e2b625cec9760c4c3b92d41e6984cbe">&#9670;&nbsp;</a></span>rowsCRef()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -611,7 +611,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -622,8 +622,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="afd52ff57b18ef9bddb197624887c4fe9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afd52ff57b18ef9bddb197624887c4fe9">&#9670;&nbsp;</a></span>rowsRef()</h2>
+<a id="a1171653630df897fc877948ade91a078"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1171653630df897fc877948ade91a078">&#9670;&nbsp;</a></span>rowsRef()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -641,7 +641,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -652,8 +652,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a5779a768bfa1545259a6b2b894a92584"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5779a768bfa1545259a6b2b894a92584">&#9670;&nbsp;</a></span>strValue() <span class="overload">[1/2]</span></h2>
+<a id="a4e839f5bc6f7042c1ced02c058041d3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e839f5bc6f7042c1ced02c058041d3e">&#9670;&nbsp;</a></span>strValue() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -687,7 +687,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -698,8 +698,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ad0fe83c16e4e8a6762b43861b7d65814"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad0fe83c16e4e8a6762b43861b7d65814">&#9670;&nbsp;</a></span>strValue() <span class="overload">[2/2]</span></h2>
+<a id="ae4730bdf3aa0662b47e6f1fa12ef3cf3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4730bdf3aa0662b47e6f1fa12ef3cf3">&#9670;&nbsp;</a></span>strValue() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -727,7 +727,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -747,7 +747,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceopenm.html">openm</a></li><li class="navelem"><a class="el" href="classopenm_1_1_run_option_table.html">RunOptionTable</a></li>
-    <li class="footer">Generated on Fri Sep 20 2019 16:56:16 for OpenM++ runtime library (libopenm) by
+    <li class="footer">Generated on Fri Nov 15 2019 13:10:53 for OpenM++ runtime library (libopenm) by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

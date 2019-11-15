@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['sample_5fdimension_5fopt',['sample_dimension_opt',['../class_import_symbol.html#aec7e493d3a16081333fe373b50739846',1,'ImportSymbol']]],
   ['scale',['scale',['../class_table_measure_symbol.html#a9eff50a4a2146e07de67b77a3dd22eeb',1,'TableMeasureSymbol']]],
   ['scale_5fas_5ffactor',['scale_as_factor',['../class_table_measure_symbol.html#aa03e6b94c61b7327c5594bc04d6be391',1,'TableMeasureSymbol']]],
   ['scenario_5fparameter',['scenario_parameter',['../class_parameter_symbol.html#a03d2c03cc458c1c0a87aa40c5c236a1da2cac706f4c9d92b22ac4b594bdb5bc95',1,'ParameterSymbol']]],

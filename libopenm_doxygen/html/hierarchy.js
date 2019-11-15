@@ -597,6 +597,7 @@ var hierarchy =
       [ "openm::ParameterRunWriter", "classopenm_1_1_parameter_run_writer.html", null ],
       [ "openm::ParameterSetWriter", "classopenm_1_1_parameter_set_writer.html", null ]
     ] ],
+    [ "openm::MetaLoader::ParamSubOpts", "structopenm_1_1_meta_loader_1_1_param_sub_opts.html", null ],
     [ "openm::ProcessGroupDef", "structopenm_1_1_process_group_def.html", null ],
     [ "openm::RowMpiPackedAdapter< TRow >", "structopenm_1_1_row_mpi_packed_adapter.html", null ],
     [ "openm::RunGroup", "structopenm_1_1_run_group.html", null ],
@@ -607,6 +608,5 @@ var hierarchy =
       [ "openm::ModelRunState", "classopenm_1_1_model_run_state.html", null ]
     ] ],
     [ "openm::RunStateHolder", "classopenm_1_1_run_state_holder.html", null ],
-    [ "openm::RunStatus", "structopenm_1_1_run_status.html", null ],
-    [ "openm::RunController::SetRunItem", "structopenm_1_1_run_controller_1_1_set_run_item.html", null ]
+    [ "openm::RunStatus", "structopenm_1_1_run_status.html", null ]
 ];

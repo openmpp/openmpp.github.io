@@ -224,15 +224,42 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_meta_loader.html#a10cb99b50932245c046694f0d96cd393">threadCount</a></td></tr>
 <tr class="memdesc:a10cb99b50932245c046694f0d96cd393 inherit pub_attribs_classopenm_1_1_meta_loader"><td class="mdescLeft">&#160;</td><td class="mdescRight">max number of modeling threads <br /></td></tr>
 <tr class="separator:a10cb99b50932245c046694f0d96cd393 inherit pub_attribs_classopenm_1_1_meta_loader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_types_classopenm_1_1_meta_loader"><td colspan="2" onclick="javascript:toggleInherit('pro_types_classopenm_1_1_meta_loader')"><img src="closed.png" alt="-"/>&#160;Protected Types inherited from <a class="el" href="classopenm_1_1_meta_loader.html">openm::MetaLoader</a></td></tr>
+<tr class="memitem:a37435225a06ad80e4d434de467cb08ac inherit pro_types_classopenm_1_1_meta_loader"><td class="memItemLeft" align="right" valign="top"><a id="a37435225a06ad80e4d434de467cb08ac"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>KindSubIds</b> : int { <br />
+&#160;&#160;<b>none</b> = 0, 
+<b>single</b> = 1, 
+<b>defaultId</b> = 2, 
+<b>range</b> =3, 
+<br />
+&#160;&#160;<b>list</b> = 4
+<br />
+ }</td></tr>
+<tr class="separator:a37435225a06ad80e4d434de467cb08ac inherit pro_types_classopenm_1_1_meta_loader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classopenm_1_1_run_controller"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classopenm_1_1_run_controller')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classopenm_1_1_run_controller.html">openm::RunController</a></td></tr>
 <tr class="memitem:ad35f9159d06fc34fce0078af088c0eb5 inherit pro_methods_classopenm_1_1_run_controller"><td class="memItemLeft" align="right" valign="top"><a id="ad35f9159d06fc34fce0078af088c0eb5"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_controller.html#ad35f9159d06fc34fce0078af088c0eb5">RunController</a> (const <a class="el" href="structopenm_1_1_arg_reader.html">ArgReader</a> &amp;i_argStore)</td></tr>
 <tr class="memdesc:ad35f9159d06fc34fce0078af088c0eb5 inherit pro_methods_classopenm_1_1_run_controller"><td class="mdescLeft">&#160;</td><td class="mdescRight">create run controller <br /></td></tr>
 <tr class="separator:ad35f9159d06fc34fce0078af088c0eb5 inherit pro_methods_classopenm_1_1_run_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38846e2bb6be2450c113ae172e3b7a6a inherit pro_methods_classopenm_1_1_run_controller"><td class="memItemLeft" align="right" valign="top"><a id="a38846e2bb6be2450c113ae172e3b7a6a"></a>
-<a class="el" href="structopenm_1_1_run_controller_1_1_set_run_item.html">SetRunItem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_controller.html#a38846e2bb6be2450c113ae172e3b7a6a">createNewRun</a> (int i_taskRunId, bool i_isWaitTaskRun, <a class="el" href="classopenm_1_1_i_db_exec.html">IDbExec</a> *i_dbExec)</td></tr>
-<tr class="memdesc:a38846e2bb6be2450c113ae172e3b7a6a inherit pro_methods_classopenm_1_1_run_controller"><td class="mdescLeft">&#160;</td><td class="mdescRight">create new run, create input parameters and run options for input working sets <br /></td></tr>
-<tr class="separator:a38846e2bb6be2450c113ae172e3b7a6a inherit pro_methods_classopenm_1_1_run_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19bdf35103c79dbc2160e4b4b1662fcf inherit pro_methods_classopenm_1_1_run_controller"><td class="memItemLeft" align="right" valign="top"><a id="a19bdf35103c79dbc2160e4b4b1662fcf"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_controller.html#a19bdf35103c79dbc2160e4b4b1662fcf">createTaskRun</a> (int i_taskId, <a class="el" href="classopenm_1_1_i_db_exec.html">IDbExec</a> *i_dbExec)</td></tr>
+<tr class="memdesc:a19bdf35103c79dbc2160e4b4b1662fcf inherit pro_methods_classopenm_1_1_run_controller"><td class="mdescLeft">&#160;</td><td class="mdescRight">create task run entry in database <br /></td></tr>
+<tr class="separator:a19bdf35103c79dbc2160e4b4b1662fcf inherit pro_methods_classopenm_1_1_run_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a5bea12d6af0990a1482f6c73e59779 inherit pro_methods_classopenm_1_1_run_controller"><td class="memItemLeft" align="right" valign="top"><a id="a1a5bea12d6af0990a1482f6c73e59779"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_controller.html#a1a5bea12d6af0990a1482f6c73e59779">findTask</a> (<a class="el" href="classopenm_1_1_i_db_exec.html">IDbExec</a> *i_dbExec)</td></tr>
+<tr class="memdesc:a1a5bea12d6af0990a1482f6c73e59779 inherit pro_methods_classopenm_1_1_run_controller"><td class="mdescLeft">&#160;</td><td class="mdescRight">find modeling task, if specified <br /></td></tr>
+<tr class="separator:a1a5bea12d6af0990a1482f6c73e59779 inherit pro_methods_classopenm_1_1_run_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7605a2e1520a74670b11a6fefffb7544 inherit pro_methods_classopenm_1_1_run_controller"><td class="memItemLeft" align="right" valign="top"><a id="a7605a2e1520a74670b11a6fefffb7544"></a>
+tuple&lt; int, int, <a class="el" href="namespaceopenm.html#a89b1e1245f1788365eac1a11af6b9a7f">ModelStatus</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_controller.html#a7605a2e1520a74670b11a6fefffb7544">createNewRun</a> (int i_taskRunId, bool i_isWaitTaskRun, <a class="el" href="classopenm_1_1_i_db_exec.html">IDbExec</a> *i_dbExec)</td></tr>
+<tr class="memdesc:a7605a2e1520a74670b11a6fefffb7544 inherit pro_methods_classopenm_1_1_run_controller"><td class="mdescLeft">&#160;</td><td class="mdescRight">create new run, create input parameters and run options for input working sets <br /></td></tr>
+<tr class="separator:a7605a2e1520a74670b11a6fefffb7544 inherit pro_methods_classopenm_1_1_run_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0567183e22e6f95f5c67cd6fa895e910 inherit pro_methods_classopenm_1_1_run_controller"><td class="memItemLeft" align="right" valign="top"><a id="a0567183e22e6f95f5c67cd6fa895e910"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_controller.html#a0567183e22e6f95f5c67cd6fa895e910">findWorkset</a> (int i_setId, <a class="el" href="classopenm_1_1_i_db_exec.html">IDbExec</a> *i_dbExec)</td></tr>
+<tr class="memdesc:a0567183e22e6f95f5c67cd6fa895e910 inherit pro_methods_classopenm_1_1_run_controller"><td class="mdescLeft">&#160;</td><td class="mdescRight">find source working set for input parameters <br /></td></tr>
+<tr class="separator:a0567183e22e6f95f5c67cd6fa895e910 inherit pro_methods_classopenm_1_1_run_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44c6e15fd256a4fbf9bc28dbef90e296 inherit pro_methods_classopenm_1_1_run_controller"><td class="memItemLeft" align="right" valign="top"><a id="a44c6e15fd256a4fbf9bc28dbef90e296"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_controller.html#a44c6e15fd256a4fbf9bc28dbef90e296">createRunOptions</a> (int i_runId, <a class="el" href="classopenm_1_1_i_db_exec.html">IDbExec</a> *i_dbExec) const</td></tr>
+<tr class="memdesc:a44c6e15fd256a4fbf9bc28dbef90e296 inherit pro_methods_classopenm_1_1_run_controller"><td class="mdescLeft">&#160;</td><td class="mdescRight">save run options by inserting into run_option table <br /></td></tr>
+<tr class="separator:a44c6e15fd256a4fbf9bc28dbef90e296 inherit pro_methods_classopenm_1_1_run_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7bdfff4aa5afb6815655f7b53cfc360 inherit pro_methods_classopenm_1_1_run_controller"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_controller.html#ac7bdfff4aa5afb6815655f7b53cfc360">doShutdownOnExit</a> (<a class="el" href="namespaceopenm.html#a89b1e1245f1788365eac1a11af6b9a7f">ModelStatus</a> i_status, int i_runId, int i_taskRunId, <a class="el" href="classopenm_1_1_i_db_exec.html">IDbExec</a> *i_dbExec)</td></tr>
 <tr class="memdesc:ac7bdfff4aa5afb6815655f7b53cfc360 inherit pro_methods_classopenm_1_1_run_controller"><td class="mdescLeft">&#160;</td><td class="mdescRight">impelementation of model process shutdown if exiting without completion.  <a href="classopenm_1_1_run_controller.html#ac7bdfff4aa5afb6815655f7b53cfc360">More...</a><br /></td></tr>
 <tr class="separator:ac7bdfff4aa5afb6815655f7b53cfc360 inherit pro_methods_classopenm_1_1_run_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -268,21 +295,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:aaf2afd5c4b1cf7066909587b98c921b2 inherit pro_methods_classopenm_1_1_meta_loader"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_meta_loader.html#aaf2afd5c4b1cf7066909587b98c921b2">loadMessages</a> (<a class="el" href="classopenm_1_1_i_db_exec.html">IDbExec</a> *i_dbExec)</td></tr>
 <tr class="memdesc:aaf2afd5c4b1cf7066909587b98c921b2 inherit pro_methods_classopenm_1_1_meta_loader"><td class="mdescLeft">&#160;</td><td class="mdescRight">read model messages from database.  <a href="classopenm_1_1_meta_loader.html#aaf2afd5c4b1cf7066909587b98c921b2">More...</a><br /></td></tr>
 <tr class="separator:aaf2afd5c4b1cf7066909587b98c921b2 inherit pro_methods_classopenm_1_1_meta_loader"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:accccf38ca3c2123fce2ac4148be20100 inherit pro_methods_classopenm_1_1_meta_loader"><td class="memItemLeft" align="right" valign="top"><a id="accccf38ca3c2123fce2ac4148be20100"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>mergeOptions</b> (<a class="el" href="classopenm_1_1_i_db_exec.html">IDbExec</a> *i_dbExec)</td></tr>
+<tr class="memitem:accccf38ca3c2123fce2ac4148be20100 inherit pro_methods_classopenm_1_1_meta_loader"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_meta_loader.html#accccf38ca3c2123fce2ac4148be20100">mergeOptions</a> (<a class="el" href="classopenm_1_1_i_db_exec.html">IDbExec</a> *i_dbExec)</td></tr>
+<tr class="memdesc:accccf38ca3c2123fce2ac4148be20100 inherit pro_methods_classopenm_1_1_meta_loader"><td class="mdescLeft">&#160;</td><td class="mdescRight">merge command line and ini-file arguments with profile_option table values.  <a href="classopenm_1_1_meta_loader.html#accccf38ca3c2123fce2ac4148be20100">More...</a><br /></td></tr>
 <tr class="separator:accccf38ca3c2123fce2ac4148be20100 inherit pro_methods_classopenm_1_1_meta_loader"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0d3cd2fd4ed26eb211306182459823d inherit pro_methods_classopenm_1_1_meta_loader"><td class="memItemLeft" align="right" valign="top"><a id="ad0d3cd2fd4ed26eb211306182459823d"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>createTaskRun</b> (int i_taskId, <a class="el" href="classopenm_1_1_i_db_exec.html">IDbExec</a> *i_dbExec)</td></tr>
-<tr class="separator:ad0d3cd2fd4ed26eb211306182459823d inherit pro_methods_classopenm_1_1_meta_loader"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aefae584ca7b0481d7eaa85398bfb66e4 inherit pro_methods_classopenm_1_1_meta_loader"><td class="memItemLeft" align="right" valign="top"><a id="aefae584ca7b0481d7eaa85398bfb66e4"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>findTask</b> (<a class="el" href="classopenm_1_1_i_db_exec.html">IDbExec</a> *i_dbExec)</td></tr>
-<tr class="separator:aefae584ca7b0481d7eaa85398bfb66e4 inherit pro_methods_classopenm_1_1_meta_loader"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49800e11c9434aa9e222df60c4d22bb5 inherit pro_methods_classopenm_1_1_meta_loader"><td class="memItemLeft" align="right" valign="top"><a id="a49800e11c9434aa9e222df60c4d22bb5"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>findWorkset</b> (int i_setId, <a class="el" href="classopenm_1_1_i_db_exec.html">IDbExec</a> *i_dbExec)</td></tr>
-<tr class="separator:a49800e11c9434aa9e222df60c4d22bb5 inherit pro_methods_classopenm_1_1_meta_loader"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ba8a11453fbc81c03b8f2112c407847 inherit pro_methods_classopenm_1_1_meta_loader"><td class="memItemLeft" align="right" valign="top"><a id="a6ba8a11453fbc81c03b8f2112c407847"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>createRunOptions</b> (int i_runId, <a class="el" href="classopenm_1_1_i_db_exec.html">IDbExec</a> *i_dbExec) const</td></tr>
-<tr class="separator:a6ba8a11453fbc81c03b8f2112c407847 inherit pro_methods_classopenm_1_1_meta_loader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addabb6d951652d131aa65451e3a8c0d0 inherit pro_methods_classopenm_1_1_meta_loader"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_meta_loader.html#addabb6d951652d131aa65451e3a8c0d0">setArgOpt</a> (const string &amp;i_key, const string &amp;i_value)</td></tr>
+<tr class="memdesc:addabb6d951652d131aa65451e3a8c0d0 inherit pro_methods_classopenm_1_1_meta_loader"><td class="mdescLeft">&#160;</td><td class="mdescRight">insert new or update existing argument option.  <a href="classopenm_1_1_meta_loader.html#addabb6d951652d131aa65451e3a8c0d0">More...</a><br /></td></tr>
+<tr class="separator:addabb6d951652d131aa65451e3a8c0d0 inherit pro_methods_classopenm_1_1_meta_loader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_static_methods_classopenm_1_1_meta_loader"><td colspan="2" onclick="javascript:toggleInherit('pro_static_methods_classopenm_1_1_meta_loader')"><img src="closed.png" alt="-"/>&#160;Static Protected Member Functions inherited from <a class="el" href="classopenm_1_1_meta_loader.html">openm::MetaLoader</a></td></tr>
 <tr class="memitem:af4c8a7633fbe77d98cce2f86a7ab9bb9 inherit pro_static_methods_classopenm_1_1_meta_loader"><td class="memItemLeft" align="right" valign="top"><a id="af4c8a7633fbe77d98cce2f86a7ab9bb9"></a>
 static int&#160;</td><td class="memItemRight" valign="bottom"><b>readMetaTables</b> (<a class="el" href="classopenm_1_1_i_db_exec.html">IDbExec</a> *i_dbExec, <a class="el" href="structopenm_1_1_meta_holder.html">MetaHolder</a> *io_metaStore)</td></tr>
@@ -297,6 +315,9 @@ unique_ptr&lt; <a class="el" href="structopenm_1_1_meta_holder.html">MetaHolder<
 <tr class="memitem:a945be5a250d497799fd7ac9409b48892 inherit pro_attribs_classopenm_1_1_meta_loader"><td class="memItemLeft" align="right" valign="top"><a id="a945be5a250d497799fd7ac9409b48892"></a>
 vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>paramIdSubArr</b></td></tr>
 <tr class="separator:a945be5a250d497799fd7ac9409b48892 inherit pro_attribs_classopenm_1_1_meta_loader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a499684e620ec3fbeac0d0f1451b337b2 inherit pro_attribs_classopenm_1_1_meta_loader"><td class="memItemLeft" align="right" valign="top"><a id="a499684e620ec3fbeac0d0f1451b337b2"></a>
+vector&lt; <a class="el" href="structopenm_1_1_meta_loader_1_1_param_sub_opts.html">ParamSubOpts</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>subOptsArr</b></td></tr>
+<tr class="separator:a499684e620ec3fbeac0d0f1451b337b2 inherit pro_attribs_classopenm_1_1_meta_loader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>controller for child process: receive input parameters from root and send output tables. </p>
@@ -598,7 +619,7 @@ vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>paramI
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceopenm.html">openm</a></li><li class="navelem"><a class="el" href="classopenm_1_1_child_controller.html">ChildController</a></li>
-    <li class="footer">Generated on Fri Sep 20 2019 16:56:07 for OpenM++ runtime library (libopenm) by
+    <li class="footer">Generated on Fri Nov 15 2019 13:10:46 for OpenM++ runtime library (libopenm) by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

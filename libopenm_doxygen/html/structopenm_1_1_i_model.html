@@ -110,7 +110,7 @@ virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <tr class="separator:a71f4f061fd2ea5166cf6a48d0461ab8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab20f27f643aa92bafeb662dd0db3cfc1"><td class="memItemLeft" align="right" valign="top"><a id="ab20f27f643aa92bafeb662dd0db3cfc1"></a>
 virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_model.html#ab20f27f643aa92bafeb662dd0db3cfc1">subValueId</a> (void) const noexcept=0</td></tr>
-<tr class="memdesc:ab20f27f643aa92bafeb662dd0db3cfc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">sub-value index of current modeling process <br /></td></tr>
+<tr class="memdesc:ab20f27f643aa92bafeb662dd0db3cfc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">sub-value index of current modeling thread <br /></td></tr>
 <tr class="separator:ab20f27f643aa92bafeb662dd0db3cfc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a6bbfdde65f5129980084a5687a00d5"><td class="memItemLeft" align="right" valign="top"><a id="a2a6bbfdde65f5129980084a5687a00d5"></a>
 virtual const <a class="el" href="structopenm_1_1_run_options.html">RunOptions</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_model.html#a2a6bbfdde65f5129980084a5687a00d5">runOptions</a> (void) const =0</td></tr>
@@ -118,7 +118,7 @@ virtual const <a class="el" href="structopenm_1_1_run_options.html">RunOptions</
 <tr class="separator:a2a6bbfdde65f5129980084a5687a00d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99b704f656180c602e4ee99fb3687cc2"><td class="memItemLeft" align="right" valign="top"><a id="a99b704f656180c602e4ee99fb3687cc2"></a>
 virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_model.html#a99b704f656180c602e4ee99fb3687cc2">parameterSubValueIndex</a> (const char *i_name) const =0</td></tr>
-<tr class="memdesc:a99b704f656180c602e4ee99fb3687cc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">return index of parameter sub-value in the array of sub-values, used to find thread local parameter values <br /></td></tr>
+<tr class="memdesc:a99b704f656180c602e4ee99fb3687cc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">return index of parameter sub-value in the storage array for current modeling thread <br /></td></tr>
 <tr class="separator:a99b704f656180c602e4ee99fb3687cc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17d5d0ef5891bd80a323ae3f4b06a6a2"><td class="memItemLeft" align="right" valign="top"><a id="a17d5d0ef5891bd80a323ae3f4b06a6a2"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_model.html#a17d5d0ef5891bd80a323ae3f4b06a6a2">writeOutputTable</a> (const char *i_name, size_t i_size, forward_list&lt; unique_ptr&lt; double &gt; &gt; &amp;io_accValues)=0</td></tr>
@@ -141,7 +141,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceopenm.html">openm</a></li><li class="navelem"><a class="el" href="structopenm_1_1_i_model.html">IModel</a></li>
-    <li class="footer">Generated on Fri Sep 20 2019 16:56:09 for OpenM++ runtime library (libopenm) by
+    <li class="footer">Generated on Fri Nov 15 2019 13:10:47 for OpenM++ runtime library (libopenm) by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

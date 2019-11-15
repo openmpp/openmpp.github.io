@@ -1,6 +1,9 @@
 var structopenm_1_1_meta_holder =
 [
     [ "MetaHolder", "structopenm_1_1_meta_holder.html#a74132319dff62c82128abcbd17acbea1", null ],
+    [ "accumulatorSize", "structopenm_1_1_meta_holder.html#ab44860e71ee9d1f0e809a9e9c2e4f46c", null ],
+    [ "parameterSize", "structopenm_1_1_meta_holder.html#a34632c489f8fd74d9283d3b21eee89b6", null ],
+    [ "typeEnumsSize", "structopenm_1_1_meta_holder.html#ac356f321e034ff4940d72675bf3c04bc", null ],
     [ "modelRow", "structopenm_1_1_meta_holder.html#a6034caf31fe1b9657af3930b3ddbcec5", null ],
     [ "modelTable", "structopenm_1_1_meta_holder.html#a2c16296027051a5ebdec3ac50ea6fa61", null ],
     [ "paramDic", "structopenm_1_1_meta_holder.html#a36809a3cc2baaceec3919f1398e2cb07", null ],

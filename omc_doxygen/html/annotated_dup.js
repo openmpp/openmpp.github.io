@@ -60,6 +60,7 @@ var annotated_dup =
     [ "GroupSymbol", "class_group_symbol.html", "class_group_symbol" ],
     [ "HideGroupSymbol", "class_hide_group_symbol.html", "class_hide_group_symbol" ],
     [ "IdentityAttributeSymbol", "class_identity_attribute_symbol.html", "class_identity_attribute_symbol" ],
+    [ "ImportSymbol", "class_import_symbol.html", "class_import_symbol" ],
     [ "IntegerLiteral", "class_integer_literal.html", "class_integer_literal" ],
     [ "LanguageSymbol", "class_language_symbol.html", "class_language_symbol" ],
     [ "LinkAttributeSymbol", "class_link_attribute_symbol.html", "class_link_attribute_symbol" ],

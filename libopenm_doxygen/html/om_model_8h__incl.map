@@ -1,6 +1,7 @@
 <map id="C:/om_git/include/libopenm/omModel.h" name="C:/om_git/include/libopenm/omModel.h">
 <area shape="rect" id="node8" href="$om_model_run_state_8h.html" title="OpenM++ modeling library: model run state public interface. " alt="" coords="515,95,655,121"/>
-<area shape="rect" id="node26" href="$om_log_8h.html" title="OpenM++: public interface for log and trace support. " alt="" coords="1407,169,1479,196"/>
+<area shape="rect" id="node26" href="$om_log_8h.html" title="OpenM++: public interface for log and trace support. " alt="" coords="1399,169,1471,196"/>
 <area shape="rect" id="node28" href="$om_error_8h.html" title="OpenM++: public interface for errors and exceptions. " alt="" coords="679,95,758,121"/>
+<area shape="rect" id="node30" href="$om_version_8h.html" title="OpenM++: runtime version. " alt="" coords="834,95,929,121"/>
 <area shape="rect" id="node10" href="$om_helper_8h.html" title="OpenM++ common helper utilities. " alt="" coords="641,169,783,196"/>
 </map>

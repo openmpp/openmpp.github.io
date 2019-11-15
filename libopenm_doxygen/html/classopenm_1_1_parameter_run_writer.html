@@ -119,9 +119,9 @@ Public Member Functions</h2></td></tr>
 virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_parameter_run_writer.html#a7fbe49a9072ac84f87688f28136349e0">sizeOf</a> (void) const noexcept override</td></tr>
 <tr class="memdesc:a7fbe49a9072ac84f87688f28136349e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">return input parameter size: total number of values in the table <br /></td></tr>
 <tr class="separator:a7fbe49a9072ac84f87688f28136349e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f4d9d3c665bb50fbc2763bcc0064459"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_parameter_run_writer.html#a7f4d9d3c665bb50fbc2763bcc0064459">loadCsvParameter</a> (<a class="el" href="classopenm_1_1_i_db_exec.html">IDbExec</a> *i_dbExec, int i_paramSubCount, const char *i_filePath, bool i_isIdCsv=false) override</td></tr>
-<tr class="memdesc:a7f4d9d3c665bb50fbc2763bcc0064459"><td class="mdescLeft">&#160;</td><td class="mdescRight">load parameter values from csv file into run table.  <a href="#a7f4d9d3c665bb50fbc2763bcc0064459">More...</a><br /></td></tr>
-<tr class="separator:a7f4d9d3c665bb50fbc2763bcc0064459"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6aaf10cf5b13ea7c84516a97af6fe28"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_parameter_run_writer.html#af6aaf10cf5b13ea7c84516a97af6fe28">loadCsvParameter</a> (<a class="el" href="classopenm_1_1_i_db_exec.html">IDbExec</a> *i_dbExec, const vector&lt; int &gt; &amp;i_subIdArr, const char *i_filePath, bool i_isIdCsv=false) override</td></tr>
+<tr class="memdesc:af6aaf10cf5b13ea7c84516a97af6fe28"><td class="mdescLeft">&#160;</td><td class="mdescRight">load parameter values from csv file into run table.  <a href="#af6aaf10cf5b13ea7c84516a97af6fe28">More...</a><br /></td></tr>
+<tr class="separator:af6aaf10cf5b13ea7c84516a97af6fe28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a280da4d5b49a79906f32f131432a9ab4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_parameter_run_writer.html#a280da4d5b49a79906f32f131432a9ab4">digestParameter</a> (<a class="el" href="classopenm_1_1_i_db_exec.html">IDbExec</a> *i_dbExec, int i_paramSubCount, const type_info &amp;i_type) override</td></tr>
 <tr class="memdesc:a280da4d5b49a79906f32f131432a9ab4"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculate run parameter values digest and store only single copy of parameter values.  <a href="#a280da4d5b49a79906f32f131432a9ab4">More...</a><br /></td></tr>
 <tr class="separator:a280da4d5b49a79906f32f131432a9ab4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -224,8 +224,8 @@ vector&lt; vector&lt; <a class="el" href="structopenm_1_1_type_enum_lst_row.html
 
 </div>
 </div>
-<a id="a7f4d9d3c665bb50fbc2763bcc0064459"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f4d9d3c665bb50fbc2763bcc0064459">&#9670;&nbsp;</a></span>loadCsvParameter()</h2>
+<a id="af6aaf10cf5b13ea7c84516a97af6fe28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6aaf10cf5b13ea7c84516a97af6fe28">&#9670;&nbsp;</a></span>loadCsvParameter()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -242,8 +242,8 @@ vector&lt; vector&lt; <a class="el" href="structopenm_1_1_type_enum_lst_row.html
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>i_paramSubCount</em>, </td>
+          <td class="paramtype">const vector&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>i_subIdArr</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -274,14 +274,14 @@ vector&lt; vector&lt; <a class="el" href="structopenm_1_1_type_enum_lst_row.html
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">i_dbExec</td><td>database connection </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">i_paramSubCount</td><td>number of parameter sub-values </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i_subIdArr</td><td>sub-value id's to select from csv </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">i_filePath</td><td>path to parameter.csv file </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">i_isIdCsv</td><td>if true then create csv file contains enum id's, default: enum code </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="structopenm_1_1_i_parameter_run_writer.html#a42a033dc0ddc5907831307eac8769778">openm::IParameterRunWriter</a>.</p>
+<p>Implements <a class="el" href="structopenm_1_1_i_parameter_run_writer.html#af85bf3d77191e4c9b06ce83c292074ff">openm::IParameterRunWriter</a>.</p>
 
 </div>
 </div>
@@ -294,7 +294,7 @@ vector&lt; vector&lt; <a class="el" href="structopenm_1_1_type_enum_lst_row.html
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceopenm.html">openm</a></li><li class="navelem"><a class="el" href="classopenm_1_1_parameter_run_writer.html">ParameterRunWriter</a></li>
-    <li class="footer">Generated on Fri Sep 20 2019 16:56:15 for OpenM++ runtime library (libopenm) by
+    <li class="footer">Generated on Fri Nov 15 2019 13:10:52 for OpenM++ runtime library (libopenm) by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

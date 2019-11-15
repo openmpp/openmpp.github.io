@@ -116,10 +116,11 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <tr class="separator:a22db03324ed3a1336df00f259d8e3309"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc53a6f48ca13a6acc2352da49934316"><td class="memItemLeft" align="right" valign="top"><a id="acc53a6f48ca13a6acc2352da49934316"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_model_base.html#acc53a6f48ca13a6acc2352da49934316">subValueId</a> (void) const noexcept override</td></tr>
-<tr class="memdesc:acc53a6f48ca13a6acc2352da49934316"><td class="mdescLeft">&#160;</td><td class="mdescRight">sub-value index of current modeling process <br /></td></tr>
+<tr class="memdesc:acc53a6f48ca13a6acc2352da49934316"><td class="mdescLeft">&#160;</td><td class="mdescRight">sub-value index of current modeling thread <br /></td></tr>
 <tr class="separator:acc53a6f48ca13a6acc2352da49934316"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab07b4aa0d1ab0015db960c360e0fb66f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_model_base.html#ab07b4aa0d1ab0015db960c360e0fb66f">parameterSubValueIndex</a> (const char *i_name) const override</td></tr>
-<tr class="memdesc:ab07b4aa0d1ab0015db960c360e0fb66f"><td class="mdescLeft">&#160;</td><td class="mdescRight">return index of parameter sub-value in the array of sub-values, used to find thread local parameter values  <a href="#ab07b4aa0d1ab0015db960c360e0fb66f">More...</a><br /></td></tr>
+<tr class="memitem:ab07b4aa0d1ab0015db960c360e0fb66f"><td class="memItemLeft" align="right" valign="top"><a id="ab07b4aa0d1ab0015db960c360e0fb66f"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_model_base.html#ab07b4aa0d1ab0015db960c360e0fb66f">parameterSubValueIndex</a> (const char *i_name) const override</td></tr>
+<tr class="memdesc:ab07b4aa0d1ab0015db960c360e0fb66f"><td class="mdescLeft">&#160;</td><td class="mdescRight">return index of parameter sub-value in the storage array for current modeling thread <br /></td></tr>
 <tr class="separator:ab07b4aa0d1ab0015db960c360e0fb66f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5b8051ced63ac8ff5931be0a4447a55"><td class="memItemLeft" align="right" valign="top"><a id="ae5b8051ced63ac8ff5931be0a4447a55"></a>
 const <a class="el" href="structopenm_1_1_run_options.html">RunOptions</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_model_base.html#ae5b8051ced63ac8ff5931be0a4447a55">runOptions</a> (void) const override</td></tr>
@@ -204,37 +205,6 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ab07b4aa0d1ab0015db960c360e0fb66f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab07b4aa0d1ab0015db960c360e0fb66f">&#9670;&nbsp;</a></span>parameterSubValueIndex()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int ModelBase::parameterSubValueIndex </td>
-          <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>i_name</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>return index of parameter sub-value in the array of sub-values, used to find thread local parameter values </p>
-<p>return index of parameter sub-value in the storage array, used to find thread local parameter values </p>
-
-<p>Implements <a class="el" href="structopenm_1_1_i_model.html#a99b704f656180c602e4ee99fb3687cc2">openm::IModel</a>.</p>
-
-</div>
-</div>
 <a id="aaec725cb2327bf6059fc2f17032dc3db"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaec725cb2327bf6059fc2f17032dc3db">&#9670;&nbsp;</a></span>writeOutputTable()</h2>
 
@@ -300,7 +270,7 @@ Static Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceopenm.html">openm</a></li><li class="navelem"><a class="el" href="classopenm_1_1_model_base.html">ModelBase</a></li>
-    <li class="footer">Generated on Fri Sep 20 2019 16:56:13 for OpenM++ runtime library (libopenm) by
+    <li class="footer">Generated on Fri Nov 15 2019 13:10:50 for OpenM++ runtime library (libopenm) by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

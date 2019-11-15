@@ -77,6 +77,7 @@ var hierarchy =
         [ "ParameterGroupSymbol", "class_parameter_group_symbol.html", null ],
         [ "TableGroupSymbol", "class_table_group_symbol.html", null ]
       ] ],
+      [ "ImportSymbol", "class_import_symbol.html", null ],
       [ "LanguageSymbol", "class_language_symbol.html", null ],
       [ "LinkToAttributeSymbol", "class_link_to_attribute_symbol.html", null ],
       [ "ModelSymbol", "class_model_symbol.html", null ],

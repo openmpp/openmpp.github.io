@@ -1,6 +1,11 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classopenm_1_1_i_msg_exec.html" title="public interface for message passing " alt="" coords="19,5,146,32"/>
-<area shape="rect" id="node2" href="$classopenm_1_1_mpi_exec.html" title="message passing library main class for MPI&#45;based implementation " alt="" coords="229,5,349,32"/>
-<area shape="rect" id="node3" href="$classopenm_1_1_msg_empty_exec.html" title="message passing main class. " alt="" coords="208,56,371,83"/>
-<area shape="rect" id="node4" href="$classopenm_1_1_msg_exec_base.html" title="message passing base class " alt="" coords="5,56,160,83"/>
+<area shape="rect" id="node1" href="$classopenm_1_1_i_msg_send.html" title="public interface for message sender " alt="" coords="5,81,132,108"/>
+<area shape="rect" id="node2" href="$classopenm_1_1_i_msg_send_array.html" title="public interface to send value array " alt="" coords="197,56,355,83"/>
+<area shape="rect" id="node5" href="$classopenm_1_1_i_msg_send_packed.html" title="public interface to send packed data. " alt="" coords="191,107,361,133"/>
+<area shape="rect" id="node3" href="$classopenm_1_1_mpi_send_array.html" title="non&#45;blocking MPI send of value array " alt="" coords="448,5,599,32"/>
+<area shape="rect" id="node4" href="$classopenm_1_1_msg_empty_send_array.html" title="non&#45;blocking send of value array (empty implementation) " alt="" coords="427,107,620,133"/>
+<area shape="rect" id="node6" href="$classopenm_1_1_mpi_send_packed.html" title="non&#45;blocking MPI send of packed data " alt="" coords="441,56,605,83"/>
+<area shape="rect" id="node7" href="$classopenm_1_1_msg_empty_send_packed.html" title="non&#45;blocking send of packed data (empty implementation) " alt="" coords="420,157,627,184"/>
+<area shape="rect" id="node8" href="$classopenm_1_1_mpi_send_base.html" title="base class for non&#45;blocking MPI send " alt="" coords="201,5,351,32"/>
+<area shape="rect" id="node9" href="$classopenm_1_1_msg_empty_send_base.html" title="base class for non&#45;blocking send (empty implementation) " alt="" coords="180,157,372,184"/>
 </map>

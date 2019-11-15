@@ -1,4 +1,4 @@
-<map id="db/dbValue.h" name="db/dbValue.h">
+<map id="include/dbValue.h" name="include/dbValue.h">
 <area shape="rect" id="node2" href="$db_common_8h.html" title="OpenM++ data library: public interface for db common structures. " alt="" coords="576,80,749,107"/>
 <area shape="rect" id="node25" href="$helper_8h.html" title="OpenM++ common helper utilities. " alt="" coords="774,80,842,107"/>
 <area shape="rect" id="node26" href="$md5_8h_source.html" title="md5.h" alt="" coords="877,80,936,107"/>

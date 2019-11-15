@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['sample_5fdimension_5fopt',['sample_dimension_opt',['../class_import_symbol.html#aec7e493d3a16081333fe373b50739846',1,'ImportSymbol']]],
   ['scale',['scale',['../class_table_measure_symbol.html#a9eff50a4a2146e07de67b77a3dd22eeb',1,'TableMeasureSymbol']]],
   ['scenarioname',['scenarioName',['../structopenm_1_1_omc_arg_key.html#a85b89e82af2af22a250bc17f3b050c96',1,'openm::OmcArgKey::scenarioName()'],['../structopenm_1_1_omc_short_key.html#a4064b14e4323e4f9e6853e302dc767c7',1,'openm::OmcShortKey::scenarioName()']]],
   ['side_5feffects_5ffn',['side_effects_fn',['../class_attribute_symbol.html#a87d56b2c55f9bf2d8215800c841e96b9',1,'AttributeSymbol::side_effects_fn()'],['../class_entity_multilink_symbol.html#ac2435e250b27cc27d2420e89a47fb439',1,'EntityMultilinkSymbol::side_effects_fn()']]],

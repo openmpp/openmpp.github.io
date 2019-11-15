@@ -1,9 +1,11 @@
 <map id="ParameterSymbol.h" name="ParameterSymbol.h">
-<area shape="rect" id="node2" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model. ..." alt="" coords="31,80,81,107"/>
-<area shape="rect" id="node4" href="$_extend_parameter_symbol_8cpp.html" title="Definitions for the ExtendParameterSymbol class. " alt="" coords="105,80,297,107"/>
-<area shape="rect" id="node5" href="$_hide_group_symbol_8cpp.html" title="Definitions for the HideGroupSymbol class. " alt="" coords="321,80,473,107"/>
-<area shape="rect" id="node6" href="$_model_symbol_8cpp.html" title="Definitions for the ModelSymbol class. " alt="" coords="498,80,625,107"/>
-<area shape="rect" id="node7" href="$omc_8cpp.html" title="OpenM++ compiler (omc): main entry point. " alt="" coords="649,80,721,107"/>
-<area shape="rect" id="node8" href="$_symbol_8cpp.html" title="Definitions for the Symbol class. " alt="" coords="745,80,836,107"/>
-<area shape="rect" id="node3" href="$_code_gen_8cpp.html" title="Implements the code generation class. " alt="" coords="5,155,107,181"/>
+<area shape="rect" id="node2" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model. ..." alt="" coords="31,155,81,181"/>
+<area shape="rect" id="node4" href="$_import_symbol_8h.html" title="Declarations for the ImportSymbol class. " alt="" coords="113,80,226,107"/>
+<area shape="rect" id="node6" href="$_symbol_8cpp.html" title="Definitions for the Symbol class. " alt="" coords="257,155,348,181"/>
+<area shape="rect" id="node7" href="$_extend_parameter_symbol_8cpp.html" title="Definitions for the ExtendParameterSymbol class. " alt="" coords="301,80,493,107"/>
+<area shape="rect" id="node8" href="$_hide_group_symbol_8cpp.html" title="Definitions for the HideGroupSymbol class. " alt="" coords="517,80,669,107"/>
+<area shape="rect" id="node9" href="$_model_symbol_8cpp.html" title="Definitions for the ModelSymbol class. " alt="" coords="694,80,821,107"/>
+<area shape="rect" id="node10" href="$omc_8cpp.html" title="OpenM++ compiler (omc): main entry point. " alt="" coords="845,80,917,107"/>
+<area shape="rect" id="node3" href="$_code_gen_8cpp.html" title="Implements the code generation class. " alt="" coords="5,229,107,256"/>
+<area shape="rect" id="node5" href="$_import_symbol_8cpp.html" title="Definitions for the ImportSymbol class. " alt="" coords="106,155,233,181"/>
 </map>

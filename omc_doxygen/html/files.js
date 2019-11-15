@@ -167,6 +167,10 @@ var files =
     [ "IdentityAttributeSymbol.h", "_identity_attribute_symbol_8h.html", [
       [ "IdentityAttributeSymbol", "class_identity_attribute_symbol.html", "class_identity_attribute_symbol" ]
     ] ],
+    [ "ImportSymbol.cpp", "_import_symbol_8cpp.html", null ],
+    [ "ImportSymbol.h", "_import_symbol_8h.html", [
+      [ "ImportSymbol", "class_import_symbol.html", "class_import_symbol" ]
+    ] ],
     [ "LanguageSymbol.cpp", "_language_symbol_8cpp.html", null ],
     [ "LanguageSymbol.h", "_language_symbol_8h.html", [
       [ "LanguageSymbol", "class_language_symbol.html", "class_language_symbol" ]
