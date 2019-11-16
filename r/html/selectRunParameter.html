@@ -67,7 +67,7 @@ selectRunParameter(dbCon, defRs, runId, paramName)
 <table summary="R valueblock">
 <tr valign="top"><td><code>sub_id</code></td>
 <td>
-<p> parameter sub-value index or zero if parameter has no sub-values </p>
+<p> parameter sub-value id or zero if parameter has no sub-values </p>
 </td></tr>
 <tr valign="top"><td><code>dim0,...,dimN</code></td>
 <td>
@@ -100,11 +100,11 @@ selectRunParameter(dbCon, defRs, runId, paramName)
 
 <h3>See Also</h3>
 
-<p><code><a href="getModel.html">getModel</a></code>
-<code><a href="getFistRunId.html">getFirstRunId</a></code>
-<code><a href="getLastRunId.html">getLastRunId</a></code>
-<code><a href="selectRunAccumulator.html">selectRunAccumulator</a></code>
-<code><a href="selectRunOutputValue.html">selectRunOutputValue</a></code>
+<p><code><a href="http://localhost:8787/help/library/openMpp/help/getModel">getModel</a></code>
+<code><a href="http://localhost:8787/help/library/openMpp/help/getFirstRunId">getFirstRunId</a></code>
+<code><a href="http://localhost:8787/help/library/openMpp/help/getLastRunId">getLastRunId</a></code>
+<code><a href="http://localhost:8787/help/library/openMpp/help/selectRunAccumulator">selectRunAccumulator</a></code>
+<code><a href="http://localhost:8787/help/library/openMpp/help/selectRunOutputValue">selectRunOutputValue</a></code>
 </p>
 
 
@@ -136,5 +136,10 @@ selectRunParameter(dbCon, defRs, runId, paramName)
   dbDisconnect(theDb)
 </pre>
 
-<hr /><div style="text-align: center;">[Package <em>openMpp</em> version 0.8.1 <a href="00Index.html">Index</a>]</div>
-</body></html>
+<hr /><div style="text-align: center;">[Package <em>openMpp</em> version 0.8.3 <a href="00Index.html">Index</a>]</div>
+</body></html><script type="text/javascript">
+if (window.parent.helpNavigated)
+   window.parent.helpNavigated(document, window);
+if (window.parent.helpKeydown)
+   window.onkeydown = function(e) {window.parent.helpKeydown(e);}
+</script>

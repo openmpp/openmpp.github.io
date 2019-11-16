@@ -58,7 +58,7 @@ updateWorksetParameter(dbCon, defRs, worksetId, ...)
 <li> <p><code>$subCount</code> (optional) number of parameter sub-values, default: 1
 </p>
 </li>
-<li><p>subId (optional) parameter sub-value index, default: 0
+<li> <p><code>subId</code> (optional) parameter sub-value id, default: 0
 </p>
 </li>
 <li> <p><code>$value</code> (optional) parameter value
@@ -83,7 +83,7 @@ data frame with $lang = language code and $note = value notes
 <p>That call allow you to update input parameter value and value notes in specific workset.
 </p>
 <p>Parameter(s) can have can have multiple sub-values (by default only one value, no sub-values).
-If parameter have multiple sub-values then you can specify sub-value index as $subId (default =0).
+If parameter have multiple sub-values then you can specify sub-value id as $subId (default =0).
 </p>
 <p>Workset is a working set of model parameters and can be a full set, 
 which include values of all model parameters or subset and include only some parameters.
@@ -96,17 +96,17 @@ Default workset always include ALL model parameters (it is a full set).
 then you must pass ALL model parameters into <code>createWorkset</code> through ... argument list. 
 </p>
 <p>If you already have result of model run in your database 
-and want to modify only some input parameters (subset) then call <code><a href="createWorksetBasedOnRun.html">createWorksetBasedOnRun</a></code> 
+and want to modify only some input parameters (subset) then call <code><a href="http://localhost:8787/help/library/openMpp/help/createWorksetBasedOnRun">createWorksetBasedOnRun</a></code> 
 in order to create workset using parameters from previous model run and supply some new values. 
 </p>
 <p>You can create subset of model parameters ONLY based on existing run results. 
 Otherwise you have to pass ALL (full set) of parameters in order to create workset.
 </p>
 <p>Each workset has unique set id (positive integer) and unique name. 
-To find set id by name use <code><a href="getWorksetIdByName.html">getWorksetIdByName</a></code> call.
+To find set id by name use <code><a href="http://localhost:8787/help/library/openMpp/help/getWorksetIdByName">getWorksetIdByName</a></code> call.
 </p>
-<p>Working set must be not read-only in order to update parameters by <code><a href="updateWorksetParameter.html">updateWorksetParameter</a></code>.
-And working set must be read-only to run the model, so, typically you want to wrap <code><a href="updateWorksetParameter.html">updateWorksetParameter</a></code>
+<p>Working set must be not read-only in order to update parameters by <code><a href="http://localhost:8787/help/library/openMpp/help/updateWorksetParameter">updateWorksetParameter</a></code>.
+And working set must be read-only to run the model, so, typically you want to wrap <code><a href="http://localhost:8787/help/library/openMpp/help/updateWorksetParameter">updateWorksetParameter</a></code>
 by <code>setReadonlyDefaultWorkset</code> or <code>setReadonlyWorkset</code> calls.
 </p>
 <p>You must use <code>getModel</code> function in order to find model definition <code>defRs</code>.
@@ -139,14 +139,14 @@ by <code>setReadonlyDefaultWorkset</code> or <code>setReadonlyWorkset</code> cal
 
 <h3>See Also</h3>
 
-<p><code><a href="getModel.html">getModel</a></code>
-<code><a href="getDefaultWorksetId.html">getDefaultWorksetId</a></code>
-<code><a href="getWorksetIdByName.html">getWorksetIdByName</a></code>
-<code><a href="createWorkset.html">createWorkset</a></code>
-<code><a href="createWorksetBasedOnRun.html">createWorksetBasedOnRun</a></code>
-<code><a href="copyWorksetParameterFromRun.html">copyWorksetParameterFromRun</a></code>
-<code><a href="setReadonlyWorkset.html">setReadonlyWorkset</a></code>
-<code><a href="setReadonlyDefaultWorkset.html">setReadonlyDefaultWorkset</a></code>
+<p><code><a href="http://localhost:8787/help/library/openMpp/help/getModel">getModel</a></code>
+<code><a href="http://localhost:8787/help/library/openMpp/help/getDefaultWorksetId">getDefaultWorksetId</a></code>
+<code><a href="http://localhost:8787/help/library/openMpp/help/getWorksetIdByName">getWorksetIdByName</a></code>
+<code><a href="http://localhost:8787/help/library/openMpp/help/createWorkset">createWorkset</a></code>
+<code><a href="http://localhost:8787/help/library/openMpp/help/createWorksetBasedOnRun">createWorksetBasedOnRun</a></code>
+<code><a href="http://localhost:8787/help/library/openMpp/help/copyWorksetParameterFromRun">copyWorksetParameterFromRun</a></code>
+<code><a href="http://localhost:8787/help/library/openMpp/help/setReadonlyWorkset">setReadonlyWorkset</a></code>
+<code><a href="http://localhost:8787/help/library/openMpp/help/setReadonlyDefaultWorkset">setReadonlyDefaultWorkset</a></code>
 </p>
 
 
@@ -201,5 +201,10 @@ by <code>setReadonlyDefaultWorkset</code> or <code>setReadonlyWorkset</code> cal
   #
 </pre>
 
-<hr /><div style="text-align: center;">[Package <em>openMpp</em> version 0.8.1 <a href="00Index.html">Index</a>]</div>
-</body></html>
+<hr /><div style="text-align: center;">[Package <em>openMpp</em> version 0.8.3 <a href="00Index.html">Index</a>]</div>
+</body></html><script type="text/javascript">
+if (window.parent.helpNavigated)
+   window.parent.helpNavigated(document, window);
+if (window.parent.helpKeydown)
+   window.onkeydown = function(e) {window.parent.helpKeydown(e);}
+</script>
