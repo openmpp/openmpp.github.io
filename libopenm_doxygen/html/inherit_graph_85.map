@@ -1,3 +1,8 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structopenm_1_1_run_group.html" title="openm::RunGroup" alt="" coords="5,5,132,32"/>
+<area shape="rect" id="node1" href="$structopenm_1_1_i_output_table_reader.html" title="output table reader public interface " alt="" coords="5,56,188,83"/>
+<area shape="rect" id="node2" href="$structopenm_1_1_i_output_table_acc_reader.html" title="output table accumulators reader public interface " alt="" coords="238,5,445,32"/>
+<area shape="rect" id="node4" href="$structopenm_1_1_i_output_table_expr_reader.html" title="output table expressions reader public interface " alt="" coords="236,107,447,133"/>
+<area shape="rect" id="node3" href="$classopenm_1_1_output_table_acc_reader.html" title="openm::OutputTableAccReader" alt="" coords="497,31,699,57"/>
+<area shape="rect" id="node5" href="$classopenm_1_1_output_table_expr_reader.html" title="openm::OutputTableExprReader" alt="" coords="495,93,701,120"/>
+<area shape="rect" id="node6" href="$classopenm_1_1_output_table_reader.html" title="output table reader base class " alt="" coords="251,56,431,83"/>
 </map>

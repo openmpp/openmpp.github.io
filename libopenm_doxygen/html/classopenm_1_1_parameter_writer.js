@@ -2,6 +2,7 @@ var classopenm_1_1_parameter_writer =
 [
     [ "ParameterWriter", "classopenm_1_1_parameter_writer.html#a2481ca117071f3417b519ce7dae6c88d", null ],
     [ "~ParameterWriter", "classopenm_1_1_parameter_writer.html#a08a21639be5238b49f6bf2ff49ec8248", null ],
+    [ "writeParameter", "classopenm_1_1_parameter_writer.html#af886484927c3ceed8e53e494f9247d2f", null ],
     [ "dimCount", "classopenm_1_1_parameter_writer.html#a095d6d01b205495a436e90d354dbe4aa", null ],
     [ "dimEnums", "classopenm_1_1_parameter_writer.html#a7569265470b1171a6b57678ff1aecd09", null ],
     [ "dimSizeVec", "classopenm_1_1_parameter_writer.html#aebdb8d6ae56afd69612cf873db42a6e8", null ],

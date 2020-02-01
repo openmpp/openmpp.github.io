@@ -87,16 +87,17 @@ $(document).ready(function(){initNavTree('structopenm_1_1_i_parameter_run_writer
 <p>This is the complete list of members for <a class="el" href="structopenm_1_1_i_parameter_run_writer.html">openm::IParameterRunWriter</a>, including all inherited members.</p>
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="structopenm_1_1_i_parameter_run_writer.html#aa3790c35e8ce3867566c2f04070ed70b">create</a>(int i_runId, const char *i_name, IDbExec *i_dbExec, const MetaHolder *i_metaStore, const char *i_doubleFormat=&quot;&quot;)</td><td class="entry"><a class="el" href="structopenm_1_1_i_parameter_run_writer.html">openm::IParameterRunWriter</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr><td class="entry"><a class="el" href="structopenm_1_1_i_parameter_run_writer.html#ae9118f7e8f5d3cf2e626bfbc6bc0d60b">digestParameter</a>(IDbExec *i_dbExec, int i_paramSubCount, const type_info &amp;i_type)=0</td><td class="entry"><a class="el" href="structopenm_1_1_i_parameter_run_writer.html">openm::IParameterRunWriter</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="structopenm_1_1_i_parameter_run_writer.html#a0207a383626d1bff0fbbefc9b4421d5f">digestParameter</a>(IDbExec *i_dbExec, int i_subCount, const type_info &amp;i_type)=0</td><td class="entry"><a class="el" href="structopenm_1_1_i_parameter_run_writer.html">openm::IParameterRunWriter</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="structopenm_1_1_i_parameter_run_writer.html#af85bf3d77191e4c9b06ce83c292074ff">loadCsvParameter</a>(IDbExec *i_dbExec, const vector&lt; int &gt; &amp;i_subIdArr, const char *i_filePath, bool i_isIdCsv=false)=0</td><td class="entry"><a class="el" href="structopenm_1_1_i_parameter_run_writer.html">openm::IParameterRunWriter</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="structopenm_1_1_i_parameter_run_writer.html#a83fc90562dd330bf1e72a41e5d9df317">sizeOf</a>(void) const noexcept=0</td><td class="entry"><a class="el" href="structopenm_1_1_i_parameter_run_writer.html">openm::IParameterRunWriter</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>~IParameterRunWriter</b>() noexcept=0 (defined in <a class="el" href="structopenm_1_1_i_parameter_run_writer.html">openm::IParameterRunWriter</a>)</td><td class="entry"><a class="el" href="structopenm_1_1_i_parameter_run_writer.html">openm::IParameterRunWriter</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="structopenm_1_1_i_parameter_run_writer.html#a0339f5c9a1d22ec4ddd81bbc969ed613">writeParameter</a>(IDbExec *i_dbExec, const type_info &amp;i_type, int i_subCount, size_t i_size, void *i_valueArr)=0</td><td class="entry"><a class="el" href="structopenm_1_1_i_parameter_run_writer.html">openm::IParameterRunWriter</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr bgcolor="#f0f0f0"><td class="entry"><b>~IParameterRunWriter</b>() noexcept=0 (defined in <a class="el" href="structopenm_1_1_i_parameter_run_writer.html">openm::IParameterRunWriter</a>)</td><td class="entry"><a class="el" href="structopenm_1_1_i_parameter_run_writer.html">openm::IParameterRunWriter</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Nov 15 2019 13:10:48 for OpenM++ runtime library (libopenm) by
+    <li class="footer">Generated on Sat Feb 1 2020 14:56:07 for OpenM++ runtime library (libopenm) by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

@@ -16,6 +16,7 @@ var db_meta_row_8h =
     [ "TypeEnumTxtRow", "structopenm_1_1_type_enum_txt_row.html", "structopenm_1_1_type_enum_txt_row" ],
     [ "TypeEnumTxtLangRow", "structopenm_1_1_type_enum_txt_lang_row.html", "structopenm_1_1_type_enum_txt_lang_row" ],
     [ "ParamDicRow", "structopenm_1_1_param_dic_row.html", "structopenm_1_1_param_dic_row" ],
+    [ "ParamImportRow", "structopenm_1_1_param_import_row.html", "structopenm_1_1_param_import_row" ],
     [ "ParamDicTxtRow", "structopenm_1_1_param_dic_txt_row.html", "structopenm_1_1_param_dic_txt_row" ],
     [ "ParamDicTxtLangRow", "structopenm_1_1_param_dic_txt_lang_row.html", "structopenm_1_1_param_dic_txt_lang_row" ],
     [ "ParamDimsRow", "structopenm_1_1_param_dims_row.html", "structopenm_1_1_param_dims_row" ],

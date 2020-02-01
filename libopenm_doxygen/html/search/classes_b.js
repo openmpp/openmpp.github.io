@@ -6,6 +6,7 @@ var searchData=
   ['rowmpipackedadapter',['RowMpiPackedAdapter',['../structopenm_1_1_row_mpi_packed_adapter.html',1,'openm']]],
   ['runcontroller',['RunController',['../classopenm_1_1_run_controller.html',1,'openm']]],
   ['rungroup',['RunGroup',['../structopenm_1_1_run_group.html',1,'openm']]],
+  ['runimportopts',['RunImportOpts',['../structopenm_1_1_meta_loader_1_1_run_import_opts.html',1,'openm::MetaLoader']]],
   ['runlstrow',['RunLstRow',['../structopenm_1_1_run_lst_row.html',1,'openm']]],
   ['runlstrowadapter',['RunLstRowAdapter',['../classopenm_1_1_run_lst_row_adapter.html',1,'openm']]],
   ['runlsttable',['RunLstTable',['../classopenm_1_1_run_lst_table.html',1,'openm']]],

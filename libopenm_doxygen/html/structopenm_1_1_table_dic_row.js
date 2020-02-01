@@ -8,6 +8,8 @@ var structopenm_1_1_table_dic_row =
     [ "dbExprTable", "structopenm_1_1_table_dic_row.html#ad9122a018592137efac391f8d3354eed", null ],
     [ "digest", "structopenm_1_1_table_dic_row.html#a56add0ad48d183668fc634bcd0562ba4", null ],
     [ "exprPos", "structopenm_1_1_table_dic_row.html#abd4da0303b579b413a72a038f0addc98", null ],
+    [ "importDigest", "structopenm_1_1_table_dic_row.html#a4004d1730a3a9251efcfe77d44335f29", null ],
+    [ "isHidden", "structopenm_1_1_table_dic_row.html#abd04ccd794186a4dbd3b10a9a7bc561f", null ],
     [ "isSparse", "structopenm_1_1_table_dic_row.html#ad0400b69ad90c7a4d12daf4ef4b19363", null ],
     [ "isUser", "structopenm_1_1_table_dic_row.html#af27ab8692c2bc4c5786f3a062aa49362", null ],
     [ "modelId", "structopenm_1_1_table_dic_row.html#a1962eab986a0e1abb50fba5f22fd6b2d", null ],

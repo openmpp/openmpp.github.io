@@ -103,11 +103,11 @@ Inheritance diagram for openm::IParameterSetWriter:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a89949bb7e24580e03da4dc02732d9007"><td class="memItemLeft" align="right" valign="top"><a id="a89949bb7e24580e03da4dc02732d9007"></a>
 virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_parameter_set_writer.html#a89949bb7e24580e03da4dc02732d9007">sizeOf</a> (void) const noexcept=0</td></tr>
-<tr class="memdesc:a89949bb7e24580e03da4dc02732d9007"><td class="mdescLeft">&#160;</td><td class="mdescRight">return input parameter size: total number of values in the table <br /></td></tr>
+<tr class="memdesc:a89949bb7e24580e03da4dc02732d9007"><td class="mdescLeft">&#160;</td><td class="mdescRight">return input parameter size for single sub value <br /></td></tr>
 <tr class="separator:a89949bb7e24580e03da4dc02732d9007"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45630d3e695209deb2ddc98ed4b93c4f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_parameter_set_writer.html#a45630d3e695209deb2ddc98ed4b93c4f">writeParameter</a> (<a class="el" href="classopenm_1_1_i_db_exec.html">IDbExec</a> *i_dbExec, int i_subId, const type_info &amp;i_type, size_t i_size, void *i_valueArr)=0</td></tr>
-<tr class="memdesc:a45630d3e695209deb2ddc98ed4b93c4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">write input parameter values.  <a href="#a45630d3e695209deb2ddc98ed4b93c4f">More...</a><br /></td></tr>
-<tr class="separator:a45630d3e695209deb2ddc98ed4b93c4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb1b219f7f42e5401a7bf4875e5b8073"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_parameter_set_writer.html#afb1b219f7f42e5401a7bf4875e5b8073">writeParameter</a> (<a class="el" href="classopenm_1_1_i_db_exec.html">IDbExec</a> *i_dbExec, const type_info &amp;i_type, int i_subCount, size_t i_size, void *i_valueArr)=0</td></tr>
+<tr class="memdesc:afb1b219f7f42e5401a7bf4875e5b8073"><td class="mdescLeft">&#160;</td><td class="mdescRight">write parameter: write all sub values of the parameter into db set table  <a href="#afb1b219f7f42e5401a7bf4875e5b8073">More...</a><br /></td></tr>
+<tr class="separator:afb1b219f7f42e5401a7bf4875e5b8073"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -119,8 +119,8 @@ static <a class="el" href="structopenm_1_1_i_parameter_set_writer.html">IParamet
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>public interface of input parameter writer into workset </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a45630d3e695209deb2ddc98ed4b93c4f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a45630d3e695209deb2ddc98ed4b93c4f">&#9670;&nbsp;</a></span>writeParameter()</h2>
+<a id="afb1b219f7f42e5401a7bf4875e5b8073"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb1b219f7f42e5401a7bf4875e5b8073">&#9670;&nbsp;</a></span>writeParameter()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -137,14 +137,14 @@ static <a class="el" href="structopenm_1_1_i_parameter_set_writer.html">IParamet
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>i_subId</em>, </td>
+          <td class="paramtype">const type_info &amp;&#160;</td>
+          <td class="paramname"><em>i_type</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const type_info &amp;&#160;</td>
-          <td class="paramname"><em>i_type</em>, </td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i_subCount</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -171,19 +171,19 @@ static <a class="el" href="structopenm_1_1_i_parameter_set_writer.html">IParamet
 </table>
 </div><div class="memdoc">
 
-<p>write input parameter values. </p>
+<p>write parameter: write all sub values of the parameter into db set table </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">i_dbExec</td><td>database connection </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">i_subId</td><td>parameter sub-value index </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">i_type</td><td>parameter type </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">i_size</td><td>parameter size (number of parameter values) </td></tr>
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">i_valueArr</td><td>array of parameter values, size must be =i_size </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i_subId</td><td>parameter sub value id </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i_type</td><td>parameter value type, use std::string for string parameters </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i_size</td><td>parameter size for single sub value </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">i_valueArr</td><td>array of parameter values, size must be == i_size * i_subCount </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="classopenm_1_1_parameter_set_writer.html#ab672d9c3607e455e91d6c6d1ef0c6af5">openm::ParameterSetWriter</a>.</p>
+<p>Implemented in <a class="el" href="classopenm_1_1_parameter_set_writer.html#a969701119e85fc8cf64329d43d30738f">openm::ParameterSetWriter</a>.</p>
 
 </div>
 </div>
@@ -197,7 +197,7 @@ static <a class="el" href="structopenm_1_1_i_parameter_set_writer.html">IParamet
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceopenm.html">openm</a></li><li class="navelem"><a class="el" href="structopenm_1_1_i_parameter_set_writer.html">IParameterSetWriter</a></li>
-    <li class="footer">Generated on Fri Nov 15 2019 13:10:48 for OpenM++ runtime library (libopenm) by
+    <li class="footer">Generated on Sat Feb 1 2020 14:56:07 for OpenM++ runtime library (libopenm) by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

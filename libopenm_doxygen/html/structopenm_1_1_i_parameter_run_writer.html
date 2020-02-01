@@ -103,14 +103,17 @@ Inheritance diagram for openm::IParameterRunWriter:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a83fc90562dd330bf1e72a41e5d9df317"><td class="memItemLeft" align="right" valign="top"><a id="a83fc90562dd330bf1e72a41e5d9df317"></a>
 virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_parameter_run_writer.html#a83fc90562dd330bf1e72a41e5d9df317">sizeOf</a> (void) const noexcept=0</td></tr>
-<tr class="memdesc:a83fc90562dd330bf1e72a41e5d9df317"><td class="mdescLeft">&#160;</td><td class="mdescRight">return input parameter size: total number of values in the table <br /></td></tr>
+<tr class="memdesc:a83fc90562dd330bf1e72a41e5d9df317"><td class="mdescLeft">&#160;</td><td class="mdescRight">return input parameter size for single sub value <br /></td></tr>
 <tr class="separator:a83fc90562dd330bf1e72a41e5d9df317"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0339f5c9a1d22ec4ddd81bbc969ed613"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_parameter_run_writer.html#a0339f5c9a1d22ec4ddd81bbc969ed613">writeParameter</a> (<a class="el" href="classopenm_1_1_i_db_exec.html">IDbExec</a> *i_dbExec, const type_info &amp;i_type, int i_subCount, size_t i_size, void *i_valueArr)=0</td></tr>
+<tr class="memdesc:a0339f5c9a1d22ec4ddd81bbc969ed613"><td class="mdescLeft">&#160;</td><td class="mdescRight">write parameter: write all sub values of the parameter into db run table  <a href="#a0339f5c9a1d22ec4ddd81bbc969ed613">More...</a><br /></td></tr>
+<tr class="separator:a0339f5c9a1d22ec4ddd81bbc969ed613"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af85bf3d77191e4c9b06ce83c292074ff"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_parameter_run_writer.html#af85bf3d77191e4c9b06ce83c292074ff">loadCsvParameter</a> (<a class="el" href="classopenm_1_1_i_db_exec.html">IDbExec</a> *i_dbExec, const vector&lt; int &gt; &amp;i_subIdArr, const char *i_filePath, bool i_isIdCsv=false)=0</td></tr>
 <tr class="memdesc:af85bf3d77191e4c9b06ce83c292074ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">load parameter values from csv file into run table.  <a href="#af85bf3d77191e4c9b06ce83c292074ff">More...</a><br /></td></tr>
 <tr class="separator:af85bf3d77191e4c9b06ce83c292074ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae9118f7e8f5d3cf2e626bfbc6bc0d60b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_parameter_run_writer.html#ae9118f7e8f5d3cf2e626bfbc6bc0d60b">digestParameter</a> (<a class="el" href="classopenm_1_1_i_db_exec.html">IDbExec</a> *i_dbExec, int i_paramSubCount, const type_info &amp;i_type)=0</td></tr>
-<tr class="memdesc:ae9118f7e8f5d3cf2e626bfbc6bc0d60b"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculate run parameter values digest and store only single copy of parameter values.  <a href="#ae9118f7e8f5d3cf2e626bfbc6bc0d60b">More...</a><br /></td></tr>
-<tr class="separator:ae9118f7e8f5d3cf2e626bfbc6bc0d60b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0207a383626d1bff0fbbefc9b4421d5f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_parameter_run_writer.html#a0207a383626d1bff0fbbefc9b4421d5f">digestParameter</a> (<a class="el" href="classopenm_1_1_i_db_exec.html">IDbExec</a> *i_dbExec, int i_subCount, const type_info &amp;i_type)=0</td></tr>
+<tr class="memdesc:a0207a383626d1bff0fbbefc9b4421d5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculate run parameter values digest and store only single copy of parameter values.  <a href="#a0207a383626d1bff0fbbefc9b4421d5f">More...</a><br /></td></tr>
+<tr class="separator:a0207a383626d1bff0fbbefc9b4421d5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -122,8 +125,8 @@ static <a class="el" href="structopenm_1_1_i_parameter_run_writer.html">IParamet
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>public interface of input parameter writer for model run </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="ae9118f7e8f5d3cf2e626bfbc6bc0d60b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae9118f7e8f5d3cf2e626bfbc6bc0d60b">&#9670;&nbsp;</a></span>digestParameter()</h2>
+<a id="a0207a383626d1bff0fbbefc9b4421d5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0207a383626d1bff0fbbefc9b4421d5f">&#9670;&nbsp;</a></span>digestParameter()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -141,7 +144,7 @@ static <a class="el" href="structopenm_1_1_i_parameter_run_writer.html">IParamet
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>i_paramSubCount</em>, </td>
+          <td class="paramname"><em>i_subCount</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -166,13 +169,13 @@ static <a class="el" href="structopenm_1_1_i_parameter_run_writer.html">IParamet
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">i_dbExec</td><td>database connection </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">i_paramSubCount</td><td>number of parameter sub-values </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i_subCount</td><td>number of parameter sub-values </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">i_type</td><td>parameter type, use char * for string parameters </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="classopenm_1_1_parameter_run_writer.html#a280da4d5b49a79906f32f131432a9ab4">openm::ParameterRunWriter</a>.</p>
+<p>Implemented in <a class="el" href="classopenm_1_1_parameter_run_writer.html#adbbe281a7a3353c30c9076cfaa790229">openm::ParameterRunWriter</a>.</p>
 
 </div>
 </div>
@@ -237,6 +240,74 @@ static <a class="el" href="structopenm_1_1_i_parameter_run_writer.html">IParamet
 
 </div>
 </div>
+<a id="a0339f5c9a1d22ec4ddd81bbc969ed613"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0339f5c9a1d22ec4ddd81bbc969ed613">&#9670;&nbsp;</a></span>writeParameter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void openm::IParameterRunWriter::writeParameter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classopenm_1_1_i_db_exec.html">IDbExec</a> *&#160;</td>
+          <td class="paramname"><em>i_dbExec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const type_info &amp;&#160;</td>
+          <td class="paramname"><em>i_type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i_subCount</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>i_size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>i_valueArr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>write parameter: write all sub values of the parameter into db run table </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">i_dbExec</td><td>database connection </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i_type</td><td>parameter value type, use std::string for string parameters </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i_subCount</td><td>number of parameter sub-values </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i_size</td><td>parameter size for single sub value </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">i_valueArr</td><td>array of parameter values, size must be == i_size * i_subCount </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implemented in <a class="el" href="classopenm_1_1_parameter_run_writer.html#aab0c49c2911c0ed39bccb10908573b59">openm::ParameterRunWriter</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following files:<ul>
 <li>include/<a class="el" href="db_parameter_8h_source.html">dbParameter.h</a></li>
 <li>db/parameterWriter.cpp</li>
@@ -247,7 +318,7 @@ static <a class="el" href="structopenm_1_1_i_parameter_run_writer.html">IParamet
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceopenm.html">openm</a></li><li class="navelem"><a class="el" href="structopenm_1_1_i_parameter_run_writer.html">IParameterRunWriter</a></li>
-    <li class="footer">Generated on Fri Nov 15 2019 13:10:48 for OpenM++ runtime library (libopenm) by
+    <li class="footer">Generated on Sat Feb 1 2020 14:56:07 for OpenM++ runtime library (libopenm) by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

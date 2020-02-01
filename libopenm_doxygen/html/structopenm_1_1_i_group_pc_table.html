@@ -118,6 +118,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a185422510640a4fc9ddf30f4f841fbbc"><td class="memItemLeft" align="right" valign="top">virtual vector&lt; <a class="el" href="structopenm_1_1_group_pc_row.html">GroupPcRow</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_group_pc_table.html#a185422510640a4fc9ddf30f4f841fbbc">byModelId</a> (int i_modelId) const =0</td></tr>
 <tr class="memdesc:a185422510640a4fc9ddf30f4f841fbbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">get list of rows by model id.  <a href="#a185422510640a4fc9ddf30f4f841fbbc">More...</a><br /></td></tr>
 <tr class="separator:a185422510640a4fc9ddf30f4f841fbbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35e7a5ad5bb9cb591d89405be09bd9bb"><td class="memItemLeft" align="right" valign="top">virtual vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_group_pc_table.html#a35e7a5ad5bb9cb591d89405be09bd9bb">groupLeafs</a> (int i_modelId, int i_groupId) const =0</td></tr>
+<tr class="memdesc:a35e7a5ad5bb9cb591d89405be09bd9bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">get list of parameter id's or table id's for the group: list of bottom level group members.  <a href="#a35e7a5ad5bb9cb591d89405be09bd9bb">More...</a><br /></td></tr>
+<tr class="separator:a35e7a5ad5bb9cb591d89405be09bd9bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac46a583d5316252ba449c0a0ecb12e8"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceopenm.html#a4c490122908976114609adac8c178fee">IRowBaseVec</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_group_pc_table.html#aac46a583d5316252ba449c0a0ecb12e8">rowsRef</a> (void)=0</td></tr>
 <tr class="memdesc:aac46a583d5316252ba449c0a0ecb12e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">get reference to list of all table rows.  <a href="#aac46a583d5316252ba449c0a0ecb12e8">More...</a><br /></td></tr>
 <tr class="separator:aac46a583d5316252ba449c0a0ecb12e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -324,6 +327,46 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a35e7a5ad5bb9cb591d89405be09bd9bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35e7a5ad5bb9cb591d89405be09bd9bb">&#9670;&nbsp;</a></span>groupLeafs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual vector&lt;int&gt; openm::IGroupPcTable::groupLeafs </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i_modelId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i_groupId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>get list of parameter id's or table id's for the group: list of bottom level group members. </p>
+
+<p>Implemented in <a class="el" href="classopenm_1_1_group_pc_table.html#a521e64adab06dfcdf31b93278b0dbf4b">openm::GroupPcTable</a>.</p>
+
+</div>
+</div>
 <a id="aac46a583d5316252ba449c0a0ecb12e8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aac46a583d5316252ba449c0a0ecb12e8">&#9670;&nbsp;</a></span>rowsRef()</h2>
 
@@ -366,7 +409,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceopenm.html">openm</a></li><li class="navelem"><a class="el" href="structopenm_1_1_i_group_pc_table.html">IGroupPcTable</a></li>
-    <li class="footer">Generated on Fri Nov 15 2019 13:10:47 for OpenM++ runtime library (libopenm) by
+    <li class="footer">Generated on Sat Feb 1 2020 14:56:06 for OpenM++ runtime library (libopenm) by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

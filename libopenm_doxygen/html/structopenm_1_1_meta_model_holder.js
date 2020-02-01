@@ -9,6 +9,7 @@ var structopenm_1_1_meta_model_holder =
     [ "paramDic", "structopenm_1_1_meta_model_holder.html#a41fb04a6ebbd18c24034f0d87a7db171", null ],
     [ "paramDims", "structopenm_1_1_meta_model_holder.html#a8cb56987550773ed290b0c3027be76a1", null ],
     [ "paramDimsTxt", "structopenm_1_1_meta_model_holder.html#a9affe3133f4e1fc5156df670a22c06c9", null ],
+    [ "paramImport", "structopenm_1_1_meta_model_holder.html#a324ba62d808cd007a8cd41d3bc723855", null ],
     [ "paramTxt", "structopenm_1_1_meta_model_holder.html#ae2ebe3a01555ad361025fb8b95a82063", null ],
     [ "tableAcc", "structopenm_1_1_meta_model_holder.html#a65fb7a393e076272551ad36672c373d3", null ],
     [ "tableAccTxt", "structopenm_1_1_meta_model_holder.html#a25f3c52dca193e4882469281378f4be0", null ],

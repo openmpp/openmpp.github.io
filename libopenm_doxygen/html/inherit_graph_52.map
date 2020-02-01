@@ -1,5 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structopenm_1_1_i_meta_table.html" title="openm::IMetaTable\&lt;\l WorksetParamTxtRow \&gt;" alt="" coords="5,5,173,47"/>
-<area shape="rect" id="node2" href="$structopenm_1_1_i_workset_param_txt_table.html" title="workset_parameter_txt table public interface. " alt="" coords="221,13,429,39"/>
-<area shape="rect" id="node3" href="$classopenm_1_1_workset_param_txt_table.html" title="openm::WorksetParamTxtTable" alt="" coords="477,13,683,39"/>
+<area shape="rect" id="node1" href="$structopenm_1_1_i_meta_table.html" title="openm::IMetaTable\&lt;\l WorksetParamRow \&gt;" alt="" coords="5,5,156,47"/>
+<area shape="rect" id="node2" href="$structopenm_1_1_i_workset_param_table.html" title="workset_parameter table public interface. " alt="" coords="204,13,395,39"/>
+<area shape="rect" id="node3" href="$classopenm_1_1_workset_param_table.html" title="openm::WorksetParamTable" alt="" coords="443,13,629,39"/>
 </map>

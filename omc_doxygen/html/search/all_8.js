@@ -51,7 +51,7 @@ var searchData=
   ['is_5ffixed_5fparameter_5fvalue',['is_fixed_parameter_value',['../class_parse_context.html#abfee6734abbaad4fcacd8bc71e5f8d05',1,'ParseContext']]],
   ['is_5ffloat',['is_float',['../class_real_symbol.html#abf7d4bd286144c0acee76f4b86965618',1,'RealSymbol']]],
   ['is_5ffloating',['is_floating',['../class_type_symbol.html#a01eb04e635a188587231fc07190adf45',1,'TypeSymbol']]],
-  ['is_5fhidden',['is_hidden',['../class_parameter_symbol.html#ad806797c7050c523a700149330a07a7a',1,'ParameterSymbol']]],
+  ['is_5fhidden',['is_hidden',['../class_group_symbol.html#af00956a4545f48189c74531a4bf45a89',1,'GroupSymbol::is_hidden()'],['../class_parameter_symbol.html#ad806797c7050c523a700149330a07a7a',1,'ParameterSymbol::is_hidden()']]],
   ['is_5finternal',['is_internal',['../class_table_symbol.html#a415867fe3a356415607911438e776d6e',1,'TableSymbol']]],
   ['is_5fliteral',['is_literal',['../class_constant.html#a987bbd62cae253e0d60769dbe4e9255a',1,'Constant::is_literal()'],['../class_constant_symbol.html#ae4ae543b77be2e89d8fb431b8d114d94',1,'ConstantSymbol::is_literal()']]],
   ['is_5fmaintained',['is_maintained',['../class_attribute_symbol.html#a391c3215ac583a83ff01d5fabcecd232',1,'AttributeSymbol']]],

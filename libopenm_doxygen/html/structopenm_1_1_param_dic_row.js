@@ -6,6 +6,7 @@ var structopenm_1_1_param_dic_row =
     [ "dbRunTable", "structopenm_1_1_param_dic_row.html#a68e3c37b3d7785e9070c0a23d1f69ec4", null ],
     [ "dbSetTable", "structopenm_1_1_param_dic_row.html#a9587fb6e59c521ddee5d3feabb7bc230", null ],
     [ "digest", "structopenm_1_1_param_dic_row.html#a60ac188a65daa1a88d90b03cad69fe1f", null ],
+    [ "importDigest", "structopenm_1_1_param_dic_row.html#a7e2d7a08ef8257030bad6eb7987d63b1", null ],
     [ "isExtendable", "structopenm_1_1_param_dic_row.html#a8af922813b1e09b21cab4e6a1727869f", null ],
     [ "isHidden", "structopenm_1_1_param_dic_row.html#a0beaa50edfc780a78a0caba14634c99a", null ],
     [ "modelId", "structopenm_1_1_param_dic_row.html#a141a1ec82b2cdf08a3aee0d5f3cf994e", null ],

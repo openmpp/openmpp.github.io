@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"class_entity_foreign_member_symbol.html#ae080e7a150f22df58bac347b41f32577":[0,0,23,3],
 "class_entity_func_symbol.html":[0,0,24],
 "class_entity_func_symbol.html#a15b494b9174e65238a1b1277c49c2035":[0,0,24,6],
 "class_entity_func_symbol.html#a28937692f20ad8447029b3202e11968c":[0,0,24,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "class_expr_for_attribute_symbol.html":[0,0,42],
 "class_expr_for_attribute_symbol.html#a4164989c9bd8c37b6b77c588fe30138a":[0,0,42,1],
 "class_expr_for_attribute_symbol.html#a72c31f5c66d1f06246dfc0decf05fa36":[0,0,42,2],
-"class_expr_for_attribute_symbol.html#adb03d73291030aac9f3c80008c6ff17d":[0,0,42,0],
-"class_expr_for_attribute_ternary_op.html":[0,0,43]
+"class_expr_for_attribute_symbol.html#adb03d73291030aac9f3c80008c6ff17d":[0,0,42,0]
 };

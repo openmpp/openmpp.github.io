@@ -111,7 +111,13 @@ Inheritance diagram for openm::MetaLoader:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_meta_loader_1_1_import_opts.html">ImportOpts</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_meta_loader_1_1_param_import_opts.html">ParamImportOpts</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_meta_loader_1_1_param_sub_opts.html">ParamSubOpts</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_meta_loader_1_1_run_import_opts.html">RunImportOpts</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -166,6 +172,18 @@ Protected Types</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:a37435225a06ad80e4d434de467cb08ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6661bedaebac09ba209d1a0097997d72"><td class="memItemLeft" align="right" valign="top"><a id="a6661bedaebac09ba209d1a0097997d72"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>ImportKind</b> : int { <br />
+&#160;&#160;<b>none</b> = 0, 
+<b>modelName</b> = 1, 
+<b>modelId</b> = 2, 
+<b>modelDigest</b> = 3, 
+<br />
+&#160;&#160;<b>runName</b> = 4, 
+<b>runId</b> = 5, 
+<b>runDigest</b> = 6
+<br />
+ }</td></tr>
+<tr class="separator:a6661bedaebac09ba209d1a0097997d72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -192,9 +210,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-methods"></a>
 Static Protected Member Functions</h2></td></tr>
-<tr class="memitem:af4c8a7633fbe77d98cce2f86a7ab9bb9"><td class="memItemLeft" align="right" valign="top"><a id="af4c8a7633fbe77d98cce2f86a7ab9bb9"></a>
-static int&#160;</td><td class="memItemRight" valign="bottom"><b>readMetaTables</b> (<a class="el" href="classopenm_1_1_i_db_exec.html">IDbExec</a> *i_dbExec, <a class="el" href="structopenm_1_1_meta_holder.html">MetaHolder</a> *io_metaStore)</td></tr>
-<tr class="separator:af4c8a7633fbe77d98cce2f86a7ab9bb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a126d8b774ce71a89aea683a75dc7b58c"><td class="memItemLeft" align="right" valign="top"><a id="a126d8b774ce71a89aea683a75dc7b58c"></a>
+static int&#160;</td><td class="memItemRight" valign="bottom"><b>readMetaTables</b> (<a class="el" href="classopenm_1_1_i_db_exec.html">IDbExec</a> *i_dbExec, <a class="el" href="structopenm_1_1_meta_holder.html">MetaHolder</a> *io_metaStore, const char *i_name, const char *i_digest)</td></tr>
+<tr class="separator:a126d8b774ce71a89aea683a75dc7b58c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -207,9 +225,15 @@ unique_ptr&lt; <a class="el" href="structopenm_1_1_meta_holder.html">MetaHolder<
 <tr class="memitem:a945be5a250d497799fd7ac9409b48892"><td class="memItemLeft" align="right" valign="top"><a id="a945be5a250d497799fd7ac9409b48892"></a>
 vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>paramIdSubArr</b></td></tr>
 <tr class="separator:a945be5a250d497799fd7ac9409b48892"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a499684e620ec3fbeac0d0f1451b337b2"><td class="memItemLeft" align="right" valign="top"><a id="a499684e620ec3fbeac0d0f1451b337b2"></a>
-vector&lt; <a class="el" href="structopenm_1_1_meta_loader_1_1_param_sub_opts.html">ParamSubOpts</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>subOptsArr</b></td></tr>
-<tr class="separator:a499684e620ec3fbeac0d0f1451b337b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9eefa9be9ee11d2becc4c1656fee6a4"><td class="memItemLeft" align="right" valign="top"><a id="aa9eefa9be9ee11d2becc4c1656fee6a4"></a>
+map&lt; int, <a class="el" href="structopenm_1_1_meta_loader_1_1_param_sub_opts.html">ParamSubOpts</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>subOptsMap</b></td></tr>
+<tr class="separator:aa9eefa9be9ee11d2becc4c1656fee6a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6ff8393be09d6677ba5fb73c5a14cfa"><td class="memItemLeft" align="right" valign="top"><a id="ac6ff8393be09d6677ba5fb73c5a14cfa"></a>
+map&lt; string, <a class="el" href="structopenm_1_1_meta_loader_1_1_import_opts.html">ImportOpts</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>importOptsMap</b></td></tr>
+<tr class="separator:ac6ff8393be09d6677ba5fb73c5a14cfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac24e5ad385b9cbda06270275ccb7186f"><td class="memItemLeft" align="right" valign="top"><a id="ac24e5ad385b9cbda06270275ccb7186f"></a>
+map&lt; int, <a class="el" href="structopenm_1_1_meta_loader_1_1_param_import_opts.html">ParamImportOpts</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>paramImportOptsMap</b></td></tr>
+<tr class="separator:ac24e5ad385b9cbda06270275ccb7186f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>model metadata loader: read and broadcast metadata and run options. </p>
@@ -307,7 +331,7 @@ vector&lt; <a class="el" href="structopenm_1_1_meta_loader_1_1_param_sub_opts.ht
 </div><div class="memdoc">
 
 <p>read model messages from database. </p>
-<p>User preferd language determined by simple match, for example: if user language is en_CA.UTF-8 then search done for lower case ["en-ca", "en", "model-default-langauge"]. </p>
+<p>User preferd language determined by simple match, for example: if user language is en_CA.UTF-8 then search done for lower case ["en-ca", "en", "model-default-language"]. </p>
 
 </div>
 </div>
@@ -336,7 +360,12 @@ vector&lt; <a class="el" href="structopenm_1_1_meta_loader_1_1_param_sub_opts.ht
 </div><div class="memdoc">
 
 <p>merge command line and ini-file arguments with profile_option table values. </p>
-<p>use default values for basic run options, i.e. SparseOutput = false validate scalar parameter value option, eg: Parameter.Age 42 merge parameter sub-values options, eg: SubFrom.Age csv SubValues.Age 8 SubValues.Sex default </p>
+<ul>
+<li>use default values for basic run options, i.e. SparseOutput = false</li>
+<li>validate scalar parameter value option, eg: Parameter.Age 42</li>
+<li>parse parameter sub-values options, eg: SubFrom.Age csv SubValues.Age 8 SubValues.Sex default</li>
+<li>parse parameter import options </li>
+</ul>
 
 </div>
 </div>
@@ -388,7 +417,7 @@ vector&lt; <a class="el" href="structopenm_1_1_meta_loader_1_1_param_sub_opts.ht
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceopenm.html">openm</a></li><li class="navelem"><a class="el" href="classopenm_1_1_meta_loader.html">MetaLoader</a></li>
-    <li class="footer">Generated on Fri Nov 15 2019 13:10:50 for OpenM++ runtime library (libopenm) by
+    <li class="footer">Generated on Sat Feb 1 2020 14:56:09 for OpenM++ runtime library (libopenm) by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

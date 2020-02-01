@@ -21,5 +21,6 @@ var dir_a0a3dc0c2495790bed2e4e8abdaa9c61 =
       [ "RestartController", "classopenm_1_1_restart_controller.html", "classopenm_1_1_restart_controller" ]
     ] ],
     [ "runControllerNewRun.cpp", "run_controller_new_run_8cpp.html", null ],
+    [ "runControllerParams.cpp", "run_controller_params_8cpp.html", null ],
     [ "singleController.cpp", "single_controller_8cpp.html", null ]
 ];

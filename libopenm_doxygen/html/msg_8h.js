@@ -18,8 +18,6 @@ var msg_8h =
       [ "tableDims", "msg_8h.html#a3bfbc1c842226a2cda27f3f2ad50df16abfce1b1f116a4a9d572162e04aecbc08", null ],
       [ "tableAcc", "msg_8h.html#a3bfbc1c842226a2cda27f3f2ad50df16a163dda57042100d3fc7b76fe538050b0", null ],
       [ "tableExpr", "msg_8h.html#a3bfbc1c842226a2cda27f3f2ad50df16a2d51a5d98835b8f84a880651e2854074", null ],
-      [ "groupLst", "msg_8h.html#a3bfbc1c842226a2cda27f3f2ad50df16a59d17ab00d514bc4efe0c1bc244321ff", null ],
-      [ "groupPc", "msg_8h.html#a3bfbc1c842226a2cda27f3f2ad50df16a6b1c9ce9fc2d41d6b7db8c8c85d7cee7", null ],
       [ "runOption", "msg_8h.html#a3bfbc1c842226a2cda27f3f2ad50df16a6d579f552e61163bc1e92b6fe2bb6c38", null ],
       [ "codeValue", "msg_8h.html#a3bfbc1c842226a2cda27f3f2ad50df16ae8ac963de3862dc391cb41c394730b03", null ],
       [ "outSubValueBase", "msg_8h.html#a3bfbc1c842226a2cda27f3f2ad50df16a7b4081aecb88915688fc77a60be7737b", null ]

@@ -114,11 +114,17 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <tr class="separator:a8a5bcf0f20e38d92c871210c5a067558"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae7b73ad4928f7c26c17e8529bef93dd"><td class="memItemLeft" align="right" valign="top"><a id="aae7b73ad4928f7c26c17e8529bef93dd"></a>
 size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_parameter_reader.html#aae7b73ad4928f7c26c17e8529bef93dd">sizeOf</a> (void) const noexcept override</td></tr>
-<tr class="memdesc:aae7b73ad4928f7c26c17e8529bef93dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">return input parameter size: total number of values in the table <br /></td></tr>
+<tr class="memdesc:aae7b73ad4928f7c26c17e8529bef93dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">return input parameter size for single sub value <br /></td></tr>
 <tr class="separator:aae7b73ad4928f7c26c17e8529bef93dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfdbaac28e4c81651b79886ddc346d11"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_parameter_reader.html#abfdbaac28e4c81651b79886ddc346d11">readParameter</a> (<a class="el" href="classopenm_1_1_i_db_exec.html">IDbExec</a> *i_dbExec, int i_subId, const type_info &amp;i_type, size_t i_size, void *io_valueArr) override</td></tr>
-<tr class="memdesc:abfdbaac28e4c81651b79886ddc346d11"><td class="mdescLeft">&#160;</td><td class="mdescRight">read input parameter values.  <a href="#abfdbaac28e4c81651b79886ddc346d11">More...</a><br /></td></tr>
+<tr class="memdesc:abfdbaac28e4c81651b79886ddc346d11"><td class="mdescLeft">&#160;</td><td class="mdescRight">read input parameter single sub value.  <a href="#abfdbaac28e4c81651b79886ddc346d11">More...</a><br /></td></tr>
 <tr class="separator:abfdbaac28e4c81651b79886ddc346d11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab86d0ac58440ad408e1ddec80e8fc6e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_parameter_reader.html#ab86d0ac58440ad408e1ddec80e8fc6e4">readParameter</a> (<a class="el" href="classopenm_1_1_i_db_exec.html">IDbExec</a> *i_dbExec, const type_info &amp;i_type, int i_subCount, size_t i_size, void *io_valueArr) override</td></tr>
+<tr class="memdesc:ab86d0ac58440ad408e1ddec80e8fc6e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">read all sub values of input parameter.  <a href="#ab86d0ac58440ad408e1ddec80e8fc6e4">More...</a><br /></td></tr>
+<tr class="separator:ab86d0ac58440ad408e1ddec80e8fc6e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36db102f91a3adc1cf561e773084dcd8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_parameter_reader.html#a36db102f91a3adc1cf561e773084dcd8">readParameter</a> (<a class="el" href="classopenm_1_1_i_db_exec.html">IDbExec</a> *i_dbExec, const vector&lt; int &gt; &amp;i_subIdArr, const type_info &amp;i_type, size_t i_size, void *io_valueArr) override</td></tr>
+<tr class="memdesc:a36db102f91a3adc1cf561e773084dcd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">read input parameter single selected sub values.  <a href="#a36db102f91a3adc1cf561e773084dcd8">More...</a><br /></td></tr>
+<tr class="separator:a36db102f91a3adc1cf561e773084dcd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -130,7 +136,7 @@ static <a class="el" href="structopenm_1_1_i_parameter_reader.html">IParameterRe
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="abfdbaac28e4c81651b79886ddc346d11"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abfdbaac28e4c81651b79886ddc346d11">&#9670;&nbsp;</a></span>readParameter()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abfdbaac28e4c81651b79886ddc346d11">&#9670;&nbsp;</a></span>readParameter() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -181,19 +187,155 @@ static <a class="el" href="structopenm_1_1_i_parameter_reader.html">IParameterRe
 </table>
 </div><div class="memdoc">
 
-<p>read input parameter values. </p>
+<p>read input parameter single sub value. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">i_dbExec</td><td>database connection </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">i_subId</td><td>parameter sub-value index </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i_subId</td><td>parameter sub value id </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">i_type</td><td>parameter value type, use std::string for string parameters </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">i_size</td><td>parameter size (number of parameter values) </td></tr>
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">io_valueArr</td><td>array to return parameter values, size must be =i_size, use io_valueArr[i_size] of std::string for string parameters </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i_size</td><td>parameter size (number of parameter values in single sub value) </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">io_valueArr</td><td>array to return parameter values, size must be =i_size, use io_valueArr[] of std::string for string parameters </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Implements <a class="el" href="structopenm_1_1_i_parameter_reader.html#af5d778f57e435d8c4f8a0b72cf022c56">openm::IParameterReader</a>.</p>
+
+</div>
+</div>
+<a id="ab86d0ac58440ad408e1ddec80e8fc6e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab86d0ac58440ad408e1ddec80e8fc6e4">&#9670;&nbsp;</a></span>readParameter() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ParameterReader::readParameter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classopenm_1_1_i_db_exec.html">IDbExec</a> *&#160;</td>
+          <td class="paramname"><em>i_dbExec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const type_info &amp;&#160;</td>
+          <td class="paramname"><em>i_type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i_subCount</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>i_size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>io_valueArr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>read all sub values of input parameter. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">i_dbExec</td><td>database connection </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i_type</td><td>parameter value type, use std::string for string parameters </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i_subCount</td><td>number of parameter sub-values </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i_size</td><td>parameter size (number of parameter values in single sub value) </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">io_valueArr</td><td>array to return parameter values, size must be =i_size * i_subCount, use io_valueArr[] of std::string for string parameters </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implements <a class="el" href="structopenm_1_1_i_parameter_reader.html#adbde90d3b051ddb95c5b9ac58b75ed4a">openm::IParameterReader</a>.</p>
+
+</div>
+</div>
+<a id="a36db102f91a3adc1cf561e773084dcd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36db102f91a3adc1cf561e773084dcd8">&#9670;&nbsp;</a></span>readParameter() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ParameterReader::readParameter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classopenm_1_1_i_db_exec.html">IDbExec</a> *&#160;</td>
+          <td class="paramname"><em>i_dbExec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const vector&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>i_subIdArr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const type_info &amp;&#160;</td>
+          <td class="paramname"><em>i_type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>i_size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>io_valueArr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>read input parameter single selected sub values. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">i_dbExec</td><td>database connection </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i_subIdArr</td><td>vector of sub value ids to select </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i_type</td><td>parameter value type, use std::string for string parameters </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i_size</td><td>parameter size (number of parameter values in single sub value) </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">io_valueArr</td><td>array to return parameter values, size must be =i_size * i_subIdArr.size(), use io_valueArr[] of std::string for string parameters </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implements <a class="el" href="structopenm_1_1_i_parameter_reader.html#ad7a45b8703fd95e56744f1bfb48785f0">openm::IParameterReader</a>.</p>
 
 </div>
 </div>
@@ -206,7 +348,7 @@ static <a class="el" href="structopenm_1_1_i_parameter_reader.html">IParameterRe
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceopenm.html">openm</a></li><li class="navelem"><a class="el" href="classopenm_1_1_parameter_reader.html">ParameterReader</a></li>
-    <li class="footer">Generated on Fri Nov 15 2019 13:10:52 for OpenM++ runtime library (libopenm) by
+    <li class="footer">Generated on Sat Feb 1 2020 14:56:11 for OpenM++ runtime library (libopenm) by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

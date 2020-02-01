@@ -1,6 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structopenm_1_1_i_meta_table.html" title="openm::IMetaTable\&lt;\l TableDimsTxtRow \&gt;" alt="" coords="5,5,148,47"/>
-<area shape="rect" id="node2" href="$structopenm_1_1_i_meta_loaded_table.html" title="openm::IMetaLoadedTable\l\&lt; TableDimsTxtRow \&gt;" alt="" coords="196,5,371,47"/>
-<area shape="rect" id="node3" href="$structopenm_1_1_i_table_dims_txt_table.html" title="table_dims_txt table public interface. " alt="" coords="419,13,601,39"/>
-<area shape="rect" id="node4" href="$classopenm_1_1_table_dims_txt_table.html" title="openm::TableDimsTxtTable" alt="" coords="649,13,828,39"/>
+<area shape="rect" id="node1" href="$structopenm_1_1_i_meta_table.html" title="openm::IMetaTable\&lt;\l TableDimsRow \&gt;" alt="" coords="5,5,145,47"/>
+<area shape="rect" id="node2" href="$structopenm_1_1_i_meta_loaded_table.html" title="openm::IMetaLoadedTable\l\&lt; TableDimsRow \&gt;" alt="" coords="193,5,368,47"/>
+<area shape="rect" id="node3" href="$structopenm_1_1_i_table_dims_table.html" title="table_dims table public interface. " alt="" coords="416,13,580,39"/>
+<area shape="rect" id="node4" href="$classopenm_1_1_table_dims_table.html" title="openm::TableDimsTable" alt="" coords="628,13,789,39"/>
 </map>

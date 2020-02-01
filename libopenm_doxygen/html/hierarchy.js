@@ -125,6 +125,13 @@ var hierarchy =
         ] ]
       ] ]
     ] ],
+    [ "openm::IMetaTable< ParamImportRow >", "structopenm_1_1_i_meta_table.html", [
+      [ "openm::IMetaLoadedTable< ParamImportRow >", "structopenm_1_1_i_meta_loaded_table.html", [
+        [ "openm::IParamImportTable", "structopenm_1_1_i_param_import_table.html", [
+          [ "openm::ParamImportTable", "classopenm_1_1_param_import_table.html", null ]
+        ] ]
+      ] ]
+    ] ],
     [ "openm::IMetaTable< ProfileLstRow >", "structopenm_1_1_i_meta_table.html", [
       [ "openm::IMetaLoadedTable< ProfileLstRow >", "structopenm_1_1_i_meta_loaded_table.html", [
         [ "openm::IProfileLstTable", "structopenm_1_1_i_profile_lst_table.html", [
@@ -298,6 +305,7 @@ var hierarchy =
     [ "openm::IModelBuilder", "structopenm_1_1_i_model_builder.html", [
       [ "openm::ModelSqlBuilder", "classopenm_1_1_model_sql_builder.html", null ]
     ] ],
+    [ "openm::MetaLoader::ImportOpts", "structopenm_1_1_meta_loader_1_1_import_opts.html", null ],
     [ "openm::IMsgExec", "classopenm_1_1_i_msg_exec.html", [
       [ "openm::MpiExec", "classopenm_1_1_mpi_exec.html", null ],
       [ "openm::MsgEmptyExec", "classopenm_1_1_msg_empty_exec.html", null ]
@@ -324,6 +332,14 @@ var hierarchy =
     ] ],
     [ "openm::IniEntry", "structopenm_1_1_ini_entry.html", null ],
     [ "openm::IniFileReader", "classopenm_1_1_ini_file_reader.html", null ],
+    [ "openm::IOutputTableReader", "structopenm_1_1_i_output_table_reader.html", [
+      [ "openm::IOutputTableAccReader", "structopenm_1_1_i_output_table_acc_reader.html", [
+        [ "openm::OutputTableAccReader", "classopenm_1_1_output_table_acc_reader.html", null ]
+      ] ],
+      [ "openm::IOutputTableExprReader", "structopenm_1_1_i_output_table_expr_reader.html", [
+        [ "openm::OutputTableExprReader", "classopenm_1_1_output_table_expr_reader.html", null ]
+      ] ]
+    ] ],
     [ "openm::IOutputTableWriter", "structopenm_1_1_i_output_table_writer.html", [
       [ "openm::OutputTableWriter", "classopenm_1_1_output_table_writer.html", null ]
     ] ],
@@ -353,6 +369,7 @@ var hierarchy =
       [ "openm::ParamDicTxtRowAdapter", "classopenm_1_1_param_dic_txt_row_adapter.html", null ],
       [ "openm::ParamDimsRowAdapter", "classopenm_1_1_param_dims_row_adapter.html", null ],
       [ "openm::ParamDimsTxtRowAdapter", "classopenm_1_1_param_dims_txt_row_adapter.html", null ],
+      [ "openm::ParamImportRowAdapter", "classopenm_1_1_param_import_row_adapter.html", null ],
       [ "openm::ProfileLstRowAdapter", "classopenm_1_1_profile_lst_row_adapter.html", null ],
       [ "openm::ProfileOptionRowAdapter", "classopenm_1_1_profile_option_row_adapter.html", null ],
       [ "openm::RunLstRowAdapter", "classopenm_1_1_run_lst_row_adapter.html", null ],
@@ -433,6 +450,9 @@ var hierarchy =
         [ "openm::ParamDimsTxtRow", "structopenm_1_1_param_dims_txt_row.html", [
           [ "openm::ParamDimsTxtLangRow", "structopenm_1_1_param_dims_txt_lang_row.html", null ]
         ] ]
+      ] ],
+      [ "openm::IMetaRow< ParamImportRow >", "structopenm_1_1_i_meta_row.html", [
+        [ "openm::ParamImportRow", "structopenm_1_1_param_import_row.html", null ]
       ] ],
       [ "openm::IMetaRow< ProfileLstRow >", "structopenm_1_1_i_meta_row.html", [
         [ "openm::ProfileLstRow", "structopenm_1_1_profile_lst_row.html", null ]
@@ -541,7 +561,8 @@ var hierarchy =
     ] ],
     [ "openm::IRowProcessor", "classopenm_1_1_i_row_processor.html", [
       [ "openm::RowContainerInserter< TContainer >", "classopenm_1_1_row_container_inserter.html", null ],
-      [ "openm::ValueRowDigester", "classopenm_1_1_value_row_digester.html", null ]
+      [ "openm::ValueRowDigester", "classopenm_1_1_value_row_digester.html", null ],
+      [ "openm::ValueRowSparseSetter", "classopenm_1_1_value_row_sparse_setter.html", null ]
     ] ],
     [ "openm::IRunBase", "structopenm_1_1_i_run_base.html", [
       [ "openm::RunController", "classopenm_1_1_run_controller.html", [
@@ -592,15 +613,21 @@ var hierarchy =
       [ "openm::MpiExec", "classopenm_1_1_mpi_exec.html", null ],
       [ "openm::MsgEmptyExec", "classopenm_1_1_msg_empty_exec.html", null ]
     ] ],
+    [ "openm::OutputTableReader", "classopenm_1_1_output_table_reader.html", [
+      [ "openm::OutputTableAccReader", "classopenm_1_1_output_table_acc_reader.html", null ],
+      [ "openm::OutputTableExprReader", "classopenm_1_1_output_table_expr_reader.html", null ]
+    ] ],
     [ "openm::ParameterNameSizeItem", "structopenm_1_1_parameter_name_size_item.html", null ],
     [ "openm::ParameterWriter", "classopenm_1_1_parameter_writer.html", [
       [ "openm::ParameterRunWriter", "classopenm_1_1_parameter_run_writer.html", null ],
       [ "openm::ParameterSetWriter", "classopenm_1_1_parameter_set_writer.html", null ]
     ] ],
+    [ "openm::MetaLoader::ParamImportOpts", "structopenm_1_1_meta_loader_1_1_param_import_opts.html", null ],
     [ "openm::MetaLoader::ParamSubOpts", "structopenm_1_1_meta_loader_1_1_param_sub_opts.html", null ],
     [ "openm::ProcessGroupDef", "structopenm_1_1_process_group_def.html", null ],
     [ "openm::RowMpiPackedAdapter< TRow >", "structopenm_1_1_row_mpi_packed_adapter.html", null ],
     [ "openm::RunGroup", "structopenm_1_1_run_group.html", null ],
+    [ "openm::MetaLoader::RunImportOpts", "structopenm_1_1_meta_loader_1_1_run_import_opts.html", null ],
     [ "openm::RunOptions", "structopenm_1_1_run_options.html", null ],
     [ "openm::RunOptionsKey", "structopenm_1_1_run_options_key.html", null ],
     [ "openm::RunShortKey", "structopenm_1_1_run_short_key.html", null ],
@@ -608,5 +635,6 @@ var hierarchy =
       [ "openm::ModelRunState", "classopenm_1_1_model_run_state.html", null ]
     ] ],
     [ "openm::RunStateHolder", "classopenm_1_1_run_state_holder.html", null ],
-    [ "openm::RunStatus", "structopenm_1_1_run_status.html", null ]
+    [ "openm::RunStatus", "structopenm_1_1_run_status.html", null ],
+    [ "openm::ValueArray", "structopenm_1_1_value_array.html", null ]
 ];

@@ -117,11 +117,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0aa78e877d62e01a5eb209966bd2554b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1e4f771d2b36598af3cdff1a86bf2c1"><td class="memItemLeft" align="right" valign="top"><a id="ad1e4f771d2b36598af3cdff1a86bf2c1"></a>
 virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_parameter_set_writer.html#ad1e4f771d2b36598af3cdff1a86bf2c1">sizeOf</a> (void) const noexcept override</td></tr>
-<tr class="memdesc:ad1e4f771d2b36598af3cdff1a86bf2c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">return input parameter size: total number of values in the table <br /></td></tr>
+<tr class="memdesc:ad1e4f771d2b36598af3cdff1a86bf2c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">return input parameter size for single sub value <br /></td></tr>
 <tr class="separator:ad1e4f771d2b36598af3cdff1a86bf2c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab672d9c3607e455e91d6c6d1ef0c6af5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_parameter_set_writer.html#ab672d9c3607e455e91d6c6d1ef0c6af5">writeParameter</a> (<a class="el" href="classopenm_1_1_i_db_exec.html">IDbExec</a> *i_dbExec, int i_subId, const type_info &amp;i_type, size_t i_size, void *i_valueArr) override</td></tr>
-<tr class="memdesc:ab672d9c3607e455e91d6c6d1ef0c6af5"><td class="mdescLeft">&#160;</td><td class="mdescRight">write input parameter values.  <a href="#ab672d9c3607e455e91d6c6d1ef0c6af5">More...</a><br /></td></tr>
-<tr class="separator:ab672d9c3607e455e91d6c6d1ef0c6af5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a969701119e85fc8cf64329d43d30738f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_parameter_set_writer.html#a969701119e85fc8cf64329d43d30738f">writeParameter</a> (<a class="el" href="classopenm_1_1_i_db_exec.html">IDbExec</a> *i_dbExec, const type_info &amp;i_type, int i_subCount, size_t i_size, void *i_valueArr) override</td></tr>
+<tr class="memdesc:a969701119e85fc8cf64329d43d30738f"><td class="mdescLeft">&#160;</td><td class="mdescRight">write parameter: write all sub values of the parameter into db set table  <a href="#a969701119e85fc8cf64329d43d30738f">More...</a><br /></td></tr>
+<tr class="separator:a969701119e85fc8cf64329d43d30738f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classopenm_1_1_parameter_writer"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classopenm_1_1_parameter_writer')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classopenm_1_1_parameter_writer.html">openm::ParameterWriter</a></td></tr>
 <tr class="memitem:a2481ca117071f3417b519ce7dae6c88d inherit pub_methods_classopenm_1_1_parameter_writer"><td class="memItemLeft" align="right" valign="top"><a id="a2481ca117071f3417b519ce7dae6c88d"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>ParameterWriter</b> (const char *i_name, <a class="el" href="classopenm_1_1_i_db_exec.html">IDbExec</a> *i_dbExec, const <a class="el" href="structopenm_1_1_meta_holder.html">MetaHolder</a> *i_metaStore)</td></tr>
@@ -134,6 +134,10 @@ Additional Inherited Members</h2></td></tr>
 static <a class="el" href="structopenm_1_1_i_parameter_set_writer.html">IParameterSetWriter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_parameter_set_writer.html#abe4db027a342fd972779ffc1f890d02a">create</a> (int i_setId, const char *i_name, <a class="el" href="classopenm_1_1_i_db_exec.html">IDbExec</a> *i_dbExec, const <a class="el" href="structopenm_1_1_meta_holder.html">MetaHolder</a> *i_metaStore, const <a class="el" href="structopenm_1_1_meta_set_holder.html">MetaSetHolder</a> *i_metaSet)</td></tr>
 <tr class="memdesc:abe4db027a342fd972779ffc1f890d02a inherit pub_static_methods_structopenm_1_1_i_parameter_set_writer"><td class="mdescLeft">&#160;</td><td class="mdescRight">input parameter writer factory <br /></td></tr>
 <tr class="separator:abe4db027a342fd972779ffc1f890d02a inherit pub_static_methods_structopenm_1_1_i_parameter_set_writer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classopenm_1_1_parameter_writer"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classopenm_1_1_parameter_writer')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classopenm_1_1_parameter_writer.html">openm::ParameterWriter</a></td></tr>
+<tr class="memitem:af886484927c3ceed8e53e494f9247d2f inherit pro_methods_classopenm_1_1_parameter_writer"><td class="memItemLeft" align="right" valign="top"><a id="af886484927c3ceed8e53e494f9247d2f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>writeParameter</b> (<a class="el" href="classopenm_1_1_i_db_exec.html">IDbExec</a> *i_dbExec, bool i_isToRun, int i_dstId, const type_info &amp;i_type, int i_subCount, size_t i_valueLen, void *i_valueArr)</td></tr>
+<tr class="separator:af886484927c3ceed8e53e494f9247d2f inherit pro_methods_classopenm_1_1_parameter_writer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classopenm_1_1_parameter_writer"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classopenm_1_1_parameter_writer')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classopenm_1_1_parameter_writer.html">openm::ParameterWriter</a></td></tr>
 <tr class="memitem:aab530523782bdab3bd3df9c80a751787 inherit pro_attribs_classopenm_1_1_parameter_writer"><td class="memItemLeft" align="right" valign="top"><a id="aab530523782bdab3bd3df9c80a751787"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>modelId</b></td></tr>
@@ -167,8 +171,8 @@ vector&lt; vector&lt; <a class="el" href="structopenm_1_1_type_enum_lst_row.html
 <tr class="separator:a7569265470b1171a6b57678ff1aecd09 inherit pro_attribs_classopenm_1_1_parameter_writer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ab672d9c3607e455e91d6c6d1ef0c6af5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab672d9c3607e455e91d6c6d1ef0c6af5">&#9670;&nbsp;</a></span>writeParameter()</h2>
+<a id="a969701119e85fc8cf64329d43d30738f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a969701119e85fc8cf64329d43d30738f">&#9670;&nbsp;</a></span>writeParameter()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -185,14 +189,14 @@ vector&lt; vector&lt; <a class="el" href="structopenm_1_1_type_enum_lst_row.html
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>i_subId</em>, </td>
+          <td class="paramtype">const type_info &amp;&#160;</td>
+          <td class="paramname"><em>i_type</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const type_info &amp;&#160;</td>
-          <td class="paramname"><em>i_type</em>, </td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i_subCount</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -219,19 +223,19 @@ vector&lt; vector&lt; <a class="el" href="structopenm_1_1_type_enum_lst_row.html
 </table>
 </div><div class="memdoc">
 
-<p>write input parameter values. </p>
+<p>write parameter: write all sub values of the parameter into db set table </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">i_dbExec</td><td>database connection </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">i_subId</td><td>parameter sub-value index </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">i_type</td><td>parameter type </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">i_size</td><td>parameter size (number of parameter values) </td></tr>
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">i_valueArr</td><td>array of parameter values, size must be =i_size </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i_subId</td><td>parameter sub value id </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i_type</td><td>parameter value type, use std::string for string parameters </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i_size</td><td>parameter size for single sub value </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">i_valueArr</td><td>array of parameter values, size must be == i_size * i_subCount </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="structopenm_1_1_i_parameter_set_writer.html#a45630d3e695209deb2ddc98ed4b93c4f">openm::IParameterSetWriter</a>.</p>
+<p>Implements <a class="el" href="structopenm_1_1_i_parameter_set_writer.html#afb1b219f7f42e5401a7bf4875e5b8073">openm::IParameterSetWriter</a>.</p>
 
 </div>
 </div>
@@ -244,7 +248,7 @@ vector&lt; vector&lt; <a class="el" href="structopenm_1_1_type_enum_lst_row.html
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceopenm.html">openm</a></li><li class="navelem"><a class="el" href="classopenm_1_1_parameter_set_writer.html">ParameterSetWriter</a></li>
-    <li class="footer">Generated on Fri Nov 15 2019 13:10:52 for OpenM++ runtime library (libopenm) by
+    <li class="footer">Generated on Sat Feb 1 2020 14:56:11 for OpenM++ runtime library (libopenm) by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

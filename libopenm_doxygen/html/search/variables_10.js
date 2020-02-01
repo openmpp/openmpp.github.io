@@ -20,6 +20,8 @@ var searchData=
   ['subcount',['subCount',['../structopenm_1_1_run_lst_row.html#ac847effae103a3101b7f0195a77b9706',1,'openm::RunLstRow::subCount()'],['../structopenm_1_1_workset_param_row.html#a5945efd74df825a19b588059d7631e4f',1,'openm::WorksetParamRow::subCount()'],['../structopenm_1_1_task_run_lst_row.html#a7fd01ece13f8402260e8b6432d9e1205',1,'openm::TaskRunLstRow::subCount()']]],
   ['subfirstid',['subFirstId',['../classopenm_1_1_run_controller.html#afd0ba477246d70972be79ef3a50628b3',1,'openm::RunController']]],
   ['subfromprefix',['subFromPrefix',['../structopenm_1_1_run_options_key.html#aab776498a3cbe074032e2d7d14308828',1,'openm::RunOptionsKey']]],
+  ['subgroupfromprefix',['subGroupFromPrefix',['../structopenm_1_1_run_options_key.html#a8c5c0cb790175ac8e71692b8dd9554d6',1,'openm::RunOptionsKey']]],
+  ['subgroupvaluesprefix',['subGroupValuesPrefix',['../structopenm_1_1_run_options_key.html#a59f05aa918004541dad515bf28c48c7f',1,'openm::RunOptionsKey']]],
   ['subid',['subId',['../structopenm_1_1_run_state_item.html#a921c3b6e9b2409a81779b316f5d5ec1a',1,'openm::RunStateItem']]],
   ['subrestart',['subRestart',['../structopenm_1_1_run_lst_row.html#a63bc5fe1dc49307cfece8d73e591eb56',1,'openm::RunLstRow']]],
   ['substarted',['subStarted',['../structopenm_1_1_run_lst_row.html#ac0d5f84ff4872fc3e259691296c71945',1,'openm::RunLstRow']]],

@@ -101,6 +101,9 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 <li>childPos
 : <a class="el" href="structopenm_1_1_group_pc_row.html#a99c2ccb3ac250e074e699a4bce118035">openm::GroupPcRow</a>
 </li>
+<li>cleanup()
+: <a class="el" href="structopenm_1_1_value_array.html#aab083617358a5de0b92e1396e1a30012">openm::ValueArray</a>
+</li>
 <li>CleanupHandler
 : <a class="el" href="classopenm_1_1exit__guard.html#a9019d992ace965f11c0dbf1fd286b795">openm::exit_guard&lt; ResourceHolder &gt;</a>
 </li>
@@ -137,6 +140,7 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 , <a class="el" href="classopenm_1_1_param_dic_txt_row_adapter.html#a89d129c468d131fe6f020bf9580fd7ee">openm::ParamDicTxtRowAdapter</a>
 , <a class="el" href="classopenm_1_1_param_dims_row_adapter.html#a949050f52f9f425e6c95a1adb8797a87">openm::ParamDimsRowAdapter</a>
 , <a class="el" href="classopenm_1_1_param_dims_txt_row_adapter.html#a2f5c3f9cbf078e6ab9738f3de12af1de">openm::ParamDimsTxtRowAdapter</a>
+, <a class="el" href="classopenm_1_1_param_import_row_adapter.html#a6b14c0a4536b2024e3bee9b96028eb2b">openm::ParamImportRowAdapter</a>
 , <a class="el" href="classopenm_1_1_profile_lst_row_adapter.html#ade97b227f03b9f1d8be21cb62c6d071c">openm::ProfileLstRowAdapter</a>
 , <a class="el" href="classopenm_1_1_profile_option_row_adapter.html#aefe95d3fa5644e3e532ec8a6afb7e175">openm::ProfileOptionRowAdapter</a>
 , <a class="el" href="classopenm_1_1_run_lst_row_adapter.html#a645bdf258f290cac08009108add35189">openm::RunLstRowAdapter</a>
@@ -195,30 +199,33 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 , <a class="el" href="classopenm_1_1_i_msg_recv_packed.html#a2b2b9884dcf75a42ecbbdff9b97449cc">openm::IMsgRecvPacked</a>
 , <a class="el" href="classopenm_1_1_i_msg_send_array.html#a7289bb2338a176528186a4e86f5cbade">openm::IMsgSendArray</a>
 , <a class="el" href="classopenm_1_1_i_msg_send_packed.html#aaada01a0968add03dfa30c9c6b2a4297">openm::IMsgSendPacked</a>
+, <a class="el" href="structopenm_1_1_i_output_table_acc_reader.html#a4b7fb2e1cad8f6e7eed2884b512183f0">openm::IOutputTableAccReader</a>
+, <a class="el" href="structopenm_1_1_i_output_table_expr_reader.html#a9f7c93385cc47c4a9328beca0a9fe37c">openm::IOutputTableExprReader</a>
 , <a class="el" href="structopenm_1_1_i_output_table_writer.html#a9917e99aba7798cb603456811b1d1359">openm::IOutputTableWriter</a>
 , <a class="el" href="structopenm_1_1_i_packed_adapter.html#a0e4581673b55bbd52989a0ef45822716">openm::IPackedAdapter</a>
 , <a class="el" href="structopenm_1_1_i_param_dic_table.html#a72b77dcdb64c8de00e0705f9b5e0d4c0">openm::IParamDicTable</a>
 , <a class="el" href="structopenm_1_1_i_param_dic_txt_table.html#a545cfc6f2f8c0b107714588aae0ebd4d">openm::IParamDicTxtTable</a>
 , <a class="el" href="structopenm_1_1_i_param_dims_table.html#ae759c87a0ddd24b63e547538758f247f">openm::IParamDimsTable</a>
-, <a class="el" href="structopenm_1_1_i_param_dims_txt_table.html#a010cc53df51db6ccf10e91fdd86d9f33">openm::IParamDimsTxtTable</a>
+, <a class="el" href="structopenm_1_1_i_param_dims_txt_table.html#a88dd14795e643b60a7f7dfd64eaa9407">openm::IParamDimsTxtTable</a>
 , <a class="el" href="structopenm_1_1_i_parameter_reader.html#ab1cbb8ee770c728d4ee03f677646517e">openm::IParameterReader</a>
 , <a class="el" href="structopenm_1_1_i_parameter_run_writer.html#aa3790c35e8ce3867566c2f04070ed70b">openm::IParameterRunWriter</a>
 , <a class="el" href="structopenm_1_1_i_parameter_set_writer.html#abe4db027a342fd972779ffc1f890d02a">openm::IParameterSetWriter</a>
+, <a class="el" href="structopenm_1_1_i_param_import_table.html#aee02a78d0123fdcdedd42e692b5bc8a3">openm::IParamImportTable</a>
 , <a class="el" href="structopenm_1_1_i_profile_lst_table.html#aeceffda470e2a5dafc0c73e4b804beed">openm::IProfileLstTable</a>
 , <a class="el" href="structopenm_1_1_i_profile_option_table.html#a44c56e1e50006a4896a35332767ff4ca">openm::IProfileOptionTable</a>
 , <a class="el" href="structopenm_1_1_i_run_option_table.html#aa6fd9c9242dc1f2b489f6e92eb97a4d4">openm::IRunOptionTable</a>
-, <a class="el" href="structopenm_1_1_i_run_param_txt_table.html#a7166630c42593791137b7388fc6dd74f">openm::IRunParamTxtTable</a>
+, <a class="el" href="structopenm_1_1_i_run_param_txt_table.html#a2ebd82d263d2c8baf64ed69cbf9b11cb">openm::IRunParamTxtTable</a>
 , <a class="el" href="structopenm_1_1_i_table_acc_table.html#a84290d0a44ee883810e6cfe584d32eb8">openm::ITableAccTable</a>
-, <a class="el" href="structopenm_1_1_i_table_acc_txt_table.html#ac4278c4b4874ed02e613483712e084ae">openm::ITableAccTxtTable</a>
+, <a class="el" href="structopenm_1_1_i_table_acc_txt_table.html#a4d02942ff9fe6605e2e5e72b0a566817">openm::ITableAccTxtTable</a>
 , <a class="el" href="structopenm_1_1_i_table_dic_table.html#ab234d61239869bb4d07f02bf00934f1e">openm::ITableDicTable</a>
-, <a class="el" href="structopenm_1_1_i_table_dic_txt_table.html#a0cfb9efad519fc974f36ecf9b67a3e7d">openm::ITableDicTxtTable</a>
+, <a class="el" href="structopenm_1_1_i_table_dic_txt_table.html#aa0dc70cc2079d2e2050964d6f2246fef">openm::ITableDicTxtTable</a>
 , <a class="el" href="structopenm_1_1_i_table_dims_table.html#a6f099b3674a279d581f59ed50f40d0dd">openm::ITableDimsTable</a>
-, <a class="el" href="structopenm_1_1_i_table_dims_txt_table.html#a43ed992731e03255e9f897e8498ef08d">openm::ITableDimsTxtTable</a>
+, <a class="el" href="structopenm_1_1_i_table_dims_txt_table.html#ad9fa8eb2450c062e06bdca185fa4bf98">openm::ITableDimsTxtTable</a>
 , <a class="el" href="structopenm_1_1_i_table_expr_table.html#a6f6642e6d88c088352dcda023e2438df">openm::ITableExprTable</a>
-, <a class="el" href="structopenm_1_1_i_table_expr_txt_table.html#a4d962abc60313c24cb85be128ef5185d">openm::ITableExprTxtTable</a>
+, <a class="el" href="structopenm_1_1_i_table_expr_txt_table.html#ab48bfb5dfc8be40af1ad8ce5e76814c5">openm::ITableExprTxtTable</a>
 , <a class="el" href="structopenm_1_1_i_type_dic_table.html#acac8a925d0c777cc573869863178c801">openm::ITypeDicTable</a>
 , <a class="el" href="structopenm_1_1_i_type_dic_txt_table.html#a56cac5697463be54bc58183d963f16f9">openm::ITypeDicTxtTable</a>
-, <a class="el" href="structopenm_1_1_i_type_enum_lst_table.html#aac909e7790c103ac8c5b6d0f2dfa793e">openm::ITypeEnumLstTable</a>
+, <a class="el" href="structopenm_1_1_i_type_enum_lst_table.html#a374b659b34ea21e94778f655da2018ad">openm::ITypeEnumLstTable</a>
 , <a class="el" href="structopenm_1_1_i_type_enum_txt_table.html#a1d4fe1e0b6c6f3635b87dacdfe2e9bf2">openm::ITypeEnumTxtTable</a>
 , <a class="el" href="classopenm_1_1_i_utf8_converter.html#a524d32adc7427239e0d234372ea188cf">openm::IUtf8Converter</a>
 , <a class="el" href="classopenm_1_1_model_base.html#a688268d6cfff9e69ead71db3ce04a350">openm::ModelBase</a>
@@ -251,6 +258,7 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 , <a class="el" href="classopenm_1_1_param_dic_txt_row_adapter.html#a12449630cb73bf9ffbc4a4638ff6fb30">openm::ParamDicTxtRowAdapter</a>
 , <a class="el" href="classopenm_1_1_param_dims_row_adapter.html#aee3bc6caeb454cbbbc8e0bc411b1e4ad">openm::ParamDimsRowAdapter</a>
 , <a class="el" href="classopenm_1_1_param_dims_txt_row_adapter.html#ae8a5602d15202fad3a695d0c2d5b7d49">openm::ParamDimsTxtRowAdapter</a>
+, <a class="el" href="classopenm_1_1_param_import_row_adapter.html#aa0db8114003fd0f7fdbf6c52c76926fe">openm::ParamImportRowAdapter</a>
 , <a class="el" href="classopenm_1_1_profile_lst_row_adapter.html#a0e1895e8dc6bf09b8e1c6d67d17f07af">openm::ProfileLstRowAdapter</a>
 , <a class="el" href="classopenm_1_1_profile_option_row_adapter.html#a9a01745e6de761b6c62a3ca2c774c923">openm::ProfileOptionRowAdapter</a>
 , <a class="el" href="classopenm_1_1_run_lst_row_adapter.html#acb5c75132a3408ef18eda076a3cbee40">openm::RunLstRowAdapter</a>
@@ -280,9 +288,6 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 , <a class="el" href="classopenm_1_1_workset_param_txt_row_adapter.html#add5b6754ec1d4375ac0ea2d407ef9eb2">openm::WorksetParamTxtRowAdapter</a>
 , <a class="el" href="classopenm_1_1_workset_txt_row_adapter.html#abdca8c47940aed52840ac7cd3dc84690">openm::WorksetTxtRowAdapter</a>
 </li>
-<li>createRunOptions()
-: <a class="el" href="classopenm_1_1_run_controller.html#a44c6e15fd256a4fbf9bc28dbef90e296">openm::RunController</a>
-</li>
 <li>createStatement()
 : <a class="el" href="classopenm_1_1_db_exec_sqlite.html#a0c81bb96785bd20e8b00e7748545bd4e">openm::DbExecSqlite</a>
 , <a class="el" href="classopenm_1_1_i_db_exec.html#a54b4aa6ed8deee5a81429b9ce39dbf14">openm::IDbExec</a>
@@ -305,7 +310,7 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Nov 15 2019 13:10:58 for OpenM++ runtime library (libopenm) by
+    <li class="footer">Generated on Sat Feb 1 2020 14:56:18 for OpenM++ runtime library (libopenm) by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

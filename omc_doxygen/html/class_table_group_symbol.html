@@ -120,6 +120,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a665e282b04abcd61b0beafd766344844"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_table_group_symbol.html#a665e282b04abcd61b0beafd766344844">post_parse</a> (int pass)</td></tr>
 <tr class="memdesc:a665e282b04abcd61b0beafd766344844"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform post-parse operations.  <a href="#a665e282b04abcd61b0beafd766344844">More...</a><br /></td></tr>
 <tr class="separator:a665e282b04abcd61b0beafd766344844"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76a8ec9d04fb01ddc6c06a39dddc2488"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_table_group_symbol.html#a76a8ec9d04fb01ddc6c06a39dddc2488">populate_metadata</a> (openm::MetaModelHolder &amp;metaRows)</td></tr>
+<tr class="memdesc:a76a8ec9d04fb01ddc6c06a39dddc2488"><td class="mdescLeft">&#160;</td><td class="mdescRight">Populate metadata associated with the symbol.  <a href="#a76a8ec9d04fb01ddc6c06a39dddc2488">More...</a><br /></td></tr>
+<tr class="separator:a76a8ec9d04fb01ddc6c06a39dddc2488"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_group_symbol"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_group_symbol')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_group_symbol.html">GroupSymbol</a></td></tr>
 <tr class="memitem:a32abeb665e8a2bce45ce8331a4e6dfa4 inherit pub_methods_class_group_symbol"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_group_symbol.html#a32abeb665e8a2bce45ce8331a4e6dfa4">GroupSymbol</a> (<a class="el" href="class_symbol.html">Symbol</a> *sym, yy::location <a class="el" href="class_symbol.html#ae2479a300439d7fa5321bd4332ebeaa5">decl_loc</a>=yy::location())</td></tr>
 <tr class="memdesc:a32abeb665e8a2bce45ce8331a4e6dfa4 inherit pub_methods_class_group_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Morphing constructor.  <a href="class_group_symbol.html#a32abeb665e8a2bce45ce8331a4e6dfa4">More...</a><br /></td></tr>
@@ -171,9 +174,6 @@ list&lt; <a class="el" href="class_symbol.html">Symbol</a> * &gt;&#160;</td><td 
 <tr class="memitem:a7f646bc8ca60aa3e56505aaf9d4a8a89 inherit pub_methods_class_symbol"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_code_block.html">CodeBlock</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a7f646bc8ca60aa3e56505aaf9d4a8a89">cxx_definition_global</a> ()</td></tr>
 <tr class="memdesc:a7f646bc8ca60aa3e56505aaf9d4a8a89 inherit pub_methods_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the c++ definition code associated with the symbol.  <a href="class_symbol.html#a7f646bc8ca60aa3e56505aaf9d4a8a89">More...</a><br /></td></tr>
 <tr class="separator:a7f646bc8ca60aa3e56505aaf9d4a8a89 inherit pub_methods_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac050d0f305b80cb39e42dfcb0610274c inherit pub_methods_class_symbol"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#ac050d0f305b80cb39e42dfcb0610274c">populate_metadata</a> (openm::MetaModelHolder &amp;metaRows)</td></tr>
-<tr class="memdesc:ac050d0f305b80cb39e42dfcb0610274c inherit pub_methods_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Populate metadata associated with the symbol.  <a href="class_symbol.html#ac050d0f305b80cb39e42dfcb0610274c">More...</a><br /></td></tr>
-<tr class="separator:ac050d0f305b80cb39e42dfcb0610274c inherit pub_methods_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33d21ebb8d06d2fe9b8ded167aa711e7 inherit pub_methods_class_symbol"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a33d21ebb8d06d2fe9b8ded167aa711e7">pretty_name</a> () const</td></tr>
 <tr class="memdesc:a33d21ebb8d06d2fe9b8ded167aa711e7 inherit pub_methods_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a short pretty name for a symbol.  <a href="class_symbol.html#a33d21ebb8d06d2fe9b8ded167aa711e7">More...</a><br /></td></tr>
 <tr class="separator:a33d21ebb8d06d2fe9b8ded167aa711e7 inherit pub_methods_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -328,6 +328,13 @@ list&lt; <a class="el" href="class_symbol.html">Symbol</a> ** &gt;&#160;</td><td
 list&lt; <a class="el" href="class_symbol.html">Symbol</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_group_symbol.html#a5143b03f9a91b80151d48fdf5e1d9f6d">pp_symbol_list</a></td></tr>
 <tr class="memdesc:a5143b03f9a91b80151d48fdf5e1d9f6d inherit pub_attribs_class_group_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of symbols (post-parse) <br /></td></tr>
 <tr class="separator:a5143b03f9a91b80151d48fdf5e1d9f6d inherit pub_attribs_class_group_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af00956a4545f48189c74531a4bf45a89 inherit pub_attribs_class_group_symbol"><td class="memItemLeft" align="right" valign="top"><a id="af00956a4545f48189c74531a4bf45a89"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_group_symbol.html#af00956a4545f48189c74531a4bf45a89">is_hidden</a></td></tr>
+<tr class="memdesc:af00956a4545f48189c74531a4bf45a89 inherit pub_attribs_class_group_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if the group is hidden. <br /></td></tr>
+<tr class="separator:af00956a4545f48189c74531a4bf45a89 inherit pub_attribs_class_group_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad00070de090355597a3ad62567447303 inherit pub_attribs_class_group_symbol"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_group_symbol.html#ad00070de090355597a3ad62567447303">pp_group_id</a></td></tr>
+<tr class="memdesc:ad00070de090355597a3ad62567447303 inherit pub_attribs_class_group_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Numeric identifier.  <a href="class_group_symbol.html#ad00070de090355597a3ad62567447303">More...</a><br /></td></tr>
+<tr class="separator:ad00070de090355597a3ad62567447303 inherit pub_attribs_class_group_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_class_symbol"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_symbol')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_symbol.html">Symbol</a></td></tr>
 <tr class="memitem:a73fc59c394e3bdc9fdbb525a24ba5b5f inherit pub_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a73fc59c394e3bdc9fdbb525a24ba5b5f">unique_name</a></td></tr>
 <tr class="memdesc:a73fc59c394e3bdc9fdbb525a24ba5b5f inherit pub_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">The unique identifier for the symbol.  <a href="class_symbol.html#a73fc59c394e3bdc9fdbb525a24ba5b5f">More...</a><br /></td></tr>
@@ -638,6 +645,43 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 
 </div>
 </div>
+<a id="a76a8ec9d04fb01ddc6c06a39dddc2488"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76a8ec9d04fb01ddc6c06a39dddc2488">&#9670;&nbsp;</a></span>populate_metadata()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TableGroupSymbol::populate_metadata </td>
+          <td>(</td>
+          <td class="paramtype">openm::MetaModelHolder &amp;&#160;</td>
+          <td class="paramname"><em>metaRows</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Populate metadata associated with the symbol. </p>
+<p>When this function is called on an object in the <a class="el" href="class_symbol.html">Symbol</a> hierarchy, the call is first passed upwards through the inheritance hierarchy so that operations are performed at all hierarchical levels, and at higher levels before lower levels.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">metaRows</td><td>The meta rows. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented from <a class="el" href="class_symbol.html#ac050d0f305b80cb39e42dfcb0610274c">Symbol</a>.</p>
+
+</div>
+</div>
 <a id="a665e282b04abcd61b0beafd766344844"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a665e282b04abcd61b0beafd766344844">&#9670;&nbsp;</a></span>post_parse()</h2>
 
@@ -687,7 +731,7 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_table_group_symbol.html">TableGroupSymbol</a></li>
-    <li class="footer">Generated on Fri Nov 15 2019 13:13:25 for OpenM++ compiler (omc) by
+    <li class="footer">Generated on Sat Feb 1 2020 15:01:52 for OpenM++ compiler (omc) by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

@@ -38,5 +38,6 @@ var searchData=
   ['_7erootcontroller',['~RootController',['../classopenm_1_1_root_controller.html#aec75d2f6d276666d41b92e5dff951a99',1,'openm::RootController']]],
   ['_7eruncontroller',['~RunController',['../classopenm_1_1_run_controller.html#a09896f949936ab6b2b997d2a18366e11',1,'openm::RunController']]],
   ['_7esinglecontroller',['~SingleController',['../classopenm_1_1_single_controller.html#aa701598894c03c96bb2c23ca50940c21',1,'openm::SingleController']]],
-  ['_7etracelog',['~TraceLog',['../classopenm_1_1_trace_log.html#a0526d117beda8344b4f01da369ce393b',1,'openm::TraceLog']]]
+  ['_7etracelog',['~TraceLog',['../classopenm_1_1_trace_log.html#a0526d117beda8344b4f01da369ce393b',1,'openm::TraceLog']]],
+  ['_7evaluearray',['~ValueArray',['../structopenm_1_1_value_array.html#aec63b33b3ee302dbbd8d22ea1e24739e',1,'openm::ValueArray']]]
 ];

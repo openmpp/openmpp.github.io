@@ -11,6 +11,7 @@ var class_code_gen =
     [ "do_entity_tables", "class_code_gen.html#aed65ce348aa048d6c7970fae3ea6ac57", null ],
     [ "do_event_names", "class_code_gen.html#abd1e14029126d2db47134908e7d4295c", null ],
     [ "do_event_queue", "class_code_gen.html#ab0fa88f5f6acc0acdbfcce752b4358eb", null ],
+    [ "do_groups", "class_code_gen.html#a0b1ee258472ccadabfc563ddea624e6d", null ],
     [ "do_imports", "class_code_gen.html#a4bc77ddd6b7e9c6fe7bf87172f1be05f", null ],
     [ "do_model_strings", "class_code_gen.html#a8840230f59003a52b73d7a1689f8176c", null ],
     [ "do_ModelShutdown", "class_code_gen.html#af19a0293b58825b8bf8a872965a40fcb", null ],
