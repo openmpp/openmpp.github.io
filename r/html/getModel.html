@@ -40,7 +40,7 @@ getModel(dbCon, modelName, modelDigest = NA)
 <tr valign="top"><td><code>modelDigest</code></td>
 <td>
 
-<p>(optional) model digest, ie: &quot;20120817_1604590148&quot;
+<p>(optional) model digest, ie: &quot;_201208171604590148_&quot;
 if digest is NA or NULL then first model with min(model_id) is used
 </p>
 </td></tr>
@@ -148,7 +148,7 @@ If there are multiple models with same name in database and digest is NA or NULL
   defRs &lt;- getModel(theDb, "modelOne")
   
   # use model digest to identify exact version of the model
-  def2012August17 &lt;- getModel(theDb, "modelOne", "20120817_1604590148")
+  def2012August17 &lt;- getModel(theDb, "modelOne", "_201208171604590148_")
   
   dbDisconnect(theDb)
 </pre>
