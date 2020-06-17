@@ -1105,6 +1105,9 @@ const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <tr class="memitem:a73039b79b43a35cf37eae1d3379d5412"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a73039b79b43a35cf37eae1d3379d5412">toAlphaNumeric</a> (const string &amp;i_str, int i_maxSize=0)</td></tr>
 <tr class="memdesc:a73039b79b43a35cf37eae1d3379d5412"><td class="mdescLeft">&#160;</td><td class="mdescRight">replace all non [A-Z,a-z,0-9] by _ underscore and remove repetitive underscores.  <a href="#a73039b79b43a35cf37eae1d3379d5412">More...</a><br /></td></tr>
 <tr class="separator:a73039b79b43a35cf37eae1d3379d5412"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e6c763f6bbba91f3be5a02b5a81910c"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a8e6c763f6bbba91f3be5a02b5a81910c">cleanPathChars</a> (const string &amp;i_str, int i_maxSize=0)</td></tr>
+<tr class="memdesc:a8e6c763f6bbba91f3be5a02b5a81910c"><td class="mdescLeft">&#160;</td><td class="mdescRight">replace all non non-printable and any of "'`$}{&gt;&lt;:|?*&amp;^;/\ by _ underscore.  <a href="#a8e6c763f6bbba91f3be5a02b5a81910c">More...</a><br /></td></tr>
+<tr class="separator:a8e6c763f6bbba91f3be5a02b5a81910c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab4b2b9aba810f98ad58e67dd113220e0"><td class="memItemLeft" align="right" valign="top"><a id="ab4b2b9aba810f98ad58e67dd113220e0"></a>
 const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#ab4b2b9aba810f98ad58e67dd113220e0">replaceAll</a> (const string &amp;i_src, const char *i_oldValue, const char *i_newValue)</td></tr>
 <tr class="memdesc:ab4b2b9aba810f98ad58e67dd113220e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">replace all occurence of i_oldValue by i_newValue, both old and new values must be not empty <br /></td></tr>
@@ -1121,6 +1124,10 @@ const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a42e4774552b5355494114c339b7e7a19">toDateTimeString</a> (const string &amp;i_timestamp)</td></tr>
 <tr class="memdesc:a42e4774552b5355494114c339b7e7a19"><td class="mdescLeft">&#160;</td><td class="mdescRight">make date-time string from timestamp string, ie: 2012_08_17_16_04_59_148 =&gt; 2012-08-17 16:04:59.148 <br /></td></tr>
 <tr class="separator:a42e4774552b5355494114c339b7e7a19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79817a8d2562a945198ee9e1757f2131"><td class="memItemLeft" align="right" valign="top"><a id="a79817a8d2562a945198ee9e1757f2131"></a>
+int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a79817a8d2562a945198ee9e1757f2131">getMilliseconds</a> (void)</td></tr>
+<tr class="memdesc:a79817a8d2562a945198ee9e1757f2131"><td class="mdescLeft">&#160;</td><td class="mdescRight">return number of milliseconds since epoch to measure intervals <br /></td></tr>
+<tr class="separator:a79817a8d2562a945198ee9e1757f2131"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b605680a51287b19d15eef68648d754"><td class="memItemLeft" align="right" valign="top"><a id="a7b605680a51287b19d15eef68648d754"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a7b605680a51287b19d15eef68648d754">formatTo</a> (size_t i_size, char *io_buffer, const char *i_format, va_list io_args)</td></tr>
 <tr class="memdesc:a7b605680a51287b19d15eef68648d754"><td class="mdescLeft">&#160;</td><td class="mdescRight">format message into supplied buffer using vsnprintf() <br /></td></tr>
@@ -1494,6 +1501,36 @@ It is very primitive function and results incorrect if: "special\ path" =&gt; "s
 </div><div class="memdoc">
 
 <p>return base directory of the path or empty string if no / or \ in the path. </p>
+
+</div>
+</div>
+<a id="a8e6c763f6bbba91f3be5a02b5a81910c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e6c763f6bbba91f3be5a02b5a81910c">&#9670;&nbsp;</a></span>cleanPathChars()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string openm::cleanPathChars </td>
+          <td>(</td>
+          <td class="paramtype">const string &amp;&#160;</td>
+          <td class="paramname"><em>i_str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i_maxSize</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>replace all non non-printable and any of "'`$}{&gt;&lt;:|?*&amp;^;/\ by _ underscore. </p>
 
 </div>
 </div>
@@ -2021,7 +2058,7 @@ It is very primitive function and results incorrect if: "special\ path" =&gt; "s
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceopenm.html">openm</a></li>
-    <li class="footer">Generated on Sat Feb 1 2020 14:56:05 for OpenM++ runtime library (libopenm) by
+    <li class="footer">Generated on Wed Jun 17 2020 15:12:19 for OpenM++ runtime library (libopenm) by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

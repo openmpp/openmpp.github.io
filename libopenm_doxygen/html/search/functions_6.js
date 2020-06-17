@@ -6,6 +6,7 @@ var searchData=
   ['getlanguagemessages',['getLanguageMessages',['../classopenm_1_1_log.html#a13e7ca60f9ca6fea432b62d83f506418',1,'openm::Log::getLanguageMessages()'],['../structopenm_1_1_i_log.html#ace7cab389ccc2bdbaa62f18ed13d2cae',1,'openm::ILog::getLanguageMessages()']]],
   ['getlanguages',['getLanguages',['../classopenm_1_1_log.html#a2f63c743c3b1ef8035c0fc966f205326',1,'openm::Log::getLanguages()'],['../structopenm_1_1_i_log.html#a79e2ca7c98bf05b37914ecce809f0a65',1,'openm::ILog::getLanguages()']]],
   ['getmessage',['getMessage',['../classopenm_1_1_log.html#a5167e8dcec49b8458f1b39e437758b0d',1,'openm::Log::getMessage()'],['../structopenm_1_1_i_log.html#a25ece6dcce02ec722298a793e0b5e849',1,'openm::ILog::getMessage()']]],
+  ['getmilliseconds',['getMilliseconds',['../namespaceopenm.html#a79817a8d2562a945198ee9e1757f2131',1,'openm']]],
   ['getrunoptions',['getRunOptions',['../classopenm_1_1_meta_loader.html#ab08a6889f59825c579ead570fbd7050f',1,'openm::MetaLoader']]],
   ['getsection',['getSection',['../classopenm_1_1_ini_file_reader.html#a7131435d0d3d7c8c3722851a9cc80483',1,'openm::IniFileReader']]],
   ['groupleafs',['groupLeafs',['../classopenm_1_1_group_pc_table.html#a521e64adab06dfcdf31b93278b0dbf4b',1,'openm::GroupPcTable::groupLeafs()'],['../structopenm_1_1_i_group_pc_table.html#a35e7a5ad5bb9cb591d89405be09bd9bb',1,'openm::IGroupPcTable::groupLeafs()']]],

@@ -6,6 +6,7 @@ var structopenm_1_1_meta_holder =
     [ "typeEnumsSize", "structopenm_1_1_meta_holder.html#ac356f321e034ff4940d72675bf3c04bc", null ],
     [ "groupLst", "structopenm_1_1_meta_holder.html#a01aba20fb30f070905842ac8404165ea", null ],
     [ "groupPc", "structopenm_1_1_meta_holder.html#a1275a8426ce9dc65987ebbd1dbeeb0cc", null ],
+    [ "langLst", "structopenm_1_1_meta_holder.html#a2d15b6d3aae21a0fc0488c16404f6822", null ],
     [ "modelRow", "structopenm_1_1_meta_holder.html#a6034caf31fe1b9657af3930b3ddbcec5", null ],
     [ "modelTable", "structopenm_1_1_meta_holder.html#a2c16296027051a5ebdec3ac50ea6fa61", null ],
     [ "paramDic", "structopenm_1_1_meta_holder.html#a36809a3cc2baaceec3919f1398e2cb07", null ],
