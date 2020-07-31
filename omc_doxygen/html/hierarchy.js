@@ -31,6 +31,7 @@ var hierarchy =
     [ "openm::OmcArgKey", "structopenm_1_1_omc_arg_key.html", null ],
     [ "openm::OmcShortKey", "structopenm_1_1_omc_short_key.html", null ],
     [ "ParseContext", "class_parse_context.html", null ],
+    [ "PDim", "struct_p_dim.html", null ],
     [ "SpecialGlobal", "class_special_global.html", null ],
     [ "Symbol", "class_symbol.html", [
       [ "AggregationSymbol", "class_aggregation_symbol.html", null ],

@@ -9,6 +9,7 @@ var structopenm_1_1_type_dic_row =
     [ "isFloat", "structopenm_1_1_type_dic_row.html#a83abd5c11dac73e8150c3b6dcc52ee77", null ],
     [ "isInt", "structopenm_1_1_type_dic_row.html#af99fa4aa881b4d735135b8751873389d", null ],
     [ "isString", "structopenm_1_1_type_dic_row.html#a8d14c4c947c2d5cdf0367c04355fbc16", null ],
+    [ "isTime", "structopenm_1_1_type_dic_row.html#a90577c882abd8c7859e5b2031bafa9af", null ],
     [ "dicId", "structopenm_1_1_type_dic_row.html#ae04fecf01a9888efc8aa7bcf1573725b", null ],
     [ "digest", "structopenm_1_1_type_dic_row.html#a2692b2bb854e22c5593cbe06e14c75ff", null ],
     [ "modelId", "structopenm_1_1_type_dic_row.html#a231ad27f3c38e57d5cf6d4c4ae5b2057", null ],

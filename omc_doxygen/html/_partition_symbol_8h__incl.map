@@ -1,10 +1,10 @@
 <map id="PartitionSymbol.h" name="PartitionSymbol.h">
-<area shape="rect" id="node4" href="$_enumeration_with_enumerators_symbol_8h.html" title="Declarations for the EnumerationWithEnumeratorsSymbol class. " alt="" coords="59,80,255,121"/>
-<area shape="rect" id="node22" href="$_constant_8h.html" title="Declarations for the Constant class. " alt="" coords="692,319,777,345"/>
-<area shape="rect" id="node7" href="$_enumeration_symbol_8h.html" title="Declarations for the EnumerationSymbol class. " alt="" coords="195,169,346,196"/>
-<area shape="rect" id="node8" href="$_type_symbol_8h.html" title="Declarations for the TypeSymbol class. " alt="" coords="373,244,478,271"/>
-<area shape="rect" id="node9" href="$_symbol_8h.html" title="Declarations for the Symbol class. " alt="" coords="696,393,773,420"/>
-<area shape="rect" id="node17" href="$omc__common_8h.html" title="Common declarations for omc. " alt="" coords="1296,468,1411,495"/>
-<area shape="rect" id="node20" href="$_special_global_8h.html" title="Declarations for the SpecialGlobal class. " alt="" coords="317,468,430,495"/>
-<area shape="rect" id="node23" href="$_literal_8h.html" title="Declares the Literal class and sub&#45;classes. " alt="" coords="1389,393,1457,420"/>
+<area shape="rect" id="node4" href="$_enumeration_with_enumerators_symbol_8h.html" title="Declarations for the EnumerationWithEnumeratorsSymbol class. " alt="" coords="1090,80,1286,121"/>
+<area shape="rect" id="node23" href="$_constant_8h.html" title="Declarations for the Constant class. " alt="" coords="1320,319,1405,345"/>
+<area shape="rect" id="node7" href="$_enumeration_symbol_8h.html" title="Declarations for the EnumerationSymbol class. " alt="" coords="1113,169,1263,196"/>
+<area shape="rect" id="node8" href="$_type_symbol_8h.html" title="Declarations for the TypeSymbol class. " alt="" coords="1135,244,1241,271"/>
+<area shape="rect" id="node10" href="$_symbol_8h.html" title="Declarations for the Symbol class. " alt="" coords="928,393,1005,420"/>
+<area shape="rect" id="node18" href="$omc__common_8h.html" title="Common declarations for omc. " alt="" coords="808,468,923,495"/>
+<area shape="rect" id="node21" href="$_special_global_8h.html" title="Declarations for the SpecialGlobal class. " alt="" coords="670,468,783,495"/>
+<area shape="rect" id="node24" href="$_literal_8h.html" title="Declares the Literal class and sub&#45;classes. " alt="" coords="1401,393,1469,420"/>
 </map>

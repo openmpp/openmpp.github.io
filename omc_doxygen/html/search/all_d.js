@@ -13,7 +13,7 @@ var searchData=
   ['no_5fline_5fdirectives',['no_line_directives',['../class_code_gen.html#afbdc0adf38ac0993c0f11992411f796d',1,'CodeGen::no_line_directives()'],['../class_symbol.html#abb2da4a7c765b2a0cc636b9b24f474fa',1,'Symbol::no_line_directives()']]],
   ['nolinedirectives',['noLineDirectives',['../structopenm_1_1_omc_arg_key.html#a228ba3234e7ce3d70a842bbab9be12e3',1,'openm::OmcArgKey']]],
   ['normalize_5fnote',['normalize_note',['../class_parse_context.html#a9c2e68056961b79e17ad0a0ee5df58b7',1,'ParseContext']]],
-  ['note',['note',['../class_bool_enumerator_symbol.html#a6883166cdca6f6628765b3e64a2772a1',1,'BoolEnumeratorSymbol::note()'],['../class_partition_enumerator_symbol.html#a3f0241cdd9bf067af909cc7a8b976810',1,'PartitionEnumeratorSymbol::note()'],['../class_symbol.html#a3c3fd9ef81c8ca948f7fd0c71d3b442f',1,'Symbol::note()']]],
+  ['note',['note',['../class_bool_enumerator_symbol.html#ad389e85cb45bd321da7fe66dd46984fd',1,'BoolEnumeratorSymbol::note()'],['../class_partition_enumerator_symbol.html#af71650ef72912454e8c7a225052fe47a',1,'PartitionEnumeratorSymbol::note()'],['../class_symbol.html#a3c3fd9ef81c8ca948f7fd0c71d3b442f',1,'Symbol::note()']]],
   ['notes_5finput',['notes_input',['../class_symbol.html#a590d0ea74f0c39ec0b11e488954eb454',1,'Symbol']]],
   ['notes_5fsource',['notes_source',['../class_symbol.html#ac1c966d7a02dc2d665cd32ad21518a72',1,'Symbol']]],
   ['notify_5ffn',['notify_fn',['../class_attribute_symbol.html#a8dee103ef76563bfb305d879d0aad87a',1,'AttributeSymbol']]],

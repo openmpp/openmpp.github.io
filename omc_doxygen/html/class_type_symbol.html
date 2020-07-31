@@ -123,9 +123,9 @@ Collaboration diagram for TypeSymbol:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a4b4c6f85a6a819af9e313cb2730eaa5a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#a4b4c6f85a6a819af9e313cb2730eaa5a">is_base_symbol</a> () const</td></tr>
-<tr class="memdesc:a4b4c6f85a6a819af9e313cb2730eaa5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Query if this object is an underived instance of the base <a class="el" href="class_symbol.html" title="A Symbol is a named syntactic entity in openM++. ">Symbol</a> class.  <a href="#a4b4c6f85a6a819af9e313cb2730eaa5a">More...</a><br /></td></tr>
-<tr class="separator:a4b4c6f85a6a819af9e313cb2730eaa5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0625c569ff20af04c1498df7fd65450"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#af0625c569ff20af04c1498df7fd65450">is_base_symbol</a> () const override</td></tr>
+<tr class="memdesc:af0625c569ff20af04c1498df7fd65450"><td class="mdescLeft">&#160;</td><td class="mdescRight">Query if this object is an underived instance of the base <a class="el" href="class_symbol.html" title="A Symbol is a named syntactic entity in openM++. ">Symbol</a> class.  <a href="#af0625c569ff20af04c1498df7fd65450">More...</a><br /></td></tr>
+<tr class="separator:af0625c569ff20af04c1498df7fd65450"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a845ac0cacda66e88fad06f8171f714f5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#a845ac0cacda66e88fad06f8171f714f5">TypeSymbol</a> (const string unm)</td></tr>
 <tr class="memdesc:a845ac0cacda66e88fad06f8171f714f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a845ac0cacda66e88fad06f8171f714f5">More...</a><br /></td></tr>
 <tr class="separator:a845ac0cacda66e88fad06f8171f714f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -135,39 +135,48 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7c77858cbdf85e24cb11b7297f6a383c"><td class="memItemLeft" align="right" valign="top">virtual const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#a7c77858cbdf85e24cb11b7297f6a383c">default_initial_value</a> () const =0</td></tr>
 <tr class="memdesc:a7c77858cbdf85e24cb11b7297f6a383c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the default initial value for a quantity of this type.  <a href="#a7c77858cbdf85e24cb11b7297f6a383c">More...</a><br /></td></tr>
 <tr class="separator:a7c77858cbdf85e24cb11b7297f6a383c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6305aea8a6905e3bdf4b4c4fe65d0064"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#a6305aea8a6905e3bdf4b4c4fe65d0064">is_unknown</a> ()</td></tr>
-<tr class="memdesc:a6305aea8a6905e3bdf4b4c4fe65d0064"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines derived type.  <a href="#a6305aea8a6905e3bdf4b4c4fe65d0064">More...</a><br /></td></tr>
-<tr class="separator:a6305aea8a6905e3bdf4b4c4fe65d0064"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1571a7758f84a4e9b3268039189347e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#af1571a7758f84a4e9b3268039189347e">is_bool</a> ()</td></tr>
-<tr class="memdesc:af1571a7758f84a4e9b3268039189347e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines derived type.  <a href="#af1571a7758f84a4e9b3268039189347e">More...</a><br /></td></tr>
-<tr class="separator:af1571a7758f84a4e9b3268039189347e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6699f5691b849e5a17a54d19da4eea8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#ad6699f5691b849e5a17a54d19da4eea8">is_unknown</a> () const</td></tr>
+<tr class="memdesc:ad6699f5691b849e5a17a54d19da4eea8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines derived type.  <a href="#ad6699f5691b849e5a17a54d19da4eea8">More...</a><br /></td></tr>
+<tr class="separator:ad6699f5691b849e5a17a54d19da4eea8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab95c984fc8cc6c4836200f4d20e4ae33"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#ab95c984fc8cc6c4836200f4d20e4ae33">is_bool</a> () const</td></tr>
+<tr class="memdesc:ab95c984fc8cc6c4836200f4d20e4ae33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines derived type.  <a href="#ab95c984fc8cc6c4836200f4d20e4ae33">More...</a><br /></td></tr>
+<tr class="separator:ab95c984fc8cc6c4836200f4d20e4ae33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17a41f6da04c8b159eae6efbbf52b30f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#a17a41f6da04c8b159eae6efbbf52b30f">is_string</a> () const</td></tr>
 <tr class="memdesc:a17a41f6da04c8b159eae6efbbf52b30f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines derived type.  <a href="#a17a41f6da04c8b159eae6efbbf52b30f">More...</a><br /></td></tr>
 <tr class="separator:a17a41f6da04c8b159eae6efbbf52b30f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54d62dc3b34d8e2cf9754c513b985f23"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#a54d62dc3b34d8e2cf9754c513b985f23">is_classification</a> ()</td></tr>
-<tr class="memdesc:a54d62dc3b34d8e2cf9754c513b985f23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines derived type.  <a href="#a54d62dc3b34d8e2cf9754c513b985f23">More...</a><br /></td></tr>
-<tr class="separator:a54d62dc3b34d8e2cf9754c513b985f23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa107d90e6d8f91359237ec84cd249bd5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#aa107d90e6d8f91359237ec84cd249bd5">is_range</a> ()</td></tr>
-<tr class="memdesc:aa107d90e6d8f91359237ec84cd249bd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines derived type.  <a href="#aa107d90e6d8f91359237ec84cd249bd5">More...</a><br /></td></tr>
-<tr class="separator:aa107d90e6d8f91359237ec84cd249bd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0ca5a4f5e47632fffd489ef25d809e4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#aa0ca5a4f5e47632fffd489ef25d809e4">is_partition</a> ()</td></tr>
-<tr class="memdesc:aa0ca5a4f5e47632fffd489ef25d809e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines derived type.  <a href="#aa0ca5a4f5e47632fffd489ef25d809e4">More...</a><br /></td></tr>
-<tr class="separator:aa0ca5a4f5e47632fffd489ef25d809e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5ebb5e052622c263d9262335bc19443"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#ac5ebb5e052622c263d9262335bc19443">is_time</a> ()</td></tr>
-<tr class="memdesc:ac5ebb5e052622c263d9262335bc19443"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines derived type.  <a href="#ac5ebb5e052622c263d9262335bc19443">More...</a><br /></td></tr>
-<tr class="separator:ac5ebb5e052622c263d9262335bc19443"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae31404b169448a6bcb20129d8864b466"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#ae31404b169448a6bcb20129d8864b466">is_numeric_or_bool</a> ()</td></tr>
-<tr class="memdesc:ae31404b169448a6bcb20129d8864b466"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines derived type.  <a href="#ae31404b169448a6bcb20129d8864b466">More...</a><br /></td></tr>
-<tr class="separator:ae31404b169448a6bcb20129d8864b466"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac798dec5afe547a0286c05819d70f3e1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#ac798dec5afe547a0286c05819d70f3e1">is_enumeration</a> ()</td></tr>
-<tr class="memdesc:ac798dec5afe547a0286c05819d70f3e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines derived type.  <a href="#ac798dec5afe547a0286c05819d70f3e1">More...</a><br /></td></tr>
-<tr class="separator:ac798dec5afe547a0286c05819d70f3e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aece435872c7a5a00b38db706039b9389"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#aece435872c7a5a00b38db706039b9389">is_classification</a> () const</td></tr>
+<tr class="memdesc:aece435872c7a5a00b38db706039b9389"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines derived type.  <a href="#aece435872c7a5a00b38db706039b9389">More...</a><br /></td></tr>
+<tr class="separator:aece435872c7a5a00b38db706039b9389"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf326e0201241b2755043254bb1b415f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#abf326e0201241b2755043254bb1b415f">is_range</a> () const</td></tr>
+<tr class="memdesc:abf326e0201241b2755043254bb1b415f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines derived type.  <a href="#abf326e0201241b2755043254bb1b415f">More...</a><br /></td></tr>
+<tr class="separator:abf326e0201241b2755043254bb1b415f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8576dfd542d4806cef90ec8af9d1e7fd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#a8576dfd542d4806cef90ec8af9d1e7fd">is_partition</a> () const</td></tr>
+<tr class="memdesc:a8576dfd542d4806cef90ec8af9d1e7fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines derived type.  <a href="#a8576dfd542d4806cef90ec8af9d1e7fd">More...</a><br /></td></tr>
+<tr class="separator:a8576dfd542d4806cef90ec8af9d1e7fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a237d722bc3b29a333bd13dd8167e810f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#a237d722bc3b29a333bd13dd8167e810f">is_time</a> () const</td></tr>
+<tr class="memdesc:a237d722bc3b29a333bd13dd8167e810f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines derived type.  <a href="#a237d722bc3b29a333bd13dd8167e810f">More...</a><br /></td></tr>
+<tr class="separator:a237d722bc3b29a333bd13dd8167e810f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d0db19e7fff42517c70d4df717e750a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#a6d0db19e7fff42517c70d4df717e750a">is_numeric_or_bool</a> () const</td></tr>
+<tr class="memdesc:a6d0db19e7fff42517c70d4df717e750a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines derived type.  <a href="#a6d0db19e7fff42517c70d4df717e750a">More...</a><br /></td></tr>
+<tr class="separator:a6d0db19e7fff42517c70d4df717e750a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a615c57f5685c8867f3d9dc9caa41abc8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#a615c57f5685c8867f3d9dc9caa41abc8">is_enumeration</a> () const</td></tr>
+<tr class="memdesc:a615c57f5685c8867f3d9dc9caa41abc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines derived type.  <a href="#a615c57f5685c8867f3d9dc9caa41abc8">More...</a><br /></td></tr>
+<tr class="separator:a615c57f5685c8867f3d9dc9caa41abc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01eb04e635a188587231fc07190adf45"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#a01eb04e635a188587231fc07190adf45">is_floating</a> () const</td></tr>
 <tr class="memdesc:a01eb04e635a188587231fc07190adf45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines derived type.  <a href="#a01eb04e635a188587231fc07190adf45">More...</a><br /></td></tr>
 <tr class="separator:a01eb04e635a188587231fc07190adf45"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ad80e4434e870ad33afd31f08e871ab"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#a8ad80e4434e870ad33afd31f08e871ab">is_wrapped</a> ()</td></tr>
-<tr class="memdesc:a8ad80e4434e870ad33afd31f08e871ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines if the type is a wrapped type, e.g.  <a href="#a8ad80e4434e870ad33afd31f08e871ab">More...</a><br /></td></tr>
-<tr class="separator:a8ad80e4434e870ad33afd31f08e871ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac13794036e52b2f3eb61e7b33070f55b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#ac13794036e52b2f3eb61e7b33070f55b">is_numeric_floating</a> () const</td></tr>
+<tr class="memdesc:ac13794036e52b2f3eb61e7b33070f55b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines derived type.  <a href="#ac13794036e52b2f3eb61e7b33070f55b">More...</a><br /></td></tr>
+<tr class="separator:ac13794036e52b2f3eb61e7b33070f55b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bb15b0edba7937470c4749d8a4d91a8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#a0bb15b0edba7937470c4749d8a4d91a8">is_numeric_integer</a> () const</td></tr>
+<tr class="memdesc:a0bb15b0edba7937470c4749d8a4d91a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines derived type.  <a href="#a0bb15b0edba7937470c4749d8a4d91a8">More...</a><br /></td></tr>
+<tr class="separator:a0bb15b0edba7937470c4749d8a4d91a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e70228bf22b9314162a65f017bf1e3d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#a6e70228bf22b9314162a65f017bf1e3d">is_wrapped</a> () const</td></tr>
+<tr class="memdesc:a6e70228bf22b9314162a65f017bf1e3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines if the type is a wrapped type, e.g.  <a href="#a6e70228bf22b9314162a65f017bf1e3d">More...</a><br /></td></tr>
+<tr class="separator:a6e70228bf22b9314162a65f017bf1e3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1175f62ba1bbf493454275332101d28e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_constant.html">Constant</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#a1175f62ba1bbf493454275332101d28e">make_constant</a> (const string &amp;i_value) const</td></tr>
+<tr class="memdesc:a1175f62ba1bbf493454275332101d28e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create new <a class="el" href="class_constant.html" title="Constant - Refers to either a Literal or an EnumeratorSymbol. ">Constant</a> from 'i_value' literal.  <a href="#a1175f62ba1bbf493454275332101d28e">More...</a><br /></td></tr>
+<tr class="separator:a1175f62ba1bbf493454275332101d28e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f5dd2683c6c253fc9385ba141aac5e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_type_symbol.html">TypeSymbol</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#a8f5dd2683c6c253fc9385ba141aac5e1">summing_type</a> ()</td></tr>
 <tr class="memdesc:a8f5dd2683c6c253fc9385ba141aac5e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines appropriate type to use for sums or differences of this type.  <a href="#a8f5dd2683c6c253fc9385ba141aac5e1">More...</a><br /></td></tr>
 <tr class="separator:a8f5dd2683c6c253fc9385ba141aac5e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -711,7 +720,7 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <p>Gets the default initial value for a quantity of this type. </p>
 <dl class="section return"><dt>Returns</dt><dd>The default initial value as a string. </dd></dl>
 
-<p>Implemented in <a class="el" href="class_numeric_symbol.html#a408d695c9a1dbd0fc92d483752c92577">NumericSymbol</a>, <a class="el" href="class_enumeration_symbol.html#a987417e0a09d7fb04b5b11477d27510b">EnumerationSymbol</a>, <a class="el" href="class_enumeration_with_enumerators_symbol.html#a5f7d482031a3d96ae82082626aa18ca1">EnumerationWithEnumeratorsSymbol</a>, <a class="el" href="class_range_symbol.html#a2ca853636f95da99d46eb01b0d3ba0c8">RangeSymbol</a>, <a class="el" href="class_string_type_symbol.html#a8fc3424d8d7f2581fde5f540809629fc">StringTypeSymbol</a>, <a class="el" href="class_partition_symbol.html#ae4f6eff71eb490ccdfb81c48ba04883d">PartitionSymbol</a>, <a class="el" href="class_type_of_link_symbol.html#ace1823133589cc4dd3ce224efe4a241c">TypeOfLinkSymbol</a>, and <a class="el" href="class_unknown_type_symbol.html#a1c81696d7c2fadf047bb8ca1daa1644a">UnknownTypeSymbol</a>.</p>
+<p>Implemented in <a class="el" href="class_numeric_symbol.html#ae94b235e70e187fbb825ca1db4a6b972">NumericSymbol</a>, <a class="el" href="class_enumeration_symbol.html#aec99527a4d01e60820e9a87cc16af084">EnumerationSymbol</a>, <a class="el" href="class_enumeration_with_enumerators_symbol.html#a2c92fef8c61ab6dc25ffecdc861c11dd">EnumerationWithEnumeratorsSymbol</a>, <a class="el" href="class_string_type_symbol.html#a92030bfd9475c9a0f67c2445fcf80e8a">StringTypeSymbol</a>, <a class="el" href="class_range_symbol.html#ad0ddbb9a8b32f843d84c56f3be1b77d5">RangeSymbol</a>, <a class="el" href="class_partition_symbol.html#a8c7975dd1459083ee313fd7f605fccb7">PartitionSymbol</a>, <a class="el" href="class_type_of_link_symbol.html#ace1823133589cc4dd3ce224efe4a241c">TypeOfLinkSymbol</a>, and <a class="el" href="class_unknown_type_symbol.html#a1c81696d7c2fadf047bb8ca1daa1644a">UnknownTypeSymbol</a>.</p>
 
 </div>
 </div>
@@ -769,12 +778,12 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The formatted for storage. </dd></dl>
 
-<p>Reimplemented in <a class="el" href="class_numeric_symbol.html#ada7837dc98a2b62bfdf5f40fa4c74cd6">NumericSymbol</a>, <a class="el" href="class_classification_symbol.html#a5645d455f1d1ad97b25f328371d4f1a3">ClassificationSymbol</a>, <a class="el" href="class_string_type_symbol.html#a01b4a8ef887682561f2b2b77a307282a">StringTypeSymbol</a>, <a class="el" href="class_range_symbol.html#a425347322f016211c65189a47e76d1e6">RangeSymbol</a>, and <a class="el" href="class_bool_symbol.html#a09d08d86bd848a9785fb5698446dac81">BoolSymbol</a>.</p>
+<p>Reimplemented in <a class="el" href="class_numeric_symbol.html#ae0e9ee9f98b008eff3cf76372262a3e8">NumericSymbol</a>, <a class="el" href="class_classification_symbol.html#afd0a85ad32d75fe17ca344790197e953">ClassificationSymbol</a>, <a class="el" href="class_time_symbol.html#a223f5c20461e997241c0a1ded2c8e510">TimeSymbol</a>, <a class="el" href="class_string_type_symbol.html#ad3c8d1b85795c51947eee2a2a70a49c0">StringTypeSymbol</a>, <a class="el" href="class_range_symbol.html#af19c7585a63fbff60851bfdec5e81081">RangeSymbol</a>, and <a class="el" href="class_bool_symbol.html#a8e6d85dd547480b59a6fcaaa8a261272">BoolSymbol</a>.</p>
 
 </div>
 </div>
-<a id="a4b4c6f85a6a819af9e313cb2730eaa5a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b4c6f85a6a819af9e313cb2730eaa5a">&#9670;&nbsp;</a></span>is_base_symbol()</h2>
+<a id="af0625c569ff20af04c1498df7fd65450"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0625c569ff20af04c1498df7fd65450">&#9670;&nbsp;</a></span>is_base_symbol()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -791,7 +800,7 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -806,8 +815,8 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 
 </div>
 </div>
-<a id="af1571a7758f84a4e9b3268039189347e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af1571a7758f84a4e9b3268039189347e">&#9670;&nbsp;</a></span>is_bool()</h2>
+<a id="ab95c984fc8cc6c4836200f4d20e4ae33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab95c984fc8cc6c4836200f4d20e4ae33">&#9670;&nbsp;</a></span>is_bool()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -816,7 +825,7 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
           <td class="memname">bool TypeSymbol::is_bool </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -826,8 +835,8 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 
 </div>
 </div>
-<a id="a54d62dc3b34d8e2cf9754c513b985f23"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54d62dc3b34d8e2cf9754c513b985f23">&#9670;&nbsp;</a></span>is_classification()</h2>
+<a id="aece435872c7a5a00b38db706039b9389"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aece435872c7a5a00b38db706039b9389">&#9670;&nbsp;</a></span>is_classification()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -836,7 +845,7 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
           <td class="memname">bool TypeSymbol::is_classification </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -846,8 +855,8 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 
 </div>
 </div>
-<a id="ac798dec5afe547a0286c05819d70f3e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac798dec5afe547a0286c05819d70f3e1">&#9670;&nbsp;</a></span>is_enumeration()</h2>
+<a id="a615c57f5685c8867f3d9dc9caa41abc8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a615c57f5685c8867f3d9dc9caa41abc8">&#9670;&nbsp;</a></span>is_enumeration()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -856,7 +865,7 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
           <td class="memname">bool TypeSymbol::is_enumeration </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -886,8 +895,48 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 
 </div>
 </div>
-<a id="ae31404b169448a6bcb20129d8864b466"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae31404b169448a6bcb20129d8864b466">&#9670;&nbsp;</a></span>is_numeric_or_bool()</h2>
+<a id="ac13794036e52b2f3eb61e7b33070f55b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac13794036e52b2f3eb61e7b33070f55b">&#9670;&nbsp;</a></span>is_numeric_floating()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TypeSymbol::is_numeric_floating </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Determines derived type. </p>
+<dl class="section return"><dt>Returns</dt><dd>true if the type is numeric and one of: "real", "float", "double" or "ldouble". </dd></dl>
+
+</div>
+</div>
+<a id="a0bb15b0edba7937470c4749d8a4d91a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bb15b0edba7937470c4749d8a4d91a8">&#9670;&nbsp;</a></span>is_numeric_integer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TypeSymbol::is_numeric_integer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Determines derived type. </p>
+<dl class="section return"><dt>Returns</dt><dd>true if the type is numeric but neither floating nor time. </dd></dl>
+
+</div>
+</div>
+<a id="a6d0db19e7fff42517c70d4df717e750a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d0db19e7fff42517c70d4df717e750a">&#9670;&nbsp;</a></span>is_numeric_or_bool()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -896,7 +945,7 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
           <td class="memname">bool TypeSymbol::is_numeric_or_bool </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -906,8 +955,8 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 
 </div>
 </div>
-<a id="aa0ca5a4f5e47632fffd489ef25d809e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa0ca5a4f5e47632fffd489ef25d809e4">&#9670;&nbsp;</a></span>is_partition()</h2>
+<a id="a8576dfd542d4806cef90ec8af9d1e7fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8576dfd542d4806cef90ec8af9d1e7fd">&#9670;&nbsp;</a></span>is_partition()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -916,7 +965,7 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
           <td class="memname">bool TypeSymbol::is_partition </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -926,8 +975,8 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 
 </div>
 </div>
-<a id="aa107d90e6d8f91359237ec84cd249bd5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa107d90e6d8f91359237ec84cd249bd5">&#9670;&nbsp;</a></span>is_range()</h2>
+<a id="abf326e0201241b2755043254bb1b415f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf326e0201241b2755043254bb1b415f">&#9670;&nbsp;</a></span>is_range()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -936,7 +985,7 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
           <td class="memname">bool TypeSymbol::is_range </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -966,8 +1015,8 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 
 </div>
 </div>
-<a id="ac5ebb5e052622c263d9262335bc19443"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac5ebb5e052622c263d9262335bc19443">&#9670;&nbsp;</a></span>is_time()</h2>
+<a id="a237d722bc3b29a333bd13dd8167e810f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a237d722bc3b29a333bd13dd8167e810f">&#9670;&nbsp;</a></span>is_time()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -976,7 +1025,7 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
           <td class="memname">bool TypeSymbol::is_time </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -986,8 +1035,8 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 
 </div>
 </div>
-<a id="a6305aea8a6905e3bdf4b4c4fe65d0064"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6305aea8a6905e3bdf4b4c4fe65d0064">&#9670;&nbsp;</a></span>is_unknown()</h2>
+<a id="ad6699f5691b849e5a17a54d19da4eea8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6699f5691b849e5a17a54d19da4eea8">&#9670;&nbsp;</a></span>is_unknown()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -996,7 +1045,7 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
           <td class="memname">bool TypeSymbol::is_unknown </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1039,12 +1088,12 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if valid constant, false if not. </dd></dl>
 
-<p>Reimplemented in <a class="el" href="class_numeric_symbol.html#a38f9f6c9486f515471f90b69ea92bfa4">NumericSymbol</a>, <a class="el" href="class_range_symbol.html#a1c694a8306e7d1e9e55146a8c6d9a181">RangeSymbol</a>, <a class="el" href="class_classification_symbol.html#aa5835975edcedd00d2f429b1abde3212">ClassificationSymbol</a>, <a class="el" href="class_partition_symbol.html#a2b5eca7419d1eba5b058daaff0e4b9e8">PartitionSymbol</a>, <a class="el" href="class_string_type_symbol.html#a50a31819e76c4c40730a6bbd75ebafe6">StringTypeSymbol</a>, and <a class="el" href="class_bool_symbol.html#add68a17df50798c3459daf908519ad64">BoolSymbol</a>.</p>
+<p>Reimplemented in <a class="el" href="class_numeric_symbol.html#a8ba4129da2d4863d6d21531c38f15c4e">NumericSymbol</a>, <a class="el" href="class_range_symbol.html#aafc64c19413839f63cebb52db9d01456">RangeSymbol</a>, <a class="el" href="class_classification_symbol.html#ac26ed8f788a97edf74ceec00b53d4eb6">ClassificationSymbol</a>, <a class="el" href="class_partition_symbol.html#ab1297f9336d02cc3ef3cbc7661f4e0b0">PartitionSymbol</a>, <a class="el" href="class_string_type_symbol.html#aa9b30814b3a373e5f25b03087dbe7680">StringTypeSymbol</a>, and <a class="el" href="class_bool_symbol.html#a09991c2b7878deabeac59efd08fc0702">BoolSymbol</a>.</p>
 
 </div>
 </div>
-<a id="a8ad80e4434e870ad33afd31f08e871ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8ad80e4434e870ad33afd31f08e871ab">&#9670;&nbsp;</a></span>is_wrapped()</h2>
+<a id="a6e70228bf22b9314162a65f017bf1e3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e70228bf22b9314162a65f017bf1e3d">&#9670;&nbsp;</a></span>is_wrapped()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1056,7 +1105,7 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
           <td class="memname">bool TypeSymbol::is_wrapped </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -1069,6 +1118,37 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <p>Determines if the type is a wrapped type, e.g. </p>
 <p>time, cassificaiton, etc.</p>
 <dl class="section return"><dt>Returns</dt><dd>true if the type is wrapped, false otherwise </dd></dl>
+
+</div>
+</div>
+<a id="a1175f62ba1bbf493454275332101d28e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1175f62ba1bbf493454275332101d28e">&#9670;&nbsp;</a></span>make_constant()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="class_constant.html">Constant</a>* TypeSymbol::make_constant </td>
+          <td>(</td>
+          <td class="paramtype">const string &amp;&#160;</td>
+          <td class="paramname"><em>i_value</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create new <a class="el" href="class_constant.html" title="Constant - Refers to either a Literal or an EnumeratorSymbol. ">Constant</a> from 'i_value' literal. </p>
+<dl class="section return"><dt>Returns</dt><dd>new <a class="el" href="class_constant.html" title="Constant - Refers to either a Literal or an EnumeratorSymbol. ">Constant</a> or NULL on error. </dd></dl>
+
+<p>Reimplemented in <a class="el" href="class_numeric_symbol.html#a43456cedd2d4a84076360447f78bcdcb">NumericSymbol</a>, <a class="el" href="class_range_symbol.html#a9b7cc319df1f58236eab91586cd28a3b">RangeSymbol</a>, <a class="el" href="class_time_symbol.html#a3e753b48e00c4249c5c6a0b1be1eca23">TimeSymbol</a>, <a class="el" href="class_classification_symbol.html#aada1874176847c059aa8dd4befe7fc0b">ClassificationSymbol</a>, <a class="el" href="class_partition_symbol.html#a8d596f7a19663e357eb24ce9100a3e9a">PartitionSymbol</a>, <a class="el" href="class_string_type_symbol.html#a8d587144dfe79fecfae704326edf1cbc">StringTypeSymbol</a>, and <a class="el" href="class_bool_symbol.html#a7d0cd09d3cc39fadef0b5598c0c5d27d">BoolSymbol</a>.</p>
 
 </div>
 </div>
@@ -1128,7 +1208,7 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_type_symbol.html">TypeSymbol</a></li>
-    <li class="footer">Generated on Wed Jun 17 2020 15:16:15 for OpenM++ compiler (omc) by
+    <li class="footer">Generated on Fri Jul 31 2020 17:53:26 for OpenM++ compiler (omc) by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

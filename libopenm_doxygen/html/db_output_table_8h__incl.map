@@ -1,10 +1,10 @@
 <map id="include/dbOutputTable.h" name="include/dbOutputTable.h">
-<area shape="rect" id="node4" href="$db_common_8h.html" title="OpenM++ data library: public interface for db common structures. " alt="" coords="401,304,574,331"/>
-<area shape="rect" id="node26" href="$db_exec_8h.html" title="OpenM++ data library: public interface. " alt="" coords="526,229,603,256"/>
-<area shape="rect" id="node30" href="$meta_holder_8h.html" title="OpenM++ modeling library: holder struct for metadata tables used by model. " alt="" coords="666,80,765,107"/>
-<area shape="rect" id="node5" href="$om_error_8h.html" title="OpenM++: public interface for errors and exceptions. " alt="" coords="415,379,549,405"/>
-<area shape="rect" id="node7" href="$om_helper_8h.html" title="OpenM++ common helper utilities. " alt="" coords="676,453,819,480"/>
-<area shape="rect" id="node28" href="$om_log_8h.html" title="OpenM++: public interface for log and trace support. " alt="" coords="598,304,726,331"/>
-<area shape="rect" id="node31" href="$db_meta_row_8h.html" title="OpenM++ data library: db rows of model metadata tables. " alt="" coords="628,229,803,256"/>
-<area shape="rect" id="node32" href="$db_meta_table_8h.html" title="OpenM++ data library: db tables for model metadata. " alt="" coords="770,155,877,181"/>
+<area shape="rect" id="node4" href="$db_common_8h.html" title="OpenM++ data library: public interface for db common structures. " alt="" coords="354,304,527,331"/>
+<area shape="rect" id="node25" href="$db_exec_8h.html" title="OpenM++ data library: public interface. " alt="" coords="479,229,557,256"/>
+<area shape="rect" id="node29" href="$meta_holder_8h.html" title="OpenM++ modeling library: holder struct for metadata tables used by model. " alt="" coords="619,80,718,107"/>
+<area shape="rect" id="node5" href="$om_error_8h.html" title="OpenM++: public interface for errors and exceptions. " alt="" coords="368,379,503,405"/>
+<area shape="rect" id="node7" href="$om_helper_8h.html" title="OpenM++ common helper utilities. " alt="" coords="629,453,772,480"/>
+<area shape="rect" id="node27" href="$om_log_8h.html" title="OpenM++: public interface for log and trace support. " alt="" coords="551,304,679,331"/>
+<area shape="rect" id="node30" href="$db_meta_row_8h.html" title="OpenM++ data library: db rows of model metadata tables. " alt="" coords="581,229,756,256"/>
+<area shape="rect" id="node31" href="$db_meta_table_8h.html" title="OpenM++ data library: db tables for model metadata. " alt="" coords="723,155,830,181"/>
 </map>

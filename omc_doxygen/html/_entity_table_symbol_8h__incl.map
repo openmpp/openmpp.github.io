@@ -1,8 +1,8 @@
 <map id="EntityTableSymbol.h" name="EntityTableSymbol.h">
-<area shape="rect" id="node3" href="$_table_symbol_8h.html" title="Declarations for the TableSymbol class. " alt="" coords="655,80,763,107"/>
-<area shape="rect" id="node4" href="$_symbol_8h.html" title="Declarations for the Symbol class. " alt="" coords="564,229,641,256"/>
-<area shape="rect" id="node19" href="$_dimension_symbol_8h.html" title="Definitions for the DimensionSymbol class. " alt="" coords="533,155,672,181"/>
-<area shape="rect" id="node20" href="$_table_measure_symbol_8h.html" title="Declarations for the TableMeasureSymbol class. " alt="" coords="350,155,509,181"/>
-<area shape="rect" id="node14" href="$omc__common_8h.html" title="Common declarations for omc. " alt="" coords="783,304,897,331"/>
-<area shape="rect" id="node17" href="$_special_global_8h.html" title="Declarations for the SpecialGlobal class. " alt="" coords="922,304,1035,331"/>
+<area shape="rect" id="node3" href="$_table_symbol_8h.html" title="Declarations for the TableSymbol class. " alt="" coords="1067,80,1175,107"/>
+<area shape="rect" id="node4" href="$_symbol_8h.html" title="Declarations for the Symbol class. " alt="" coords="789,229,866,256"/>
+<area shape="rect" id="node19" href="$_dimension_symbol_8h.html" title="Definitions for the DimensionSymbol class. " alt="" coords="1051,155,1190,181"/>
+<area shape="rect" id="node20" href="$_table_measure_symbol_8h.html" title="Declarations for the TableMeasureSymbol class. " alt="" coords="625,155,784,181"/>
+<area shape="rect" id="node14" href="$omc__common_8h.html" title="Common declarations for omc. " alt="" coords="135,304,250,331"/>
+<area shape="rect" id="node17" href="$_special_global_8h.html" title="Declarations for the SpecialGlobal class. " alt="" coords="1347,304,1460,331"/>
 </map>

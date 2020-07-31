@@ -1,10 +1,10 @@
 <map id="EntityIncrementSymbol.h" name="EntityIncrementSymbol.h">
-<area shape="rect" id="node3" href="$_entity_member_symbol_8h.html" title="Declarations for the EntityMemberSymbol class. " alt="" coords="705,155,864,181"/>
-<area shape="rect" id="node19" href="$_entity_table_symbol_8h.html" title="Declares the EntityTableSymbol derived class of the Symbol class. " alt="" coords="1105,80,1248,107"/>
-<area shape="rect" id="node4" href="$_symbol_8h.html" title="Declarations for the Symbol class. " alt="" coords="746,304,823,331"/>
+<area shape="rect" id="node3" href="$_entity_member_symbol_8h.html" title="Declarations for the EntityMemberSymbol class. " alt="" coords="735,155,893,181"/>
+<area shape="rect" id="node19" href="$_entity_table_symbol_8h.html" title="Declares the EntityTableSymbol derived class of the Symbol class. " alt="" coords="1161,80,1304,107"/>
+<area shape="rect" id="node4" href="$_symbol_8h.html" title="Declarations for the Symbol class. " alt="" coords="775,304,853,331"/>
 <area shape="rect" id="node13" href="$omc__common_8h.html" title="Common declarations for omc. " alt="" coords="95,379,210,405"/>
-<area shape="rect" id="node16" href="$_special_global_8h.html" title="Declarations for the SpecialGlobal class. " alt="" coords="1165,379,1279,405"/>
-<area shape="rect" id="node20" href="$_table_symbol_8h.html" title="Declarations for the TableSymbol class. " alt="" coords="1123,155,1231,181"/>
-<area shape="rect" id="node21" href="$_dimension_symbol_8h.html" title="Definitions for the DimensionSymbol class. " alt="" coords="1021,229,1159,256"/>
-<area shape="rect" id="node22" href="$_table_measure_symbol_8h.html" title="Declarations for the TableMeasureSymbol class. " alt="" coords="1184,229,1343,256"/>
+<area shape="rect" id="node16" href="$_special_global_8h.html" title="Declarations for the SpecialGlobal class. " alt="" coords="1216,379,1329,405"/>
+<area shape="rect" id="node20" href="$_table_symbol_8h.html" title="Declarations for the TableSymbol class. " alt="" coords="1179,155,1287,181"/>
+<area shape="rect" id="node21" href="$_dimension_symbol_8h.html" title="Definitions for the DimensionSymbol class. " alt="" coords="1077,229,1215,256"/>
+<area shape="rect" id="node22" href="$_table_measure_symbol_8h.html" title="Declarations for the TableMeasureSymbol class. " alt="" coords="1240,229,1399,256"/>
 </map>

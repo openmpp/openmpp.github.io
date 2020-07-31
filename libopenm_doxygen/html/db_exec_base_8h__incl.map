@@ -1,8 +1,8 @@
 <map id="db/dbExecBase.h" name="db/dbExecBase.h">
-<area shape="rect" id="node2" href="$helper_8h.html" title="OpenM++ common helper utilities. " alt="" coords="867,80,935,107"/>
-<area shape="rect" id="node22" href="$db_exec_8h.html" title="OpenM++ data library: public interface. " alt="" coords="999,80,1077,107"/>
-<area shape="rect" id="node3" href="$om_helper_8h.html" title="OpenM++ common helper utilities. " alt="" coords="699,304,897,331"/>
-<area shape="rect" id="node24" href="$om_log_8h.html" title="OpenM++: public interface for log and trace support. " alt="" coords="1371,304,1499,331"/>
-<area shape="rect" id="node26" href="$db_common_8h.html" title="OpenM++ data library: public interface for db common structures. " alt="" coords="890,155,1063,181"/>
-<area shape="rect" id="node28" href="$om_error_8h.html" title="OpenM++: public interface for errors and exceptions. " alt="" coords="919,229,1053,256"/>
+<area shape="rect" id="node2" href="$helper_8h.html" title="OpenM++ common helper utilities. " alt="" coords="831,80,899,107"/>
+<area shape="rect" id="node21" href="$db_exec_8h.html" title="OpenM++ data library: public interface. " alt="" coords="963,80,1041,107"/>
+<area shape="rect" id="node3" href="$om_helper_8h.html" title="OpenM++ common helper utilities. " alt="" coords="663,304,861,331"/>
+<area shape="rect" id="node23" href="$om_log_8h.html" title="OpenM++: public interface for log and trace support. " alt="" coords="1299,304,1427,331"/>
+<area shape="rect" id="node25" href="$db_common_8h.html" title="OpenM++ data library: public interface for db common structures. " alt="" coords="854,155,1027,181"/>
+<area shape="rect" id="node27" href="$om_error_8h.html" title="OpenM++: public interface for errors and exceptions. " alt="" coords="883,229,1017,256"/>
 </map>

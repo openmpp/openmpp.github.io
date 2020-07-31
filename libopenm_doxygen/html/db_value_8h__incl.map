@@ -1,7 +1,7 @@
 <map id="include/dbValue.h" name="include/dbValue.h">
-<area shape="rect" id="node2" href="$db_common_8h.html" title="OpenM++ data library: public interface for db common structures. " alt="" coords="576,80,749,107"/>
-<area shape="rect" id="node25" href="$helper_8h.html" title="OpenM++ common helper utilities. " alt="" coords="774,80,842,107"/>
-<area shape="rect" id="node26" href="$md5_8h_source.html" title="md5.h" alt="" coords="877,80,936,107"/>
-<area shape="rect" id="node4" href="$om_error_8h.html" title="OpenM++: public interface for errors and exceptions. " alt="" coords="607,155,742,181"/>
-<area shape="rect" id="node6" href="$om_helper_8h.html" title="OpenM++ common helper utilities. " alt="" coords="714,229,857,256"/>
+<area shape="rect" id="node2" href="$db_common_8h.html" title="OpenM++ data library: public interface for db common structures. " alt="" coords="537,80,711,107"/>
+<area shape="rect" id="node24" href="$helper_8h.html" title="OpenM++ common helper utilities. " alt="" coords="735,80,803,107"/>
+<area shape="rect" id="node25" href="$md5_8h_source.html" title="md5.h" alt="" coords="839,80,897,107"/>
+<area shape="rect" id="node4" href="$om_error_8h.html" title="OpenM++: public interface for errors and exceptions. " alt="" coords="569,155,703,181"/>
+<area shape="rect" id="node6" href="$om_helper_8h.html" title="OpenM++ common helper utilities. " alt="" coords="675,229,818,256"/>
 </map>

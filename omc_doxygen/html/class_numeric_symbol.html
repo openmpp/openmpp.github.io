@@ -115,9 +115,9 @@ Collaboration diagram for NumericSymbol:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a93fb61760f5075083b817d3d55f5f6d8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_numeric_symbol.html#a93fb61760f5075083b817d3d55f5f6d8">is_base_symbol</a> () const</td></tr>
-<tr class="memdesc:a93fb61760f5075083b817d3d55f5f6d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Query if this object is an underived instance of the base <a class="el" href="class_symbol.html" title="A Symbol is a named syntactic entity in openM++. ">Symbol</a> class.  <a href="#a93fb61760f5075083b817d3d55f5f6d8">More...</a><br /></td></tr>
-<tr class="separator:a93fb61760f5075083b817d3d55f5f6d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7dc4eee25341378f4102fb48611a5999"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_numeric_symbol.html#a7dc4eee25341378f4102fb48611a5999">is_base_symbol</a> () const override</td></tr>
+<tr class="memdesc:a7dc4eee25341378f4102fb48611a5999"><td class="mdescLeft">&#160;</td><td class="mdescRight">Query if this object is an underived instance of the base <a class="el" href="class_symbol.html" title="A Symbol is a named syntactic entity in openM++. ">Symbol</a> class.  <a href="#a7dc4eee25341378f4102fb48611a5999">More...</a><br /></td></tr>
+<tr class="separator:a7dc4eee25341378f4102fb48611a5999"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2dc2379880e0b401326e9c94aa5f0f6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_numeric_symbol.html#ad2dc2379880e0b401326e9c94aa5f0f6">NumericSymbol</a> (<a class="el" href="_symbol_8h.html#a4cf0077b3db1fb6a9d460051e87f2f09">token_type</a> <a class="el" href="class_numeric_symbol.html#a5e5f010b83305d400450b3dfcb43ddeb">type</a>, const string &amp;<a class="el" href="class_numeric_symbol.html#a073237b235e9555b82d4c6e260e95b75">initial_value</a>)</td></tr>
 <tr class="memdesc:ad2dc2379880e0b401326e9c94aa5f0f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#ad2dc2379880e0b401326e9c94aa5f0f6">More...</a><br /></td></tr>
 <tr class="separator:ad2dc2379880e0b401326e9c94aa5f0f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -142,67 +142,76 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>Set_keywords</b> (<a 
 <tr class="memitem:af5d6c032d265b066dbed9188f6216d36"><td class="memItemLeft" align="right" valign="top"><a id="af5d6c032d265b066dbed9188f6216d36"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Set_keywords</b> (<a class="el" href="_symbol_8h.html#a4cf0077b3db1fb6a9d460051e87f2f09">token_type</a> kw1, <a class="el" href="_symbol_8h.html#a4cf0077b3db1fb6a9d460051e87f2f09">token_type</a> kw2, <a class="el" href="_symbol_8h.html#a4cf0077b3db1fb6a9d460051e87f2f09">token_type</a> kw3)</td></tr>
 <tr class="separator:af5d6c032d265b066dbed9188f6216d36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a408d695c9a1dbd0fc92d483752c92577"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_numeric_symbol.html#a408d695c9a1dbd0fc92d483752c92577">default_initial_value</a> () const</td></tr>
-<tr class="memdesc:a408d695c9a1dbd0fc92d483752c92577"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the default initial value for a quantity of this type.  <a href="#a408d695c9a1dbd0fc92d483752c92577">More...</a><br /></td></tr>
-<tr class="separator:a408d695c9a1dbd0fc92d483752c92577"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e590ce09cfd7b94d1296b3192a55a48"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_numeric_symbol.html#a8e590ce09cfd7b94d1296b3192a55a48">post_parse</a> (int pass)</td></tr>
-<tr class="memdesc:a8e590ce09cfd7b94d1296b3192a55a48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform post-parse operations.  <a href="#a8e590ce09cfd7b94d1296b3192a55a48">More...</a><br /></td></tr>
-<tr class="separator:a8e590ce09cfd7b94d1296b3192a55a48"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a506c745815016a7590ff703e88831450"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_code_block.html">CodeBlock</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_numeric_symbol.html#a506c745815016a7590ff703e88831450">cxx_declaration_global</a> ()</td></tr>
-<tr class="memdesc:a506c745815016a7590ff703e88831450"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the c++ declaration code associated with the symbol.  <a href="#a506c745815016a7590ff703e88831450">More...</a><br /></td></tr>
-<tr class="separator:a506c745815016a7590ff703e88831450"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0486c46638a0f5ff8241463d861c8da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_numeric_symbol.html#af0486c46638a0f5ff8241463d861c8da">populate_metadata</a> (openm::MetaModelHolder &amp;metaRows)</td></tr>
-<tr class="memdesc:af0486c46638a0f5ff8241463d861c8da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Populate metadata associated with the symbol.  <a href="#af0486c46638a0f5ff8241463d861c8da">More...</a><br /></td></tr>
-<tr class="separator:af0486c46638a0f5ff8241463d861c8da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38f9f6c9486f515471f90b69ea92bfa4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_numeric_symbol.html#a38f9f6c9486f515471f90b69ea92bfa4">is_valid_constant</a> (const <a class="el" href="class_constant.html">Constant</a> &amp;k) const</td></tr>
-<tr class="memdesc:a38f9f6c9486f515471f90b69ea92bfa4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Query if 'k' is valid constant for this type.  <a href="#a38f9f6c9486f515471f90b69ea92bfa4">More...</a><br /></td></tr>
-<tr class="separator:a38f9f6c9486f515471f90b69ea92bfa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada7837dc98a2b62bfdf5f40fa4c74cd6"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_numeric_symbol.html#ada7837dc98a2b62bfdf5f40fa4c74cd6">format_for_storage</a> (const <a class="el" href="class_constant.html">Constant</a> &amp;k) const</td></tr>
-<tr class="memdesc:ada7837dc98a2b62bfdf5f40fa4c74cd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Formats the constant for the data store.  <a href="#ada7837dc98a2b62bfdf5f40fa4c74cd6">More...</a><br /></td></tr>
-<tr class="separator:ada7837dc98a2b62bfdf5f40fa4c74cd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae94b235e70e187fbb825ca1db4a6b972"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_numeric_symbol.html#ae94b235e70e187fbb825ca1db4a6b972">default_initial_value</a> () const override</td></tr>
+<tr class="memdesc:ae94b235e70e187fbb825ca1db4a6b972"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the default initial value for a quantity of this type.  <a href="#ae94b235e70e187fbb825ca1db4a6b972">More...</a><br /></td></tr>
+<tr class="separator:ae94b235e70e187fbb825ca1db4a6b972"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a556074848eabdf91947795d56c95c693"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_numeric_symbol.html#a556074848eabdf91947795d56c95c693">post_parse</a> (int pass) override</td></tr>
+<tr class="memdesc:a556074848eabdf91947795d56c95c693"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform post-parse operations.  <a href="#a556074848eabdf91947795d56c95c693">More...</a><br /></td></tr>
+<tr class="separator:a556074848eabdf91947795d56c95c693"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13ce9a40803ed4e4738be9358e44d0e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_code_block.html">CodeBlock</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_numeric_symbol.html#a13ce9a40803ed4e4738be9358e44d0e8">cxx_declaration_global</a> () override</td></tr>
+<tr class="memdesc:a13ce9a40803ed4e4738be9358e44d0e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the c++ declaration code associated with the symbol.  <a href="#a13ce9a40803ed4e4738be9358e44d0e8">More...</a><br /></td></tr>
+<tr class="separator:a13ce9a40803ed4e4738be9358e44d0e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76996a5c6d9fa8bef623e71bca2e10fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_numeric_symbol.html#a76996a5c6d9fa8bef623e71bca2e10fb">populate_metadata</a> (openm::MetaModelHolder &amp;metaRows) override</td></tr>
+<tr class="memdesc:a76996a5c6d9fa8bef623e71bca2e10fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Populate metadata associated with the symbol.  <a href="#a76996a5c6d9fa8bef623e71bca2e10fb">More...</a><br /></td></tr>
+<tr class="separator:a76996a5c6d9fa8bef623e71bca2e10fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ba4129da2d4863d6d21531c38f15c4e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_numeric_symbol.html#a8ba4129da2d4863d6d21531c38f15c4e">is_valid_constant</a> (const <a class="el" href="class_constant.html">Constant</a> &amp;k) const override</td></tr>
+<tr class="memdesc:a8ba4129da2d4863d6d21531c38f15c4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Query if 'k' is valid constant for this type.  <a href="#a8ba4129da2d4863d6d21531c38f15c4e">More...</a><br /></td></tr>
+<tr class="separator:a8ba4129da2d4863d6d21531c38f15c4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43456cedd2d4a84076360447f78bcdcb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_constant.html">Constant</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_numeric_symbol.html#a43456cedd2d4a84076360447f78bcdcb">make_constant</a> (const string &amp;i_value) const override</td></tr>
+<tr class="memdesc:a43456cedd2d4a84076360447f78bcdcb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create new numeric <a class="el" href="class_constant.html" title="Constant - Refers to either a Literal or an EnumeratorSymbol. ">Constant</a> of float or integer type from 'i_value' literal.  <a href="#a43456cedd2d4a84076360447f78bcdcb">More...</a><br /></td></tr>
+<tr class="separator:a43456cedd2d4a84076360447f78bcdcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0e9ee9f98b008eff3cf76372262a3e8"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_numeric_symbol.html#ae0e9ee9f98b008eff3cf76372262a3e8">format_for_storage</a> (const <a class="el" href="class_constant.html">Constant</a> &amp;k) const override</td></tr>
+<tr class="memdesc:ae0e9ee9f98b008eff3cf76372262a3e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Formats the constant for the data store.  <a href="#ae0e9ee9f98b008eff3cf76372262a3e8">More...</a><br /></td></tr>
+<tr class="separator:ae0e9ee9f98b008eff3cf76372262a3e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_type_symbol"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_type_symbol')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_type_symbol.html">TypeSymbol</a></td></tr>
-<tr class="memitem:a4b4c6f85a6a819af9e313cb2730eaa5a inherit pub_methods_class_type_symbol"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#a4b4c6f85a6a819af9e313cb2730eaa5a">is_base_symbol</a> () const</td></tr>
-<tr class="memdesc:a4b4c6f85a6a819af9e313cb2730eaa5a inherit pub_methods_class_type_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Query if this object is an underived instance of the base <a class="el" href="class_symbol.html" title="A Symbol is a named syntactic entity in openM++. ">Symbol</a> class.  <a href="class_type_symbol.html#a4b4c6f85a6a819af9e313cb2730eaa5a">More...</a><br /></td></tr>
-<tr class="separator:a4b4c6f85a6a819af9e313cb2730eaa5a inherit pub_methods_class_type_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0625c569ff20af04c1498df7fd65450 inherit pub_methods_class_type_symbol"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#af0625c569ff20af04c1498df7fd65450">is_base_symbol</a> () const override</td></tr>
+<tr class="memdesc:af0625c569ff20af04c1498df7fd65450 inherit pub_methods_class_type_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Query if this object is an underived instance of the base <a class="el" href="class_symbol.html" title="A Symbol is a named syntactic entity in openM++. ">Symbol</a> class.  <a href="class_type_symbol.html#af0625c569ff20af04c1498df7fd65450">More...</a><br /></td></tr>
+<tr class="separator:af0625c569ff20af04c1498df7fd65450 inherit pub_methods_class_type_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a845ac0cacda66e88fad06f8171f714f5 inherit pub_methods_class_type_symbol"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#a845ac0cacda66e88fad06f8171f714f5">TypeSymbol</a> (const string unm)</td></tr>
 <tr class="memdesc:a845ac0cacda66e88fad06f8171f714f5 inherit pub_methods_class_type_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="class_type_symbol.html#a845ac0cacda66e88fad06f8171f714f5">More...</a><br /></td></tr>
 <tr class="separator:a845ac0cacda66e88fad06f8171f714f5 inherit pub_methods_class_type_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad9fedf621924d59eea06cf5a0357c5f inherit pub_methods_class_type_symbol"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#aad9fedf621924d59eea06cf5a0357c5f">TypeSymbol</a> (<a class="el" href="class_symbol.html">Symbol</a> *sym, yy::location <a class="el" href="class_symbol.html#ae2479a300439d7fa5321bd4332ebeaa5">decl_loc</a>=yy::location())</td></tr>
 <tr class="memdesc:aad9fedf621924d59eea06cf5a0357c5f inherit pub_methods_class_type_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="class_type_symbol.html#aad9fedf621924d59eea06cf5a0357c5f">More...</a><br /></td></tr>
 <tr class="separator:aad9fedf621924d59eea06cf5a0357c5f inherit pub_methods_class_type_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6305aea8a6905e3bdf4b4c4fe65d0064 inherit pub_methods_class_type_symbol"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#a6305aea8a6905e3bdf4b4c4fe65d0064">is_unknown</a> ()</td></tr>
-<tr class="memdesc:a6305aea8a6905e3bdf4b4c4fe65d0064 inherit pub_methods_class_type_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines derived type.  <a href="class_type_symbol.html#a6305aea8a6905e3bdf4b4c4fe65d0064">More...</a><br /></td></tr>
-<tr class="separator:a6305aea8a6905e3bdf4b4c4fe65d0064 inherit pub_methods_class_type_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1571a7758f84a4e9b3268039189347e inherit pub_methods_class_type_symbol"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#af1571a7758f84a4e9b3268039189347e">is_bool</a> ()</td></tr>
-<tr class="memdesc:af1571a7758f84a4e9b3268039189347e inherit pub_methods_class_type_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines derived type.  <a href="class_type_symbol.html#af1571a7758f84a4e9b3268039189347e">More...</a><br /></td></tr>
-<tr class="separator:af1571a7758f84a4e9b3268039189347e inherit pub_methods_class_type_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6699f5691b849e5a17a54d19da4eea8 inherit pub_methods_class_type_symbol"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#ad6699f5691b849e5a17a54d19da4eea8">is_unknown</a> () const</td></tr>
+<tr class="memdesc:ad6699f5691b849e5a17a54d19da4eea8 inherit pub_methods_class_type_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines derived type.  <a href="class_type_symbol.html#ad6699f5691b849e5a17a54d19da4eea8">More...</a><br /></td></tr>
+<tr class="separator:ad6699f5691b849e5a17a54d19da4eea8 inherit pub_methods_class_type_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab95c984fc8cc6c4836200f4d20e4ae33 inherit pub_methods_class_type_symbol"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#ab95c984fc8cc6c4836200f4d20e4ae33">is_bool</a> () const</td></tr>
+<tr class="memdesc:ab95c984fc8cc6c4836200f4d20e4ae33 inherit pub_methods_class_type_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines derived type.  <a href="class_type_symbol.html#ab95c984fc8cc6c4836200f4d20e4ae33">More...</a><br /></td></tr>
+<tr class="separator:ab95c984fc8cc6c4836200f4d20e4ae33 inherit pub_methods_class_type_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17a41f6da04c8b159eae6efbbf52b30f inherit pub_methods_class_type_symbol"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#a17a41f6da04c8b159eae6efbbf52b30f">is_string</a> () const</td></tr>
 <tr class="memdesc:a17a41f6da04c8b159eae6efbbf52b30f inherit pub_methods_class_type_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines derived type.  <a href="class_type_symbol.html#a17a41f6da04c8b159eae6efbbf52b30f">More...</a><br /></td></tr>
 <tr class="separator:a17a41f6da04c8b159eae6efbbf52b30f inherit pub_methods_class_type_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54d62dc3b34d8e2cf9754c513b985f23 inherit pub_methods_class_type_symbol"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#a54d62dc3b34d8e2cf9754c513b985f23">is_classification</a> ()</td></tr>
-<tr class="memdesc:a54d62dc3b34d8e2cf9754c513b985f23 inherit pub_methods_class_type_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines derived type.  <a href="class_type_symbol.html#a54d62dc3b34d8e2cf9754c513b985f23">More...</a><br /></td></tr>
-<tr class="separator:a54d62dc3b34d8e2cf9754c513b985f23 inherit pub_methods_class_type_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa107d90e6d8f91359237ec84cd249bd5 inherit pub_methods_class_type_symbol"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#aa107d90e6d8f91359237ec84cd249bd5">is_range</a> ()</td></tr>
-<tr class="memdesc:aa107d90e6d8f91359237ec84cd249bd5 inherit pub_methods_class_type_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines derived type.  <a href="class_type_symbol.html#aa107d90e6d8f91359237ec84cd249bd5">More...</a><br /></td></tr>
-<tr class="separator:aa107d90e6d8f91359237ec84cd249bd5 inherit pub_methods_class_type_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0ca5a4f5e47632fffd489ef25d809e4 inherit pub_methods_class_type_symbol"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#aa0ca5a4f5e47632fffd489ef25d809e4">is_partition</a> ()</td></tr>
-<tr class="memdesc:aa0ca5a4f5e47632fffd489ef25d809e4 inherit pub_methods_class_type_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines derived type.  <a href="class_type_symbol.html#aa0ca5a4f5e47632fffd489ef25d809e4">More...</a><br /></td></tr>
-<tr class="separator:aa0ca5a4f5e47632fffd489ef25d809e4 inherit pub_methods_class_type_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5ebb5e052622c263d9262335bc19443 inherit pub_methods_class_type_symbol"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#ac5ebb5e052622c263d9262335bc19443">is_time</a> ()</td></tr>
-<tr class="memdesc:ac5ebb5e052622c263d9262335bc19443 inherit pub_methods_class_type_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines derived type.  <a href="class_type_symbol.html#ac5ebb5e052622c263d9262335bc19443">More...</a><br /></td></tr>
-<tr class="separator:ac5ebb5e052622c263d9262335bc19443 inherit pub_methods_class_type_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae31404b169448a6bcb20129d8864b466 inherit pub_methods_class_type_symbol"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#ae31404b169448a6bcb20129d8864b466">is_numeric_or_bool</a> ()</td></tr>
-<tr class="memdesc:ae31404b169448a6bcb20129d8864b466 inherit pub_methods_class_type_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines derived type.  <a href="class_type_symbol.html#ae31404b169448a6bcb20129d8864b466">More...</a><br /></td></tr>
-<tr class="separator:ae31404b169448a6bcb20129d8864b466 inherit pub_methods_class_type_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac798dec5afe547a0286c05819d70f3e1 inherit pub_methods_class_type_symbol"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#ac798dec5afe547a0286c05819d70f3e1">is_enumeration</a> ()</td></tr>
-<tr class="memdesc:ac798dec5afe547a0286c05819d70f3e1 inherit pub_methods_class_type_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines derived type.  <a href="class_type_symbol.html#ac798dec5afe547a0286c05819d70f3e1">More...</a><br /></td></tr>
-<tr class="separator:ac798dec5afe547a0286c05819d70f3e1 inherit pub_methods_class_type_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aece435872c7a5a00b38db706039b9389 inherit pub_methods_class_type_symbol"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#aece435872c7a5a00b38db706039b9389">is_classification</a> () const</td></tr>
+<tr class="memdesc:aece435872c7a5a00b38db706039b9389 inherit pub_methods_class_type_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines derived type.  <a href="class_type_symbol.html#aece435872c7a5a00b38db706039b9389">More...</a><br /></td></tr>
+<tr class="separator:aece435872c7a5a00b38db706039b9389 inherit pub_methods_class_type_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf326e0201241b2755043254bb1b415f inherit pub_methods_class_type_symbol"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#abf326e0201241b2755043254bb1b415f">is_range</a> () const</td></tr>
+<tr class="memdesc:abf326e0201241b2755043254bb1b415f inherit pub_methods_class_type_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines derived type.  <a href="class_type_symbol.html#abf326e0201241b2755043254bb1b415f">More...</a><br /></td></tr>
+<tr class="separator:abf326e0201241b2755043254bb1b415f inherit pub_methods_class_type_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8576dfd542d4806cef90ec8af9d1e7fd inherit pub_methods_class_type_symbol"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#a8576dfd542d4806cef90ec8af9d1e7fd">is_partition</a> () const</td></tr>
+<tr class="memdesc:a8576dfd542d4806cef90ec8af9d1e7fd inherit pub_methods_class_type_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines derived type.  <a href="class_type_symbol.html#a8576dfd542d4806cef90ec8af9d1e7fd">More...</a><br /></td></tr>
+<tr class="separator:a8576dfd542d4806cef90ec8af9d1e7fd inherit pub_methods_class_type_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a237d722bc3b29a333bd13dd8167e810f inherit pub_methods_class_type_symbol"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#a237d722bc3b29a333bd13dd8167e810f">is_time</a> () const</td></tr>
+<tr class="memdesc:a237d722bc3b29a333bd13dd8167e810f inherit pub_methods_class_type_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines derived type.  <a href="class_type_symbol.html#a237d722bc3b29a333bd13dd8167e810f">More...</a><br /></td></tr>
+<tr class="separator:a237d722bc3b29a333bd13dd8167e810f inherit pub_methods_class_type_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d0db19e7fff42517c70d4df717e750a inherit pub_methods_class_type_symbol"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#a6d0db19e7fff42517c70d4df717e750a">is_numeric_or_bool</a> () const</td></tr>
+<tr class="memdesc:a6d0db19e7fff42517c70d4df717e750a inherit pub_methods_class_type_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines derived type.  <a href="class_type_symbol.html#a6d0db19e7fff42517c70d4df717e750a">More...</a><br /></td></tr>
+<tr class="separator:a6d0db19e7fff42517c70d4df717e750a inherit pub_methods_class_type_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a615c57f5685c8867f3d9dc9caa41abc8 inherit pub_methods_class_type_symbol"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#a615c57f5685c8867f3d9dc9caa41abc8">is_enumeration</a> () const</td></tr>
+<tr class="memdesc:a615c57f5685c8867f3d9dc9caa41abc8 inherit pub_methods_class_type_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines derived type.  <a href="class_type_symbol.html#a615c57f5685c8867f3d9dc9caa41abc8">More...</a><br /></td></tr>
+<tr class="separator:a615c57f5685c8867f3d9dc9caa41abc8 inherit pub_methods_class_type_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01eb04e635a188587231fc07190adf45 inherit pub_methods_class_type_symbol"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#a01eb04e635a188587231fc07190adf45">is_floating</a> () const</td></tr>
 <tr class="memdesc:a01eb04e635a188587231fc07190adf45 inherit pub_methods_class_type_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines derived type.  <a href="class_type_symbol.html#a01eb04e635a188587231fc07190adf45">More...</a><br /></td></tr>
 <tr class="separator:a01eb04e635a188587231fc07190adf45 inherit pub_methods_class_type_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ad80e4434e870ad33afd31f08e871ab inherit pub_methods_class_type_symbol"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#a8ad80e4434e870ad33afd31f08e871ab">is_wrapped</a> ()</td></tr>
-<tr class="memdesc:a8ad80e4434e870ad33afd31f08e871ab inherit pub_methods_class_type_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines if the type is a wrapped type, e.g.  <a href="class_type_symbol.html#a8ad80e4434e870ad33afd31f08e871ab">More...</a><br /></td></tr>
-<tr class="separator:a8ad80e4434e870ad33afd31f08e871ab inherit pub_methods_class_type_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac13794036e52b2f3eb61e7b33070f55b inherit pub_methods_class_type_symbol"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#ac13794036e52b2f3eb61e7b33070f55b">is_numeric_floating</a> () const</td></tr>
+<tr class="memdesc:ac13794036e52b2f3eb61e7b33070f55b inherit pub_methods_class_type_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines derived type.  <a href="class_type_symbol.html#ac13794036e52b2f3eb61e7b33070f55b">More...</a><br /></td></tr>
+<tr class="separator:ac13794036e52b2f3eb61e7b33070f55b inherit pub_methods_class_type_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bb15b0edba7937470c4749d8a4d91a8 inherit pub_methods_class_type_symbol"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#a0bb15b0edba7937470c4749d8a4d91a8">is_numeric_integer</a> () const</td></tr>
+<tr class="memdesc:a0bb15b0edba7937470c4749d8a4d91a8 inherit pub_methods_class_type_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines derived type.  <a href="class_type_symbol.html#a0bb15b0edba7937470c4749d8a4d91a8">More...</a><br /></td></tr>
+<tr class="separator:a0bb15b0edba7937470c4749d8a4d91a8 inherit pub_methods_class_type_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e70228bf22b9314162a65f017bf1e3d inherit pub_methods_class_type_symbol"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#a6e70228bf22b9314162a65f017bf1e3d">is_wrapped</a> () const</td></tr>
+<tr class="memdesc:a6e70228bf22b9314162a65f017bf1e3d inherit pub_methods_class_type_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines if the type is a wrapped type, e.g.  <a href="class_type_symbol.html#a6e70228bf22b9314162a65f017bf1e3d">More...</a><br /></td></tr>
+<tr class="separator:a6e70228bf22b9314162a65f017bf1e3d inherit pub_methods_class_type_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f5dd2683c6c253fc9385ba141aac5e1 inherit pub_methods_class_type_symbol"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_type_symbol.html">TypeSymbol</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_type_symbol.html#a8f5dd2683c6c253fc9385ba141aac5e1">summing_type</a> ()</td></tr>
 <tr class="memdesc:a8f5dd2683c6c253fc9385ba141aac5e1 inherit pub_methods_class_type_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines appropriate type to use for sums or differences of this type.  <a href="class_type_symbol.html#a8f5dd2683c6c253fc9385ba141aac5e1">More...</a><br /></td></tr>
 <tr class="separator:a8f5dd2683c6c253fc9385ba141aac5e1 inherit pub_methods_class_type_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -865,8 +874,8 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a506c745815016a7590ff703e88831450"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a506c745815016a7590ff703e88831450">&#9670;&nbsp;</a></span>cxx_declaration_global()</h2>
+<a id="a13ce9a40803ed4e4738be9358e44d0e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13ce9a40803ed4e4738be9358e44d0e8">&#9670;&nbsp;</a></span>cxx_declaration_global()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -883,7 +892,7 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -895,12 +904,12 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 
 <p>Reimplemented from <a class="el" href="class_symbol.html#af1217fc6ebedb14687d09bf3de004235">Symbol</a>.</p>
 
-<p>Reimplemented in <a class="el" href="class_time_symbol.html#a26ca4ab47c9e6fac557a60a9ccad3034">TimeSymbol</a>, and <a class="el" href="class_real_symbol.html#a1a3baec4f4b53f4efacc6e26453ac612">RealSymbol</a>.</p>
+<p>Reimplemented in <a class="el" href="class_time_symbol.html#a78da1d19584f80578ac6959362f1aff6">TimeSymbol</a>, and <a class="el" href="class_real_symbol.html#a1a3baec4f4b53f4efacc6e26453ac612">RealSymbol</a>.</p>
 
 </div>
 </div>
-<a id="a408d695c9a1dbd0fc92d483752c92577"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a408d695c9a1dbd0fc92d483752c92577">&#9670;&nbsp;</a></span>default_initial_value()</h2>
+<a id="ae94b235e70e187fbb825ca1db4a6b972"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae94b235e70e187fbb825ca1db4a6b972">&#9670;&nbsp;</a></span>default_initial_value()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -917,7 +926,7 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -964,8 +973,8 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 
 </div>
 </div>
-<a id="ada7837dc98a2b62bfdf5f40fa4c74cd6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada7837dc98a2b62bfdf5f40fa4c74cd6">&#9670;&nbsp;</a></span>format_for_storage()</h2>
+<a id="ae0e9ee9f98b008eff3cf76372262a3e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0e9ee9f98b008eff3cf76372262a3e8">&#9670;&nbsp;</a></span>format_for_storage()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -983,7 +992,7 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -999,10 +1008,12 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 
 <p>Reimplemented from <a class="el" href="class_type_symbol.html#aa4f4621c0af318c2002520d28f4ce9f4">TypeSymbol</a>.</p>
 
+<p>Reimplemented in <a class="el" href="class_time_symbol.html#a223f5c20461e997241c0a1ded2c8e510">TimeSymbol</a>.</p>
+
 </div>
 </div>
-<a id="a93fb61760f5075083b817d3d55f5f6d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a93fb61760f5075083b817d3d55f5f6d8">&#9670;&nbsp;</a></span>is_base_symbol()</h2>
+<a id="a7dc4eee25341378f4102fb48611a5999"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7dc4eee25341378f4102fb48611a5999">&#9670;&nbsp;</a></span>is_base_symbol()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1019,7 +1030,7 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1030,12 +1041,12 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 
 <p>Reimplemented from <a class="el" href="class_symbol.html#adbe2395ede8f4675ac49a099a9c19ecf">Symbol</a>.</p>
 
-<p>Reimplemented in <a class="el" href="class_real_symbol.html#a678dc308f0adbe7a15692caed1ae3f96">RealSymbol</a>, and <a class="el" href="class_time_symbol.html#a5468b43767c0e1b2157ded77ba20970b">TimeSymbol</a>.</p>
+<p>Reimplemented in <a class="el" href="class_real_symbol.html#a678dc308f0adbe7a15692caed1ae3f96">RealSymbol</a>, and <a class="el" href="class_time_symbol.html#a7340678b9558119683e9c73efe3aa3e2">TimeSymbol</a>.</p>
 
 </div>
 </div>
-<a id="a38f9f6c9486f515471f90b69ea92bfa4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a38f9f6c9486f515471f90b69ea92bfa4">&#9670;&nbsp;</a></span>is_valid_constant()</h2>
+<a id="a8ba4129da2d4863d6d21531c38f15c4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ba4129da2d4863d6d21531c38f15c4e">&#9670;&nbsp;</a></span>is_valid_constant()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1053,7 +1064,7 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1071,8 +1082,41 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 
 </div>
 </div>
-<a id="af0486c46638a0f5ff8241463d861c8da"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af0486c46638a0f5ff8241463d861c8da">&#9670;&nbsp;</a></span>populate_metadata()</h2>
+<a id="a43456cedd2d4a84076360447f78bcdcb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43456cedd2d4a84076360447f78bcdcb">&#9670;&nbsp;</a></span>make_constant()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_constant.html">Constant</a> * NumericSymbol::make_constant </td>
+          <td>(</td>
+          <td class="paramtype">const string &amp;&#160;</td>
+          <td class="paramname"><em>i_value</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create new numeric <a class="el" href="class_constant.html" title="Constant - Refers to either a Literal or an EnumeratorSymbol. ">Constant</a> of float or integer type from 'i_value' literal. </p>
+<dl class="section return"><dt>Returns</dt><dd>pointer to a new <a class="el" href="class_constant.html" title="Constant - Refers to either a Literal or an EnumeratorSymbol. ">Constant</a> or nullptr on error. </dd></dl>
+
+<p>Reimplemented from <a class="el" href="class_type_symbol.html#a1175f62ba1bbf493454275332101d28e">TypeSymbol</a>.</p>
+
+<p>Reimplemented in <a class="el" href="class_time_symbol.html#a3e753b48e00c4249c5c6a0b1be1eca23">TimeSymbol</a>.</p>
+
+</div>
+</div>
+<a id="a76996a5c6d9fa8bef623e71bca2e10fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76996a5c6d9fa8bef623e71bca2e10fb">&#9670;&nbsp;</a></span>populate_metadata()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1090,7 +1134,7 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1108,8 +1152,8 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 
 </div>
 </div>
-<a id="a8e590ce09cfd7b94d1296b3192a55a48"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e590ce09cfd7b94d1296b3192a55a48">&#9670;&nbsp;</a></span>post_parse()</h2>
+<a id="a556074848eabdf91947795d56c95c693"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a556074848eabdf91947795d56c95c693">&#9670;&nbsp;</a></span>post_parse()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1127,7 +1171,7 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1135,7 +1179,7 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <p>Perform post-parse operations. </p>
 <p>Post-parse operations create derived information based on information obtained during the parse phase. This information is stored in members of the <a class="el" href="class_symbol.html" title="A Symbol is a named syntactic entity in openM++. ">Symbol</a> class hierarchy which by convention have a 'pp_' prefix in their name. For example, the pp_callback_members collection of the <a class="el" href="class_entity_symbol.html">EntitySymbol</a> class contains a list of all agentvars of the agent after post-parse processing. These pp_ members are used subsequently in the code-generation phase.</p>
 <p>When post_parse is called on an object in the <a class="el" href="class_symbol.html">Symbol</a> hierarchy, the call is first passed upwards through the inheritance hierarchy so that post-parse operations are performed at all hierarchical levels, and at higher levels before lower levels (for each <em>pass</em>).</p>
-<p>Post-parse operations occur in a series of sequential passes, with the results of each pass usable by subsequent passes. <a class="el" href="class_numeric_symbol.html#a8e590ce09cfd7b94d1296b3192a55a48">post_parse</a> is called on all symbols through the function \ ref <a class="el" href="class_symbol.html#a27b36929b5425090a644f9415719981a" title="Perform operations after the parser has parsed all input files. ">Symbol::post_parse_all</a>.</p>
+<p>Post-parse operations occur in a series of sequential passes, with the results of each pass usable by subsequent passes. <a class="el" href="class_numeric_symbol.html#a556074848eabdf91947795d56c95c693">post_parse</a> is called on all symbols through the function \ ref <a class="el" href="class_symbol.html#a27b36929b5425090a644f9415719981a" title="Perform operations after the parser has parsed all input files. ">Symbol::post_parse_all</a>.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">pass</td><td>The pass number. </td></tr>
@@ -1193,7 +1237,7 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_numeric_symbol.html">NumericSymbol</a></li>
-    <li class="footer">Generated on Wed Jun 17 2020 15:16:14 for OpenM++ compiler (omc) by
+    <li class="footer">Generated on Fri Jul 31 2020 17:53:24 for OpenM++ compiler (omc) by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

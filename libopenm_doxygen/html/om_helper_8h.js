@@ -30,7 +30,6 @@ var om_helper_8h =
     [ "makeDateTime", "om_helper_8h.html#a9a0824834ab8742c1f0385d72beceee5", null ],
     [ "makeTimeStamp", "om_helper_8h.html#a977c6a80479466633f5876f78faf5510", null ],
     [ "normalizeLanguageName", "om_helper_8h.html#a3d8c46a82927547598023f636fe4a2b4", null ],
-    [ "regexReplace", "om_helper_8h.html#a362e6339f6b7acef87423f2b2910ea29", null ],
     [ "replaceAll", "om_helper_8h.html#ab4b2b9aba810f98ad58e67dd113220e0", null ],
     [ "splitCsv", "om_helper_8h.html#aacfc35587e75d7092699eefd06a6a8a8", null ],
     [ "splitCsv", "om_helper_8h.html#a77001211699783bc19f65b7e2b6ea53d", null ],

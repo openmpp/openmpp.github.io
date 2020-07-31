@@ -1,10 +1,10 @@
 <map id="ParameterSymbol.h" name="ParameterSymbol.h">
-<area shape="rect" id="node3" href="$_symbol_8h.html" title="Declarations for the Symbol class. " alt="" coords="626,304,703,331"/>
-<area shape="rect" id="node19" href="$_numeric_symbol_8h.html" title="Declarations for the NumericSymbol class. " alt="" coords="702,80,827,107"/>
-<area shape="rect" id="node21" href="$_constant_8h.html" title="Declarations for the Constant class. " alt="" coords="828,229,914,256"/>
-<area shape="rect" id="node23" href="$_dimension_symbol_8h.html" title="Definitions for the DimensionSymbol class. " alt="" coords="488,229,627,256"/>
-<area shape="rect" id="node13" href="$omc__common_8h.html" title="Common declarations for omc. " alt="" coords="1074,379,1188,405"/>
-<area shape="rect" id="node16" href="$_special_global_8h.html" title="Declarations for the SpecialGlobal class. " alt="" coords="24,379,137,405"/>
-<area shape="rect" id="node20" href="$_type_symbol_8h.html" title="Declarations for the TypeSymbol class. " alt="" coords="702,155,808,181"/>
-<area shape="rect" id="node22" href="$_literal_8h.html" title="Declares the Literal class and sub&#45;classes. " alt="" coords="1253,304,1321,331"/>
+<area shape="rect" id="node3" href="$_symbol_8h.html" title="Declarations for the Symbol class. " alt="" coords="734,304,811,331"/>
+<area shape="rect" id="node19" href="$_numeric_symbol_8h.html" title="Declarations for the NumericSymbol class. " alt="" coords="859,80,985,107"/>
+<area shape="rect" id="node22" href="$_constant_8h.html" title="Declarations for the Constant class. " alt="" coords="1021,229,1106,256"/>
+<area shape="rect" id="node24" href="$_dimension_symbol_8h.html" title="Definitions for the DimensionSymbol class. " alt="" coords="597,229,735,256"/>
+<area shape="rect" id="node13" href="$omc__common_8h.html" title="Common declarations for omc. " alt="" coords="1106,379,1221,405"/>
+<area shape="rect" id="node16" href="$_special_global_8h.html" title="Declarations for the SpecialGlobal class. " alt="" coords="5,379,119,405"/>
+<area shape="rect" id="node20" href="$_type_symbol_8h.html" title="Declarations for the TypeSymbol class. " alt="" coords="869,155,975,181"/>
+<area shape="rect" id="node23" href="$_literal_8h.html" title="Declares the Literal class and sub&#45;classes. " alt="" coords="1300,304,1368,331"/>
 </map>

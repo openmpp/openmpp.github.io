@@ -77,6 +77,7 @@ var annotated_dup =
     [ "ParseContext", "class_parse_context.html", "class_parse_context" ],
     [ "PartitionEnumeratorSymbol", "class_partition_enumerator_symbol.html", "class_partition_enumerator_symbol" ],
     [ "PartitionSymbol", "class_partition_symbol.html", "class_partition_symbol" ],
+    [ "PDim", "struct_p_dim.html", "struct_p_dim" ],
     [ "PointerLiteral", "class_pointer_literal.html", "class_pointer_literal" ],
     [ "RangeSymbol", "class_range_symbol.html", "class_range_symbol" ],
     [ "RealSymbol", "class_real_symbol.html", "class_real_symbol" ],

@@ -1,7 +1,7 @@
 <map id="include/msg.h" name="include/msg.h">
-<area shape="rect" id="node3" href="$om_log_8h.html" title="OpenM++: public interface for log and trace support. " alt="" coords="138,229,266,256"/>
-<area shape="rect" id="node6" href="$om_model_run_state_8h.html" title="OpenM++ modeling library: model run state public interface. " alt="" coords="725,155,921,181"/>
-<area shape="rect" id="node8" href="$om_helper_8h.html" title="OpenM++ common helper utilities. " alt="" coords="755,229,897,256"/>
-<area shape="rect" id="node24" href="$db_common_8h.html" title="OpenM++ data library: public interface for db common structures. " alt="" coords="926,80,1099,107"/>
-<area shape="rect" id="node26" href="$om_error_8h.html" title="OpenM++: public interface for errors and exceptions. " alt="" coords="945,155,1080,181"/>
+<area shape="rect" id="node3" href="$om_log_8h.html" title="OpenM++: public interface for log and trace support. " alt="" coords="149,229,277,256"/>
+<area shape="rect" id="node6" href="$om_model_run_state_8h.html" title="OpenM++ modeling library: model run state public interface. " alt="" coords="679,155,875,181"/>
+<area shape="rect" id="node8" href="$om_helper_8h.html" title="OpenM++ common helper utilities. " alt="" coords="708,229,851,256"/>
+<area shape="rect" id="node23" href="$db_common_8h.html" title="OpenM++ data library: public interface for db common structures. " alt="" coords="879,80,1053,107"/>
+<area shape="rect" id="node25" href="$om_error_8h.html" title="OpenM++: public interface for errors and exceptions. " alt="" coords="899,155,1033,181"/>
 </map>

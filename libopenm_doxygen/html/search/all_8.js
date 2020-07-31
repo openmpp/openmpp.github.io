@@ -237,6 +237,7 @@ var searchData=
   ['issparse',['isSparse',['../structopenm_1_1_table_dic_row.html#ad0400b69ad90c7a4d12daf4ef4b19363',1,'openm::TableDicRow']]],
   ['issqlitedb',['isSqliteDb',['../classopenm_1_1_model_sql_builder.html#ac73eb99bedec5e940b3194ef10b8e3a1',1,'openm::ModelSqlBuilder::isSqliteDb()'],['../structopenm_1_1_i_model_builder.html#a3d0a4d4d8ab3a068904ed3960609c771',1,'openm::IModelBuilder::isSqliteDb()']]],
   ['isstring',['isString',['../structopenm_1_1_type_dic_row.html#a8d14c4c947c2d5cdf0367c04355fbc16',1,'openm::TypeDicRow']]],
+  ['istime',['isTime',['../structopenm_1_1_type_dic_row.html#a90577c882abd8c7859e5b2031bafa9af',1,'openm::TypeDicRow']]],
   ['istotal',['isTotal',['../structopenm_1_1_table_dims_row.html#ae55ae98d4008ab77b23f7854c8fbbec3',1,'openm::TableDimsRow']]],
   ['istransaction',['isTransaction',['../classopenm_1_1_db_exec_base.html#a7fa954d711014bdd818fac89cb29921d',1,'openm::DbExecBase::isTransaction()'],['../classopenm_1_1_db_exec_sqlite.html#a30879c10cc5661a0d4251ff38dc36433',1,'openm::DbExecSqlite::isTransaction()'],['../classopenm_1_1_i_db_exec.html#a7cee06f40ecc55f5627aabdca805064b',1,'openm::IDbExec::isTransaction()']]],
   ['istransactionnonown',['isTransactionNonOwn',['../classopenm_1_1_db_exec_base.html#a2c4510805399d67678ee6775a18269f4',1,'openm::DbExecBase']]],

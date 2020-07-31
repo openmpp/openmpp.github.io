@@ -1,10 +1,11 @@
 var class_string_type_symbol =
 [
     [ "StringTypeSymbol", "class_string_type_symbol.html#a8dbfd09161d803f2d6876756cba2554b", null ],
-    [ "default_initial_value", "class_string_type_symbol.html#a8fc3424d8d7f2581fde5f540809629fc", null ],
-    [ "format_for_storage", "class_string_type_symbol.html#a01b4a8ef887682561f2b2b77a307282a", null ],
-    [ "is_base_symbol", "class_string_type_symbol.html#ad74e81b6e6151e952ca1d9637a61dfa1", null ],
-    [ "is_valid_constant", "class_string_type_symbol.html#a50a31819e76c4c40730a6bbd75ebafe6", null ],
-    [ "populate_metadata", "class_string_type_symbol.html#a334113b0c4ca1afbfbf5a03fff5411ed", null ],
-    [ "post_parse", "class_string_type_symbol.html#a90408633aa011d936c6b47da4f070f04", null ]
+    [ "default_initial_value", "class_string_type_symbol.html#a92030bfd9475c9a0f67c2445fcf80e8a", null ],
+    [ "format_for_storage", "class_string_type_symbol.html#ad3c8d1b85795c51947eee2a2a70a49c0", null ],
+    [ "is_base_symbol", "class_string_type_symbol.html#a2f9261384a0d69bbccd919e4401f767e", null ],
+    [ "is_valid_constant", "class_string_type_symbol.html#aa9b30814b3a373e5f25b03087dbe7680", null ],
+    [ "make_constant", "class_string_type_symbol.html#a8d587144dfe79fecfae704326edf1cbc", null ],
+    [ "populate_metadata", "class_string_type_symbol.html#a6a2e4e44b7a66f1ee9bd7d84c2946ddb", null ],
+    [ "post_parse", "class_string_type_symbol.html#aa268ad930ea23aa0b1185d26d08f6b1a", null ]
 ];

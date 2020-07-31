@@ -5,6 +5,7 @@ var searchData=
   ['maintainedattributesymbol_2ecpp',['MaintainedAttributeSymbol.cpp',['../_maintained_attribute_symbol_8cpp.html',1,'']]],
   ['maintainedattributesymbol_2eh',['MaintainedAttributeSymbol.h',['../_maintained_attribute_symbol_8h.html',1,'']]],
   ['major',['major',['../class_version_symbol.html#a4123b0b8a69d70dc63470eb42a4b2459',1,'VersionSymbol']]],
+  ['make_5fconstant',['make_constant',['../class_bool_symbol.html#a7d0cd09d3cc39fadef0b5598c0c5d27d',1,'BoolSymbol::make_constant()'],['../class_classification_symbol.html#aada1874176847c059aa8dd4befe7fc0b',1,'ClassificationSymbol::make_constant()'],['../class_numeric_symbol.html#a43456cedd2d4a84076360447f78bcdcb',1,'NumericSymbol::make_constant()'],['../class_partition_symbol.html#a8d596f7a19663e357eb24ce9100a3e9a',1,'PartitionSymbol::make_constant()'],['../class_range_symbol.html#a9b7cc319df1f58236eab91586cd28a3b',1,'RangeSymbol::make_constant()'],['../class_string_type_symbol.html#a8d587144dfe79fecfae704326edf1cbc',1,'StringTypeSymbol::make_constant()'],['../class_time_symbol.html#a3e753b48e00c4249c5c6a0b1be1eca23',1,'TimeSymbol::make_constant()'],['../class_type_symbol.html#a1175f62ba1bbf493454275332101d28e',1,'TypeSymbol::make_constant()']]],
   ['mangle_5fname',['mangle_name',['../class_symbol.html#a2e86b390d7a98b111f03ad72e72af2b1',1,'Symbol']]],
   ['margin_5fcount',['margin_count',['../class_table_symbol.html#a6e9970b71173b77d604a26719068bf87',1,'TableSymbol']]],
   ['max_5ferror_5fcount',['max_error_count',['../class_symbol.html#a699b189cfc305bec8b2db5fe9b090d77',1,'Symbol']]],

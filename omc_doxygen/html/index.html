@@ -83,15 +83,15 @@ $(document).ready(function(){initNavTree('index.html','');});
 <div class="title">OpenM++ compiler (omc) </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>The OpenM++ compiler produces c++ (.cpp and .h) files and SQL files (.sql) from model source files (.ompp, .mpp) and parameter value files (.dat, .odat). <br />
+<div class="textblock"><p>The OpenM++ compiler produces c++ (.cpp and .h) files and SQL files (.sql) from model source files (.ompp, .mpp) and parameter value files (.dat, .odat, .csv, .tsv). <br />
 </p>
 <p>The following command line arguments are supported by omc:</p><ul>
 <li>-Omc.ModelName name/of/model/executable, e.g. RiskPaths</li>
-<li>-Omc.ScenarioName name/of/base/scenario, e.g. Base</li>
+<li>-Omc.ScenarioName name/of/base/scenario, e.g. Base (can be list of names if there is more than one parameter directory specified)</li>
 <li>-Omc.InputDir input/dir/to/find/source/files</li>
 <li>-Omc.OutputDir output/dir/to/place/compiled/cpp_and_h_and_sql/files</li>
 <li>-Omc.UseDir use/dir/with/ompp/files</li>
-<li>-Omc.ParamDir input/dir/to/find/parameter/files/for/scenario</li>
+<li>-Omc.ParamDir input/dir/to/find/parameter/files/for/scenario (can be list of directories)</li>
 <li>-Omc.FixedDir input/dir/to/find/fixed/parameter/files/</li>
 <li>-Omc.CodePage code page for converting source files, e.g. windows-1252</li>
 <li>-Omc.MessageLanguage language to display output messages, default: user environment settings</li>
@@ -120,7 +120,7 @@ $(document).ready(function(){initNavTree('index.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Jun 17 2020 15:16:16 for OpenM++ compiler (omc) by
+    <li class="footer">Generated on Fri Jul 31 2020 17:53:26 for OpenM++ compiler (omc) by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

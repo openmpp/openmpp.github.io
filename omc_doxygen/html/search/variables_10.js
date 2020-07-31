@@ -13,6 +13,7 @@ var searchData=
   ['ss_5ftime_5ffn',['ss_time_fn',['../class_entity_symbol.html#af8b2add287b458f30ce388c1814496ad',1,'EntitySymbol']]],
   ['storage_5ftype',['storage_type',['../class_enumeration_symbol.html#a1f29b4ab24906986cf42fa13df36827b',1,'EnumerationSymbol']]],
   ['string_5ftoken',['string_token',['../class_symbol.html#a6ba3b59f491821e02f2827909f3eee38',1,'Symbol']]],
+  ['sub_5finitial_5flist',['sub_initial_list',['../class_parameter_symbol.html#a3cfe0abe408d5d0bf58293740bf44737',1,'ParameterSymbol']]],
   ['sub_5fminor',['sub_minor',['../class_version_symbol.html#aef77e2cbc3fe37e771d32ae28a92b618',1,'VersionSymbol']]],
   ['sub_5fsub_5fminor',['sub_sub_minor',['../class_version_symbol.html#ae93e1dbdcf162475bc933956e4982a72',1,'VersionSymbol']]],
   ['suffixes',['suffixes',['../class_special_global.html#afc3907bac22fa8dac533f267aca67d00',1,'SpecialGlobal']]],
