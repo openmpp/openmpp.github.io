@@ -1,6 +1,6 @@
-<map id="C:/om_git/include/libopenm/db/metaSetHolder.h" name="C:/om_git/include/libopenm/db/metaSetHolder.h">
-<area shape="rect" id="node2" href="$db_parameter_8h.html" title="OpenM++ data library: input parameter interfaces. " alt="" coords="860,102,1012,129"/>
-<area shape="rect" id="node11" href="$model_builder_8h.html" title="OpenM++ data library: public interface to produce model creation script. " alt="" coords="1304,95,1483,136"/>
+<map id="C:/ompp&#45;main/include/libopenm/db/metaSetHolder.h" name="C:/ompp&#45;main/include/libopenm/db/metaSetHolder.h">
+<area shape="rect" id="node2" href="$db_parameter_8h.html" title="OpenM++ data library: input parameter interfaces. " alt="" coords="857,102,1009,129"/>
+<area shape="rect" id="node11" href="$model_builder_8h.html" title="OpenM++ data library: public interface to produce model creation script. " alt="" coords="1300,95,1487,136"/>
 <area shape="rect" id="node3" href="$run_controller_impl_8h.html" title="OpenM++ modeling library: impelementation of controllers for modeling process run. " alt="" coords="685,184,854,211"/>
 <area shape="rect" id="node4" href="$child_controller_8cpp.html" title="OpenM++ modeling library: child process run controller class to receive input parameters from root an..." alt="" coords="5,259,173,285"/>
 <area shape="rect" id="node5" href="$restart_controller_8cpp.html" title="OpenM++ modeling library: process run controller class for model &quot;restart run&quot; to calculate outstandi..." alt="" coords="197,259,376,285"/>

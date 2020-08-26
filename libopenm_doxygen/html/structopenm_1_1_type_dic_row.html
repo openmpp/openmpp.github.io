@@ -126,10 +126,6 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stru
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_type_dic_row.html#a8d14c4c947c2d5cdf0367c04355fbc16">isString</a> (void) const</td></tr>
 <tr class="memdesc:a8d14c4c947c2d5cdf0367c04355fbc16"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if model type is string (varchar) <br /></td></tr>
 <tr class="separator:a8d14c4c947c2d5cdf0367c04355fbc16"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83abd5c11dac73e8150c3b6dcc52ee77"><td class="memItemLeft" align="right" valign="top"><a id="a83abd5c11dac73e8150c3b6dcc52ee77"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_type_dic_row.html#a83abd5c11dac73e8150c3b6dcc52ee77">isFloat</a> (void) const</td></tr>
-<tr class="memdesc:a83abd5c11dac73e8150c3b6dcc52ee77"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if model type is float (float, real, numeric) <br /></td></tr>
-<tr class="separator:a83abd5c11dac73e8150c3b6dcc52ee77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a620448b742556ee4791a9c8418bc4420"><td class="memItemLeft" align="right" valign="top"><a id="a620448b742556ee4791a9c8418bc4420"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_type_dic_row.html#a620448b742556ee4791a9c8418bc4420">isBigInt</a> (void) const</td></tr>
 <tr class="memdesc:a620448b742556ee4791a9c8418bc4420"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if model type is bigint (64 bit) <br /></td></tr>
@@ -137,6 +133,10 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stru
 <tr class="memitem:af99fa4aa881b4d735135b8751873389d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_type_dic_row.html#af99fa4aa881b4d735135b8751873389d">isInt</a> (void) const</td></tr>
 <tr class="memdesc:af99fa4aa881b4d735135b8751873389d"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if model type is integer (not float, string, boolean or bigint)  <a href="#af99fa4aa881b4d735135b8751873389d">More...</a><br /></td></tr>
 <tr class="separator:af99fa4aa881b4d735135b8751873389d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83abd5c11dac73e8150c3b6dcc52ee77"><td class="memItemLeft" align="right" valign="top"><a id="a83abd5c11dac73e8150c3b6dcc52ee77"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_type_dic_row.html#a83abd5c11dac73e8150c3b6dcc52ee77">isFloat</a> (void) const</td></tr>
+<tr class="memdesc:a83abd5c11dac73e8150c3b6dcc52ee77"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if model type is float (float, real, double or time) <br /></td></tr>
+<tr class="separator:a83abd5c11dac73e8150c3b6dcc52ee77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90577c882abd8c7859e5b2031bafa9af"><td class="memItemLeft" align="right" valign="top"><a id="a90577c882abd8c7859e5b2031bafa9af"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_type_dic_row.html#a90577c882abd8c7859e5b2031bafa9af">isTime</a> (void) const</td></tr>
 <tr class="memdesc:a90577c882abd8c7859e5b2031bafa9af"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if model type is Time <br /></td></tr>
@@ -157,6 +157,14 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:acc2e14b18936ef40a54dd35d15918543"><td class="memItemLeft" align="right" valign="top">static vector&lt; <a class="el" href="structopenm_1_1_type_dic_row.html">TypeDicRow</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_type_dic_row.html#acc2e14b18936ef40a54dd35d15918543">byKey</a> (int i_modelId, int i_typeId, const vector&lt; <a class="el" href="structopenm_1_1_type_dic_row.html">TypeDicRow</a> &gt; &amp;i_rowVec)</td></tr>
 <tr class="memdesc:acc2e14b18936ef40a54dd35d15918543"><td class="mdescLeft">&#160;</td><td class="mdescRight">find row by unique key: model id and model type id.  <a href="#acc2e14b18936ef40a54dd35d15918543">More...</a><br /></td></tr>
 <tr class="separator:acc2e14b18936ef40a54dd35d15918543"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3929343a0138eca5ff831fdbcfaf5c9"><td class="memItemLeft" align="right" valign="top"><a id="ad3929343a0138eca5ff831fdbcfaf5c9"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_type_dic_row.html#ad3929343a0138eca5ff831fdbcfaf5c9">isIntValid</a> (const char *i_value)</td></tr>
+<tr class="memdesc:ad3929343a0138eca5ff831fdbcfaf5c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if i_value string represent valid integer constant <br /></td></tr>
+<tr class="separator:ad3929343a0138eca5ff831fdbcfaf5c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a038f31d7453528d95e8713edf3d1a0b7"><td class="memItemLeft" align="right" valign="top"><a id="a038f31d7453528d95e8713edf3d1a0b7"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_type_dic_row.html#a038f31d7453528d95e8713edf3d1a0b7">isFloatValid</a> (const char *i_value)</td></tr>
+<tr class="memdesc:a038f31d7453528d95e8713edf3d1a0b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if i_value string represent valid floating point constant <br /></td></tr>
+<tr class="separator:a038f31d7453528d95e8713edf3d1a0b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3c36ecec2f6f20b876a4171342570bc"><td class="memItemLeft" align="right" valign="top"><a id="ad3c36ecec2f6f20b876a4171342570bc"></a>
 static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_type_dic_row.html#ad3c36ecec2f6f20b876a4171342570bc">isBuiltIn</a> (int i_typeId)</td></tr>
 <tr class="memdesc:ad3c36ecec2f6f20b876a4171342570bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if model type id is built-in type id, ie: int, double, logical <br /></td></tr>
@@ -432,7 +440,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struc
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following files:<ul>
-<li>C:/om_git/include/libopenm/db/<a class="el" href="db_meta_row_8h_source.html">dbMetaRow.h</a></li>
+<li>C:/ompp-main/include/libopenm/db/<a class="el" href="db_meta_row_8h_source.html">dbMetaRow.h</a></li>
 <li>db/dbMetaRow.cpp</li>
 </ul>
 </div><!-- contents -->
@@ -441,7 +449,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struc
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceopenm.html">openm</a></li><li class="navelem"><a class="el" href="structopenm_1_1_type_dic_row.html">TypeDicRow</a></li>
-    <li class="footer">Generated on Fri Jul 31 2020 17:48:21 for OpenM++ runtime library (libopenm) by
+    <li class="footer">Generated on Wed Aug 26 2020 15:15:00 for OpenM++ runtime library (libopenm) by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

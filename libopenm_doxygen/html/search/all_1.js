@@ -1,7 +1,9 @@
 var searchData=
 [
   ['basedirof',['baseDirOf',['../namespaceopenm.html#a1e676032d4682fd81c220a6d4e65f18e',1,'openm::baseDirOf(const string &amp;i_path)'],['../namespaceopenm.html#a0acb0436056c16124077b28ba101de2e',1,'openm::baseDirOf(const char *i_path)']]],
-  ['baserunid',['baseRunId',['../structopenm_1_1_workset_lst_row.html#a706a285824008d955fb7d903a328d6ae',1,'openm::WorksetLstRow']]],
+  ['baserundigest',['baseRunDigest',['../structopenm_1_1_run_options_key.html#ad60d3b7628ce5492af27c0640dd7a962',1,'openm::RunOptionsKey']]],
+  ['baserunid',['baseRunId',['../structopenm_1_1_run_options_key.html#a3713184a8acb2670dd6a936d52d9a40c',1,'openm::RunOptionsKey::baseRunId()'],['../structopenm_1_1_workset_lst_row.html#a706a285824008d955fb7d903a328d6ae',1,'openm::WorksetLstRow::baseRunId()']]],
+  ['baserunname',['baseRunName',['../structopenm_1_1_run_options_key.html#aa05430ccfc11acfacfe094726d8aee40',1,'openm::RunOptionsKey']]],
   ['bcastint',['bcastInt',['../classopenm_1_1_i_msg_exec.html#a329c144fc827fa77cae66f92538e8319',1,'openm::IMsgExec']]],
   ['bcastreceive',['bcastReceive',['../classopenm_1_1_i_msg_exec.html#a99df40e6b5d030797f7f137d7cecbb44',1,'openm::IMsgExec::bcastReceive()'],['../classopenm_1_1_msg_empty_exec.html#ad210873c933b60ee49320216861e9011',1,'openm::MsgEmptyExec::bcastReceive()'],['../classopenm_1_1_mpi_exec.html#ace05e72885c69d08465c1bf4b4724d3c',1,'openm::MpiExec::bcastReceive()']]],
   ['bcastreceivepacked',['bcastReceivePacked',['../classopenm_1_1_i_msg_exec.html#a0b4af7ff839eff857082ccaebd49ff07',1,'openm::IMsgExec::bcastReceivePacked()'],['../classopenm_1_1_msg_empty_exec.html#a8665156fa6cbb8806249cbc1f6cee438',1,'openm::MsgEmptyExec::bcastReceivePacked()'],['../classopenm_1_1_mpi_exec.html#a47adfb846a3b4d55dd8b015fa47f0dd0',1,'openm::MpiExec::bcastReceivePacked()']]],
