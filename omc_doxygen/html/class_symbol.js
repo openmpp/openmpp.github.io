@@ -34,6 +34,7 @@ var class_symbol =
     [ "process_symbol_label", "class_symbol.html#a0787b42d568557392a245ef4106d2a6b", null ],
     [ "stable_pp", "class_symbol.html#a30d2478ed83ac6ff65df9ea60a8d5b93", null ],
     [ "stable_rp", "class_symbol.html#acc4bc3846f34bfd3bfb2e8068112468b", null ],
+    [ "code_label_allowed", "class_symbol.html#a5e262ad05ffa77efbcfc3d2d27ae6f23", null ],
     [ "code_order", "class_symbol.html#a3e6310f70d9163d9653f16d5c906b550", null ],
     [ "decl_loc", "class_symbol.html#ae2479a300439d7fa5321bd4332ebeaa5", null ],
     [ "name", "class_symbol.html#a0254b578a75d2bd6f7e145fe081cb6dd", null ],

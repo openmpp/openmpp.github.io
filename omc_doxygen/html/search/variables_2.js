@@ -5,6 +5,7 @@ var searchData=
   ['c_5ffname',['c_fname',['../class_code_gen.html#a8a390d9250063e3e48ddc81ee3a4219c',1,'CodeGen']]],
   ['cell',['cell',['../class_entity_set_symbol.html#a76bcc021ccc455b141d91cf3c6e3e1d9',1,'EntitySetSymbol']]],
   ['cls',['cls',['../class_derived_attribute_symbol.html#aee49e252f88c9485fef22a2a2aff37ba',1,'DerivedAttributeSymbol']]],
+  ['code_5flabel_5fallowed',['code_label_allowed',['../class_symbol.html#a5e262ad05ffa77efbcfc3d2d27ae6f23',1,'Symbol']]],
   ['code_5forder',['code_order',['../class_symbol.html#a3e6310f70d9163d9653f16d5c906b550',1,'Symbol']]],
   ['code_5fpage',['code_page',['../class_symbol.html#a0cff7608976f1c1abc45797b3a71061f',1,'Symbol']]],
   ['codepage',['codePage',['../structopenm_1_1_omc_arg_key.html#a644dc64b1c0066019239a248fce6399d',1,'openm::OmcArgKey']]],

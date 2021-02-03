@@ -32,7 +32,7 @@ var NAVTREEINDEX =
 "class_entity_foreign_member_symbol.html#a46cf26984f458a5d091364c25158c196",
 "class_expr_for_attribute_symbol.html",
 "class_parameter_symbol.html#af9c4d97335825e04511637c276b0a9f7",
-"class_unknown_type_symbol.html#a1c81696d7c2fadf047bb8ca1daa1644a"
+"class_unknown_type_symbol.html#a0a0265e43d1daded58c616f7587bd896"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
