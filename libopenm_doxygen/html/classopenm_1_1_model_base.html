@@ -126,9 +126,16 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 const <a class="el" href="structopenm_1_1_run_options.html">RunOptions</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_model_base.html#ae5b8051ced63ac8ff5931be0a4447a55">runOptions</a> (void) const override</td></tr>
 <tr class="memdesc:ae5b8051ced63ac8ff5931be0a4447a55"><td class="mdescLeft">&#160;</td><td class="mdescRight">return model run options <br /></td></tr>
 <tr class="separator:ae5b8051ced63ac8ff5931be0a4447a55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaec725cb2327bf6059fc2f17032dc3db"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_model_base.html#aaec725cb2327bf6059fc2f17032dc3db">writeOutputTable</a> (const char *i_name, size_t i_size, forward_list&lt; unique_ptr&lt; double &gt; &gt; &amp;io_accValues) override</td></tr>
-<tr class="memdesc:aaec725cb2327bf6059fc2f17032dc3db"><td class="mdescLeft">&#160;</td><td class="mdescRight">write result into output table and release accumulators memory.  <a href="#aaec725cb2327bf6059fc2f17032dc3db">More...</a><br /></td></tr>
-<tr class="separator:aaec725cb2327bf6059fc2f17032dc3db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f0ab8dca2f2268a133c01939c2b9d19"><td class="memItemLeft" align="right" valign="top"><a id="a1f0ab8dca2f2268a133c01939c2b9d19"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_model_base.html#a1f0ab8dca2f2268a133c01939c2b9d19">tableIdByName</a> (const char *i_name) const override</td></tr>
+<tr class="memdesc:a1f0ab8dca2f2268a133c01939c2b9d19"><td class="mdescLeft">&#160;</td><td class="mdescRight">return id of output table by name <br /></td></tr>
+<tr class="separator:a1f0ab8dca2f2268a133c01939c2b9d19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a646a0414bf32fc5f0004f32f6ae66279"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_model_base.html#a646a0414bf32fc5f0004f32f6ae66279">isSuppressed</a> (const char *i_name) const override</td></tr>
+<tr class="memdesc:a646a0414bf32fc5f0004f32f6ae66279"><td class="mdescLeft">&#160;</td><td class="mdescRight">check by name if output table suppressed.  <a href="#a646a0414bf32fc5f0004f32f6ae66279">More...</a><br /></td></tr>
+<tr class="separator:a646a0414bf32fc5f0004f32f6ae66279"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32837c4c2a3a3c6abcfc3d2ced98a0bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_model_base.html#a32837c4c2a3a3c6abcfc3d2ced98a0bb">writeOutputTable</a> (const char *i_name, size_t i_size, forward_list&lt; unique_ptr&lt; double[]&gt; &gt; &amp;io_accValues) override</td></tr>
+<tr class="memdesc:a32837c4c2a3a3c6abcfc3d2ced98a0bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">write result into output table and release accumulators memory.  <a href="#a32837c4c2a3a3c6abcfc3d2ced98a0bb">More...</a><br /></td></tr>
+<tr class="separator:a32837c4c2a3a3c6abcfc3d2ced98a0bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d65b720c4dd05eafca9520445fb52a1"><td class="memItemLeft" align="right" valign="top"><a id="a8d65b720c4dd05eafca9520445fb52a1"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_model_base.html#a8d65b720c4dd05eafca9520445fb52a1">updateProgress</a> (int i_count, double i_value=0.0) override</td></tr>
 <tr class="memdesc:a8d65b720c4dd05eafca9520445fb52a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">set modeling progress count and value <br /></td></tr>
@@ -138,6 +145,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_model.html#a7af33d6ed8fddbd90ab717f6f8ae6679">~IModel</a> (void) noexcept=0</td></tr>
 <tr class="memdesc:a7af33d6ed8fddbd90ab717f6f8ae6679 inherit pub_methods_structopenm_1_1_i_model"><td class="mdescLeft">&#160;</td><td class="mdescRight">model sub-value run public interface <br /></td></tr>
 <tr class="separator:a7af33d6ed8fddbd90ab717f6f8ae6679 inherit pub_methods_structopenm_1_1_i_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac976dd576a395cb89516242c3f2add31 inherit pub_methods_structopenm_1_1_i_model"><td class="memItemLeft" align="right" valign="top"><a id="ac976dd576a395cb89516242c3f2add31"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_model.html#ac976dd576a395cb89516242c3f2add31">writeOutputTable</a> (const char *i_name, size_t i_size, std::forward_list&lt; std::unique_ptr&lt; double[]&gt; &gt; &amp;io_accValues)=0</td></tr>
+<tr class="memdesc:ac976dd576a395cb89516242c3f2add31 inherit pub_methods_structopenm_1_1_i_model"><td class="mdescLeft">&#160;</td><td class="mdescRight">write output result table: sub values <br /></td></tr>
+<tr class="separator:ac976dd576a395cb89516242c3f2add31 inherit pub_methods_structopenm_1_1_i_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -205,8 +216,38 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aaec725cb2327bf6059fc2f17032dc3db"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaec725cb2327bf6059fc2f17032dc3db">&#9670;&nbsp;</a></span>writeOutputTable()</h2>
+<a id="a646a0414bf32fc5f0004f32f6ae66279"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a646a0414bf32fc5f0004f32f6ae66279">&#9670;&nbsp;</a></span>isSuppressed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool openm::ModelBase::isSuppressed </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>i_name</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>check by name if output table suppressed. </p>
+
+<p>Implements <a class="el" href="structopenm_1_1_i_model.html#accefff30deb84be5afd96c9f2054db4f">openm::IModel</a>.</p>
+
+</div>
+</div>
+<a id="a32837c4c2a3a3c6abcfc3d2ced98a0bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32837c4c2a3a3c6abcfc3d2ced98a0bb">&#9670;&nbsp;</a></span>writeOutputTable()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -229,7 +270,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">forward_list&lt; unique_ptr&lt; double &gt; &gt; &amp;&#160;</td>
+          <td class="paramtype">forward_list&lt; unique_ptr&lt; double[]&gt; &gt; &amp;&#160;</td>
           <td class="paramname"><em>io_accValues</em>&#160;</td>
         </tr>
         <tr>
@@ -240,7 +281,7 @@ Static Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -256,8 +297,6 @@ Static Public Member Functions</h2></td></tr>
 </dl>
 <p>usage example: <br />
 </p><div class="fragment"><div class="line"><span class="comment">// allocate model output table accumulators: [N_accumulators][N_cells]</span></div><div class="line"><span class="keywordtype">double</span> * acc[N_accumulators];</div><div class="line">forward_list&lt;unique_ptr&lt;double&gt; &gt; acc_storage; </div><div class="line"></div><div class="line"><span class="keyword">auto</span> it = acc_storage.before_begin();</div><div class="line"><span class="keywordflow">for</span> (<span class="keywordtype">int</span> k = 0; k &lt; N_accumulators; ++k) {</div><div class="line">  it = acc_storage.insert_after(it, unique_ptr&lt;double&gt;(<span class="keyword">new</span> <span class="keywordtype">double</span>[N_cells]));</div><div class="line">  acc[k] = it-&gt;get();</div><div class="line">}</div><div class="line">...</div><div class="line"><span class="comment">// run the model and calculate accumulator values</span></div><div class="line">for (<span class="keywordtype">int</span> k = 0; k &lt; N_accumulators; ++k) {</div><div class="line">  std::fill(acc[k], &amp;acc[k][N_cells], 0.0);</div><div class="line">}</div><div class="line">...</div><div class="line"><span class="comment">// write output table &quot;salaryBySex&quot; into database</span></div><div class="line">i_model-&gt;writeOutputTable(<span class="stringliteral">&quot;salaryBySex&quot;</span>, N_cells, acc_storage);</div><div class="line"><span class="comment">// at this point any kind of table-&gt;acc[k][j] will cause memory access violation</span></div></div><!-- fragment --> 
-<p>Implements <a class="el" href="structopenm_1_1_i_model.html#a17d5d0ef5891bd80a323ae3f4b06a6a2">openm::IModel</a>.</p>
-
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
@@ -270,7 +309,7 @@ Static Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceopenm.html">openm</a></li><li class="navelem"><a class="el" href="classopenm_1_1_model_base.html">ModelBase</a></li>
-    <li class="footer">Generated on Tue Feb 2 2021 22:46:01 for OpenM++ runtime library (libopenm) by
+    <li class="footer">Generated on Tue Apr 6 2021 22:27:20 for OpenM++ runtime library (libopenm) by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

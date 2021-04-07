@@ -20,5 +20,7 @@ var class_table_symbol =
     [ "is_internal", "class_table_symbol.html#a415867fe3a356415607911438e776d6e", null ],
     [ "measures_position", "class_table_symbol.html#aeec7c9e56a5df4188463e54a1b56d3fe", null ],
     [ "pp_measures", "class_table_symbol.html#a942e13ebe4f7fb9baf7b92483a5fb475", null ],
-    [ "pp_table_id", "class_table_symbol.html#a4175f5804b2ca643ae68799919a6eca5", null ]
+    [ "pp_table_id", "class_table_symbol.html#a4175f5804b2ca643ae68799919a6eca5", null ],
+    [ "pp_tables_required", "class_table_symbol.html#a47393719b551a3348c7a2b697e3133da", null ],
+    [ "pp_tables_requiring", "class_table_symbol.html#a4a96cfd5d711c546bd9bd87fe33d7481", null ]
 ];

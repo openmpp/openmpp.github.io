@@ -86,19 +86,21 @@ $(document).ready(function(){initNavTree('structopenm_1_1_i_model.html','');});
 
 <p>This is the complete list of members for <a class="el" href="structopenm_1_1_i_model.html">openm::IModel</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="structopenm_1_1_i_model.html#a99b704f656180c602e4ee99fb3687cc2">parameterSubValueIndex</a>(const char *i_name) const =0</td><td class="entry"><a class="el" href="structopenm_1_1_i_model.html">openm::IModel</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="structopenm_1_1_i_model.html#a2a6bbfdde65f5129980084a5687a00d5">runOptions</a>(void) const =0</td><td class="entry"><a class="el" href="structopenm_1_1_i_model.html">openm::IModel</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="structopenm_1_1_i_model.html#a71f4f061fd2ea5166cf6a48d0461ab8d">subValueCount</a>(void) const noexcept=0</td><td class="entry"><a class="el" href="structopenm_1_1_i_model.html">openm::IModel</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="structopenm_1_1_i_model.html#ab20f27f643aa92bafeb662dd0db3cfc1">subValueId</a>(void) const noexcept=0</td><td class="entry"><a class="el" href="structopenm_1_1_i_model.html">openm::IModel</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="structopenm_1_1_i_model.html#accefff30deb84be5afd96c9f2054db4f">isSuppressed</a>(const char *i_name) const =0</td><td class="entry"><a class="el" href="structopenm_1_1_i_model.html">openm::IModel</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="structopenm_1_1_i_model.html#a99b704f656180c602e4ee99fb3687cc2">parameterSubValueIndex</a>(const char *i_name) const =0</td><td class="entry"><a class="el" href="structopenm_1_1_i_model.html">openm::IModel</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="structopenm_1_1_i_model.html#a2a6bbfdde65f5129980084a5687a00d5">runOptions</a>(void) const =0</td><td class="entry"><a class="el" href="structopenm_1_1_i_model.html">openm::IModel</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="structopenm_1_1_i_model.html#a71f4f061fd2ea5166cf6a48d0461ab8d">subValueCount</a>(void) const noexcept=0</td><td class="entry"><a class="el" href="structopenm_1_1_i_model.html">openm::IModel</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="structopenm_1_1_i_model.html#ab20f27f643aa92bafeb662dd0db3cfc1">subValueId</a>(void) const noexcept=0</td><td class="entry"><a class="el" href="structopenm_1_1_i_model.html">openm::IModel</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="structopenm_1_1_i_model.html#a8e60fb5f2d1f277abfa1c7a9583423ae">tableIdByName</a>(const char *i_name) const =0</td><td class="entry"><a class="el" href="structopenm_1_1_i_model.html">openm::IModel</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="structopenm_1_1_i_model.html#a09e0bd55030837593f8f4bad57315036">updateProgress</a>(int i_count, double i_value=0.0)=0</td><td class="entry"><a class="el" href="structopenm_1_1_i_model.html">openm::IModel</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="structopenm_1_1_i_model.html#a17d5d0ef5891bd80a323ae3f4b06a6a2">writeOutputTable</a>(const char *i_name, size_t i_size, forward_list&lt; unique_ptr&lt; double &gt; &gt; &amp;io_accValues)=0</td><td class="entry"><a class="el" href="structopenm_1_1_i_model.html">openm::IModel</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="structopenm_1_1_i_model.html#ac976dd576a395cb89516242c3f2add31">writeOutputTable</a>(const char *i_name, size_t i_size, std::forward_list&lt; std::unique_ptr&lt; double[]&gt; &gt; &amp;io_accValues)=0</td><td class="entry"><a class="el" href="structopenm_1_1_i_model.html">openm::IModel</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="structopenm_1_1_i_model.html#a7af33d6ed8fddbd90ab717f6f8ae6679">~IModel</a>(void) noexcept=0</td><td class="entry"><a class="el" href="structopenm_1_1_i_model.html">openm::IModel</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Feb 2 2021 22:45:57 for OpenM++ runtime library (libopenm) by
+    <li class="footer">Generated on Tue Apr 6 2021 22:27:14 for OpenM++ runtime library (libopenm) by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

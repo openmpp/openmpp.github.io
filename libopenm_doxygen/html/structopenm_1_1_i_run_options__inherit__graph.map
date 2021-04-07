@@ -1,0 +1,8 @@
+<map id="openm::IRunOptions" name="openm::IRunOptions">
+<area shape="rect" id="node2" href="$structopenm_1_1_i_run_base.html" title="public interface to initialize model run and input parameters " alt="" coords="193,81,319,108"/>
+<area shape="rect" id="node3" href="$classopenm_1_1_run_controller.html" title="run controller: create new model run(s) and support data exchange. " alt="" coords="367,81,513,108"/>
+<area shape="rect" id="node4" href="$classopenm_1_1_child_controller.html" title="controller for child process: receive input parameters from root and send output tables. " alt="" coords="568,5,721,32"/>
+<area shape="rect" id="node5" href="$classopenm_1_1_restart_controller.html" title="controller for &quot;restart run&quot;: calculate outstanding sub&#45;values for existing run " alt="" coords="561,56,728,83"/>
+<area shape="rect" id="node6" href="$classopenm_1_1_root_controller.html" title="controller for root process: create new model run(s), send input parameters to children and receieve ..." alt="" coords="569,107,720,133"/>
+<area shape="rect" id="node7" href="$classopenm_1_1_single_controller.html" title="controller for single process: create new model run(s), read input parameters and write output tables..." alt="" coords="565,157,725,184"/>
+</map>

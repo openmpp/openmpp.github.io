@@ -158,6 +158,7 @@ var searchData=
   ['irowprocessor',['IRowProcessor',['../classopenm_1_1_i_row_processor.html',1,'openm']]],
   ['irunbase',['IRunBase',['../structopenm_1_1_i_run_base.html',1,'openm']]],
   ['irunlsttable',['IRunLstTable',['../structopenm_1_1_i_run_lst_table.html',1,'openm']]],
+  ['irunoptions',['IRunOptions',['../structopenm_1_1_i_run_options.html',1,'openm']]],
   ['irunoptiontable',['IRunOptionTable',['../structopenm_1_1_i_run_option_table.html',1,'openm']]],
   ['irunparamtxttable',['IRunParamTxtTable',['../structopenm_1_1_i_run_param_txt_table.html',1,'openm']]],
   ['iruntxttable',['IRunTxtTable',['../structopenm_1_1_i_run_txt_table.html',1,'openm']]],

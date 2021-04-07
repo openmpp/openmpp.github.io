@@ -1,6 +1,9 @@
 <map id="DependencyGroupSymbol.h" name="DependencyGroupSymbol.h">
-<area shape="rect" id="node2" href="$_group_symbol_8h.html" title="Declarations for the GroupSymbol class. " alt="" coords="299,80,411,107"/>
-<area shape="rect" id="node4" href="$_symbol_8h.html" title="Declarations for the Symbol class. " alt="" coords="661,155,738,181"/>
-<area shape="rect" id="node14" href="$omc__common_8h.html" title="Common declarations for omc. " alt="" coords="1013,229,1127,256"/>
-<area shape="rect" id="node17" href="$_special_global_8h.html" title="Declarations for the SpecialGlobal class. " alt="" coords="51,229,164,256"/>
+<area shape="rect" id="node2" href="$_group_symbol_8h.html" title="Declarations for the GroupSymbol class. " alt="" coords="5,155,117,181"/>
+<area shape="rect" id="node19" href="$_table_symbol_8h.html" title="Declarations for the TableSymbol class. " alt="" coords="762,80,870,107"/>
+<area shape="rect" id="node4" href="$_symbol_8h.html" title="Declarations for the Symbol class. " alt="" coords="831,229,908,256"/>
+<area shape="rect" id="node14" href="$omc__common_8h.html" title="Common declarations for omc. " alt="" coords="160,304,275,331"/>
+<area shape="rect" id="node17" href="$_special_global_8h.html" title="Declarations for the SpecialGlobal class. " alt="" coords="1059,304,1173,331"/>
+<area shape="rect" id="node20" href="$_dimension_symbol_8h.html" title="Definitions for the DimensionSymbol class. " alt="" coords="853,155,992,181"/>
+<area shape="rect" id="node21" href="$_table_measure_symbol_8h.html" title="Declarations for the TableMeasureSymbol class. " alt="" coords="1217,155,1375,181"/>
 </map>

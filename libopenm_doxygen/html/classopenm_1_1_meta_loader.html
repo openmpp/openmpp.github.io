@@ -142,6 +142,21 @@ const <a class="el" href="structopenm_1_1_run_options.html">RunOptions</a>&#160;
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_meta_loader.html#a15db3f55bdaa55cdc852cdae8224fb8d">parameterSubCount</a> (int i_paramId) const</td></tr>
 <tr class="memdesc:a15db3f55bdaa55cdc852cdae8224fb8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">return sub-values count by parameter id <br /></td></tr>
 <tr class="separator:a15db3f55bdaa55cdc852cdae8224fb8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47e9c56ded245c020d2e4bd85cfdb080"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_meta_loader.html#a47e9c56ded245c020d2e4bd85cfdb080">parameterIdByName</a> (const char *i_name) const</td></tr>
+<tr class="memdesc:a47e9c56ded245c020d2e4bd85cfdb080"><td class="mdescLeft">&#160;</td><td class="mdescRight">return index of parameter by name  <a href="#a47e9c56ded245c020d2e4bd85cfdb080">More...</a><br /></td></tr>
+<tr class="separator:a47e9c56ded245c020d2e4bd85cfdb080"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e832588d4181880e2fc6ecb8d2acdcd"><td class="memItemLeft" align="right" valign="top"><a id="a8e832588d4181880e2fc6ecb8d2acdcd"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_meta_loader.html#a8e832588d4181880e2fc6ecb8d2acdcd">tableIdByName</a> (const char *i_name) const</td></tr>
+<tr class="memdesc:a8e832588d4181880e2fc6ecb8d2acdcd"><td class="mdescLeft">&#160;</td><td class="mdescRight">return id of output table by name <br /></td></tr>
+<tr class="separator:a8e832588d4181880e2fc6ecb8d2acdcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19f3166fb01264108c71408017cba7aa"><td class="memItemLeft" align="right" valign="top"><a id="a19f3166fb01264108c71408017cba7aa"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_meta_loader.html#a19f3166fb01264108c71408017cba7aa">isSuppressed</a> (const char *i_name) const</td></tr>
+<tr class="memdesc:a19f3166fb01264108c71408017cba7aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">check by name if output table suppressed <br /></td></tr>
+<tr class="separator:a19f3166fb01264108c71408017cba7aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adacf152150868d0374f56ed2111eec66"><td class="memItemLeft" align="right" valign="top"><a id="adacf152150868d0374f56ed2111eec66"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_meta_loader.html#adacf152150868d0374f56ed2111eec66">isSuppressed</a> (int i_tableId) const</td></tr>
+<tr class="memdesc:adacf152150868d0374f56ed2111eec66"><td class="mdescLeft">&#160;</td><td class="mdescRight">check by id if output table suppressed <br /></td></tr>
+<tr class="separator:adacf152150868d0374f56ed2111eec66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -229,6 +244,9 @@ unique_ptr&lt; <a class="el" href="structopenm_1_1_meta_holder.html">MetaHolder<
 <tr class="memitem:a945be5a250d497799fd7ac9409b48892"><td class="memItemLeft" align="right" valign="top"><a id="a945be5a250d497799fd7ac9409b48892"></a>
 vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>paramIdSubArr</b></td></tr>
 <tr class="separator:a945be5a250d497799fd7ac9409b48892"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7f37fbfc3487f05db1adf9b5cbdec7e"><td class="memItemLeft" align="right" valign="top"><a id="ae7f37fbfc3487f05db1adf9b5cbdec7e"></a>
+vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>tableIdSuppressArr</b></td></tr>
+<tr class="separator:ae7f37fbfc3487f05db1adf9b5cbdec7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9eefa9be9ee11d2becc4c1656fee6a4"><td class="memItemLeft" align="right" valign="top"><a id="aa9eefa9be9ee11d2becc4c1656fee6a4"></a>
 map&lt; int, <a class="el" href="structopenm_1_1_meta_loader_1_1_param_sub_opts.html">ParamSubOpts</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>subOptsMap</b></td></tr>
 <tr class="separator:aa9eefa9be9ee11d2becc4c1656fee6a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -371,8 +389,30 @@ map&lt; pair&lt; LangOptKind, int &gt;, string &gt;&#160;</td><td class="memItem
 <li>use default values for basic run options, i.e. SparseOutput = false</li>
 <li>validate scalar parameter value option, eg: Parameter.Age 42</li>
 <li>parse parameter sub-values options, eg: SubFrom.Age csv SubValues.Age 8 SubValues.Sex default</li>
-<li>parse parameter import options </li>
+<li>parse parameter import options</li>
+<li>parse output tables suppress options </li>
 </ul>
+
+</div>
+</div>
+<a id="a47e9c56ded245c020d2e4bd85cfdb080"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47e9c56ded245c020d2e4bd85cfdb080">&#9670;&nbsp;</a></span>parameterIdByName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MetaLoader::parameterIdByName </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>i_name</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>return index of parameter by name </p>
+<p>return id of parameter by name </p>
 
 </div>
 </div>
@@ -424,7 +464,7 @@ map&lt; pair&lt; LangOptKind, int &gt;, string &gt;&#160;</td><td class="memItem
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceopenm.html">openm</a></li><li class="navelem"><a class="el" href="classopenm_1_1_meta_loader.html">MetaLoader</a></li>
-    <li class="footer">Generated on Tue Feb 2 2021 22:46:00 for OpenM++ runtime library (libopenm) by
+    <li class="footer">Generated on Tue Apr 6 2021 22:27:19 for OpenM++ runtime library (libopenm) by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

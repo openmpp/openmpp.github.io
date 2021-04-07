@@ -8,5 +8,5 @@ var classopenm_1_1_child_controller =
     [ "shutdownOnExit", "classopenm_1_1_child_controller.html#a805968cc8e08ab17de302185653bafa9", null ],
     [ "shutdownRun", "classopenm_1_1_child_controller.html#a7e62e9684b652086d132839f2344a6b2", null ],
     [ "shutdownWaitAll", "classopenm_1_1_child_controller.html#ab50f10b198bbb00dace46e63cdf1e891", null ],
-    [ "writeAccumulators", "classopenm_1_1_child_controller.html#a1eecc8cdf5c4cc4615c17ee499635a75", null ]
+    [ "writeAccumulators", "classopenm_1_1_child_controller.html#afbed2663a4fea97514422087bcc83b60", null ]
 ];

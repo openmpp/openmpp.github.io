@@ -117,10 +117,10 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae45245e3c7231f3e98745a76935a8392"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="namespaceopenm.html#a4c490122908976114609adac8c178fee">IRowBaseVec</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_meta_loaded_table.html#ae45245e3c7231f3e98745a76935a8392">rowsCRef</a> (void) const =0</td></tr>
+<tr class="memitem:ae45245e3c7231f3e98745a76935a8392"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="namespaceopenm.html#ae33ab59462c9f2ceef92d48c7fb449d0">IRowBaseVec</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_meta_loaded_table.html#ae45245e3c7231f3e98745a76935a8392">rowsCRef</a> (void) const =0</td></tr>
 <tr class="memdesc:ae45245e3c7231f3e98745a76935a8392"><td class="mdescLeft">&#160;</td><td class="mdescRight">get const reference to list of all table rows.  <a href="#ae45245e3c7231f3e98745a76935a8392">More...</a><br /></td></tr>
 <tr class="separator:ae45245e3c7231f3e98745a76935a8392"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a235e83bbd814d262483be2e0aacad0d2"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceopenm.html#a4c490122908976114609adac8c178fee">IRowBaseVec</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_meta_loaded_table.html#a235e83bbd814d262483be2e0aacad0d2">rowsRef</a> (void)=0</td></tr>
+<tr class="memitem:a235e83bbd814d262483be2e0aacad0d2"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceopenm.html#ae33ab59462c9f2ceef92d48c7fb449d0">IRowBaseVec</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_meta_loaded_table.html#a235e83bbd814d262483be2e0aacad0d2">rowsRef</a> (void)=0</td></tr>
 <tr class="memdesc:a235e83bbd814d262483be2e0aacad0d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">get reference to list of all table rows.  <a href="#a235e83bbd814d262483be2e0aacad0d2">More...</a><br /></td></tr>
 <tr class="separator:a235e83bbd814d262483be2e0aacad0d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb24ac609a54b26010ee391160715cf5"><td class="memItemLeft" align="right" valign="top">IRowBaseVec::difference_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_meta_loaded_table.html#adb24ac609a54b26010ee391160715cf5">rowCount</a> (void) const</td></tr>
@@ -150,17 +150,17 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a5de42e1999001574ebcd2a0aa3b27f5f"><td class="memItemLeft" align="right" valign="top">const TRow *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_meta_loaded_table.html#a5de42e1999001574ebcd2a0aa3b27f5f">findKey</a> (const <a class="el" href="namespaceopenm.html#a522491bf047e14378613a526822d5802">IRowBaseUptr</a> &amp;i_row) const</td></tr>
+<tr class="memitem:a5de42e1999001574ebcd2a0aa3b27f5f"><td class="memItemLeft" align="right" valign="top">const TRow *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_meta_loaded_table.html#a5de42e1999001574ebcd2a0aa3b27f5f">findKey</a> (const <a class="el" href="namespaceopenm.html#a757057801f42b2ae7b613235614f02b3">IRowBaseUptr</a> &amp;i_row) const</td></tr>
 <tr class="memdesc:a5de42e1999001574ebcd2a0aa3b27f5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">binary search row by primary key, return NULL if not found.  <a href="#a5de42e1999001574ebcd2a0aa3b27f5f">More...</a><br /></td></tr>
 <tr class="separator:a5de42e1999001574ebcd2a0aa3b27f5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-methods"></a>
 Static Protected Member Functions</h2></td></tr>
-<tr class="memitem:adc206402dead3ae30d758dbebebc7a35"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespaceopenm.html#a4c490122908976114609adac8c178fee">IRowBaseVec</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_meta_loaded_table.html#adc206402dead3ae30d758dbebebc7a35">load</a> (const string &amp;i_sqlSelect, <a class="el" href="classopenm_1_1_i_db_exec.html">IDbExec</a> *i_dbExec, const <a class="el" href="classopenm_1_1_i_row_adapter.html">IRowAdapter</a> &amp;i_adapter)</td></tr>
+<tr class="memitem:adc206402dead3ae30d758dbebebc7a35"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespaceopenm.html#ae33ab59462c9f2ceef92d48c7fb449d0">IRowBaseVec</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_meta_loaded_table.html#adc206402dead3ae30d758dbebebc7a35">load</a> (const string &amp;i_sqlSelect, <a class="el" href="classopenm_1_1_i_db_exec.html">IDbExec</a> *i_dbExec, const <a class="el" href="classopenm_1_1_i_row_adapter.html">IRowAdapter</a> &amp;i_adapter)</td></tr>
 <tr class="memdesc:adc206402dead3ae30d758dbebebc7a35"><td class="mdescLeft">&#160;</td><td class="mdescRight">load table: return vector of selected rows sorted by primary key.  <a href="#adc206402dead3ae30d758dbebebc7a35">More...</a><br /></td></tr>
 <tr class="separator:adc206402dead3ae30d758dbebebc7a35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_static_methods_structopenm_1_1_i_meta_table"><td colspan="2" onclick="javascript:toggleInherit('pro_static_methods_structopenm_1_1_i_meta_table')"><img src="closed.png" alt="-"/>&#160;Static Protected Member Functions inherited from <a class="el" href="structopenm_1_1_i_meta_table.html">openm::IMetaTable&lt; TRow &gt;</a></td></tr>
-<tr class="memitem:ae812dc78a5ebb0e3dca624b600dd7082 inherit pro_static_methods_structopenm_1_1_i_meta_table"><td class="memItemLeft" align="right" valign="top">static vector&lt; TRow &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_meta_table.html#ae812dc78a5ebb0e3dca624b600dd7082">rows</a> (const <a class="el" href="namespaceopenm.html#a4c490122908976114609adac8c178fee">IRowBaseVec</a> &amp;i_rowVec)</td></tr>
+<tr class="memitem:ae812dc78a5ebb0e3dca624b600dd7082 inherit pro_static_methods_structopenm_1_1_i_meta_table"><td class="memItemLeft" align="right" valign="top">static vector&lt; TRow &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_meta_table.html#ae812dc78a5ebb0e3dca624b600dd7082">rows</a> (const <a class="el" href="namespaceopenm.html#ae33ab59462c9f2ceef92d48c7fb449d0">IRowBaseVec</a> &amp;i_rowVec)</td></tr>
 <tr class="memdesc:ae812dc78a5ebb0e3dca624b600dd7082 inherit pro_static_methods_structopenm_1_1_i_meta_table"><td class="mdescLeft">&#160;</td><td class="mdescRight">get list of table rows.  <a href="structopenm_1_1_i_meta_table.html#ae812dc78a5ebb0e3dca624b600dd7082">More...</a><br /></td></tr>
 <tr class="separator:ae812dc78a5ebb0e3dca624b600dd7082 inherit pro_static_methods_structopenm_1_1_i_meta_table"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -323,7 +323,7 @@ template&lt;class TRow&gt; </div>
         <tr>
           <td class="memname">const TRow* <a class="el" href="structopenm_1_1_i_meta_loaded_table.html">openm::IMetaLoadedTable</a>&lt; TRow &gt;::findKey </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespaceopenm.html#a522491bf047e14378613a526822d5802">IRowBaseUptr</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespaceopenm.html#a757057801f42b2ae7b613235614f02b3">IRowBaseUptr</a> &amp;&#160;</td>
           <td class="paramname"><em>i_row</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -421,7 +421,7 @@ template&lt;class TRow&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="namespaceopenm.html#a4c490122908976114609adac8c178fee">IRowBaseVec</a> <a class="el" href="structopenm_1_1_i_meta_loaded_table.html">openm::IMetaLoadedTable</a>&lt; TRow &gt;::load </td>
+          <td class="memname">static <a class="el" href="namespaceopenm.html#ae33ab59462c9f2ceef92d48c7fb449d0">IRowBaseVec</a> <a class="el" href="structopenm_1_1_i_meta_loaded_table.html">openm::IMetaLoadedTable</a>&lt; TRow &gt;::load </td>
           <td>(</td>
           <td class="paramtype">const string &amp;&#160;</td>
           <td class="paramname"><em>i_sqlSelect</em>, </td>
@@ -527,7 +527,7 @@ template&lt;class TRow&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual const <a class="el" href="namespaceopenm.html#a4c490122908976114609adac8c178fee">IRowBaseVec</a>&amp; <a class="el" href="structopenm_1_1_i_meta_loaded_table.html">openm::IMetaLoadedTable</a>&lt; TRow &gt;::rowsCRef </td>
+          <td class="memname">virtual const <a class="el" href="namespaceopenm.html#ae33ab59462c9f2ceef92d48c7fb449d0">IRowBaseVec</a>&amp; <a class="el" href="structopenm_1_1_i_meta_loaded_table.html">openm::IMetaLoadedTable</a>&lt; TRow &gt;::rowsCRef </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -559,7 +559,7 @@ template&lt;class TRow&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespaceopenm.html#a4c490122908976114609adac8c178fee">IRowBaseVec</a>&amp; <a class="el" href="structopenm_1_1_i_meta_loaded_table.html">openm::IMetaLoadedTable</a>&lt; TRow &gt;::rowsRef </td>
+          <td class="memname">virtual <a class="el" href="namespaceopenm.html#ae33ab59462c9f2ceef92d48c7fb449d0">IRowBaseVec</a>&amp; <a class="el" href="structopenm_1_1_i_meta_loaded_table.html">openm::IMetaLoadedTable</a>&lt; TRow &gt;::rowsRef </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -588,7 +588,7 @@ template&lt;class TRow&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceopenm.html">openm</a></li><li class="navelem"><a class="el" href="structopenm_1_1_i_meta_loaded_table.html">IMetaLoadedTable</a></li>
-    <li class="footer">Generated on Tue Feb 2 2021 22:45:57 for OpenM++ runtime library (libopenm) by
+    <li class="footer">Generated on Tue Apr 6 2021 22:27:14 for OpenM++ runtime library (libopenm) by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

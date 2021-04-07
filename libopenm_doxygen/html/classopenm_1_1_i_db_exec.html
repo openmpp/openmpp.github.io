@@ -123,10 +123,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1f508e15b94ea0db971233ca74aee48c"><td class="memItemLeft" align="right" valign="top">virtual vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_i_db_exec.html#a1f508e15b94ea0db971233ca74aee48c">selectRowStr</a> (const string &amp;i_sql)=0</td></tr>
 <tr class="memdesc:a1f508e15b94ea0db971233ca74aee48c"><td class="mdescLeft">&#160;</td><td class="mdescRight">select string vector of first row or empty vector if no rows, empty "" string used for NULLs.  <a href="#a1f508e15b94ea0db971233ca74aee48c">More...</a><br /></td></tr>
 <tr class="separator:a1f508e15b94ea0db971233ca74aee48c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac692cd7b0c2fefabc0c744ddd1a53060"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceopenm.html#a4c490122908976114609adac8c178fee">IRowBaseVec</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_i_db_exec.html#ac692cd7b0c2fefabc0c744ddd1a53060">selectRowVector</a> (const string &amp;i_sql, const <a class="el" href="classopenm_1_1_i_row_adapter.html">IRowAdapter</a> &amp;i_adapter)=0</td></tr>
+<tr class="memitem:ac692cd7b0c2fefabc0c744ddd1a53060"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceopenm.html#ae33ab59462c9f2ceef92d48c7fb449d0">IRowBaseVec</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_i_db_exec.html#ac692cd7b0c2fefabc0c744ddd1a53060">selectRowVector</a> (const string &amp;i_sql, const <a class="el" href="classopenm_1_1_i_row_adapter.html">IRowAdapter</a> &amp;i_adapter)=0</td></tr>
 <tr class="memdesc:ac692cd7b0c2fefabc0c744ddd1a53060"><td class="mdescLeft">&#160;</td><td class="mdescRight">select vector of rows, each row created and field values set by row adapter.  <a href="#ac692cd7b0c2fefabc0c744ddd1a53060">More...</a><br /></td></tr>
 <tr class="separator:ac692cd7b0c2fefabc0c744ddd1a53060"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aadf3887ddee78728a10132337bbad2a8"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceopenm.html#ae410d60cf841f1b069f2280cb96a8a61">IRowBaseList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_i_db_exec.html#aadf3887ddee78728a10132337bbad2a8">selectRowList</a> (const string &amp;i_sql, const <a class="el" href="classopenm_1_1_i_row_adapter.html">IRowAdapter</a> &amp;i_adapter)=0</td></tr>
+<tr class="memitem:aadf3887ddee78728a10132337bbad2a8"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceopenm.html#a74c2f172dedff80ff8aec8b65afff309">IRowBaseList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_i_db_exec.html#aadf3887ddee78728a10132337bbad2a8">selectRowList</a> (const string &amp;i_sql, const <a class="el" href="classopenm_1_1_i_row_adapter.html">IRowAdapter</a> &amp;i_adapter)=0</td></tr>
 <tr class="memdesc:aadf3887ddee78728a10132337bbad2a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">select list of rows, each row created and field values set by row adapter.  <a href="#aadf3887ddee78728a10132337bbad2a8">More...</a><br /></td></tr>
 <tr class="separator:aadf3887ddee78728a10132337bbad2a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa07218cd85f25e95d37172afdd8dd952"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_i_db_exec.html#aa07218cd85f25e95d37172afdd8dd952">selectToRowProcessor</a> (const string &amp;i_sql, const <a class="el" href="classopenm_1_1_i_row_adapter.html">IRowAdapter</a> &amp;i_adapter, <a class="el" href="classopenm_1_1_i_row_processor.html">IRowProcessor</a> &amp;i_processor)=0</td></tr>
@@ -912,7 +912,7 @@ it may throw exception if selected row count not equal i_size </p>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespaceopenm.html#ae410d60cf841f1b069f2280cb96a8a61">IRowBaseList</a> openm::IDbExec::selectRowList </td>
+          <td class="memname">virtual <a class="el" href="namespaceopenm.html#a74c2f172dedff80ff8aec8b65afff309">IRowBaseList</a> openm::IDbExec::selectRowList </td>
           <td>(</td>
           <td class="paramtype">const string &amp;&#160;</td>
           <td class="paramname"><em>i_sql</em>, </td>
@@ -997,7 +997,7 @@ it may throw exception if selected row count not equal i_size </p>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespaceopenm.html#a4c490122908976114609adac8c178fee">IRowBaseVec</a> openm::IDbExec::selectRowVector </td>
+          <td class="memname">virtual <a class="el" href="namespaceopenm.html#ae33ab59462c9f2ceef92d48c7fb449d0">IRowBaseVec</a> openm::IDbExec::selectRowVector </td>
           <td>(</td>
           <td class="paramtype">const string &amp;&#160;</td>
           <td class="paramname"><em>i_sql</em>, </td>
@@ -1420,7 +1420,7 @@ it may throw exception if selected row count not equal i_size </p>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceopenm.html">openm</a></li><li class="navelem"><a class="el" href="classopenm_1_1_i_db_exec.html">IDbExec</a></li>
-    <li class="footer">Generated on Tue Feb 2 2021 22:45:57 for OpenM++ runtime library (libopenm) by
+    <li class="footer">Generated on Tue Apr 6 2021 22:27:13 for OpenM++ runtime library (libopenm) by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

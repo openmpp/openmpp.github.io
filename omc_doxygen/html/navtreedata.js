@@ -29,10 +29,10 @@ var NAVTREEINDEX =
 [
 ".html",
 "class_aggregation_symbol.html#a9c093f7b03938336f791525089801241",
-"class_entity_foreign_member_symbol.html#a46cf26984f458a5d091364c25158c196",
-"class_expr_for_attribute_symbol.html",
-"class_parameter_symbol.html#af9c4d97335825e04511637c276b0a9f7",
-"class_unknown_type_symbol.html#a0a0265e43d1daded58c616f7587bd896"
+"class_entity_event_symbol.html#ae902778f53c24c51ac4fce642c3db2b5",
+"class_expr_for_attribute_literal.html",
+"class_parameter_symbol.html#aebd1d6a4c722dd21292e34d3a2734bda",
+"class_type_symbol.html#af0625c569ff20af04c1498df7fd65450"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

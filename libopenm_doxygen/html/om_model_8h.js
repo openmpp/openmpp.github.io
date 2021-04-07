@@ -1,6 +1,7 @@
 var om_model_8h =
 [
     [ "RunOptions", "structopenm_1_1_run_options.html", "structopenm_1_1_run_options" ],
+    [ "IRunOptions", "structopenm_1_1_i_run_options.html", "structopenm_1_1_i_run_options" ],
     [ "IRunBase", "structopenm_1_1_i_run_base.html", "structopenm_1_1_i_run_base" ],
     [ "IModel", "structopenm_1_1_i_model.html", "structopenm_1_1_i_model" ],
     [ "ParameterNameSizeItem", "structopenm_1_1_parameter_name_size_item.html", "structopenm_1_1_parameter_name_size_item" ],
@@ -12,8 +13,8 @@ var om_model_8h =
     [ "OM_STARTUP_HANDLER", "om_model_8h.html#a26d37d2d64f0e4e212871240905f5ee3", null ],
     [ "SimulationException", "om_model_8h.html#ad68120fc77d3f8e6436c93e24e1bad39", null ],
     [ "main", "om_model_8h.html#a3c04138a5bfe5d72780bb7e82a18e627", null ],
-    [ "read_om_parameter", "om_model_8h.html#a724b7f1fcf58473d9edbb7b79c586066", null ],
-    [ "read_om_parameter", "om_model_8h.html#a4724eee729b3a7d5b2039205b24b6352", null ],
+    [ "read_om_parameter", "om_model_8h.html#a23956e29aef6f04e11d952f7f91f7f4c", null ],
+    [ "read_om_parameter", "om_model_8h.html#ad9e24275e4c0c64235129313129bdd11", null ],
     [ "ModelShutdownHandler", "om_model_8h.html#a2edb95df77850e8a67ddf30030cc2fce", null ],
     [ "ModelStartupHandler", "om_model_8h.html#a3f98018b75e8777f4286166e68176e30", null ],
     [ "modelUnknownErrorMessage", "om_model_8h.html#a7c035dfe5287662304a11b2f4765d6e6", null ],

@@ -110,8 +110,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a62ffcd6a60492ae1b8ddcf21eea6ed0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">return string value by key or default value if not found.  <a href="#a62ffcd6a60492ae1b8ddcf21eea6ed0a">More...</a><br /></td></tr>
 <tr class="separator:a62ffcd6a60492ae1b8ddcf21eea6ed0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84905e401f7d1342b0b7ff903552656b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_arg_reader.html#a84905e401f7d1342b0b7ff903552656b">boolOption</a> (const char *i_key) const noexcept</td></tr>
-<tr class="memdesc:a84905e401f7d1342b0b7ff903552656b"><td class="mdescLeft">&#160;</td><td class="mdescRight">return boolean value by key or false if not found or value not "yes", "1", "true".  <a href="#a84905e401f7d1342b0b7ff903552656b">More...</a><br /></td></tr>
+<tr class="memdesc:a84905e401f7d1342b0b7ff903552656b"><td class="mdescLeft">&#160;</td><td class="mdescRight">return boolean value by key or false if not found or value not "yes", "1", "true" (case insensitive).  <a href="#a84905e401f7d1342b0b7ff903552656b">More...</a><br /></td></tr>
 <tr class="separator:a84905e401f7d1342b0b7ff903552656b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f2a12718cdb7ff35b1eaccc4f15ac20"><td class="memItemLeft" align="right" valign="top"><a id="a4f2a12718cdb7ff35b1eaccc4f15ac20"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_arg_reader.html#a4f2a12718cdb7ff35b1eaccc4f15ac20">boolOptionToInt</a> (const char *i_key) const noexcept</td></tr>
+<tr class="memdesc:a4f2a12718cdb7ff35b1eaccc4f15ac20"><td class="mdescLeft">&#160;</td><td class="mdescRight">return 1 if key found and value is one of: "yes", "1", "true" or empty value, return 0 if key found and value is one of: "no", "0", "false", return -1 if key not found, return -2 otherwise. <br /></td></tr>
+<tr class="separator:a4f2a12718cdb7ff35b1eaccc4f15ac20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adaa30fa18905fd0abc6e6ac8311b8129"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_arg_reader.html#adaa30fa18905fd0abc6e6ac8311b8129">intOption</a> (const char *i_key, int i_default) const noexcept</td></tr>
 <tr class="memdesc:adaa30fa18905fd0abc6e6ac8311b8129"><td class="mdescLeft">&#160;</td><td class="mdescRight">return int value by key or default if not found or can not be converted to int.  <a href="#adaa30fa18905fd0abc6e6ac8311b8129">More...</a><br /></td></tr>
 <tr class="separator:adaa30fa18905fd0abc6e6ac8311b8129"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -124,9 +128,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab01a54e2535a300f0b96faa723fcac38"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_arg_reader.html#ab01a54e2535a300f0b96faa723fcac38">parseCommandLine</a> (int argc, char **argv, bool i_isThrowUnknown, bool i_isStoreUnknown, const size_t i_keyArrSize, const char **i_keyArr, const size_t i_shortArrSize=0, const pair&lt; const char *, const char *&gt; *i_shortPairArr=nullptr, const size_t i_prefixSize=0, const char **i_prefixArr=nullptr, const size_t i_suffixSize=0, const char **i_suffixArr=nullptr)</td></tr>
 <tr class="memdesc:ab01a54e2535a300f0b96faa723fcac38"><td class="mdescLeft">&#160;</td><td class="mdescRight">get run options from command line, ie: number of cases.  <a href="#ab01a54e2535a300f0b96faa723fcac38">More...</a><br /></td></tr>
 <tr class="separator:ab01a54e2535a300f0b96faa723fcac38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4dca8f049c2413bd59541602e597fd2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_arg_reader.html#ab4dca8f049c2413bd59541602e597fd2">loadIniFile</a> (const char *i_filePath, const size_t i_keyArrSize, const char **i_keyArr, const size_t i_sectionToMergeSize=0, const char **i_sectionToMergeArr=nullptr, const size_t i_multiKeySize=0, const char **i_multiKeyArr=nullptr)</td></tr>
-<tr class="memdesc:ab4dca8f049c2413bd59541602e597fd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">read ini-file and merge command line arguments.  <a href="#ab4dca8f049c2413bd59541602e597fd2">More...</a><br /></td></tr>
-<tr class="separator:ab4dca8f049c2413bd59541602e597fd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41ec0a63cb0af652ffd60150a457cf21"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_arg_reader.html#a41ec0a63cb0af652ffd60150a457cf21">loadIniFile</a> (const char *i_filePath, const size_t i_keyArrSize, const char **i_keyArr, bool i_isStoreUnknown=false, const size_t i_sectionToMergeSize=0, const char **i_sectionToMergeArr=nullptr, const size_t i_multiKeySize=0, const char **i_multiKeyArr=nullptr)</td></tr>
+<tr class="memdesc:a41ec0a63cb0af652ffd60150a457cf21"><td class="mdescLeft">&#160;</td><td class="mdescRight">read ini-file and merge command line arguments.  <a href="#a41ec0a63cb0af652ffd60150a457cf21">More...</a><br /></td></tr>
+<tr class="separator:a41ec0a63cb0af652ffd60150a457cf21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a360ef4522f52282e4378a4da922d8218"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_arg_reader.html#a360ef4522f52282e4378a4da922d8218">adjustLogSettings</a> (int argc, char **argv)</td></tr>
 <tr class="memdesc:a360ef4522f52282e4378a4da922d8218"><td class="mdescLeft">&#160;</td><td class="mdescRight">adjust log file settings, ie: make default log file path if required.  <a href="#a360ef4522f52282e4378a4da922d8218">More...</a><br /></td></tr>
 <tr class="separator:a360ef4522f52282e4378a4da922d8218"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -134,7 +138,7 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:accfbbf152b42185797d88e6e1b830c39"><td class="memItemLeft" align="right" valign="top"><a id="accfbbf152b42185797d88e6e1b830c39"></a>
-<a class="el" href="namespaceopenm.html#a04e811691651fa5de01c687e2bb45e0a">NoCaseMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_arg_reader.html#accfbbf152b42185797d88e6e1b830c39">args</a></td></tr>
+<a class="el" href="namespaceopenm.html#ab9a196d865db1d64eb2832f924dcb892">NoCaseMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_arg_reader.html#accfbbf152b42185797d88e6e1b830c39">args</a></td></tr>
 <tr class="memdesc:accfbbf152b42185797d88e6e1b830c39"><td class="mdescLeft">&#160;</td><td class="mdescRight">arguments as key-value string pairs with case-neutral search <br /></td></tr>
 <tr class="separator:accfbbf152b42185797d88e6e1b830c39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -289,7 +293,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>return boolean value by key or false if not found or value not "yes", "1", "true". </p>
+<p>return boolean value by key or false if not found or value not "yes", "1", "true" (case insensitive). </p>
 
 </div>
 </div>
@@ -397,8 +401,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ab4dca8f049c2413bd59541602e597fd2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab4dca8f049c2413bd59541602e597fd2">&#9670;&nbsp;</a></span>loadIniFile()</h2>
+<a id="a41ec0a63cb0af652ffd60150a457cf21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41ec0a63cb0af652ffd60150a457cf21">&#9670;&nbsp;</a></span>loadIniFile()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -420,6 +424,12 @@ Public Attributes</h2></td></tr>
           <td></td>
           <td class="paramtype">const char **&#160;</td>
           <td class="paramname"><em>i_keyArr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>i_isStoreUnknown</em> = <code>false</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -460,6 +470,7 @@ Public Attributes</h2></td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">i_filePath</td><td>path to ini-file </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">i_keyArrSize</td><td>size of i_keyArr, must be positive </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">i_keyArr</td><td>array of allowed keys: full key names </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i_isStoreUnknown</td><td>if true then store unknown key values </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">i_sectionToMergeSize</td><td>number of section names to merge </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">i_sectionToMergeArr</td><td>if not NULL then merge section from ini-file, ex: "Parameter" or "SubValue" </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">i_multiKeySize</td><td>size of i_multiKeyArr array </td></tr>
@@ -663,7 +674,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceopenm.html">openm</a></li><li class="navelem"><a class="el" href="structopenm_1_1_arg_reader.html">ArgReader</a></li>
-    <li class="footer">Generated on Tue Feb 2 2021 22:45:56 for OpenM++ runtime library (libopenm) by
+    <li class="footer">Generated on Tue Apr 6 2021 22:27:11 for OpenM++ runtime library (libopenm) by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

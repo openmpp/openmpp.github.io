@@ -1,14 +1,14 @@
 <map id="EntityArrayMemberSymbol" name="EntityArrayMemberSymbol">
 <area shape="rect" id="node2" href="$class_entity_data_member_symbol.html" title="EntityDataMemberSymbol" alt="" coords="247,292,422,319"/>
 <area shape="rect" id="node10" href="$class_entity_event_symbol.html" title="Event time member symbol for an event. " alt="" coords="326,381,458,408"/>
-<area shape="rect" id="node12" href="$class_attribute_symbol.html" title="AttributeSymbol" alt="" coords="101,1032,216,1059"/>
+<area shape="rect" id="node12" href="$class_attribute_symbol.html" title="AttributeSymbol" alt="" coords="101,1047,216,1073"/>
 <area shape="rect" id="node13" href="$class_entity_internal_symbol.html" title="Internal data symbol. " alt="" coords="38,432,181,459"/>
-<area shape="rect" id="node3" href="$class_entity_member_symbol.html" title="EntityMemberSymbol" alt="" coords="423,713,569,739"/>
-<area shape="rect" id="node7" href="$class_entity_func_symbol.html" title="Symbol for a function member of an agent. " alt="" coords="321,928,450,955"/>
+<area shape="rect" id="node3" href="$class_entity_member_symbol.html" title="EntityMemberSymbol" alt="" coords="423,727,569,754"/>
+<area shape="rect" id="node7" href="$class_entity_func_symbol.html" title="Symbol for a function member of an agent. " alt="" coords="321,943,450,969"/>
 <area shape="rect" id="node4" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++. " alt="" coords="404,124,471,151"/>
 <area shape="rect" id="node6" href="$class_entity_symbol.html" title="EntitySymbol. " alt="" coords="665,483,765,509"/>
 <area shape="rect" id="node14" href="$class_type_symbol.html" title="TypeSymbol. " alt="" coords="291,201,386,228"/>
 <area shape="rect" id="node5" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables. " alt="" coords="386,5,489,32"/>
-<area shape="rect" id="node8" href="$class_code_block.html" title="CodeBlock" alt="" coords="223,713,308,739"/>
-<area shape="rect" id="node11" href="$class_builtin_attribute_symbol.html" title="BuiltinAttributeSymbol. " alt="" coords="597,1108,747,1135"/>
+<area shape="rect" id="node8" href="$class_code_block.html" title="CodeBlock" alt="" coords="223,727,308,754"/>
+<area shape="rect" id="node11" href="$class_builtin_attribute_symbol.html" title="BuiltinAttributeSymbol. " alt="" coords="597,1123,747,1149"/>
 </map>

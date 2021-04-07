@@ -112,18 +112,25 @@ virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_model.html#ab20f27f643aa92bafeb662dd0db3cfc1">subValueId</a> (void) const noexcept=0</td></tr>
 <tr class="memdesc:ab20f27f643aa92bafeb662dd0db3cfc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">sub-value index of current modeling thread <br /></td></tr>
 <tr class="separator:ab20f27f643aa92bafeb662dd0db3cfc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e60fb5f2d1f277abfa1c7a9583423ae"><td class="memItemLeft" align="right" valign="top"><a id="a8e60fb5f2d1f277abfa1c7a9583423ae"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_model.html#a8e60fb5f2d1f277abfa1c7a9583423ae">tableIdByName</a> (const char *i_name) const =0</td></tr>
+<tr class="memdesc:a8e60fb5f2d1f277abfa1c7a9583423ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">return id of output table by name <br /></td></tr>
+<tr class="separator:a8e60fb5f2d1f277abfa1c7a9583423ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accefff30deb84be5afd96c9f2054db4f"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_model.html#accefff30deb84be5afd96c9f2054db4f">isSuppressed</a> (const char *i_name) const =0</td></tr>
+<tr class="memdesc:accefff30deb84be5afd96c9f2054db4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">check by name if output table suppressed.  <a href="#accefff30deb84be5afd96c9f2054db4f">More...</a><br /></td></tr>
+<tr class="separator:accefff30deb84be5afd96c9f2054db4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a6bbfdde65f5129980084a5687a00d5"><td class="memItemLeft" align="right" valign="top"><a id="a2a6bbfdde65f5129980084a5687a00d5"></a>
 virtual const <a class="el" href="structopenm_1_1_run_options.html">RunOptions</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_model.html#a2a6bbfdde65f5129980084a5687a00d5">runOptions</a> (void) const =0</td></tr>
-<tr class="memdesc:a2a6bbfdde65f5129980084a5687a00d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">return model run options <br /></td></tr>
+<tr class="memdesc:a2a6bbfdde65f5129980084a5687a00d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">return basic model run options <br /></td></tr>
 <tr class="separator:a2a6bbfdde65f5129980084a5687a00d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99b704f656180c602e4ee99fb3687cc2"><td class="memItemLeft" align="right" valign="top"><a id="a99b704f656180c602e4ee99fb3687cc2"></a>
 virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_model.html#a99b704f656180c602e4ee99fb3687cc2">parameterSubValueIndex</a> (const char *i_name) const =0</td></tr>
 <tr class="memdesc:a99b704f656180c602e4ee99fb3687cc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">return index of parameter sub-value in the storage array for current modeling thread <br /></td></tr>
 <tr class="separator:a99b704f656180c602e4ee99fb3687cc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17d5d0ef5891bd80a323ae3f4b06a6a2"><td class="memItemLeft" align="right" valign="top"><a id="a17d5d0ef5891bd80a323ae3f4b06a6a2"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_model.html#a17d5d0ef5891bd80a323ae3f4b06a6a2">writeOutputTable</a> (const char *i_name, size_t i_size, forward_list&lt; unique_ptr&lt; double &gt; &gt; &amp;io_accValues)=0</td></tr>
-<tr class="memdesc:a17d5d0ef5891bd80a323ae3f4b06a6a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">write output result table: sub values <br /></td></tr>
-<tr class="separator:a17d5d0ef5891bd80a323ae3f4b06a6a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac976dd576a395cb89516242c3f2add31"><td class="memItemLeft" align="right" valign="top"><a id="ac976dd576a395cb89516242c3f2add31"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_model.html#ac976dd576a395cb89516242c3f2add31">writeOutputTable</a> (const char *i_name, size_t i_size, std::forward_list&lt; std::unique_ptr&lt; double[]&gt; &gt; &amp;io_accValues)=0</td></tr>
+<tr class="memdesc:ac976dd576a395cb89516242c3f2add31"><td class="mdescLeft">&#160;</td><td class="mdescRight">write output result table: sub values <br /></td></tr>
+<tr class="separator:ac976dd576a395cb89516242c3f2add31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09e0bd55030837593f8f4bad57315036"><td class="memItemLeft" align="right" valign="top"><a id="a09e0bd55030837593f8f4bad57315036"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_model.html#a09e0bd55030837593f8f4bad57315036">updateProgress</a> (int i_count, double i_value=0.0)=0</td></tr>
 <tr class="memdesc:a09e0bd55030837593f8f4bad57315036"><td class="mdescLeft">&#160;</td><td class="mdescRight">set modeling progress count and value <br /></td></tr>
@@ -131,7 +138,38 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>model sub-value run public interface </p>
-</div><hr/>The documentation for this struct was generated from the following files:<ul>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="accefff30deb84be5afd96c9f2054db4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#accefff30deb84be5afd96c9f2054db4f">&#9670;&nbsp;</a></span>isSuppressed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool openm::IModel::isSuppressed </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>i_name</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>check by name if output table suppressed. </p>
+
+<p>Implemented in <a class="el" href="classopenm_1_1_model_base.html#a646a0414bf32fc5f0004f32f6ae66279">openm::ModelBase</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this struct was generated from the following files:<ul>
 <li>C:/ompp-main/include/libopenm/<a class="el" href="om_model_8h_source.html">omModel.h</a></li>
 <li>model/<a class="el" href="model_base_8cpp.html">modelBase.cpp</a></li>
 </ul>
@@ -141,7 +179,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceopenm.html">openm</a></li><li class="navelem"><a class="el" href="structopenm_1_1_i_model.html">IModel</a></li>
-    <li class="footer">Generated on Tue Feb 2 2021 22:45:57 for OpenM++ runtime library (libopenm) by
+    <li class="footer">Generated on Tue Apr 6 2021 22:27:14 for OpenM++ runtime library (libopenm) by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['ellipt',['ellipt',['../structopenm_1_1_message_ellipter.html#a7b1325586bed081ec63a8703796d0e60',1,'openm::MessageEllipter::ellipt(const char *i_src)'],['../structopenm_1_1_message_ellipter.html#ad8e28a47c6f1971a2ac886aeedc093d6',1,'openm::MessageEllipter::ellipt(const string &amp;i_src)']]],
+  ['ellipt',['ellipt',['../structopenm_1_1_message_ellipter.html#a7b1325586bed081ec63a8703796d0e60',1,'openm::MessageEllipter::ellipt(const char *i_src)'],['../structopenm_1_1_message_ellipter.html#a599995b25198024ecfa1a4da544d0e5f',1,'openm::MessageEllipter::ellipt(const std::string &amp;i_src)']]],
   ['elliptstring',['elliptString',['../namespaceopenm.html#a1f5ac755a43414a841bd30204b7dbea4',1,'openm']]],
   ['emptypackedadapter',['EmptyPackedAdapter',['../structopenm_1_1_empty_packed_adapter.html#affee52f64641c907bdfb96dd37b40585',1,'openm::EmptyPackedAdapter']]],
-  ['endwithnocase',['endWithNoCase',['../namespaceopenm.html#ae4bb487f7402407bb9181bd57f13fe6d',1,'openm']]],
+  ['endwithnocase',['endWithNoCase',['../namespaceopenm.html#ad3fa9f34d397207e9c803e56b572ce8d',1,'openm']]],
   ['endworkset',['endWorkset',['../classopenm_1_1_model_sql_builder.html#afea305838e5319869c7e7d8de9e82033',1,'openm::ModelSqlBuilder::endWorkset()'],['../structopenm_1_1_i_model_builder.html#a6ff2666dc8f033f7a5d3f4f2e2f68369',1,'openm::IModelBuilder::endWorkset()']]],
   ['equalnocase',['equalNoCase',['../namespaceopenm.html#ac80656844f7f527cafa160438d6c0294',1,'openm']]],
   ['equalto',['equalTo',['../structopenm_1_1_ini_entry.html#a88457b6bfdd8b79f9171d03fd02710db',1,'openm::IniEntry']]],

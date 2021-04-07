@@ -22,6 +22,7 @@ var searchData=
   ['operator_2d_2d',['operator--',['../class_code_block.html#ac27ed84a79224b00bb9fc23cba7b4645',1,'CodeBlock']]],
   ['operator_3c_3c',['operator&lt;&lt;',['../_code_block_8h.html#ae0d39ad380ba4c336f67404e503e388a',1,'CodeBlock.h']]],
   ['optimized_5fstorage_5ftype',['optimized_storage_type',['../class_symbol.html#a52688bd2b38aa2360dd3f0a8dbe9ad06',1,'Symbol']]],
+  ['option_5fallow_5fclairvoyance',['option_allow_clairvoyance',['../class_symbol.html#a861003d95a77a2dcc7547822ddfc538e',1,'Symbol']]],
   ['option_5fallow_5ftime_5ftravel',['option_allow_time_travel',['../class_symbol.html#afceb95c37e2022cc6664381976a70fb4',1,'Symbol']]],
   ['option_5fcase_5fchecksum',['option_case_checksum',['../class_symbol.html#af0ef6d0ddd168f2af025a67039a1cee7',1,'Symbol']]],
   ['option_5fevent_5ftrace',['option_event_trace',['../class_symbol.html#a2ef683113c066813f03b1c42304c980f',1,'Symbol']]],

@@ -137,22 +137,22 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a99df40e6b5d030797f7f137d7cecbb44"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_i_msg_exec.html#a99df40e6b5d030797f7f137d7cecbb44">bcastReceive</a> (int i_groupOne, const type_info &amp;i_type, size_t i_size, void *io_valueArr)=0</td></tr>
 <tr class="memdesc:a99df40e6b5d030797f7f137d7cecbb44"><td class="mdescLeft">&#160;</td><td class="mdescRight">receive broadcasted value array from root process.  <a href="#a99df40e6b5d030797f7f137d7cecbb44">More...</a><br /></td></tr>
 <tr class="separator:a99df40e6b5d030797f7f137d7cecbb44"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeecadfadd95a39029a55dcbd40782db9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_i_msg_exec.html#aeecadfadd95a39029a55dcbd40782db9">bcastSendPacked</a> (int i_groupOne, <a class="el" href="namespaceopenm.html#a4c490122908976114609adac8c178fee">IRowBaseVec</a> &amp;io_rowVec, const <a class="el" href="structopenm_1_1_i_packed_adapter.html">IPackedAdapter</a> &amp;i_adapter)=0</td></tr>
+<tr class="memitem:aeecadfadd95a39029a55dcbd40782db9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_i_msg_exec.html#aeecadfadd95a39029a55dcbd40782db9">bcastSendPacked</a> (int i_groupOne, <a class="el" href="namespaceopenm.html#ae33ab59462c9f2ceef92d48c7fb449d0">IRowBaseVec</a> &amp;io_rowVec, const <a class="el" href="structopenm_1_1_i_packed_adapter.html">IPackedAdapter</a> &amp;i_adapter)=0</td></tr>
 <tr class="memdesc:aeecadfadd95a39029a55dcbd40782db9"><td class="mdescLeft">&#160;</td><td class="mdescRight">send broadcast vector of db rows from root to all other processes.  <a href="#aeecadfadd95a39029a55dcbd40782db9">More...</a><br /></td></tr>
 <tr class="separator:aeecadfadd95a39029a55dcbd40782db9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b4af7ff839eff857082ccaebd49ff07"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_i_msg_exec.html#a0b4af7ff839eff857082ccaebd49ff07">bcastReceivePacked</a> (int i_groupOne, <a class="el" href="namespaceopenm.html#a4c490122908976114609adac8c178fee">IRowBaseVec</a> &amp;io_rowVec, const <a class="el" href="structopenm_1_1_i_packed_adapter.html">IPackedAdapter</a> &amp;i_adapter)=0</td></tr>
+<tr class="memitem:a0b4af7ff839eff857082ccaebd49ff07"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_i_msg_exec.html#a0b4af7ff839eff857082ccaebd49ff07">bcastReceivePacked</a> (int i_groupOne, <a class="el" href="namespaceopenm.html#ae33ab59462c9f2ceef92d48c7fb449d0">IRowBaseVec</a> &amp;io_rowVec, const <a class="el" href="structopenm_1_1_i_packed_adapter.html">IPackedAdapter</a> &amp;i_adapter)=0</td></tr>
 <tr class="memdesc:a0b4af7ff839eff857082ccaebd49ff07"><td class="mdescLeft">&#160;</td><td class="mdescRight">receive broadcasted vector of db rows from root.  <a href="#a0b4af7ff839eff857082ccaebd49ff07">More...</a><br /></td></tr>
 <tr class="separator:a0b4af7ff839eff857082ccaebd49ff07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a682d24b9925070382e32626aa7ef7311"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_i_msg_exec.html#a682d24b9925070382e32626aa7ef7311">startSend</a> (int i_sendTo, <a class="el" href="namespaceopenm.html#a3bfbc1c842226a2cda27f3f2ad50df16">MsgTag</a> i_msgTag, const type_info &amp;i_type, size_t i_size, void *i_valueArr)=0</td></tr>
 <tr class="memdesc:a682d24b9925070382e32626aa7ef7311"><td class="mdescLeft">&#160;</td><td class="mdescRight">start non-blocking send of value array to i_sendTo process.  <a href="#a682d24b9925070382e32626aa7ef7311">More...</a><br /></td></tr>
 <tr class="separator:a682d24b9925070382e32626aa7ef7311"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ea13d04f7aeb7e0947dae62caacdf9f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_i_msg_exec.html#a5ea13d04f7aeb7e0947dae62caacdf9f">startSendPacked</a> (int i_sendTo, const <a class="el" href="namespaceopenm.html#a4c490122908976114609adac8c178fee">IRowBaseVec</a> &amp;i_rowVec, const <a class="el" href="structopenm_1_1_i_packed_adapter.html">IPackedAdapter</a> &amp;i_adapter)=0</td></tr>
+<tr class="memitem:a5ea13d04f7aeb7e0947dae62caacdf9f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_i_msg_exec.html#a5ea13d04f7aeb7e0947dae62caacdf9f">startSendPacked</a> (int i_sendTo, const <a class="el" href="namespaceopenm.html#ae33ab59462c9f2ceef92d48c7fb449d0">IRowBaseVec</a> &amp;i_rowVec, const <a class="el" href="structopenm_1_1_i_packed_adapter.html">IPackedAdapter</a> &amp;i_adapter)=0</td></tr>
 <tr class="memdesc:a5ea13d04f7aeb7e0947dae62caacdf9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">pack and start non-blocking send of vector of db rows to i_sendTo process.  <a href="#a5ea13d04f7aeb7e0947dae62caacdf9f">More...</a><br /></td></tr>
 <tr class="separator:a5ea13d04f7aeb7e0947dae62caacdf9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64adc7d042369f43bbb2433b97bce119"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_i_msg_exec.html#a64adc7d042369f43bbb2433b97bce119">tryReceive</a> (int i_recvFrom, <a class="el" href="namespaceopenm.html#a3bfbc1c842226a2cda27f3f2ad50df16">MsgTag</a> i_msgTag, const type_info &amp;i_type, size_t i_size, void *io_valueArr) const =0</td></tr>
 <tr class="memdesc:a64adc7d042369f43bbb2433b97bce119"><td class="mdescLeft">&#160;</td><td class="mdescRight">try to non-blocking receive value array, return true if completed.  <a href="#a64adc7d042369f43bbb2433b97bce119">More...</a><br /></td></tr>
 <tr class="separator:a64adc7d042369f43bbb2433b97bce119"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8cb04a8ce2084e740b860d7b478530ed"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_i_msg_exec.html#a8cb04a8ce2084e740b860d7b478530ed">tryReceive</a> (int i_recvFrom, <a class="el" href="namespaceopenm.html#a4c490122908976114609adac8c178fee">IRowBaseVec</a> &amp;io_resultRowVec, const <a class="el" href="structopenm_1_1_i_packed_adapter.html">IPackedAdapter</a> &amp;i_adapter) const =0</td></tr>
+<tr class="memitem:a8cb04a8ce2084e740b860d7b478530ed"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_i_msg_exec.html#a8cb04a8ce2084e740b860d7b478530ed">tryReceive</a> (int i_recvFrom, <a class="el" href="namespaceopenm.html#ae33ab59462c9f2ceef92d48c7fb449d0">IRowBaseVec</a> &amp;io_resultRowVec, const <a class="el" href="structopenm_1_1_i_packed_adapter.html">IPackedAdapter</a> &amp;i_adapter) const =0</td></tr>
 <tr class="memdesc:a8cb04a8ce2084e740b860d7b478530ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">try to non-blocking receive and unpack vector of db rows, return true if completed.  <a href="#a8cb04a8ce2084e740b860d7b478530ed">More...</a><br /></td></tr>
 <tr class="separator:a8cb04a8ce2084e740b860d7b478530ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a494ea5788b65a433280ba7dd528e35cd"><td class="memItemLeft" align="right" valign="top"><a id="a494ea5788b65a433280ba7dd528e35cd"></a>
@@ -329,7 +329,7 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespaceopenm.html#a4c490122908976114609adac8c178fee">IRowBaseVec</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceopenm.html#ae33ab59462c9f2ceef92d48c7fb449d0">IRowBaseVec</a> &amp;&#160;</td>
           <td class="paramname"><em>io_rowVec</em>, </td>
         </tr>
         <tr>
@@ -444,7 +444,7 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespaceopenm.html#a4c490122908976114609adac8c178fee">IRowBaseVec</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceopenm.html#ae33ab59462c9f2ceef92d48c7fb449d0">IRowBaseVec</a> &amp;&#160;</td>
           <td class="paramname"><em>io_rowVec</em>, </td>
         </tr>
         <tr>
@@ -809,7 +809,7 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceopenm.html#a4c490122908976114609adac8c178fee">IRowBaseVec</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespaceopenm.html#ae33ab59462c9f2ceef92d48c7fb449d0">IRowBaseVec</a> &amp;&#160;</td>
           <td class="paramname"><em>i_rowVec</em>, </td>
         </tr>
         <tr>
@@ -931,7 +931,7 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespaceopenm.html#a4c490122908976114609adac8c178fee">IRowBaseVec</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceopenm.html#ae33ab59462c9f2ceef92d48c7fb449d0">IRowBaseVec</a> &amp;&#160;</td>
           <td class="paramname"><em>io_resultRowVec</em>, </td>
         </tr>
         <tr>
@@ -1007,7 +1007,7 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceopenm.html">openm</a></li><li class="navelem"><a class="el" href="classopenm_1_1_i_msg_exec.html">IMsgExec</a></li>
-    <li class="footer">Generated on Tue Feb 2 2021 22:45:58 for OpenM++ runtime library (libopenm) by
+    <li class="footer">Generated on Tue Apr 6 2021 22:27:14 for OpenM++ runtime library (libopenm) by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

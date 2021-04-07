@@ -1,5 +1,8 @@
 var NAVTREEINDEX3 =
 {
+"class_expr_for_attribute_literal.html":[0,0,41],
+"class_expr_for_attribute_literal.html#a0947101ff98f5af1a1cd1f52d0786663":[0,0,41,1],
+"class_expr_for_attribute_literal.html#a5aa85e88a41b8c7b4c630ac4647c6c70":[0,0,41,0],
 "class_expr_for_attribute_symbol.html":[0,0,42],
 "class_expr_for_attribute_symbol.html#a4164989c9bd8c37b6b77c588fe30138a":[0,0,42,1],
 "class_expr_for_attribute_symbol.html#a72c31f5c66d1f06246dfc0decf05fa36":[0,0,42,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX3 =
 "class_parameter_symbol.html#ad8b1d4e137e07024356d3e4c3d953075":[0,0,68,13],
 "class_parameter_symbol.html#adb3eb7a24518ef0aac75987150a27af3":[0,0,68,39],
 "class_parameter_symbol.html#ae1b3b61716508c91cf28bb72acadb256":[0,0,68,15],
-"class_parameter_symbol.html#aea1f1ec5cd10350087f4d13599376343":[0,0,68,50],
-"class_parameter_symbol.html#aebd1d6a4c722dd21292e34d3a2734bda":[0,0,68,42],
-"class_parameter_symbol.html#af55e792666d652c1ae7e311c36350994":[0,0,68,55],
-"class_parameter_symbol.html#af584d068ad5f4ed49d2af7453d2e715d":[0,0,68,40]
+"class_parameter_symbol.html#aea1f1ec5cd10350087f4d13599376343":[0,0,68,50]
 };

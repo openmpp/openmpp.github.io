@@ -113,7 +113,7 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">if</span> ( numeric_limits&lt;TYPE&gt;::min() &lt;= min_value \</div><div class="line">  &amp;&amp; numeric_limits&lt;TYPE&gt;::max() &gt;= max_value \</div><div class="line">  &amp;&amp; <span class="keyword">sizeof</span>(TYPE) &lt; best_size) { \</div><div class="line">    best_type = token::TK_##TYPE; \</div><div class="line">    best_size = <span class="keyword">sizeof</span>(TYPE); \</div><div class="line">}</div></div><!-- fragment -->
+<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">if</span> ( std::numeric_limits&lt;TYPE&gt;::min() &lt;= min_value \</div><div class="line">  &amp;&amp; std::numeric_limits&lt;TYPE&gt;::max() &gt;= max_value \</div><div class="line">  &amp;&amp; <span class="keyword">sizeof</span>(TYPE) &lt; best_size) { \</div><div class="line">    best_type = token::TK_##TYPE; \</div><div class="line">    best_size = <span class="keyword">sizeof</span>(TYPE); \</div><div class="line">}</div></div><!-- fragment -->
 <p>Helper macro for code in optimized_storage_type() </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -130,7 +130,7 @@ Macros</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="_symbol_8cpp.html">Symbol.cpp</a></li>
-    <li class="footer">Generated on Tue Feb 2 2021 22:47:55 for OpenM++ compiler (omc) by
+    <li class="footer">Generated on Tue Apr 6 2021 22:25:25 for OpenM++ compiler (omc) by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

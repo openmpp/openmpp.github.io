@@ -8,7 +8,7 @@ var searchData=
   ['childexchange',['childExchange',['../classopenm_1_1_run_controller.html#aa21fc1fa7851575d8c0b80c4992096a5',1,'openm::RunController::childExchange()'],['../classopenm_1_1_single_controller.html#ab1988142241cd10666d8584ac9983cd6',1,'openm::SingleController::childExchange()'],['../classopenm_1_1_root_controller.html#a199a484bfa37f272f63389629d721be7',1,'openm::RootController::childExchange()'],['../classopenm_1_1_child_controller.html#ae0aad9f1224c6642eff5a1b3e7efdf4d',1,'openm::ChildController::childExchange()'],['../classopenm_1_1_restart_controller.html#a072f06689c9299a7ce9da492cecf23a1',1,'openm::RestartController::childExchange()']]],
   ['childgroupid',['childGroupId',['../structopenm_1_1_group_pc_row.html#a99052a3da3df0fee7e2984fbb9f9a516',1,'openm::GroupPcRow']]],
   ['childpos',['childPos',['../structopenm_1_1_group_pc_row.html#a99c2ccb3ac250e074e699a4bce118035',1,'openm::GroupPcRow']]],
-  ['cleanpathchars',['cleanPathChars',['../namespaceopenm.html#a8e6c763f6bbba91f3be5a02b5a81910c',1,'openm']]],
+  ['cleanpathchars',['cleanPathChars',['../namespaceopenm.html#afdbabd614f17d8c5f45e23ac509a47cd',1,'openm']]],
   ['cleanup',['cleanup',['../structopenm_1_1_value_array.html#aab083617358a5de0b92e1396e1a30012',1,'openm::ValueArray']]],
   ['cleanuphandler',['CleanupHandler',['../classopenm_1_1exit__guard.html#a9019d992ace965f11c0dbf1fd286b795',1,'openm::exit_guard']]],
   ['clear',['clear',['../unionopenm_1_1_db_value.html#a5f1f5a3c5f6ce2b2f11e1e24fcb19c11',1,'openm::DbValue']]],
@@ -34,6 +34,7 @@ var searchData=
   ['createstatement',['createStatement',['../classopenm_1_1_db_exec_sqlite.html#a0c81bb96785bd20e8b00e7748545bd4e',1,'openm::DbExecSqlite::createStatement()'],['../classopenm_1_1_i_db_exec.html#a54b4aa6ed8deee5a81429b9ce39dbf14',1,'openm::IDbExec::createStatement()']]],
   ['createtaskrun',['createTaskRun',['../classopenm_1_1_run_controller.html#a19bdf35103c79dbc2160e4b4b1662fcf',1,'openm::RunController']]],
   ['createworksetmeta',['createWorksetMeta',['../classopenm_1_1_model_insert_sql.html#aa69cbf0d7d60c5be7685248ef158c102',1,'openm::ModelInsertSql']]],
-  ['csvsubvalue',['csvSubValue',['../structopenm_1_1_run_options_key.html#a85f1993b8e05df45934cc092dfcb8bdd',1,'openm::RunOptionsKey']]],
+  ['csvsubvalue',['csvSubValue',['../structopenm_1_1_run_options_key.html#a7dc3192f7d5d2a54681dbaf919d9de70',1,'openm::RunOptionsKey']]],
+  ['currentrunid',['currentRunId',['../classopenm_1_1_run_controller.html#a11d436da3cc64b9edb71bd236c6170ac',1,'openm::RunController::currentRunId()'],['../classopenm_1_1_single_controller.html#a8b6e05678a24f2b0a401dbceeb9151c1',1,'openm::SingleController::currentRunId()'],['../classopenm_1_1_root_controller.html#ab4f4f41fae3bbb86a01fd96913bea7a0',1,'openm::RootController::currentRunId()']]],
   ['cv',['cv',['../structopenm_1_1_aggregation_fnc.html#a0f7e9cfe84830d9285bd12113140cbe9',1,'openm::AggregationFnc::cv()'],['../namespaceopenm.html#a1d961a1d992de740bd98b57f571cd448ade3ec0aa2234aa1e3ee275bbc715c6c9',1,'openm::cv()']]]
 ];

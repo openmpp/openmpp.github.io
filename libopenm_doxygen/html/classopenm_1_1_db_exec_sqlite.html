@@ -134,10 +134,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4bce65797aa6958dbf37c6639bd00034"><td class="memItemLeft" align="right" valign="top">vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_db_exec_sqlite.html#a4bce65797aa6958dbf37c6639bd00034">selectRowStr</a> (const string &amp;i_sql) override</td></tr>
 <tr class="memdesc:a4bce65797aa6958dbf37c6639bd00034"><td class="mdescLeft">&#160;</td><td class="mdescRight">select string vector of first row or empty vector if no rows, empty "" string used for NULLs.  <a href="#a4bce65797aa6958dbf37c6639bd00034">More...</a><br /></td></tr>
 <tr class="separator:a4bce65797aa6958dbf37c6639bd00034"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3e6d90a35e2d7ad9bca733b686cd30a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceopenm.html#a4c490122908976114609adac8c178fee">IRowBaseVec</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_db_exec_sqlite.html#ae3e6d90a35e2d7ad9bca733b686cd30a">selectRowVector</a> (const string &amp;i_sql, const <a class="el" href="classopenm_1_1_i_row_adapter.html">IRowAdapter</a> &amp;i_adapter) override</td></tr>
+<tr class="memitem:ae3e6d90a35e2d7ad9bca733b686cd30a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceopenm.html#ae33ab59462c9f2ceef92d48c7fb449d0">IRowBaseVec</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_db_exec_sqlite.html#ae3e6d90a35e2d7ad9bca733b686cd30a">selectRowVector</a> (const string &amp;i_sql, const <a class="el" href="classopenm_1_1_i_row_adapter.html">IRowAdapter</a> &amp;i_adapter) override</td></tr>
 <tr class="memdesc:ae3e6d90a35e2d7ad9bca733b686cd30a"><td class="mdescLeft">&#160;</td><td class="mdescRight">select vector of rows, each row created and field values set by row adapter.  <a href="#ae3e6d90a35e2d7ad9bca733b686cd30a">More...</a><br /></td></tr>
 <tr class="separator:ae3e6d90a35e2d7ad9bca733b686cd30a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adadb25ccf36fa2a1991da612fb8d27d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceopenm.html#ae410d60cf841f1b069f2280cb96a8a61">IRowBaseList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_db_exec_sqlite.html#adadb25ccf36fa2a1991da612fb8d27d7">selectRowList</a> (const string &amp;i_sql, const <a class="el" href="classopenm_1_1_i_row_adapter.html">IRowAdapter</a> &amp;i_adapter) override</td></tr>
+<tr class="memitem:adadb25ccf36fa2a1991da612fb8d27d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceopenm.html#a74c2f172dedff80ff8aec8b65afff309">IRowBaseList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_db_exec_sqlite.html#adadb25ccf36fa2a1991da612fb8d27d7">selectRowList</a> (const string &amp;i_sql, const <a class="el" href="classopenm_1_1_i_row_adapter.html">IRowAdapter</a> &amp;i_adapter) override</td></tr>
 <tr class="memdesc:adadb25ccf36fa2a1991da612fb8d27d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">select list of rows, each row created and field values set by row adapter.  <a href="#adadb25ccf36fa2a1991da612fb8d27d7">More...</a><br /></td></tr>
 <tr class="separator:adadb25ccf36fa2a1991da612fb8d27d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91ecf07548f54a06ec07e7c8439c34ae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_db_exec_sqlite.html#a91ecf07548f54a06ec07e7c8439c34ae">selectToRowProcessor</a> (const string &amp;i_sql, const <a class="el" href="classopenm_1_1_i_row_adapter.html">IRowAdapter</a> &amp;i_adapter, <a class="el" href="classopenm_1_1_i_row_processor.html">IRowProcessor</a> &amp;i_processor) override</td></tr>
@@ -258,7 +258,7 @@ static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
 thread::id&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_db_exec_base.html#acef2334ee920c3824175aecb7f19eb43">trxThreadId</a></td></tr>
 <tr class="memdesc:acef2334ee920c3824175aecb7f19eb43 inherit pro_attribs_classopenm_1_1_db_exec_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true then transaction is active <br /></td></tr>
 <tr class="separator:acef2334ee920c3824175aecb7f19eb43 inherit pro_attribs_classopenm_1_1_db_exec_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a541011fc93611ddcab92ae3a01665e3f inherit pro_attribs_classopenm_1_1_db_exec_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceopenm.html#a04e811691651fa5de01c687e2bb45e0a">NoCaseMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_db_exec_base.html#a541011fc93611ddcab92ae3a01665e3f">connProps</a></td></tr>
+<tr class="memitem:a541011fc93611ddcab92ae3a01665e3f inherit pro_attribs_classopenm_1_1_db_exec_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceopenm.html#ab9a196d865db1d64eb2832f924dcb892">NoCaseMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_db_exec_base.html#a541011fc93611ddcab92ae3a01665e3f">connProps</a></td></tr>
 <tr class="memdesc:a541011fc93611ddcab92ae3a01665e3f inherit pro_attribs_classopenm_1_1_db_exec_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">connection properties as key+value string pairs (case neutral).  <a href="classopenm_1_1_db_exec_base.html#a541011fc93611ddcab92ae3a01665e3f">More...</a><br /></td></tr>
 <tr class="separator:a541011fc93611ddcab92ae3a01665e3f inherit pro_attribs_classopenm_1_1_db_exec_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -726,7 +726,7 @@ it may throw exception if selected row count not equal i_size </p>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceopenm.html#ae410d60cf841f1b069f2280cb96a8a61">IRowBaseList</a> DbExecSqlite::selectRowList </td>
+          <td class="memname"><a class="el" href="namespaceopenm.html#a74c2f172dedff80ff8aec8b65afff309">IRowBaseList</a> DbExecSqlite::selectRowList </td>
           <td>(</td>
           <td class="paramtype">const string &amp;&#160;</td>
           <td class="paramname"><em>i_sql</em>, </td>
@@ -811,7 +811,7 @@ it may throw exception if selected row count not equal i_size </p>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceopenm.html#a4c490122908976114609adac8c178fee">IRowBaseVec</a> DbExecSqlite::selectRowVector </td>
+          <td class="memname"><a class="el" href="namespaceopenm.html#ae33ab59462c9f2ceef92d48c7fb449d0">IRowBaseVec</a> DbExecSqlite::selectRowVector </td>
           <td>(</td>
           <td class="paramtype">const string &amp;&#160;</td>
           <td class="paramname"><em>i_sql</em>, </td>
@@ -1160,7 +1160,7 @@ it may throw exception if selected row count not equal i_size </p>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceopenm.html">openm</a></li><li class="navelem"><a class="el" href="classopenm_1_1_db_exec_sqlite.html">DbExecSqlite</a></li>
-    <li class="footer">Generated on Tue Feb 2 2021 22:45:56 for OpenM++ runtime library (libopenm) by
+    <li class="footer">Generated on Tue Apr 6 2021 22:27:12 for OpenM++ runtime library (libopenm) by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

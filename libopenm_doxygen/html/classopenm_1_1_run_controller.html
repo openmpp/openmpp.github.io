@@ -97,12 +97,13 @@ Inheritance diagram for openm::RunController:</div>
 <div class="dyncontent">
 <div class="center"><img src="classopenm_1_1_run_controller__inherit__graph.png" border="0" usemap="#openm_1_1_run_controller_inherit__map" alt="Inheritance graph"/></div>
 <map name="openm_1_1_run_controller_inherit__map" id="openm_1_1_run_controller_inherit__map">
-<area shape="rect" id="node4" href="classopenm_1_1_child_controller.html" title="controller for child process: receive input parameters from root and send output tables. " alt="" coords="392,5,545,32"/>
-<area shape="rect" id="node5" href="classopenm_1_1_restart_controller.html" title="controller for &quot;restart run&quot;: calculate outstanding sub&#45;values for existing run " alt="" coords="385,56,552,83"/>
-<area shape="rect" id="node6" href="classopenm_1_1_root_controller.html" title="controller for root process: create new model run(s), send input parameters to children and receieve ..." alt="" coords="393,107,544,133"/>
-<area shape="rect" id="node7" href="classopenm_1_1_single_controller.html" title="controller for single process: create new model run(s), read input parameters and write output tables..." alt="" coords="389,157,549,184"/>
-<area shape="rect" id="node2" href="classopenm_1_1_meta_loader.html" title="model metadata loader: read and broadcast metadata and run options. " alt="" coords="5,56,143,83"/>
-<area shape="rect" id="node3" href="structopenm_1_1_i_run_base.html" title="public interface to initialize model run and input parameters " alt="" coords="11,107,137,133"/>
+<area shape="rect" id="node5" href="classopenm_1_1_child_controller.html" title="controller for child process: receive input parameters from root and send output tables. " alt="" coords="580,5,733,32"/>
+<area shape="rect" id="node6" href="classopenm_1_1_restart_controller.html" title="controller for &quot;restart run&quot;: calculate outstanding sub&#45;values for existing run " alt="" coords="573,56,740,83"/>
+<area shape="rect" id="node7" href="classopenm_1_1_root_controller.html" title="controller for root process: create new model run(s), send input parameters to children and receieve ..." alt="" coords="581,107,732,133"/>
+<area shape="rect" id="node8" href="classopenm_1_1_single_controller.html" title="controller for single process: create new model run(s), read input parameters and write output tables..." alt="" coords="577,157,737,184"/>
+<area shape="rect" id="node2" href="classopenm_1_1_meta_loader.html" title="model metadata loader: read and broadcast metadata and run options. " alt="" coords="193,56,331,83"/>
+<area shape="rect" id="node3" href="structopenm_1_1_i_run_base.html" title="public interface to initialize model run and input parameters " alt="" coords="199,107,325,133"/>
+<area shape="rect" id="node4" href="structopenm_1_1_i_run_options.html" title="public interface to get model run options " alt="" coords="5,107,145,133"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -110,8 +111,9 @@ Collaboration diagram for openm::RunController:</div>
 <div class="dyncontent">
 <div class="center"><img src="classopenm_1_1_run_controller__coll__graph.png" border="0" usemap="#openm_1_1_run_controller_coll__map" alt="Collaboration graph"/></div>
 <map name="openm_1_1_run_controller_coll__map" id="openm_1_1_run_controller_coll__map">
-<area shape="rect" id="node2" href="classopenm_1_1_meta_loader.html" title="model metadata loader: read and broadcast metadata and run options. " alt="" coords="5,5,143,32"/>
-<area shape="rect" id="node3" href="structopenm_1_1_i_run_base.html" title="public interface to initialize model run and input parameters " alt="" coords="167,5,293,32"/>
+<area shape="rect" id="node2" href="classopenm_1_1_meta_loader.html" title="model metadata loader: read and broadcast metadata and run options. " alt="" coords="5,80,143,107"/>
+<area shape="rect" id="node3" href="structopenm_1_1_i_run_base.html" title="public interface to initialize model run and input parameters " alt="" coords="167,80,293,107"/>
+<area shape="rect" id="node4" href="structopenm_1_1_i_run_options.html" title="public interface to get model run options " alt="" coords="160,5,300,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -121,10 +123,10 @@ Public Member Functions</h2></td></tr>
 virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_controller.html#a09896f949936ab6b2b997d2a18366e11">~RunController</a> (void) noexcept=0</td></tr>
 <tr class="memdesc:a09896f949936ab6b2b997d2a18366e11"><td class="mdescLeft">&#160;</td><td class="mdescRight">last cleanup <br /></td></tr>
 <tr class="separator:a09896f949936ab6b2b997d2a18366e11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2d37b98ff9c4667f3f3a59c67e9e4f6"><td class="memItemLeft" align="right" valign="top"><a id="ad2d37b98ff9c4667f3f3a59c67e9e4f6"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_controller.html#ad2d37b98ff9c4667f3f3a59c67e9e4f6">parameterIdByName</a> (const char *i_name) const override</td></tr>
-<tr class="memdesc:ad2d37b98ff9c4667f3f3a59c67e9e4f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">return index of parameter by name <br /></td></tr>
-<tr class="separator:ad2d37b98ff9c4667f3f3a59c67e9e4f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a156e627045dd30b20f5a38609cd95b04"><td class="memItemLeft" align="right" valign="top"><a id="a156e627045dd30b20f5a38609cd95b04"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_controller.html#a156e627045dd30b20f5a38609cd95b04">parameterIdByName</a> (const char *i_name) const override</td></tr>
+<tr class="memdesc:a156e627045dd30b20f5a38609cd95b04"><td class="mdescLeft">&#160;</td><td class="mdescRight">return index of parameter by name <br /></td></tr>
+<tr class="separator:a156e627045dd30b20f5a38609cd95b04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c05c91548b4be38b5dc351285cc9d10"><td class="memItemLeft" align="right" valign="top"><a id="a1c05c91548b4be38b5dc351285cc9d10"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_controller.html#a1c05c91548b4be38b5dc351285cc9d10">parameterSubCount</a> (int i_paramId) const override</td></tr>
 <tr class="memdesc:a1c05c91548b4be38b5dc351285cc9d10"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of parameter sub-values for current model run <br /></td></tr>
@@ -160,9 +162,38 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:aa21fc1fa7851575d8c0b80c4992096a5"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_controller.html#aa21fc1fa7851575d8c0b80c4992096a5">childExchange</a> (void)=0</td></tr>
 <tr class="memdesc:aa21fc1fa7851575d8c0b80c4992096a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">exchange between root and child processes and threads.  <a href="#aa21fc1fa7851575d8c0b80c4992096a5">More...</a><br /></td></tr>
 <tr class="separator:aa21fc1fa7851575d8c0b80c4992096a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac87e5e2d8ef3ba747fd3089d790a9d4a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_controller.html#ac87e5e2d8ef3ba747fd3089d790a9d4a">writeAccumulators</a> (const <a class="el" href="structopenm_1_1_run_options.html">RunOptions</a> &amp;i_runOpts, bool i_isLastTable, const char *i_name, size_t i_size, forward_list&lt; unique_ptr&lt; double &gt; &gt; &amp;io_accValues)=0</td></tr>
-<tr class="memdesc:ac87e5e2d8ef3ba747fd3089d790a9d4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">write output table accumulators or send data to root process.  <a href="#ac87e5e2d8ef3ba747fd3089d790a9d4a">More...</a><br /></td></tr>
-<tr class="separator:ac87e5e2d8ef3ba747fd3089d790a9d4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a099bbd592f3a3e9f6cf3ca5294f1d694"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_controller.html#a099bbd592f3a3e9f6cf3ca5294f1d694">writeAccumulators</a> (const <a class="el" href="structopenm_1_1_run_options.html">RunOptions</a> &amp;i_runOpts, bool i_isLastTable, const char *i_name, size_t i_size, forward_list&lt; unique_ptr&lt; double[]&gt; &gt; &amp;io_accValues)=0</td></tr>
+<tr class="memdesc:a099bbd592f3a3e9f6cf3ca5294f1d694"><td class="mdescLeft">&#160;</td><td class="mdescRight">write output table accumulators or send data to root process.  <a href="#a099bbd592f3a3e9f6cf3ca5294f1d694">More...</a><br /></td></tr>
+<tr class="separator:a099bbd592f3a3e9f6cf3ca5294f1d694"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a703c62770228874a8768d8cf6e9a19e5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_controller.html#a703c62770228874a8768d8cf6e9a19e5">isOptionExist</a> (const char *i_key) const noexcept override</td></tr>
+<tr class="memdesc:a703c62770228874a8768d8cf6e9a19e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if run option found by i_key in run_option table for the current run id.  <a href="#a703c62770228874a8768d8cf6e9a19e5">More...</a><br /></td></tr>
+<tr class="separator:a703c62770228874a8768d8cf6e9a19e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4807e924840f111a917e0094a24aad9f"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_controller.html#a4807e924840f111a917e0094a24aad9f">strOption</a> (const char *i_key, const string &amp;i_default=&quot;&quot;) const noexcept override</td></tr>
+<tr class="memdesc:a4807e924840f111a917e0094a24aad9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">return string value of run option by i_key or default value if not found.  <a href="#a4807e924840f111a917e0094a24aad9f">More...</a><br /></td></tr>
+<tr class="separator:a4807e924840f111a917e0094a24aad9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75d64d55867663e4b50485445208c24a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_controller.html#a75d64d55867663e4b50485445208c24a">boolOption</a> (const char *i_key) const noexcept override</td></tr>
+<tr class="memdesc:a75d64d55867663e4b50485445208c24a"><td class="mdescLeft">&#160;</td><td class="mdescRight">return boolean value of run option by i_key or false if not found or value is not "yes", "1", "true" or empty "" string.  <a href="#a75d64d55867663e4b50485445208c24a">More...</a><br /></td></tr>
+<tr class="separator:a75d64d55867663e4b50485445208c24a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae62578d139bb8825a1de3d3bc1666d12"><td class="memItemLeft" align="right" valign="top"><a id="ae62578d139bb8825a1de3d3bc1666d12"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_controller.html#ae62578d139bb8825a1de3d3bc1666d12">boolOptionToInt</a> (const char *i_key) const noexcept override</td></tr>
+<tr class="memdesc:ae62578d139bb8825a1de3d3bc1666d12"><td class="mdescLeft">&#160;</td><td class="mdescRight">search for boolean value of run option by i_key and return one of: <br />
+return 1 if key found and value is one of: "yes", "1", "true" or empty value, <br />
+return 0 if key found and value is one of: "no", "0", "false", <br />
+return -1 if key not found, <br />
+return -2 otherwise. <br /></td></tr>
+<tr class="separator:ae62578d139bb8825a1de3d3bc1666d12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f64f083daf19da4c1cb320c67050666"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_controller.html#a6f64f083daf19da4c1cb320c67050666">intOption</a> (const char *i_key, int i_default) const noexcept override</td></tr>
+<tr class="memdesc:a6f64f083daf19da4c1cb320c67050666"><td class="mdescLeft">&#160;</td><td class="mdescRight">return int value of run option by i_key or default if not found or can not be converted to int.  <a href="#a6f64f083daf19da4c1cb320c67050666">More...</a><br /></td></tr>
+<tr class="separator:a6f64f083daf19da4c1cb320c67050666"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a028be9b0b4b5e4e6487c78bf82486749"><td class="memItemLeft" align="right" valign="top">long long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_controller.html#a028be9b0b4b5e4e6487c78bf82486749">longOption</a> (const char *i_key, long long i_default) const noexcept override</td></tr>
+<tr class="memdesc:a028be9b0b4b5e4e6487c78bf82486749"><td class="mdescLeft">&#160;</td><td class="mdescRight">return long value of run option by i_key or default if not found or can not be converted to long.  <a href="#a028be9b0b4b5e4e6487c78bf82486749">More...</a><br /></td></tr>
+<tr class="separator:a028be9b0b4b5e4e6487c78bf82486749"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5e825cb9f50d43ca07cb026fd8fb94b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_controller.html#ab5e825cb9f50d43ca07cb026fd8fb94b">doubleOption</a> (const char *i_key, double i_default) const noexcept override</td></tr>
+<tr class="memdesc:ab5e825cb9f50d43ca07cb026fd8fb94b"><td class="mdescLeft">&#160;</td><td class="mdescRight">return double value of run option by i_key or default if not found or can not be converted to double.  <a href="#ab5e825cb9f50d43ca07cb026fd8fb94b">More...</a><br /></td></tr>
+<tr class="separator:ab5e825cb9f50d43ca07cb026fd8fb94b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa57502b91f97bd3d8ab4dbcaa0438e9"><td class="memItemLeft" align="right" valign="top">vector&lt; pair&lt; string, string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_controller.html#afa57502b91f97bd3d8ab4dbcaa0438e9">allOptions</a> (void) const noexcept override</td></tr>
+<tr class="memdesc:afa57502b91f97bd3d8ab4dbcaa0438e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">return a copy of all run options as [key, value] pairs, ordered by key.  <a href="#afa57502b91f97bd3d8ab4dbcaa0438e9">More...</a><br /></td></tr>
+<tr class="separator:afa57502b91f97bd3d8ab4dbcaa0438e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classopenm_1_1_meta_loader"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classopenm_1_1_meta_loader')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classopenm_1_1_meta_loader.html">openm::MetaLoader</a></td></tr>
 <tr class="memitem:abe866847512069b6c461f29a4215d325 inherit pub_methods_classopenm_1_1_meta_loader"><td class="memItemLeft" align="right" valign="top"><a id="abe866847512069b6c461f29a4215d325"></a>
 virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_meta_loader.html#abe866847512069b6c461f29a4215d325">~MetaLoader</a> (void) noexcept=0</td></tr>
@@ -184,11 +215,30 @@ const <a class="el" href="structopenm_1_1_run_options.html">RunOptions</a>&#160;
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_meta_loader.html#a15db3f55bdaa55cdc852cdae8224fb8d">parameterSubCount</a> (int i_paramId) const</td></tr>
 <tr class="memdesc:a15db3f55bdaa55cdc852cdae8224fb8d inherit pub_methods_classopenm_1_1_meta_loader"><td class="mdescLeft">&#160;</td><td class="mdescRight">return sub-values count by parameter id <br /></td></tr>
 <tr class="separator:a15db3f55bdaa55cdc852cdae8224fb8d inherit pub_methods_classopenm_1_1_meta_loader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47e9c56ded245c020d2e4bd85cfdb080 inherit pub_methods_classopenm_1_1_meta_loader"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_meta_loader.html#a47e9c56ded245c020d2e4bd85cfdb080">parameterIdByName</a> (const char *i_name) const</td></tr>
+<tr class="memdesc:a47e9c56ded245c020d2e4bd85cfdb080 inherit pub_methods_classopenm_1_1_meta_loader"><td class="mdescLeft">&#160;</td><td class="mdescRight">return index of parameter by name  <a href="classopenm_1_1_meta_loader.html#a47e9c56ded245c020d2e4bd85cfdb080">More...</a><br /></td></tr>
+<tr class="separator:a47e9c56ded245c020d2e4bd85cfdb080 inherit pub_methods_classopenm_1_1_meta_loader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e832588d4181880e2fc6ecb8d2acdcd inherit pub_methods_classopenm_1_1_meta_loader"><td class="memItemLeft" align="right" valign="top"><a id="a8e832588d4181880e2fc6ecb8d2acdcd"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_meta_loader.html#a8e832588d4181880e2fc6ecb8d2acdcd">tableIdByName</a> (const char *i_name) const</td></tr>
+<tr class="memdesc:a8e832588d4181880e2fc6ecb8d2acdcd inherit pub_methods_classopenm_1_1_meta_loader"><td class="mdescLeft">&#160;</td><td class="mdescRight">return id of output table by name <br /></td></tr>
+<tr class="separator:a8e832588d4181880e2fc6ecb8d2acdcd inherit pub_methods_classopenm_1_1_meta_loader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19f3166fb01264108c71408017cba7aa inherit pub_methods_classopenm_1_1_meta_loader"><td class="memItemLeft" align="right" valign="top"><a id="a19f3166fb01264108c71408017cba7aa"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_meta_loader.html#a19f3166fb01264108c71408017cba7aa">isSuppressed</a> (const char *i_name) const</td></tr>
+<tr class="memdesc:a19f3166fb01264108c71408017cba7aa inherit pub_methods_classopenm_1_1_meta_loader"><td class="mdescLeft">&#160;</td><td class="mdescRight">check by name if output table suppressed <br /></td></tr>
+<tr class="separator:a19f3166fb01264108c71408017cba7aa inherit pub_methods_classopenm_1_1_meta_loader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adacf152150868d0374f56ed2111eec66 inherit pub_methods_classopenm_1_1_meta_loader"><td class="memItemLeft" align="right" valign="top"><a id="adacf152150868d0374f56ed2111eec66"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_meta_loader.html#adacf152150868d0374f56ed2111eec66">isSuppressed</a> (int i_tableId) const</td></tr>
+<tr class="memdesc:adacf152150868d0374f56ed2111eec66 inherit pub_methods_classopenm_1_1_meta_loader"><td class="mdescLeft">&#160;</td><td class="mdescRight">check by id if output table suppressed <br /></td></tr>
+<tr class="separator:adacf152150868d0374f56ed2111eec66 inherit pub_methods_classopenm_1_1_meta_loader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_structopenm_1_1_i_run_base"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structopenm_1_1_i_run_base')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structopenm_1_1_i_run_base.html">openm::IRunBase</a></td></tr>
-<tr class="memitem:ac8accac25138b1ac01410c2644c88f1f inherit pub_methods_structopenm_1_1_i_run_base"><td class="memItemLeft" align="right" valign="top"><a id="ac8accac25138b1ac01410c2644c88f1f"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_run_base.html#ac8accac25138b1ac01410c2644c88f1f">readParameter</a> (const char *i_name, int i_subId, const type_info &amp;i_type, size_t i_size, void *io_valueArr)=0</td></tr>
-<tr class="memdesc:ac8accac25138b1ac01410c2644c88f1f inherit pub_methods_structopenm_1_1_i_run_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">read model parameter <br /></td></tr>
-<tr class="separator:ac8accac25138b1ac01410c2644c88f1f inherit pub_methods_structopenm_1_1_i_run_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84612ac0177d89f0a0c7efc7f0df9fad inherit pub_methods_structopenm_1_1_i_run_base"><td class="memItemLeft" align="right" valign="top"><a id="a84612ac0177d89f0a0c7efc7f0df9fad"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_run_base.html#a84612ac0177d89f0a0c7efc7f0df9fad">readParameter</a> (const char *i_name, int i_subId, const std::type_info &amp;i_type, size_t i_size, void *io_valueArr)=0</td></tr>
+<tr class="memdesc:a84612ac0177d89f0a0c7efc7f0df9fad inherit pub_methods_structopenm_1_1_i_run_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">read model parameter <br /></td></tr>
+<tr class="separator:a84612ac0177d89f0a0c7efc7f0df9fad inherit pub_methods_structopenm_1_1_i_run_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_structopenm_1_1_i_run_options"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structopenm_1_1_i_run_options')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structopenm_1_1_i_run_options.html">openm::IRunOptions</a></td></tr>
+<tr class="memitem:ad236561fcddede9a0251cf15bd7a191f inherit pub_methods_structopenm_1_1_i_run_options"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_run_options.html#ad236561fcddede9a0251cf15bd7a191f">strOption</a> (const char *i_key, const std::string &amp;i_default=&quot;&quot;) const noexcept=0</td></tr>
+<tr class="memdesc:ad236561fcddede9a0251cf15bd7a191f inherit pub_methods_structopenm_1_1_i_run_options"><td class="mdescLeft">&#160;</td><td class="mdescRight">return string value of run option by i_key or default value if not found.  <a href="structopenm_1_1_i_run_options.html#ad236561fcddede9a0251cf15bd7a191f">More...</a><br /></td></tr>
+<tr class="separator:ad236561fcddede9a0251cf15bd7a191f inherit pub_methods_structopenm_1_1_i_run_options"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -233,6 +283,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a2ae7e2d24231e00357481bd6b866ee05"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_controller.html#a2ae7e2d24231e00357481bd6b866ee05">init</a> (void)=0</td></tr>
 <tr class="memdesc:a2ae7e2d24231e00357481bd6b866ee05"><td class="mdescLeft">&#160;</td><td class="mdescRight">get number of sub-values, read and broadcast metadata.  <a href="#a2ae7e2d24231e00357481bd6b866ee05">More...</a><br /></td></tr>
 <tr class="separator:a2ae7e2d24231e00357481bd6b866ee05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11d436da3cc64b9edb71bd236c6170ac"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_controller.html#a11d436da3cc64b9edb71bd236c6170ac">currentRunId</a> (void) const noexcept=0</td></tr>
+<tr class="memdesc:a11d436da3cc64b9edb71bd236c6170ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">get run id of the current model run.  <a href="#a11d436da3cc64b9edb71bd236c6170ac">More...</a><br /></td></tr>
+<tr class="separator:a11d436da3cc64b9edb71bd236c6170ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19bdf35103c79dbc2160e4b4b1662fcf"><td class="memItemLeft" align="right" valign="top"><a id="a19bdf35103c79dbc2160e4b4b1662fcf"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_controller.html#a19bdf35103c79dbc2160e4b4b1662fcf">createTaskRun</a> (int i_taskId, <a class="el" href="classopenm_1_1_i_db_exec.html">IDbExec</a> *i_dbExec)</td></tr>
 <tr class="memdesc:a19bdf35103c79dbc2160e4b4b1662fcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">create task run entry in database <br /></td></tr>
@@ -254,9 +307,9 @@ tuple&lt; int, int, <a class="el" href="namespaceopenm.html#a89b1e1245f1788365ea
 <tr class="memitem:ac47876c36d4e16530486fbc1a0c51837"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_controller.html#ac47876c36d4e16530486fbc1a0c51837">doShutdownAll</a> (int i_taskRunId, <a class="el" href="classopenm_1_1_i_db_exec.html">IDbExec</a> *i_dbExec)</td></tr>
 <tr class="memdesc:ac47876c36d4e16530486fbc1a0c51837"><td class="mdescLeft">&#160;</td><td class="mdescRight">implementation model process shutdown.  <a href="#ac47876c36d4e16530486fbc1a0c51837">More...</a><br /></td></tr>
 <tr class="separator:ac47876c36d4e16530486fbc1a0c51837"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a349614469c70d8457acdbbf284986336"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_controller.html#a349614469c70d8457acdbbf284986336">doWriteAccumulators</a> (int i_runId, <a class="el" href="classopenm_1_1_i_db_exec.html">IDbExec</a> *i_dbExec, const <a class="el" href="structopenm_1_1_run_options.html">RunOptions</a> &amp;i_runOpts, const char *i_name, size_t i_size, forward_list&lt; unique_ptr&lt; double &gt; &gt; &amp;io_accValues) const</td></tr>
-<tr class="memdesc:a349614469c70d8457acdbbf284986336"><td class="mdescLeft">&#160;</td><td class="mdescRight">write output table accumulators.  <a href="#a349614469c70d8457acdbbf284986336">More...</a><br /></td></tr>
-<tr class="separator:a349614469c70d8457acdbbf284986336"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb46eec81632a0374aab24bb551085fa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_controller.html#acb46eec81632a0374aab24bb551085fa">doWriteAccumulators</a> (int i_runId, <a class="el" href="classopenm_1_1_i_db_exec.html">IDbExec</a> *i_dbExec, const <a class="el" href="structopenm_1_1_run_options.html">RunOptions</a> &amp;i_runOpts, const char *i_name, size_t i_size, forward_list&lt; unique_ptr&lt; double[]&gt; &gt; &amp;io_accValues) const</td></tr>
+<tr class="memdesc:acb46eec81632a0374aab24bb551085fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">write output table accumulators if table is not suppressed.  <a href="#acb46eec81632a0374aab24bb551085fa">More...</a><br /></td></tr>
+<tr class="separator:acb46eec81632a0374aab24bb551085fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94fbe6b057877701fc3e4bf4725d9fa3"><td class="memItemLeft" align="right" valign="top"><a id="a94fbe6b057877701fc3e4bf4725d9fa3"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_run_controller.html#a94fbe6b057877701fc3e4bf4725d9fa3">updateRestartSubValueId</a> (int i_runId, <a class="el" href="classopenm_1_1_i_db_exec.html">IDbExec</a> *i_dbExec, int i_subRestart) const</td></tr>
 <tr class="memdesc:a94fbe6b057877701fc3e4bf4725d9fa3"><td class="mdescLeft">&#160;</td><td class="mdescRight">update sub-value index to restart the run <br /></td></tr>
@@ -330,6 +383,9 @@ unique_ptr&lt; <a class="el" href="structopenm_1_1_meta_holder.html">MetaHolder<
 <tr class="memitem:a945be5a250d497799fd7ac9409b48892 inherit pro_attribs_classopenm_1_1_meta_loader"><td class="memItemLeft" align="right" valign="top"><a id="a945be5a250d497799fd7ac9409b48892"></a>
 vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>paramIdSubArr</b></td></tr>
 <tr class="separator:a945be5a250d497799fd7ac9409b48892 inherit pro_attribs_classopenm_1_1_meta_loader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7f37fbfc3487f05db1adf9b5cbdec7e inherit pro_attribs_classopenm_1_1_meta_loader"><td class="memItemLeft" align="right" valign="top"><a id="ae7f37fbfc3487f05db1adf9b5cbdec7e"></a>
+vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>tableIdSuppressArr</b></td></tr>
+<tr class="separator:ae7f37fbfc3487f05db1adf9b5cbdec7e inherit pro_attribs_classopenm_1_1_meta_loader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9eefa9be9ee11d2becc4c1656fee6a4 inherit pro_attribs_classopenm_1_1_meta_loader"><td class="memItemLeft" align="right" valign="top"><a id="aa9eefa9be9ee11d2becc4c1656fee6a4"></a>
 map&lt; int, <a class="el" href="structopenm_1_1_meta_loader_1_1_param_sub_opts.html">ParamSubOpts</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>subOptsMap</b></td></tr>
 <tr class="separator:aa9eefa9be9ee11d2becc4c1656fee6a4 inherit pro_attribs_classopenm_1_1_meta_loader"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -346,6 +402,66 @@ map&lt; pair&lt; LangOptKind, int &gt;, string &gt;&#160;</td><td class="memItem
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>run controller: create new model run(s) and support data exchange. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="afa57502b91f97bd3d8ab4dbcaa0438e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa57502b91f97bd3d8ab4dbcaa0438e9">&#9670;&nbsp;</a></span>allOptions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">vector&lt; pair&lt; string, string &gt; &gt; RunController::allOptions </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>return a copy of all run options as [key, value] pairs, ordered by key. </p>
+
+<p>Implements <a class="el" href="structopenm_1_1_i_run_options.html#a6f891f43824eedc948af8e08dff6195c">openm::IRunOptions</a>.</p>
+
+</div>
+</div>
+<a id="a75d64d55867663e4b50485445208c24a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75d64d55867663e4b50485445208c24a">&#9670;&nbsp;</a></span>boolOption()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool openm::RunController::boolOption </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>i_key</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>return boolean value of run option by i_key or false if not found or value is not "yes", "1", "true" or empty "" string. </p>
+
+<p>Implements <a class="el" href="structopenm_1_1_i_run_options.html#ae38c91dbd7471caad3cea0f2e45de120">openm::IRunOptions</a>.</p>
+
+</div>
+</div>
 <a id="aa21fc1fa7851575d8c0b80c4992096a5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa21fc1fa7851575d8c0b80c4992096a5">&#9670;&nbsp;</a></span>childExchange()</h2>
 
@@ -424,6 +540,36 @@ map&lt; pair&lt; LangOptKind, int &gt;, string &gt;&#160;</td><td class="memItem
 </div><div class="memdoc">
 
 <p>create run controller, load metadata tables and broadcast it to all modeling processes. </p>
+
+</div>
+</div>
+<a id="a11d436da3cc64b9edb71bd236c6170ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11d436da3cc64b9edb71bd236c6170ac">&#9670;&nbsp;</a></span>currentRunId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int openm::RunController::currentRunId </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>get run id of the current model run. </p>
+
+<p>Implemented in <a class="el" href="classopenm_1_1_root_controller.html#ab4f4f41fae3bbb86a01fd96913bea7a0">openm::RootController</a>, and <a class="el" href="classopenm_1_1_single_controller.html#a8b6e05678a24f2b0a401dbceeb9151c1">openm::SingleController</a>.</p>
 
 </div>
 </div>
@@ -560,8 +706,48 @@ map&lt; pair&lt; LangOptKind, int &gt;, string &gt;&#160;</td><td class="memItem
 
 </div>
 </div>
-<a id="a349614469c70d8457acdbbf284986336"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a349614469c70d8457acdbbf284986336">&#9670;&nbsp;</a></span>doWriteAccumulators()</h2>
+<a id="ab5e825cb9f50d43ca07cb026fd8fb94b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5e825cb9f50d43ca07cb026fd8fb94b">&#9670;&nbsp;</a></span>doubleOption()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double openm::RunController::doubleOption </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>i_key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>i_default</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>return double value of run option by i_key or default if not found or can not be converted to double. </p>
+
+<p>Implements <a class="el" href="structopenm_1_1_i_run_options.html#a3d1df48e6f5b43e5364f43edcd69bbd6">openm::IRunOptions</a>.</p>
+
+</div>
+</div>
+<a id="acb46eec81632a0374aab24bb551085fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb46eec81632a0374aab24bb551085fa">&#9670;&nbsp;</a></span>doWriteAccumulators()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -602,7 +788,7 @@ map&lt; pair&lt; LangOptKind, int &gt;, string &gt;&#160;</td><td class="memItem
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">forward_list&lt; unique_ptr&lt; double &gt; &gt; &amp;&#160;</td>
+          <td class="paramtype">forward_list&lt; unique_ptr&lt; double[]&gt; &gt; &amp;&#160;</td>
           <td class="paramname"><em>io_accValues</em>&#160;</td>
         </tr>
         <tr>
@@ -618,7 +804,7 @@ map&lt; pair&lt; LangOptKind, int &gt;, string &gt;&#160;</td><td class="memItem
 </table>
 </div><div class="memdoc">
 
-<p>write output table accumulators. </p>
+<p>write output table accumulators if table is not suppressed. </p>
 
 </div>
 </div>
@@ -649,6 +835,116 @@ map&lt; pair&lt; LangOptKind, int &gt;, string &gt;&#160;</td><td class="memItem
 <p>get number of sub-values, read and broadcast metadata. </p>
 
 <p>Implemented in <a class="el" href="classopenm_1_1_root_controller.html#ae733597d4efb8c14ede37f62c64a70d4">openm::RootController</a>, and <a class="el" href="classopenm_1_1_single_controller.html#a13ccc28aa82b1d6a77dcd43df707e2af">openm::SingleController</a>.</p>
+
+</div>
+</div>
+<a id="a6f64f083daf19da4c1cb320c67050666"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f64f083daf19da4c1cb320c67050666">&#9670;&nbsp;</a></span>intOption()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int openm::RunController::intOption </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>i_key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i_default</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>return int value of run option by i_key or default if not found or can not be converted to int. </p>
+
+<p>Implements <a class="el" href="structopenm_1_1_i_run_options.html#ae2f9fc83749f6abbf1ef8ca62c807f58">openm::IRunOptions</a>.</p>
+
+</div>
+</div>
+<a id="a703c62770228874a8768d8cf6e9a19e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a703c62770228874a8768d8cf6e9a19e5">&#9670;&nbsp;</a></span>isOptionExist()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool openm::RunController::isOptionExist </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>i_key</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>return true if run option found by i_key in run_option table for the current run id. </p>
+
+<p>Implements <a class="el" href="structopenm_1_1_i_run_options.html#a25f1b41974351830431fc00c631a006a">openm::IRunOptions</a>.</p>
+
+</div>
+</div>
+<a id="a028be9b0b4b5e4e6487c78bf82486749"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a028be9b0b4b5e4e6487c78bf82486749">&#9670;&nbsp;</a></span>longOption()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">long long openm::RunController::longOption </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>i_key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long long&#160;</td>
+          <td class="paramname"><em>i_default</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>return long value of run option by i_key or default if not found or can not be converted to long. </p>
+
+<p>Implements <a class="el" href="structopenm_1_1_i_run_options.html#a44acb68b63947472c603c86985e17d44">openm::IRunOptions</a>.</p>
 
 </div>
 </div>
@@ -772,8 +1068,46 @@ map&lt; pair&lt; LangOptKind, int &gt;, string &gt;&#160;</td><td class="memItem
 
 </div>
 </div>
-<a id="ac87e5e2d8ef3ba747fd3089d790a9d4a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac87e5e2d8ef3ba747fd3089d790a9d4a">&#9670;&nbsp;</a></span>writeAccumulators()</h2>
+<a id="a4807e924840f111a917e0094a24aad9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4807e924840f111a917e0094a24aad9f">&#9670;&nbsp;</a></span>strOption()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string openm::RunController::strOption </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>i_key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const string &amp;&#160;</td>
+          <td class="paramname"><em>i_default</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>return string value of run option by i_key or default value if not found. </p>
+
+</div>
+</div>
+<a id="a099bbd592f3a3e9f6cf3ca5294f1d694"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a099bbd592f3a3e9f6cf3ca5294f1d694">&#9670;&nbsp;</a></span>writeAccumulators()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -808,7 +1142,7 @@ map&lt; pair&lt; LangOptKind, int &gt;, string &gt;&#160;</td><td class="memItem
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">forward_list&lt; unique_ptr&lt; double &gt; &gt; &amp;&#160;</td>
+          <td class="paramtype">forward_list&lt; unique_ptr&lt; double[]&gt; &gt; &amp;&#160;</td>
           <td class="paramname"><em>io_accValues</em>&#160;</td>
         </tr>
         <tr>
@@ -826,7 +1160,7 @@ map&lt; pair&lt; LangOptKind, int &gt;, string &gt;&#160;</td><td class="memItem
 
 <p>write output table accumulators or send data to root process. </p>
 
-<p>Implemented in <a class="el" href="classopenm_1_1_restart_controller.html#a43cb7c428c4a0d700306b9fe31b55f89">openm::RestartController</a>, <a class="el" href="classopenm_1_1_child_controller.html#a1eecc8cdf5c4cc4615c17ee499635a75">openm::ChildController</a>, <a class="el" href="classopenm_1_1_root_controller.html#a785742c3727608e6df2767b896fc2060">openm::RootController</a>, and <a class="el" href="classopenm_1_1_single_controller.html#a71898c844410ce5fe739bf6443e37f5b">openm::SingleController</a>.</p>
+<p>Implemented in <a class="el" href="classopenm_1_1_restart_controller.html#a85b6ce34ad47c82003a083613817c0c1">openm::RestartController</a>, <a class="el" href="classopenm_1_1_child_controller.html#afbed2663a4fea97514422087bcc83b60">openm::ChildController</a>, <a class="el" href="classopenm_1_1_root_controller.html#a2e06494894f4db9664785c111b19b461">openm::RootController</a>, and <a class="el" href="classopenm_1_1_single_controller.html#add300849e2a21e0ac09087f2547a9533">openm::SingleController</a>.</p>
 
 </div>
 </div>
@@ -842,7 +1176,7 @@ map&lt; pair&lt; LangOptKind, int &gt;, string &gt;&#160;</td><td class="memItem
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceopenm.html">openm</a></li><li class="navelem"><a class="el" href="classopenm_1_1_run_controller.html">RunController</a></li>
-    <li class="footer">Generated on Tue Feb 2 2021 22:46:04 for OpenM++ runtime library (libopenm) by
+    <li class="footer">Generated on Tue Apr 6 2021 22:27:26 for OpenM++ runtime library (libopenm) by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

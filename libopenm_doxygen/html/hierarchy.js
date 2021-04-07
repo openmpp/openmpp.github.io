@@ -564,12 +564,14 @@ var hierarchy =
       [ "openm::ValueRowDigester", "classopenm_1_1_value_row_digester.html", null ],
       [ "openm::ValueRowSparseSetter", "classopenm_1_1_value_row_sparse_setter.html", null ]
     ] ],
-    [ "openm::IRunBase", "structopenm_1_1_i_run_base.html", [
-      [ "openm::RunController", "classopenm_1_1_run_controller.html", [
-        [ "openm::ChildController", "classopenm_1_1_child_controller.html", null ],
-        [ "openm::RestartController", "classopenm_1_1_restart_controller.html", null ],
-        [ "openm::RootController", "classopenm_1_1_root_controller.html", null ],
-        [ "openm::SingleController", "classopenm_1_1_single_controller.html", null ]
+    [ "openm::IRunOptions", "structopenm_1_1_i_run_options.html", [
+      [ "openm::IRunBase", "structopenm_1_1_i_run_base.html", [
+        [ "openm::RunController", "classopenm_1_1_run_controller.html", [
+          [ "openm::ChildController", "classopenm_1_1_child_controller.html", null ],
+          [ "openm::RestartController", "classopenm_1_1_restart_controller.html", null ],
+          [ "openm::RootController", "classopenm_1_1_root_controller.html", null ],
+          [ "openm::SingleController", "classopenm_1_1_single_controller.html", null ]
+        ] ]
       ] ]
     ] ],
     [ "openm::IUtf8Converter", "classopenm_1_1_i_utf8_converter.html", [

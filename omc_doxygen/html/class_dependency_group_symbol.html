@@ -81,6 +81,7 @@ $(document).ready(function(){initNavTree('class_dependency_group_symbol.html',''
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="class_dependency_group_symbol-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -104,9 +105,10 @@ Collaboration diagram for DependencyGroupSymbol:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_dependency_group_symbol__coll__graph.png" border="0" usemap="#_dependency_group_symbol_coll__map" alt="Collaboration graph"/></div>
 <map name="_dependency_group_symbol_coll__map" id="_dependency_group_symbol_coll__map">
-<area shape="rect" id="node2" href="class_group_symbol.html" title="GroupSymbol. " alt="" coords="41,200,143,227"/>
-<area shape="rect" id="node3" href="class_symbol.html" title="A Symbol is a named syntactic entity in openM++. " alt="" coords="59,124,125,151"/>
-<area shape="rect" id="node4" href="class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables. " alt="" coords="41,5,143,32"/>
+<area shape="rect" id="node2" href="class_group_symbol.html" title="GroupSymbol. " alt="" coords="5,200,107,227"/>
+<area shape="rect" id="node3" href="class_symbol.html" title="A Symbol is a named syntactic entity in openM++. " alt="" coords="61,124,128,151"/>
+<area shape="rect" id="node5" href="class_table_symbol.html" title="TableSymbol. " alt="" coords="131,200,229,227"/>
+<area shape="rect" id="node4" href="class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables. " alt="" coords="43,5,146,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -217,6 +219,63 @@ list&lt; <a class="el" href="class_symbol.html">Symbol</a> * &gt;&#160;</td><td 
 <tr class="memitem:a331397d25105f14c83052eb70b532187 inherit pub_methods_class_symbol"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a331397d25105f14c83052eb70b532187">pp_modgen_name</a> () const</td></tr>
 <tr class="memdesc:a331397d25105f14c83052eb70b532187 inherit pub_methods_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unique name lexicographically-compatible with Modgen order for code generation compatibility.  <a href="class_symbol.html#a331397d25105f14c83052eb70b532187">More...</a><br /></td></tr>
 <tr class="separator:a331397d25105f14c83052eb70b532187 inherit pub_methods_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:aac2263c57e4975764418163d3cacdee5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_table_symbol.html">TableSymbol</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dependency_group_symbol.html#aac2263c57e4975764418163d3cacdee5">pp_table_requiring</a></td></tr>
+<tr class="memdesc:aac2263c57e4975764418163d3cacdee5"><td class="mdescLeft">&#160;</td><td class="mdescRight">The requiring table.  <a href="#aac2263c57e4975764418163d3cacdee5">More...</a><br /></td></tr>
+<tr class="separator:aac2263c57e4975764418163d3cacdee5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_class_group_symbol"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_group_symbol')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_group_symbol.html">GroupSymbol</a></td></tr>
+<tr class="memitem:a7b3b95df1efa96fe42557b3e54ddc203 inherit pub_attribs_class_group_symbol"><td class="memItemLeft" align="right" valign="top"><a id="a7b3b95df1efa96fe42557b3e54ddc203"></a>
+list&lt; <a class="el" href="class_symbol.html">Symbol</a> ** &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_group_symbol.html#a7b3b95df1efa96fe42557b3e54ddc203">symbol_list</a></td></tr>
+<tr class="memdesc:a7b3b95df1efa96fe42557b3e54ddc203 inherit pub_attribs_class_group_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of symbols. <br /></td></tr>
+<tr class="separator:a7b3b95df1efa96fe42557b3e54ddc203 inherit pub_attribs_class_group_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5143b03f9a91b80151d48fdf5e1d9f6d inherit pub_attribs_class_group_symbol"><td class="memItemLeft" align="right" valign="top"><a id="a5143b03f9a91b80151d48fdf5e1d9f6d"></a>
+list&lt; <a class="el" href="class_symbol.html">Symbol</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_group_symbol.html#a5143b03f9a91b80151d48fdf5e1d9f6d">pp_symbol_list</a></td></tr>
+<tr class="memdesc:a5143b03f9a91b80151d48fdf5e1d9f6d inherit pub_attribs_class_group_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of symbols (post-parse) <br /></td></tr>
+<tr class="separator:a5143b03f9a91b80151d48fdf5e1d9f6d inherit pub_attribs_class_group_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af00956a4545f48189c74531a4bf45a89 inherit pub_attribs_class_group_symbol"><td class="memItemLeft" align="right" valign="top"><a id="af00956a4545f48189c74531a4bf45a89"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_group_symbol.html#af00956a4545f48189c74531a4bf45a89">is_hidden</a></td></tr>
+<tr class="memdesc:af00956a4545f48189c74531a4bf45a89 inherit pub_attribs_class_group_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if the group is hidden. <br /></td></tr>
+<tr class="separator:af00956a4545f48189c74531a4bf45a89 inherit pub_attribs_class_group_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad00070de090355597a3ad62567447303 inherit pub_attribs_class_group_symbol"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_group_symbol.html#ad00070de090355597a3ad62567447303">pp_group_id</a></td></tr>
+<tr class="memdesc:ad00070de090355597a3ad62567447303 inherit pub_attribs_class_group_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Numeric identifier.  <a href="class_group_symbol.html#ad00070de090355597a3ad62567447303">More...</a><br /></td></tr>
+<tr class="separator:ad00070de090355597a3ad62567447303 inherit pub_attribs_class_group_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_class_symbol"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_symbol')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_symbol.html">Symbol</a></td></tr>
+<tr class="memitem:a73fc59c394e3bdc9fdbb525a24ba5b5f inherit pub_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a73fc59c394e3bdc9fdbb525a24ba5b5f">unique_name</a></td></tr>
+<tr class="memdesc:a73fc59c394e3bdc9fdbb525a24ba5b5f inherit pub_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">The unique identifier for the symbol.  <a href="class_symbol.html#a73fc59c394e3bdc9fdbb525a24ba5b5f">More...</a><br /></td></tr>
+<tr class="separator:a73fc59c394e3bdc9fdbb525a24ba5b5f inherit pub_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0254b578a75d2bd6f7e145fe081cb6dd inherit pub_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a0254b578a75d2bd6f7e145fe081cb6dd">name</a></td></tr>
+<tr class="memdesc:a0254b578a75d2bd6f7e145fe081cb6dd inherit pub_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">The identifier for the symbol (possibly non-unique)  <a href="class_symbol.html#a0254b578a75d2bd6f7e145fe081cb6dd">More...</a><br /></td></tr>
+<tr class="separator:a0254b578a75d2bd6f7e145fe081cb6dd inherit pub_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26d29be01d06ff065fc6bbbea4e824a5 inherit pub_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="a26d29be01d06ff065fc6bbbea4e824a5"></a>
+vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a26d29be01d06ff065fc6bbbea4e824a5">pp_labels</a></td></tr>
+<tr class="memdesc:a26d29be01d06ff065fc6bbbea4e824a5 inherit pub_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">The symbol label for each language. <br /></td></tr>
+<tr class="separator:a26d29be01d06ff065fc6bbbea4e824a5 inherit pub_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a864960bd4fef7ca6b9fcfb377ed81150 inherit pub_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="a864960bd4fef7ca6b9fcfb377ed81150"></a>
+vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a864960bd4fef7ca6b9fcfb377ed81150">pp_notes</a></td></tr>
+<tr class="memdesc:a864960bd4fef7ca6b9fcfb377ed81150 inherit pub_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">The symbol notes for each language. <br /></td></tr>
+<tr class="separator:a864960bd4fef7ca6b9fcfb377ed81150 inherit pub_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2479a300439d7fa5321bd4332ebeaa5 inherit pub_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top">yy::location&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#ae2479a300439d7fa5321bd4332ebeaa5">decl_loc</a></td></tr>
+<tr class="memdesc:ae2479a300439d7fa5321bd4332ebeaa5 inherit pub_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">The declaration location.  <a href="class_symbol.html#ae2479a300439d7fa5321bd4332ebeaa5">More...</a><br /></td></tr>
+<tr class="separator:ae2479a300439d7fa5321bd4332ebeaa5 inherit pub_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad539b6b4569705e4c360122c3fe44072 inherit pub_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top">yy::location&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#ad539b6b4569705e4c360122c3fe44072">redecl_loc</a></td></tr>
+<tr class="memdesc:ad539b6b4569705e4c360122c3fe44072 inherit pub_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">The redeclaration location.  <a href="class_symbol.html#ad539b6b4569705e4c360122c3fe44072">More...</a><br /></td></tr>
+<tr class="separator:ad539b6b4569705e4c360122c3fe44072 inherit pub_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf798d9d565c3e23f4d156588245e33d inherit pub_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#aaf798d9d565c3e23f4d156588245e33d">reference_count</a></td></tr>
+<tr class="memdesc:aaf798d9d565c3e23f4d156588245e33d inherit pub_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of references by other symbols to this <a class="el" href="class_symbol.html" title="A Symbol is a named syntactic entity in openM++. ">Symbol</a>.  <a href="class_symbol.html#aaf798d9d565c3e23f4d156588245e33d">More...</a><br /></td></tr>
+<tr class="separator:aaf798d9d565c3e23f4d156588245e33d inherit pub_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5535742b3f5c035abae93a69c171885 inherit pub_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#ac5535742b3f5c035abae93a69c171885">sorting_group</a></td></tr>
+<tr class="memdesc:ac5535742b3f5c035abae93a69c171885 inherit pub_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">The sorting group the <a class="el" href="class_symbol.html" title="A Symbol is a named syntactic entity in openM++. ">Symbol</a> belongs in.  <a href="class_symbol.html#ac5535742b3f5c035abae93a69c171885">More...</a><br /></td></tr>
+<tr class="separator:ac5535742b3f5c035abae93a69c171885 inherit pub_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e6310f70d9163d9653f16d5c906b550 inherit pub_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="a3e6310f70d9163d9653f16d5c906b550"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a3e6310f70d9163d9653f16d5c906b550">code_order</a></td></tr>
+<tr class="memdesc:a3e6310f70d9163d9653f16d5c906b550 inherit pub_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">The order for code insertion (higher values insert first). <br /></td></tr>
+<tr class="separator:a3e6310f70d9163d9653f16d5c906b550 inherit pub_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e262ad05ffa77efbcfc3d2d27ae6f23 inherit pub_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="a5e262ad05ffa77efbcfc3d2d27ae6f23"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a5e262ad05ffa77efbcfc3d2d27ae6f23">code_label_allowed</a></td></tr>
+<tr class="memdesc:a5e262ad05ffa77efbcfc3d2d27ae6f23 inherit pub_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates if a label from model source code is allowed for this symbol. <br /></td></tr>
+<tr class="separator:a5e262ad05ffa77efbcfc3d2d27ae6f23 inherit pub_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -395,6 +454,10 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#afceb95c37e2022cc6664381976a70fb4">option_allow_time_travel</a> = false</td></tr>
 <tr class="memdesc:afceb95c37e2022cc6664381976a70fb4 inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">true if allow_time_travel activated in options statement. <br /></td></tr>
 <tr class="separator:afceb95c37e2022cc6664381976a70fb4 inherit pub_static_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a861003d95a77a2dcc7547822ddfc538e inherit pub_static_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="a861003d95a77a2dcc7547822ddfc538e"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a861003d95a77a2dcc7547822ddfc538e">option_allow_clairvoyance</a> = false</td></tr>
+<tr class="memdesc:a861003d95a77a2dcc7547822ddfc538e inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">true if allow_clairvoyance activated in options statement. <br /></td></tr>
+<tr class="separator:a861003d95a77a2dcc7547822ddfc538e inherit pub_static_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a946606a59d914303874802239ba27c9b inherit pub_static_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="a946606a59d914303874802239ba27c9b"></a>
 static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a946606a59d914303874802239ba27c9b">option_time_infinite_is_32767</a> = false</td></tr>
 <tr class="memdesc:a946606a59d914303874802239ba27c9b inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">true if time_infinite_is_32767 activated in options statement. <br /></td></tr>
@@ -531,57 +594,6 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <tr class="memitem:a2e86b390d7a98b111f03ad72e72af2b1 inherit pub_static_methods_class_symbol"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a2e86b390d7a98b111f03ad72e72af2b1">mangle_name</a> (string <a class="el" href="class_symbol.html#a0254b578a75d2bd6f7e145fe081cb6dd">name</a>, int index)</td></tr>
 <tr class="memdesc:a2e86b390d7a98b111f03ad72e72af2b1 inherit pub_static_methods_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mangle name to length 8 for API.  <a href="class_symbol.html#a2e86b390d7a98b111f03ad72e72af2b1">More...</a><br /></td></tr>
 <tr class="separator:a2e86b390d7a98b111f03ad72e72af2b1 inherit pub_static_methods_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_attribs_class_group_symbol"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_group_symbol')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_group_symbol.html">GroupSymbol</a></td></tr>
-<tr class="memitem:a7b3b95df1efa96fe42557b3e54ddc203 inherit pub_attribs_class_group_symbol"><td class="memItemLeft" align="right" valign="top"><a id="a7b3b95df1efa96fe42557b3e54ddc203"></a>
-list&lt; <a class="el" href="class_symbol.html">Symbol</a> ** &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_group_symbol.html#a7b3b95df1efa96fe42557b3e54ddc203">symbol_list</a></td></tr>
-<tr class="memdesc:a7b3b95df1efa96fe42557b3e54ddc203 inherit pub_attribs_class_group_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of symbols. <br /></td></tr>
-<tr class="separator:a7b3b95df1efa96fe42557b3e54ddc203 inherit pub_attribs_class_group_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5143b03f9a91b80151d48fdf5e1d9f6d inherit pub_attribs_class_group_symbol"><td class="memItemLeft" align="right" valign="top"><a id="a5143b03f9a91b80151d48fdf5e1d9f6d"></a>
-list&lt; <a class="el" href="class_symbol.html">Symbol</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_group_symbol.html#a5143b03f9a91b80151d48fdf5e1d9f6d">pp_symbol_list</a></td></tr>
-<tr class="memdesc:a5143b03f9a91b80151d48fdf5e1d9f6d inherit pub_attribs_class_group_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of symbols (post-parse) <br /></td></tr>
-<tr class="separator:a5143b03f9a91b80151d48fdf5e1d9f6d inherit pub_attribs_class_group_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af00956a4545f48189c74531a4bf45a89 inherit pub_attribs_class_group_symbol"><td class="memItemLeft" align="right" valign="top"><a id="af00956a4545f48189c74531a4bf45a89"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_group_symbol.html#af00956a4545f48189c74531a4bf45a89">is_hidden</a></td></tr>
-<tr class="memdesc:af00956a4545f48189c74531a4bf45a89 inherit pub_attribs_class_group_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if the group is hidden. <br /></td></tr>
-<tr class="separator:af00956a4545f48189c74531a4bf45a89 inherit pub_attribs_class_group_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad00070de090355597a3ad62567447303 inherit pub_attribs_class_group_symbol"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_group_symbol.html#ad00070de090355597a3ad62567447303">pp_group_id</a></td></tr>
-<tr class="memdesc:ad00070de090355597a3ad62567447303 inherit pub_attribs_class_group_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Numeric identifier.  <a href="class_group_symbol.html#ad00070de090355597a3ad62567447303">More...</a><br /></td></tr>
-<tr class="separator:ad00070de090355597a3ad62567447303 inherit pub_attribs_class_group_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_attribs_class_symbol"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_symbol')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_symbol.html">Symbol</a></td></tr>
-<tr class="memitem:a73fc59c394e3bdc9fdbb525a24ba5b5f inherit pub_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a73fc59c394e3bdc9fdbb525a24ba5b5f">unique_name</a></td></tr>
-<tr class="memdesc:a73fc59c394e3bdc9fdbb525a24ba5b5f inherit pub_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">The unique identifier for the symbol.  <a href="class_symbol.html#a73fc59c394e3bdc9fdbb525a24ba5b5f">More...</a><br /></td></tr>
-<tr class="separator:a73fc59c394e3bdc9fdbb525a24ba5b5f inherit pub_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0254b578a75d2bd6f7e145fe081cb6dd inherit pub_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a0254b578a75d2bd6f7e145fe081cb6dd">name</a></td></tr>
-<tr class="memdesc:a0254b578a75d2bd6f7e145fe081cb6dd inherit pub_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">The identifier for the symbol (possibly non-unique)  <a href="class_symbol.html#a0254b578a75d2bd6f7e145fe081cb6dd">More...</a><br /></td></tr>
-<tr class="separator:a0254b578a75d2bd6f7e145fe081cb6dd inherit pub_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26d29be01d06ff065fc6bbbea4e824a5 inherit pub_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="a26d29be01d06ff065fc6bbbea4e824a5"></a>
-vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a26d29be01d06ff065fc6bbbea4e824a5">pp_labels</a></td></tr>
-<tr class="memdesc:a26d29be01d06ff065fc6bbbea4e824a5 inherit pub_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">The symbol label for each language. <br /></td></tr>
-<tr class="separator:a26d29be01d06ff065fc6bbbea4e824a5 inherit pub_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a864960bd4fef7ca6b9fcfb377ed81150 inherit pub_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="a864960bd4fef7ca6b9fcfb377ed81150"></a>
-vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a864960bd4fef7ca6b9fcfb377ed81150">pp_notes</a></td></tr>
-<tr class="memdesc:a864960bd4fef7ca6b9fcfb377ed81150 inherit pub_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">The symbol notes for each language. <br /></td></tr>
-<tr class="separator:a864960bd4fef7ca6b9fcfb377ed81150 inherit pub_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2479a300439d7fa5321bd4332ebeaa5 inherit pub_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top">yy::location&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#ae2479a300439d7fa5321bd4332ebeaa5">decl_loc</a></td></tr>
-<tr class="memdesc:ae2479a300439d7fa5321bd4332ebeaa5 inherit pub_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">The declaration location.  <a href="class_symbol.html#ae2479a300439d7fa5321bd4332ebeaa5">More...</a><br /></td></tr>
-<tr class="separator:ae2479a300439d7fa5321bd4332ebeaa5 inherit pub_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad539b6b4569705e4c360122c3fe44072 inherit pub_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top">yy::location&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#ad539b6b4569705e4c360122c3fe44072">redecl_loc</a></td></tr>
-<tr class="memdesc:ad539b6b4569705e4c360122c3fe44072 inherit pub_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">The redeclaration location.  <a href="class_symbol.html#ad539b6b4569705e4c360122c3fe44072">More...</a><br /></td></tr>
-<tr class="separator:ad539b6b4569705e4c360122c3fe44072 inherit pub_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf798d9d565c3e23f4d156588245e33d inherit pub_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#aaf798d9d565c3e23f4d156588245e33d">reference_count</a></td></tr>
-<tr class="memdesc:aaf798d9d565c3e23f4d156588245e33d inherit pub_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of references by other symbols to this <a class="el" href="class_symbol.html" title="A Symbol is a named syntactic entity in openM++. ">Symbol</a>.  <a href="class_symbol.html#aaf798d9d565c3e23f4d156588245e33d">More...</a><br /></td></tr>
-<tr class="separator:aaf798d9d565c3e23f4d156588245e33d inherit pub_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5535742b3f5c035abae93a69c171885 inherit pub_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#ac5535742b3f5c035abae93a69c171885">sorting_group</a></td></tr>
-<tr class="memdesc:ac5535742b3f5c035abae93a69c171885 inherit pub_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">The sorting group the <a class="el" href="class_symbol.html" title="A Symbol is a named syntactic entity in openM++. ">Symbol</a> belongs in.  <a href="class_symbol.html#ac5535742b3f5c035abae93a69c171885">More...</a><br /></td></tr>
-<tr class="separator:ac5535742b3f5c035abae93a69c171885 inherit pub_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e6310f70d9163d9653f16d5c906b550 inherit pub_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="a3e6310f70d9163d9653f16d5c906b550"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a3e6310f70d9163d9653f16d5c906b550">code_order</a></td></tr>
-<tr class="memdesc:a3e6310f70d9163d9653f16d5c906b550 inherit pub_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">The order for code insertion (higher values insert first). <br /></td></tr>
-<tr class="separator:a3e6310f70d9163d9653f16d5c906b550 inherit pub_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e262ad05ffa77efbcfc3d2d27ae6f23 inherit pub_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="a5e262ad05ffa77efbcfc3d2d27ae6f23"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a5e262ad05ffa77efbcfc3d2d27ae6f23">code_label_allowed</a></td></tr>
-<tr class="memdesc:a5e262ad05ffa77efbcfc3d2d27ae6f23 inherit pub_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates if a label from model source code is allowed for this symbol. <br /></td></tr>
-<tr class="separator:a5e262ad05ffa77efbcfc3d2d27ae6f23 inherit pub_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="class_dependency_group_symbol.html" title="DependencyGroupSymbol. ">DependencyGroupSymbol</a>. </p>
@@ -691,6 +703,24 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="aac2263c57e4975764418163d3cacdee5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac2263c57e4975764418163d3cacdee5">&#9670;&nbsp;</a></span>pp_table_requiring</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_table_symbol.html">TableSymbol</a>* DependencyGroupSymbol::pp_table_requiring</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The requiring table. </p>
+<p>First symbol in the dependency statement. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="_dependency_group_symbol_8h_source.html">DependencyGroupSymbol.h</a></li>
 <li><a class="el" href="_dependency_group_symbol_8cpp.html">DependencyGroupSymbol.cpp</a></li>
@@ -701,7 +731,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_dependency_group_symbol.html">DependencyGroupSymbol</a></li>
-    <li class="footer">Generated on Tue Feb 2 2021 22:47:56 for OpenM++ compiler (omc) by
+    <li class="footer">Generated on Tue Apr 6 2021 22:25:27 for OpenM++ compiler (omc) by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

@@ -141,19 +141,19 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ace05e72885c69d08465c1bf4b4724d3c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_mpi_exec.html#ace05e72885c69d08465c1bf4b4724d3c">bcastReceive</a> (int i_groupOne, const type_info &amp;i_type, size_t i_size, void *io_valueArr) override</td></tr>
 <tr class="memdesc:ace05e72885c69d08465c1bf4b4724d3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">receive broadcasted value array from root process.  <a href="#ace05e72885c69d08465c1bf4b4724d3c">More...</a><br /></td></tr>
 <tr class="separator:ace05e72885c69d08465c1bf4b4724d3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab78af266a4bc669fd7d17422b9e04429"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_mpi_exec.html#ab78af266a4bc669fd7d17422b9e04429">bcastSendPacked</a> (int i_groupOne, <a class="el" href="namespaceopenm.html#a4c490122908976114609adac8c178fee">IRowBaseVec</a> &amp;io_rowVec, const <a class="el" href="structopenm_1_1_i_packed_adapter.html">IPackedAdapter</a> &amp;i_adapter) override</td></tr>
+<tr class="memitem:ab78af266a4bc669fd7d17422b9e04429"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_mpi_exec.html#ab78af266a4bc669fd7d17422b9e04429">bcastSendPacked</a> (int i_groupOne, <a class="el" href="namespaceopenm.html#ae33ab59462c9f2ceef92d48c7fb449d0">IRowBaseVec</a> &amp;io_rowVec, const <a class="el" href="structopenm_1_1_i_packed_adapter.html">IPackedAdapter</a> &amp;i_adapter) override</td></tr>
 <tr class="memdesc:ab78af266a4bc669fd7d17422b9e04429"><td class="mdescLeft">&#160;</td><td class="mdescRight">send broadcast vector of db rows from root to all other processes.  <a href="#ab78af266a4bc669fd7d17422b9e04429">More...</a><br /></td></tr>
 <tr class="separator:ab78af266a4bc669fd7d17422b9e04429"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47adfb846a3b4d55dd8b015fa47f0dd0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_mpi_exec.html#a47adfb846a3b4d55dd8b015fa47f0dd0">bcastReceivePacked</a> (int i_groupOne, <a class="el" href="namespaceopenm.html#a4c490122908976114609adac8c178fee">IRowBaseVec</a> &amp;io_rowVec, const <a class="el" href="structopenm_1_1_i_packed_adapter.html">IPackedAdapter</a> &amp;i_adapter) override</td></tr>
+<tr class="memitem:a47adfb846a3b4d55dd8b015fa47f0dd0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_mpi_exec.html#a47adfb846a3b4d55dd8b015fa47f0dd0">bcastReceivePacked</a> (int i_groupOne, <a class="el" href="namespaceopenm.html#ae33ab59462c9f2ceef92d48c7fb449d0">IRowBaseVec</a> &amp;io_rowVec, const <a class="el" href="structopenm_1_1_i_packed_adapter.html">IPackedAdapter</a> &amp;i_adapter) override</td></tr>
 <tr class="memdesc:a47adfb846a3b4d55dd8b015fa47f0dd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">receive broadcasted vector of db rows from root.  <a href="#a47adfb846a3b4d55dd8b015fa47f0dd0">More...</a><br /></td></tr>
 <tr class="separator:a47adfb846a3b4d55dd8b015fa47f0dd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3218a28c93fe1d8f0c2c281373b6d45"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_mpi_exec.html#af3218a28c93fe1d8f0c2c281373b6d45">startSend</a> (int i_sendTo, <a class="el" href="namespaceopenm.html#a3bfbc1c842226a2cda27f3f2ad50df16">MsgTag</a> i_msgTag, const type_info &amp;i_type, size_t i_size, void *i_valueArr) override</td></tr>
 <tr class="memdesc:af3218a28c93fe1d8f0c2c281373b6d45"><td class="mdescLeft">&#160;</td><td class="mdescRight">start non-blocking send of value array to i_sendTo process.  <a href="#af3218a28c93fe1d8f0c2c281373b6d45">More...</a><br /></td></tr>
 <tr class="separator:af3218a28c93fe1d8f0c2c281373b6d45"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a486d9e09cc228541636f4106a62215a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_mpi_exec.html#a486d9e09cc228541636f4106a62215a6">startSendPacked</a> (int i_sendTo, const <a class="el" href="namespaceopenm.html#a4c490122908976114609adac8c178fee">IRowBaseVec</a> &amp;i_rowVec, const <a class="el" href="structopenm_1_1_i_packed_adapter.html">IPackedAdapter</a> &amp;i_adapter) override</td></tr>
+<tr class="memitem:a486d9e09cc228541636f4106a62215a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_mpi_exec.html#a486d9e09cc228541636f4106a62215a6">startSendPacked</a> (int i_sendTo, const <a class="el" href="namespaceopenm.html#ae33ab59462c9f2ceef92d48c7fb449d0">IRowBaseVec</a> &amp;i_rowVec, const <a class="el" href="structopenm_1_1_i_packed_adapter.html">IPackedAdapter</a> &amp;i_adapter) override</td></tr>
 <tr class="memdesc:a486d9e09cc228541636f4106a62215a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">pack and start non-blocking send of vector of db rows to i_sendTo process.  <a href="#a486d9e09cc228541636f4106a62215a6">More...</a><br /></td></tr>
 <tr class="separator:a486d9e09cc228541636f4106a62215a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54126757e38a35d83098dab06bba693f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_mpi_exec.html#a54126757e38a35d83098dab06bba693f">tryReceive</a> (int i_recvFrom, <a class="el" href="namespaceopenm.html#a4c490122908976114609adac8c178fee">IRowBaseVec</a> &amp;io_resultRowVec, const <a class="el" href="structopenm_1_1_i_packed_adapter.html">IPackedAdapter</a> &amp;i_adapter) const override</td></tr>
+<tr class="memitem:a54126757e38a35d83098dab06bba693f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_mpi_exec.html#a54126757e38a35d83098dab06bba693f">tryReceive</a> (int i_recvFrom, <a class="el" href="namespaceopenm.html#ae33ab59462c9f2ceef92d48c7fb449d0">IRowBaseVec</a> &amp;io_resultRowVec, const <a class="el" href="structopenm_1_1_i_packed_adapter.html">IPackedAdapter</a> &amp;i_adapter) const override</td></tr>
 <tr class="memdesc:a54126757e38a35d83098dab06bba693f"><td class="mdescLeft">&#160;</td><td class="mdescRight">try to non-blocking receive and unpack vector of db rows, return true if completed.  <a href="#a54126757e38a35d83098dab06bba693f">More...</a><br /></td></tr>
 <tr class="separator:a54126757e38a35d83098dab06bba693f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01cc2050bee8a52f5e0044d5239e9f81"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_mpi_exec.html#a01cc2050bee8a52f5e0044d5239e9f81">tryReceive</a> (int i_recvFrom, <a class="el" href="namespaceopenm.html#a3bfbc1c842226a2cda27f3f2ad50df16">MsgTag</a> i_msgTag, const type_info &amp;i_type, size_t i_size, void *io_valueArr) const override</td></tr>
@@ -189,13 +189,13 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a2c83ce7651a8086146669c25b4d0b049 inherit pub_methods_classopenm_1_1_msg_exec_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_msg_exec_base.html#a2c83ce7651a8086146669c25b4d0b049">startSend</a> (int i_sendTo, <a class="el" href="namespaceopenm.html#a3bfbc1c842226a2cda27f3f2ad50df16">MsgTag</a> i_msgTag, const type_info &amp;i_type, size_t i_size, void *i_valueArr)</td></tr>
 <tr class="memdesc:a2c83ce7651a8086146669c25b4d0b049 inherit pub_methods_classopenm_1_1_msg_exec_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">start non-blocking send of value array to i_sendTo process.  <a href="classopenm_1_1_msg_exec_base.html#a2c83ce7651a8086146669c25b4d0b049">More...</a><br /></td></tr>
 <tr class="separator:a2c83ce7651a8086146669c25b4d0b049 inherit pub_methods_classopenm_1_1_msg_exec_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14f616e554d1f89977cc1e19c859db3c inherit pub_methods_classopenm_1_1_msg_exec_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_msg_exec_base.html#a14f616e554d1f89977cc1e19c859db3c">startSendPacked</a> (int i_sendTo, const <a class="el" href="namespaceopenm.html#a4c490122908976114609adac8c178fee">IRowBaseVec</a> &amp;i_rowVec, const <a class="el" href="structopenm_1_1_i_packed_adapter.html">IPackedAdapter</a> &amp;i_adapter)</td></tr>
+<tr class="memitem:a14f616e554d1f89977cc1e19c859db3c inherit pub_methods_classopenm_1_1_msg_exec_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_msg_exec_base.html#a14f616e554d1f89977cc1e19c859db3c">startSendPacked</a> (int i_sendTo, const <a class="el" href="namespaceopenm.html#ae33ab59462c9f2ceef92d48c7fb449d0">IRowBaseVec</a> &amp;i_rowVec, const <a class="el" href="structopenm_1_1_i_packed_adapter.html">IPackedAdapter</a> &amp;i_adapter)</td></tr>
 <tr class="memdesc:a14f616e554d1f89977cc1e19c859db3c inherit pub_methods_classopenm_1_1_msg_exec_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">pack and start non-blocking send of vector of db rows to i_sendTo process.  <a href="classopenm_1_1_msg_exec_base.html#a14f616e554d1f89977cc1e19c859db3c">More...</a><br /></td></tr>
 <tr class="separator:a14f616e554d1f89977cc1e19c859db3c inherit pub_methods_classopenm_1_1_msg_exec_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4dddaaa230f9e5e03e937822cabb63c inherit pub_methods_classopenm_1_1_msg_exec_base"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_msg_exec_base.html#ae4dddaaa230f9e5e03e937822cabb63c">tryReceive</a> (int i_recvFrom, <a class="el" href="namespaceopenm.html#a3bfbc1c842226a2cda27f3f2ad50df16">MsgTag</a> i_msgTag, const type_info &amp;i_type, size_t i_size, void *io_valueArr) const</td></tr>
 <tr class="memdesc:ae4dddaaa230f9e5e03e937822cabb63c inherit pub_methods_classopenm_1_1_msg_exec_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">try to non-blocking receive value array, return return true if completed.  <a href="classopenm_1_1_msg_exec_base.html#ae4dddaaa230f9e5e03e937822cabb63c">More...</a><br /></td></tr>
 <tr class="separator:ae4dddaaa230f9e5e03e937822cabb63c inherit pub_methods_classopenm_1_1_msg_exec_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b606db857891c2c28049075c82750fa inherit pub_methods_classopenm_1_1_msg_exec_base"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_msg_exec_base.html#a3b606db857891c2c28049075c82750fa">tryReceive</a> (int i_recvFrom, <a class="el" href="namespaceopenm.html#a4c490122908976114609adac8c178fee">IRowBaseVec</a> &amp;io_resultRowVec, const <a class="el" href="structopenm_1_1_i_packed_adapter.html">IPackedAdapter</a> &amp;i_adapter) const</td></tr>
+<tr class="memitem:a3b606db857891c2c28049075c82750fa inherit pub_methods_classopenm_1_1_msg_exec_base"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_msg_exec_base.html#a3b606db857891c2c28049075c82750fa">tryReceive</a> (int i_recvFrom, <a class="el" href="namespaceopenm.html#ae33ab59462c9f2ceef92d48c7fb449d0">IRowBaseVec</a> &amp;io_resultRowVec, const <a class="el" href="structopenm_1_1_i_packed_adapter.html">IPackedAdapter</a> &amp;i_adapter) const</td></tr>
 <tr class="memdesc:a3b606db857891c2c28049075c82750fa inherit pub_methods_classopenm_1_1_msg_exec_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">try to non-blocking receive and unpack vector of db rows, return return true if completed.  <a href="classopenm_1_1_msg_exec_base.html#a3b606db857891c2c28049075c82750fa">More...</a><br /></td></tr>
 <tr class="separator:a3b606db857891c2c28049075c82750fa inherit pub_methods_classopenm_1_1_msg_exec_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7597b9858cdf5d1121ab19370fb314d inherit pub_methods_classopenm_1_1_msg_exec_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_msg_exec_base.html#ad7597b9858cdf5d1121ab19370fb314d">waitSendAll</a> (void)</td></tr>
@@ -389,7 +389,7 @@ list&lt; unique_ptr&lt; <a class="el" href="classopenm_1_1_i_msg_send.html">IMsg
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespaceopenm.html#a4c490122908976114609adac8c178fee">IRowBaseVec</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceopenm.html#ae33ab59462c9f2ceef92d48c7fb449d0">IRowBaseVec</a> &amp;&#160;</td>
           <td class="paramname"><em>io_rowVec</em>, </td>
         </tr>
         <tr>
@@ -504,7 +504,7 @@ list&lt; unique_ptr&lt; <a class="el" href="classopenm_1_1_i_msg_send.html">IMsg
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespaceopenm.html#a4c490122908976114609adac8c178fee">IRowBaseVec</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceopenm.html#ae33ab59462c9f2ceef92d48c7fb449d0">IRowBaseVec</a> &amp;&#160;</td>
           <td class="paramname"><em>io_rowVec</em>, </td>
         </tr>
         <tr>
@@ -800,7 +800,7 @@ list&lt; unique_ptr&lt; <a class="el" href="classopenm_1_1_i_msg_send.html">IMsg
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceopenm.html#a4c490122908976114609adac8c178fee">IRowBaseVec</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespaceopenm.html#ae33ab59462c9f2ceef92d48c7fb449d0">IRowBaseVec</a> &amp;&#160;</td>
           <td class="paramname"><em>i_rowVec</em>, </td>
         </tr>
         <tr>
@@ -846,7 +846,7 @@ list&lt; unique_ptr&lt; <a class="el" href="classopenm_1_1_i_msg_send.html">IMsg
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespaceopenm.html#a4c490122908976114609adac8c178fee">IRowBaseVec</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceopenm.html#ae33ab59462c9f2ceef92d48c7fb449d0">IRowBaseVec</a> &amp;&#160;</td>
           <td class="paramname"><em>io_resultRowVec</em>, </td>
         </tr>
         <tr>
@@ -1002,7 +1002,7 @@ list&lt; unique_ptr&lt; <a class="el" href="classopenm_1_1_i_msg_send.html">IMsg
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceopenm.html">openm</a></li><li class="navelem"><a class="el" href="classopenm_1_1_mpi_exec.html">MpiExec</a></li>
-    <li class="footer">Generated on Tue Feb 2 2021 22:46:01 for OpenM++ runtime library (libopenm) by
+    <li class="footer">Generated on Tue Apr 6 2021 22:27:22 for OpenM++ runtime library (libopenm) by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

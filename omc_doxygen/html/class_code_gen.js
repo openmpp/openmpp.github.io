@@ -23,6 +23,7 @@ var class_code_gen =
     [ "do_RunInit", "class_code_gen.html#ac519ab0c75afe8f15d59710428ed0311", null ],
     [ "do_RunModel", "class_code_gen.html#a5494df83bbe5b773f8c708c446c9d697", null ],
     [ "do_RunOnce", "class_code_gen.html#ad5125fa41f94dfd036ee2ef10ce1d6af", null ],
+    [ "do_table_dependencies", "class_code_gen.html#a08847679c175d1935204a897b808bb08", null ],
     [ "do_table_interface", "class_code_gen.html#a192754b0d303bba22ccded8a375efa35", null ],
     [ "do_types", "class_code_gen.html#a000000aef12acaf4d608228c6bd19749", null ],
     [ "c", "class_code_gen.html#a459ceb2dcc8fc62be3f492ed5a2cf000", null ],

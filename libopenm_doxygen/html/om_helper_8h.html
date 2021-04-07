@@ -211,45 +211,45 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a04e811691651fa5de01c687e2bb45e0a"><td class="memItemLeft" align="right" valign="top"><a id="a04e811691651fa5de01c687e2bb45e0a"></a>
-typedef map&lt; string, string, LessNoCase &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a04e811691651fa5de01c687e2bb45e0a">openm::NoCaseMap</a></td></tr>
-<tr class="memdesc:a04e811691651fa5de01c687e2bb45e0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">map of key-value strings with case neutral key search <br /></td></tr>
-<tr class="separator:a04e811691651fa5de01c687e2bb45e0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40508ad331f92c7a3a64f8a29a273ea6"><td class="memItemLeft" align="right" valign="top"><a id="a40508ad331f92c7a3a64f8a29a273ea6"></a>
-typedef set&lt; string, LessNoCase &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a40508ad331f92c7a3a64f8a29a273ea6">openm::NoCaseSet</a></td></tr>
-<tr class="memdesc:a40508ad331f92c7a3a64f8a29a273ea6"><td class="mdescLeft">&#160;</td><td class="mdescRight">set of strings with case neutral key search <br /></td></tr>
-<tr class="separator:a40508ad331f92c7a3a64f8a29a273ea6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a522491bf047e14378613a526822d5802"><td class="memItemLeft" align="right" valign="top"><a id="a522491bf047e14378613a526822d5802"></a>
-typedef unique_ptr&lt; IRowBase &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a522491bf047e14378613a526822d5802">openm::IRowBaseUptr</a></td></tr>
-<tr class="memdesc:a522491bf047e14378613a526822d5802"><td class="mdescLeft">&#160;</td><td class="mdescRight">unique pointer to db row <br /></td></tr>
-<tr class="separator:a522491bf047e14378613a526822d5802"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c490122908976114609adac8c178fee"><td class="memItemLeft" align="right" valign="top"><a id="a4c490122908976114609adac8c178fee"></a>
-typedef vector&lt; IRowBaseUptr &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a4c490122908976114609adac8c178fee">openm::IRowBaseVec</a></td></tr>
-<tr class="memdesc:a4c490122908976114609adac8c178fee"><td class="mdescLeft">&#160;</td><td class="mdescRight">db rows: vector of unique pointers to db row <br /></td></tr>
-<tr class="separator:a4c490122908976114609adac8c178fee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae410d60cf841f1b069f2280cb96a8a61"><td class="memItemLeft" align="right" valign="top"><a id="ae410d60cf841f1b069f2280cb96a8a61"></a>
-typedef list&lt; IRowBaseUptr &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#ae410d60cf841f1b069f2280cb96a8a61">openm::IRowBaseList</a></td></tr>
-<tr class="memdesc:ae410d60cf841f1b069f2280cb96a8a61"><td class="mdescLeft">&#160;</td><td class="mdescRight">db rows: list of unique pointers to db row <br /></td></tr>
-<tr class="separator:ae410d60cf841f1b069f2280cb96a8a61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9a196d865db1d64eb2832f924dcb892"><td class="memItemLeft" align="right" valign="top"><a id="ab9a196d865db1d64eb2832f924dcb892"></a>
+typedef std::map&lt; std::string, std::string, LessNoCase &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#ab9a196d865db1d64eb2832f924dcb892">openm::NoCaseMap</a></td></tr>
+<tr class="memdesc:ab9a196d865db1d64eb2832f924dcb892"><td class="mdescLeft">&#160;</td><td class="mdescRight">map of key-value strings with case neutral key search <br /></td></tr>
+<tr class="separator:ab9a196d865db1d64eb2832f924dcb892"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5bfb91bf524e0360b3b111070b0618e"><td class="memItemLeft" align="right" valign="top"><a id="af5bfb91bf524e0360b3b111070b0618e"></a>
+typedef std::set&lt; std::string, LessNoCase &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#af5bfb91bf524e0360b3b111070b0618e">openm::NoCaseSet</a></td></tr>
+<tr class="memdesc:af5bfb91bf524e0360b3b111070b0618e"><td class="mdescLeft">&#160;</td><td class="mdescRight">set of strings with case neutral key search <br /></td></tr>
+<tr class="separator:af5bfb91bf524e0360b3b111070b0618e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a757057801f42b2ae7b613235614f02b3"><td class="memItemLeft" align="right" valign="top"><a id="a757057801f42b2ae7b613235614f02b3"></a>
+typedef std::unique_ptr&lt; IRowBase &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a757057801f42b2ae7b613235614f02b3">openm::IRowBaseUptr</a></td></tr>
+<tr class="memdesc:a757057801f42b2ae7b613235614f02b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">unique pointer to db row <br /></td></tr>
+<tr class="separator:a757057801f42b2ae7b613235614f02b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae33ab59462c9f2ceef92d48c7fb449d0"><td class="memItemLeft" align="right" valign="top"><a id="ae33ab59462c9f2ceef92d48c7fb449d0"></a>
+typedef std::vector&lt; IRowBaseUptr &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#ae33ab59462c9f2ceef92d48c7fb449d0">openm::IRowBaseVec</a></td></tr>
+<tr class="memdesc:ae33ab59462c9f2ceef92d48c7fb449d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">db rows: vector of unique pointers to db row <br /></td></tr>
+<tr class="separator:ae33ab59462c9f2ceef92d48c7fb449d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74c2f172dedff80ff8aec8b65afff309"><td class="memItemLeft" align="right" valign="top"><a id="a74c2f172dedff80ff8aec8b65afff309"></a>
+typedef std::list&lt; IRowBaseUptr &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a74c2f172dedff80ff8aec8b65afff309">openm::IRowBaseList</a></td></tr>
+<tr class="memdesc:a74c2f172dedff80ff8aec8b65afff309"><td class="mdescLeft">&#160;</td><td class="mdescRight">db rows: list of unique pointers to db row <br /></td></tr>
+<tr class="separator:a74c2f172dedff80ff8aec8b65afff309"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ae23a42e8e60236c822806164f781b942"><td class="memItemLeft" align="right" valign="top"><a id="ae23a42e8e60236c822806164f781b942"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#ae23a42e8e60236c822806164f781b942">openm::toLower</a> (string &amp;io_str, const locale &amp;i_locale=locale(&quot;&quot;))</td></tr>
-<tr class="memdesc:ae23a42e8e60236c822806164f781b942"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert string to lower case <br /></td></tr>
-<tr class="separator:ae23a42e8e60236c822806164f781b942"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab48d80934ef15cd3848005af337a83df"><td class="memItemLeft" align="right" valign="top"><a id="ab48d80934ef15cd3848005af337a83df"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#ab48d80934ef15cd3848005af337a83df">openm::toLower</a> (char *io_str, const locale &amp;i_locale=locale(&quot;&quot;))</td></tr>
-<tr class="memdesc:ab48d80934ef15cd3848005af337a83df"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert string to lower case <br /></td></tr>
-<tr class="separator:ab48d80934ef15cd3848005af337a83df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92b12bddf24d9eeefc22c1303a6a1be9"><td class="memItemLeft" align="right" valign="top"><a id="a92b12bddf24d9eeefc22c1303a6a1be9"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a92b12bddf24d9eeefc22c1303a6a1be9">openm::toUpper</a> (string &amp;io_str, const locale &amp;i_locale=locale(&quot;&quot;))</td></tr>
-<tr class="memdesc:a92b12bddf24d9eeefc22c1303a6a1be9"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert string to upper case <br /></td></tr>
-<tr class="separator:a92b12bddf24d9eeefc22c1303a6a1be9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ce9b4e0a56f6717458f599261492c7b"><td class="memItemLeft" align="right" valign="top"><a id="a4ce9b4e0a56f6717458f599261492c7b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a4ce9b4e0a56f6717458f599261492c7b">openm::toUpper</a> (char *io_str, const locale &amp;i_locale=locale(&quot;&quot;))</td></tr>
-<tr class="memdesc:a4ce9b4e0a56f6717458f599261492c7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert string to upper case <br /></td></tr>
-<tr class="separator:a4ce9b4e0a56f6717458f599261492c7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab96ba682ecb8cf23dd7a0d1989bc82ba"><td class="memItemLeft" align="right" valign="top"><a id="ab96ba682ecb8cf23dd7a0d1989bc82ba"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#ab96ba682ecb8cf23dd7a0d1989bc82ba">openm::toLower</a> (std::string &amp;io_str, const std::locale &amp;i_locale=std::locale(&quot;&quot;))</td></tr>
+<tr class="memdesc:ab96ba682ecb8cf23dd7a0d1989bc82ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert string to lower case <br /></td></tr>
+<tr class="separator:ab96ba682ecb8cf23dd7a0d1989bc82ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38095a5425bb45384181435dbbcd351b"><td class="memItemLeft" align="right" valign="top"><a id="a38095a5425bb45384181435dbbcd351b"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a38095a5425bb45384181435dbbcd351b">openm::toLower</a> (char *io_str, const std::locale &amp;i_locale=std::locale(&quot;&quot;))</td></tr>
+<tr class="memdesc:a38095a5425bb45384181435dbbcd351b"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert string to lower case <br /></td></tr>
+<tr class="separator:a38095a5425bb45384181435dbbcd351b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac76a64eaacfc8f6d2bd61fc6251dbd7d"><td class="memItemLeft" align="right" valign="top"><a id="ac76a64eaacfc8f6d2bd61fc6251dbd7d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#ac76a64eaacfc8f6d2bd61fc6251dbd7d">openm::toUpper</a> (std::string &amp;io_str, const std::locale &amp;i_locale=std::locale(&quot;&quot;))</td></tr>
+<tr class="memdesc:ac76a64eaacfc8f6d2bd61fc6251dbd7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert string to upper case <br /></td></tr>
+<tr class="separator:ac76a64eaacfc8f6d2bd61fc6251dbd7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d94e57c7c49ae5338c35855631fcde5"><td class="memItemLeft" align="right" valign="top"><a id="a8d94e57c7c49ae5338c35855631fcde5"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a8d94e57c7c49ae5338c35855631fcde5">openm::toUpper</a> (char *io_str, const std::locale &amp;i_locale=std::locale(&quot;&quot;))</td></tr>
+<tr class="memdesc:a8d94e57c7c49ae5338c35855631fcde5"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert string to upper case <br /></td></tr>
+<tr class="separator:a8d94e57c7c49ae5338c35855631fcde5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71dd982ad59730b7f867951644e7a7ae"><td class="memItemLeft" align="right" valign="top"><a id="a71dd982ad59730b7f867951644e7a7ae"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a71dd982ad59730b7f867951644e7a7ae">openm::compareNoCase</a> (const char *i_left, const char *i_right, size_t i_length=0)</td></tr>
 <tr class="memdesc:a71dd982ad59730b7f867951644e7a7ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">case neutral string comparison <br /></td></tr>
@@ -258,63 +258,71 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="names
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#ac80656844f7f527cafa160438d6c0294">openm::equalNoCase</a> (const char *i_left, const char *i_right, size_t i_length=0)</td></tr>
 <tr class="memdesc:ac80656844f7f527cafa160438d6c0294"><td class="mdescLeft">&#160;</td><td class="mdescRight">case neutral string equal comparison <br /></td></tr>
 <tr class="separator:ac80656844f7f527cafa160438d6c0294"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a6d2d9e17ef12c040e1fbf9a5a38f52"><td class="memItemLeft" align="right" valign="top"><a id="a2a6d2d9e17ef12c040e1fbf9a5a38f52"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a2a6d2d9e17ef12c040e1fbf9a5a38f52">openm::startWithNoCase</a> (const string &amp;i_str, const char *i_start)</td></tr>
-<tr class="memdesc:a2a6d2d9e17ef12c040e1fbf9a5a38f52"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if string start with i_start, using case neutral string comparison <br /></td></tr>
-<tr class="separator:a2a6d2d9e17ef12c040e1fbf9a5a38f52"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4bb487f7402407bb9181bd57f13fe6d"><td class="memItemLeft" align="right" valign="top"><a id="ae4bb487f7402407bb9181bd57f13fe6d"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#ae4bb487f7402407bb9181bd57f13fe6d">openm::endWithNoCase</a> (const string &amp;i_str, const char *i_end)</td></tr>
-<tr class="memdesc:ae4bb487f7402407bb9181bd57f13fe6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if string end with i_end, using case neutral string comparison <br /></td></tr>
-<tr class="separator:ae4bb487f7402407bb9181bd57f13fe6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab77a1b030e9cb91d0d35eeb66478c66a"><td class="memItemLeft" align="right" valign="top"><a id="ab77a1b030e9cb91d0d35eeb66478c66a"></a>
-string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#ab77a1b030e9cb91d0d35eeb66478c66a">openm::trimLeft</a> (const string &amp;i_str, const locale &amp;i_locale=locale(&quot;&quot;))</td></tr>
-<tr class="memdesc:ab77a1b030e9cb91d0d35eeb66478c66a"><td class="mdescLeft">&#160;</td><td class="mdescRight">trim leading blank and space characters <br /></td></tr>
-<tr class="separator:ab77a1b030e9cb91d0d35eeb66478c66a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a68613d28963e2b4234372778c8954b53"><td class="memItemLeft" align="right" valign="top"><a id="a68613d28963e2b4234372778c8954b53"></a>
-string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a68613d28963e2b4234372778c8954b53">openm::trimRight</a> (const string &amp;i_str, const locale &amp;i_locale=locale(&quot;&quot;))</td></tr>
-<tr class="memdesc:a68613d28963e2b4234372778c8954b53"><td class="mdescLeft">&#160;</td><td class="mdescRight">trim trailing blank and space characters <br /></td></tr>
-<tr class="separator:a68613d28963e2b4234372778c8954b53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac94691ddf5ebb38646b1e849881421cb"><td class="memItemLeft" align="right" valign="top"><a id="ac94691ddf5ebb38646b1e849881421cb"></a>
-string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#ac94691ddf5ebb38646b1e849881421cb">openm::trim</a> (const string &amp;i_str, const locale &amp;i_locale=locale(&quot;&quot;))</td></tr>
-<tr class="memdesc:ac94691ddf5ebb38646b1e849881421cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">trim leading and trailing blank and space characters <br /></td></tr>
-<tr class="separator:ac94691ddf5ebb38646b1e849881421cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acbce8791d8886f69b1936c384b76df2d"><td class="memItemLeft" align="right" valign="top"><a id="acbce8791d8886f69b1936c384b76df2d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#acbce8791d8886f69b1936c384b76df2d">openm::blankCrLf</a> (string &amp;io_str)</td></tr>
-<tr class="memdesc:acbce8791d8886f69b1936c384b76df2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">replace all &lt;cr&gt; or &lt;lf&gt; with blank space character <br /></td></tr>
-<tr class="separator:acbce8791d8886f69b1936c384b76df2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c5633716195025cf22176985414d586"><td class="memItemLeft" align="right" valign="top"><a id="a9c5633716195025cf22176985414d586"></a>
-const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a9c5633716195025cf22176985414d586">openm::toQuoted</a> (const string &amp;i_str, char i_quote='\'')</td></tr>
-<tr class="memdesc:a9c5633716195025cf22176985414d586"><td class="mdescLeft">&#160;</td><td class="mdescRight">make quoted string using sql single ' quote by default, ie: 'O''Brien' <br /></td></tr>
-<tr class="separator:a9c5633716195025cf22176985414d586"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeae0e8e65715807bfb857171adb15a20"><td class="memItemLeft" align="right" valign="top"><a id="aeae0e8e65715807bfb857171adb15a20"></a>
-const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#aeae0e8e65715807bfb857171adb15a20">openm::toUnQuoted</a> (const string &amp;i_str, char i_quote='\'', const locale &amp;i_locale=locale(&quot;&quot;))</td></tr>
-<tr class="memdesc:aeae0e8e65715807bfb857171adb15a20"><td class="mdescLeft">&#160;</td><td class="mdescRight">make unquoted string using sql single ' quote by default, ie: 'O''Brien' into O'Brien <br /></td></tr>
-<tr class="separator:aeae0e8e65715807bfb857171adb15a20"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b2899d2f04ea71f2a61b1700afb2123"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a8b2899d2f04ea71f2a61b1700afb2123">openm::toString</a> (double i_val)</td></tr>
+<tr class="memitem:a74e452e0385df0ebf9ae352a205cf9d9"><td class="memItemLeft" align="right" valign="top"><a id="a74e452e0385df0ebf9ae352a205cf9d9"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a74e452e0385df0ebf9ae352a205cf9d9">openm::startWithNoCase</a> (const std::string &amp;i_str, const char *i_start)</td></tr>
+<tr class="memdesc:a74e452e0385df0ebf9ae352a205cf9d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if string start with i_start, using case neutral string comparison <br /></td></tr>
+<tr class="separator:a74e452e0385df0ebf9ae352a205cf9d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3fa9f34d397207e9c803e56b572ce8d"><td class="memItemLeft" align="right" valign="top"><a id="ad3fa9f34d397207e9c803e56b572ce8d"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#ad3fa9f34d397207e9c803e56b572ce8d">openm::endWithNoCase</a> (const std::string &amp;i_str, const char *i_end)</td></tr>
+<tr class="memdesc:ad3fa9f34d397207e9c803e56b572ce8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if string end with i_end, using case neutral string comparison <br /></td></tr>
+<tr class="separator:ad3fa9f34d397207e9c803e56b572ce8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c690e79d0791892ce01c889b7beee82"><td class="memItemLeft" align="right" valign="top"><a id="a3c690e79d0791892ce01c889b7beee82"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a3c690e79d0791892ce01c889b7beee82">openm::trimLeft</a> (const std::string &amp;i_str, const std::locale &amp;i_locale=std::locale(&quot;&quot;))</td></tr>
+<tr class="memdesc:a3c690e79d0791892ce01c889b7beee82"><td class="mdescLeft">&#160;</td><td class="mdescRight">trim leading blank and space characters <br /></td></tr>
+<tr class="separator:a3c690e79d0791892ce01c889b7beee82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41eba8a959a0539b1eabdc1418627aef"><td class="memItemLeft" align="right" valign="top"><a id="a41eba8a959a0539b1eabdc1418627aef"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a41eba8a959a0539b1eabdc1418627aef">openm::trimRight</a> (const std::string &amp;i_str, const std::locale &amp;i_locale=std::locale(&quot;&quot;))</td></tr>
+<tr class="memdesc:a41eba8a959a0539b1eabdc1418627aef"><td class="mdescLeft">&#160;</td><td class="mdescRight">trim trailing blank and space characters <br /></td></tr>
+<tr class="separator:a41eba8a959a0539b1eabdc1418627aef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9aaf153f333a0a0a7752793656b6e94"><td class="memItemLeft" align="right" valign="top"><a id="ab9aaf153f333a0a0a7752793656b6e94"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#ab9aaf153f333a0a0a7752793656b6e94">openm::trim</a> (const std::string &amp;i_str, const std::locale &amp;i_locale=std::locale(&quot;&quot;))</td></tr>
+<tr class="memdesc:ab9aaf153f333a0a0a7752793656b6e94"><td class="mdescLeft">&#160;</td><td class="mdescRight">trim leading and trailing blank and space characters <br /></td></tr>
+<tr class="separator:ab9aaf153f333a0a0a7752793656b6e94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a736d241d2bf2998ca941da181ea2f02f"><td class="memItemLeft" align="right" valign="top"><a id="a736d241d2bf2998ca941da181ea2f02f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a736d241d2bf2998ca941da181ea2f02f">openm::blankCrLf</a> (std::string &amp;io_str)</td></tr>
+<tr class="memdesc:a736d241d2bf2998ca941da181ea2f02f"><td class="mdescLeft">&#160;</td><td class="mdescRight">replace all &lt;cr&gt; or &lt;lf&gt; with blank space character <br /></td></tr>
+<tr class="separator:a736d241d2bf2998ca941da181ea2f02f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae044ab7b99e67a861cc006302e388c81"><td class="memItemLeft" align="right" valign="top"><a id="ae044ab7b99e67a861cc006302e388c81"></a>
+const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#ae044ab7b99e67a861cc006302e388c81">openm::toQuoted</a> (const std::string &amp;i_str, char i_quote='\'')</td></tr>
+<tr class="memdesc:ae044ab7b99e67a861cc006302e388c81"><td class="mdescLeft">&#160;</td><td class="mdescRight">make quoted string using sql single ' quote by default, ie: 'O''Brien' <br /></td></tr>
+<tr class="separator:ae044ab7b99e67a861cc006302e388c81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dd7b168ca5e116bdf689743ca418cf9"><td class="memItemLeft" align="right" valign="top"><a id="a9dd7b168ca5e116bdf689743ca418cf9"></a>
+const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a9dd7b168ca5e116bdf689743ca418cf9">openm::toUnQuoted</a> (const std::string &amp;i_str, char i_quote='\'', const std::locale &amp;i_locale=std::locale(&quot;&quot;))</td></tr>
+<tr class="memdesc:a9dd7b168ca5e116bdf689743ca418cf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">make unquoted string using sql single ' quote by default, ie: 'O''Brien' into O'Brien <br /></td></tr>
+<tr class="separator:a9dd7b168ca5e116bdf689743ca418cf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b2899d2f04ea71f2a61b1700afb2123"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a8b2899d2f04ea71f2a61b1700afb2123">openm::toString</a> (double i_val)</td></tr>
 <tr class="memdesc:a8b2899d2f04ea71f2a61b1700afb2123"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert float type to string: exist to fix std::to_string conversion losses.  <a href="namespaceopenm.html#a8b2899d2f04ea71f2a61b1700afb2123">More...</a><br /></td></tr>
 <tr class="separator:a8b2899d2f04ea71f2a61b1700afb2123"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73039b79b43a35cf37eae1d3379d5412"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a73039b79b43a35cf37eae1d3379d5412">openm::toAlphaNumeric</a> (const string &amp;i_str, int i_maxSize=0)</td></tr>
-<tr class="memdesc:a73039b79b43a35cf37eae1d3379d5412"><td class="mdescLeft">&#160;</td><td class="mdescRight">replace all non [A-Z,a-z,0-9] by _ underscore and remove repetitive underscores.  <a href="namespaceopenm.html#a73039b79b43a35cf37eae1d3379d5412">More...</a><br /></td></tr>
-<tr class="separator:a73039b79b43a35cf37eae1d3379d5412"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e6c763f6bbba91f3be5a02b5a81910c"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a8e6c763f6bbba91f3be5a02b5a81910c">openm::cleanPathChars</a> (const string &amp;i_str, int i_maxSize=0)</td></tr>
-<tr class="memdesc:a8e6c763f6bbba91f3be5a02b5a81910c"><td class="mdescLeft">&#160;</td><td class="mdescRight">replace all non non-printable and any of "'`$}{&gt;&lt;:|?*&amp;^;/\ by _ underscore.  <a href="namespaceopenm.html#a8e6c763f6bbba91f3be5a02b5a81910c">More...</a><br /></td></tr>
-<tr class="separator:a8e6c763f6bbba91f3be5a02b5a81910c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4b2b9aba810f98ad58e67dd113220e0"><td class="memItemLeft" align="right" valign="top"><a id="ab4b2b9aba810f98ad58e67dd113220e0"></a>
-const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#ab4b2b9aba810f98ad58e67dd113220e0">openm::replaceAll</a> (const string &amp;i_src, const char *i_oldValue, const char *i_newValue)</td></tr>
-<tr class="memdesc:ab4b2b9aba810f98ad58e67dd113220e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">replace all occurence of i_oldValue by i_newValue, both old and new values must be not empty <br /></td></tr>
-<tr class="separator:ab4b2b9aba810f98ad58e67dd113220e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a0824834ab8742c1f0385d72beceee5"><td class="memItemLeft" align="right" valign="top"><a id="a9a0824834ab8742c1f0385d72beceee5"></a>
-const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a9a0824834ab8742c1f0385d72beceee5">openm::makeDateTime</a> (const chrono::system_clock::time_point &amp;i_time)</td></tr>
-<tr class="memdesc:a9a0824834ab8742c1f0385d72beceee5"><td class="mdescLeft">&#160;</td><td class="mdescRight">make date-time string, ie: 2012-08-17 16:04:59.148 <br /></td></tr>
-<tr class="separator:a9a0824834ab8742c1f0385d72beceee5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a977c6a80479466633f5876f78faf5510"><td class="memItemLeft" align="right" valign="top"><a id="a977c6a80479466633f5876f78faf5510"></a>
-const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a977c6a80479466633f5876f78faf5510">openm::makeTimeStamp</a> (const chrono::system_clock::time_point &amp;i_time)</td></tr>
-<tr class="memdesc:a977c6a80479466633f5876f78faf5510"><td class="mdescLeft">&#160;</td><td class="mdescRight">make timestamp string, ie: 2012_08_17_16_04_59_148 <br /></td></tr>
-<tr class="separator:a977c6a80479466633f5876f78faf5510"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42e4774552b5355494114c339b7e7a19"><td class="memItemLeft" align="right" valign="top"><a id="a42e4774552b5355494114c339b7e7a19"></a>
-const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a42e4774552b5355494114c339b7e7a19">openm::toDateTimeString</a> (const string &amp;i_timestamp)</td></tr>
-<tr class="memdesc:a42e4774552b5355494114c339b7e7a19"><td class="mdescLeft">&#160;</td><td class="mdescRight">make date-time string from timestamp string, ie: 2012_08_17_16_04_59_148 =&gt; 2012-08-17 16:04:59.148 <br /></td></tr>
-<tr class="separator:a42e4774552b5355494114c339b7e7a19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a236ec398198f98c0cefb1b4786540adc"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a236ec398198f98c0cefb1b4786540adc">openm::toAlphaNumeric</a> (const std::string &amp;i_str, int i_maxSize=0)</td></tr>
+<tr class="memdesc:a236ec398198f98c0cefb1b4786540adc"><td class="mdescLeft">&#160;</td><td class="mdescRight">replace all non [A-Z,a-z,0-9] by _ underscore and remove repetitive underscores.  <a href="namespaceopenm.html#a236ec398198f98c0cefb1b4786540adc">More...</a><br /></td></tr>
+<tr class="separator:a236ec398198f98c0cefb1b4786540adc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdbabd614f17d8c5f45e23ac509a47cd"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#afdbabd614f17d8c5f45e23ac509a47cd">openm::cleanPathChars</a> (const std::string &amp;i_str, int i_maxSize=0)</td></tr>
+<tr class="memdesc:afdbabd614f17d8c5f45e23ac509a47cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">replace all non non-printable and any of "'`$}{&gt;&lt;:|?*&amp;^;/\ by _ underscore.  <a href="namespaceopenm.html#afdbabd614f17d8c5f45e23ac509a47cd">More...</a><br /></td></tr>
+<tr class="separator:afdbabd614f17d8c5f45e23ac509a47cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d433efdc5957713037491fb1a87092e"><td class="memItemLeft" align="right" valign="top"><a id="a5d433efdc5957713037491fb1a87092e"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a5d433efdc5957713037491fb1a87092e">openm::boolStringToInt</a> (const char *i_value)</td></tr>
+<tr class="memdesc:a5d433efdc5957713037491fb1a87092e"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert i_value string represnting boolean option and return one of: <br />
+return 1 if i_value is one of: "yes", "1", "true" or empty "" value, <br />
+return 0 if i_value is one of: "no", "0", "false", <br />
+return -1 if i_value is nullptr, <br />
+return -2 otherwise. <br /></td></tr>
+<tr class="separator:a5d433efdc5957713037491fb1a87092e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5249d037e3db515686b680f898bf943"><td class="memItemLeft" align="right" valign="top"><a id="af5249d037e3db515686b680f898bf943"></a>
+const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#af5249d037e3db515686b680f898bf943">openm::replaceAll</a> (const std::string &amp;i_src, const char *i_oldValue, const char *i_newValue)</td></tr>
+<tr class="memdesc:af5249d037e3db515686b680f898bf943"><td class="mdescLeft">&#160;</td><td class="mdescRight">replace all occurence of i_oldValue by i_newValue, both old and new values must be not empty <br /></td></tr>
+<tr class="separator:af5249d037e3db515686b680f898bf943"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08ac8f284441c4f18737313f7e0fb99a"><td class="memItemLeft" align="right" valign="top"><a id="a08ac8f284441c4f18737313f7e0fb99a"></a>
+const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a08ac8f284441c4f18737313f7e0fb99a">openm::makeDateTime</a> (const std::chrono::system_clock::time_point &amp;i_time)</td></tr>
+<tr class="memdesc:a08ac8f284441c4f18737313f7e0fb99a"><td class="mdescLeft">&#160;</td><td class="mdescRight">make date-time string, ie: 2012-08-17 16:04:59.148 <br /></td></tr>
+<tr class="separator:a08ac8f284441c4f18737313f7e0fb99a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58e50c3a2b19a28e4dfcac0f8691a561"><td class="memItemLeft" align="right" valign="top"><a id="a58e50c3a2b19a28e4dfcac0f8691a561"></a>
+const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a58e50c3a2b19a28e4dfcac0f8691a561">openm::makeTimeStamp</a> (const std::chrono::system_clock::time_point &amp;i_time)</td></tr>
+<tr class="memdesc:a58e50c3a2b19a28e4dfcac0f8691a561"><td class="mdescLeft">&#160;</td><td class="mdescRight">make timestamp string, ie: 2012_08_17_16_04_59_148 <br /></td></tr>
+<tr class="separator:a58e50c3a2b19a28e4dfcac0f8691a561"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8ae4ef3e653c615daae9b357ced6a87"><td class="memItemLeft" align="right" valign="top"><a id="ac8ae4ef3e653c615daae9b357ced6a87"></a>
+const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#ac8ae4ef3e653c615daae9b357ced6a87">openm::toDateTimeString</a> (const std::string &amp;i_timestamp)</td></tr>
+<tr class="memdesc:ac8ae4ef3e653c615daae9b357ced6a87"><td class="mdescLeft">&#160;</td><td class="mdescRight">make date-time string from timestamp string, ie: 2012_08_17_16_04_59_148 =&gt; 2012-08-17 16:04:59.148 <br /></td></tr>
+<tr class="separator:ac8ae4ef3e653c615daae9b357ced6a87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79817a8d2562a945198ee9e1757f2131"><td class="memItemLeft" align="right" valign="top"><a id="a79817a8d2562a945198ee9e1757f2131"></a>
 int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a79817a8d2562a945198ee9e1757f2131">openm::getMilliseconds</a> (void)</td></tr>
 <tr class="memdesc:a79817a8d2562a945198ee9e1757f2131"><td class="mdescLeft">&#160;</td><td class="mdescRight">return number of milliseconds since epoch to measure intervals <br /></td></tr>
@@ -327,24 +335,24 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="name
 const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a1f5ac755a43414a841bd30204b7dbea4">openm::elliptString</a> (const char *i_src, size_t i_size, char *io_buffer)</td></tr>
 <tr class="memdesc:a1f5ac755a43414a841bd30204b7dbea4"><td class="mdescLeft">&#160;</td><td class="mdescRight">if source string exceed max size than return ellipted copy into the buffer <br /></td></tr>
 <tr class="separator:a1f5ac755a43414a841bd30204b7dbea4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d8c46a82927547598023f636fe4a2b4"><td class="memItemLeft" align="right" valign="top"><a id="a3d8c46a82927547598023f636fe4a2b4"></a>
-const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a3d8c46a82927547598023f636fe4a2b4">openm::normalizeLanguageName</a> (const string &amp;i_srcLanguage)</td></tr>
-<tr class="memdesc:a3d8c46a82927547598023f636fe4a2b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">normalize language name by removing encoding part, replace _ by - and lower case: "en-ca" from "en_CA.UTF-8" <br /></td></tr>
-<tr class="separator:a3d8c46a82927547598023f636fe4a2b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aebeb1a5820076eafbaafb0cb3adfc5be"><td class="memItemLeft" align="right" valign="top"><a id="aebeb1a5820076eafbaafb0cb3adfc5be"></a>
-const list&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#aebeb1a5820076eafbaafb0cb3adfc5be">openm::splitLanguageName</a> (const string &amp;i_srcLanguage)</td></tr>
-<tr class="memdesc:aebeb1a5820076eafbaafb0cb3adfc5be"><td class="mdescLeft">&#160;</td><td class="mdescRight">normalize language name and split it into list of prefered languages: en_CA =&gt; [en-ca, en] <br /></td></tr>
-<tr class="separator:aebeb1a5820076eafbaafb0cb3adfc5be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ed4083d5e5ab52d4d626d69419f3e12"><td class="memItemLeft" align="right" valign="top"><a id="a9ed4083d5e5ab52d4d626d69419f3e12"></a>
+const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a9ed4083d5e5ab52d4d626d69419f3e12">openm::normalizeLanguageName</a> (const std::string &amp;i_srcLanguage)</td></tr>
+<tr class="memdesc:a9ed4083d5e5ab52d4d626d69419f3e12"><td class="mdescLeft">&#160;</td><td class="mdescRight">normalize language name by removing encoding part, replace _ by - and lower case: "en-ca" from "en_CA.UTF-8" <br /></td></tr>
+<tr class="separator:a9ed4083d5e5ab52d4d626d69419f3e12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2800edf935087455510600e768e17f3"><td class="memItemLeft" align="right" valign="top"><a id="ad2800edf935087455510600e768e17f3"></a>
+const std::list&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#ad2800edf935087455510600e768e17f3">openm::splitLanguageName</a> (const std::string &amp;i_srcLanguage)</td></tr>
+<tr class="memdesc:ad2800edf935087455510600e768e17f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">normalize language name and split it into list of prefered languages: en_CA =&gt; [en-ca, en] <br /></td></tr>
+<tr class="separator:ad2800edf935087455510600e768e17f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53aceb151662b27ab94b62a3f766b5ea"><td class="memItemLeft" align="right" valign="top"><a id="a53aceb151662b27ab94b62a3f766b5ea"></a>
-const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a53aceb151662b27ab94b62a3f766b5ea">openm::getDefaultLocaleName</a> (void)</td></tr>
+const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a53aceb151662b27ab94b62a3f766b5ea">openm::getDefaultLocaleName</a> (void)</td></tr>
 <tr class="memdesc:a53aceb151662b27ab94b62a3f766b5ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">get user prefered locale name: en-CA en-CA or empty "" string on error <br /></td></tr>
 <tr class="separator:a53aceb151662b27ab94b62a3f766b5ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aacfc35587e75d7092699eefd06a6a8a8"><td class="memItemLeft" align="right" valign="top">list&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#aacfc35587e75d7092699eefd06a6a8a8">openm::splitCsv</a> (const string &amp;i_values, const char *i_delimiters=&quot;,&quot;, bool i_isUnquote=false, char i_quote='\'')</td></tr>
-<tr class="memdesc:aacfc35587e75d7092699eefd06a6a8a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">split and trim comma-separated list of values (other delimiters can be used too, ie: semicolon).  <a href="namespaceopenm.html#aacfc35587e75d7092699eefd06a6a8a8">More...</a><br /></td></tr>
-<tr class="separator:aacfc35587e75d7092699eefd06a6a8a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77001211699783bc19f65b7e2b6ea53d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a77001211699783bc19f65b7e2b6ea53d">openm::splitCsv</a> (const string &amp;i_values, list&lt; string &gt; &amp;io_resultLst, const char *i_delimiters=&quot;,&quot;, bool i_isUnquote=false, char i_quote='\'', const locale &amp;i_locale=locale(&quot;&quot;))</td></tr>
-<tr class="memdesc:a77001211699783bc19f65b7e2b6ea53d"><td class="mdescLeft">&#160;</td><td class="mdescRight">split and trim comma-separated list of values (other delimiters can be used too, ie: semicolon).  <a href="namespaceopenm.html#a77001211699783bc19f65b7e2b6ea53d">More...</a><br /></td></tr>
-<tr class="separator:a77001211699783bc19f65b7e2b6ea53d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac04f2e0df51904c51dde3eb978a1f8af"><td class="memItemLeft" align="right" valign="top">std::list&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#ac04f2e0df51904c51dde3eb978a1f8af">openm::splitCsv</a> (const std::string &amp;i_values, const char *i_delimiters=&quot;,&quot;, bool i_isUnquote=false, char i_quote='\'')</td></tr>
+<tr class="memdesc:ac04f2e0df51904c51dde3eb978a1f8af"><td class="mdescLeft">&#160;</td><td class="mdescRight">split and trim comma-separated list of values (other delimiters can be used too, ie: semicolon).  <a href="namespaceopenm.html#ac04f2e0df51904c51dde3eb978a1f8af">More...</a><br /></td></tr>
+<tr class="separator:ac04f2e0df51904c51dde3eb978a1f8af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a723cbbbc195258d1e5a49ea5e44a0609"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a723cbbbc195258d1e5a49ea5e44a0609">openm::splitCsv</a> (const std::string &amp;i_values, std::list&lt; std::string &gt; &amp;io_resultLst, const char *i_delimiters=&quot;,&quot;, bool i_isUnquote=false, char i_quote='\'', const std::locale &amp;i_locale=std::locale(&quot;&quot;))</td></tr>
+<tr class="memdesc:a723cbbbc195258d1e5a49ea5e44a0609"><td class="mdescLeft">&#160;</td><td class="mdescRight">split and trim comma-separated list of values (other delimiters can be used too, ie: semicolon).  <a href="namespaceopenm.html#a723cbbbc195258d1e5a49ea5e44a0609">More...</a><br /></td></tr>
+<tr class="separator:a723cbbbc195258d1e5a49ea5e44a0609"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>OpenM++ common helper utilities. </p>
@@ -354,7 +362,7 @@ const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_30e93d7ad2ce010165d2d10f88217613.html">libopenm</a></li><li class="navelem"><a class="el" href="dir_5ddca90b2bfae5da637f3f9890c9c5cd.html">common</a></li><li class="navelem"><a class="el" href="om_helper_8h.html">omHelper.h</a></li>
-    <li class="footer">Generated on Tue Feb 2 2021 22:45:54 for OpenM++ runtime library (libopenm) by
+    <li class="footer">Generated on Tue Apr 6 2021 22:27:07 for OpenM++ runtime library (libopenm) by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

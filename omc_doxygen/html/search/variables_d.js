@@ -8,6 +8,7 @@ var searchData=
   ['obs_5fcollection_5findex',['obs_collection_index',['../class_entity_table_accumulator_symbol.html#a50ea73c31378f9240a48d52fdb2196ce',1,'EntityTableAccumulatorSymbol']]],
   ['om_5fdeveloper_5ffunctions',['om_developer_functions',['../class_symbol.html#ae0196ff5f82c337f506781292496e579',1,'Symbol']]],
   ['om_5fouter_5fkeywords',['om_outer_keywords',['../class_symbol.html#ad5e0f9aafd0c5457e754550635ecb441',1,'Symbol']]],
+  ['option_5fallow_5fclairvoyance',['option_allow_clairvoyance',['../class_symbol.html#a861003d95a77a2dcc7547822ddfc538e',1,'Symbol']]],
   ['option_5fallow_5ftime_5ftravel',['option_allow_time_travel',['../class_symbol.html#afceb95c37e2022cc6664381976a70fb4',1,'Symbol']]],
   ['option_5fcase_5fchecksum',['option_case_checksum',['../class_symbol.html#af0ef6d0ddd168f2af025a67039a1cee7',1,'Symbol']]],
   ['option_5fevent_5ftrace',['option_event_trace',['../class_symbol.html#a2ef683113c066813f03b1c42304c980f',1,'Symbol']]],

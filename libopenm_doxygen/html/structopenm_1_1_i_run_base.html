@@ -94,11 +94,20 @@ Inheritance diagram for openm::IRunBase:</div>
 <div class="dyncontent">
 <div class="center"><img src="structopenm_1_1_i_run_base__inherit__graph.png" border="0" usemap="#openm_1_1_i_run_base_inherit__map" alt="Inheritance graph"/></div>
 <map name="openm_1_1_i_run_base_inherit__map" id="openm_1_1_i_run_base_inherit__map">
-<area shape="rect" id="node2" href="classopenm_1_1_run_controller.html" title="run controller: create new model run(s) and support data exchange. " alt="" coords="179,81,325,108"/>
-<area shape="rect" id="node3" href="classopenm_1_1_child_controller.html" title="controller for child process: receive input parameters from root and send output tables. " alt="" coords="380,5,533,32"/>
-<area shape="rect" id="node4" href="classopenm_1_1_restart_controller.html" title="controller for &quot;restart run&quot;: calculate outstanding sub&#45;values for existing run " alt="" coords="373,56,540,83"/>
-<area shape="rect" id="node5" href="classopenm_1_1_root_controller.html" title="controller for root process: create new model run(s), send input parameters to children and receieve ..." alt="" coords="381,107,532,133"/>
-<area shape="rect" id="node6" href="classopenm_1_1_single_controller.html" title="controller for single process: create new model run(s), read input parameters and write output tables..." alt="" coords="377,157,537,184"/>
+<area shape="rect" id="node3" href="classopenm_1_1_run_controller.html" title="run controller: create new model run(s) and support data exchange. " alt="" coords="367,81,513,108"/>
+<area shape="rect" id="node2" href="structopenm_1_1_i_run_options.html" title="public interface to get model run options " alt="" coords="5,81,145,108"/>
+<area shape="rect" id="node4" href="classopenm_1_1_child_controller.html" title="controller for child process: receive input parameters from root and send output tables. " alt="" coords="568,5,721,32"/>
+<area shape="rect" id="node5" href="classopenm_1_1_restart_controller.html" title="controller for &quot;restart run&quot;: calculate outstanding sub&#45;values for existing run " alt="" coords="561,56,728,83"/>
+<area shape="rect" id="node6" href="classopenm_1_1_root_controller.html" title="controller for root process: create new model run(s), send input parameters to children and receieve ..." alt="" coords="569,107,720,133"/>
+<area shape="rect" id="node7" href="classopenm_1_1_single_controller.html" title="controller for single process: create new model run(s), read input parameters and write output tables..." alt="" coords="565,157,725,184"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for openm::IRunBase:</div>
+<div class="dyncontent">
+<div class="center"><img src="structopenm_1_1_i_run_base__coll__graph.png" border="0" usemap="#openm_1_1_i_run_base_coll__map" alt="Collaboration graph"/></div>
+<map name="openm_1_1_i_run_base_coll__map" id="openm_1_1_i_run_base_coll__map">
+<area shape="rect" id="node2" href="structopenm_1_1_i_run_options.html" title="public interface to get model run options " alt="" coords="5,5,145,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -106,7 +115,7 @@ Inheritance diagram for openm::IRunBase:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ac5992f69331c72ae8926363a6f666c4d"><td class="memItemLeft" align="right" valign="top"><a id="ac5992f69331c72ae8926363a6f666c4d"></a>
 virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_run_base.html#ac5992f69331c72ae8926363a6f666c4d">parameterIdByName</a> (const char *i_name) const =0</td></tr>
-<tr class="memdesc:ac5992f69331c72ae8926363a6f666c4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">return index of parameter by name <br /></td></tr>
+<tr class="memdesc:ac5992f69331c72ae8926363a6f666c4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">return id of parameter by name <br /></td></tr>
 <tr class="separator:ac5992f69331c72ae8926363a6f666c4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99a574e93f3e07e888870467dfaefd59"><td class="memItemLeft" align="right" valign="top"><a id="a99a574e93f3e07e888870467dfaefd59"></a>
 virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_run_base.html#a99a574e93f3e07e888870467dfaefd59">parameterSubCount</a> (int i_paramId) const =0</td></tr>
@@ -124,10 +133,40 @@ virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_run_base.html#ac0975245f23e4f90d11fd34edd8ed866">isUseSubValue</a> (int i_subId) const =0</td></tr>
 <tr class="memdesc:ac0975245f23e4f90d11fd34edd8ed866"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if sub-value used by current process <br /></td></tr>
 <tr class="separator:ac0975245f23e4f90d11fd34edd8ed866"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8accac25138b1ac01410c2644c88f1f"><td class="memItemLeft" align="right" valign="top"><a id="ac8accac25138b1ac01410c2644c88f1f"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_run_base.html#ac8accac25138b1ac01410c2644c88f1f">readParameter</a> (const char *i_name, int i_subId, const type_info &amp;i_type, size_t i_size, void *io_valueArr)=0</td></tr>
-<tr class="memdesc:ac8accac25138b1ac01410c2644c88f1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">read model parameter <br /></td></tr>
-<tr class="separator:ac8accac25138b1ac01410c2644c88f1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84612ac0177d89f0a0c7efc7f0df9fad"><td class="memItemLeft" align="right" valign="top"><a id="a84612ac0177d89f0a0c7efc7f0df9fad"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_run_base.html#a84612ac0177d89f0a0c7efc7f0df9fad">readParameter</a> (const char *i_name, int i_subId, const std::type_info &amp;i_type, size_t i_size, void *io_valueArr)=0</td></tr>
+<tr class="memdesc:a84612ac0177d89f0a0c7efc7f0df9fad"><td class="mdescLeft">&#160;</td><td class="mdescRight">read model parameter <br /></td></tr>
+<tr class="separator:a84612ac0177d89f0a0c7efc7f0df9fad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_structopenm_1_1_i_run_options"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structopenm_1_1_i_run_options')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structopenm_1_1_i_run_options.html">openm::IRunOptions</a></td></tr>
+<tr class="memitem:a25f1b41974351830431fc00c631a006a inherit pub_methods_structopenm_1_1_i_run_options"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_run_options.html#a25f1b41974351830431fc00c631a006a">isOptionExist</a> (const char *i_key) const noexcept=0</td></tr>
+<tr class="memdesc:a25f1b41974351830431fc00c631a006a inherit pub_methods_structopenm_1_1_i_run_options"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if run option found by i_key in run_option table for the current run id.  <a href="structopenm_1_1_i_run_options.html#a25f1b41974351830431fc00c631a006a">More...</a><br /></td></tr>
+<tr class="separator:a25f1b41974351830431fc00c631a006a inherit pub_methods_structopenm_1_1_i_run_options"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad236561fcddede9a0251cf15bd7a191f inherit pub_methods_structopenm_1_1_i_run_options"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_run_options.html#ad236561fcddede9a0251cf15bd7a191f">strOption</a> (const char *i_key, const std::string &amp;i_default=&quot;&quot;) const noexcept=0</td></tr>
+<tr class="memdesc:ad236561fcddede9a0251cf15bd7a191f inherit pub_methods_structopenm_1_1_i_run_options"><td class="mdescLeft">&#160;</td><td class="mdescRight">return string value of run option by i_key or default value if not found.  <a href="structopenm_1_1_i_run_options.html#ad236561fcddede9a0251cf15bd7a191f">More...</a><br /></td></tr>
+<tr class="separator:ad236561fcddede9a0251cf15bd7a191f inherit pub_methods_structopenm_1_1_i_run_options"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae38c91dbd7471caad3cea0f2e45de120 inherit pub_methods_structopenm_1_1_i_run_options"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_run_options.html#ae38c91dbd7471caad3cea0f2e45de120">boolOption</a> (const char *i_key) const noexcept=0</td></tr>
+<tr class="memdesc:ae38c91dbd7471caad3cea0f2e45de120 inherit pub_methods_structopenm_1_1_i_run_options"><td class="mdescLeft">&#160;</td><td class="mdescRight">return boolean value of run option by i_key or false if not found or value is not "yes", "1", "true" or empty "" string.  <a href="structopenm_1_1_i_run_options.html#ae38c91dbd7471caad3cea0f2e45de120">More...</a><br /></td></tr>
+<tr class="separator:ae38c91dbd7471caad3cea0f2e45de120 inherit pub_methods_structopenm_1_1_i_run_options"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b74baa09db182c16520140f3ac9fb7b inherit pub_methods_structopenm_1_1_i_run_options"><td class="memItemLeft" align="right" valign="top"><a id="a2b74baa09db182c16520140f3ac9fb7b"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_run_options.html#a2b74baa09db182c16520140f3ac9fb7b">boolOptionToInt</a> (const char *i_key) const noexcept=0</td></tr>
+<tr class="memdesc:a2b74baa09db182c16520140f3ac9fb7b inherit pub_methods_structopenm_1_1_i_run_options"><td class="mdescLeft">&#160;</td><td class="mdescRight">search for boolean value of run option by i_key and return one of: <br />
+return 1 if key found and value is one of: "yes", "1", "true" or empty value, <br />
+return 0 if key found and value is one of: "no", "0", "false", <br />
+return -1 if key not found, <br />
+return -2 otherwise. <br /></td></tr>
+<tr class="separator:a2b74baa09db182c16520140f3ac9fb7b inherit pub_methods_structopenm_1_1_i_run_options"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2f9fc83749f6abbf1ef8ca62c807f58 inherit pub_methods_structopenm_1_1_i_run_options"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_run_options.html#ae2f9fc83749f6abbf1ef8ca62c807f58">intOption</a> (const char *i_key, int i_default) const noexcept=0</td></tr>
+<tr class="memdesc:ae2f9fc83749f6abbf1ef8ca62c807f58 inherit pub_methods_structopenm_1_1_i_run_options"><td class="mdescLeft">&#160;</td><td class="mdescRight">return int value of run option by i_key or default if not found or can not be converted to int.  <a href="structopenm_1_1_i_run_options.html#ae2f9fc83749f6abbf1ef8ca62c807f58">More...</a><br /></td></tr>
+<tr class="separator:ae2f9fc83749f6abbf1ef8ca62c807f58 inherit pub_methods_structopenm_1_1_i_run_options"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44acb68b63947472c603c86985e17d44 inherit pub_methods_structopenm_1_1_i_run_options"><td class="memItemLeft" align="right" valign="top">virtual long long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_run_options.html#a44acb68b63947472c603c86985e17d44">longOption</a> (const char *i_key, long long i_default) const noexcept=0</td></tr>
+<tr class="memdesc:a44acb68b63947472c603c86985e17d44 inherit pub_methods_structopenm_1_1_i_run_options"><td class="mdescLeft">&#160;</td><td class="mdescRight">return long value of run option by i_key or default if not found or can not be converted to long.  <a href="structopenm_1_1_i_run_options.html#a44acb68b63947472c603c86985e17d44">More...</a><br /></td></tr>
+<tr class="separator:a44acb68b63947472c603c86985e17d44 inherit pub_methods_structopenm_1_1_i_run_options"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d1df48e6f5b43e5364f43edcd69bbd6 inherit pub_methods_structopenm_1_1_i_run_options"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_run_options.html#a3d1df48e6f5b43e5364f43edcd69bbd6">doubleOption</a> (const char *i_key, double i_default) const noexcept=0</td></tr>
+<tr class="memdesc:a3d1df48e6f5b43e5364f43edcd69bbd6 inherit pub_methods_structopenm_1_1_i_run_options"><td class="mdescLeft">&#160;</td><td class="mdescRight">return double value of run option by i_key or default if not found or can not be converted to double.  <a href="structopenm_1_1_i_run_options.html#a3d1df48e6f5b43e5364f43edcd69bbd6">More...</a><br /></td></tr>
+<tr class="separator:a3d1df48e6f5b43e5364f43edcd69bbd6 inherit pub_methods_structopenm_1_1_i_run_options"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f891f43824eedc948af8e08dff6195c inherit pub_methods_structopenm_1_1_i_run_options"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; std::pair&lt; std::string, std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_run_options.html#a6f891f43824eedc948af8e08dff6195c">allOptions</a> (void) const noexcept=0</td></tr>
+<tr class="memdesc:a6f891f43824eedc948af8e08dff6195c inherit pub_methods_structopenm_1_1_i_run_options"><td class="mdescLeft">&#160;</td><td class="mdescRight">return a copy of all run options as [key, value] pairs, ordered by key.  <a href="structopenm_1_1_i_run_options.html#a6f891f43824eedc948af8e08dff6195c">More...</a><br /></td></tr>
+<tr class="separator:a6f891f43824eedc948af8e08dff6195c inherit pub_methods_structopenm_1_1_i_run_options"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>public interface to initialize model run and input parameters </p>
@@ -141,7 +180,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceopenm.html">openm</a></li><li class="navelem"><a class="el" href="structopenm_1_1_i_run_base.html">IRunBase</a></li>
-    <li class="footer">Generated on Tue Feb 2 2021 22:45:59 for OpenM++ runtime library (libopenm) by
+    <li class="footer">Generated on Tue Apr 6 2021 22:27:16 for OpenM++ runtime library (libopenm) by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

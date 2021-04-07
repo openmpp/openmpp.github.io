@@ -70,6 +70,7 @@ var namespaceopenm =
     [ "IRowProcessor", "classopenm_1_1_i_row_processor.html", "classopenm_1_1_i_row_processor" ],
     [ "IRunBase", "structopenm_1_1_i_run_base.html", "structopenm_1_1_i_run_base" ],
     [ "IRunLstTable", "structopenm_1_1_i_run_lst_table.html", "structopenm_1_1_i_run_lst_table" ],
+    [ "IRunOptions", "structopenm_1_1_i_run_options.html", "structopenm_1_1_i_run_options" ],
     [ "IRunOptionTable", "structopenm_1_1_i_run_option_table.html", "structopenm_1_1_i_run_option_table" ],
     [ "IRunParamTxtTable", "structopenm_1_1_i_run_param_txt_table.html", "structopenm_1_1_i_run_param_txt_table" ],
     [ "IRunTxtTable", "structopenm_1_1_i_run_txt_table.html", "structopenm_1_1_i_run_txt_table" ],
