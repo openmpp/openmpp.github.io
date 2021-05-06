@@ -8,6 +8,7 @@ var annotated_dup =
       [ "hash< yy::position >", "structstd_1_1hash_3_01yy_1_1position_01_4.html", "structstd_1_1hash_3_01yy_1_1position_01_4" ]
     ] ],
     [ "AggregationSymbol", "class_aggregation_symbol.html", "class_aggregation_symbol" ],
+    [ "AnonGroupSymbol", "class_anon_group_symbol.html", "class_anon_group_symbol" ],
     [ "AttributeSymbol", "class_attribute_symbol.html", "class_attribute_symbol" ],
     [ "BooleanLiteral", "class_boolean_literal.html", "class_boolean_literal" ],
     [ "BoolEnumeratorSymbol", "class_bool_enumerator_symbol.html", "class_bool_enumerator_symbol" ],
@@ -58,7 +59,6 @@ var annotated_dup =
     [ "FloatingPointLiteral", "class_floating_point_literal.html", "class_floating_point_literal" ],
     [ "GlobalFuncSymbol", "class_global_func_symbol.html", "class_global_func_symbol" ],
     [ "GroupSymbol", "class_group_symbol.html", "class_group_symbol" ],
-    [ "HideGroupSymbol", "class_hide_group_symbol.html", "class_hide_group_symbol" ],
     [ "IdentityAttributeSymbol", "class_identity_attribute_symbol.html", "class_identity_attribute_symbol" ],
     [ "ImportSymbol", "class_import_symbol.html", "class_import_symbol" ],
     [ "IntegerLiteral", "class_integer_literal.html", "class_integer_literal" ],

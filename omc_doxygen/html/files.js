@@ -4,6 +4,10 @@ var files =
     [ "AggregationSymbol.h", "_aggregation_symbol_8h.html", [
       [ "AggregationSymbol", "class_aggregation_symbol.html", "class_aggregation_symbol" ]
     ] ],
+    [ "AnonGroupSymbol.cpp", "_anon_group_symbol_8cpp.html", null ],
+    [ "AnonGroupSymbol.h", "_anon_group_symbol_8h.html", [
+      [ "AnonGroupSymbol", "class_anon_group_symbol.html", "class_anon_group_symbol" ]
+    ] ],
     [ "ast.h", "ast_8h.html", null ],
     [ "AttributeSymbol.cpp", "_attribute_symbol_8cpp.html", null ],
     [ "AttributeSymbol.h", "_attribute_symbol_8h.html", [
@@ -158,10 +162,6 @@ var files =
     [ "GroupSymbol.cpp", "_group_symbol_8cpp.html", null ],
     [ "GroupSymbol.h", "_group_symbol_8h.html", [
       [ "GroupSymbol", "class_group_symbol.html", "class_group_symbol" ]
-    ] ],
-    [ "HideGroupSymbol.cpp", "_hide_group_symbol_8cpp.html", null ],
-    [ "HideGroupSymbol.h", "_hide_group_symbol_8h.html", [
-      [ "HideGroupSymbol", "class_hide_group_symbol.html", "class_hide_group_symbol" ]
     ] ],
     [ "IdentityAttributeSymbol.cpp", "_identity_attribute_symbol_8cpp.html", null ],
     [ "IdentityAttributeSymbol.h", "_identity_attribute_symbol_8h.html", [

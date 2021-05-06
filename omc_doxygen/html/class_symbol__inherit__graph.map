@@ -35,8 +35,8 @@
 <area shape="rect" id="node19" href="$class_bool_enumerator_symbol.html" title="BoolEnumeratorSymbol" alt="" coords="383,411,542,437"/>
 <area shape="rect" id="node20" href="$class_classification_enumerator_symbol.html" title="ClassificationEnumerator\lSymbol" alt="" coords="379,462,546,503"/>
 <area shape="rect" id="node21" href="$class_partition_enumerator_symbol.html" title="PartitionEnumeratorSymbol" alt="" coords="372,528,553,555"/>
-<area shape="rect" id="node25" href="$class_dependency_group_symbol.html" title="DependencyGroupSymbol. " alt="" coords="376,579,549,605"/>
-<area shape="rect" id="node26" href="$class_hide_group_symbol.html" title="HideGroupSymbol. " alt="" coords="399,629,526,656"/>
+<area shape="rect" id="node25" href="$class_anon_group_symbol.html" title="AnonGroupSymbol. " alt="" coords="397,579,528,605"/>
+<area shape="rect" id="node26" href="$class_dependency_group_symbol.html" title="DependencyGroupSymbol. " alt="" coords="376,629,549,656"/>
 <area shape="rect" id="node27" href="$class_parameter_group_symbol.html" title="ParameterGroupSymbol. " alt="" coords="382,680,543,707"/>
 <area shape="rect" id="node28" href="$class_table_group_symbol.html" title="TableGroupSymbol. " alt="" coords="397,731,529,757"/>
 <area shape="rect" id="node39" href="$class_entity_table_measure_symbol.html" title="EntityTableMeasureSymbol. " alt="" coords="372,1085,553,1112"/>
