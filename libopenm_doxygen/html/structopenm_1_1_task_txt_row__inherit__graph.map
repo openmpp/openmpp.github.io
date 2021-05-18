@@ -1,5 +1,5 @@
 <map id="openm::TaskTxtRow" name="openm::TaskTxtRow">
-<area shape="rect" id="node4" href="$structopenm_1_1_task_txt_lang_row.html" title="task_txt table row and language code. " alt="" coords="13,244,181,271"/>
-<area shape="rect" id="node2" href="$structopenm_1_1_i_meta_row.html" title="openm::IMetaRow\&lt; TaskTxt\lRow \&gt;" alt="" coords="5,80,189,121"/>
-<area shape="rect" id="node3" href="$structopenm_1_1_i_row_base.html" title="db&#45;row abstract base " alt="" coords="34,5,161,32"/>
+<area shape="rect" id="node4" href="$structopenm_1_1_task_txt_lang_row.html" title="task_txt table row and language code. " alt="" coords="15,244,198,271"/>
+<area shape="rect" id="node2" href="$structopenm_1_1_i_meta_row.html" title="openm::IMetaRow\&lt; TaskTxt\lRow \&gt;" alt="" coords="5,80,208,121"/>
+<area shape="rect" id="node3" href="$structopenm_1_1_i_row_base.html" title="db&#45;row abstract base " alt="" coords="37,5,176,32"/>
 </map>

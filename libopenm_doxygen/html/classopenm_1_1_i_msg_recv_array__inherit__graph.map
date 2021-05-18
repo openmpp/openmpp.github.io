@@ -1,5 +1,5 @@
 <map id="openm::IMsgRecvArray" name="openm::IMsgRecvArray">
-<area shape="rect" id="node3" href="$classopenm_1_1_mpi_recv_array.html" title="non&#45;blocking receive of value array " alt="" coords="5,155,155,181"/>
-<area shape="rect" id="node4" href="$classopenm_1_1_msg_empty_recv_array.html" title="non&#45;blocking receive of value array (empty implementation) " alt="" coords="179,155,370,181"/>
-<area shape="rect" id="node2" href="$classopenm_1_1_i_msg_recv.html" title="public interface for message receiver " alt="" coords="115,5,240,32"/>
+<area shape="rect" id="node3" href="$classopenm_1_1_mpi_recv_array.html" title="non&#45;blocking receive of value array " alt="" coords="5,155,169,181"/>
+<area shape="rect" id="node4" href="$classopenm_1_1_msg_empty_recv_array.html" title="non&#45;blocking receive of value array (empty implementation) " alt="" coords="193,155,403,181"/>
+<area shape="rect" id="node2" href="$classopenm_1_1_i_msg_recv.html" title="public interface for message receiver " alt="" coords="125,5,261,32"/>
 </map>

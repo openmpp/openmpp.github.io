@@ -1,6 +1,6 @@
 <map id="SimpleAttributeSymbol.h" name="SimpleAttributeSymbol.h">
-<area shape="rect" id="node2" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model. ..." alt="" coords="31,155,81,181"/>
-<area shape="rect" id="node4" href="$_simple_attribute_enum_symbol_8h.html" title="Declarations for the SimpleAttributeEnumSymbol class. " alt="" coords="25,80,225,107"/>
-<area shape="rect" id="node5" href="$_simple_attribute_symbol_8cpp.html" title="Definitions for the SimpleAttributeSymbol class. " alt="" coords="250,80,430,107"/>
-<area shape="rect" id="node3" href="$_code_gen_8cpp.html" title="Implements the code generation class. " alt="" coords="5,229,107,256"/>
+<area shape="rect" id="node2" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model. ..." alt="" coords="32,155,87,181"/>
+<area shape="rect" id="node4" href="$_simple_attribute_enum_symbol_8h.html" title="Declarations for the SimpleAttributeEnumSymbol class. " alt="" coords="23,80,245,107"/>
+<area shape="rect" id="node5" href="$_simple_attribute_symbol_8cpp.html" title="Definitions for the SimpleAttributeSymbol class. " alt="" coords="269,80,469,107"/>
+<area shape="rect" id="node3" href="$_code_gen_8cpp.html" title="Implements the code generation class. " alt="" coords="5,229,113,256"/>
 </map>

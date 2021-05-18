@@ -1,10 +1,10 @@
 <map id="ClassificationSymbol.h" name="ClassificationSymbol.h">
-<area shape="rect" id="node2" href="$_aggregation_symbol_8h.html" title="Declarations for the AggregationSymbol class. " alt="" coords="187,80,333,107"/>
-<area shape="rect" id="node4" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model. ..." alt="" coords="31,155,81,181"/>
-<area shape="rect" id="node6" href="$_derived_attribute_symbol_8cpp.html" title="Definitions for the DerivedAttributeSymbol class. " alt="" coords="405,155,587,181"/>
-<area shape="rect" id="node8" href="$_classification_symbol_8cpp.html" title="Definitions for the ClassificationSymbol class. " alt="" coords="408,80,576,107"/>
-<area shape="rect" id="node9" href="$_type_symbol_8cpp.html" title="Definitions for the TypeSymbol class. " alt="" coords="601,80,719,107"/>
-<area shape="rect" id="node3" href="$_aggregation_symbol_8cpp.html" title="Definitions for the AggregationSymbol class. " alt="" coords="105,155,265,181"/>
-<area shape="rect" id="node7" href="$_symbol_8cpp.html" title="Definitions for the Symbol class. " alt="" coords="289,155,380,181"/>
-<area shape="rect" id="node5" href="$_code_gen_8cpp.html" title="Implements the code generation class. " alt="" coords="5,229,107,256"/>
+<area shape="rect" id="node2" href="$_aggregation_symbol_8h.html" title="Declarations for the AggregationSymbol class. " alt="" coords="199,80,362,107"/>
+<area shape="rect" id="node4" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model. ..." alt="" coords="32,155,87,181"/>
+<area shape="rect" id="node6" href="$_derived_attribute_symbol_8cpp.html" title="Definitions for the DerivedAttributeSymbol class. " alt="" coords="436,155,643,181"/>
+<area shape="rect" id="node8" href="$_classification_symbol_8cpp.html" title="Definitions for the ClassificationSymbol class. " alt="" coords="437,80,623,107"/>
+<area shape="rect" id="node9" href="$_type_symbol_8cpp.html" title="Definitions for the TypeSymbol class. " alt="" coords="647,80,775,107"/>
+<area shape="rect" id="node3" href="$_aggregation_symbol_8cpp.html" title="Definitions for the AggregationSymbol class. " alt="" coords="111,155,288,181"/>
+<area shape="rect" id="node7" href="$_symbol_8cpp.html" title="Definitions for the Symbol class. " alt="" coords="313,155,411,181"/>
+<area shape="rect" id="node5" href="$_code_gen_8cpp.html" title="Implements the code generation class. " alt="" coords="5,229,113,256"/>
 </map>

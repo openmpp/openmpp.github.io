@@ -1,4 +1,4 @@
 <map id="openm::TaskRunLstTable" name="openm::TaskRunLstTable">
-<area shape="rect" id="node2" href="$structopenm_1_1_i_task_run_lst_table.html" title="task_run_lst table public interface. " alt="" coords="5,95,177,121"/>
-<area shape="rect" id="node3" href="$structopenm_1_1_i_meta_table.html" title="openm::IMetaTable\&lt;\l TaskRunLstRow \&gt;" alt="" coords="21,5,161,47"/>
+<area shape="rect" id="node2" href="$structopenm_1_1_i_task_run_lst_table.html" title="task_run_lst table public interface. " alt="" coords="5,95,191,121"/>
+<area shape="rect" id="node3" href="$structopenm_1_1_i_meta_table.html" title="openm::IMetaTable\&lt;\l TaskRunLstRow \&gt;" alt="" coords="20,5,176,47"/>
 </map>

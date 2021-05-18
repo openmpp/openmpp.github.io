@@ -1,8 +1,8 @@
 <map id="ExtendParameterSymbol" name="ExtendParameterSymbol">
-<area shape="rect" id="node2" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++. " alt="" coords="193,124,259,151"/>
-<area shape="rect" id="node4" href="$class_parameter_symbol.html" title="ParameterSymbol. " alt="" coords="193,335,320,361"/>
-<area shape="rect" id="node5" href="$class_global_func_symbol.html" title="GlobalFuncSymbol. " alt="" coords="343,229,475,256"/>
-<area shape="rect" id="node8" href="$class_type_symbol.html" title="TypeSymbol. " alt="" coords="499,229,593,256"/>
-<area shape="rect" id="node3" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables. " alt="" coords="175,5,277,32"/>
-<area shape="rect" id="node6" href="$class_code_block.html" title="CodeBlock" alt="" coords="366,124,451,151"/>
+<area shape="rect" id="node2" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++. " alt="" coords="213,124,284,151"/>
+<area shape="rect" id="node4" href="$class_parameter_symbol.html" title="ParameterSymbol. " alt="" coords="210,335,349,361"/>
+<area shape="rect" id="node5" href="$class_global_func_symbol.html" title="GlobalFuncSymbol. " alt="" coords="375,229,517,256"/>
+<area shape="rect" id="node8" href="$class_type_symbol.html" title="TypeSymbol. " alt="" coords="542,229,643,256"/>
+<area shape="rect" id="node3" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables. " alt="" coords="193,5,304,32"/>
+<area shape="rect" id="node6" href="$class_code_block.html" title="CodeBlock" alt="" coords="401,124,491,151"/>
 </map>

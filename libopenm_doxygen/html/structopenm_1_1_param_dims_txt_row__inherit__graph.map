@@ -1,5 +1,5 @@
 <map id="openm::ParamDimsTxtRow" name="openm::ParamDimsTxtRow">
-<area shape="rect" id="node4" href="$structopenm_1_1_param_dims_txt_lang_row.html" title="parameter_dims_txt table row and language code. " alt="" coords="5,244,213,271"/>
-<area shape="rect" id="node2" href="$structopenm_1_1_i_meta_row.html" title="openm::IMetaRow\&lt; ParamDims\lTxtRow \&gt;" alt="" coords="6,80,213,121"/>
-<area shape="rect" id="node3" href="$structopenm_1_1_i_row_base.html" title="db&#45;row abstract base " alt="" coords="46,5,173,32"/>
+<area shape="rect" id="node4" href="$structopenm_1_1_param_dims_txt_lang_row.html" title="parameter_dims_txt table row and language code. " alt="" coords="5,244,235,271"/>
+<area shape="rect" id="node2" href="$structopenm_1_1_i_meta_row.html" title="openm::IMetaRow\&lt; ParamDims\lTxtRow \&gt;" alt="" coords="6,80,234,121"/>
+<area shape="rect" id="node3" href="$structopenm_1_1_i_row_base.html" title="db&#45;row abstract base " alt="" coords="51,5,189,32"/>
 </map>

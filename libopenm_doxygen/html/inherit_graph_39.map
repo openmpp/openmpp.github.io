@@ -1,6 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structopenm_1_1_i_meta_table.html" title="openm::IMetaTable\&lt;\l TableExprRow \&gt;" alt="" coords="5,5,145,47"/>
-<area shape="rect" id="node2" href="$structopenm_1_1_i_meta_loaded_table.html" title="openm::IMetaLoadedTable\l\&lt; TableExprRow \&gt;" alt="" coords="193,5,368,47"/>
-<area shape="rect" id="node3" href="$structopenm_1_1_i_table_expr_table.html" title="table_expr table public interface. " alt="" coords="416,13,577,39"/>
-<area shape="rect" id="node4" href="$classopenm_1_1_table_expr_table.html" title="openm::TableExprTable" alt="" coords="625,13,784,39"/>
+<area shape="rect" id="node1" href="$structopenm_1_1_i_meta_table.html" title="openm::IMetaTable\&lt;\l TableExprRow \&gt;" alt="" coords="5,5,161,47"/>
+<area shape="rect" id="node2" href="$structopenm_1_1_i_meta_loaded_table.html" title="openm::IMetaLoadedTable\l\&lt; TableExprRow \&gt;" alt="" coords="209,5,401,47"/>
+<area shape="rect" id="node3" href="$structopenm_1_1_i_table_expr_table.html" title="table_expr table public interface. " alt="" coords="449,13,625,39"/>
+<area shape="rect" id="node4" href="$classopenm_1_1_table_expr_table.html" title="openm::TableExprTable" alt="" coords="673,13,845,39"/>
 </map>

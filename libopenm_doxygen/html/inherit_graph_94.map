@@ -1,6 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structopenm_1_1_i_final_state.html" title="final model run state public interface: thread safe " alt="" coords="5,5,136,32"/>
-<area shape="rect" id="node2" href="$structopenm_1_1_i_model_run_state.html" title="model run state public interface: thread safe " alt="" coords="184,5,345,32"/>
-<area shape="rect" id="node3" href="$classopenm_1_1_model_run_state.html" title="model run state: thread safe " alt="" coords="393,31,552,57"/>
-<area shape="rect" id="node4" href="$structopenm_1_1_run_state.html" title="model run state data: status, progress, update times " alt="" coords="203,56,326,83"/>
+<area shape="rect" id="node1" href="$structopenm_1_1_i_final_state.html" title="final model run state public interface: thread safe " alt="" coords="5,5,148,32"/>
+<area shape="rect" id="node2" href="$structopenm_1_1_i_model_run_state.html" title="model run state public interface: thread safe " alt="" coords="196,5,372,32"/>
+<area shape="rect" id="node3" href="$classopenm_1_1_model_run_state.html" title="model run state: thread safe " alt="" coords="420,31,592,57"/>
+<area shape="rect" id="node4" href="$structopenm_1_1_run_state.html" title="model run state data: status, progress, update times " alt="" coords="217,56,351,83"/>
 </map>

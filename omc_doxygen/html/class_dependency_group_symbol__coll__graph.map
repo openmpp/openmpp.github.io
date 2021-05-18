@@ -1,6 +1,6 @@
 <map id="DependencyGroupSymbol" name="DependencyGroupSymbol">
-<area shape="rect" id="node2" href="$class_group_symbol.html" title="GroupSymbol. " alt="" coords="5,200,107,227"/>
-<area shape="rect" id="node3" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++. " alt="" coords="61,124,128,151"/>
-<area shape="rect" id="node5" href="$class_table_symbol.html" title="TableSymbol. " alt="" coords="131,200,229,227"/>
-<area shape="rect" id="node4" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables. " alt="" coords="43,5,146,32"/>
+<area shape="rect" id="node2" href="$class_group_symbol.html" title="GroupSymbol. " alt="" coords="5,200,116,227"/>
+<area shape="rect" id="node3" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++. " alt="" coords="91,124,161,151"/>
+<area shape="rect" id="node5" href="$class_table_symbol.html" title="TableSymbol. " alt="" coords="140,200,245,227"/>
+<area shape="rect" id="node4" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables. " alt="" coords="71,5,181,32"/>
 </map>

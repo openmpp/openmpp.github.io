@@ -1,5 +1,5 @@
 <map id="StringTypeSymbol" name="StringTypeSymbol">
-<area shape="rect" id="node2" href="$class_type_symbol.html" title="TypeSymbol. " alt="" coords="22,200,117,227"/>
-<area shape="rect" id="node3" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++. " alt="" coords="36,124,103,151"/>
-<area shape="rect" id="node4" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables. " alt="" coords="18,5,121,32"/>
+<area shape="rect" id="node2" href="$class_type_symbol.html" title="TypeSymbol. " alt="" coords="24,200,125,227"/>
+<area shape="rect" id="node3" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++. " alt="" coords="39,124,110,151"/>
+<area shape="rect" id="node4" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables. " alt="" coords="19,5,130,32"/>
 </map>

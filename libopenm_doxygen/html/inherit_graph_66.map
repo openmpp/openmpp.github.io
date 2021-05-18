@@ -1,8 +1,8 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classopenm_1_1_i_utf8_converter.html" title="UTF&#45;8 converter public interface. " alt="" coords="5,107,155,133"/>
-<area shape="rect" id="node2" href="$class_default_page_converter.html" title="DefaultPageConverter" alt="" coords="205,5,352,32"/>
-<area shape="rect" id="node3" href="$class_expicit_page_converter.html" title="ExpicitPageConverter" alt="" coords="205,56,352,83"/>
-<area shape="rect" id="node4" href="$class_utf16_be_page_converter.html" title="Utf16BePageConverter" alt="" coords="203,107,355,133"/>
-<area shape="rect" id="node5" href="$class_utf16_le_page_converter.html" title="Utf16LePageConverter" alt="" coords="203,157,354,184"/>
-<area shape="rect" id="node6" href="$class_utf8_copy_converter.html" title="Utf8CopyConverter" alt="" coords="214,208,343,235"/>
+<area shape="rect" id="node1" href="$classopenm_1_1_i_utf8_converter.html" title="UTF&#45;8 converter public interface. " alt="" coords="5,107,176,133"/>
+<area shape="rect" id="node2" href="$class_default_page_converter.html" title="DefaultPageConverter" alt="" coords="227,5,392,32"/>
+<area shape="rect" id="node3" href="$class_expicit_page_converter.html" title="ExpicitPageConverter" alt="" coords="229,56,390,83"/>
+<area shape="rect" id="node4" href="$class_utf16_be_page_converter.html" title="Utf16BePageConverter" alt="" coords="224,107,395,133"/>
+<area shape="rect" id="node5" href="$class_utf16_le_page_converter.html" title="Utf16LePageConverter" alt="" coords="225,157,393,184"/>
+<area shape="rect" id="node6" href="$class_utf8_copy_converter.html" title="Utf8CopyConverter" alt="" coords="236,208,383,235"/>
 </map>

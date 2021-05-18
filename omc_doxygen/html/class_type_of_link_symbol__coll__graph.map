@@ -1,5 +1,5 @@
 <map id="TypeOfLinkSymbol" name="TypeOfLinkSymbol">
-<area shape="rect" id="node2" href="$class_type_symbol.html" title="TypeSymbol. " alt="" coords="23,200,118,227"/>
-<area shape="rect" id="node3" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++. " alt="" coords="37,124,104,151"/>
-<area shape="rect" id="node4" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables. " alt="" coords="19,5,122,32"/>
+<area shape="rect" id="node2" href="$class_type_symbol.html" title="TypeSymbol. " alt="" coords="26,200,127,227"/>
+<area shape="rect" id="node3" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++. " alt="" coords="41,124,112,151"/>
+<area shape="rect" id="node4" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables. " alt="" coords="21,5,132,32"/>
 </map>

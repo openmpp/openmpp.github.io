@@ -1,9 +1,9 @@
 <map id="EnumerationWithEnumeratorsSymbol.h" name="EnumerationWithEnumeratorsSymbol.h">
-<area shape="rect" id="node5" href="$_enumeration_symbol_8h.html" title="Declarations for the EnumerationSymbol class. " alt="" coords="947,95,1098,121"/>
-<area shape="rect" id="node6" href="$_type_symbol_8h.html" title="Declarations for the TypeSymbol class. " alt="" coords="599,169,705,196"/>
-<area shape="rect" id="node8" href="$_symbol_8h.html" title="Declarations for the Symbol class. " alt="" coords="667,319,744,345"/>
-<area shape="rect" id="node21" href="$_constant_8h.html" title="Declarations for the Constant class. " alt="" coords="373,244,459,271"/>
-<area shape="rect" id="node16" href="$omc__common_8h.html" title="Common declarations for omc. " alt="" coords="1233,393,1348,420"/>
-<area shape="rect" id="node19" href="$_special_global_8h.html" title="Declarations for the SpecialGlobal class. " alt="" coords="582,393,695,420"/>
-<area shape="rect" id="node22" href="$_literal_8h.html" title="Declares the Literal class and sub&#45;classes. " alt="" coords="193,319,261,345"/>
+<area shape="rect" id="node5" href="$_enumeration_symbol_8h.html" title="Declarations for the EnumerationSymbol class. " alt="" coords="841,95,1007,121"/>
+<area shape="rect" id="node6" href="$_type_symbol_8h.html" title="Declarations for the TypeSymbol class. " alt="" coords="658,169,771,196"/>
+<area shape="rect" id="node8" href="$_symbol_8h.html" title="Declarations for the Symbol class. " alt="" coords="729,319,812,345"/>
+<area shape="rect" id="node21" href="$_constant_8h.html" title="Declarations for the Constant class. " alt="" coords="443,244,535,271"/>
+<area shape="rect" id="node16" href="$omc__common_8h.html" title="Common declarations for omc. " alt="" coords="1314,393,1441,420"/>
+<area shape="rect" id="node19" href="$_special_global_8h.html" title="Declarations for the SpecialGlobal class. " alt="" coords="611,393,733,420"/>
+<area shape="rect" id="node22" href="$_literal_8h.html" title="Declares the Literal class and sub&#45;classes. " alt="" coords="268,319,343,345"/>
 </map>

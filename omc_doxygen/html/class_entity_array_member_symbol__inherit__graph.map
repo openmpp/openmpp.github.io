@@ -1,5 +1,5 @@
 <map id="EntityArrayMemberSymbol" name="EntityArrayMemberSymbol">
-<area shape="rect" id="node2" href="$class_entity_data_member_symbol.html" title="EntityDataMemberSymbol" alt="" coords="7,155,182,181"/>
-<area shape="rect" id="node3" href="$class_entity_member_symbol.html" title="EntityMemberSymbol" alt="" coords="21,80,168,107"/>
-<area shape="rect" id="node4" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++. " alt="" coords="61,5,128,32"/>
+<area shape="rect" id="node2" href="$class_entity_data_member_symbol.html" title="EntityDataMemberSymbol" alt="" coords="7,155,201,181"/>
+<area shape="rect" id="node3" href="$class_entity_member_symbol.html" title="EntityMemberSymbol" alt="" coords="23,80,185,107"/>
+<area shape="rect" id="node4" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++. " alt="" coords="69,5,139,32"/>
 </map>

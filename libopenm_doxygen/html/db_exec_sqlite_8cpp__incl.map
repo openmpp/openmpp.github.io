@@ -1,11 +1,11 @@
 <map id="db/dbExecSqlite.cpp" name="db/dbExecSqlite.cpp">
-<area shape="rect" id="node2" href="$om_file_8h.html" title="OpenM++ common file utilities. " alt="" coords="681,80,864,107"/>
-<area shape="rect" id="node21" href="$db_exec_sqlite_8h.html" title="OpenM++ data library: db connection wrapper for SQLite. " alt="" coords="924,80,1035,107"/>
-<area shape="rect" id="node3" href="$om_helper_8h.html" title="OpenM++ common helper utilities. " alt="" coords="718,453,806,480"/>
-<area shape="rect" id="node22" href="$db_exec_8h.html" title="OpenM++ data library: public interface. " alt="" coords="1053,229,1130,256"/>
-<area shape="rect" id="node30" href="$db_exec_base_8h.html" title="OpenM++ data library: common classes for db connection wrapper. " alt="" coords="774,155,881,181"/>
-<area shape="rect" id="node24" href="$om_log_8h.html" title="OpenM++: public interface for log and trace support. " alt="" coords="1299,453,1427,480"/>
-<area shape="rect" id="node26" href="$db_common_8h.html" title="OpenM++ data library: public interface for db common structures. " alt="" coords="905,304,1078,331"/>
-<area shape="rect" id="node28" href="$om_error_8h.html" title="OpenM++: public interface for errors and exceptions. " alt="" coords="825,379,960,405"/>
-<area shape="rect" id="node31" href="$helper_8h.html" title="OpenM++ common helper utilities. " alt="" coords="784,229,852,256"/>
+<area shape="rect" id="node2" href="$om_file_8h.html" title="OpenM++ common file utilities. " alt="" coords="728,80,931,107"/>
+<area shape="rect" id="node21" href="$db_exec_sqlite_8h.html" title="OpenM++ data library: db connection wrapper for SQLite. " alt="" coords="991,80,1110,107"/>
+<area shape="rect" id="node3" href="$om_helper_8h.html" title="OpenM++ common helper utilities. " alt="" coords="769,453,866,480"/>
+<area shape="rect" id="node22" href="$db_exec_8h.html" title="OpenM++ data library: public interface. " alt="" coords="1130,229,1211,256"/>
+<area shape="rect" id="node30" href="$db_exec_base_8h.html" title="OpenM++ data library: common classes for db connection wrapper. " alt="" coords="830,155,943,181"/>
+<area shape="rect" id="node24" href="$om_log_8h.html" title="OpenM++: public interface for log and trace support. " alt="" coords="1390,453,1533,480"/>
+<area shape="rect" id="node26" href="$db_common_8h.html" title="OpenM++ data library: public interface for db common structures. " alt="" coords="964,304,1159,331"/>
+<area shape="rect" id="node28" href="$om_error_8h.html" title="OpenM++: public interface for errors and exceptions. " alt="" coords="881,379,1031,405"/>
+<area shape="rect" id="node31" href="$helper_8h.html" title="OpenM++ common helper utilities. " alt="" coords="840,229,915,256"/>
 </map>

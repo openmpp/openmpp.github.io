@@ -1,6 +1,6 @@
 <map id="PartitionSymbol" name="PartitionSymbol">
-<area shape="rect" id="node2" href="$class_enumeration_with_enumerators_symbol.html" title="EnumerationWithEnumeratorsSymbol. " alt="" coords="5,229,201,271"/>
-<area shape="rect" id="node3" href="$class_enumeration_symbol.html" title="EnumerationSymbol. " alt="" coords="34,155,173,181"/>
-<area shape="rect" id="node4" href="$class_type_symbol.html" title="TypeSymbol. " alt="" coords="56,80,151,107"/>
-<area shape="rect" id="node5" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++. " alt="" coords="70,5,137,32"/>
+<area shape="rect" id="node2" href="$class_enumeration_with_enumerators_symbol.html" title="EnumerationWithEnumeratorsSymbol. " alt="" coords="5,229,224,271"/>
+<area shape="rect" id="node3" href="$class_enumeration_symbol.html" title="EnumerationSymbol. " alt="" coords="37,155,192,181"/>
+<area shape="rect" id="node4" href="$class_type_symbol.html" title="TypeSymbol. " alt="" coords="64,80,165,107"/>
+<area shape="rect" id="node5" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++. " alt="" coords="79,5,150,32"/>
 </map>

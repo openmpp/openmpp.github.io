@@ -1,8 +1,8 @@
 <map id="PartitionEnumeratorSymbol" name="PartitionEnumeratorSymbol">
-<area shape="rect" id="node2" href="$class_enumerator_symbol.html" title="EnumeratorSymbol" alt="" coords="29,456,163,483"/>
-<area shape="rect" id="node3" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++. " alt="" coords="63,124,129,151"/>
-<area shape="rect" id="node7" href="$class_type_symbol.html" title="TypeSymbol. " alt="" coords="175,200,270,227"/>
-<area shape="rect" id="node4" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables. " alt="" coords="45,5,147,32"/>
-<area shape="rect" id="node5" href="$class_enumeration_with_enumerators_symbol.html" title="EnumerationWithEnumeratorsSymbol. " alt="" coords="142,352,338,393"/>
-<area shape="rect" id="node6" href="$class_enumeration_symbol.html" title="EnumerationSymbol. " alt="" coords="196,276,335,303"/>
+<area shape="rect" id="node2" href="$class_enumerator_symbol.html" title="EnumeratorSymbol" alt="" coords="33,456,179,483"/>
+<area shape="rect" id="node3" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++. " alt="" coords="71,124,141,151"/>
+<area shape="rect" id="node7" href="$class_type_symbol.html" title="TypeSymbol. " alt="" coords="169,200,270,227"/>
+<area shape="rect" id="node4" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables. " alt="" coords="51,5,161,32"/>
+<area shape="rect" id="node5" href="$class_enumeration_with_enumerators_symbol.html" title="EnumerationWithEnumeratorsSymbol. " alt="" coords="165,352,383,393"/>
+<area shape="rect" id="node6" href="$class_enumeration_symbol.html" title="EnumerationSymbol. " alt="" coords="218,276,373,303"/>
 </map>

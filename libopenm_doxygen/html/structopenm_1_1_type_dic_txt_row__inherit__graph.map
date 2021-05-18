@@ -1,5 +1,5 @@
 <map id="openm::TypeDicTxtRow" name="openm::TypeDicTxtRow">
-<area shape="rect" id="node4" href="$structopenm_1_1_type_dic_txt_lang_row.html" title="type_dic_txt join to model_type_dic table row and language code. " alt="" coords="5,244,192,271"/>
-<area shape="rect" id="node2" href="$structopenm_1_1_i_meta_row.html" title="openm::IMetaRow\&lt; TypeDic\lTxtRow \&gt;" alt="" coords="6,80,191,121"/>
-<area shape="rect" id="node3" href="$structopenm_1_1_i_row_base.html" title="db&#45;row abstract base " alt="" coords="35,5,162,32"/>
+<area shape="rect" id="node4" href="$structopenm_1_1_type_dic_txt_lang_row.html" title="type_dic_txt join to model_type_dic table row and language code. " alt="" coords="5,244,211,271"/>
+<area shape="rect" id="node2" href="$structopenm_1_1_i_meta_row.html" title="openm::IMetaRow\&lt; TypeDic\lTxtRow \&gt;" alt="" coords="6,80,210,121"/>
+<area shape="rect" id="node3" href="$structopenm_1_1_i_row_base.html" title="db&#45;row abstract base " alt="" coords="39,5,177,32"/>
 </map>

@@ -1,8 +1,8 @@
 <map id="openm::IMsgSend" name="openm::IMsgSend">
-<area shape="rect" id="node2" href="$classopenm_1_1_i_msg_send_array.html" title="public interface to send value array " alt="" coords="186,56,345,83"/>
-<area shape="rect" id="node5" href="$classopenm_1_1_i_msg_send_packed.html" title="public interface to send packed data. " alt="" coords="180,107,351,133"/>
-<area shape="rect" id="node3" href="$classopenm_1_1_mpi_send_array.html" title="non&#45;blocking MPI send of value array " alt="" coords="427,5,577,32"/>
-<area shape="rect" id="node4" href="$classopenm_1_1_msg_empty_send_array.html" title="non&#45;blocking send of value array (empty implementation) " alt="" coords="405,56,599,83"/>
-<area shape="rect" id="node6" href="$classopenm_1_1_mpi_send_packed.html" title="non&#45;blocking MPI send of packed data " alt="" coords="420,107,584,133"/>
-<area shape="rect" id="node7" href="$classopenm_1_1_msg_empty_send_packed.html" title="non&#45;blocking send of packed data (empty implementation) " alt="" coords="399,157,605,184"/>
+<area shape="rect" id="node2" href="$classopenm_1_1_i_msg_send_array.html" title="public interface to send value array " alt="" coords="196,56,368,83"/>
+<area shape="rect" id="node5" href="$classopenm_1_1_i_msg_send_packed.html" title="public interface to send packed data. " alt="" coords="191,107,373,133"/>
+<area shape="rect" id="node3" href="$classopenm_1_1_mpi_send_array.html" title="non&#45;blocking MPI send of value array " alt="" coords="449,5,615,32"/>
+<area shape="rect" id="node4" href="$classopenm_1_1_msg_empty_send_array.html" title="non&#45;blocking send of value array (empty implementation) " alt="" coords="427,56,637,83"/>
+<area shape="rect" id="node6" href="$classopenm_1_1_mpi_send_packed.html" title="non&#45;blocking MPI send of packed data " alt="" coords="444,107,620,133"/>
+<area shape="rect" id="node7" href="$classopenm_1_1_msg_empty_send_packed.html" title="non&#45;blocking send of packed data (empty implementation) " alt="" coords="421,157,643,184"/>
 </map>

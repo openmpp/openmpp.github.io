@@ -1,5 +1,5 @@
 <map id="DerivedTableSymbol" name="DerivedTableSymbol">
-<area shape="rect" id="node2" href="$class_table_symbol.html" title="TableSymbol. " alt="" coords="26,200,123,227"/>
-<area shape="rect" id="node3" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++. " alt="" coords="41,124,108,151"/>
-<area shape="rect" id="node4" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables. " alt="" coords="23,5,126,32"/>
+<area shape="rect" id="node2" href="$class_table_symbol.html" title="TableSymbol. " alt="" coords="31,200,136,227"/>
+<area shape="rect" id="node3" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++. " alt="" coords="48,124,119,151"/>
+<area shape="rect" id="node4" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables. " alt="" coords="28,5,139,32"/>
 </map>

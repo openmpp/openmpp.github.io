@@ -1,5 +1,5 @@
 <map id="openm::MetaHolder" name="openm::MetaHolder">
-<area shape="rect" id="node2" href="$structopenm_1_1_model_dic_row.html" title="model_dic table row. " alt="" coords="27,172,175,199"/>
-<area shape="rect" id="node3" href="$structopenm_1_1_i_meta_row.html" title="openm::IMetaRow\&lt; ModelDic\lRow \&gt;" alt="" coords="5,81,197,123"/>
-<area shape="rect" id="node4" href="$structopenm_1_1_i_row_base.html" title="db&#45;row abstract base " alt="" coords="38,5,165,32"/>
+<area shape="rect" id="node2" href="$structopenm_1_1_model_dic_row.html" title="model_dic table row. " alt="" coords="31,172,193,199"/>
+<area shape="rect" id="node3" href="$structopenm_1_1_i_meta_row.html" title="openm::IMetaRow\&lt; ModelDic\lRow \&gt;" alt="" coords="5,81,219,123"/>
+<area shape="rect" id="node4" href="$structopenm_1_1_i_row_base.html" title="db&#45;row abstract base " alt="" coords="43,5,181,32"/>
 </map>

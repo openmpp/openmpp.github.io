@@ -1,5 +1,5 @@
 <map id="TableGroupSymbol" name="TableGroupSymbol">
-<area shape="rect" id="node2" href="$class_group_symbol.html" title="GroupSymbol. " alt="" coords="21,200,122,227"/>
-<area shape="rect" id="node3" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++. " alt="" coords="38,124,105,151"/>
-<area shape="rect" id="node4" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables. " alt="" coords="20,5,123,32"/>
+<area shape="rect" id="node2" href="$class_group_symbol.html" title="GroupSymbol. " alt="" coords="22,200,133,227"/>
+<area shape="rect" id="node3" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++. " alt="" coords="42,124,113,151"/>
+<area shape="rect" id="node4" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables. " alt="" coords="22,5,133,32"/>
 </map>

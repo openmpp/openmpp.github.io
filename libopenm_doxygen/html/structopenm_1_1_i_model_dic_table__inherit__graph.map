@@ -1,5 +1,5 @@
 <map id="openm::IModelDicTable" name="openm::IModelDicTable">
-<area shape="rect" id="node4" href="$classopenm_1_1_model_dic_table.html" title="openm::ModelDicTable" alt="" coords="15,259,170,285"/>
-<area shape="rect" id="node2" href="$structopenm_1_1_i_meta_loaded_table.html" title="openm::IMetaLoadedTable\l\&lt; ModelDicRow \&gt;" alt="" coords="5,95,180,136"/>
-<area shape="rect" id="node3" href="$structopenm_1_1_i_meta_table.html" title="openm::IMetaTable\&lt;\l ModelDicRow \&gt;" alt="" coords="23,5,163,47"/>
+<area shape="rect" id="node4" href="$classopenm_1_1_model_dic_table.html" title="openm::ModelDicTable" alt="" coords="17,259,186,285"/>
+<area shape="rect" id="node2" href="$structopenm_1_1_i_meta_loaded_table.html" title="openm::IMetaLoadedTable\l\&lt; ModelDicRow \&gt;" alt="" coords="5,95,197,136"/>
+<area shape="rect" id="node3" href="$structopenm_1_1_i_meta_table.html" title="openm::IMetaTable\&lt;\l ModelDicRow \&gt;" alt="" coords="23,5,179,47"/>
 </map>

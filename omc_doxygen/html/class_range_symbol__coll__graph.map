@@ -1,6 +1,6 @@
 <map id="RangeSymbol" name="RangeSymbol">
-<area shape="rect" id="node2" href="$class_enumeration_symbol.html" title="EnumerationSymbol. " alt="" coords="5,276,144,303"/>
-<area shape="rect" id="node3" href="$class_type_symbol.html" title="TypeSymbol. " alt="" coords="27,200,122,227"/>
-<area shape="rect" id="node4" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++. " alt="" coords="41,124,108,151"/>
-<area shape="rect" id="node5" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables. " alt="" coords="23,5,126,32"/>
+<area shape="rect" id="node2" href="$class_enumeration_symbol.html" title="EnumerationSymbol. " alt="" coords="5,276,160,303"/>
+<area shape="rect" id="node3" href="$class_type_symbol.html" title="TypeSymbol. " alt="" coords="32,200,133,227"/>
+<area shape="rect" id="node4" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++. " alt="" coords="47,124,118,151"/>
+<area shape="rect" id="node5" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables. " alt="" coords="27,5,138,32"/>
 </map>

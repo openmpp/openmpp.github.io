@@ -1,6 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structopenm_1_1_i_meta_table.html" title="openm::IMetaTable\&lt;\l GroupPcRow \&gt;" alt="" coords="5,5,145,47"/>
-<area shape="rect" id="node2" href="$structopenm_1_1_i_meta_loaded_table.html" title="openm::IMetaLoadedTable\l\&lt; GroupPcRow \&gt;" alt="" coords="193,5,368,47"/>
-<area shape="rect" id="node3" href="$structopenm_1_1_i_group_pc_table.html" title="group_pc table public interface. " alt="" coords="416,13,571,39"/>
-<area shape="rect" id="node4" href="$classopenm_1_1_group_pc_table.html" title="openm::GroupPcTable" alt="" coords="619,13,769,39"/>
+<area shape="rect" id="node1" href="$structopenm_1_1_i_meta_table.html" title="openm::IMetaTable\&lt;\l GroupPcRow \&gt;" alt="" coords="5,5,161,47"/>
+<area shape="rect" id="node2" href="$structopenm_1_1_i_meta_loaded_table.html" title="openm::IMetaLoadedTable\l\&lt; GroupPcRow \&gt;" alt="" coords="209,5,401,47"/>
+<area shape="rect" id="node3" href="$structopenm_1_1_i_group_pc_table.html" title="group_pc table public interface. " alt="" coords="449,13,616,39"/>
+<area shape="rect" id="node4" href="$classopenm_1_1_group_pc_table.html" title="openm::GroupPcTable" alt="" coords="664,13,827,39"/>
 </map>

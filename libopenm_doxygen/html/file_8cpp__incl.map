@@ -1,8 +1,8 @@
 <map id="common/file.cpp" name="common/file.cpp">
-<area shape="rect" id="node3" href="$om_file_8h.html" title="OpenM++ common file utilities. " alt="" coords="330,80,513,107"/>
-<area shape="rect" id="node22" href="$helper_8h.html" title="OpenM++ common helper utilities. " alt="" coords="406,155,474,181"/>
-<area shape="rect" id="node23" href="$log_8h.html" title="OpenM++: log to console and into log files. " alt="" coords="692,80,743,107"/>
-<area shape="rect" id="node4" href="$om_helper_8h.html" title="OpenM++ common helper utilities. " alt="" coords="651,229,739,256"/>
-<area shape="rect" id="node28" href="$om_log_8h.html" title="OpenM++: public interface for log and trace support. " alt="" coords="1291,229,1419,256"/>
-<area shape="rect" id="node30" href="$om_error_8h.html" title="OpenM++: public interface for errors and exceptions. " alt="" coords="702,155,837,181"/>
+<area shape="rect" id="node3" href="$om_file_8h.html" title="OpenM++ common file utilities. " alt="" coords="357,80,560,107"/>
+<area shape="rect" id="node22" href="$helper_8h.html" title="OpenM++ common helper utilities. " alt="" coords="448,155,523,181"/>
+<area shape="rect" id="node23" href="$log_8h.html" title="OpenM++: log to console and into log files. " alt="" coords="741,80,795,107"/>
+<area shape="rect" id="node4" href="$om_helper_8h.html" title="OpenM++ common helper utilities. " alt="" coords="699,229,797,256"/>
+<area shape="rect" id="node28" href="$om_log_8h.html" title="OpenM++: public interface for log and trace support. " alt="" coords="1382,229,1525,256"/>
+<area shape="rect" id="node30" href="$om_error_8h.html" title="OpenM++: public interface for errors and exceptions. " alt="" coords="750,155,901,181"/>
 </map>

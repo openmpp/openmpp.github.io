@@ -1,4 +1,4 @@
 <map id="openm::ValueRow" name="openm::ValueRow">
-<area shape="rect" id="node2" href="$structopenm_1_1_i_row_base.html" title="db&#45;row abstract base " alt="" coords="5,5,132,32"/>
-<area shape="rect" id="node3" href="$unionopenm_1_1_db_value.html" title="union to pass value to database methods " alt="" coords="156,5,275,32"/>
+<area shape="rect" id="node2" href="$structopenm_1_1_i_row_base.html" title="db&#45;row abstract base " alt="" coords="5,5,144,32"/>
+<area shape="rect" id="node3" href="$unionopenm_1_1_db_value.html" title="union to pass value to database methods " alt="" coords="169,5,298,32"/>
 </map>

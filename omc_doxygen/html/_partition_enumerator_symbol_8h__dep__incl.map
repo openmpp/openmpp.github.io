@@ -1,8 +1,8 @@
 <map id="PartitionEnumeratorSymbol.h" name="PartitionEnumeratorSymbol.h">
-<area shape="rect" id="node2" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model. ..." alt="" coords="40,80,91,107"/>
-<area shape="rect" id="node4" href="$omc__csv_8h.html" title="omc functions to read parameters data from .csv or .tsv files. " alt="" coords="125,80,209,107"/>
-<area shape="rect" id="node7" href="$_partition_symbol_8cpp.html" title="Definitions for the PartitionSymbol class. " alt="" coords="233,80,372,107"/>
-<area shape="rect" id="node3" href="$_code_gen_8cpp.html" title="Implements the code generation class. " alt="" coords="5,155,107,181"/>
-<area shape="rect" id="node5" href="$omc_8cpp.html" title="OpenM++ compiler (omc): main entry point. " alt="" coords="131,155,203,181"/>
-<area shape="rect" id="node6" href="$omc__csv_8cpp.html" title="omc functions to read parameters data from .csv or .tsv files. " alt="" coords="227,155,325,181"/>
+<area shape="rect" id="node2" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model. ..." alt="" coords="43,80,97,107"/>
+<area shape="rect" id="node4" href="$omc__csv_8h.html" title="omc functions to read parameters data from .csv or .tsv files. " alt="" coords="131,80,222,107"/>
+<area shape="rect" id="node7" href="$_partition_symbol_8cpp.html" title="Definitions for the PartitionSymbol class. " alt="" coords="246,80,398,107"/>
+<area shape="rect" id="node3" href="$_code_gen_8cpp.html" title="Implements the code generation class. " alt="" coords="5,155,113,181"/>
+<area shape="rect" id="node5" href="$omc_8cpp.html" title="OpenM++ compiler (omc): main entry point. " alt="" coords="138,155,215,181"/>
+<area shape="rect" id="node6" href="$omc__csv_8cpp.html" title="omc functions to read parameters data from .csv or .tsv files. " alt="" coords="240,155,345,181"/>
 </map>
