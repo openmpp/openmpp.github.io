@@ -393,6 +393,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_parameter_symbol.html#a4c09e3acd4131f6b7d15fad64db0ca0c">is_extendable</a></td></tr>
 <tr class="memdesc:a4c09e3acd4131f6b7d15fad64db0ca0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if an extend_parameter statement targets the parameter. <br /></td></tr>
 <tr class="separator:a4c09e3acd4131f6b7d15fad64db0ca0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47577752bbe7a748182e50ca838eb231"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_parameter_symbol.html#a47577752bbe7a748182e50ca838eb231">publish_as_table</a></td></tr>
+<tr class="memdesc:a47577752bbe7a748182e50ca838eb231"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if a derived parameter is to be published as a table.  <a href="#a47577752bbe7a748182e50ca838eb231">More...</a><br /></td></tr>
+<tr class="separator:a47577752bbe7a748182e50ca838eb231"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af55e792666d652c1ae7e311c36350994"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_parameter_symbol.html">ParameterSymbol</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_parameter_symbol.html#af55e792666d652c1ae7e311c36350994">pp_index_series</a></td></tr>
 <tr class="memdesc:af55e792666d652c1ae7e311c36350994"><td class="mdescLeft">&#160;</td><td class="mdescRight">The parameter containing an index series used to extend the parameter.  <a href="#af55e792666d652c1ae7e311c36350994">More...</a><br /></td></tr>
 <tr class="separator:af55e792666d652c1ae7e311c36350994"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -410,6 +413,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:ac70ca6f7b88fe9dc4668b529fef9b7fb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_parameter_symbol.html#ac70ca6f7b88fe9dc4668b529fef9b7fb">pp_parameter_id</a></td></tr>
 <tr class="memdesc:ac70ca6f7b88fe9dc4668b529fef9b7fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Numeric identifier of the parameter.  <a href="#ac70ca6f7b88fe9dc4668b529fef9b7fb">More...</a><br /></td></tr>
 <tr class="separator:ac70ca6f7b88fe9dc4668b529fef9b7fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee343543340fd2f421251a8cc0fa87dc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_parameter_symbol.html#aee343543340fd2f421251a8cc0fa87dc">pp_parameter_to_table_id</a></td></tr>
+<tr class="memdesc:aee343543340fd2f421251a8cc0fa87dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Numeric identifier of a parameter if published as a table.  <a href="#aee343543340fd2f421251a8cc0fa87dc">More...</a><br /></td></tr>
+<tr class="separator:aee343543340fd2f421251a8cc0fa87dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_class_symbol"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_symbol')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_symbol.html">Symbol</a></td></tr>
 <tr class="memitem:a73fc59c394e3bdc9fdbb525a24ba5b5f inherit pub_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a73fc59c394e3bdc9fdbb525a24ba5b5f">unique_name</a></td></tr>
 <tr class="memdesc:a73fc59c394e3bdc9fdbb525a24ba5b5f inherit pub_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">The unique identifier for the symbol.  <a href="class_symbol.html#a73fc59c394e3bdc9fdbb525a24ba5b5f">More...</a><br /></td></tr>
@@ -693,6 +699,10 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a24b57a6316c9145e158167904fa12944">any_tables_retain</a> = false</td></tr>
 <tr class="memdesc:a24b57a6316c9145e158167904fa12944 inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true, model contains one or more tables_retain statements. <br /></td></tr>
 <tr class="separator:a24b57a6316c9145e158167904fa12944 inherit pub_static_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5b0492bf8c4f39191e0dfd031d8b286 inherit pub_static_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="af5b0492bf8c4f39191e0dfd031d8b286"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#af5b0492bf8c4f39191e0dfd031d8b286">any_parameters_to_tables</a> = false</td></tr>
+<tr class="memdesc:af5b0492bf8c4f39191e0dfd031d8b286 inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true, model contains one or more parameters_to_tables statements. <br /></td></tr>
+<tr class="separator:af5b0492bf8c4f39191e0dfd031d8b286 inherit pub_static_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a86ad8174f31a7310124499c4ba94d032 inherit pub_static_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a86ad8174f31a7310124499c4ba94d032">measures_are_aggregated</a> = true</td></tr>
 <tr class="memdesc:a86ad8174f31a7310124499c4ba94d032 inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true, table measures are aggregated across simulation members.  <a href="class_symbol.html#a86ad8174f31a7310124499c4ba94d032">More...</a><br /></td></tr>
 <tr class="separator:a86ad8174f31a7310124499c4ba94d032 inherit pub_static_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1373,6 +1383,40 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 
 </div>
 </div>
+<a id="aee343543340fd2f421251a8cc0fa87dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee343543340fd2f421251a8cc0fa87dc">&#9670;&nbsp;</a></span>pp_parameter_to_table_id</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ParameterSymbol::pp_parameter_to_table_id</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Numeric identifier of a parameter if published as a table. </p>
+<p>Used for communicating with the metadata API. </p>
+
+</div>
+</div>
+<a id="a47577752bbe7a748182e50ca838eb231"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47577752bbe7a748182e50ca838eb231">&#9670;&nbsp;</a></span>publish_as_table</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ParameterSymbol::publish_as_table</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>True if a derived parameter is to be published as a table. </p>
+<p>Model code uses the parameters_to_tables statement to publish derived parameters as tables </p>
+
+</div>
+</div>
 <a id="a3cfe0abe408d5d0bf58293740bf44737"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3cfe0abe408d5d0bf58293740bf44737">&#9670;&nbsp;</a></span>sub_initial_list</h2>
 
@@ -1400,7 +1444,7 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_parameter_symbol.html">ParameterSymbol</a></li>
-    <li class="footer">Generated on Wed Jun 2 2021 00:31:56 for OpenM++ compiler (omc) by
+    <li class="footer">Generated on Sat Jun 12 2021 04:41:51 for OpenM++ compiler (omc) by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

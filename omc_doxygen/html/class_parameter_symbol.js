@@ -62,8 +62,10 @@ var class_parameter_symbol =
     [ "pp_enumeration_list2", "class_parameter_symbol.html#ab09777e727c4490470ee3405fd47df2c", null ],
     [ "pp_index_series", "class_parameter_symbol.html#af55e792666d652c1ae7e311c36350994", null ],
     [ "pp_parameter_id", "class_parameter_symbol.html#ac70ca6f7b88fe9dc4668b529fef9b7fb", null ],
+    [ "pp_parameter_to_table_id", "class_parameter_symbol.html#aee343543340fd2f421251a8cc0fa87dc", null ],
     [ "pp_shape", "class_parameter_symbol.html#a4bf2211c2324c2997379e1bf3781b35c", null ],
     [ "pp_value_notes", "class_parameter_symbol.html#a5f29d61d5c2f6e6bab28af6d05cdd21b", null ],
+    [ "publish_as_table", "class_parameter_symbol.html#a47577752bbe7a748182e50ca838eb231", null ],
     [ "source", "class_parameter_symbol.html#a043680745d3d18ab059b51f7235a3d8a", null ],
     [ "sub_initial_list", "class_parameter_symbol.html#a3cfe0abe408d5d0bf58293740bf44737", null ]
 ];

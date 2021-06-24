@@ -180,6 +180,9 @@ Macros</h2></td></tr>
 <tr class="memitem:a2627891a60efbe66767126a53591f282"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="om_log_8h.html#a2627891a60efbe66767126a53591f282">LT</a>(sourceMessage)&#160;&#160;&#160;((<a class="el" href="om_log_8h.html#ae1eb1573365ebf5ae047bdef622d1459">theLog</a>-&gt;getMessage(sourceMessage)).c_str())</td></tr>
 <tr class="memdesc:a2627891a60efbe66767126a53591f282"><td class="mdescLeft">&#160;</td><td class="mdescRight">LT localisation function: return is temporary const char* and must be copied to avoid memory violation crash.  <a href="#a2627891a60efbe66767126a53591f282">More...</a><br /></td></tr>
 <tr class="separator:a2627891a60efbe66767126a53591f282"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43d458ce09111a91ea8ab2ea2b6753e3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="om_log_8h.html#a43d458ce09111a91ea8ab2ea2b6753e3">NO_LT</a>(sourceMessage)&#160;&#160;&#160;sourceMessage</td></tr>
+<tr class="memdesc:a43d458ce09111a91ea8ab2ea2b6753e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">NO_LT localisation function: return source content as is.  <a href="#a43d458ce09111a91ea8ab2ea2b6753e3">More...</a><br /></td></tr>
+<tr class="separator:a43d458ce09111a91ea8ab2ea2b6753e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -210,6 +213,27 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>LT localisation function: return is temporary const char* and must be copied to avoid memory violation crash. </p>
+
+</div>
+</div>
+<a id="a43d458ce09111a91ea8ab2ea2b6753e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43d458ce09111a91ea8ab2ea2b6753e3">&#9670;&nbsp;</a></span>NO_LT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define NO_LT</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">sourceMessage</td><td>)</td>
+          <td>&#160;&#160;&#160;sourceMessage</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>NO_LT localisation function: return source content as is. </p>
+<p>Use it to suppress translation, for example: WarningMsg( NO_LT("};") ); </p>
 
 </div>
 </div>
@@ -254,7 +278,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_30e93d7ad2ce010165d2d10f88217613.html">libopenm</a></li><li class="navelem"><a class="el" href="om_log_8h.html">omLog.h</a></li>
-    <li class="footer">Generated on Wed Jun 2 2021 00:31:47 for OpenM++ runtime library (libopenm) by
+    <li class="footer">Generated on Sat Jun 12 2021 04:41:42 for OpenM++ runtime library (libopenm) by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>
