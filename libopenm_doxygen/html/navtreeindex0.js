@@ -249,5 +249,5 @@ var NAVTREEINDEX0 =
 "classopenm_1_1_log.html#ae7a5f3943bb6a4e150e11cc0cd05132e":[1,0,0,105,12],
 "classopenm_1_1_log.html#af8c482b15a16dca2cbc58778a97bd43f":[1,0,0,105,9],
 "classopenm_1_1_log_base.html":[1,0,0,106],
-"classopenm_1_1_log_base.html#a08be8d543245bf02222f9e27a0856688":[1,0,0,106,19]
+"classopenm_1_1_log_base.html#a08be8d543245bf02222f9e27a0856688":[1,0,0,106,20]
 };

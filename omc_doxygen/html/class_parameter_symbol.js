@@ -47,6 +47,7 @@ var class_parameter_symbol =
     [ "enumeration_list2", "class_parameter_symbol.html#adb3eb7a24518ef0aac75987150a27af3", null ],
     [ "haz1rate", "class_parameter_symbol.html#af584d068ad5f4ed49d2af7453d2e715d", null ],
     [ "index_series_offset", "class_parameter_symbol.html#a3d119dc49eb323f02465878682418348", null ],
+    [ "initializations_count", "class_parameter_symbol.html#a1621b171a1a3bcdd6cecac4dc15800f1", null ],
     [ "initializer_list", "class_parameter_symbol.html#aebd1d6a4c722dd21292e34d3a2734bda", null ],
     [ "is_declared", "class_parameter_symbol.html#a401f1ede8e1ce34b34797c1d61749b19", null ],
     [ "is_extendable", "class_parameter_symbol.html#a4c09e3acd4131f6b7d15fad64db0ca0c", null ],

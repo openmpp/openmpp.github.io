@@ -4,6 +4,7 @@ var classopenm_1_1_log_base =
     [ "~LogBase", "classopenm_1_1_log_base.html#a5baaa2cfc0b2f5b373943949e48b819f", null ],
     [ "doLogMsg", "classopenm_1_1_log_base.html#a11651014670279dc54a3300c65891f43", null ],
     [ "init", "classopenm_1_1_log_base.html#a18d17ab4ce3fe0500f10a41d8a64fe16", null ],
+    [ "isEnabled", "classopenm_1_1_log_base.html#abbdab597f8c07d710734d7810e20c4e4", null ],
     [ "logFileCreate", "classopenm_1_1_log_base.html#afbdd252c81f0c1af8c80f73f6cc51e86", null ],
     [ "logToConsole", "classopenm_1_1_log_base.html#aa6cfe93ab163e78bb80c839eec582ab4", null ],
     [ "logToFile", "classopenm_1_1_log_base.html#a3989debae8c15980e77afa4080550413", null ],
