@@ -21,7 +21,7 @@ var searchData=
   ['commit',['commit',['../classopenm_1_1_db_exec_sqlite.html#a9fd854402b2813c3d34791f1ff4c7a7e',1,'openm::DbExecSqlite::commit()'],['../classopenm_1_1_i_db_exec.html#a726345a6fff79f907a87cc2ea93c4cdb',1,'openm::IDbExec::commit()']]],
   ['comparenocase',['compareNoCase',['../namespaceopenm.html#a71dd982ad59730b7f867951644e7a7ae',1,'openm']]],
   ['connprops',['connProps',['../classopenm_1_1_db_exec_base.html#a541011fc93611ddcab92ae3a01665e3f',1,'openm::DbExecBase']]],
-  ['count',['count',['../structopenm_1_1_aggregation_fnc.html#aeb8f58acbfafa47717362bc63ce5f432',1,'openm::AggregationFnc::count()'],['../namespaceopenm.html#a1d961a1d992de740bd98b57f571cd448ae2942a04780e223b215eb8b663cf5353',1,'openm::count()']]],
+  ['count',['count',['../struct_fnc_name.html#ab1239f19b88f049401005c57bd4e6ee1',1,'FncName::count()'],['../namespaceopenm.html#a1d961a1d992de740bd98b57f571cd448ae2942a04780e223b215eb8b663cf5353',1,'openm::count()']]],
   ['countof',['countOf',['../structopenm_1_1_i_meta_loaded_table.html#a074653dbc914d5b97fac58f0b5a60a49',1,'openm::IMetaLoadedTable']]],
   ['crc32_2ecpp',['crc32.cpp',['../crc32_8cpp.html',1,'']]],
   ['crc32_2eh',['crc32.h',['../crc32_8h.html',1,'']]],
@@ -36,5 +36,5 @@ var searchData=
   ['createworksetmeta',['createWorksetMeta',['../classopenm_1_1_model_insert_sql.html#aa69cbf0d7d60c5be7685248ef158c102',1,'openm::ModelInsertSql']]],
   ['csvsubvalue',['csvSubValue',['../structopenm_1_1_run_options_key.html#a7dc3192f7d5d2a54681dbaf919d9de70',1,'openm::RunOptionsKey']]],
   ['currentrunid',['currentRunId',['../classopenm_1_1_run_controller.html#a11d436da3cc64b9edb71bd236c6170ac',1,'openm::RunController::currentRunId()'],['../classopenm_1_1_single_controller.html#a8b6e05678a24f2b0a401dbceeb9151c1',1,'openm::SingleController::currentRunId()'],['../classopenm_1_1_root_controller.html#ab4f4f41fae3bbb86a01fd96913bea7a0',1,'openm::RootController::currentRunId()']]],
-  ['cv',['cv',['../structopenm_1_1_aggregation_fnc.html#a0f7e9cfe84830d9285bd12113140cbe9',1,'openm::AggregationFnc::cv()'],['../namespaceopenm.html#a1d961a1d992de740bd98b57f571cd448ade3ec0aa2234aa1e3ee275bbc715c6c9',1,'openm::cv()']]]
+  ['cv',['cv',['../struct_fnc_name.html#a0ac54b24ff3571539c881c6d7c32abdb',1,'FncName::cv()'],['../namespaceopenm.html#a1d961a1d992de740bd98b57f571cd448ade3ec0aa2234aa1e3ee275bbc715c6c9',1,'openm::cv()']]]
 ];

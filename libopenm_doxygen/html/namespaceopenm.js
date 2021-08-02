@@ -2,7 +2,6 @@ var namespaceopenm =
 [
     [ "AccReceive", "structopenm_1_1_acc_receive.html", "structopenm_1_1_acc_receive" ],
     [ "AggregationColumnExpr", "structopenm_1_1_aggregation_column_expr.html", "structopenm_1_1_aggregation_column_expr" ],
-    [ "AggregationFnc", "structopenm_1_1_aggregation_fnc.html", null ],
     [ "ArgKey", "structopenm_1_1_arg_key.html", null ],
     [ "ArgReader", "structopenm_1_1_arg_reader.html", "structopenm_1_1_arg_reader" ],
     [ "ChildController", "classopenm_1_1_child_controller.html", "classopenm_1_1_child_controller" ],

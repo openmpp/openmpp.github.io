@@ -81,6 +81,8 @@ $(document).ready(function(){initNavTree('classopenm_1_1_model_base_expression_s
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-static-methods">Static Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classopenm_1_1_model_base_expression_sql-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -108,6 +110,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a399566e178cd176d983ca519c907dbea"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_model_base_expression_sql.html#a399566e178cd176d983ca519c907dbea">~ModelBaseExpressionSql</a> () noexcept</td></tr>
 <tr class="memdesc:a399566e178cd176d983ca519c907dbea"><td class="mdescLeft">&#160;</td><td class="mdescRight">release sql builder resources.  <a href="#a399566e178cd176d983ca519c907dbea">More...</a><br /></td></tr>
 <tr class="separator:a399566e178cd176d983ca519c907dbea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:ab198add5cf1ed0070a4369f14f2ba9f7"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_model_base_expression_sql.html#ab198add5cf1ed0070a4369f14f2ba9f7">translateAllSimpleFnc</a> (const string &amp;i_srcMsg, bool i_isSkipAggr, const string &amp;i_expr)</td></tr>
+<tr class="memdesc:ab198add5cf1ed0070a4369f14f2ba9f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">translate (substitute) all non-aggregation functions  <a href="#ab198add5cf1ed0070a4369f14f2ba9f7">More...</a><br /></td></tr>
+<tr class="separator:ab198add5cf1ed0070a4369f14f2ba9f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-methods"></a>
+Static Protected Member Functions</h2></td></tr>
+<tr class="memitem:ab37a7e545ed7b6b21da9f99236cfcb27"><td class="memItemLeft" align="right" valign="top">static const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_model_base_expression_sql.html#ab37a7e545ed7b6b21da9f99236cfcb27">translateSimpleFnc</a> (const string &amp;i_srcMsg, <a class="el" href="namespaceopenm.html#a1d961a1d992de740bd98b57f571cd448">FncCode</a> i_code, const string &amp;i_arg)</td></tr>
+<tr class="memdesc:ab37a7e545ed7b6b21da9f99236cfcb27"><td class="mdescLeft">&#160;</td><td class="mdescRight">translate (substitute) non-aggregation function  <a href="#ab37a7e545ed7b6b21da9f99236cfcb27">More...</a><br /></td></tr>
+<tr class="separator:ab37a7e545ed7b6b21da9f99236cfcb27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -217,8 +231,109 @@ const vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom">
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ab198add5cf1ed0070a4369f14f2ba9f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab198add5cf1ed0070a4369f14f2ba9f7">&#9670;&nbsp;</a></span>translateAllSimpleFnc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string ModelBaseExpressionSql::translateAllSimpleFnc </td>
+          <td>(</td>
+          <td class="paramtype">const string &amp;&#160;</td>
+          <td class="paramname"><em>i_srcMsg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>i_isSkipAggr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const string &amp;&#160;</td>
+          <td class="paramname"><em>i_expr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>translate (substitute) all non-aggregation functions </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i_srcMsg</td><td>source table name and expression name to be used in error message </td></tr>
+    <tr><td class="paramname">i_isSkipAggr</td><td>if true then skip aggregation functions else throw an exception </td></tr>
+    <tr><td class="paramname">i_expr</td><td>expression to translate </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ab37a7e545ed7b6b21da9f99236cfcb27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab37a7e545ed7b6b21da9f99236cfcb27">&#9670;&nbsp;</a></span>translateSimpleFnc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string ModelBaseExpressionSql::translateSimpleFnc </td>
+          <td>(</td>
+          <td class="paramtype">const string &amp;&#160;</td>
+          <td class="paramname"><em>i_srcMsg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceopenm.html#a1d961a1d992de740bd98b57f571cd448">FncCode</a>&#160;</td>
+          <td class="paramname"><em>i_code</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const string &amp;&#160;</td>
+          <td class="paramname"><em>i_arg</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>translate (substitute) non-aggregation function </p>
+<p>translate (substitute) non-aggregation function:</p>
+<p>OM_DENOM(acc1) =&gt; CASE WHEN ABS(acc1) &gt; 1.0e-37 THEN acc1 ELSE NULL END</p>
+<p>OM_IF(acc1 &gt; 1.5 THEN acc1 ELSE 1.5) =&gt; CASE WHEN acc1 &gt; 1.5 THEN acc1 ELSE 1.5 END </p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>db/omc/<a class="el" href="model_expression_sql_8h_source.html">modelExpressionSql.h</a></li>
+<li>db/omc/modelExpressionSql.cpp</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -226,7 +341,7 @@ const vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom">
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceopenm.html">openm</a></li><li class="navelem"><a class="el" href="classopenm_1_1_model_base_expression_sql.html">ModelBaseExpressionSql</a></li>
-    <li class="footer">Generated on Tue Jun 29 2021 03:13:56 for OpenM++ runtime library (libopenm) by
+    <li class="footer">Generated on Mon Aug 2 2021 16:03:38 for OpenM++ runtime library (libopenm) by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

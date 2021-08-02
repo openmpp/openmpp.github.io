@@ -13,7 +13,6 @@ var searchData=
   ['addworksetparameter',['addWorksetParameter',['../classopenm_1_1_model_sql_builder.html#a05f0c7244cc51b770281797086fa4f66',1,'openm::ModelSqlBuilder::addWorksetParameter(const MetaModelHolder &amp;i_metaRows, const MetaSetLangHolder &amp;i_metaSet, const string &amp;i_name, int i_subId, const string &amp;i_value) override'],['../classopenm_1_1_model_sql_builder.html#ab547754349930eb044569ba8955478e2',1,'openm::ModelSqlBuilder::addWorksetParameter(const MetaModelHolder &amp;i_metaRows, const MetaSetLangHolder &amp;i_metaSet, const string &amp;i_name, int i_subId, const list&lt; string &gt; &amp;i_valueLst) override'],['../structopenm_1_1_i_model_builder.html#aa62278571027ba7e08216792e08e3013',1,'openm::IModelBuilder::addWorksetParameter(const MetaModelHolder &amp;i_metaRows, const MetaSetLangHolder &amp;i_metaSet, const string &amp;i_name, int i_subId, const string &amp;i_value)=0'],['../structopenm_1_1_i_model_builder.html#ab6be35377dc515f9d8e7936baca45192',1,'openm::IModelBuilder::addWorksetParameter(const MetaModelHolder &amp;i_metaRows, const MetaSetLangHolder &amp;i_metaSet, const string &amp;i_name, int i_subId, const list&lt; string &gt; &amp;i_valueLst)=0']]],
   ['adjustlogsettings',['adjustLogSettings',['../structopenm_1_1_arg_reader.html#a360ef4522f52282e4378a4da922d8218',1,'openm::ArgReader']]],
   ['aggregationcolumnexpr',['AggregationColumnExpr',['../structopenm_1_1_aggregation_column_expr.html',1,'openm']]],
-  ['aggregationfnc',['AggregationFnc',['../structopenm_1_1_aggregation_fnc.html',1,'openm']]],
   ['alloptions',['allOptions',['../classopenm_1_1_run_controller.html#afa57502b91f97bd3d8ab4dbcaa0438e9',1,'openm::RunController::allOptions()'],['../structopenm_1_1_i_run_options.html#a6f891f43824eedc948af8e08dff6195c',1,'openm::IRunOptions::allOptions()']]],
   ['allvalue',['allValue',['../structopenm_1_1_run_options_key.html#aa9fba2748da011c91fc6467e5cdd24c8',1,'openm::RunOptionsKey']]],
   ['argkey',['ArgKey',['../structopenm_1_1_arg_key.html',1,'openm']]],
@@ -22,5 +21,5 @@ var searchData=
   ['argreader_2ecpp',['argReader.cpp',['../arg_reader_8cpp.html',1,'']]],
   ['argreader_2eh',['argReader.h',['../arg_reader_8h.html',1,'']]],
   ['args',['args',['../structopenm_1_1_arg_reader.html#accfbbf152b42185797d88e6e1b830c39',1,'openm::ArgReader']]],
-  ['avg',['avg',['../structopenm_1_1_aggregation_fnc.html#a8ff3f45f2b413c41cc9a884190756b5a',1,'openm::AggregationFnc::avg()'],['../namespaceopenm.html#a1d961a1d992de740bd98b57f571cd448ae322d423f075b0ab2daad27011d24909',1,'openm::avg()']]]
+  ['avg',['avg',['../struct_fnc_name.html#ab74508e0ede4fe650da1cc81f82230e2',1,'FncName::avg()'],['../namespaceopenm.html#a1d961a1d992de740bd98b57f571cd448ae322d423f075b0ab2daad27011d24909',1,'openm::avg()']]]
 ];

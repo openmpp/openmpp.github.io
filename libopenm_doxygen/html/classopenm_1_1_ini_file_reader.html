@@ -172,6 +172,7 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <p>[section] ; section is required, global entries are not allowed </p><h1>this is also a comment</h1>
 <p>rem = ; comment only and empty value ; next line is empty value without comment non = val = no comments dsn = "DSN='server'; UID='user'; PWD='secret';" ; comment: database connection string lst = "the # quick" brown 'fox # jumps ; over' # use "quote" and 'apostrophe' to escape characters and keep spaces unb = "unbalanced quote                           ; this is not a comment: it is a value started from " quote</p>
 <p>trim = Aname,Bname, \ ; comment: multi-line value joined with spaces trimmed Cname,DName ; comment: result is: Aname,Bname,Cname,DName</p>
+<p>abcd = Aname,Bname, \ ; multi-line value ended with empty line Cname,DName \ ; result is: ; Aname,Bname,Cname,DName</p>
 <p>; multi-line value started with " quote or ' apostrophe ; right spaces before \ is not trimmed, result is: ; Multi line text with spaces ; keep = "Multi line   \
        text with spaces"</p>
 <p>; multi-line value started with " quote or ' apostrophe ; result is the same as above: ; Multi line text with spaces ; same = "\ Multi line \ text with spaces\ " </p>
@@ -421,7 +422,7 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceopenm.html">openm</a></li><li class="navelem"><a class="el" href="classopenm_1_1_ini_file_reader.html">IniFileReader</a></li>
-    <li class="footer">Generated on Tue Jun 29 2021 03:13:56 for OpenM++ runtime library (libopenm) by
+    <li class="footer">Generated on Mon Aug 2 2021 16:03:37 for OpenM++ runtime library (libopenm) by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

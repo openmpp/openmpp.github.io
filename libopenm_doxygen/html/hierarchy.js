@@ -2,7 +2,6 @@ var hierarchy =
 [
     [ "openm::AccReceive", "structopenm_1_1_acc_receive.html", null ],
     [ "openm::AggregationColumnExpr", "structopenm_1_1_aggregation_column_expr.html", null ],
-    [ "openm::AggregationFnc", "structopenm_1_1_aggregation_fnc.html", null ],
     [ "openm::ArgKey", "structopenm_1_1_arg_key.html", null ],
     [ "openm::ArgReader", "structopenm_1_1_arg_reader.html", null ],
     [ "openm::DbExecBase", "classopenm_1_1_db_exec_base.html", [
@@ -16,6 +15,7 @@ var hierarchy =
       ] ]
     ] ],
     [ "openm::exit_guard< ResourceHolder >", "classopenm_1_1exit__guard.html", null ],
+    [ "FncName", "struct_fnc_name.html", null ],
     [ "FncTag", "struct_fnc_tag.html", null ],
     [ "FncToken", "struct_fnc_token.html", null ],
     [ "openm::IDbExec", "classopenm_1_1_i_db_exec.html", [

@@ -108,18 +108,18 @@ Collaboration diagram for openm::ModelAccumulatorSql:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a8e39ac8dd6e0fc947166dff2a89851b6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_model_accumulator_sql.html#a8e39ac8dd6e0fc947166dff2a89851b6">ModelAccumulatorSql</a> (const string &amp;i_accTableName, const vector&lt; string &gt; &amp;i_dimNameVec, const vector&lt; int &gt; &amp;i_accIdVec, const vector&lt; string &gt; &amp;i_accNameVec)</td></tr>
-<tr class="memdesc:a8e39ac8dd6e0fc947166dff2a89851b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialization: store output table definition parts.  <a href="#a8e39ac8dd6e0fc947166dff2a89851b6">More...</a><br /></td></tr>
-<tr class="separator:a8e39ac8dd6e0fc947166dff2a89851b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1ee367eacb38a28400f03837df821b6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_model_accumulator_sql.html#aa1ee367eacb38a28400f03837df821b6">ModelAccumulatorSql</a> (const string &amp;i_accTableName, const vector&lt; string &gt; &amp;i_dimNameVec, const vector&lt; int &gt; &amp;i_accIdVec, const vector&lt; string &gt; &amp;i_accNameVec, const vector&lt; <a class="el" href="structopenm_1_1_table_acc_row.html">TableAccRow</a> &gt; &amp;i_tableAcc)</td></tr>
+<tr class="memdesc:aa1ee367eacb38a28400f03837df821b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialization: store output table definition parts.  <a href="#aa1ee367eacb38a28400f03837df821b6">More...</a><br /></td></tr>
+<tr class="separator:aa1ee367eacb38a28400f03837df821b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46521d2e9e73a17d8847166a78e973e0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_model_accumulator_sql.html#a46521d2e9e73a17d8847166a78e973e0">~ModelAccumulatorSql</a> () noexcept</td></tr>
 <tr class="memdesc:a46521d2e9e73a17d8847166a78e973e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">release sql builder resources.  <a href="#a46521d2e9e73a17d8847166a78e973e0">More...</a><br /></td></tr>
 <tr class="separator:a46521d2e9e73a17d8847166a78e973e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c0cc536b94ec8d295734de8c4bbd66f"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_model_accumulator_sql.html#a8c0cc536b94ec8d295734de8c4bbd66f">translateNativeAccExpr</a> (int i_accId, bool i_isFirstAcc) const</td></tr>
-<tr class="memdesc:a8c0cc536b94ec8d295734de8c4bbd66f"><td class="mdescLeft">&#160;</td><td class="mdescRight">translate output table "native" (non-derived) accumulator into sql subquery.  <a href="#a8c0cc536b94ec8d295734de8c4bbd66f">More...</a><br /></td></tr>
-<tr class="separator:a8c0cc536b94ec8d295734de8c4bbd66f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ff7ba763035f28fedc706cb54f15e1b"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_model_accumulator_sql.html#a0ff7ba763035f28fedc706cb54f15e1b">translateDerivedAccExpr</a> (const string &amp;i_accName, const string &amp;i_expr, const map&lt; string, string &gt; &amp;i_nativeMap) const</td></tr>
-<tr class="memdesc:a0ff7ba763035f28fedc706cb54f15e1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">translate output table derived accumulator into sql subquery.  <a href="#a0ff7ba763035f28fedc706cb54f15e1b">More...</a><br /></td></tr>
-<tr class="separator:a0ff7ba763035f28fedc706cb54f15e1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7144b6c08fe615c88fa5e814254e149c"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_model_accumulator_sql.html#a7144b6c08fe615c88fa5e814254e149c">translateNativeAccExpr</a> (const string &amp;i_outTableName, const string &amp;i_accName, int i_accId)</td></tr>
+<tr class="memdesc:a7144b6c08fe615c88fa5e814254e149c"><td class="mdescLeft">&#160;</td><td class="mdescRight">translate output table "native" (non-derived) accumulator into sql CTE subquery.  <a href="#a7144b6c08fe615c88fa5e814254e149c">More...</a><br /></td></tr>
+<tr class="separator:a7144b6c08fe615c88fa5e814254e149c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14519b5b9168240d1b7efa1da2fd0fa5"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_model_accumulator_sql.html#a14519b5b9168240d1b7efa1da2fd0fa5">translateDerivedAccExpr</a> (const string &amp;i_outTableName, const string &amp;i_accName, const string &amp;i_expr, const map&lt; string, size_t &gt; &amp;i_nativeMap)</td></tr>
+<tr class="memdesc:a14519b5b9168240d1b7efa1da2fd0fa5"><td class="mdescLeft">&#160;</td><td class="mdescRight">translate output table derived accumulator into sql CTE subquery.  <a href="#a14519b5b9168240d1b7efa1da2fd0fa5">More...</a><br /></td></tr>
+<tr class="separator:a14519b5b9168240d1b7efa1da2fd0fa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classopenm_1_1_model_base_expression_sql"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classopenm_1_1_model_base_expression_sql')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classopenm_1_1_model_base_expression_sql.html">openm::ModelBaseExpressionSql</a></td></tr>
 <tr class="memitem:a8663a314542355b4dc0dbf1ae0b67874 inherit pub_methods_classopenm_1_1_model_base_expression_sql"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_model_base_expression_sql.html#a8663a314542355b4dc0dbf1ae0b67874">ModelBaseExpressionSql</a> (const string &amp;i_accTableName, const vector&lt; string &gt; &amp;i_dimNameVec, const vector&lt; int &gt; &amp;i_accIdVec, const vector&lt; string &gt; &amp;i_accNameVec)</td></tr>
 <tr class="memdesc:a8663a314542355b4dc0dbf1ae0b67874 inherit pub_methods_classopenm_1_1_model_base_expression_sql"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialization: store output table definition parts.  <a href="classopenm_1_1_model_base_expression_sql.html#a8663a314542355b4dc0dbf1ae0b67874">More...</a><br /></td></tr>
@@ -130,6 +130,14 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_methods_classopenm_1_1_model_base_expression_sql"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classopenm_1_1_model_base_expression_sql')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classopenm_1_1_model_base_expression_sql.html">openm::ModelBaseExpressionSql</a></td></tr>
+<tr class="memitem:ab198add5cf1ed0070a4369f14f2ba9f7 inherit pro_methods_classopenm_1_1_model_base_expression_sql"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_model_base_expression_sql.html#ab198add5cf1ed0070a4369f14f2ba9f7">translateAllSimpleFnc</a> (const string &amp;i_srcMsg, bool i_isSkipAggr, const string &amp;i_expr)</td></tr>
+<tr class="memdesc:ab198add5cf1ed0070a4369f14f2ba9f7 inherit pro_methods_classopenm_1_1_model_base_expression_sql"><td class="mdescLeft">&#160;</td><td class="mdescRight">translate (substitute) all non-aggregation functions  <a href="classopenm_1_1_model_base_expression_sql.html#ab198add5cf1ed0070a4369f14f2ba9f7">More...</a><br /></td></tr>
+<tr class="separator:ab198add5cf1ed0070a4369f14f2ba9f7 inherit pro_methods_classopenm_1_1_model_base_expression_sql"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_static_methods_classopenm_1_1_model_base_expression_sql"><td colspan="2" onclick="javascript:toggleInherit('pro_static_methods_classopenm_1_1_model_base_expression_sql')"><img src="closed.png" alt="-"/>&#160;Static Protected Member Functions inherited from <a class="el" href="classopenm_1_1_model_base_expression_sql.html">openm::ModelBaseExpressionSql</a></td></tr>
+<tr class="memitem:ab37a7e545ed7b6b21da9f99236cfcb27 inherit pro_static_methods_classopenm_1_1_model_base_expression_sql"><td class="memItemLeft" align="right" valign="top">static const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_model_base_expression_sql.html#ab37a7e545ed7b6b21da9f99236cfcb27">translateSimpleFnc</a> (const string &amp;i_srcMsg, <a class="el" href="namespaceopenm.html#a1d961a1d992de740bd98b57f571cd448">FncCode</a> i_code, const string &amp;i_arg)</td></tr>
+<tr class="memdesc:ab37a7e545ed7b6b21da9f99236cfcb27 inherit pro_static_methods_classopenm_1_1_model_base_expression_sql"><td class="mdescLeft">&#160;</td><td class="mdescRight">translate (substitute) non-aggregation function  <a href="classopenm_1_1_model_base_expression_sql.html#ab37a7e545ed7b6b21da9f99236cfcb27">More...</a><br /></td></tr>
+<tr class="separator:ab37a7e545ed7b6b21da9f99236cfcb27 inherit pro_static_methods_classopenm_1_1_model_base_expression_sql"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classopenm_1_1_model_base_expression_sql"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classopenm_1_1_model_base_expression_sql')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classopenm_1_1_model_base_expression_sql.html">openm::ModelBaseExpressionSql</a></td></tr>
 <tr class="memitem:a00e5a94d7b103fecb9b5c59430a5cc3b inherit pro_attribs_classopenm_1_1_model_base_expression_sql"><td class="memItemLeft" align="right" valign="top"><a id="a00e5a94d7b103fecb9b5c59430a5cc3b"></a>
 const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_model_base_expression_sql.html#a00e5a94d7b103fecb9b5c59430a5cc3b">accTableName</a></td></tr>
@@ -151,8 +159,8 @@ const vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>class to produce accumulators sql subqueries for otput table </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a8e39ac8dd6e0fc947166dff2a89851b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e39ac8dd6e0fc947166dff2a89851b6">&#9670;&nbsp;</a></span>ModelAccumulatorSql()</h2>
+<a id="aa1ee367eacb38a28400f03837df821b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1ee367eacb38a28400f03837df821b6">&#9670;&nbsp;</a></span>ModelAccumulatorSql()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -182,7 +190,13 @@ const vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom">
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const vector&lt; string &gt; &amp;&#160;</td>
-          <td class="paramname"><em>i_accNameVec</em>&#160;</td>
+          <td class="paramname"><em>i_accNameVec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const vector&lt; <a class="el" href="structopenm_1_1_table_acc_row.html">TableAccRow</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>i_tableAcc</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -238,8 +252,8 @@ const vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom">
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a0ff7ba763035f28fedc706cb54f15e1b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ff7ba763035f28fedc706cb54f15e1b">&#9670;&nbsp;</a></span>translateDerivedAccExpr()</h2>
+<a id="a14519b5b9168240d1b7efa1da2fd0fa5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14519b5b9168240d1b7efa1da2fd0fa5">&#9670;&nbsp;</a></span>translateDerivedAccExpr()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -247,6 +261,12 @@ const vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom">
         <tr>
           <td class="memname">const string ModelAccumulatorSql::translateDerivedAccExpr </td>
           <td>(</td>
+          <td class="paramtype">const string &amp;&#160;</td>
+          <td class="paramname"><em>i_outTableName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">const string &amp;&#160;</td>
           <td class="paramname"><em>i_accName</em>, </td>
         </tr>
@@ -259,23 +279,24 @@ const vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom">
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const map&lt; string, string &gt; &amp;&#160;</td>
+          <td class="paramtype">const map&lt; string, size_t &gt; &amp;&#160;</td>
           <td class="paramname"><em>i_nativeMap</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td> const</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>translate output table derived accumulator into sql subquery. </p>
+<p>translate output table derived accumulator into sql CTE subquery. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">i_outTableName</td><td>output table name </td></tr>
     <tr><td class="paramname">i_accName</td><td>accumulator name </td></tr>
     <tr><td class="paramname">i_expr</td><td>source expression, ie: acc0 + acc1. </td></tr>
-    <tr><td class="paramname">i_nativeMap</td><td>native accumlators map of (name, sql)</td></tr>
+    <tr><td class="paramname">i_nativeMap</td><td>native accumlators map of (name, accumulator index)</td></tr>
   </table>
   </dd>
 </dl>
@@ -283,8 +304,8 @@ const vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom">
 
 </div>
 </div>
-<a id="a8c0cc536b94ec8d295734de8c4bbd66f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c0cc536b94ec8d295734de8c4bbd66f">&#9670;&nbsp;</a></span>translateNativeAccExpr()</h2>
+<a id="a7144b6c08fe615c88fa5e814254e149c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7144b6c08fe615c88fa5e814254e149c">&#9670;&nbsp;</a></span>translateNativeAccExpr()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -292,28 +313,35 @@ const vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom">
         <tr>
           <td class="memname">const string ModelAccumulatorSql::translateNativeAccExpr </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>i_accId</em>, </td>
+          <td class="paramtype">const string &amp;&#160;</td>
+          <td class="paramname"><em>i_outTableName</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>i_isFirstAcc</em>&#160;</td>
+          <td class="paramtype">const string &amp;&#160;</td>
+          <td class="paramname"><em>i_accName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i_accId</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td> const</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>translate output table "native" (non-derived) accumulator into sql subquery. </p>
+<p>translate output table "native" (non-derived) accumulator into sql CTE subquery. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">i_accId</td><td>accumulator id </td></tr>
-    <tr><td class="paramname">i_isFirstAcc</td><td>if true then this is first accumulator</td></tr>
+    <tr><td class="paramname">i_outTableName</td><td>output table name </td></tr>
+    <tr><td class="paramname">i_accName</td><td>accumulator name </td></tr>
+    <tr><td class="paramname">i_accId</td><td>accumulator id</td></tr>
   </table>
   </dd>
 </dl>
@@ -331,7 +359,7 @@ const vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom">
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceopenm.html">openm</a></li><li class="navelem"><a class="el" href="classopenm_1_1_model_accumulator_sql.html">ModelAccumulatorSql</a></li>
-    <li class="footer">Generated on Tue Jun 29 2021 03:13:56 for OpenM++ runtime library (libopenm) by
+    <li class="footer">Generated on Mon Aug 2 2021 16:03:38 for OpenM++ runtime library (libopenm) by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

@@ -2,6 +2,7 @@ var searchData=
 [
   ['idarr',['idArr',['../structopenm_1_1_value_row.html#a8e5c953ee73cdbfb7cb756f0329f300e',1,'openm::ValueRow']]],
   ['idcount',['idCount',['../structopenm_1_1_value_row.html#a4ad7b6f98a579d89ff23c1dcef6f13bf',1,'openm::ValueRow']]],
+  ['if_5fcase',['if_case',['../struct_fnc_name.html#a98777271366526d3c2f7ceaa3cc92f91',1,'FncName']]],
   ['importall',['importAll',['../structopenm_1_1_run_options_key.html#a748c8ae051881d278e73637ca22a0d43',1,'openm::RunOptionsKey']]],
   ['importdbprefix',['importDbPrefix',['../structopenm_1_1_run_options_key.html#a8d589130b899d9c0584a77a6152d8928',1,'openm::RunOptionsKey']]],
   ['importdigest',['importDigest',['../structopenm_1_1_param_dic_row.html#a7e2d7a08ef8257030bad6eb7987d63b1',1,'openm::ParamDicRow::importDigest()'],['../structopenm_1_1_table_dic_row.html#a4004d1730a3a9251efcfe77d44335f29',1,'openm::TableDicRow::importDigest()']]],
@@ -16,6 +17,7 @@ var searchData=
   ['inifile',['iniFile',['../structopenm_1_1_run_short_key.html#a941688564ae2c4a3ae5482afbd9560b1',1,'openm::RunShortKey::iniFile()'],['../structopenm_1_1_arg_key.html#a48c187b3de618c40c92e67d21bf5ebfe',1,'openm::ArgKey::iniFile()']]],
   ['init',['init',['../structopenm_1_1_run_status.html#a3dc375d1634d3f3ff7856d5ac2da3ac6',1,'openm::RunStatus']]],
   ['iotasubvalue',['iotaSubValue',['../structopenm_1_1_run_options_key.html#a2ec77f37e92ba7aadd12321922ba3f62',1,'openm::RunOptionsKey']]],
+  ['isaggr',['isAggr',['../struct_fnc_token.html#a350add017524985312667f6aa949415f',1,'FncToken']]],
   ['isderived',['isDerived',['../structopenm_1_1_table_acc_row.html#ac4322bfb9a73c637670b6c55634a424b',1,'openm::TableAccRow']]],
   ['isextendable',['isExtendable',['../structopenm_1_1_param_dic_row.html#a8af922813b1e09b21cab4e6a1727869f',1,'openm::ParamDicRow']]],
   ['ishidden',['isHidden',['../structopenm_1_1_param_dic_row.html#a0beaa50edfc780a78a0caba14634c99a',1,'openm::ParamDicRow::isHidden()'],['../structopenm_1_1_table_dic_row.html#abd04ccd794186a4dbd3b10a9a7bc561f',1,'openm::TableDicRow::isHidden()'],['../structopenm_1_1_group_lst_row.html#a5a8e21c880458e4fea8836de42c376d7',1,'openm::GroupLstRow::isHidden()']]],

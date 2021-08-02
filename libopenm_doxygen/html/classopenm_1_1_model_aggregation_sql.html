@@ -114,9 +114,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a456167ec36f76f140164f1fc673a48f3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_model_aggregation_sql.html#a456167ec36f76f140164f1fc673a48f3">~ModelAggregationSql</a> () noexcept</td></tr>
 <tr class="memdesc:a456167ec36f76f140164f1fc673a48f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">release sql builder resources.  <a href="#a456167ec36f76f140164f1fc673a48f3">More...</a><br /></td></tr>
 <tr class="separator:a456167ec36f76f140164f1fc673a48f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd9e3b6a711ebdafe8e88f0b8c2a69ca"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_model_aggregation_sql.html#acd9e3b6a711ebdafe8e88f0b8c2a69ca">translateAggregationExpr</a> (const string &amp;i_name, const string &amp;i_expr)</td></tr>
-<tr class="memdesc:acd9e3b6a711ebdafe8e88f0b8c2a69ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">translate output aggregation expression into sql.  <a href="#acd9e3b6a711ebdafe8e88f0b8c2a69ca">More...</a><br /></td></tr>
-<tr class="separator:acd9e3b6a711ebdafe8e88f0b8c2a69ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae55dfe6145bb74be200bfbe940266f14"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_model_aggregation_sql.html#ae55dfe6145bb74be200bfbe940266f14">translateAggregationExpr</a> (const string &amp;i_outTableName, const string &amp;i_name, const string &amp;i_expr)</td></tr>
+<tr class="memdesc:ae55dfe6145bb74be200bfbe940266f14"><td class="mdescLeft">&#160;</td><td class="mdescRight">translate output aggregation expression into sql.  <a href="#ae55dfe6145bb74be200bfbe940266f14">More...</a><br /></td></tr>
+<tr class="separator:ae55dfe6145bb74be200bfbe940266f14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classopenm_1_1_model_base_expression_sql"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classopenm_1_1_model_base_expression_sql')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classopenm_1_1_model_base_expression_sql.html">openm::ModelBaseExpressionSql</a></td></tr>
 <tr class="memitem:a8663a314542355b4dc0dbf1ae0b67874 inherit pub_methods_classopenm_1_1_model_base_expression_sql"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_model_base_expression_sql.html#a8663a314542355b4dc0dbf1ae0b67874">ModelBaseExpressionSql</a> (const string &amp;i_accTableName, const vector&lt; string &gt; &amp;i_dimNameVec, const vector&lt; int &gt; &amp;i_accIdVec, const vector&lt; string &gt; &amp;i_accNameVec)</td></tr>
 <tr class="memdesc:a8663a314542355b4dc0dbf1ae0b67874 inherit pub_methods_classopenm_1_1_model_base_expression_sql"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialization: store output table definition parts.  <a href="classopenm_1_1_model_base_expression_sql.html#a8663a314542355b4dc0dbf1ae0b67874">More...</a><br /></td></tr>
@@ -127,6 +127,14 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_methods_classopenm_1_1_model_base_expression_sql"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classopenm_1_1_model_base_expression_sql')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classopenm_1_1_model_base_expression_sql.html">openm::ModelBaseExpressionSql</a></td></tr>
+<tr class="memitem:ab198add5cf1ed0070a4369f14f2ba9f7 inherit pro_methods_classopenm_1_1_model_base_expression_sql"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_model_base_expression_sql.html#ab198add5cf1ed0070a4369f14f2ba9f7">translateAllSimpleFnc</a> (const string &amp;i_srcMsg, bool i_isSkipAggr, const string &amp;i_expr)</td></tr>
+<tr class="memdesc:ab198add5cf1ed0070a4369f14f2ba9f7 inherit pro_methods_classopenm_1_1_model_base_expression_sql"><td class="mdescLeft">&#160;</td><td class="mdescRight">translate (substitute) all non-aggregation functions  <a href="classopenm_1_1_model_base_expression_sql.html#ab198add5cf1ed0070a4369f14f2ba9f7">More...</a><br /></td></tr>
+<tr class="separator:ab198add5cf1ed0070a4369f14f2ba9f7 inherit pro_methods_classopenm_1_1_model_base_expression_sql"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_static_methods_classopenm_1_1_model_base_expression_sql"><td colspan="2" onclick="javascript:toggleInherit('pro_static_methods_classopenm_1_1_model_base_expression_sql')"><img src="closed.png" alt="-"/>&#160;Static Protected Member Functions inherited from <a class="el" href="classopenm_1_1_model_base_expression_sql.html">openm::ModelBaseExpressionSql</a></td></tr>
+<tr class="memitem:ab37a7e545ed7b6b21da9f99236cfcb27 inherit pro_static_methods_classopenm_1_1_model_base_expression_sql"><td class="memItemLeft" align="right" valign="top">static const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_model_base_expression_sql.html#ab37a7e545ed7b6b21da9f99236cfcb27">translateSimpleFnc</a> (const string &amp;i_srcMsg, <a class="el" href="namespaceopenm.html#a1d961a1d992de740bd98b57f571cd448">FncCode</a> i_code, const string &amp;i_arg)</td></tr>
+<tr class="memdesc:ab37a7e545ed7b6b21da9f99236cfcb27 inherit pro_static_methods_classopenm_1_1_model_base_expression_sql"><td class="mdescLeft">&#160;</td><td class="mdescRight">translate (substitute) non-aggregation function  <a href="classopenm_1_1_model_base_expression_sql.html#ab37a7e545ed7b6b21da9f99236cfcb27">More...</a><br /></td></tr>
+<tr class="separator:ab37a7e545ed7b6b21da9f99236cfcb27 inherit pro_static_methods_classopenm_1_1_model_base_expression_sql"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classopenm_1_1_model_base_expression_sql"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classopenm_1_1_model_base_expression_sql')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classopenm_1_1_model_base_expression_sql.html">openm::ModelBaseExpressionSql</a></td></tr>
 <tr class="memitem:a00e5a94d7b103fecb9b5c59430a5cc3b inherit pro_attribs_classopenm_1_1_model_base_expression_sql"><td class="memItemLeft" align="right" valign="top"><a id="a00e5a94d7b103fecb9b5c59430a5cc3b"></a>
 const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_model_base_expression_sql.html#a00e5a94d7b103fecb9b5c59430a5cc3b">accTableName</a></td></tr>
@@ -235,8 +243,8 @@ const vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom">
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="acd9e3b6a711ebdafe8e88f0b8c2a69ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd9e3b6a711ebdafe8e88f0b8c2a69ca">&#9670;&nbsp;</a></span>translateAggregationExpr()</h2>
+<a id="ae55dfe6145bb74be200bfbe940266f14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae55dfe6145bb74be200bfbe940266f14">&#9670;&nbsp;</a></span>translateAggregationExpr()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -244,6 +252,12 @@ const vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom">
         <tr>
           <td class="memname">const string ModelAggregationSql::translateAggregationExpr </td>
           <td>(</td>
+          <td class="paramtype">const string &amp;&#160;</td>
+          <td class="paramname"><em>i_outTableName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">const string &amp;&#160;</td>
           <td class="paramname"><em>i_name</em>, </td>
         </tr>
@@ -265,6 +279,7 @@ const vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom">
 <p>translate output aggregation expression into sql</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">i_outTableName</td><td>output table name </td></tr>
     <tr><td class="paramname">i_name</td><td>expression name, ie: expr2. </td></tr>
     <tr><td class="paramname">i_expr</td><td>source expression, ie: OM_AVG(acc2).</td></tr>
   </table>
@@ -284,7 +299,7 @@ const vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom">
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceopenm.html">openm</a></li><li class="navelem"><a class="el" href="classopenm_1_1_model_aggregation_sql.html">ModelAggregationSql</a></li>
-    <li class="footer">Generated on Tue Jun 29 2021 03:13:56 for OpenM++ runtime library (libopenm) by
+    <li class="footer">Generated on Mon Aug 2 2021 16:03:38 for OpenM++ runtime library (libopenm) by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

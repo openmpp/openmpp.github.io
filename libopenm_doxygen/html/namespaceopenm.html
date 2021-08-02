@@ -100,9 +100,6 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_aggregation_column_expr.html">AggregationColumnExpr</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">column aggregation expression  <a href="structopenm_1_1_aggregation_column_expr.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_aggregation_fnc.html">AggregationFnc</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">aggregation function names  <a href="structopenm_1_1_aggregation_fnc.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_arg_key.html">ArgKey</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">common openM++ keys for runtime arguments  <a href="structopenm_1_1_arg_key.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -935,19 +932,21 @@ Enumerations</h2></td></tr>
 <tr class="separator:a0314e082fb4ca9b53f0682b831cc7b13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d961a1d992de740bd98b57f571cd448"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a1d961a1d992de740bd98b57f571cd448">FncCode</a> { <br />
 &#160;&#160;<a class="el" href="namespaceopenm.html#a1d961a1d992de740bd98b57f571cd448a5e543256c480ac577d30f76f9120eb74">FncCode::undefined</a> = 0, 
+<a class="el" href="namespaceopenm.html#a1d961a1d992de740bd98b57f571cd448acaf2d484bde184c4127b99c59c0cc5c5">FncCode::if_case</a>, 
+<a class="el" href="namespaceopenm.html#a1d961a1d992de740bd98b57f571cd448a861ced443a0cd3b58ec6ed9fc774cf66">FncCode::denom</a>, 
 <a class="el" href="namespaceopenm.html#a1d961a1d992de740bd98b57f571cd448ae322d423f075b0ab2daad27011d24909">FncCode::avg</a>, 
-<a class="el" href="namespaceopenm.html#a1d961a1d992de740bd98b57f571cd448a1d623b89683f9ce4e074de1676d12416">FncCode::sum</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespaceopenm.html#a1d961a1d992de740bd98b57f571cd448a1d623b89683f9ce4e074de1676d12416">FncCode::sum</a>, 
 <a class="el" href="namespaceopenm.html#a1d961a1d992de740bd98b57f571cd448ae2942a04780e223b215eb8b663cf5353">FncCode::count</a>, 
-<br />
-&#160;&#160;<a class="el" href="namespaceopenm.html#a1d961a1d992de740bd98b57f571cd448ad8bd79cc131920d5de426f914d17405a">FncCode::min</a>, 
+<a class="el" href="namespaceopenm.html#a1d961a1d992de740bd98b57f571cd448ad8bd79cc131920d5de426f914d17405a">FncCode::min</a>, 
 <a class="el" href="namespaceopenm.html#a1d961a1d992de740bd98b57f571cd448a2ffe4e77325d9a7152f7086ea7aa5114">FncCode::max</a>, 
-<a class="el" href="namespaceopenm.html#a1d961a1d992de740bd98b57f571cd448ab2145aac704ce76dbe1ac7adac535b23">FncCode::var</a>, 
-<a class="el" href="namespaceopenm.html#a1d961a1d992de740bd98b57f571cd448a6226f7cbe59e99a90b5cef6f94f966fd">FncCode::sd</a>, 
 <br />
-&#160;&#160;<a class="el" href="namespaceopenm.html#a1d961a1d992de740bd98b57f571cd448aefad7abb323e3d4016284c8a6da076a1">FncCode::se</a>, 
+&#160;&#160;<a class="el" href="namespaceopenm.html#a1d961a1d992de740bd98b57f571cd448ab2145aac704ce76dbe1ac7adac535b23">FncCode::var</a>, 
+<a class="el" href="namespaceopenm.html#a1d961a1d992de740bd98b57f571cd448a6226f7cbe59e99a90b5cef6f94f966fd">FncCode::sd</a>, 
+<a class="el" href="namespaceopenm.html#a1d961a1d992de740bd98b57f571cd448aefad7abb323e3d4016284c8a6da076a1">FncCode::se</a>, 
 <a class="el" href="namespaceopenm.html#a1d961a1d992de740bd98b57f571cd448ade3ec0aa2234aa1e3ee275bbc715c6c9">FncCode::cv</a>
 <br />
- }<tr class="memdesc:a1d961a1d992de740bd98b57f571cd448"><td class="mdescLeft">&#160;</td><td class="mdescRight">aggregation function code  <a href="namespaceopenm.html#a1d961a1d992de740bd98b57f571cd448">More...</a><br /></td></tr>
+ }<tr class="memdesc:a1d961a1d992de740bd98b57f571cd448"><td class="mdescLeft">&#160;</td><td class="mdescRight">aggregation and non-aggregation function code  <a href="namespaceopenm.html#a1d961a1d992de740bd98b57f571cd448">More...</a><br /></td></tr>
 </td></tr>
 <tr class="separator:a1d961a1d992de740bd98b57f571cd448"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3bfbc1c842226a2cda27f3f2ad50df16"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a3bfbc1c842226a2cda27f3f2ad50df16">MsgTag</a> { <br />
@@ -1342,9 +1341,13 @@ const <a class="el" href="structopenm_1_1_parameter_name_size_item.html">Paramet
 </table>
 </div><div class="memdoc">
 
-<p>aggregation function code </p>
+<p>aggregation and non-aggregation function code </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a1d961a1d992de740bd98b57f571cd448a5e543256c480ac577d30f76f9120eb74"></a>undefined&#160;</td><td class="fielddoc"><p>undefined aggregation function </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a1d961a1d992de740bd98b57f571cd448a5e543256c480ac577d30f76f9120eb74"></a>undefined&#160;</td><td class="fielddoc"><p>undefined function </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a1d961a1d992de740bd98b57f571cd448acaf2d484bde184c4127b99c59c0cc5c5"></a>if_case&#160;</td><td class="fielddoc"><p>if condition then value else other value </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a1d961a1d992de740bd98b57f571cd448a861ced443a0cd3b58ec6ed9fc774cf66"></a>denom&#160;</td><td class="fielddoc"><p>denominator: wrap value as divisor </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a1d961a1d992de740bd98b57f571cd448ae322d423f075b0ab2daad27011d24909"></a>avg&#160;</td><td class="fielddoc"><p>average value </p>
 </td></tr>
@@ -2026,7 +2029,7 @@ const <a class="el" href="structopenm_1_1_parameter_name_size_item.html">Paramet
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceopenm.html">openm</a></li>
-    <li class="footer">Generated on Tue Jun 29 2021 03:13:56 for OpenM++ runtime library (libopenm) by
+    <li class="footer">Generated on Mon Aug 2 2021 16:03:37 for OpenM++ runtime library (libopenm) by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

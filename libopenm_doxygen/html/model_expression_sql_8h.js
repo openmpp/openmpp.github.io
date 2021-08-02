@@ -1,12 +1,13 @@
 var model_expression_sql_8h =
 [
-    [ "AggregationFnc", "structopenm_1_1_aggregation_fnc.html", null ],
     [ "AggregationColumnExpr", "structopenm_1_1_aggregation_column_expr.html", "structopenm_1_1_aggregation_column_expr" ],
     [ "ModelBaseExpressionSql", "classopenm_1_1_model_base_expression_sql.html", "classopenm_1_1_model_base_expression_sql" ],
     [ "ModelAccumulatorSql", "classopenm_1_1_model_accumulator_sql.html", "classopenm_1_1_model_accumulator_sql" ],
     [ "ModelAggregationSql", "classopenm_1_1_model_aggregation_sql.html", "classopenm_1_1_model_aggregation_sql" ],
     [ "FncCode", "model_expression_sql_8h.html#a1d961a1d992de740bd98b57f571cd448", [
       [ "undefined", "model_expression_sql_8h.html#a1d961a1d992de740bd98b57f571cd448a5e543256c480ac577d30f76f9120eb74", null ],
+      [ "if_case", "model_expression_sql_8h.html#a1d961a1d992de740bd98b57f571cd448acaf2d484bde184c4127b99c59c0cc5c5", null ],
+      [ "denom", "model_expression_sql_8h.html#a1d961a1d992de740bd98b57f571cd448a861ced443a0cd3b58ec6ed9fc774cf66", null ],
       [ "avg", "model_expression_sql_8h.html#a1d961a1d992de740bd98b57f571cd448ae322d423f075b0ab2daad27011d24909", null ],
       [ "sum", "model_expression_sql_8h.html#a1d961a1d992de740bd98b57f571cd448a1d623b89683f9ce4e074de1676d12416", null ],
       [ "count", "model_expression_sql_8h.html#a1d961a1d992de740bd98b57f571cd448ae2942a04780e223b215eb8b663cf5353", null ],

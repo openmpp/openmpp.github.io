@@ -8,5 +8,5 @@ var searchData=
   ['acctablename',['accTableName',['../classopenm_1_1_model_base_expression_sql.html#a00e5a94d7b103fecb9b5c59430a5cc3b',1,'openm::ModelBaseExpressionSql']]],
   ['allvalue',['allValue',['../structopenm_1_1_run_options_key.html#aa9fba2748da011c91fc6467e5cdd24c8',1,'openm::RunOptionsKey']]],
   ['args',['args',['../structopenm_1_1_arg_reader.html#accfbbf152b42185797d88e6e1b830c39',1,'openm::ArgReader']]],
-  ['avg',['avg',['../structopenm_1_1_aggregation_fnc.html#a8ff3f45f2b413c41cc9a884190756b5a',1,'openm::AggregationFnc']]]
+  ['avg',['avg',['../struct_fnc_name.html#ab74508e0ede4fe650da1cc81f82230e2',1,'FncName']]]
 ];

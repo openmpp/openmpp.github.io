@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['sd',['sd',['../structopenm_1_1_aggregation_fnc.html#ac3cab1af263faa4312cdddf7de82664c',1,'openm::AggregationFnc']]],
-  ['se',['se',['../structopenm_1_1_aggregation_fnc.html#ac0587f4144e86b188fb4cd9f869283e8',1,'openm::AggregationFnc']]],
+  ['sd',['sd',['../struct_fnc_name.html#a95743b5dbf39b24a55b5b5ed52baab89',1,'FncName']]],
+  ['se',['se',['../struct_fnc_name.html#a279a5627c4ae4e7a8980e732216a56b2',1,'FncName']]],
   ['section',['section',['../structopenm_1_1_ini_entry.html#ac394f1b3b1ad36ad991dce597d7c82c9',1,'openm::IniEntry']]],
   ['selfsubcount',['selfSubCount',['../classopenm_1_1_run_controller.html#a5402c8e13983efdacbb561f6f78e25ec',1,'openm::RunController']]],
   ['setid',['setId',['../structopenm_1_1_run_options_key.html#a290559cef0982486c05e7f9379593979',1,'openm::RunOptionsKey::setId()'],['../structopenm_1_1_workset_lst_row.html#ab2ea3697916ad61ea485b9a0910d8676',1,'openm::WorksetLstRow::setId()'],['../structopenm_1_1_workset_txt_row.html#a734052681e44a1767dd0eab4fec3dc48',1,'openm::WorksetTxtRow::setId()'],['../structopenm_1_1_workset_param_row.html#a6e8f1fc1275193b077bab1c80ae82cee',1,'openm::WorksetParamRow::setId()'],['../structopenm_1_1_workset_param_txt_row.html#a456e6a6fde910de9bfa6cb181692fde6',1,'openm::WorksetParamTxtRow::setId()'],['../structopenm_1_1_task_set_row.html#a52889ae12c9063af5508e818170b7e7a',1,'openm::TaskSetRow::setId()'],['../structopenm_1_1_task_run_set_row.html#a796b63175b7f887192f321dd97d4b152',1,'openm::TaskRunSetRow::setId()']]],
@@ -26,6 +26,6 @@ var searchData=
   ['subvaluecount',['subValueCount',['../structopenm_1_1_run_options_key.html#a754eec57ace4f003eac540339422dae0',1,'openm::RunOptionsKey::subValueCount()'],['../classopenm_1_1_meta_loader.html#a23173002bd9a372d2a8c518012d84869',1,'openm::MetaLoader::subValueCount()'],['../structopenm_1_1_run_options.html#acf60629a57dd5c43968b354c0ef90437',1,'openm::RunOptions::subValueCount()']]],
   ['subvalueid',['subValueId',['../structopenm_1_1_run_options.html#aa24834d24fc153158297123c61bfb6e1',1,'openm::RunOptions']]],
   ['subvaluesprefix',['subValuesPrefix',['../structopenm_1_1_run_options_key.html#a00b67071c0d9edc48b89ae2751f1d2a4',1,'openm::RunOptionsKey']]],
-  ['sum',['sum',['../structopenm_1_1_aggregation_fnc.html#ac8afbbec6dfa041909c6220b2318fc82',1,'openm::AggregationFnc']]],
+  ['sum',['sum',['../struct_fnc_name.html#a3a701ad97b633d3e48d38d930fe5d422',1,'FncName']]],
   ['szval',['szVal',['../unionopenm_1_1_db_value.html#ae2e6ca99ebce525fb5efb1003d019dc8',1,'openm::DbValue']]]
 ];
