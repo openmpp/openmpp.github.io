@@ -9,6 +9,7 @@ var searchData=
   ['runinithandler',['RunInitHandler',['../main_8cpp.html#ab6e07a42445842f1239dfcaf491ae45a',1,'RunInitHandler():&#160;main.cpp'],['../om_model_8h.html#ab6e07a42445842f1239dfcaf491ae45a',1,'RunInitHandler():&#160;main.cpp']]],
   ['runmodelhandler',['RunModelHandler',['../main_8cpp.html#ad9c9353bc9fad350f9c43b26ded2d660',1,'RunModelHandler():&#160;main.cpp'],['../om_model_8h.html#ad9c9353bc9fad350f9c43b26ded2d660',1,'RunModelHandler():&#160;main.cpp']]],
   ['runname',['runName',['../structopenm_1_1_run_options_key.html#a9295e4313769fd905f344377907e3408',1,'openm::RunOptionsKey']]],
+  ['runnotepathsuffix',['runNotePathSuffix',['../structopenm_1_1_run_options_key.html#a6c9a531cbbf78ba43a2bd431b1708a3d',1,'openm::RunOptionsKey']]],
   ['runoncehandler',['RunOnceHandler',['../main_8cpp.html#a45e9f51d12ca05fb078347ee58d2bdf6',1,'RunOnceHandler():&#160;main.cpp'],['../om_model_8h.html#a45e9f51d12ca05fb078347ee58d2bdf6',1,'RunOnceHandler():&#160;main.cpp']]],
   ['runoptiontable',['runOptionTable',['../structopenm_1_1_meta_holder.html#a60a07ceceedcf091337237db808413bd',1,'openm::MetaHolder']]],
   ['runstamp',['runStamp',['../structopenm_1_1_arg_key.html#aa2990c7b97022a81360d5fbc019ccc51',1,'openm::ArgKey::runStamp()'],['../structopenm_1_1_run_lst_row.html#ad34a9b7d57bdee77ba6cd0b9db5917ba',1,'openm::RunLstRow::runStamp()'],['../structopenm_1_1_task_run_lst_row.html#ad8827d7a2fa7bb12048ca54a53a6824a',1,'openm::TaskRunLstRow::runStamp()']]]

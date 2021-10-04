@@ -1,21 +1,21 @@
 <map id="EntityTableAccumulatorSymbol" name="EntityTableAccumulatorSymbol">
 <area shape="rect" id="node2" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++. " alt="" coords="273,759,344,785"/>
-<area shape="rect" id="node4" href="$class_entity_table_measure_attribute_symbol.html" title="EntityTableMeasureAttributeSymbol. " alt="" coords="3268,201,3475,242"/>
+<area shape="rect" id="node4" href="$class_entity_table_measure_attribute_symbol.html" title="EntityTableMeasureAttributeSymbol. " alt="" coords="3265,201,3472,242"/>
 <area shape="rect" id="node6" href="$class_entity_data_member_symbol.html" title="EntityDataMemberSymbol" alt="" coords="648,699,841,725"/>
-<area shape="rect" id="node7" href="$class_entity_member_symbol.html" title="EntityMemberSymbol" alt="" coords="2073,939,2236,965"/>
-<area shape="rect" id="node8" href="$class_entity_symbol.html" title="EntitySymbol. " alt="" coords="1844,807,1953,833"/>
+<area shape="rect" id="node7" href="$class_entity_member_symbol.html" title="EntityMemberSymbol" alt="" coords="2071,939,2233,965"/>
+<area shape="rect" id="node8" href="$class_entity_symbol.html" title="EntitySymbol. " alt="" coords="1843,807,1952,833"/>
 <area shape="rect" id="node14" href="$class_type_symbol.html" title="TypeSymbol. " alt="" coords="393,692,495,719"/>
-<area shape="rect" id="node16" href="$class_entity_table_symbol.html" title="EntityTableSymbol. " alt="" coords="3016,889,3159,916"/>
+<area shape="rect" id="node16" href="$class_entity_table_symbol.html" title="EntityTableSymbol. " alt="" coords="3013,889,3156,916"/>
 <area shape="rect" id="node17" href="$class_table_symbol.html" title="TableSymbol. " alt="" coords="519,1023,624,1049"/>
 <area shape="rect" id="node3" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables. " alt="" coords="5,759,116,785"/>
 <area shape="rect" id="node5" href="$class_attribute_symbol.html" title="AttributeSymbol" alt="" coords="1243,404,1371,431"/>
 <area shape="rect" id="node13" href="$class_builtin_attribute_symbol.html" title="BuiltinAttributeSymbol. " alt="" coords="1420,756,1591,783"/>
 <area shape="rect" id="node19" href="$class_maintained_attribute_symbol.html" title="MaintainedAttributeSymbol. " alt="" coords="1615,341,1815,368"/>
-<area shape="rect" id="node12" href="$class_entity_event_symbol.html" title="Event time member symbol for an event. " alt="" coords="2735,787,2881,813"/>
+<area shape="rect" id="node12" href="$class_entity_event_symbol.html" title="Event time member symbol for an event. " alt="" coords="2732,787,2879,813"/>
 <area shape="rect" id="node15" href="$class_entity_internal_symbol.html" title="Internal data symbol. " alt="" coords="891,548,1049,575"/>
-<area shape="rect" id="node9" href="$class_entity_func_symbol.html" title="Symbol for a function member of an agent. " alt="" coords="2369,605,2508,632"/>
-<area shape="rect" id="node21" href="$class_entity_increment_symbol.html" title="Functionality associated with the entity member Increment&lt;&gt; associated with a table. " alt="" coords="2721,955,2895,981"/>
-<area shape="rect" id="node18" href="$class_identity_attribute_symbol.html" title="IdentityAttributeSymbol. " alt="" coords="2719,685,2897,712"/>
-<area shape="rect" id="node10" href="$class_code_block.html" title="CodeBlock" alt="" coords="2109,439,2200,465"/>
-<area shape="rect" id="node20" href="$class_expr_for_attribute.html" title="Expression tree element in an identity attribute. " alt="" coords="2375,736,2503,763"/>
+<area shape="rect" id="node9" href="$class_entity_func_symbol.html" title="Symbol for a function member of an agent. " alt="" coords="2367,605,2505,632"/>
+<area shape="rect" id="node21" href="$class_entity_increment_symbol.html" title="Functionality associated with the entity member Increment&lt;&gt; associated with a table. " alt="" coords="2718,955,2893,981"/>
+<area shape="rect" id="node18" href="$class_identity_attribute_symbol.html" title="IdentityAttributeSymbol. " alt="" coords="2716,685,2895,712"/>
+<area shape="rect" id="node10" href="$class_code_block.html" title="CodeBlock" alt="" coords="2107,439,2197,465"/>
+<area shape="rect" id="node20" href="$class_expr_for_attribute.html" title="Expression tree element in an identity attribute. " alt="" coords="2372,736,2500,763"/>
 </map>

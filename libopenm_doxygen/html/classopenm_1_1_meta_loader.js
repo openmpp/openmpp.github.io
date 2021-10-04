@@ -20,10 +20,6 @@ var classopenm_1_1_meta_loader =
       [ "range", "classopenm_1_1_meta_loader.html#a37435225a06ad80e4d434de467cb08aca37b19816109a32106d109e83bbb3c97d", null ],
       [ "list", "classopenm_1_1_meta_loader.html#a37435225a06ad80e4d434de467cb08aca10ae9fc7d453b0dd525d0edf2ede7961", null ]
     ] ],
-    [ "LangOptKind", "classopenm_1_1_meta_loader.html#ab906d241cd73947266d8c57666727b35", [
-      [ "none", "classopenm_1_1_meta_loader.html#ab906d241cd73947266d8c57666727b35a334c4a4c42fdb79d7ebc3e73b517e6f8", null ],
-      [ "runDescr", "classopenm_1_1_meta_loader.html#ab906d241cd73947266d8c57666727b35a1f3a7ff3fe5676a732bdda2a189b8642", null ]
-    ] ],
     [ "~MetaLoader", "classopenm_1_1_meta_loader.html#abe866847512069b6c461f29a4215d325", null ],
     [ "MetaLoader", "classopenm_1_1_meta_loader.html#a38a5368af308c22d0984ffc618f3f3c8", null ],
     [ "argOpts", "classopenm_1_1_meta_loader.html#ae91b446b6761556e1592974aadb770ca", null ],
@@ -40,7 +36,7 @@ var classopenm_1_1_meta_loader =
     [ "setRunOptions", "classopenm_1_1_meta_loader.html#a4d4b571f2b762d2dbc98d7bbc0b085ae", null ],
     [ "tableIdByName", "classopenm_1_1_meta_loader.html#a8e832588d4181880e2fc6ecb8d2acdcd", null ],
     [ "importOptsMap", "classopenm_1_1_meta_loader.html#ac6ff8393be09d6677ba5fb73c5a14cfa", null ],
-    [ "langOptsMap", "classopenm_1_1_meta_loader.html#a6f8c4d43a385a09e0a7a2eba921f612b", null ],
+    [ "langOptsMap", "classopenm_1_1_meta_loader.html#a18af158082d32b49631193c76732c278", null ],
     [ "metaStore", "classopenm_1_1_meta_loader.html#a4bfb0dd088c7683a894e1d80529c3b10", null ],
     [ "modelId", "classopenm_1_1_meta_loader.html#adfa9f67dbd4886e203f9d2f4e9261d10", null ],
     [ "paramIdSubArr", "classopenm_1_1_meta_loader.html#a945be5a250d497799fd7ac9409b48892", null ],

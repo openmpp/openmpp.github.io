@@ -131,7 +131,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a403a4027c2472d74d1d17f933c319ac8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e6421858b08bf8f412c99de60496525"><td class="memItemLeft" align="right" valign="top"><a id="a5e6421858b08bf8f412c99de60496525"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_entity_multilink_symbol.html#a5e6421858b08bf8f412c99de60496525">create_auxiliary_symbols</a> ()</td></tr>
-<tr class="memdesc:a5e6421858b08bf8f412c99de60496525"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create auxiliary symbols associated with this agentvar. <br /></td></tr>
+<tr class="memdesc:a5e6421858b08bf8f412c99de60496525"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create auxiliary symbols associated with this attribute. <br /></td></tr>
 <tr class="separator:a5e6421858b08bf8f412c99de60496525"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0c12e04b3979eadc10a72ff23da5f4a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_entity_multilink_symbol.html#ac0c12e04b3979eadc10a72ff23da5f4a">post_parse</a> (int pass)</td></tr>
 <tr class="memdesc:ac0c12e04b3979eadc10a72ff23da5f4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform post-parse operations.  <a href="#ac0c12e04b3979eadc10a72ff23da5f4a">More...</a><br /></td></tr>
@@ -798,7 +798,7 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 </div><div class="memdoc">
 
 <p>Perform post-parse operations. </p>
-<p>Post-parse operations create derived information based on information obtained during the parse phase. This information is stored in members of the <a class="el" href="class_symbol.html" title="A Symbol is a named syntactic entity in openM++. ">Symbol</a> class hierarchy which by convention have a 'pp_' prefix in their name. For example, the pp_callback_members collection of the <a class="el" href="class_entity_symbol.html">EntitySymbol</a> class contains a list of all agentvars of the agent after post-parse processing. These pp_ members are used subsequently in the code-generation phase.</p>
+<p>Post-parse operations create derived information based on information obtained during the parse phase. This information is stored in members of the <a class="el" href="class_symbol.html" title="A Symbol is a named syntactic entity in openM++. ">Symbol</a> class hierarchy which by convention have a 'pp_' prefix in their name. For example, the pp_callback_members collection of the <a class="el" href="class_entity_symbol.html">EntitySymbol</a> class contains a list of all attributes of the agent after post-parse processing. These pp_ members are used subsequently in the code-generation phase.</p>
 <p>When post_parse is called on an object in the <a class="el" href="class_symbol.html">Symbol</a> hierarchy, the call is first passed upwards through the inheritance hierarchy so that post-parse operations are performed at all hierarchical levels, and at higher levels before lower levels (for each <em>pass</em>).</p>
 <p>Post-parse operations occur in a series of sequential passes, with the results of each pass usable by subsequent passes. <a class="el" href="class_entity_multilink_symbol.html#ac0c12e04b3979eadc10a72ff23da5f4a">post_parse</a> is called on all symbols through the function \ ref <a class="el" href="class_symbol.html#a27b36929b5425090a644f9415719981a" title="Perform operations after the parser has parsed all input files. ">Symbol::post_parse_all</a>.</p>
 <dl class="params"><dt>Parameters</dt><dd>
@@ -822,7 +822,7 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_entity_multilink_symbol.html">EntityMultilinkSymbol</a></li>
-    <li class="footer">Generated on Fri Sep 3 2021 18:25:08 for OpenM++ compiler (omc) by
+    <li class="footer">Generated on Mon Oct 4 2021 13:46:22 for OpenM++ compiler (omc) by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>
