@@ -6,7 +6,7 @@ var class_parameter_symbol =
       [ "scenario_parameter", "class_parameter_symbol.html#a03d2c03cc458c1c0a87aa40c5c236a1da2cac706f4c9d92b22ac4b594bdb5bc95", null ],
       [ "derived_parameter", "class_parameter_symbol.html#a03d2c03cc458c1c0a87aa40c5c236a1dae352b026706209ec4fa1ad28f6348ea2", null ]
     ] ],
-    [ "ParameterSymbol", "class_parameter_symbol.html#ac432c8ac70274befec37f66538ab4abc", null ],
+    [ "ParameterSymbol", "class_parameter_symbol.html#a8920a053f926953c2f24797551e4fbda", null ],
     [ "alternate_name", "class_parameter_symbol.html#a864dc176ba5aea29a27cb58bd694c92d", null ],
     [ "conditioning_dims", "class_parameter_symbol.html#a515a472bfb43e5bfe87117712565a18d", null ],
     [ "conditioning_size", "class_parameter_symbol.html#a0f818895782d3fff7bff8f3c5490e4b8", null ],

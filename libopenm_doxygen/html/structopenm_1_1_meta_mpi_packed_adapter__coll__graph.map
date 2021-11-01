@@ -1,3 +1,4 @@
 <map id="openm::MetaMpiPackedAdapter&lt; rowMsgTag, TRow &gt;" name="openm::MetaMpiPackedAdapter&lt; rowMsgTag, TRow &gt;">
-<area shape="rect" id="node2" href="$structopenm_1_1_i_packed_adapter.html" title="public interface to pack and unpack rows of metadata db&#45;table " alt="" coords="31,5,207,32"/>
+<area shape="rect" id="node1" title="MPI&#45;based adapter to pack and unpack vector of metadata db rows." alt="" coords="5,80,233,121"/>
+<area shape="rect" id="node2" href="$structopenm_1_1_i_packed_adapter.html" title="public interface to pack and unpack rows of metadata db&#45;table" alt="" coords="32,5,207,32"/>
 </map>

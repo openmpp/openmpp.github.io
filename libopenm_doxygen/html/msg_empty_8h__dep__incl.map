@@ -1,13 +1,14 @@
 <map id="msg/msgEmpty.h" name="msg/msgEmpty.h">
-<area shape="rect" id="node2" href="$msg_common_8h.html" title="OpenM++: message passing library common classes and interfaces. " alt="" coords="427,80,580,107"/>
-<area shape="rect" id="node3" href="$msg_exec_base_8cpp.html" title="OpenM++: message passing library base class. " alt="" coords="5,155,177,181"/>
-<area shape="rect" id="node4" href="$msg_mpi_packed_8h.html" title="OpenM++ message passing library: pack and unpack wrapper class for MPI&#45;based implementation. " alt="" coords="253,155,415,181"/>
-<area shape="rect" id="node6" href="$msg_mpi_exec_8h.html" title="OpenM++: message passing library main class for MPI&#45;based implementation. " alt="" coords="328,304,476,331"/>
-<area shape="rect" id="node7" href="$msg_mpi_send_8h.html" title="OpenM++ message passing library: sender class for MPI&#45;based implementation. " alt="" coords="215,229,365,256"/>
-<area shape="rect" id="node8" href="$msg_mpi_recv_8h.html" title="OpenM++ message passing library: receiver class for MPI&#45;based implementation. " alt="" coords="490,229,637,256"/>
-<area shape="rect" id="node9" href="$msg_mpi_exec_8cpp.html" title="OpenM++: message passing library main class for MPI&#45;based implementation. " alt="" coords="541,155,703,181"/>
-<area shape="rect" id="node10" href="$msg_mpi_packed_8cpp.html" title="OpenM++ message passing library: pack and unpack wrapper class for MPI&#45;based implementation. " alt="" coords="727,155,906,181"/>
-<area shape="rect" id="node11" href="$msg_mpi_recv_8cpp.html" title="OpenM++ message passing library: receiver classes for MPI&#45;based implementation. " alt="" coords="930,155,1093,181"/>
-<area shape="rect" id="node12" href="$msg_mpi_send_8cpp.html" title="OpenM++ message passing library: sender classes for MPI&#45;based implementation. " alt="" coords="1117,155,1281,181"/>
-<area shape="rect" id="node5" href="$msg_mpi_8h.html" title="OpenM++: message passing library common classes and interfaces. " alt="" coords="287,379,405,405"/>
+<area shape="rect" id="node1" title="OpenM++: empty implementation of message passing library." alt="" coords="722,5,857,32"/>
+<area shape="rect" id="node2" href="$msg_common_8h.html" title="OpenM++: message passing library common classes and interfaces." alt="" coords="713,80,866,107"/>
+<area shape="rect" id="node3" href="$msg_exec_base_8cpp.html" title="OpenM++: message passing library base class." alt="" coords="5,155,176,181"/>
+<area shape="rect" id="node4" href="$msg_mpi_exec_8cpp.html" title="OpenM++: message passing library main class for MPI&#45;based implementation." alt="" coords="200,155,363,181"/>
+<area shape="rect" id="node5" href="$msg_mpi_exec_8h.html" title="OpenM++: message passing library main class for MPI&#45;based implementation." alt="" coords="765,304,913,331"/>
+<area shape="rect" id="node7" href="$msg_mpi_packed_8cpp.html" title="OpenM++ message passing library: pack and unpack wrapper class for MPI&#45;based implementation." alt="" coords="573,155,752,181"/>
+<area shape="rect" id="node8" href="$msg_mpi_packed_8h.html" title="OpenM++ message passing library: pack and unpack wrapper class for MPI&#45;based implementation." alt="" coords="387,155,549,181"/>
+<area shape="rect" id="node9" href="$msg_mpi_send_8h.html" title="OpenM++ message passing library: sender class for MPI&#45;based implementation." alt="" coords="651,229,802,256"/>
+<area shape="rect" id="node10" href="$msg_mpi_recv_8cpp.html" title="OpenM++ message passing library: receiver classes for MPI&#45;based implementation." alt="" coords="878,155,1042,181"/>
+<area shape="rect" id="node11" href="$msg_mpi_recv_8h.html" title="OpenM++ message passing library: receiver class for MPI&#45;based implementation." alt="" coords="877,229,1027,256"/>
+<area shape="rect" id="node12" href="$msg_mpi_send_8cpp.html" title="OpenM++ message passing library: sender classes for MPI&#45;based implementation." alt="" coords="1117,155,1283,181"/>
+<area shape="rect" id="node6" href="$msg_mpi_8h.html" title="OpenM++: message passing library common classes and interfaces." alt="" coords="723,379,842,405"/>
 </map>

@@ -1,6 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structopenm_1_1_i_meta_table.html" title="openm::IMetaTable\&lt;\l ModelWordRow \&gt;" alt="" coords="5,5,161,47"/>
-<area shape="rect" id="node2" href="$structopenm_1_1_i_meta_loaded_table.html" title="openm::IMetaLoadedTable\l\&lt; ModelWordRow \&gt;" alt="" coords="209,5,401,47"/>
-<area shape="rect" id="node3" href="$structopenm_1_1_i_model_word_table.html" title="model_word table public interface. " alt="" coords="449,13,635,39"/>
-<area shape="rect" id="node4" href="$classopenm_1_1_model_word_table.html" title="openm::ModelWordTable" alt="" coords="683,13,864,39"/>
+<area shape="rect" id="node1" href="$structopenm_1_1_i_meta_table.html" title=" " alt="" coords="5,5,163,47"/>
+<area shape="rect" id="node2" href="$structopenm_1_1_i_task_txt_table.html" title="task_txt table public interface." alt="" coords="211,13,373,39"/>
+<area shape="rect" id="node3" href="$classopenm_1_1_task_txt_table.html" title=" " alt="" coords="421,13,580,39"/>
 </map>

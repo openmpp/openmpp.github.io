@@ -1,8 +1,12 @@
 <map id="ExtendParameterSymbol" name="ExtendParameterSymbol">
-<area shape="rect" id="node2" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++. " alt="" coords="213,124,284,151"/>
-<area shape="rect" id="node4" href="$class_parameter_symbol.html" title="ParameterSymbol. " alt="" coords="210,335,349,361"/>
-<area shape="rect" id="node5" href="$class_global_func_symbol.html" title="GlobalFuncSymbol. " alt="" coords="375,229,517,256"/>
-<area shape="rect" id="node8" href="$class_type_symbol.html" title="TypeSymbol. " alt="" coords="542,229,643,256"/>
-<area shape="rect" id="node3" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables. " alt="" coords="193,5,304,32"/>
-<area shape="rect" id="node6" href="$class_code_block.html" title="CodeBlock" alt="" coords="401,124,491,151"/>
+<area shape="rect" id="node1" title="Symbol associated with an extend_parameter statement." alt="" coords="5,543,188,569"/>
+<area shape="rect" id="node2" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="213,228,284,255"/>
+<area shape="rect" id="node6" href="$class_parameter_symbol.html" title="ParameterSymbol." alt="" coords="210,439,349,465"/>
+<area shape="rect" id="node7" href="$class_global_func_symbol.html" title="GlobalFuncSymbol." alt="" coords="371,333,513,360"/>
+<area shape="rect" id="node10" href="$class_type_symbol.html" title="TypeSymbol." alt="" coords="538,333,639,360"/>
+<area shape="rect" id="node3" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="87,109,197,136"/>
+<area shape="rect" id="node4" href="$classomc_1_1location.html" title="Two points in a source file." alt="" coords="223,109,333,136"/>
+<area shape="rect" id="node5" href="$classomc_1_1position.html" title="A point in a source file." alt="" coords="223,5,333,32"/>
+<area shape="rect" id="node8" href="$class_code_block.html" title=" " alt="" coords="397,228,487,255"/>
+<area shape="rect" id="node9" title=" " alt="" coords="387,109,497,136"/>
 </map>

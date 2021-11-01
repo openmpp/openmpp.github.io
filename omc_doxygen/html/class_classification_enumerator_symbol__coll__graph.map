@@ -1,8 +1,11 @@
 <map id="ClassificationEnumeratorSymbol" name="ClassificationEnumeratorSymbol">
-<area shape="rect" id="node2" href="$class_enumerator_symbol.html" title="EnumeratorSymbol" alt="" coords="25,456,171,483"/>
-<area shape="rect" id="node3" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++. " alt="" coords="63,124,133,151"/>
-<area shape="rect" id="node7" href="$class_type_symbol.html" title="TypeSymbol. " alt="" coords="161,200,262,227"/>
-<area shape="rect" id="node4" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables. " alt="" coords="43,5,153,32"/>
-<area shape="rect" id="node5" href="$class_enumeration_with_enumerators_symbol.html" title="EnumerationWithEnumeratorsSymbol. " alt="" coords="157,352,375,393"/>
-<area shape="rect" id="node6" href="$class_enumeration_symbol.html" title="EnumerationSymbol. " alt="" coords="210,276,365,303"/>
+<area shape="rect" id="node1" title=" " alt="" coords="36,636,221,677"/>
+<area shape="rect" id="node2" href="$class_enumerator_symbol.html" title=" " alt="" coords="55,560,202,587"/>
+<area shape="rect" id="node3" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="93,228,164,255"/>
+<area shape="rect" id="node9" href="$class_type_symbol.html" title="TypeSymbol." alt="" coords="191,304,293,331"/>
+<area shape="rect" id="node4" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="5,109,116,136"/>
+<area shape="rect" id="node5" href="$classomc_1_1location.html" title="Two points in a source file." alt="" coords="141,109,252,136"/>
+<area shape="rect" id="node6" href="$classomc_1_1position.html" title="A point in a source file." alt="" coords="141,5,252,32"/>
+<area shape="rect" id="node7" href="$class_enumeration_with_enumerators_symbol.html" title="EnumerationWithEnumeratorsSymbol." alt="" coords="187,456,406,497"/>
+<area shape="rect" id="node8" href="$class_enumeration_symbol.html" title="EnumerationSymbol." alt="" coords="241,380,395,407"/>
 </map>

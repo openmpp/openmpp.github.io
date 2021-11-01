@@ -1,5 +1,6 @@
 <map id="openm::ModelDicTxtLangRow" name="openm::ModelDicTxtLangRow">
-<area shape="rect" id="node2" href="$structopenm_1_1_model_dic_txt_row.html" title="model_dic_txt table row. " alt="" coords="21,169,204,196"/>
-<area shape="rect" id="node3" href="$structopenm_1_1_i_meta_row.html" title="openm::IMetaRow\&lt; ModelDic\lTxtRow \&gt;" alt="" coords="6,80,219,121"/>
-<area shape="rect" id="node4" href="$structopenm_1_1_i_row_base.html" title="db&#45;row abstract base " alt="" coords="43,5,182,32"/>
+<area shape="rect" id="node1" title="model_dic_txt table row and language code." alt="" coords="5,244,221,271"/>
+<area shape="rect" id="node2" href="$structopenm_1_1_model_dic_txt_row.html" title="model_dic_txt table row." alt="" coords="21,169,206,196"/>
+<area shape="rect" id="node3" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="5,80,221,121"/>
+<area shape="rect" id="node4" href="$structopenm_1_1_i_row_base.html" title="db&#45;row abstract base" alt="" coords="44,5,183,32"/>
 </map>

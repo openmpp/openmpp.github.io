@@ -1,4 +1,5 @@
 <map id="openm::MsgEmptyRecvPacked" name="openm::MsgEmptyRecvPacked">
-<area shape="rect" id="node2" href="$classopenm_1_1_i_msg_recv_packed.html" title="public interface to receive packed data " alt="" coords="24,80,207,107"/>
-<area shape="rect" id="node3" href="$classopenm_1_1_i_msg_recv.html" title="public interface for message receiver " alt="" coords="47,5,183,32"/>
+<area shape="rect" id="node1" title="non&#45;blocking receive of packed data (empty implementation)" alt="" coords="5,155,227,181"/>
+<area shape="rect" id="node2" href="$classopenm_1_1_i_msg_recv_packed.html" title="public interface to receive packed data" alt="" coords="25,80,207,107"/>
+<area shape="rect" id="node3" href="$classopenm_1_1_i_msg_recv.html" title="public interface for message receiver" alt="" coords="47,5,185,32"/>
 </map>

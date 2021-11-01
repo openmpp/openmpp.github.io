@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['symbol_5fmap_5ftype',['symbol_map_type',['../_symbol_8h.html#a7a28564d46600c5290f04e7608a5746d',1,'Symbol.h']]],
-  ['symbol_5fmap_5fvalue_5ftype',['symbol_map_value_type',['../_symbol_8h.html#a67d5ebca249610df9f3921c177477248',1,'Symbol.h']]]
+  ['filename_5ftype_1703',['filename_type',['../classomc_1_1position.html#a544e40243247c355a15ff556421025e7',1,'omc::position::filename_type()'],['../classomc_1_1location.html#af77bf508386a5f506f857769d2d58269',1,'omc::location::filename_type()']]]
 ];

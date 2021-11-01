@@ -1,8 +1,10 @@
 <map id="MaintainedAttributeSymbol" name="MaintainedAttributeSymbol">
-<area shape="rect" id="node6" href="$class_derived_attribute_symbol.html" title="DerivedAttributeSymbol. " alt="" coords="5,379,184,405"/>
-<area shape="rect" id="node7" href="$class_identity_attribute_symbol.html" title="IdentityAttributeSymbol. " alt="" coords="208,379,387,405"/>
-<area shape="rect" id="node2" href="$class_attribute_symbol.html" title="AttributeSymbol" alt="" coords="132,229,260,256"/>
-<area shape="rect" id="node3" href="$class_entity_data_member_symbol.html" title="EntityDataMemberSymbol" alt="" coords="99,155,293,181"/>
-<area shape="rect" id="node4" href="$class_entity_member_symbol.html" title="EntityMemberSymbol" alt="" coords="115,80,277,107"/>
-<area shape="rect" id="node5" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++. " alt="" coords="161,5,231,32"/>
+<area shape="rect" id="node1" title="MaintainedAttributeSymbol." alt="" coords="197,304,398,331"/>
+<area shape="rect" id="node6" href="$class_derived_attribute_symbol.html" title="DerivedAttributeSymbol." alt="" coords="5,379,184,405"/>
+<area shape="rect" id="node7" href="$class_identity_attribute_symbol.html" title="IdentityAttributeSymbol." alt="" coords="208,379,387,405"/>
+<area shape="rect" id="node8" href="$class_multilink_attribute_symbol.html" title="MultilinkAttributeSymbol." alt="" coords="411,379,597,405"/>
+<area shape="rect" id="node2" href="$class_attribute_symbol.html" title=" " alt="" coords="233,229,361,256"/>
+<area shape="rect" id="node3" href="$class_entity_data_member_symbol.html" title=" " alt="" coords="200,155,395,181"/>
+<area shape="rect" id="node4" href="$class_entity_member_symbol.html" title=" " alt="" coords="216,80,379,107"/>
+<area shape="rect" id="node5" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="262,5,333,32"/>
 </map>

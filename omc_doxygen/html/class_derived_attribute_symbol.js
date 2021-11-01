@@ -17,6 +17,7 @@ var class_derived_attribute_symbol =
     [ "pp_modgen_name", "class_derived_attribute_symbol.html#aa35dc82da09f8043703e4693222e5208", null ],
     [ "pretty_name", "class_derived_attribute_symbol.html#acfa6077b7674afd32cfd052b4368db74", null ],
     [ "record_dependencies", "class_derived_attribute_symbol.html#a2f1ccf9ac3fd42a2fc222108572906a2", null ],
+    [ "record_dependencies_timelike", "class_derived_attribute_symbol.html#adb6ceef80ee1e95c680adb6811f73343", null ],
     [ "validate", "class_derived_attribute_symbol.html#aaaf327b51ab33e021687d4be8bb53da1", null ],
     [ "ait", "class_derived_attribute_symbol.html#a381b278ba55cd22d3d1d4d93ec3edcdc", null ],
     [ "any_to_hooks", "class_derived_attribute_symbol.html#af0351a547767e16acd3addd15f7b2645", null ],

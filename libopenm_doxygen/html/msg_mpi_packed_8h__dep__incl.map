@@ -1,5 +1,6 @@
 <map id="msg/msgMpiPacked.h" name="msg/msgMpiPacked.h">
-<area shape="rect" id="node2" href="$msg_mpi_8h.html" title="OpenM++: message passing library common classes and interfaces. " alt="" coords="59,229,176,256"/>
-<area shape="rect" id="node3" href="$msg_mpi_exec_8h.html" title="OpenM++: message passing library main class for MPI&#45;based implementation. " alt="" coords="43,155,191,181"/>
-<area shape="rect" id="node4" href="$msg_mpi_send_8h.html" title="OpenM++ message passing library: sender class for MPI&#45;based implementation. " alt="" coords="124,80,273,107"/>
+<area shape="rect" id="node1" title="OpenM++ message passing library: pack and unpack wrapper class for MPI&#45;based implementation." alt="" coords="5,5,168,32"/>
+<area shape="rect" id="node2" href="$msg_mpi_8h.html" title="OpenM++: message passing library common classes and interfaces." alt="" coords="59,229,178,256"/>
+<area shape="rect" id="node3" href="$msg_mpi_exec_8h.html" title="OpenM++: message passing library main class for MPI&#45;based implementation." alt="" coords="45,155,193,181"/>
+<area shape="rect" id="node4" href="$msg_mpi_send_8h.html" title="OpenM++ message passing library: sender class for MPI&#45;based implementation." alt="" coords="125,80,275,107"/>
 </map>

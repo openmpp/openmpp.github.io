@@ -1,7 +1,10 @@
 <map id="EntityTableMeasureSymbol" name="EntityTableMeasureSymbol">
-<area shape="rect" id="node2" href="$class_table_measure_symbol.html" title="TableMeasureSymbol. " alt="" coords="5,289,165,316"/>
-<area shape="rect" id="node3" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++. " alt="" coords="50,124,121,151"/>
-<area shape="rect" id="node5" href="$class_table_symbol.html" title="TableSymbol. " alt="" coords="147,200,253,227"/>
-<area shape="rect" id="node4" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables. " alt="" coords="30,5,141,32"/>
-<area shape="rect" id="node6" href="$class_expr_for_table.html" title="Table expression tree element. " alt="" coords="190,289,295,316"/>
+<area shape="rect" id="node1" title="EntityTableMeasureSymbol." alt="" coords="108,483,307,509"/>
+<area shape="rect" id="node2" href="$class_table_measure_symbol.html" title="TableMeasureSymbol." alt="" coords="48,393,209,420"/>
+<area shape="rect" id="node3" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="93,228,164,255"/>
+<area shape="rect" id="node7" href="$class_table_symbol.html" title="TableSymbol." alt="" coords="191,304,296,331"/>
+<area shape="rect" id="node4" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="5,109,116,136"/>
+<area shape="rect" id="node5" href="$classomc_1_1location.html" title="Two points in a source file." alt="" coords="141,109,252,136"/>
+<area shape="rect" id="node6" href="$classomc_1_1position.html" title="A point in a source file." alt="" coords="141,5,252,32"/>
+<area shape="rect" id="node8" href="$class_expr_for_table.html" title="Table expression tree element." alt="" coords="233,393,339,420"/>
 </map>

@@ -14,8 +14,8 @@ var classopenm_1_1_i_msg_exec =
     [ "setCleanExit", "classopenm_1_1_i_msg_exec.html#a6db26f6d1a4ebd8eb951787e0c340c72", null ],
     [ "startSend", "classopenm_1_1_i_msg_exec.html#a682d24b9925070382e32626aa7ef7311", null ],
     [ "startSendPacked", "classopenm_1_1_i_msg_exec.html#a5ea13d04f7aeb7e0947dae62caacdf9f", null ],
-    [ "tryReceive", "classopenm_1_1_i_msg_exec.html#a64adc7d042369f43bbb2433b97bce119", null ],
     [ "tryReceive", "classopenm_1_1_i_msg_exec.html#a8cb04a8ce2084e740b860d7b478530ed", null ],
+    [ "tryReceive", "classopenm_1_1_i_msg_exec.html#a64adc7d042369f43bbb2433b97bce119", null ],
     [ "waitSendAll", "classopenm_1_1_i_msg_exec.html#a494ea5788b65a433280ba7dd528e35cd", null ],
     [ "worldSize", "classopenm_1_1_i_msg_exec.html#a8307b34df318706592be6d96fe9c6416", null ]
 ];

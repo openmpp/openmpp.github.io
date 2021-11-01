@@ -1,4 +1,5 @@
 <map id="openm::ITableDicTxtTable" name="openm::ITableDicTxtTable">
-<area shape="rect" id="node2" href="$structopenm_1_1_i_meta_loaded_table.html" title="openm::IMetaLoadedTable\l\&lt; TableDicTxtRow \&gt;" alt="" coords="5,95,197,136"/>
-<area shape="rect" id="node3" href="$structopenm_1_1_i_meta_table.html" title="openm::IMetaTable\&lt;\l TableDicTxtRow \&gt;" alt="" coords="23,5,179,47"/>
+<area shape="rect" id="node1" title="table_dic_txt table public interface." alt="" coords="7,184,197,211"/>
+<area shape="rect" id="node2" href="$structopenm_1_1_i_meta_loaded_table.html" title=" " alt="" coords="5,95,199,136"/>
+<area shape="rect" id="node3" href="$structopenm_1_1_i_meta_table.html" title="base class for metadata db&#45;tables" alt="" coords="23,5,181,47"/>
 </map>

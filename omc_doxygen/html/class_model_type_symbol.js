@@ -1,6 +1,6 @@
 var class_model_type_symbol =
 [
-    [ "ModelTypeSymbol", "class_model_type_symbol.html#a035d7331705efe2863fc7d5864466214", null ],
+    [ "ModelTypeSymbol", "class_model_type_symbol.html#aa775be7406cadba47a07161f05f8e264", null ],
     [ "cxx_definition_global", "class_model_type_symbol.html#a8eca0f8537cdf6d7b49ea74860556f30", null ],
     [ "is_base_symbol", "class_model_type_symbol.html#a7092cfbd7625a1960641eb05b59e4460", null ],
     [ "is_case_based", "class_model_type_symbol.html#a11bc2e2eb52907f4adedba665eb32abf", null ],

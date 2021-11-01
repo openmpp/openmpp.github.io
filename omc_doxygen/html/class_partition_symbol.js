@@ -1,6 +1,6 @@
 var class_partition_symbol =
 [
-    [ "PartitionSymbol", "class_partition_symbol.html#a77f3d34bd4db42f83e32e8f88d69090e", null ],
+    [ "PartitionSymbol", "class_partition_symbol.html#a91f9b5c6fbe6e2f9d4ad1b616b1c858a", null ],
     [ "cxx_declaration_global", "class_partition_symbol.html#a1e66adcd9649b7d12a93eee4a17b4f70", null ],
     [ "cxx_definition_global", "class_partition_symbol.html#a42fe19f9cdfe52316e8d580dcc55c820", null ],
     [ "default_initial_value", "class_partition_symbol.html#a8c7975dd1459083ee313fd7f605fccb7", null ],

@@ -1,4 +1,5 @@
 <map id="openm::ITypeEnumTxtTable" name="openm::ITypeEnumTxtTable">
-<area shape="rect" id="node2" href="$structopenm_1_1_i_meta_loaded_table.html" title="openm::IMetaLoadedTable\l\&lt; TypeEnumTxtRow \&gt;" alt="" coords="10,95,202,136"/>
-<area shape="rect" id="node3" href="$structopenm_1_1_i_meta_table.html" title="openm::IMetaTable\&lt;\l TypeEnumTxtRow \&gt;" alt="" coords="28,5,184,47"/>
+<area shape="rect" id="node1" title="type_enum_txt table public interface." alt="" coords="5,184,207,211"/>
+<area shape="rect" id="node2" href="$structopenm_1_1_i_meta_loaded_table.html" title=" " alt="" coords="9,95,203,136"/>
+<area shape="rect" id="node3" href="$structopenm_1_1_i_meta_table.html" title="base class for metadata db&#45;tables" alt="" coords="27,5,185,47"/>
 </map>

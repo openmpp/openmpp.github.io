@@ -1,3 +1,4 @@
 <map id="LinkToAttributeSymbol" name="LinkToAttributeSymbol">
-<area shape="rect" id="node2" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++. " alt="" coords="55,5,125,32"/>
+<area shape="rect" id="node1" title="A symbol for a link to an attribute in an entity." alt="" coords="5,80,175,107"/>
+<area shape="rect" id="node2" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="55,5,125,32"/>
 </map>

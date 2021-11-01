@@ -15,7 +15,7 @@ var hierarchy =
       [ "ExprForTableLiteral", "class_expr_for_table_literal.html", null ],
       [ "ExprForTableOp", "class_expr_for_table_op.html", null ]
     ] ],
-    [ "std::hash< yy::position >", "structstd_1_1hash_3_01yy_1_1position_01_4.html", null ],
+    [ "std::hash< omc::position >", "structstd_1_1hash_3_01omc_1_1position_01_4.html", null ],
     [ "list", null, [
       [ "CodeBlock", "class_code_block.html", null ]
     ] ],
@@ -28,10 +28,12 @@ var hierarchy =
       [ "StringLiteral", "class_string_literal.html", null ],
       [ "TimeLiteral", "class_time_literal.html", null ]
     ] ],
+    [ "omc::location", "classomc_1_1location.html", null ],
     [ "openm::OmcArgKey", "structopenm_1_1_omc_arg_key.html", null ],
     [ "openm::OmcShortKey", "structopenm_1_1_omc_short_key.html", null ],
     [ "ParseContext", "class_parse_context.html", null ],
     [ "PDim", "struct_p_dim.html", null ],
+    [ "omc::position", "classomc_1_1position.html", null ],
     [ "SpecialGlobal", "class_special_global.html", null ],
     [ "Symbol", "class_symbol.html", [
       [ "AggregationSymbol", "class_aggregation_symbol.html", null ],
@@ -45,9 +47,9 @@ var hierarchy =
             [ "LinkAttributeSymbol", "class_link_attribute_symbol.html", null ],
             [ "MaintainedAttributeSymbol", "class_maintained_attribute_symbol.html", [
               [ "DerivedAttributeSymbol", "class_derived_attribute_symbol.html", null ],
-              [ "IdentityAttributeSymbol", "class_identity_attribute_symbol.html", null ]
+              [ "IdentityAttributeSymbol", "class_identity_attribute_symbol.html", null ],
+              [ "MultilinkAttributeSymbol", "class_multilink_attribute_symbol.html", null ]
             ] ],
-            [ "MultilinkAttributeSymbol", "class_multilink_attribute_symbol.html", null ],
             [ "SimpleAttributeSymbol", "class_simple_attribute_symbol.html", [
               [ "SimpleAttributeEnumSymbol", "class_simple_attribute_enum_symbol.html", null ]
             ] ]

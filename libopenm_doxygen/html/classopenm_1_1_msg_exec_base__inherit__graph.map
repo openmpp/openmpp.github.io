@@ -1,4 +1,5 @@
 <map id="openm::MsgExecBase" name="openm::MsgExecBase">
-<area shape="rect" id="node2" href="$classopenm_1_1_mpi_exec.html" title="message passing library main class for MPI&#45;based implementation " alt="" coords="5,80,135,107"/>
-<area shape="rect" id="node3" href="$classopenm_1_1_msg_empty_exec.html" title="message passing main class. " alt="" coords="159,80,333,107"/>
+<area shape="rect" id="node1" title="message passing base class" alt="" coords="76,5,240,32"/>
+<area shape="rect" id="node2" href="$classopenm_1_1_mpi_exec.html" title="message passing library main class for MPI&#45;based implementation" alt="" coords="5,80,135,107"/>
+<area shape="rect" id="node3" href="$classopenm_1_1_msg_empty_exec.html" title="message passing main class." alt="" coords="159,80,333,107"/>
 </map>

@@ -1,4 +1,5 @@
 <map id="db/dbExecSqlite.h" name="db/dbExecSqlite.h">
-<area shape="rect" id="node2" href="$db_exec_provider_8cpp.html" title="OpenM++ data library: base class for db connection wrapper. " alt="" coords="5,80,175,107"/>
-<area shape="rect" id="node3" href="$db_exec_sqlite_8cpp.html" title="OpenM++ data library: db connection wrapper for SQLite. " alt="" coords="199,80,352,107"/>
+<area shape="rect" id="node1" title="OpenM++ data library: db connection wrapper for SQLite." alt="" coords="113,5,250,32"/>
+<area shape="rect" id="node2" href="$db_exec_provider_8cpp.html" title="OpenM++ data library: base class for db connection wrapper." alt="" coords="5,80,173,107"/>
+<area shape="rect" id="node3" href="$db_exec_sqlite_8cpp.html" title="OpenM++ data library: db connection wrapper for SQLite." alt="" coords="197,80,349,107"/>
 </map>

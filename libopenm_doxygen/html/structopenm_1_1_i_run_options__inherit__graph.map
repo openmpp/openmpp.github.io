@@ -1,8 +1,9 @@
 <map id="openm::IRunOptions" name="openm::IRunOptions">
-<area shape="rect" id="node2" href="$structopenm_1_1_i_run_base.html" title="public interface to initialize model run and input parameters " alt="" coords="207,81,341,108"/>
-<area shape="rect" id="node3" href="$classopenm_1_1_run_controller.html" title="run controller: create new model run(s) and support data exchange. " alt="" coords="389,81,552,108"/>
-<area shape="rect" id="node4" href="$classopenm_1_1_child_controller.html" title="controller for child process: receive input parameters from root and send output tables. " alt="" coords="607,5,779,32"/>
-<area shape="rect" id="node5" href="$classopenm_1_1_restart_controller.html" title="controller for &quot;restart run&quot;: calculate outstanding sub&#45;values for existing run " alt="" coords="600,56,785,83"/>
-<area shape="rect" id="node6" href="$classopenm_1_1_root_controller.html" title="controller for root process: create new model run(s), send input parameters to children and receieve ..." alt="" coords="609,107,777,133"/>
-<area shape="rect" id="node7" href="$classopenm_1_1_single_controller.html" title="controller for single process: create new model run(s), read input parameters and write output tables..." alt="" coords="603,157,782,184"/>
+<area shape="rect" id="node1" title="public interface to get model run options" alt="" coords="5,81,160,108"/>
+<area shape="rect" id="node2" href="$structopenm_1_1_i_run_base.html" title="public interface to initialize model run and input parameters" alt="" coords="208,81,344,108"/>
+<area shape="rect" id="node3" href="$classopenm_1_1_run_controller.html" title="run controller: create new model run(s) and support data exchange." alt="" coords="392,81,556,108"/>
+<area shape="rect" id="node4" href="$classopenm_1_1_child_controller.html" title="controller for child process: receive input parameters from root and send output tables." alt="" coords="611,5,783,32"/>
+<area shape="rect" id="node5" href="$classopenm_1_1_restart_controller.html" title="controller for &quot;restart run&quot;: calculate outstanding sub&#45;values for existing run" alt="" coords="604,56,791,83"/>
+<area shape="rect" id="node6" href="$classopenm_1_1_root_controller.html" title="controller for root process: create new model run(s), send input parameters to children and receieve ..." alt="" coords="613,107,782,133"/>
+<area shape="rect" id="node7" href="$classopenm_1_1_single_controller.html" title="controller for single process: create new model run(s), read input parameters and write output tables..." alt="" coords="608,157,787,184"/>
 </map>

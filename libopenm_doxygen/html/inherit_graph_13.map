@@ -1,8 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structopenm_1_1_i_log_base.html" title="base for log public interface " alt="" coords="5,56,140,83"/>
-<area shape="rect" id="node2" href="$structopenm_1_1_i_log.html" title="log public interface: log to console and into log files " alt="" coords="202,5,305,32"/>
-<area shape="rect" id="node4" href="$structopenm_1_1_i_trace.html" title="trace log public interface: model event log to console and into log files " alt="" coords="197,107,310,133"/>
-<area shape="rect" id="node6" href="$classopenm_1_1_log_base.html" title="Log base class: log to console and into log files. " alt="" coords="188,56,319,83"/>
-<area shape="rect" id="node3" href="$classopenm_1_1_log.html" title="log implementation class: log to console and into log files. " alt="" coords="383,31,482,57"/>
-<area shape="rect" id="node5" href="$classopenm_1_1_trace_log.html" title="trace log implementation class: model event log to console and into log files. " alt="" coords="367,93,499,120"/>
+<area shape="rect" id="node1" href="$structopenm_1_1_i_final_state.html" title="final model run state public interface: thread safe" alt="" coords="5,5,149,32"/>
+<area shape="rect" id="node2" href="$structopenm_1_1_i_model_run_state.html" title="model run state public interface: thread safe" alt="" coords="197,5,376,32"/>
+<area shape="rect" id="node3" href="$classopenm_1_1_model_run_state.html" title="model run state: thread safe" alt="" coords="424,31,599,57"/>
+<area shape="rect" id="node4" href="$structopenm_1_1_run_state.html" title="model run state data: status, progress, update times" alt="" coords="219,56,354,83"/>
 </map>

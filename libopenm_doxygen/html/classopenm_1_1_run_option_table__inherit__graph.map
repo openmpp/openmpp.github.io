@@ -1,5 +1,6 @@
 <map id="openm::RunOptionTable" name="openm::RunOptionTable">
-<area shape="rect" id="node2" href="$structopenm_1_1_i_run_option_table.html" title="run_option table public interface. " alt="" coords="11,184,191,211"/>
-<area shape="rect" id="node3" href="$structopenm_1_1_i_meta_loaded_table.html" title="openm::IMetaLoadedTable\l\&lt; RunOptionRow \&gt;" alt="" coords="5,95,197,136"/>
-<area shape="rect" id="node4" href="$structopenm_1_1_i_meta_table.html" title="openm::IMetaTable\&lt;\l RunOptionRow \&gt;" alt="" coords="23,5,179,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="13,259,191,285"/>
+<area shape="rect" id="node2" href="$structopenm_1_1_i_run_option_table.html" title="run_option table public interface." alt="" coords="11,184,193,211"/>
+<area shape="rect" id="node3" href="$structopenm_1_1_i_meta_loaded_table.html" title=" " alt="" coords="5,95,199,136"/>
+<area shape="rect" id="node4" href="$structopenm_1_1_i_meta_table.html" title="base class for metadata db&#45;tables" alt="" coords="23,5,181,47"/>
 </map>

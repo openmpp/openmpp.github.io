@@ -1,5 +1,6 @@
 <map id="ExtendParameterSymbol.h" name="ExtendParameterSymbol.h">
-<area shape="rect" id="node2" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model. ..." alt="" coords="32,80,87,107"/>
-<area shape="rect" id="node4" href="$_extend_parameter_symbol_8cpp.html" title="Definitions for the ExtendParameterSymbol class. " alt="" coords="110,80,321,107"/>
-<area shape="rect" id="node3" href="$_code_gen_8cpp.html" title="Implements the code generation class. " alt="" coords="5,155,113,181"/>
+<area shape="rect" id="node1" title="Declarations for the ExtendParameterSymbol class." alt="" coords="39,5,234,32"/>
+<area shape="rect" id="node2" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="32,80,87,107"/>
+<area shape="rect" id="node4" href="$_extend_parameter_symbol_8cpp.html" title="Definitions for the ExtendParameterSymbol class." alt="" coords="110,80,321,107"/>
+<area shape="rect" id="node3" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="5,155,113,181"/>
 </map>

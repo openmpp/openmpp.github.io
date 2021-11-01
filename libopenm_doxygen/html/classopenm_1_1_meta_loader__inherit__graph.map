@@ -1,7 +1,8 @@
 <map id="openm::MetaLoader" name="openm::MetaLoader">
-<area shape="rect" id="node2" href="$classopenm_1_1_run_controller.html" title="run controller: create new model run(s) and support data exchange. " alt="" coords="204,81,367,108"/>
-<area shape="rect" id="node3" href="$classopenm_1_1_child_controller.html" title="controller for child process: receive input parameters from root and send output tables. " alt="" coords="421,5,593,32"/>
-<area shape="rect" id="node4" href="$classopenm_1_1_restart_controller.html" title="controller for &quot;restart run&quot;: calculate outstanding sub&#45;values for existing run " alt="" coords="415,56,600,83"/>
-<area shape="rect" id="node5" href="$classopenm_1_1_root_controller.html" title="controller for root process: create new model run(s), send input parameters to children and receieve ..." alt="" coords="423,107,591,133"/>
-<area shape="rect" id="node6" href="$classopenm_1_1_single_controller.html" title="controller for single process: create new model run(s), read input parameters and write output tables..." alt="" coords="418,157,597,184"/>
+<area shape="rect" id="node1" title="model metadata loader: read and broadcast metadata and run options." alt="" coords="5,81,157,108"/>
+<area shape="rect" id="node2" href="$classopenm_1_1_run_controller.html" title="run controller: create new model run(s) and support data exchange." alt="" coords="205,81,369,108"/>
+<area shape="rect" id="node3" href="$classopenm_1_1_child_controller.html" title="controller for child process: receive input parameters from root and send output tables." alt="" coords="425,5,597,32"/>
+<area shape="rect" id="node4" href="$classopenm_1_1_restart_controller.html" title="controller for &quot;restart run&quot;: calculate outstanding sub&#45;values for existing run" alt="" coords="417,56,604,83"/>
+<area shape="rect" id="node5" href="$classopenm_1_1_root_controller.html" title="controller for root process: create new model run(s), send input parameters to children and receieve ..." alt="" coords="426,107,595,133"/>
+<area shape="rect" id="node6" href="$classopenm_1_1_single_controller.html" title="controller for single process: create new model run(s), read input parameters and write output tables..." alt="" coords="421,157,600,184"/>
 </map>

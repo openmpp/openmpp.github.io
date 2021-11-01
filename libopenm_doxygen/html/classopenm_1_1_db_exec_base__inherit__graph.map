@@ -1,3 +1,4 @@
 <map id="openm::DbExecBase" name="openm::DbExecBase">
-<area shape="rect" id="node2" href="$classopenm_1_1_db_exec_sqlite.html" title="db connection wrapper for SQLite. " alt="" coords="5,80,167,107"/>
+<area shape="rect" id="node1" title="base class for database connection wrapper" alt="" coords="8,5,163,32"/>
+<area shape="rect" id="node2" href="$classopenm_1_1_db_exec_sqlite.html" title="db connection wrapper for SQLite." alt="" coords="5,80,165,107"/>
 </map>

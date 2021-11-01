@@ -1,3 +1,4 @@
 <map id="openm::MsgExecBase" name="openm::MsgExecBase">
-<area shape="rect" id="node2" href="$structopenm_1_1_i_final_state.html" title="final model run state public interface: thread safe " alt="" coords="16,5,159,32"/>
+<area shape="rect" id="node1" title="message passing base class" alt="" coords="5,95,169,121"/>
+<area shape="rect" id="node2" href="$structopenm_1_1_i_final_state.html" title="final model run state public interface: thread safe" alt="" coords="15,5,159,32"/>
 </map>

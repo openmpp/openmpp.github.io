@@ -1,6 +1,6 @@
 var class_table_symbol =
 [
-    [ "TableSymbol", "class_table_symbol.html#a1e400877a0e6500b9cbd2fa83a47a0b4", null ],
+    [ "TableSymbol", "class_table_symbol.html#aca38dae3afd86ecaa01238c295096bac", null ],
     [ "cell_count", "class_table_symbol.html#a44b54768f85bb53fadc4063fc314b551", null ],
     [ "cxx_declaration_global", "class_table_symbol.html#a23a63fff21c2448d0a546c605f34766c", null ],
     [ "cxx_definition_global", "class_table_symbol.html#a448809a8b66b30f2753f03c175a85e1b", null ],
@@ -18,6 +18,7 @@ var class_table_symbol =
     [ "cxx_instance", "class_table_symbol.html#a6850e81bb2545b45265b646878086ae1", null ],
     [ "cxx_type", "class_table_symbol.html#ad697feefe6d74af1a4f276220ae18d28", null ],
     [ "dimension_list", "class_table_symbol.html#a52bd425a658b67d161013408289b46da", null ],
+    [ "is_hidden", "class_table_symbol.html#a6f1853d725e47d6995c849a8cb02b823", null ],
     [ "is_internal", "class_table_symbol.html#a415867fe3a356415607911438e776d6e", null ],
     [ "is_suppressed", "class_table_symbol.html#a0c0f1b6a6afebbd6a7bcd3420abeddea", null ],
     [ "measures_position", "class_table_symbol.html#aeec7c9e56a5df4188463e54a1b56d3fe", null ],

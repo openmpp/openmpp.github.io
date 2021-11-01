@@ -1,7 +1,7 @@
 var class_type_symbol =
 [
     [ "TypeSymbol", "class_type_symbol.html#a845ac0cacda66e88fad06f8171f714f5", null ],
-    [ "TypeSymbol", "class_type_symbol.html#aad9fedf621924d59eea06cf5a0357c5f", null ],
+    [ "TypeSymbol", "class_type_symbol.html#aafb2445a3dba17ddbe8819ff04c65f89", null ],
     [ "default_initial_value", "class_type_symbol.html#a7c77858cbdf85e24cb11b7297f6a383c", null ],
     [ "exposed_type", "class_type_symbol.html#af481d26a446c897a30c52915abf9dcd6", null ],
     [ "format_for_storage", "class_type_symbol.html#aa4f4621c0af318c2002520d28f4ce9f4", null ],

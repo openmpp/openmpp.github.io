@@ -1,6 +1,6 @@
 var class_classification_symbol =
 [
-    [ "ClassificationSymbol", "class_classification_symbol.html#a71399c67ab1ef8c68d3a5b0b7c6c6c64", null ],
+    [ "ClassificationSymbol", "class_classification_symbol.html#a7d1c00ed9d23d840a573409e66fb4bf6", null ],
     [ "candidate_for_integer_transforms", "class_classification_symbol.html#ab8188956eb5eaf5007969f129f8da342", null ],
     [ "cxx_declaration_global", "class_classification_symbol.html#a746792f3ff62e01978b163e32fc22b3b", null ],
     [ "cxx_definition_global", "class_classification_symbol.html#a0a3c3872342b0507fbb2facb53f3199d", null ],

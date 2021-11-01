@@ -1,6 +1,6 @@
 var class_enumeration_symbol =
 [
-    [ "EnumerationSymbol", "class_enumeration_symbol.html#a0bb8f47e460be74e12b4e1db61d0b979", null ],
+    [ "EnumerationSymbol", "class_enumeration_symbol.html#a7403841f42496ea331d6ec038a46af2c", null ],
     [ "EnumerationSymbol", "class_enumeration_symbol.html#ac6052a76bdd1e1b0758670eb313e9814", null ],
     [ "default_initial_value", "class_enumeration_symbol.html#aec99527a4d01e60820e9a87cc16af084", null ],
     [ "is_base_symbol", "class_enumeration_symbol.html#a0c1a98efaebb0cfa7db5c90ca80ca161", null ],

@@ -1,8 +1,9 @@
 <map id="openm::IMsgRecv" name="openm::IMsgRecv">
-<area shape="rect" id="node2" href="$classopenm_1_1_i_msg_recv_array.html" title="public interface to receive value array " alt="" coords="195,56,366,83"/>
-<area shape="rect" id="node5" href="$classopenm_1_1_i_msg_recv_packed.html" title="public interface to receive packed data " alt="" coords="189,107,372,133"/>
-<area shape="rect" id="node3" href="$classopenm_1_1_mpi_recv_array.html" title="non&#45;blocking receive of value array " alt="" coords="448,5,612,32"/>
-<area shape="rect" id="node4" href="$classopenm_1_1_msg_empty_recv_array.html" title="non&#45;blocking receive of value array (empty implementation) " alt="" coords="425,56,635,83"/>
-<area shape="rect" id="node6" href="$classopenm_1_1_mpi_recv_packed.html" title="non&#45;blocking receive of packed data " alt="" coords="443,107,617,133"/>
-<area shape="rect" id="node7" href="$classopenm_1_1_msg_empty_recv_packed.html" title="non&#45;blocking receive of packed data (empty implementation) " alt="" coords="420,157,640,184"/>
+<area shape="rect" id="node1" title="public interface for message receiver" alt="" coords="5,81,144,108"/>
+<area shape="rect" id="node2" href="$classopenm_1_1_i_msg_recv_array.html" title="public interface to receive value array" alt="" coords="197,56,370,83"/>
+<area shape="rect" id="node5" href="$classopenm_1_1_i_msg_recv_packed.html" title="public interface to receive packed data" alt="" coords="192,107,375,133"/>
+<area shape="rect" id="node3" href="$classopenm_1_1_mpi_recv_array.html" title="non&#45;blocking receive of value array" alt="" coords="450,5,617,32"/>
+<area shape="rect" id="node4" href="$classopenm_1_1_msg_empty_recv_array.html" title="non&#45;blocking receive of value array (empty implementation)" alt="" coords="428,56,639,83"/>
+<area shape="rect" id="node6" href="$classopenm_1_1_mpi_recv_packed.html" title="non&#45;blocking receive of packed data" alt="" coords="445,107,621,133"/>
+<area shape="rect" id="node7" href="$classopenm_1_1_msg_empty_recv_packed.html" title="non&#45;blocking receive of packed data (empty implementation)" alt="" coords="423,157,644,184"/>
 </map>

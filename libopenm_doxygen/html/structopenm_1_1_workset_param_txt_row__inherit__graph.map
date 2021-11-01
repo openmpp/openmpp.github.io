@@ -1,5 +1,6 @@
 <map id="openm::WorksetParamTxtRow" name="openm::WorksetParamTxtRow">
-<area shape="rect" id="node4" href="$structopenm_1_1_workset_param_txt_lang_row.html" title="workset_parameter_txt table row and language code. " alt="" coords="5,244,253,271"/>
-<area shape="rect" id="node2" href="$structopenm_1_1_i_meta_row.html" title="openm::IMetaRow\&lt; Workset\lParamTxtRow \&gt;" alt="" coords="26,80,233,121"/>
-<area shape="rect" id="node3" href="$structopenm_1_1_i_row_base.html" title="db&#45;row abstract base " alt="" coords="60,5,199,32"/>
+<area shape="rect" id="node1" title="workset_parameter_txt join to model_parameter_dic table row." alt="" coords="21,169,239,196"/>
+<area shape="rect" id="node4" href="$structopenm_1_1_workset_param_txt_lang_row.html" title="workset_parameter_txt table row and language code." alt="" coords="5,244,255,271"/>
+<area shape="rect" id="node2" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="26,80,234,121"/>
+<area shape="rect" id="node3" href="$structopenm_1_1_i_row_base.html" title="db&#45;row abstract base" alt="" coords="61,5,199,32"/>
 </map>

@@ -1,6 +1,6 @@
 var class_version_symbol =
 [
-    [ "VersionSymbol", "class_version_symbol.html#ac5896d66ce483a79cafbb4253f671fa6", null ],
+    [ "VersionSymbol", "class_version_symbol.html#a709b1b61633e19f95a1780a26eb17ed7", null ],
     [ "formatted_value", "class_version_symbol.html#a5c0b6761f19bee4b3d3aa5ce5a9915e8", null ],
     [ "is_base_symbol", "class_version_symbol.html#a069f4d3b07a2ecb7a32964f3f0bb108b", null ],
     [ "populate_metadata", "class_version_symbol.html#ab8511e2b768249ed03252037df27f850", null ],

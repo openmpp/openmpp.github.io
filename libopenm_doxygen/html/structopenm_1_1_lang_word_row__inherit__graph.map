@@ -1,4 +1,5 @@
 <map id="openm::LangWordRow" name="openm::LangWordRow">
-<area shape="rect" id="node2" href="$structopenm_1_1_i_meta_row.html" title="openm::IMetaRow\&lt; LangWord\lRow \&gt;" alt="" coords="5,80,223,121"/>
-<area shape="rect" id="node3" href="$structopenm_1_1_i_row_base.html" title="db&#45;row abstract base " alt="" coords="45,5,183,32"/>
+<area shape="rect" id="node1" title="lang_word table row." alt="" coords="31,169,198,196"/>
+<area shape="rect" id="node2" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="5,80,224,121"/>
+<area shape="rect" id="node3" href="$structopenm_1_1_i_row_base.html" title="db&#45;row abstract base" alt="" coords="45,5,184,32"/>
 </map>

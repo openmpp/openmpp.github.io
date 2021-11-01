@@ -1,7 +1,7 @@
 var class_entity_func_symbol =
 [
-    [ "EntityFuncSymbol", "class_entity_func_symbol.html#a41e181fbe60c97ddc0a31a43b2190a9b", null ],
-    [ "EntityFuncSymbol", "class_entity_func_symbol.html#a6d3875ffdbdfcc8b0e646c02af1377f0", null ],
+    [ "EntityFuncSymbol", "class_entity_func_symbol.html#acaf31b22f1f503e755dc48897121af4a", null ],
+    [ "EntityFuncSymbol", "class_entity_func_symbol.html#a25cc117a4ac4c8a89cd546b96da65532", null ],
     [ "EntityFuncSymbol", "class_entity_func_symbol.html#a28937692f20ad8447029b3202e11968c", null ],
     [ "cxx_declaration_agent", "class_entity_func_symbol.html#a988538fcacb23bb399e48d64a6135a24", null ],
     [ "cxx_definition_agent", "class_entity_func_symbol.html#a5ff69bf234b1aea0f9daaf1dbddffa58", null ],
@@ -10,7 +10,7 @@ var class_entity_func_symbol =
     [ "post_parse", "class_entity_func_symbol.html#ac1c451f57619d3aeb3e8c78d2a72ecc7", null ],
     [ "arg_list_decl", "class_entity_func_symbol.html#aaf787927f3d5c623c911e09d9833cfc1", null ],
     [ "body_identifiers", "class_entity_func_symbol.html#af19c54dd5bb4de19cb54ffdb340fb336", null ],
-    [ "defn_loc", "class_entity_func_symbol.html#a30c11fa39381479a088e0eb7db4e8314", null ],
+    [ "defn_loc", "class_entity_func_symbol.html#a844680a2693f7daf73c24f7f4afc0a2b", null ],
     [ "doc_block", "class_entity_func_symbol.html#ab5364ab8814e2c1912322f5bd0921470", null ],
     [ "func_body", "class_entity_func_symbol.html#adb0de2e353c98d651cbb6292a1ea71ad", null ],
     [ "has_line_directive", "class_entity_func_symbol.html#a985c3ed2b7168092d5d80413aa57754f", null ],

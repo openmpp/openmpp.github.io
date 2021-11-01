@@ -1,5 +1,6 @@
 <map id="openm::ParamDimsTxtLangRow" name="openm::ParamDimsTxtLangRow">
-<area shape="rect" id="node2" href="$structopenm_1_1_param_dims_txt_row.html" title="parameter_dims_txt join to model_parameter_dic table row. " alt="" coords="21,169,219,196"/>
-<area shape="rect" id="node3" href="$structopenm_1_1_i_meta_row.html" title="openm::IMetaRow\&lt; ParamDims\lTxtRow \&gt;" alt="" coords="6,80,234,121"/>
-<area shape="rect" id="node4" href="$structopenm_1_1_i_row_base.html" title="db&#45;row abstract base " alt="" coords="51,5,189,32"/>
+<area shape="rect" id="node1" title="parameter_dims_txt table row and language code." alt="" coords="5,244,236,271"/>
+<area shape="rect" id="node2" href="$structopenm_1_1_param_dims_txt_row.html" title="parameter_dims_txt join to model_parameter_dic table row." alt="" coords="21,169,220,196"/>
+<area shape="rect" id="node3" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="5,80,236,121"/>
+<area shape="rect" id="node4" href="$structopenm_1_1_i_row_base.html" title="db&#45;row abstract base" alt="" coords="51,5,190,32"/>
 </map>

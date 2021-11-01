@@ -1,25 +1,29 @@
 <map id="EntityHookSymbol" name="EntityHookSymbol">
-<area shape="rect" id="node2" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++. " alt="" coords="273,764,344,791"/>
-<area shape="rect" id="node5" href="$class_entity_member_symbol.html" title="EntityMemberSymbol" alt="" coords="433,607,596,633"/>
-<area shape="rect" id="node6" href="$class_entity_symbol.html" title="EntitySymbol. " alt="" coords="2291,420,2400,447"/>
-<area shape="rect" id="node8" href="$class_entity_data_member_symbol.html" title="EntityDataMemberSymbol" alt="" coords="737,747,931,773"/>
-<area shape="rect" id="node9" href="$class_type_symbol.html" title="TypeSymbol. " alt="" coords="464,808,565,835"/>
-<area shape="rect" id="node15" href="$class_derived_attribute_symbol.html" title="DerivedAttributeSymbol. " alt="" coords="2508,851,2687,877"/>
-<area shape="rect" id="node23" href="$class_constant_symbol.html" title="ConstantSymbol &#45; Refers to either a Literal or an EnumeratorSymbol. " alt="" coords="1885,1137,2014,1164"/>
-<area shape="rect" id="node25" href="$class_enumerator_symbol.html" title="EnumeratorSymbol" alt="" coords="1489,1239,1636,1265"/>
-<area shape="rect" id="node3" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables. " alt="" coords="5,764,116,791"/>
-<area shape="rect" id="node4" href="$class_entity_func_symbol.html" title="Symbol for a function member of an agent. " alt="" coords="1100,561,1239,588"/>
-<area shape="rect" id="node7" href="$class_entity_event_symbol.html" title="Event time member symbol for an event. " alt="" coords="1489,555,1636,581"/>
-<area shape="rect" id="node11" href="$class_attribute_symbol.html" title="AttributeSymbol" alt="" coords="1499,745,1627,772"/>
-<area shape="rect" id="node20" href="$class_identity_attribute_symbol.html" title="IdentityAttributeSymbol. " alt="" coords="2256,681,2435,708"/>
-<area shape="rect" id="node12" href="$class_entity_internal_symbol.html" title="Internal data symbol. " alt="" coords="1090,797,1249,824"/>
-<area shape="rect" id="node19" href="$class_enumeration_symbol.html" title="EnumerationSymbol. " alt="" coords="757,888,911,915"/>
-<area shape="rect" id="node10" href="$class_builtin_attribute_symbol.html" title="BuiltinAttributeSymbol. " alt="" coords="1864,644,2035,671"/>
-<area shape="rect" id="node16" href="$class_maintained_attribute_symbol.html" title="MaintainedAttributeSymbol. " alt="" coords="1849,745,2049,772"/>
-<area shape="rect" id="node13" href="$class_code_block.html" title="CodeBlock" alt="" coords="789,633,879,660"/>
-<area shape="rect" id="node17" href="$class_partition_symbol.html" title="PartitionSymbol. " alt="" coords="1680,900,1805,927"/>
-<area shape="rect" id="node18" href="$class_enumeration_with_enumerators_symbol.html" title="EnumerationWithEnumeratorsSymbol. " alt="" coords="1060,901,1279,942"/>
-<area shape="rect" id="node22" href="$class_classification_symbol.html" title="ClassificationSymbol. " alt="" coords="2073,961,2232,988"/>
-<area shape="rect" id="node21" href="$class_expr_for_attribute.html" title="Expression tree element in an identity attribute. " alt="" coords="1885,695,2013,721"/>
-<area shape="rect" id="node24" href="$class_literal.html" title="Literal encapsulates a C++ literal or an openM++ literal. " alt="" coords="1531,1137,1594,1164"/>
+<area shape="rect" id="node1" title=" " alt="" coords="2989,137,3132,164"/>
+<area shape="rect" id="node2" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="469,551,540,577"/>
+<area shape="rect" id="node7" href="$class_entity_member_symbol.html" title=" " alt="" coords="629,467,792,493"/>
+<area shape="rect" id="node8" href="$class_entity_symbol.html" title="EntitySymbol." alt="" coords="2484,516,2593,543"/>
+<area shape="rect" id="node10" href="$class_entity_data_member_symbol.html" title=" " alt="" coords="933,620,1128,647"/>
+<area shape="rect" id="node11" href="$class_type_symbol.html" title="TypeSymbol." alt="" coords="660,645,761,672"/>
+<area shape="rect" id="node17" href="$class_derived_attribute_symbol.html" title="DerivedAttributeSymbol." alt="" coords="2701,859,2880,885"/>
+<area shape="rect" id="node25" href="$class_constant_symbol.html" title="ConstantSymbol &#45; Refers to either a Literal or an EnumeratorSymbol." alt="" coords="2077,1123,2207,1149"/>
+<area shape="rect" id="node27" href="$class_enumerator_symbol.html" title=" " alt="" coords="1687,1224,1833,1251"/>
+<area shape="rect" id="node3" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="205,271,316,297"/>
+<area shape="rect" id="node4" href="$classomc_1_1location.html" title="Two points in a source file." alt="" coords="205,343,316,369"/>
+<area shape="rect" id="node6" href="$class_entity_func_symbol.html" title="Symbol for a function member of an agent." alt="" coords="1297,416,1436,443"/>
+<area shape="rect" id="node5" href="$classomc_1_1position.html" title="A point in a source file." alt="" coords="5,343,116,369"/>
+<area shape="rect" id="node9" href="$class_entity_event_symbol.html" title="Event time member symbol for an event." alt="" coords="1687,593,1833,620"/>
+<area shape="rect" id="node13" href="$class_attribute_symbol.html" title=" " alt="" coords="1696,708,1824,735"/>
+<area shape="rect" id="node22" href="$class_identity_attribute_symbol.html" title="IdentityAttributeSymbol." alt="" coords="2449,960,2628,987"/>
+<area shape="rect" id="node14" href="$class_entity_internal_symbol.html" title="Internal data symbol." alt="" coords="1287,745,1446,772"/>
+<area shape="rect" id="node21" href="$class_enumeration_symbol.html" title="EnumerationSymbol." alt="" coords="953,895,1108,921"/>
+<area shape="rect" id="node12" href="$class_builtin_attribute_symbol.html" title="BuiltinAttributeSymbol." alt="" coords="2057,655,2227,681"/>
+<area shape="rect" id="node18" href="$class_maintained_attribute_symbol.html" title="MaintainedAttributeSymbol." alt="" coords="2041,869,2243,896"/>
+<area shape="rect" id="node15" href="$class_code_block.html" title=" " alt="" coords="985,416,1076,443"/>
+<area shape="rect" id="node16" title=" " alt="" coords="656,416,765,443"/>
+<area shape="rect" id="node19" href="$class_partition_symbol.html" title="PartitionSymbol." alt="" coords="1875,920,2000,947"/>
+<area shape="rect" id="node20" href="$class_enumeration_with_enumerators_symbol.html" title="EnumerationWithEnumeratorsSymbol." alt="" coords="1257,959,1476,1001"/>
+<area shape="rect" id="node24" href="$class_classification_symbol.html" title="ClassificationSymbol." alt="" coords="2267,1069,2425,1096"/>
+<area shape="rect" id="node23" href="$class_expr_for_attribute.html" title="Expression tree element in an identity attribute." alt="" coords="2078,1021,2206,1048"/>
+<area shape="rect" id="node26" href="$class_literal.html" title="Literal encapsulates a C++ literal or an openM++ literal." alt="" coords="1729,1173,1791,1200"/>
 </map>

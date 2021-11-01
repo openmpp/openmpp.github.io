@@ -1,5 +1,6 @@
 <map id="openm::MsgEmptySendArray" name="openm::MsgEmptySendArray">
-<area shape="rect" id="node2" href="$classopenm_1_1_i_msg_send_array.html" title="public interface to send value array " alt="" coords="5,80,177,107"/>
-<area shape="rect" id="node3" href="$classopenm_1_1_i_msg_send.html" title="public interface for message sender " alt="" coords="23,5,160,32"/>
-<area shape="rect" id="node4" href="$classopenm_1_1_msg_empty_send_base.html" title="base class for non&#45;blocking send (empty implementation) " alt="" coords="201,80,408,107"/>
+<area shape="rect" id="node1" title="non&#45;blocking send of value array (empty implementation)" alt="" coords="93,155,304,181"/>
+<area shape="rect" id="node2" href="$classopenm_1_1_i_msg_send_array.html" title="public interface to send value array" alt="" coords="5,80,179,107"/>
+<area shape="rect" id="node3" href="$classopenm_1_1_i_msg_send.html" title="public interface for message sender" alt="" coords="23,5,161,32"/>
+<area shape="rect" id="node4" href="$classopenm_1_1_msg_empty_send_base.html" title="base class for non&#45;blocking send (empty implementation)" alt="" coords="203,80,411,107"/>
 </map>

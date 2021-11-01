@@ -1,7 +1,7 @@
 var class_global_func_symbol =
 [
-    [ "GlobalFuncSymbol", "class_global_func_symbol.html#a0be4dbd7f737fd382d878b03373e6c18", null ],
-    [ "GlobalFuncSymbol", "class_global_func_symbol.html#aa9b724fc79679606c1376a78b8d94669", null ],
+    [ "GlobalFuncSymbol", "class_global_func_symbol.html#a11b866be27c66bce8fdc01ec270f906d", null ],
+    [ "GlobalFuncSymbol", "class_global_func_symbol.html#a336b5463e465a1278c8259cc72077a00", null ],
     [ "cxx_declaration_global", "class_global_func_symbol.html#a8397fdd4fc55558fc040e27e2212b61c", null ],
     [ "cxx_definition_global", "class_global_func_symbol.html#a10cca1688a5458ab8c0d569bb26f891b", null ],
     [ "is_base_symbol", "class_global_func_symbol.html#a8f6bfcbd408a4e0384e3b2b9101946fc", null ],

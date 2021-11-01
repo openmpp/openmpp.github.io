@@ -1,4 +1,5 @@
 <map id="openm::IWorksetParamTable" name="openm::IWorksetParamTable">
-<area shape="rect" id="node3" href="$classopenm_1_1_workset_param_table.html" title="openm::WorksetParamTable" alt="" coords="7,169,210,196"/>
-<area shape="rect" id="node2" href="$structopenm_1_1_i_meta_table.html" title="openm::IMetaTable\&lt;\l WorksetParamRow \&gt;" alt="" coords="27,5,190,47"/>
+<area shape="rect" id="node1" title="workset_parameter table public interface." alt="" coords="5,95,212,121"/>
+<area shape="rect" id="node3" href="$classopenm_1_1_workset_param_table.html" title=" " alt="" coords="7,169,210,196"/>
+<area shape="rect" id="node2" href="$structopenm_1_1_i_meta_table.html" title=" " alt="" coords="27,5,190,47"/>
 </map>

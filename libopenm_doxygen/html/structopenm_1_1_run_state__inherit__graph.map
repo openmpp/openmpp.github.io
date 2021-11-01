@@ -1,3 +1,4 @@
 <map id="openm::RunState" name="openm::RunState">
-<area shape="rect" id="node2" href="$classopenm_1_1_model_run_state.html" title="model run state: thread safe " alt="" coords="5,80,177,107"/>
+<area shape="rect" id="node1" title="model run state data: status, progress, update times" alt="" coords="25,5,160,32"/>
+<area shape="rect" id="node2" href="$classopenm_1_1_model_run_state.html" title="model run state: thread safe" alt="" coords="5,80,180,107"/>
 </map>

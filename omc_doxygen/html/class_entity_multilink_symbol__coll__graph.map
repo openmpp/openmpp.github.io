@@ -1,15 +1,19 @@
 <map id="EntityMultilinkSymbol" name="EntityMultilinkSymbol">
-<area shape="rect" id="node15" href="$class_link_attribute_symbol.html" title="Symbol for a link member of an agent. " alt="" coords="119,869,273,896"/>
-<area shape="rect" id="node2" href="$class_entity_data_member_symbol.html" title="EntityDataMemberSymbol" alt="" coords="233,647,426,673"/>
-<area shape="rect" id="node10" href="$class_entity_event_symbol.html" title="Event time member symbol for an event. " alt="" coords="591,780,737,807"/>
-<area shape="rect" id="node12" href="$class_attribute_symbol.html" title="AttributeSymbol" alt="" coords="261,5,389,32"/>
-<area shape="rect" id="node13" href="$class_entity_internal_symbol.html" title="Internal data symbol. " alt="" coords="50,780,209,807"/>
-<area shape="rect" id="node3" href="$class_entity_member_symbol.html" title="EntityMemberSymbol" alt="" coords="417,431,580,458"/>
-<area shape="rect" id="node7" href="$class_entity_func_symbol.html" title="Symbol for a function member of an agent. " alt="" coords="584,647,723,673"/>
-<area shape="rect" id="node4" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++. " alt="" coords="430,124,501,151"/>
-<area shape="rect" id="node6" href="$class_entity_symbol.html" title="EntitySymbol. " alt="" coords="719,215,828,241"/>
-<area shape="rect" id="node14" href="$class_type_symbol.html" title="TypeSymbol. " alt="" coords="208,268,309,295"/>
-<area shape="rect" id="node5" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables. " alt="" coords="414,5,525,32"/>
-<area shape="rect" id="node8" href="$class_code_block.html" title="CodeBlock" alt="" coords="604,431,695,458"/>
-<area shape="rect" id="node11" href="$class_builtin_attribute_symbol.html" title="BuiltinAttributeSymbol. " alt="" coords="621,124,792,151"/>
+<area shape="rect" id="node1" title="Symbol for a multilink member of an agent." alt="" coords="143,943,309,969"/>
+<area shape="rect" id="node17" href="$class_link_attribute_symbol.html" title="Symbol for a link member of an entity." alt="" coords="313,1032,467,1059"/>
+<area shape="rect" id="node2" href="$class_entity_data_member_symbol.html" title=" " alt="" coords="629,809,823,836"/>
+<area shape="rect" id="node12" href="$class_entity_event_symbol.html" title="Event time member symbol for an event." alt="" coords="491,943,638,969"/>
+<area shape="rect" id="node14" href="$class_attribute_symbol.html" title=" " alt="" coords="859,109,987,136"/>
+<area shape="rect" id="node15" href="$class_entity_internal_symbol.html" title="Internal data symbol." alt="" coords="879,943,1037,969"/>
+<area shape="rect" id="node3" href="$class_entity_member_symbol.html" title=" " alt="" coords="526,565,689,591"/>
+<area shape="rect" id="node9" href="$class_entity_func_symbol.html" title="Symbol for a function member of an agent." alt="" coords="166,809,305,836"/>
+<area shape="rect" id="node4" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="603,228,673,255"/>
+<area shape="rect" id="node8" href="$class_entity_symbol.html" title="EntitySymbol." alt="" coords="446,319,555,345"/>
+<area shape="rect" id="node16" href="$class_type_symbol.html" title="TypeSymbol." alt="" coords="802,372,903,399"/>
+<area shape="rect" id="node5" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="143,109,253,136"/>
+<area shape="rect" id="node6" href="$classomc_1_1location.html" title="Two points in a source file." alt="" coords="5,109,116,136"/>
+<area shape="rect" id="node7" href="$classomc_1_1position.html" title="A point in a source file." alt="" coords="5,5,116,32"/>
+<area shape="rect" id="node10" href="$class_code_block.html" title=" " alt="" coords="97,565,187,591"/>
+<area shape="rect" id="node11" title=" " alt="" coords="141,319,250,345"/>
+<area shape="rect" id="node13" href="$class_builtin_attribute_symbol.html" title="BuiltinAttributeSymbol." alt="" coords="407,228,578,255"/>
 </map>

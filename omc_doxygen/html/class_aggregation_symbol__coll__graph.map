@@ -1,8 +1,11 @@
 <map id="AggregationSymbol" name="AggregationSymbol">
-<area shape="rect" id="node2" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++. " alt="" coords="45,124,116,151"/>
-<area shape="rect" id="node7" href="$class_type_symbol.html" title="TypeSymbol. " alt="" coords="139,200,241,227"/>
-<area shape="rect" id="node3" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables. " alt="" coords="25,5,136,32"/>
-<area shape="rect" id="node4" href="$class_classification_symbol.html" title="ClassificationSymbol. " alt="" coords="133,471,292,497"/>
-<area shape="rect" id="node5" href="$class_enumeration_with_enumerators_symbol.html" title="EnumerationWithEnumeratorsSymbol. " alt="" coords="118,380,337,421"/>
-<area shape="rect" id="node6" href="$class_enumeration_symbol.html" title="EnumerationSymbol. " alt="" coords="134,276,289,303"/>
+<area shape="rect" id="node1" title="AggregationSymbol." alt="" coords="53,679,204,705"/>
+<area shape="rect" id="node2" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="93,228,164,255"/>
+<area shape="rect" id="node9" href="$class_type_symbol.html" title="TypeSymbol." alt="" coords="187,304,289,331"/>
+<area shape="rect" id="node3" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="5,109,116,136"/>
+<area shape="rect" id="node4" href="$classomc_1_1location.html" title="Two points in a source file." alt="" coords="141,109,252,136"/>
+<area shape="rect" id="node5" href="$classomc_1_1position.html" title="A point in a source file." alt="" coords="141,5,252,32"/>
+<area shape="rect" id="node6" href="$class_classification_symbol.html" title="ClassificationSymbol." alt="" coords="181,575,340,601"/>
+<area shape="rect" id="node7" href="$class_enumeration_with_enumerators_symbol.html" title="EnumerationWithEnumeratorsSymbol." alt="" coords="166,484,385,525"/>
+<area shape="rect" id="node8" href="$class_enumeration_symbol.html" title="EnumerationSymbol." alt="" coords="182,380,337,407"/>
 </map>

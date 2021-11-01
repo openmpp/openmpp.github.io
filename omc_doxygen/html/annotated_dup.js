@@ -1,11 +1,15 @@
 var annotated_dup =
 [
+    [ "omc", null, [
+      [ "position", "classomc_1_1position.html", "classomc_1_1position" ],
+      [ "location", "classomc_1_1location.html", "classomc_1_1location" ]
+    ] ],
     [ "openm", null, [
       [ "OmcArgKey", "structopenm_1_1_omc_arg_key.html", null ],
       [ "OmcShortKey", "structopenm_1_1_omc_short_key.html", null ]
     ] ],
     [ "std", null, [
-      [ "hash< yy::position >", "structstd_1_1hash_3_01yy_1_1position_01_4.html", "structstd_1_1hash_3_01yy_1_1position_01_4" ]
+      [ "hash< omc::position >", "structstd_1_1hash_3_01omc_1_1position_01_4.html", "structstd_1_1hash_3_01omc_1_1position_01_4" ]
     ] ],
     [ "AggregationSymbol", "class_aggregation_symbol.html", "class_aggregation_symbol" ],
     [ "AnonGroupSymbol", "class_anon_group_symbol.html", "class_anon_group_symbol" ],

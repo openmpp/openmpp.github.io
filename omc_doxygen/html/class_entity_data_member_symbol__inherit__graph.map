@@ -1,18 +1,19 @@
 <map id="EntityDataMemberSymbol" name="EntityDataMemberSymbol">
-<area shape="rect" id="node4" href="$class_attribute_symbol.html" title="AttributeSymbol" alt="" coords="617,107,745,133"/>
-<area shape="rect" id="node13" href="$class_entity_array_member_symbol.html" title="Internal data symbol. " alt="" coords="583,157,780,184"/>
-<area shape="rect" id="node14" href="$class_entity_event_symbol.html" title="Event time member symbol for an event. " alt="" coords="608,208,755,235"/>
-<area shape="rect" id="node15" href="$class_entity_foreign_member_symbol.html" title="Foreign data symbol. " alt="" coords="576,259,787,285"/>
-<area shape="rect" id="node16" href="$class_entity_internal_symbol.html" title="Internal data symbol. " alt="" coords="602,309,761,336"/>
-<area shape="rect" id="node17" href="$class_entity_multilink_symbol.html" title="Symbol for a multilink member of an agent. " alt="" coords="599,360,764,387"/>
-<area shape="rect" id="node2" href="$class_entity_member_symbol.html" title="EntityMemberSymbol" alt="" coords="124,233,287,260"/>
-<area shape="rect" id="node3" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++. " alt="" coords="5,233,76,260"/>
-<area shape="rect" id="node5" href="$class_builtin_attribute_symbol.html" title="BuiltinAttributeSymbol. " alt="" coords="849,5,1020,32"/>
-<area shape="rect" id="node6" href="$class_link_attribute_symbol.html" title="Symbol for a link member of an agent. " alt="" coords="857,56,1012,83"/>
-<area shape="rect" id="node7" href="$class_maintained_attribute_symbol.html" title="MaintainedAttributeSymbol. " alt="" coords="835,107,1035,133"/>
-<area shape="rect" id="node10" href="$class_multilink_attribute_symbol.html" title="MultilinkAttributeSymbol. " alt="" coords="843,157,1027,184"/>
-<area shape="rect" id="node11" href="$class_simple_attribute_symbol.html" title="SimpleAttributeSymbol. " alt="" coords="848,208,1021,235"/>
-<area shape="rect" id="node8" href="$class_derived_attribute_symbol.html" title="DerivedAttributeSymbol. " alt="" coords="1099,81,1277,108"/>
-<area shape="rect" id="node9" href="$class_identity_attribute_symbol.html" title="IdentityAttributeSymbol. " alt="" coords="1099,132,1277,159"/>
-<area shape="rect" id="node12" href="$class_simple_attribute_enum_symbol.html" title="SimpleAttributeEnumSymbol. " alt="" coords="1083,208,1293,235"/>
+<area shape="rect" id="node1" title=" " alt="" coords="335,208,529,235"/>
+<area shape="rect" id="node4" href="$class_attribute_symbol.html" title=" " alt="" coords="619,81,747,108"/>
+<area shape="rect" id="node13" href="$class_entity_array_member_symbol.html" title="Internal data symbol." alt="" coords="583,132,782,159"/>
+<area shape="rect" id="node14" href="$class_entity_event_symbol.html" title="Event time member symbol for an event." alt="" coords="609,183,756,209"/>
+<area shape="rect" id="node15" href="$class_entity_foreign_member_symbol.html" title="Foreign data symbol." alt="" coords="577,233,788,260"/>
+<area shape="rect" id="node16" href="$class_entity_internal_symbol.html" title="Internal data symbol." alt="" coords="603,284,762,311"/>
+<area shape="rect" id="node17" href="$class_entity_multilink_symbol.html" title="Symbol for a multilink member of an agent." alt="" coords="599,335,766,361"/>
+<area shape="rect" id="node2" href="$class_entity_member_symbol.html" title=" " alt="" coords="124,208,287,235"/>
+<area shape="rect" id="node3" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="5,208,76,235"/>
+<area shape="rect" id="node5" href="$class_builtin_attribute_symbol.html" title="BuiltinAttributeSymbol." alt="" coords="851,5,1022,32"/>
+<area shape="rect" id="node6" href="$class_link_attribute_symbol.html" title="Symbol for a link member of an entity." alt="" coords="859,56,1014,83"/>
+<area shape="rect" id="node7" href="$class_maintained_attribute_symbol.html" title="MaintainedAttributeSymbol." alt="" coords="836,107,1037,133"/>
+<area shape="rect" id="node11" href="$class_simple_attribute_symbol.html" title="SimpleAttributeSymbol." alt="" coords="850,169,1023,196"/>
+<area shape="rect" id="node8" href="$class_derived_attribute_symbol.html" title="DerivedAttributeSymbol." alt="" coords="1101,43,1280,69"/>
+<area shape="rect" id="node9" href="$class_identity_attribute_symbol.html" title="IdentityAttributeSymbol." alt="" coords="1101,93,1280,120"/>
+<area shape="rect" id="node10" href="$class_multilink_attribute_symbol.html" title="MultilinkAttributeSymbol." alt="" coords="1098,144,1283,171"/>
+<area shape="rect" id="node12" href="$class_simple_attribute_enum_symbol.html" title="SimpleAttributeEnumSymbol." alt="" coords="1085,195,1296,221"/>
 </map>

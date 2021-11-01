@@ -1,6 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structopenm_1_1_i_meta_table.html" title="openm::IMetaTable\&lt;\l TableDimsRow \&gt;" alt="" coords="5,5,161,47"/>
-<area shape="rect" id="node2" href="$structopenm_1_1_i_meta_loaded_table.html" title="openm::IMetaLoadedTable\l\&lt; TableDimsRow \&gt;" alt="" coords="209,5,401,47"/>
-<area shape="rect" id="node3" href="$structopenm_1_1_i_table_dims_table.html" title="table_dims table public interface. " alt="" coords="449,13,631,39"/>
-<area shape="rect" id="node4" href="$classopenm_1_1_table_dims_table.html" title="openm::TableDimsTable" alt="" coords="679,13,856,39"/>
+<area shape="rect" id="node1" href="$structopenm_1_1_i_parameter_reader.html" title="input parameter reader public interface" alt="" coords="5,5,197,32"/>
+<area shape="rect" id="node2" href="$classopenm_1_1_parameter_reader.html" title=" " alt="" coords="245,5,433,32"/>
 </map>

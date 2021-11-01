@@ -1,3 +1,4 @@
 <map id="msg/msgMpiExec.h" name="msg/msgMpiExec.h">
-<area shape="rect" id="node2" href="$msg_mpi_8h.html" title="OpenM++: message passing library common classes and interfaces. " alt="" coords="21,80,138,107"/>
+<area shape="rect" id="node1" title="OpenM++: message passing library main class for MPI&#45;based implementation." alt="" coords="5,5,153,32"/>
+<area shape="rect" id="node2" href="$msg_mpi_8h.html" title="OpenM++: message passing library common classes and interfaces." alt="" coords="20,80,139,107"/>
 </map>

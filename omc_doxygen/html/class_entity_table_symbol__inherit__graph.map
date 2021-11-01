@@ -1,4 +1,5 @@
 <map id="EntityTableSymbol" name="EntityTableSymbol">
-<area shape="rect" id="node2" href="$class_table_symbol.html" title="TableSymbol. " alt="" coords="24,80,129,107"/>
-<area shape="rect" id="node3" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++. " alt="" coords="41,5,112,32"/>
+<area shape="rect" id="node1" title="EntityTableSymbol." alt="" coords="5,155,148,181"/>
+<area shape="rect" id="node2" href="$class_table_symbol.html" title="TableSymbol." alt="" coords="24,80,129,107"/>
+<area shape="rect" id="node3" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="41,5,112,32"/>
 </map>

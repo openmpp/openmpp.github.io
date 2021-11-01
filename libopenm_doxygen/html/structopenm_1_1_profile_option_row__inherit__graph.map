@@ -1,4 +1,5 @@
 <map id="openm::ProfileOptionRow" name="openm::ProfileOptionRow">
-<area shape="rect" id="node2" href="$structopenm_1_1_i_meta_row.html" title="openm::IMetaRow\&lt; Profile\lOptionRow \&gt;" alt="" coords="5,80,200,121"/>
-<area shape="rect" id="node3" href="$structopenm_1_1_i_row_base.html" title="db&#45;row abstract base " alt="" coords="33,5,172,32"/>
+<area shape="rect" id="node1" title="profile_option table row." alt="" coords="10,169,197,196"/>
+<area shape="rect" id="node2" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="5,80,201,121"/>
+<area shape="rect" id="node3" href="$structopenm_1_1_i_row_base.html" title="db&#45;row abstract base" alt="" coords="34,5,173,32"/>
 </map>

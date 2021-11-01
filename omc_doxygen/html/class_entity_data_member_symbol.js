@@ -1,7 +1,7 @@
 var class_entity_data_member_symbol =
 [
-    [ "EntityDataMemberSymbol", "class_entity_data_member_symbol.html#a354581b6ad5546384541bba91498ca97", null ],
-    [ "EntityDataMemberSymbol", "class_entity_data_member_symbol.html#adb0acac4e4cfd8c9e5515d1e58ff1163", null ],
+    [ "EntityDataMemberSymbol", "class_entity_data_member_symbol.html#a3b5d6ce3f2dd1bc408964830bbb374a7", null ],
+    [ "EntityDataMemberSymbol", "class_entity_data_member_symbol.html#a25070380aa7b09e8b4cd2e3475175702", null ],
     [ "change_data_type", "class_entity_data_member_symbol.html#a0c6336b02c475c40f475be5b6477429d", null ],
     [ "cxx_declaration_agent", "class_entity_data_member_symbol.html#a49dafab30ad3f63c349a82f2c405a241", null ],
     [ "cxx_definition_agent", "class_entity_data_member_symbol.html#a666e91447c3047db2851b879b6285640", null ],

@@ -1,3 +1,4 @@
 <map id="ModuleSymbol" name="ModuleSymbol">
-<area shape="rect" id="node2" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++. " alt="" coords="29,5,100,32"/>
+<area shape="rect" id="node1" title="Symbol for a source code module." alt="" coords="5,80,124,107"/>
+<area shape="rect" id="node2" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="29,5,100,32"/>
 </map>

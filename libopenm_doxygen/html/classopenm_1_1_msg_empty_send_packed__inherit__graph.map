@@ -1,5 +1,6 @@
 <map id="openm::MsgEmptySendPacked" name="openm::MsgEmptySendPacked">
-<area shape="rect" id="node2" href="$classopenm_1_1_i_msg_send_packed.html" title="public interface to send packed data. " alt="" coords="5,80,188,107"/>
-<area shape="rect" id="node3" href="$classopenm_1_1_i_msg_send.html" title="public interface for message sender " alt="" coords="28,5,165,32"/>
-<area shape="rect" id="node4" href="$classopenm_1_1_msg_empty_send_base.html" title="base class for non&#45;blocking send (empty implementation) " alt="" coords="212,80,419,107"/>
+<area shape="rect" id="node1" title="non&#45;blocking send of packed data (empty implementation)" alt="" coords="95,155,317,181"/>
+<area shape="rect" id="node2" href="$classopenm_1_1_i_msg_send_packed.html" title="public interface to send packed data." alt="" coords="5,80,188,107"/>
+<area shape="rect" id="node3" href="$classopenm_1_1_i_msg_send.html" title="public interface for message sender" alt="" coords="27,5,166,32"/>
+<area shape="rect" id="node4" href="$classopenm_1_1_msg_empty_send_base.html" title="base class for non&#45;blocking send (empty implementation)" alt="" coords="213,80,421,107"/>
 </map>

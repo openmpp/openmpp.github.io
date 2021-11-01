@@ -1,6 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structopenm_1_1_i_meta_table.html" title="openm::IMetaTable\&lt;\l ProfileOptionRow \&gt;" alt="" coords="5,5,161,47"/>
-<area shape="rect" id="node2" href="$structopenm_1_1_i_meta_loaded_table.html" title="openm::IMetaLoadedTable\l\&lt; ProfileOptionRow \&gt;" alt="" coords="209,5,401,47"/>
-<area shape="rect" id="node3" href="$structopenm_1_1_i_profile_option_table.html" title="profile_option table public interface. " alt="" coords="449,13,647,39"/>
-<area shape="rect" id="node4" href="$classopenm_1_1_profile_option_table.html" title="openm::ProfileOptionTable" alt="" coords="695,13,888,39"/>
+<area shape="rect" id="node1" href="$structopenm_1_1_i_model_builder.html" title="public interface to build model creation script from metadata rows." alt="" coords="5,5,171,32"/>
+<area shape="rect" id="node2" href="$classopenm_1_1_model_sql_builder.html" title="class to build model creation sql from metadata rows." alt="" coords="219,5,400,32"/>
 </map>

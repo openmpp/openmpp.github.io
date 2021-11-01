@@ -1,4 +1,5 @@
 <map id="db/omc/modelSqlWriter.h" name="db/omc/modelSqlWriter.h">
-<area shape="rect" id="node2" href="$model_insert_sql_8h.html" title="OpenM++ data library: class to produce insert sql statements for new model. " alt="" coords="5,80,189,107"/>
-<area shape="rect" id="node3" href="$model_sql_builder_8h.html" title="OpenM++ data library: class to produce sql creation script for new model. " alt="" coords="65,155,257,181"/>
+<area shape="rect" id="node1" title="OpenM++ data library: wrapper around file stream to write into sql script file." alt="" coords="68,5,255,32"/>
+<area shape="rect" id="node2" href="$model_insert_sql_8h.html" title="OpenM++ data library: class to produce insert sql statements for new model." alt="" coords="5,80,189,107"/>
+<area shape="rect" id="node3" href="$model_sql_builder_8h.html" title="OpenM++ data library: class to produce sql creation script for new model." alt="" coords="65,155,257,181"/>
 </map>

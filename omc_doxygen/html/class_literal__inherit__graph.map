@@ -1,9 +1,10 @@
 <map id="Literal" name="Literal">
-<area shape="rect" id="node2" href="$class_boolean_literal.html" title="A C++ boolean literal. " alt="" coords="132,5,248,32"/>
-<area shape="rect" id="node3" href="$class_character_literal.html" title="A C++ character literal. " alt="" coords="127,56,253,83"/>
-<area shape="rect" id="node4" href="$class_floating_point_literal.html" title="A C++ floating point literal. " alt="" coords="116,107,264,133"/>
-<area shape="rect" id="node5" href="$class_integer_literal.html" title="A C++ integer literal. " alt="" coords="135,157,245,184"/>
-<area shape="rect" id="node6" href="$class_pointer_literal.html" title="A C++ pointer literal. " alt="" coords="135,208,245,235"/>
-<area shape="rect" id="node7" href="$class_string_literal.html" title="A C++ string literal. " alt="" coords="139,259,241,285"/>
-<area shape="rect" id="node8" href="$class_time_literal.html" title="An openM++ time literal. " alt="" coords="142,309,238,336"/>
+<area shape="rect" id="node1" title="Literal encapsulates a C++ literal or an openM++ literal." alt="" coords="5,157,68,184"/>
+<area shape="rect" id="node2" href="$class_boolean_literal.html" title="A C++ boolean literal." alt="" coords="133,5,249,32"/>
+<area shape="rect" id="node3" href="$class_character_literal.html" title="A C++ character literal." alt="" coords="127,56,254,83"/>
+<area shape="rect" id="node4" href="$class_floating_point_literal.html" title="A C++ floating point literal." alt="" coords="116,107,265,133"/>
+<area shape="rect" id="node5" href="$class_integer_literal.html" title="A C++ integer literal." alt="" coords="136,157,245,184"/>
+<area shape="rect" id="node6" href="$class_pointer_literal.html" title="A C++ pointer literal." alt="" coords="136,208,245,235"/>
+<area shape="rect" id="node7" href="$class_string_literal.html" title="A C++ string literal." alt="" coords="140,259,241,285"/>
+<area shape="rect" id="node8" href="$class_time_literal.html" title="An openM++ time literal." alt="" coords="143,309,239,336"/>
 </map>

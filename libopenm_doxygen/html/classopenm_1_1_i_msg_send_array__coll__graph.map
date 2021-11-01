@@ -1,3 +1,4 @@
 <map id="openm::IMsgSendArray" name="openm::IMsgSendArray">
-<area shape="rect" id="node2" href="$classopenm_1_1_i_msg_send.html" title="public interface for message sender " alt="" coords="23,5,160,32"/>
+<area shape="rect" id="node1" title="public interface to send value array" alt="" coords="5,80,179,107"/>
+<area shape="rect" id="node2" href="$classopenm_1_1_i_msg_send.html" title="public interface for message sender" alt="" coords="23,5,161,32"/>
 </map>

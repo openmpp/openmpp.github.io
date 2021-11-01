@@ -1,4 +1,5 @@
 <map id="openm::TableAccRow" name="openm::TableAccRow">
-<area shape="rect" id="node2" href="$structopenm_1_1_i_meta_row.html" title="openm::IMetaRow\&lt; TableAcc\lRow \&gt;" alt="" coords="5,80,216,121"/>
-<area shape="rect" id="node3" href="$structopenm_1_1_i_row_base.html" title="db&#45;row abstract base " alt="" coords="41,5,180,32"/>
+<area shape="rect" id="node1" title="table_acc table row." alt="" coords="31,169,191,196"/>
+<area shape="rect" id="node2" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="5,80,217,121"/>
+<area shape="rect" id="node3" href="$structopenm_1_1_i_row_base.html" title="db&#45;row abstract base" alt="" coords="42,5,181,32"/>
 </map>

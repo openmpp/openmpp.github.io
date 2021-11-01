@@ -1,5 +1,6 @@
 <map id="openm::IProfileOptionTable" name="openm::IProfileOptionTable">
-<area shape="rect" id="node4" href="$classopenm_1_1_profile_option_table.html" title="openm::ProfileOptionTable" alt="" coords="7,259,201,285"/>
-<area shape="rect" id="node2" href="$structopenm_1_1_i_meta_loaded_table.html" title="openm::IMetaLoadedTable\l\&lt; ProfileOptionRow \&gt;" alt="" coords="8,95,200,136"/>
-<area shape="rect" id="node3" href="$structopenm_1_1_i_meta_table.html" title="openm::IMetaTable\&lt;\l ProfileOptionRow \&gt;" alt="" coords="26,5,182,47"/>
+<area shape="rect" id="node1" title="profile_option table public interface." alt="" coords="5,184,203,211"/>
+<area shape="rect" id="node4" href="$classopenm_1_1_profile_option_table.html" title=" " alt="" coords="7,259,201,285"/>
+<area shape="rect" id="node2" href="$structopenm_1_1_i_meta_loaded_table.html" title=" " alt="" coords="7,95,201,136"/>
+<area shape="rect" id="node3" href="$structopenm_1_1_i_meta_table.html" title="base class for metadata db&#45;tables" alt="" coords="25,5,183,47"/>
 </map>

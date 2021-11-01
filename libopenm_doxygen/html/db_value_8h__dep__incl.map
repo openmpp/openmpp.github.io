@@ -1,11 +1,12 @@
 <map id="include/dbValue.h" name="include/dbValue.h">
+<area shape="rect" id="node1" title="OpenM++ data library: db value classes access value rows: input parameter, accumulator or expression ..." alt="" coords="580,5,717,32"/>
 <area shape="rect" id="node2" href="$db_value_8cpp.html" title="OpenM++ data library: db value classes access value rows: input parameter, accumulator or expression ..." alt="" coords="497,80,619,107"/>
-<area shape="rect" id="node3" href="$run_controller_impl_8h.html" title="OpenM++ modeling library: impelementation of controllers for modeling process run. " alt="" coords="643,80,836,107"/>
+<area shape="rect" id="node3" href="$run_controller_impl_8h.html" title="OpenM++ modeling library: impelementation of controllers for modeling process run." alt="" coords="643,80,836,107"/>
 <area shape="rect" id="node4" href="$child_controller_8cpp.html" title="OpenM++ modeling library: child process run controller class to receive input parameters from root an..." alt="" coords="5,155,193,181"/>
 <area shape="rect" id="node5" href="$restart_controller_8cpp.html" title="OpenM++ modeling library: process run controller class for model &quot;restart run&quot; to calculate outstandi..." alt="" coords="218,155,418,181"/>
-<area shape="rect" id="node6" href="$root_controller_8cpp.html" title="OpenM++ modeling library: root process run controller class to create new model run(s), send input parameters to children and receieve output tables. " alt="" coords="443,155,625,181"/>
-<area shape="rect" id="node7" href="$run_controller_8cpp.html" title="OpenM++ modeling library: run controller class to create new model run(s) and support data exchange..." alt="" coords="650,155,829,181"/>
-<area shape="rect" id="node8" href="$run_controller_new_run_8cpp.html" title="OpenM++ modeling library: run controller class to create new model run(s) and support data exchange (..." alt="" coords="853,155,1085,181"/>
-<area shape="rect" id="node9" href="$run_controller_params_8cpp.html" title="OpenM++ modeling library: run controller class to create new model run(s) and support data exchange (..." alt="" coords="1109,155,1335,181"/>
-<area shape="rect" id="node10" href="$single_controller_8cpp.html" title="OpenM++ modeling library: single process run controller class to create new model run(s)..." alt="" coords="1360,155,1556,181"/>
+<area shape="rect" id="node6" href="$root_controller_8cpp.html" title="OpenM++ modeling library: root process run controller class to create new model run(s),..." alt="" coords="443,155,625,181"/>
+<area shape="rect" id="node7" href="$run_controller_8cpp.html" title="OpenM++ modeling library: run controller class to create new model run(s) and support data exchange." alt="" coords="650,155,829,181"/>
+<area shape="rect" id="node8" href="$run_controller_new_run_8cpp.html" title="OpenM++ modeling library: run controller class to create new model run(s) and support data exchange (..." alt="" coords="853,155,1087,181"/>
+<area shape="rect" id="node9" href="$run_controller_params_8cpp.html" title="OpenM++ modeling library: run controller class to create new model run(s) and support data exchange (..." alt="" coords="1111,155,1338,181"/>
+<area shape="rect" id="node10" href="$single_controller_8cpp.html" title="OpenM++ modeling library: single process run controller class to create new model run(s),..." alt="" coords="1363,155,1559,181"/>
 </map>

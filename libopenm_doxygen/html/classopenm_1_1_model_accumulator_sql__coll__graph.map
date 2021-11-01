@@ -1,3 +1,4 @@
 <map id="openm::ModelAccumulatorSql" name="openm::ModelAccumulatorSql">
-<area shape="rect" id="node2" href="$classopenm_1_1_model_base_expression_sql.html" title="base class to produce sql expressions and subqueries for otput table " alt="" coords="5,5,243,32"/>
+<area shape="rect" id="node1" title="class to produce accumulators sql subqueries for otput table" alt="" coords="16,80,233,107"/>
+<area shape="rect" id="node2" href="$classopenm_1_1_model_base_expression_sql.html" title="base class to produce sql expressions and subqueries for otput table" alt="" coords="5,5,244,32"/>
 </map>

@@ -1,5 +1,6 @@
 <map id="RealSymbol" name="RealSymbol">
-<area shape="rect" id="node2" href="$class_numeric_symbol.html" title="NumericSymbol. " alt="" coords="5,155,132,181"/>
-<area shape="rect" id="node3" href="$class_type_symbol.html" title="TypeSymbol. " alt="" coords="18,80,119,107"/>
-<area shape="rect" id="node4" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++. " alt="" coords="33,5,104,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="19,229,119,256"/>
+<area shape="rect" id="node2" href="$class_numeric_symbol.html" title="NumericSymbol." alt="" coords="5,155,132,181"/>
+<area shape="rect" id="node3" href="$class_type_symbol.html" title="TypeSymbol." alt="" coords="18,80,119,107"/>
+<area shape="rect" id="node4" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="33,5,104,32"/>
 </map>

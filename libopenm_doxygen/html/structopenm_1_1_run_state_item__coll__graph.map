@@ -1,4 +1,5 @@
 <map id="openm::RunStateItem" name="openm::RunStateItem">
-<area shape="rect" id="node2" href="$structopenm_1_1_i_row_base.html" title="db&#45;row abstract base " alt="" coords="5,5,144,32"/>
-<area shape="rect" id="node3" href="$structopenm_1_1_run_state.html" title="model run state data: status, progress, update times " alt="" coords="168,5,301,32"/>
+<area shape="rect" id="node1" title="run state data for sub&#45;value identified by run id and sub&#45;value id" alt="" coords="73,95,237,121"/>
+<area shape="rect" id="node2" href="$structopenm_1_1_i_row_base.html" title="db&#45;row abstract base" alt="" coords="5,5,144,32"/>
+<area shape="rect" id="node3" href="$structopenm_1_1_run_state.html" title="model run state data: status, progress, update times" alt="" coords="169,5,303,32"/>
 </map>

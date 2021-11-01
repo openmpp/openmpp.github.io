@@ -1,3 +1,4 @@
 <map id="openm::ModelSqlBuilder" name="openm::ModelSqlBuilder">
-<area shape="rect" id="node2" href="$structopenm_1_1_i_model_builder.html" title="public interface to build model creation script from metadata rows. " alt="" coords="13,5,177,32"/>
+<area shape="rect" id="node1" title="class to build model creation sql from metadata rows." alt="" coords="5,80,187,107"/>
+<area shape="rect" id="node2" href="$structopenm_1_1_i_model_builder.html" title="public interface to build model creation script from metadata rows." alt="" coords="13,5,179,32"/>
 </map>

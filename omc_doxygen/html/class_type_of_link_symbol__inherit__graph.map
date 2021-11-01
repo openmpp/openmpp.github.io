@@ -1,4 +1,5 @@
 <map id="TypeOfLinkSymbol" name="TypeOfLinkSymbol">
-<area shape="rect" id="node2" href="$class_type_symbol.html" title="TypeSymbol. " alt="" coords="26,80,127,107"/>
-<area shape="rect" id="node3" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++. " alt="" coords="41,5,112,32"/>
+<area shape="rect" id="node1" title="TypeOfLinkSymbol." alt="" coords="5,155,148,181"/>
+<area shape="rect" id="node2" href="$class_type_symbol.html" title="TypeSymbol." alt="" coords="26,80,127,107"/>
+<area shape="rect" id="node3" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="41,5,112,32"/>
 </map>

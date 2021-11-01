@@ -1,4 +1,5 @@
 <map id="openm::TableExprTxtRow" name="openm::TableExprTxtRow">
-<area shape="rect" id="node2" href="$structopenm_1_1_i_meta_row.html" title="openm::IMetaRow\&lt; TableExpr\lTxtRow \&gt;" alt="" coords="5,80,221,121"/>
-<area shape="rect" id="node3" href="$structopenm_1_1_i_row_base.html" title="db&#45;row abstract base " alt="" coords="44,5,183,32"/>
+<area shape="rect" id="node1" title="table_expr_txt table row." alt="" coords="21,169,208,196"/>
+<area shape="rect" id="node2" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="5,80,224,121"/>
+<area shape="rect" id="node3" href="$structopenm_1_1_i_row_base.html" title="db&#45;row abstract base" alt="" coords="45,5,184,32"/>
 </map>

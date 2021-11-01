@@ -1,9 +1,9 @@
 var class_group_symbol =
 [
-    [ "GroupSymbol", "class_group_symbol.html#a32abeb665e8a2bce45ce8331a4e6dfa4", null ],
-    [ "GroupSymbol", "class_group_symbol.html#aa8100014ea1cac01cf95a672d10005ed", null ],
-    [ "expand_group", "class_group_symbol.html#ae839487361952f83ad41c55656d46fd5", null ],
-    [ "expanded_list", "class_group_symbol.html#a76ba68f868530acc02f482cd00ecf334", null ],
+    [ "GroupSymbol", "class_group_symbol.html#a91c0bb78f11634ed5c115db77a8fdee4", null ],
+    [ "GroupSymbol", "class_group_symbol.html#a59979f91a0204aa262e60dd71d16a93c", null ],
+    [ "expand_group", "class_group_symbol.html#a48b2e4f573980e12670f05879960ddaa", null ],
+    [ "expanded_list", "class_group_symbol.html#ad33a2a97f3a33b8e282c19de42a7bff0", null ],
     [ "is_base_symbol", "class_group_symbol.html#a2a3ba2a5139e71c41393ca6ffcb5588f", null ],
     [ "is_circular", "class_group_symbol.html#ac454ef14be6a229fd6a50eb5e06d5ba7", null ],
     [ "is_circular_helper", "class_group_symbol.html#ac7252f5633f94de718f3e5de18e3d259", null ],

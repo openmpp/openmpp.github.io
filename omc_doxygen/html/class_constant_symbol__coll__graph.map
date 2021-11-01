@@ -1,9 +1,12 @@
 <map id="ConstantSymbol" name="ConstantSymbol">
-<area shape="rect" id="node2" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++. " alt="" coords="117,124,187,151"/>
-<area shape="rect" id="node5" href="$class_enumerator_symbol.html" title="EnumeratorSymbol" alt="" coords="93,469,240,496"/>
-<area shape="rect" id="node8" href="$class_type_symbol.html" title="TypeSymbol. " alt="" coords="301,200,403,227"/>
-<area shape="rect" id="node3" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables. " alt="" coords="97,5,207,32"/>
-<area shape="rect" id="node4" href="$class_literal.html" title="Literal encapsulates a C++ literal or an openM++ literal. " alt="" coords="265,469,327,496"/>
-<area shape="rect" id="node6" href="$class_enumeration_with_enumerators_symbol.html" title="EnumerationWithEnumeratorsSymbol. " alt="" coords="272,365,491,407"/>
-<area shape="rect" id="node7" href="$class_enumeration_symbol.html" title="EnumerationSymbol. " alt="" coords="325,276,480,303"/>
+<area shape="rect" id="node1" title="ConstantSymbol &#45; Refers to either a Literal or an EnumeratorSymbol." alt="" coords="29,663,158,689"/>
+<area shape="rect" id="node2" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="117,228,187,255"/>
+<area shape="rect" id="node7" href="$class_enumerator_symbol.html" title=" " alt="" coords="93,573,240,600"/>
+<area shape="rect" id="node10" href="$class_type_symbol.html" title="TypeSymbol." alt="" coords="301,304,403,331"/>
+<area shape="rect" id="node3" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="29,109,139,136"/>
+<area shape="rect" id="node4" href="$classomc_1_1location.html" title="Two points in a source file." alt="" coords="165,109,275,136"/>
+<area shape="rect" id="node5" href="$classomc_1_1position.html" title="A point in a source file." alt="" coords="165,5,275,32"/>
+<area shape="rect" id="node6" href="$class_literal.html" title="Literal encapsulates a C++ literal or an openM++ literal." alt="" coords="265,573,327,600"/>
+<area shape="rect" id="node8" href="$class_enumeration_with_enumerators_symbol.html" title="EnumerationWithEnumeratorsSymbol." alt="" coords="272,469,491,511"/>
+<area shape="rect" id="node9" href="$class_enumeration_symbol.html" title="EnumerationSymbol." alt="" coords="325,380,480,407"/>
 </map>

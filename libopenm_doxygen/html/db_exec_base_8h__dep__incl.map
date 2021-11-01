@@ -1,6 +1,7 @@
 <map id="db/dbExecBase.h" name="db/dbExecBase.h">
-<area shape="rect" id="node2" href="$db_exec_base_8cpp.html" title="OpenM++ data library: base class for db connection wrapper. " alt="" coords="5,80,153,107"/>
-<area shape="rect" id="node3" href="$db_exec_sqlite_8h.html" title="OpenM++ data library: db connection wrapper for SQLite. " alt="" coords="178,80,317,107"/>
-<area shape="rect" id="node4" href="$db_exec_provider_8cpp.html" title="OpenM++ data library: base class for db connection wrapper. " alt="" coords="69,155,239,181"/>
-<area shape="rect" id="node5" href="$db_exec_sqlite_8cpp.html" title="OpenM++ data library: db connection wrapper for SQLite. " alt="" coords="263,155,416,181"/>
+<area shape="rect" id="node1" title="OpenM++ data library: common classes for db connection wrapper." alt="" coords="95,5,227,32"/>
+<area shape="rect" id="node2" href="$db_exec_base_8cpp.html" title="OpenM++ data library: base class for db connection wrapper." alt="" coords="5,80,152,107"/>
+<area shape="rect" id="node3" href="$db_exec_sqlite_8h.html" title="OpenM++ data library: db connection wrapper for SQLite." alt="" coords="177,80,314,107"/>
+<area shape="rect" id="node4" href="$db_exec_provider_8cpp.html" title="OpenM++ data library: base class for db connection wrapper." alt="" coords="69,155,237,181"/>
+<area shape="rect" id="node5" href="$db_exec_sqlite_8cpp.html" title="OpenM++ data library: db connection wrapper for SQLite." alt="" coords="261,155,413,181"/>
 </map>

@@ -1,7 +1,7 @@
 var class_attribute_symbol =
 [
-    [ "AttributeSymbol", "class_attribute_symbol.html#a23acaccdf0126f14bc35abaecd8352db", null ],
-    [ "AttributeSymbol", "class_attribute_symbol.html#aa8e26b1d97c16b219de1fdc848e16cd5", null ],
+    [ "AttributeSymbol", "class_attribute_symbol.html#a75ea8181f41195c39f68696e2aad18ee", null ],
+    [ "AttributeSymbol", "class_attribute_symbol.html#ab4e0c20726966c7464a59a71ad149816", null ],
     [ "change_data_type", "class_attribute_symbol.html#aef1267a5721f46e28aa6f4d307690dc1", null ],
     [ "create_auxiliary_symbols", "class_attribute_symbol.html#ab7e87b8c051a8455440f6a035d34fe35", null ],
     [ "create_lagged", "class_attribute_symbol.html#ae7de567d7cbaac8fcb027c4db549fc12", null ],
@@ -13,6 +13,7 @@ var class_attribute_symbol =
     [ "is_maintained", "class_attribute_symbol.html#a391c3215ac583a83ff01d5fabcecd232", null ],
     [ "is_valid_comparison", "class_attribute_symbol.html#a847576ed566fee51f19feb9434b588c7", null ],
     [ "post_parse", "class_attribute_symbol.html#ad9938ffc2a43192f0a3ae984e478f2f2", null ],
+    [ "is_time_like", "class_attribute_symbol.html#a717a9d5fcdd547eb68480844e31b459b", null ],
     [ "lagged", "class_attribute_symbol.html#af07e28b33fd4d1b70cc1a1832f8bc064", null ],
     [ "lagged_event_counter", "class_attribute_symbol.html#ab7a8cbac735b21a973bfcfcc07e8171b", null ],
     [ "notify_fn", "class_attribute_symbol.html#a8dee103ef76563bfb305d879d0aad87a", null ],

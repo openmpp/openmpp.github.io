@@ -1,8 +1,9 @@
 <map id="EnumerationWithEnumeratorsSymbol" name="EnumerationWithEnumeratorsSymbol">
-<area shape="rect" id="node5" href="$class_bool_symbol.html" title="BoolSymbol. " alt="" coords="5,319,105,345"/>
-<area shape="rect" id="node6" href="$class_classification_symbol.html" title="ClassificationSymbol. " alt="" coords="129,319,288,345"/>
-<area shape="rect" id="node7" href="$class_partition_symbol.html" title="PartitionSymbol. " alt="" coords="313,319,438,345"/>
-<area shape="rect" id="node2" href="$class_enumeration_symbol.html" title="EnumerationSymbol. " alt="" coords="131,155,286,181"/>
-<area shape="rect" id="node3" href="$class_type_symbol.html" title="TypeSymbol. " alt="" coords="158,80,259,107"/>
-<area shape="rect" id="node4" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++. " alt="" coords="173,5,244,32"/>
+<area shape="rect" id="node1" title="EnumerationWithEnumeratorsSymbol." alt="" coords="99,229,318,271"/>
+<area shape="rect" id="node5" href="$class_bool_symbol.html" title="BoolSymbol." alt="" coords="5,319,105,345"/>
+<area shape="rect" id="node6" href="$class_classification_symbol.html" title="ClassificationSymbol." alt="" coords="129,319,288,345"/>
+<area shape="rect" id="node7" href="$class_partition_symbol.html" title="PartitionSymbol." alt="" coords="313,319,438,345"/>
+<area shape="rect" id="node2" href="$class_enumeration_symbol.html" title="EnumerationSymbol." alt="" coords="131,155,286,181"/>
+<area shape="rect" id="node3" href="$class_type_symbol.html" title="TypeSymbol." alt="" coords="158,80,259,107"/>
+<area shape="rect" id="node4" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="173,5,244,32"/>
 </map>

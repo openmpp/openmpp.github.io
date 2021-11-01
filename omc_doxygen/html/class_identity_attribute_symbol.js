@@ -1,7 +1,7 @@
 var class_identity_attribute_symbol =
 [
-    [ "IdentityAttributeSymbol", "class_identity_attribute_symbol.html#ad04229aa2e5b699bf42eb0ce16734ffd", null ],
-    [ "IdentityAttributeSymbol", "class_identity_attribute_symbol.html#a9321a7eae60b307cfc4cdcb0a04c3a00", null ],
+    [ "IdentityAttributeSymbol", "class_identity_attribute_symbol.html#a4015502fa5c46a6cbba1391ee36ac9a2", null ],
+    [ "IdentityAttributeSymbol", "class_identity_attribute_symbol.html#a59f867a8d859dc886d3646ba65f4d831", null ],
     [ "build_body_expression", "class_identity_attribute_symbol.html#adcb278f7acf34f2b055874c9e29cd9db", null ],
     [ "create_auxiliary_symbols", "class_identity_attribute_symbol.html#a958f14f854f5d601a37d62652b3036dd", null ],
     [ "cxx_declaration_agent", "class_identity_attribute_symbol.html#af2447d11a5e5363d11bdf6083d4967be", null ],
@@ -11,7 +11,7 @@ var class_identity_attribute_symbol =
     [ "post_parse_traverse2", "class_identity_attribute_symbol.html#a692ecdb46eab6c570c33c2f34598caa6", null ],
     [ "expression_fn", "class_identity_attribute_symbol.html#a74cac5958ab04051d74fba6cdf0d9386", null ],
     [ "pp_attributes_used", "class_identity_attribute_symbol.html#a0360a0066ad813d666b506e3967f0ed1", null ],
-    [ "pp_linked_attributes_used", "class_identity_attribute_symbol.html#a42d4a49ffd902084b7ebf32d71b5c74f", null ],
     [ "pp_links_used", "class_identity_attribute_symbol.html#a2abc62c83644990af5327ac8789570da", null ],
+    [ "pp_linkto_attributes_used", "class_identity_attribute_symbol.html#aa78a6e7bd6ba6ed1fe04781ca99fecc5", null ],
     [ "root", "class_identity_attribute_symbol.html#a58950432c259396e13fc9aa7c2c64b73", null ]
 ];

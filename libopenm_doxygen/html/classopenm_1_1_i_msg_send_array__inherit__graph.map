@@ -1,5 +1,6 @@
 <map id="openm::IMsgSendArray" name="openm::IMsgSendArray">
-<area shape="rect" id="node3" href="$classopenm_1_1_mpi_send_array.html" title="non&#45;blocking MPI send of value array " alt="" coords="5,155,171,181"/>
-<area shape="rect" id="node4" href="$classopenm_1_1_msg_empty_send_array.html" title="non&#45;blocking send of value array (empty implementation) " alt="" coords="195,155,405,181"/>
-<area shape="rect" id="node2" href="$classopenm_1_1_i_msg_send.html" title="public interface for message sender " alt="" coords="125,5,262,32"/>
+<area shape="rect" id="node1" title="public interface to send value array" alt="" coords="109,80,282,107"/>
+<area shape="rect" id="node3" href="$classopenm_1_1_mpi_send_array.html" title="non&#45;blocking MPI send of value array" alt="" coords="5,155,172,181"/>
+<area shape="rect" id="node4" href="$classopenm_1_1_msg_empty_send_array.html" title="non&#45;blocking send of value array (empty implementation)" alt="" coords="197,155,407,181"/>
+<area shape="rect" id="node2" href="$classopenm_1_1_i_msg_send.html" title="public interface for message sender" alt="" coords="126,5,265,32"/>
 </map>

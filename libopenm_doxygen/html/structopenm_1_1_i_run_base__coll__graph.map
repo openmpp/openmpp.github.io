@@ -1,3 +1,4 @@
 <map id="openm::IRunBase" name="openm::IRunBase">
-<area shape="rect" id="node2" href="$structopenm_1_1_i_run_options.html" title="public interface to get model run options " alt="" coords="5,5,159,32"/>
+<area shape="rect" id="node1" title="public interface to initialize model run and input parameters" alt="" coords="15,80,151,107"/>
+<area shape="rect" id="node2" href="$structopenm_1_1_i_run_options.html" title="public interface to get model run options" alt="" coords="5,5,160,32"/>
 </map>

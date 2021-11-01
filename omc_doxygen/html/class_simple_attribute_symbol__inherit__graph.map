@@ -1,7 +1,8 @@
 <map id="SimpleAttributeSymbol" name="SimpleAttributeSymbol">
-<area shape="rect" id="node6" href="$class_simple_attribute_enum_symbol.html" title="SimpleAttributeEnumSymbol. " alt="" coords="5,379,216,405"/>
-<area shape="rect" id="node2" href="$class_attribute_symbol.html" title="AttributeSymbol" alt="" coords="47,229,175,256"/>
-<area shape="rect" id="node3" href="$class_entity_data_member_symbol.html" title="EntityDataMemberSymbol" alt="" coords="14,155,207,181"/>
-<area shape="rect" id="node4" href="$class_entity_member_symbol.html" title="EntityMemberSymbol" alt="" coords="29,80,192,107"/>
-<area shape="rect" id="node5" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++. " alt="" coords="75,5,146,32"/>
+<area shape="rect" id="node1" title="SimpleAttributeSymbol." alt="" coords="24,304,197,331"/>
+<area shape="rect" id="node6" href="$class_simple_attribute_enum_symbol.html" title="SimpleAttributeEnumSymbol." alt="" coords="5,379,216,405"/>
+<area shape="rect" id="node2" href="$class_attribute_symbol.html" title=" " alt="" coords="47,229,175,256"/>
+<area shape="rect" id="node3" href="$class_entity_data_member_symbol.html" title=" " alt="" coords="13,155,208,181"/>
+<area shape="rect" id="node4" href="$class_entity_member_symbol.html" title=" " alt="" coords="29,80,192,107"/>
+<area shape="rect" id="node5" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="75,5,146,32"/>
 </map>
