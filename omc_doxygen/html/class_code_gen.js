@@ -26,6 +26,7 @@ var class_code_gen =
     [ "do_table_dependencies", "class_code_gen.html#a08847679c175d1935204a897b808bb08", null ],
     [ "do_table_interface", "class_code_gen.html#a192754b0d303bba22ccded8a375efa35", null ],
     [ "do_types", "class_code_gen.html#a000000aef12acaf4d608228c6bd19749", null ],
+    [ "do_weight_support", "class_code_gen.html#a59f6e5100c025c6d39dc0e44a40007bc", null ],
     [ "c", "class_code_gen.html#a459ceb2dcc8fc62be3f492ed5a2cf000", null ],
     [ "c_fname", "class_code_gen.html#a8a390d9250063e3e48ddc81ee3a4219c", null ],
     [ "h", "class_code_gen.html#a45bae426db9375c138316477f5ef8c50", null ],

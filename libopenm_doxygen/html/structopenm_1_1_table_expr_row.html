@@ -124,6 +124,9 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_table_expr_row.html#a53faded149878ebc9510634f1d197700">TableExprRow</a> (void)</td></tr>
 <tr class="memdesc:a53faded149878ebc9510634f1d197700"><td class="mdescLeft">&#160;</td><td class="mdescRight">create row with default empty field values. <br /></td></tr>
 <tr class="separator:a53faded149878ebc9510634f1d197700"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9774de7f5c0d8819c5c0ef77c0b4b4a8"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_table_expr_row.html#a9774de7f5c0d8819c5c0ef77c0b4b4a8">columnName</a> (void) const</td></tr>
+<tr class="memdesc:a9774de7f5c0d8819c5c0ef77c0b4b4a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">retrun db column name based on expression id, example: ex_1  <a href="structopenm_1_1_table_expr_row.html#a9774de7f5c0d8819c5c0ef77c0b4b4a8">More...</a><br /></td></tr>
+<tr class="separator:a9774de7f5c0d8819c5c0ef77c0b4b4a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -161,7 +164,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struc
 <tr class="separator:abe23af5805b4bf89edb68363e581d560"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f7f250b20b3d856215e8498abfbe4e9"><td class="memItemLeft" align="right" valign="top"><a id="a3f7f250b20b3d856215e8498abfbe4e9"></a>
 string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_table_expr_row.html#a3f7f250b20b3d856215e8498abfbe4e9">name</a></td></tr>
-<tr class="memdesc:a3f7f250b20b3d856215e8498abfbe4e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">expr_name VARCHAR(8) NOT NULL <br /></td></tr>
+<tr class="memdesc:a3f7f250b20b3d856215e8498abfbe4e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">expr_name VARCHAR(255) NOT NULL <br /></td></tr>
 <tr class="separator:a3f7f250b20b3d856215e8498abfbe4e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab994860f7a238cb00c7d712329c7345e"><td class="memItemLeft" align="right" valign="top"><a id="ab994860f7a238cb00c7d712329c7345e"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_table_expr_row.html#ab994860f7a238cb00c7d712329c7345e">decimals</a></td></tr>
@@ -178,7 +181,29 @@ string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="st
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>table_expr table row. </p>
-</div><hr/>The documentation for this struct was generated from the following files:<ul>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a9774de7f5c0d8819c5c0ef77c0b4b4a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9774de7f5c0d8819c5c0ef77c0b4b4a8">&#9670;&nbsp;</a></span>columnName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string TableExprRow::columnName </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>retrun db column name based on expression id, example: ex_1 </p>
+<p>retrun db column name based on expression id, example: expr1 </p>
+
+</div>
+</div>
+<hr/>The documentation for this struct was generated from the following files:<ul>
 <li>/home/build_doc/ompp-make-doc/ompp-main/include/libopenm/db/<a class="el" href="db_meta_row_8h_source.html">dbMetaRow.h</a></li>
 <li>db/dbMetaRow.cpp</li>
 </ul>
@@ -188,7 +213,7 @@ string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="st
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceopenm.html">openm</a></li><li class="navelem"><a class="el" href="structopenm_1_1_table_expr_row.html">TableExprRow</a></li>
-    <li class="footer">Generated on Tue Nov 30 2021 20:29:36 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Tue Jan 11 2022 02:29:50 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

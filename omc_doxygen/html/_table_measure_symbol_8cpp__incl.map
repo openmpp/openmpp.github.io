@@ -1,8 +1,9 @@
 <map id="TableMeasureSymbol.cpp" name="TableMeasureSymbol.cpp">
-<area shape="rect" id="node1" title="Definitions for the TableMeasureSymbol class." alt="" coords="711,5,899,32"/>
+<area shape="rect" id="node1" title="Definitions for the TableMeasureSymbol class." alt="" coords="774,5,962,32"/>
 <area shape="rect" id="node2" title=" " alt="" coords="5,379,75,405"/>
-<area shape="rect" id="node3" href="$_derived_table_symbol_8h.html" title="Declarations for the DerivedTableSymbol class." alt="" coords="893,80,1061,107"/>
+<area shape="rect" id="node3" href="$_derived_table_symbol_8h.html" title="Declarations for the DerivedTableSymbol class." alt="" coords="845,80,1013,107"/>
 <area shape="rect" id="node22" href="$_table_measure_symbol_8h.html" title="Declarations for the TableMeasureSymbol class." alt="" coords="719,229,892,256"/>
+<area shape="rect" id="node24" title=" " alt="" coords="1038,80,1261,107"/>
 <area shape="rect" id="node4" title=" " alt="" coords="1529,453,1572,480"/>
 <area shape="rect" id="node5" href="$_symbol_8h.html" title="Declarations for the Symbol class." alt="" coords="888,304,971,331"/>
 <area shape="rect" id="node20" href="$_table_symbol_8h.html" title="Declarations for the TableSymbol class." alt="" coords="967,155,1084,181"/>

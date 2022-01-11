@@ -320,7 +320,7 @@ var namespaceopenm =
     [ "FncCode", "namespaceopenm.html#a1d961a1d992de740bd98b57f571cd448", [
       [ "undefined", "namespaceopenm.html#a1d961a1d992de740bd98b57f571cd448a5e543256c480ac577d30f76f9120eb74", null ],
       [ "if_case", "namespaceopenm.html#a1d961a1d992de740bd98b57f571cd448acaf2d484bde184c4127b99c59c0cc5c5", null ],
-      [ "denom", "namespaceopenm.html#a1d961a1d992de740bd98b57f571cd448a861ced443a0cd3b58ec6ed9fc774cf66", null ],
+      [ "div_by", "namespaceopenm.html#a1d961a1d992de740bd98b57f571cd448ab6b9ba0fe99966af5dd4875a44347b24", null ],
       [ "avg", "namespaceopenm.html#a1d961a1d992de740bd98b57f571cd448ae322d423f075b0ab2daad27011d24909", null ],
       [ "sum", "namespaceopenm.html#a1d961a1d992de740bd98b57f571cd448a1d623b89683f9ce4e074de1676d12416", null ],
       [ "count", "namespaceopenm.html#a1d961a1d992de740bd98b57f571cd448ae2942a04780e223b215eb8b663cf5353", null ],
