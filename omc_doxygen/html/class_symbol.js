@@ -39,6 +39,7 @@ var class_symbol =
     [ "decl_loc", "class_symbol.html#a3f4b455d4a56cfe9eb8dcf334a02333a", null ],
     [ "name", "class_symbol.html#a0254b578a75d2bd6f7e145fe081cb6dd", null ],
     [ "pp_labels", "class_symbol.html#a26d29be01d06ff065fc6bbbea4e824a5", null ],
+    [ "pp_labels_explicit", "class_symbol.html#afd44aa1bb6ac45bbf8ca8ad9ef43c40a", null ],
     [ "pp_notes", "class_symbol.html#a864960bd4fef7ca6b9fcfb377ed81150", null ],
     [ "redecl_loc", "class_symbol.html#aba348cf237e05feb3f8f29f84648a438", null ],
     [ "reference_count", "class_symbol.html#aaf798d9d565c3e23f4d156588245e33d", null ],

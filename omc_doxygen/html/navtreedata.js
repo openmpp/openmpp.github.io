@@ -57,7 +57,7 @@ var NAVTREEINDEX =
 "class_entity_data_member_symbol.html#ac3df1d284e1fcc1fe00e4ea59b1de4bc",
 "class_enumeration_with_enumerators_symbol.html#afbe4264ef5ef9a6e2bff61c3b4355519",
 "class_parameter_symbol.html#a8219db299c3a785a4debc0f8bd5afaaa",
-"class_time_symbol.html#a4a6271efc31c86ea6e397e162544172c"
+"class_time_symbol.html#a3e753b48e00c4249c5c6a0b1be1eca23"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

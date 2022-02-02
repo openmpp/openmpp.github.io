@@ -1,5 +1,5 @@
 <map id="LanguageSymbol.h" name="LanguageSymbol.h">
-<area shape="rect" id="node1" title="Declarations for the LanguageSymbol class." alt="" coords="1333,5,1479,32"/>
+<area shape="rect" id="node1" title="Declarations for the LanguageSymbol class." alt="" coords="1402,5,1549,32"/>
 <area shape="rect" id="node2" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="32,169,87,196"/>
 <area shape="rect" id="node4" href="$_bool_enumerator_symbol_8h.html" title="Declarations for the BoolEnumeratorSymbol class." alt="" coords="88,87,276,114"/>
 <area shape="rect" id="node6" href="$_derived_table_symbol_8cpp.html" title="Definitions for the DerivedTableSymbol class." alt="" coords="300,87,483,114"/>
@@ -14,7 +14,8 @@
 <area shape="rect" id="node16" href="$_scenario_symbol_8cpp.html" title="Definitions for the ScenarioSymbol class." alt="" coords="2006,87,2161,114"/>
 <area shape="rect" id="node17" href="$_symbol_8cpp.html" title="Definitions for the Symbol class." alt="" coords="2185,87,2283,114"/>
 <area shape="rect" id="node18" href="$_table_group_symbol_8cpp.html" title="Definitions for the TableGroupSymbol class." alt="" coords="2307,87,2478,114"/>
-<area shape="rect" id="node19" href="$_table_symbol_8cpp.html" title="Definitions for the TableSymbol class." alt="" coords="2503,87,2635,114"/>
+<area shape="rect" id="node19" href="$_table_measure_symbol_8cpp.html" title="Definitions for the TableMeasureSymbol class." alt="" coords="2503,87,2691,114"/>
+<area shape="rect" id="node20" href="$_table_symbol_8cpp.html" title="Definitions for the TableSymbol class." alt="" coords="2715,87,2847,114"/>
 <area shape="rect" id="node3" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="5,244,113,271"/>
 <area shape="rect" id="node5" href="$_bool_symbol_8cpp.html" title="Definitions for the BoolSymbol class." alt="" coords="119,169,245,196"/>
 <area shape="rect" id="node13" href="$omc__csv_8cpp.html" title="omc functions to read parameters data from .csv or .tsv files." alt="" coords="1492,169,1597,196"/>
