@@ -29,8 +29,9 @@ var searchData=
   ['build_5fbody_5finsert_65',['build_body_insert',['../class_entity_set_symbol.html#a97603a258eae88743742baad15c01835',1,'EntitySetSymbol']]],
   ['build_5fbody_5fpush_5fincrement_66',['build_body_push_increment',['../class_entity_table_symbol.html#a50822b0b1b26ce1fd9e10a18e04fe943',1,'EntityTableSymbol']]],
   ['build_5fbody_5fupdate_5fcell_67',['build_body_update_cell',['../class_entity_set_symbol.html#aa0d5190dadf39cae2eccf3141522918c',1,'EntitySetSymbol']]],
-  ['build_5fname_5fcode_68',['build_NAME_code',['../class_symbol.html#a61354154ca13aff803396ce791c0edfd',1,'Symbol']]],
-  ['builtinattributesymbol_69',['BuiltinAttributeSymbol',['../class_builtin_attribute_symbol.html#a3f5531e86c81bb70edbcf758eb0fc305',1,'BuiltinAttributeSymbol::BuiltinAttributeSymbol(const string member_name, const Symbol *agent, const Symbol *type)'],['../class_builtin_attribute_symbol.html#a23dc5016ce743d524d5bf7617638577b',1,'BuiltinAttributeSymbol::BuiltinAttributeSymbol(Symbol *sym, const Symbol *agent, const Symbol *type)'],['../class_builtin_attribute_symbol.html',1,'BuiltinAttributeSymbol']]],
-  ['builtinattributesymbol_2ecpp_70',['BuiltinAttributeSymbol.cpp',['../_builtin_attribute_symbol_8cpp.html',1,'']]],
-  ['builtinattributesymbol_2eh_71',['BuiltinAttributeSymbol.h',['../_builtin_attribute_symbol_8h.html',1,'']]]
+  ['build_5fimports_5fcsv_68',['build_imports_csv',['../class_symbol.html#a27ab595aecb3aa01768283f4fa929b3b',1,'Symbol']]],
+  ['build_5fname_5fcode_69',['build_NAME_code',['../class_symbol.html#a61354154ca13aff803396ce791c0edfd',1,'Symbol']]],
+  ['builtinattributesymbol_70',['BuiltinAttributeSymbol',['../class_builtin_attribute_symbol.html#a3f5531e86c81bb70edbcf758eb0fc305',1,'BuiltinAttributeSymbol::BuiltinAttributeSymbol(const string member_name, const Symbol *agent, const Symbol *type)'],['../class_builtin_attribute_symbol.html#a23dc5016ce743d524d5bf7617638577b',1,'BuiltinAttributeSymbol::BuiltinAttributeSymbol(Symbol *sym, const Symbol *agent, const Symbol *type)'],['../class_builtin_attribute_symbol.html',1,'BuiltinAttributeSymbol']]],
+  ['builtinattributesymbol_2ecpp_71',['BuiltinAttributeSymbol.cpp',['../_builtin_attribute_symbol_8cpp.html',1,'']]],
+  ['builtinattributesymbol_2eh_72',['BuiltinAttributeSymbol.h',['../_builtin_attribute_symbol_8h.html',1,'']]]
 ];
