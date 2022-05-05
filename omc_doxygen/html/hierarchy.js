@@ -83,6 +83,7 @@ var hierarchy =
       [ "ImportSymbol", "class_import_symbol.html", null ],
       [ "LanguageSymbol", "class_language_symbol.html", null ],
       [ "LinkToAttributeSymbol", "class_link_to_attribute_symbol.html", null ],
+      [ "MeasureDimensionSymbol", "class_measure_dimension_symbol.html", null ],
       [ "ModelSymbol", "class_model_symbol.html", null ],
       [ "ModelTypeSymbol", "class_model_type_symbol.html", null ],
       [ "ModuleSymbol", "class_module_symbol.html", null ],

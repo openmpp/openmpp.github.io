@@ -71,6 +71,7 @@ var annotated_dup =
     [ "LinkToAttributeSymbol", "class_link_to_attribute_symbol.html", "class_link_to_attribute_symbol" ],
     [ "Literal", "class_literal.html", "class_literal" ],
     [ "MaintainedAttributeSymbol", "class_maintained_attribute_symbol.html", "class_maintained_attribute_symbol" ],
+    [ "MeasureDimensionSymbol", "class_measure_dimension_symbol.html", "class_measure_dimension_symbol" ],
     [ "ModelSymbol", "class_model_symbol.html", "class_model_symbol" ],
     [ "ModelTypeSymbol", "class_model_type_symbol.html", "class_model_type_symbol" ],
     [ "ModuleSymbol", "class_module_symbol.html", "class_module_symbol" ],

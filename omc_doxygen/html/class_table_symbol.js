@@ -21,6 +21,7 @@ var class_table_symbol =
     [ "is_hidden", "class_table_symbol.html#a6f1853d725e47d6995c849a8cb02b823", null ],
     [ "is_internal", "class_table_symbol.html#a415867fe3a356415607911438e776d6e", null ],
     [ "is_suppressed", "class_table_symbol.html#a0c0f1b6a6afebbd6a7bcd3420abeddea", null ],
+    [ "measure_dimension", "class_table_symbol.html#ac04b7b85ec7e8799976e96acac10d440", null ],
     [ "measures_position", "class_table_symbol.html#aeec7c9e56a5df4188463e54a1b56d3fe", null ],
     [ "pp_measures", "class_table_symbol.html#a942e13ebe4f7fb9baf7b92483a5fb475", null ],
     [ "pp_table_id", "class_table_symbol.html#a4175f5804b2ca643ae68799919a6eca5", null ],

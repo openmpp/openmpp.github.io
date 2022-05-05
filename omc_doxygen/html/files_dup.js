@@ -198,6 +198,9 @@ var files_dup =
     [ "MaintainedAttributeSymbol.h", "_maintained_attribute_symbol_8h.html", [
       [ "MaintainedAttributeSymbol", "class_maintained_attribute_symbol.html", "class_maintained_attribute_symbol" ]
     ] ],
+    [ "MeasureDimensionSymbol.h", "_measure_dimension_symbol_8h.html", [
+      [ "MeasureDimensionSymbol", "class_measure_dimension_symbol.html", "class_measure_dimension_symbol" ]
+    ] ],
     [ "ModelSymbol.cpp", "_model_symbol_8cpp.html", null ],
     [ "ModelSymbol.h", "_model_symbol_8h.html", [
       [ "ModelSymbol", "class_model_symbol.html", "class_model_symbol" ]
