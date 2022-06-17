@@ -10,6 +10,7 @@ var class_type_symbol =
     [ "is_classification", "class_type_symbol.html#aece435872c7a5a00b38db706039b9389", null ],
     [ "is_enumeration", "class_type_symbol.html#a615c57f5685c8867f3d9dc9caa41abc8", null ],
     [ "is_floating", "class_type_symbol.html#a01eb04e635a188587231fc07190adf45", null ],
+    [ "is_numeric", "class_type_symbol.html#a2ef9c9f181aec3f826c6ce2b46dc184b", null ],
     [ "is_numeric_floating", "class_type_symbol.html#ac13794036e52b2f3eb61e7b33070f55b", null ],
     [ "is_numeric_integer", "class_type_symbol.html#a0bb15b0edba7937470c4749d8a4d91a8", null ],
     [ "is_numeric_or_bool", "class_type_symbol.html#a6d0db19e7fff42517c70d4df717e750a", null ],

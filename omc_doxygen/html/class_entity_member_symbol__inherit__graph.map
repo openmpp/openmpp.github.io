@@ -1,15 +1,15 @@
 <map id="EntityMemberSymbol" name="EntityMemberSymbol">
 <area shape="rect" id="node1" title=" " alt="" coords="124,259,287,285"/>
-<area shape="rect" id="node3" href="$class_entity_data_member_symbol.html" title=" " alt="" coords="335,208,529,235"/>
-<area shape="rect" id="node18" href="$class_entity_func_symbol.html" title="Symbol for a function member of an agent." alt="" coords="363,259,501,285"/>
-<area shape="rect" id="node19" href="$class_entity_increment_symbol.html" title="Functionality associated with the entity member Increment&lt;&gt; associated with a table." alt="" coords="345,309,519,336"/>
+<area shape="rect" id="node3" href="$class_entity_data_member_symbol.html" title=" " alt="" coords="335,233,529,260"/>
+<area shape="rect" id="node19" href="$class_entity_func_symbol.html" title="Symbol for a function member of an agent." alt="" coords="363,284,501,311"/>
 <area shape="rect" id="node2" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="5,259,76,285"/>
 <area shape="rect" id="node4" href="$class_attribute_symbol.html" title=" " alt="" coords="619,81,747,108"/>
 <area shape="rect" id="node13" href="$class_entity_array_member_symbol.html" title="Internal data symbol." alt="" coords="583,132,782,159"/>
 <area shape="rect" id="node14" href="$class_entity_event_symbol.html" title="Event time member symbol for an event." alt="" coords="609,183,756,209"/>
 <area shape="rect" id="node15" href="$class_entity_foreign_member_symbol.html" title="Foreign data symbol." alt="" coords="577,233,788,260"/>
-<area shape="rect" id="node16" href="$class_entity_internal_symbol.html" title="Internal data symbol." alt="" coords="603,284,762,311"/>
-<area shape="rect" id="node17" href="$class_entity_multilink_symbol.html" title="Symbol for a multilink member of an agent." alt="" coords="599,335,766,361"/>
+<area shape="rect" id="node16" href="$class_entity_increment_symbol.html" title="Functionality associated with the entity member Increment&lt;&gt; associated with a table." alt="" coords="595,284,770,311"/>
+<area shape="rect" id="node17" href="$class_entity_internal_symbol.html" title="Internal data symbol." alt="" coords="603,335,762,361"/>
+<area shape="rect" id="node18" href="$class_entity_multilink_symbol.html" title="Symbol for a multilink member of an agent." alt="" coords="599,385,766,412"/>
 <area shape="rect" id="node5" href="$class_builtin_attribute_symbol.html" title="BuiltinAttributeSymbol." alt="" coords="851,5,1022,32"/>
 <area shape="rect" id="node6" href="$class_link_attribute_symbol.html" title="Symbol for a link member of an entity." alt="" coords="859,56,1014,83"/>
 <area shape="rect" id="node7" href="$class_maintained_attribute_symbol.html" title="MaintainedAttributeSymbol." alt="" coords="836,107,1037,133"/>

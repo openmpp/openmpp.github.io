@@ -6,6 +6,7 @@ var class_entity_event_symbol =
     [ "initialization_value", "class_entity_event_symbol.html#ac466367f3a4081cdca0f3bab5275e983", null ],
     [ "is_base_symbol", "class_entity_event_symbol.html#aa4fede6fd600554a72b6fb1cbd3d9fb1", null ],
     [ "post_parse", "class_entity_event_symbol.html#a6a56f7bf554263972a4429cd80fb9954", null ],
+    [ "pretty_name", "class_entity_event_symbol.html#ab66c27cff110fc2a255253975a584318", null ],
     [ "event_memory", "class_entity_event_symbol.html#ac7f8cb748fa1ec9ed62aa915f4487a31", null ],
     [ "event_name", "class_entity_event_symbol.html#a5a0e0a1038f5acb1bdb165239e54013a", null ],
     [ "event_priority", "class_entity_event_symbol.html#a14923580487755d9fabb64a0fc0039c0", null ],

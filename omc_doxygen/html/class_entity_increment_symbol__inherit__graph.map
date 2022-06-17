@@ -1,5 +1,6 @@
 <map id="EntityIncrementSymbol" name="EntityIncrementSymbol">
-<area shape="rect" id="node1" title="Functionality associated with the entity member Increment&lt;&gt; associated with a table." alt="" coords="5,155,180,181"/>
-<area shape="rect" id="node2" href="$class_entity_member_symbol.html" title=" " alt="" coords="11,80,174,107"/>
-<area shape="rect" id="node3" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="57,5,128,32"/>
+<area shape="rect" id="node1" title="Functionality associated with the entity member Increment&lt;&gt; associated with a table." alt="" coords="15,229,190,256"/>
+<area shape="rect" id="node2" href="$class_entity_data_member_symbol.html" title=" " alt="" coords="5,155,200,181"/>
+<area shape="rect" id="node3" href="$class_entity_member_symbol.html" title=" " alt="" coords="21,80,184,107"/>
+<area shape="rect" id="node4" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="67,5,138,32"/>
 </map>

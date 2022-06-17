@@ -13,10 +13,15 @@ var class_entity_set_symbol =
     [ "post_parse", "class_entity_set_symbol.html#a42eae75c6fb39ad360e273dca8f5ec7b", null ],
     [ "agent", "class_entity_set_symbol.html#a678687ade6f978385967f6fb00f6223e", null ],
     [ "cell", "class_entity_set_symbol.html#a76bcc021ccc455b141d91cf3c6e3e1d9", null ],
+    [ "count_gvn", "class_entity_set_symbol.html#a236919cca94223ca8778b862767d0a17", null ],
     [ "dimension_list", "class_entity_set_symbol.html#af37e6fc067fcdaf5f60ce8adec1817cf", null ],
     [ "erase_fn", "class_entity_set_symbol.html#a92101b28ce121c2c343a92e632513543", null ],
     [ "filter", "class_entity_set_symbol.html#a839c2785a675f7329e79abd801b30c3d", null ],
     [ "insert_fn", "class_entity_set_symbol.html#aeafea9cd3f52b8796cf40c2b42321ff1", null ],
+    [ "inserts_gvn", "class_entity_set_symbol.html#a52a20d9b05cda4939489c73ce6867a03", null ],
+    [ "max_gvn", "class_entity_set_symbol.html#a6509ad4112f034f3ba5868595c15dd58", null ],
     [ "pp_agent", "class_entity_set_symbol.html#acb836e91051293bb499ed1b486853302", null ],
+    [ "resource_use_gfn", "class_entity_set_symbol.html#aa9e6a840a1a74a652924171558997fa9", null ],
+    [ "resource_use_reset_gfn", "class_entity_set_symbol.html#ae624e34284c5872e2244e32060876822", null ],
     [ "update_cell_fn", "class_entity_set_symbol.html#ab8cb478af51ed03230c64c643a612c0f", null ]
 ];

@@ -1,7 +1,8 @@
 <map id="EntityForeignMemberSymbol.h" name="EntityForeignMemberSymbol.h">
-<area shape="rect" id="node1" title="Declarations for the EntityForeignMemberSymbol class." alt="" coords="119,5,341,32"/>
+<area shape="rect" id="node1" title="Declarations for the EntityForeignMemberSymbol class." alt="" coords="237,5,460,32"/>
 <area shape="rect" id="node2" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="32,80,87,107"/>
-<area shape="rect" id="node4" href="$_entity_foreign_member_symbol_8cpp.html" title="Definitions for the EntityForeignMemberSymbol class." alt="" coords="111,80,349,107"/>
-<area shape="rect" id="node5" href="$_simple_attribute_symbol_8cpp.html" title="Definitions for the SimpleAttributeSymbol class." alt="" coords="374,80,574,107"/>
+<area shape="rect" id="node4" href="$_entity_data_member_symbol_8cpp.html" title="Definitions for the EntityDataMemberSymbol class." alt="" coords="111,80,333,107"/>
+<area shape="rect" id="node5" href="$_entity_foreign_member_symbol_8cpp.html" title="Definitions for the EntityForeignMemberSymbol class." alt="" coords="357,80,596,107"/>
+<area shape="rect" id="node6" href="$_simple_attribute_symbol_8cpp.html" title="Definitions for the SimpleAttributeSymbol class." alt="" coords="621,80,821,107"/>
 <area shape="rect" id="node3" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="5,155,113,181"/>
 </map>

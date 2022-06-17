@@ -115,6 +115,9 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 : <a class="el" href="class_entity_table_accumulator_symbol.html#a9d92b3e24ab34b826d691514b3ee4ad2">EntityTableAccumulatorSymbol</a>
 , <a class="el" href="class_entity_table_symbol.html#a0697940ecc687dfe98db8836d217db6f">EntityTableSymbol</a>
 </li>
+<li>increments_gvn
+: <a class="el" href="class_entity_table_symbol.html#ab744fb9042d48305348a46c7c18e2eca">EntityTableSymbol</a>
+</li>
 <li>index
 : <a class="el" href="class_dimension_symbol.html#a47e6d16073775f44c9571867ec9a521f">DimensionSymbol</a>
 , <a class="el" href="class_entity_table_accumulator_symbol.html#a671725dcd7421391838308d014f213f6">EntityTableAccumulatorSymbol</a>
@@ -197,14 +200,26 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 : <a class="el" href="class_entity_multilink_symbol.html#ada4ffc5d00d417a40355047ebd0c19e0">EntityMultilinkSymbol</a>
 , <a class="el" href="class_entity_set_symbol.html#aeafea9cd3f52b8796cf40c2b42321ff1">EntitySetSymbol</a>
 </li>
+<li>inserts_gvn
+: <a class="el" href="class_entity_set_symbol.html#a52a20d9b05cda4939489c73ce6867a03">EntitySetSymbol</a>
+</li>
 <li>instance_counter
 : <a class="el" href="class_constant_symbol.html#a2c50c369dc76858b3076a17d537b034d">ConstantSymbol</a>
+</li>
+<li>integer_ctype
+: <a class="el" href="class_symbol.html#adb496e2ae07828b68b0a7374718c5941">Symbol</a>
 </li>
 <li>IntegerLiteral()
 : <a class="el" href="class_integer_literal.html#a13dc2bc6f719fe9d62e6ef451d333a94">IntegerLiteral</a>
 </li>
 <li>invalidate_symbols()
 : <a class="el" href="class_symbol.html#a07557e1f8334669794811daa85e03920">Symbol</a>
+</li>
+<li>is_array()
+: <a class="el" href="class_entity_data_member_symbol.html#a00b9b3c9996d25facb0d8a49c06054f6">EntityDataMemberSymbol</a>
+</li>
+<li>is_attribute()
+: <a class="el" href="class_entity_data_member_symbol.html#a8df0e12d47caf0e6ee3e3c5eedbd4f92">EntityDataMemberSymbol</a>
 </li>
 <li>is_base_symbol()
 : <a class="el" href="class_aggregation_symbol.html#a57a6fb862113c626f96ba9d9e414e189">AggregationSymbol</a>
@@ -278,6 +293,9 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 <li>is_bool()
 : <a class="el" href="class_type_symbol.html#ab95c984fc8cc6c4836200f4d20e4ae33">TypeSymbol</a>
 </li>
+<li>is_builtin_attribute()
+: <a class="el" href="class_entity_data_member_symbol.html#a38ebc512d61b8fe925c4c0c0d22aeb92">EntityDataMemberSymbol</a>
+</li>
 <li>is_circular()
 : <a class="el" href="class_group_symbol.html#ac454ef14be6a229fd6a50eb5e06d5ba7">GroupSymbol</a>
 </li>
@@ -300,6 +318,9 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 : <a class="el" href="class_constant.html#af5c2da9f76a02ed1ff65f57bc8d56db5">Constant</a>
 , <a class="el" href="class_constant_symbol.html#a5b89c1c83be805cb9df2cb382908e69b">ConstantSymbol</a>
 </li>
+<li>is_event()
+: <a class="el" href="class_entity_data_member_symbol.html#a9f80b712f5637170951fab4816df130b">EntityDataMemberSymbol</a>
+</li>
 <li>is_extendable
 : <a class="el" href="class_parameter_symbol.html#a4c09e3acd4131f6b7d15fad64db0ca0c">ParameterSymbol</a>
 </li>
@@ -312,13 +333,23 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 <li>is_floating()
 : <a class="el" href="class_type_symbol.html#a01eb04e635a188587231fc07190adf45">TypeSymbol</a>
 </li>
+<li>is_foreign()
+: <a class="el" href="class_entity_data_member_symbol.html#ab0607fec01d303e04cfa55d7cbf1450c">EntityDataMemberSymbol</a>
+</li>
 <li>is_hidden
 : <a class="el" href="class_group_symbol.html#af00956a4545f48189c74531a4bf45a89">GroupSymbol</a>
 , <a class="el" href="class_parameter_symbol.html#ad806797c7050c523a700149330a07a7a">ParameterSymbol</a>
 , <a class="el" href="class_table_symbol.html#a6f1853d725e47d6995c849a8cb02b823">TableSymbol</a>
 </li>
-<li>is_internal
-: <a class="el" href="class_table_symbol.html#a415867fe3a356415607911438e776d6e">TableSymbol</a>
+<li>is_increment()
+: <a class="el" href="class_entity_data_member_symbol.html#a78505eddf1efc796073400874270c9e9">EntityDataMemberSymbol</a>
+</li>
+<li>is_internal()
+: <a class="el" href="class_entity_data_member_symbol.html#a818db051d5c4c8d80dc1d943f752468a">EntityDataMemberSymbol</a>
+, <a class="el" href="class_table_symbol.html#a415867fe3a356415607911438e776d6e">TableSymbol</a>
+</li>
+<li>is_link_attribute()
+: <a class="el" href="class_entity_data_member_symbol.html#aa31e30f5f512e5a652504afd79e6d8ac">EntityDataMemberSymbol</a>
 </li>
 <li>is_literal
 : <a class="el" href="class_constant.html#a987bbd62cae253e0d60769dbe4e9255a">Constant</a>
@@ -326,6 +357,15 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 </li>
 <li>is_maintained()
 : <a class="el" href="class_attribute_symbol.html#a391c3215ac583a83ff01d5fabcecd232">AttributeSymbol</a>
+</li>
+<li>is_maintained_attribute()
+: <a class="el" href="class_entity_data_member_symbol.html#ad62d21a793e4d26729beaa314c02e3ae">EntityDataMemberSymbol</a>
+</li>
+<li>is_multilink()
+: <a class="el" href="class_entity_data_member_symbol.html#a008603a628b0bb409daf0be5be357ed7">EntityDataMemberSymbol</a>
+</li>
+<li>is_numeric()
+: <a class="el" href="class_type_symbol.html#a2ef9c9f181aec3f826c6ce2b46dc184b">TypeSymbol</a>
 </li>
 <li>is_numeric_floating()
 : <a class="el" href="class_type_symbol.html#ac13794036e52b2f3eb61e7b33070f55b">TypeSymbol</a>
@@ -353,6 +393,9 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 </li>
 <li>is_self_scheduling()
 : <a class="el" href="class_derived_attribute_symbol.html#ae8f1247d3e41eaaeec36b9e9c63e72ae">DerivedAttributeSymbol</a>
+</li>
+<li>is_simple_attribute()
+: <a class="el" href="class_entity_data_member_symbol.html#aebc32280ad41421aaca1680c27c600b5">EntityDataMemberSymbol</a>
 </li>
 <li>is_string()
 : <a class="el" href="class_type_symbol.html#a17a41f6da04c8b159eae6efbbf52b30f">TypeSymbol</a>
@@ -408,7 +451,7 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu May 5 2022 17:46:42 for OpenM++ compiler (omc) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Fri Jun 17 2022 19:33:35 for OpenM++ compiler (omc) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

@@ -17,10 +17,13 @@ var class_entity_table_symbol =
     [ "cxx_class", "class_entity_table_symbol.html#afca1b4395fc008852bf6eb10ea77ac19", null ],
     [ "filter", "class_entity_table_symbol.html#a183870ca2cd4f9490f8258a30a20f960", null ],
     [ "increment", "class_entity_table_symbol.html#a0697940ecc687dfe98db8836d217db6f", null ],
+    [ "increments_gvn", "class_entity_table_symbol.html#ab744fb9042d48305348a46c7c18e2eca", null ],
     [ "init_increment_fn", "class_entity_table_symbol.html#a784168cb268742fc359ede71b96c1ba3", null ],
     [ "n_collections", "class_entity_table_symbol.html#a86076513f79fd07fc4b46d55d5487b22", null ],
     [ "pp_accumulators", "class_entity_table_symbol.html#afdea0e15c0eb39576a1181291c03241c", null ],
     [ "pp_agent", "class_entity_table_symbol.html#abacf38e1d48f2802ff70d7427ca818b2", null ],
     [ "pp_measure_attributes", "class_entity_table_symbol.html#ac000094db8cae0df9b9aaca13d997de1", null ],
-    [ "push_increment_fn", "class_entity_table_symbol.html#a174d5e8ecc218064fb49cd434faf7f3d", null ]
+    [ "push_increment_fn", "class_entity_table_symbol.html#a174d5e8ecc218064fb49cd434faf7f3d", null ],
+    [ "resource_use_gfn", "class_entity_table_symbol.html#aeb13ad7fed2ba5c53e8721848bba66ca", null ],
+    [ "resource_use_reset_gfn", "class_entity_table_symbol.html#ad559639ffb301e9e7d53fc73e4ee5484", null ]
 ];

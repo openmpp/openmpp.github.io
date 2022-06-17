@@ -86,78 +86,103 @@ $(document).ready(function(){initNavTree('_entity_data_member_symbol_8h_source.h
 </div><!--header-->
 <div class="contents">
 <a href="_entity_data_member_symbol_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">// Copyright (c) 2013-2015 OpenM++</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">// Copyright (c) 2013-2022 OpenM++ Contributors</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">// This code is licensed under the MIT license (see LICENSE.txt for details)</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#pragma once</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;cassert&gt;</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_entity_member_symbol_8h.html">EntityMemberSymbol.h</a>&quot;</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">class </span><a class="code" href="class_code_block.html">CodeBlock</a>;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">using namespace </span>std;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
-<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="class_entity_data_member_symbol.html">   17</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_entity_data_member_symbol.html">EntityDataMemberSymbol</a> : <span class="keyword">public</span> <a class="code" href="class_entity_member_symbol.html">EntityMemberSymbol</a></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keyword">typedef</span> <a class="code" href="class_entity_member_symbol.html">EntityMemberSymbol</a> <a class="code" href="class_entity_member_symbol.html">super</a>;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="class_entity_data_member_symbol.html#ab1697d547e47fdee71bb61261f15e2f3">   23</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_entity_data_member_symbol.html#ab1697d547e47fdee71bb61261f15e2f3">is_base_symbol</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <span class="keyword">false</span>; }</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">class </span><a class="code" href="class_code_block.html">CodeBlock</a>;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">using namespace </span>std;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="class_entity_data_member_symbol.html">   16</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_entity_data_member_symbol.html">EntityDataMemberSymbol</a> : <span class="keyword">public</span> <a class="code" href="class_entity_member_symbol.html">EntityMemberSymbol</a></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;{</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keyword">typedef</span> <a class="code" href="class_entity_member_symbol.html">EntityMemberSymbol</a> <a class="code" href="class_entity_member_symbol.html">super</a>;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="class_entity_data_member_symbol.html#ab1697d547e47fdee71bb61261f15e2f3">   22</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_entity_data_member_symbol.html#ab1697d547e47fdee71bb61261f15e2f3">is_base_symbol</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <span class="keyword">false</span>; }</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="class_entity_data_member_symbol.html#a3b5d6ce3f2dd1bc408964830bbb374a7">   35</a></span>&#160;    <a class="code" href="class_entity_data_member_symbol.html#a3b5d6ce3f2dd1bc408964830bbb374a7">EntityDataMemberSymbol</a>(<a class="code" href="class_symbol.html">Symbol</a> *sym, <span class="keyword">const</span> <a class="code" href="class_symbol.html">Symbol</a> *agent, <span class="keyword">const</span> <a class="code" href="class_symbol.html">Symbol</a> *data_type, <a class="code" href="classomc_1_1location.html">omc::location</a> decl_loc = <a class="code" href="classomc_1_1location.html">omc::location</a>())</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        : <a class="code" href="class_entity_member_symbol.html">EntityMemberSymbol</a>(sym, agent, decl_loc)</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        , data_type(data_type-&gt;stable_rp())</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        , pp_data_type(nullptr)</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        , parent(nullptr)</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        , pp_parent(nullptr)</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    {</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    }</div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="class_entity_data_member_symbol.html#a3b5d6ce3f2dd1bc408964830bbb374a7">   34</a></span>&#160;    <a class="code" href="class_entity_data_member_symbol.html#a3b5d6ce3f2dd1bc408964830bbb374a7">EntityDataMemberSymbol</a>(<a class="code" href="class_symbol.html">Symbol</a> *sym, <span class="keyword">const</span> <a class="code" href="class_symbol.html">Symbol</a> *agent, <span class="keyword">const</span> <a class="code" href="class_symbol.html">Symbol</a> *data_type, <a class="code" href="classomc_1_1location.html">omc::location</a> decl_loc = <a class="code" href="classomc_1_1location.html">omc::location</a>())</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        : <a class="code" href="class_entity_member_symbol.html">EntityMemberSymbol</a>(sym, agent, decl_loc)</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        , data_type(data_type-&gt;stable_rp())</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        , pp_data_type(nullptr)</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        , parent(nullptr)</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        , pp_parent(nullptr)</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    {</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    }</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
-<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="class_entity_data_member_symbol.html#a25070380aa7b09e8b4cd2e3475175702">   54</a></span>&#160;    <a class="code" href="class_entity_data_member_symbol.html#a25070380aa7b09e8b4cd2e3475175702">EntityDataMemberSymbol</a>(<span class="keyword">const</span> <span class="keywordtype">string</span> member_name, <span class="keyword">const</span> <a class="code" href="class_symbol.html">Symbol</a> *agent, <span class="keyword">const</span> <a class="code" href="class_symbol.html">Symbol</a> *data_type, <a class="code" href="classomc_1_1location.html">omc::location</a> decl_loc = <a class="code" href="classomc_1_1location.html">omc::location</a>())</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        : <a class="code" href="class_entity_member_symbol.html">EntityMemberSymbol</a>(member_name, agent, decl_loc)</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        , data_type(data_type-&gt;stable_rp())</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        , pp_data_type(nullptr)</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        , parent(nullptr)</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        , pp_parent(nullptr)</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    {</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        assert(data_type);  <span class="comment">// grammar/initialization guarantee</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    }</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">string</span> initialization_value(<span class="keywordtype">bool</span> type_default) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160; </div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="class_code_block.html">CodeBlock</a> cxx_initialization_expression(<span class="keywordtype">bool</span> type_default) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160; </div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160; </div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <a class="code" href="class_code_block.html">CodeBlock</a> cxx_declaration_agent();</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160; </div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <a class="code" href="class_code_block.html">CodeBlock</a> cxx_definition_agent();</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160; </div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> change_data_type(<a class="code" href="class_type_symbol.html">TypeSymbol</a> *new_type);</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160; </div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <span class="keywordtype">void</span> post_parse(<span class="keywordtype">int</span> pass);</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160; </div>
-<div class="line"><a name="l00099"></a><span class="lineno"><a class="line" href="class_entity_data_member_symbol.html#ac3df1d284e1fcc1fe00e4ea59b1de4bc">   99</a></span>&#160;    <a class="code" href="class_symbol.html">Symbol</a>*&amp; <a class="code" href="class_entity_data_member_symbol.html#ac3df1d284e1fcc1fe00e4ea59b1de4bc">data_type</a>;</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160; </div>
-<div class="line"><a name="l00104"></a><span class="lineno"><a class="line" href="class_entity_data_member_symbol.html#a1b98b6ee3edad0dff0e3a7170b92308c">  104</a></span>&#160;    <a class="code" href="class_type_symbol.html">TypeSymbol</a> *<a class="code" href="class_entity_data_member_symbol.html#a1b98b6ee3edad0dff0e3a7170b92308c">pp_data_type</a>;</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160; </div>
-<div class="line"><a name="l00111"></a><span class="lineno"><a class="line" href="class_entity_data_member_symbol.html#a0c72a47b718b66cb594cddbca46865bc">  111</a></span>&#160;    <a class="code" href="class_symbol.html">Symbol</a>** <a class="code" href="class_entity_data_member_symbol.html#a0c72a47b718b66cb594cddbca46865bc">parent</a>;</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160; </div>
-<div class="line"><a name="l00118"></a><span class="lineno"><a class="line" href="class_entity_data_member_symbol.html#a7ce987ca4d9a25727c1e20971ea930b6">  118</a></span>&#160;    <a class="code" href="class_entity_data_member_symbol.html">EntityDataMemberSymbol</a> *<a class="code" href="class_entity_data_member_symbol.html#a7ce987ca4d9a25727c1e20971ea930b6">pp_parent</a>;</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;};</div>
+<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="class_entity_data_member_symbol.html#a25070380aa7b09e8b4cd2e3475175702">   53</a></span>&#160;    <a class="code" href="class_entity_data_member_symbol.html#a25070380aa7b09e8b4cd2e3475175702">EntityDataMemberSymbol</a>(<span class="keyword">const</span> <span class="keywordtype">string</span> member_name, <span class="keyword">const</span> <a class="code" href="class_symbol.html">Symbol</a> *agent, <span class="keyword">const</span> <a class="code" href="class_symbol.html">Symbol</a> *data_type, <a class="code" href="classomc_1_1location.html">omc::location</a> decl_loc = <a class="code" href="classomc_1_1location.html">omc::location</a>())</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        : <a class="code" href="class_entity_member_symbol.html">EntityMemberSymbol</a>(member_name, agent, decl_loc)</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        , data_type(data_type-&gt;stable_rp())</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        , pp_data_type(nullptr)</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        , parent(nullptr)</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        , pp_parent(nullptr)</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    {</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        assert(data_type);  <span class="comment">// grammar/initialization guarantee</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    }</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160; </div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordtype">bool</span> is_attribute(<span class="keywordtype">void</span>) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160; </div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keywordtype">bool</span> is_builtin_attribute(<span class="keywordtype">void</span>) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keywordtype">bool</span> is_link_attribute(<span class="keywordtype">void</span>) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="keywordtype">bool</span> is_maintained_attribute(<span class="keywordtype">void</span>) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160; </div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="keywordtype">bool</span> is_simple_attribute(<span class="keywordtype">void</span>) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160; </div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <span class="keywordtype">bool</span> is_array(<span class="keywordtype">void</span>) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160; </div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    <span class="keywordtype">bool</span> is_event(<span class="keywordtype">void</span>) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160; </div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <span class="keywordtype">bool</span> is_increment(<span class="keywordtype">void</span>) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160; </div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <span class="keywordtype">bool</span> is_foreign(<span class="keywordtype">void</span>) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160; </div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    <span class="keywordtype">bool</span> is_internal(<span class="keywordtype">void</span>) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160; </div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    <span class="keywordtype">bool</span> is_multilink(<span class="keywordtype">void</span>) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160; </div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">size_t</span> layout_group() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160; </div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">size_t</span> alignment_size() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160; </div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">string</span> initialization_value(<span class="keywordtype">bool</span> type_default) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160; </div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="class_code_block.html">CodeBlock</a> cxx_initialization_expression(<span class="keywordtype">bool</span> type_default) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160; </div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160; </div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    <a class="code" href="class_code_block.html">CodeBlock</a> cxx_declaration_agent();</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160; </div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    <a class="code" href="class_code_block.html">CodeBlock</a> cxx_definition_agent();</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160; </div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> change_data_type(<a class="code" href="class_type_symbol.html">TypeSymbol</a> *new_type);</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160; </div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    <span class="keywordtype">void</span> post_parse(<span class="keywordtype">int</span> pass);</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160; </div>
+<div class="line"><a name="l00192"></a><span class="lineno"><a class="line" href="class_entity_data_member_symbol.html#ac3df1d284e1fcc1fe00e4ea59b1de4bc">  192</a></span>&#160;    <a class="code" href="class_symbol.html">Symbol</a>*&amp; <a class="code" href="class_entity_data_member_symbol.html#ac3df1d284e1fcc1fe00e4ea59b1de4bc">data_type</a>;</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160; </div>
+<div class="line"><a name="l00197"></a><span class="lineno"><a class="line" href="class_entity_data_member_symbol.html#a1b98b6ee3edad0dff0e3a7170b92308c">  197</a></span>&#160;    <a class="code" href="class_type_symbol.html">TypeSymbol</a> *<a class="code" href="class_entity_data_member_symbol.html#a1b98b6ee3edad0dff0e3a7170b92308c">pp_data_type</a>;</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160; </div>
+<div class="line"><a name="l00204"></a><span class="lineno"><a class="line" href="class_entity_data_member_symbol.html#a0c72a47b718b66cb594cddbca46865bc">  204</a></span>&#160;    <a class="code" href="class_symbol.html">Symbol</a>** <a class="code" href="class_entity_data_member_symbol.html#a0c72a47b718b66cb594cddbca46865bc">parent</a>;</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160; </div>
+<div class="line"><a name="l00211"></a><span class="lineno"><a class="line" href="class_entity_data_member_symbol.html#a7ce987ca4d9a25727c1e20971ea930b6">  211</a></span>&#160;    <a class="code" href="class_entity_data_member_symbol.html">EntityDataMemberSymbol</a> *<a class="code" href="class_entity_data_member_symbol.html#a7ce987ca4d9a25727c1e20971ea930b6">pp_parent</a>;</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;};</div>
 <div class="ttc" id="a_entity_member_symbol_8h_html"><div class="ttname"><a href="_entity_member_symbol_8h.html">EntityMemberSymbol.h</a></div><div class="ttdoc">Declarations for the EntityMemberSymbol class.</div></div>
 <div class="ttc" id="aclass_code_block_html"><div class="ttname"><a href="class_code_block.html">CodeBlock</a></div><div class="ttdef"><b>Definition:</b> CodeBlock.h:16</div></div>
-<div class="ttc" id="aclass_entity_data_member_symbol_html"><div class="ttname"><a href="class_entity_data_member_symbol.html">EntityDataMemberSymbol</a></div><div class="ttdef"><b>Definition:</b> EntityDataMemberSymbol.h:18</div></div>
-<div class="ttc" id="aclass_entity_data_member_symbol_html_a0c72a47b718b66cb594cddbca46865bc"><div class="ttname"><a href="class_entity_data_member_symbol.html#a0c72a47b718b66cb594cddbca46865bc">EntityDataMemberSymbol::parent</a></div><div class="ttdeci">Symbol ** parent</div><div class="ttdoc">The parent data member (optional, pointer to pointer)</div><div class="ttdef"><b>Definition:</b> EntityDataMemberSymbol.h:111</div></div>
-<div class="ttc" id="aclass_entity_data_member_symbol_html_a1b98b6ee3edad0dff0e3a7170b92308c"><div class="ttname"><a href="class_entity_data_member_symbol.html#a1b98b6ee3edad0dff0e3a7170b92308c">EntityDataMemberSymbol::pp_data_type</a></div><div class="ttdeci">TypeSymbol * pp_data_type</div><div class="ttdoc">The datatype of the agent member (pointer)</div><div class="ttdef"><b>Definition:</b> EntityDataMemberSymbol.h:104</div></div>
-<div class="ttc" id="aclass_entity_data_member_symbol_html_a25070380aa7b09e8b4cd2e3475175702"><div class="ttname"><a href="class_entity_data_member_symbol.html#a25070380aa7b09e8b4cd2e3475175702">EntityDataMemberSymbol::EntityDataMemberSymbol</a></div><div class="ttdeci">EntityDataMemberSymbol(const string member_name, const Symbol *agent, const Symbol *data_type, omc::location decl_loc=omc::location())</div><div class="ttdoc">Constructor.</div><div class="ttdef"><b>Definition:</b> EntityDataMemberSymbol.h:54</div></div>
-<div class="ttc" id="aclass_entity_data_member_symbol_html_a3b5d6ce3f2dd1bc408964830bbb374a7"><div class="ttname"><a href="class_entity_data_member_symbol.html#a3b5d6ce3f2dd1bc408964830bbb374a7">EntityDataMemberSymbol::EntityDataMemberSymbol</a></div><div class="ttdeci">EntityDataMemberSymbol(Symbol *sym, const Symbol *agent, const Symbol *data_type, omc::location decl_loc=omc::location())</div><div class="ttdoc">Constructor.</div><div class="ttdef"><b>Definition:</b> EntityDataMemberSymbol.h:35</div></div>
-<div class="ttc" id="aclass_entity_data_member_symbol_html_a7ce987ca4d9a25727c1e20971ea930b6"><div class="ttname"><a href="class_entity_data_member_symbol.html#a7ce987ca4d9a25727c1e20971ea930b6">EntityDataMemberSymbol::pp_parent</a></div><div class="ttdeci">EntityDataMemberSymbol * pp_parent</div><div class="ttdoc">The parent data member (optional)</div><div class="ttdef"><b>Definition:</b> EntityDataMemberSymbol.h:118</div></div>
-<div class="ttc" id="aclass_entity_data_member_symbol_html_ab1697d547e47fdee71bb61261f15e2f3"><div class="ttname"><a href="class_entity_data_member_symbol.html#ab1697d547e47fdee71bb61261f15e2f3">EntityDataMemberSymbol::is_base_symbol</a></div><div class="ttdeci">bool is_base_symbol() const</div><div class="ttdoc">Query if this object is an underived instance of the base Symbol class.</div><div class="ttdef"><b>Definition:</b> EntityDataMemberSymbol.h:23</div></div>
-<div class="ttc" id="aclass_entity_data_member_symbol_html_ac3df1d284e1fcc1fe00e4ea59b1de4bc"><div class="ttname"><a href="class_entity_data_member_symbol.html#ac3df1d284e1fcc1fe00e4ea59b1de4bc">EntityDataMemberSymbol::data_type</a></div><div class="ttdeci">Symbol *&amp; data_type</div><div class="ttdoc">The datatype of the agent member (pointer to pointer)</div><div class="ttdef"><b>Definition:</b> EntityDataMemberSymbol.h:99</div></div>
+<div class="ttc" id="aclass_entity_data_member_symbol_html"><div class="ttname"><a href="class_entity_data_member_symbol.html">EntityDataMemberSymbol</a></div><div class="ttdef"><b>Definition:</b> EntityDataMemberSymbol.h:17</div></div>
+<div class="ttc" id="aclass_entity_data_member_symbol_html_a0c72a47b718b66cb594cddbca46865bc"><div class="ttname"><a href="class_entity_data_member_symbol.html#a0c72a47b718b66cb594cddbca46865bc">EntityDataMemberSymbol::parent</a></div><div class="ttdeci">Symbol ** parent</div><div class="ttdoc">The parent data member (optional, pointer to pointer)</div><div class="ttdef"><b>Definition:</b> EntityDataMemberSymbol.h:204</div></div>
+<div class="ttc" id="aclass_entity_data_member_symbol_html_a1b98b6ee3edad0dff0e3a7170b92308c"><div class="ttname"><a href="class_entity_data_member_symbol.html#a1b98b6ee3edad0dff0e3a7170b92308c">EntityDataMemberSymbol::pp_data_type</a></div><div class="ttdeci">TypeSymbol * pp_data_type</div><div class="ttdoc">The datatype of the agent member (pointer)</div><div class="ttdef"><b>Definition:</b> EntityDataMemberSymbol.h:197</div></div>
+<div class="ttc" id="aclass_entity_data_member_symbol_html_a25070380aa7b09e8b4cd2e3475175702"><div class="ttname"><a href="class_entity_data_member_symbol.html#a25070380aa7b09e8b4cd2e3475175702">EntityDataMemberSymbol::EntityDataMemberSymbol</a></div><div class="ttdeci">EntityDataMemberSymbol(const string member_name, const Symbol *agent, const Symbol *data_type, omc::location decl_loc=omc::location())</div><div class="ttdoc">Constructor.</div><div class="ttdef"><b>Definition:</b> EntityDataMemberSymbol.h:53</div></div>
+<div class="ttc" id="aclass_entity_data_member_symbol_html_a3b5d6ce3f2dd1bc408964830bbb374a7"><div class="ttname"><a href="class_entity_data_member_symbol.html#a3b5d6ce3f2dd1bc408964830bbb374a7">EntityDataMemberSymbol::EntityDataMemberSymbol</a></div><div class="ttdeci">EntityDataMemberSymbol(Symbol *sym, const Symbol *agent, const Symbol *data_type, omc::location decl_loc=omc::location())</div><div class="ttdoc">Constructor.</div><div class="ttdef"><b>Definition:</b> EntityDataMemberSymbol.h:34</div></div>
+<div class="ttc" id="aclass_entity_data_member_symbol_html_a7ce987ca4d9a25727c1e20971ea930b6"><div class="ttname"><a href="class_entity_data_member_symbol.html#a7ce987ca4d9a25727c1e20971ea930b6">EntityDataMemberSymbol::pp_parent</a></div><div class="ttdeci">EntityDataMemberSymbol * pp_parent</div><div class="ttdoc">The parent data member (optional)</div><div class="ttdef"><b>Definition:</b> EntityDataMemberSymbol.h:211</div></div>
+<div class="ttc" id="aclass_entity_data_member_symbol_html_ab1697d547e47fdee71bb61261f15e2f3"><div class="ttname"><a href="class_entity_data_member_symbol.html#ab1697d547e47fdee71bb61261f15e2f3">EntityDataMemberSymbol::is_base_symbol</a></div><div class="ttdeci">bool is_base_symbol() const</div><div class="ttdoc">Query if this object is an underived instance of the base Symbol class.</div><div class="ttdef"><b>Definition:</b> EntityDataMemberSymbol.h:22</div></div>
+<div class="ttc" id="aclass_entity_data_member_symbol_html_ac3df1d284e1fcc1fe00e4ea59b1de4bc"><div class="ttname"><a href="class_entity_data_member_symbol.html#ac3df1d284e1fcc1fe00e4ea59b1de4bc">EntityDataMemberSymbol::data_type</a></div><div class="ttdeci">Symbol *&amp; data_type</div><div class="ttdoc">The datatype of the agent member (pointer to pointer)</div><div class="ttdef"><b>Definition:</b> EntityDataMemberSymbol.h:192</div></div>
 <div class="ttc" id="aclass_entity_member_symbol_html"><div class="ttname"><a href="class_entity_member_symbol.html">EntityMemberSymbol</a></div><div class="ttdef"><b>Definition:</b> EntityMemberSymbol.h:14</div></div>
 <div class="ttc" id="aclass_symbol_html"><div class="ttname"><a href="class_symbol.html">Symbol</a></div><div class="ttdoc">A Symbol is a named syntactic entity in openM++.</div><div class="ttdef"><b>Definition:</b> Symbol.h:136</div></div>
 <div class="ttc" id="aclass_type_symbol_html"><div class="ttname"><a href="class_type_symbol.html">TypeSymbol</a></div><div class="ttdoc">TypeSymbol.</div><div class="ttdef"><b>Definition:</b> TypeSymbol.h:18</div></div>
@@ -168,7 +193,7 @@ $(document).ready(function(){initNavTree('_entity_data_member_symbol_8h_source.h
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="_entity_data_member_symbol_8h.html">EntityDataMemberSymbol.h</a></li>
-    <li class="footer">Generated on Thu May 5 2022 17:46:41 for OpenM++ compiler (omc) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Fri Jun 17 2022 19:33:34 for OpenM++ compiler (omc) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

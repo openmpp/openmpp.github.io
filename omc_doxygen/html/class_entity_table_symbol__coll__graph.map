@@ -1,24 +1,25 @@
 <map id="EntityTableSymbol" name="EntityTableSymbol">
-<area shape="rect" id="node1" title="EntityTableSymbol." alt="" coords="2615,228,2757,255"/>
-<area shape="rect" id="node22" href="$class_entity_increment_symbol.html" title="Functionality associated with the entity member Increment&lt;&gt; associated with a table." alt="" coords="2876,273,3051,300"/>
-<area shape="rect" id="node2" href="$class_table_symbol.html" title="TableSymbol." alt="" coords="658,348,763,375"/>
-<area shape="rect" id="node7" href="$class_measure_dimension_symbol.html" title="MeasureDimensionSymbol." alt="" coords="977,380,1175,407"/>
-<area shape="rect" id="node3" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="469,531,540,557"/>
-<area shape="rect" id="node9" href="$class_entity_member_symbol.html" title=" " alt="" coords="629,808,792,835"/>
-<area shape="rect" id="node10" href="$class_entity_symbol.html" title="EntitySymbol." alt="" coords="2357,680,2467,707"/>
-<area shape="rect" id="node12" href="$class_entity_data_member_symbol.html" title=" " alt="" coords="979,664,1173,691"/>
-<area shape="rect" id="node13" href="$class_type_symbol.html" title="TypeSymbol." alt="" coords="660,531,761,557"/>
-<area shape="rect" id="node4" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="205,531,316,557"/>
-<area shape="rect" id="node5" href="$classomc_1_1location.html" title="Two points in a source file." alt="" coords="205,120,316,147"/>
-<area shape="rect" id="node8" href="$class_entity_func_symbol.html" title="Symbol for a function member of an agent." alt="" coords="1302,439,1441,465"/>
-<area shape="rect" id="node6" href="$classomc_1_1position.html" title="A point in a source file." alt="" coords="5,120,116,147"/>
-<area shape="rect" id="node11" href="$class_entity_event_symbol.html" title="Event time member symbol for an event." alt="" coords="1661,704,1808,731"/>
-<area shape="rect" id="node15" href="$class_attribute_symbol.html" title=" " alt="" coords="1671,617,1799,644"/>
-<area shape="rect" id="node19" href="$class_identity_attribute_symbol.html" title="IdentityAttributeSymbol." alt="" coords="2323,293,2501,320"/>
-<area shape="rect" id="node16" href="$class_entity_internal_symbol.html" title="Internal data symbol." alt="" coords="1292,664,1451,691"/>
-<area shape="rect" id="node14" href="$class_builtin_attribute_symbol.html" title="BuiltinAttributeSymbol." alt="" coords="2031,652,2202,679"/>
-<area shape="rect" id="node20" href="$class_maintained_attribute_symbol.html" title="MaintainedAttributeSymbol." alt="" coords="2016,601,2217,628"/>
-<area shape="rect" id="node17" href="$class_code_block.html" title=" " alt="" coords="1031,452,1121,479"/>
-<area shape="rect" id="node18" title=" " alt="" coords="656,475,765,501"/>
-<area shape="rect" id="node21" href="$class_expr_for_attribute.html" title="Expression tree element in an identity attribute." alt="" coords="2053,261,2181,288"/>
+<area shape="rect" id="node1" title="EntityTableSymbol." alt="" coords="3241,623,3384,649"/>
+<area shape="rect" id="node23" href="$class_entity_increment_symbol.html" title="Functionality associated with the entity member Increment&lt;&gt; associated with a table." alt="" coords="3503,668,3677,695"/>
+<area shape="rect" id="node2" href="$class_table_symbol.html" title="TableSymbol." alt="" coords="589,40,695,67"/>
+<area shape="rect" id="node7" href="$class_measure_dimension_symbol.html" title="MeasureDimensionSymbol." alt="" coords="880,72,1077,99"/>
+<area shape="rect" id="node3" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="469,345,540,372"/>
+<area shape="rect" id="node8" href="$class_global_func_symbol.html" title="GlobalFuncSymbol." alt="" coords="2139,269,2281,296"/>
+<area shape="rect" id="node12" href="$class_entity_member_symbol.html" title=" " alt="" coords="1859,320,2021,347"/>
+<area shape="rect" id="node13" href="$class_entity_symbol.html" title="EntitySymbol." alt="" coords="1539,667,1648,693"/>
+<area shape="rect" id="node15" href="$class_entity_data_member_symbol.html" title=" " alt="" coords="881,712,1076,739"/>
+<area shape="rect" id="node16" href="$class_type_symbol.html" title="TypeSymbol." alt="" coords="591,533,693,560"/>
+<area shape="rect" id="node4" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="205,345,316,372"/>
+<area shape="rect" id="node5" href="$classomc_1_1location.html" title="Two points in a source file." alt="" coords="205,893,316,920"/>
+<area shape="rect" id="node11" href="$class_entity_func_symbol.html" title="Symbol for a function member of an agent." alt="" coords="2141,696,2279,723"/>
+<area shape="rect" id="node6" href="$classomc_1_1position.html" title="A point in a source file." alt="" coords="5,893,116,920"/>
+<area shape="rect" id="node9" href="$class_code_block.html" title=" " alt="" coords="1895,269,1985,296"/>
+<area shape="rect" id="node10" title=" " alt="" coords="1539,269,1648,296"/>
+<area shape="rect" id="node14" href="$class_entity_event_symbol.html" title="Event time member symbol for an event." alt="" coords="1185,712,1332,739"/>
+<area shape="rect" id="node18" href="$class_attribute_symbol.html" title=" " alt="" coords="2428,940,2556,967"/>
+<area shape="rect" id="node20" href="$class_identity_attribute_symbol.html" title="IdentityAttributeSymbol." alt="" coords="2980,623,3159,649"/>
+<area shape="rect" id="node19" href="$class_entity_internal_symbol.html" title="Internal data symbol." alt="" coords="1356,988,1515,1015"/>
+<area shape="rect" id="node17" href="$class_builtin_attribute_symbol.html" title="BuiltinAttributeSymbol." alt="" coords="2715,883,2886,909"/>
+<area shape="rect" id="node21" href="$class_maintained_attribute_symbol.html" title="MaintainedAttributeSymbol." alt="" coords="2700,937,2901,964"/>
+<area shape="rect" id="node22" href="$class_expr_for_attribute.html" title="Expression tree element in an identity attribute." alt="" coords="2737,572,2865,599"/>
 </map>

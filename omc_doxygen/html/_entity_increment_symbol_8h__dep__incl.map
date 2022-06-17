@@ -1,9 +1,10 @@
 <map id="EntityIncrementSymbol.h" name="EntityIncrementSymbol.h">
-<area shape="rect" id="node1" title="Declarations for the EntityIncrementSymbol class." alt="" coords="313,5,499,32"/>
+<area shape="rect" id="node1" title="Declarations for the EntityIncrementSymbol class." alt="" coords="461,5,647,32"/>
 <area shape="rect" id="node2" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="32,80,87,107"/>
-<area shape="rect" id="node4" href="$_entity_increment_symbol_8cpp.html" title="Definitions for the EntityIncrementSymbol class." alt="" coords="111,80,314,107"/>
-<area shape="rect" id="node5" href="$_entity_symbol_8cpp.html" title="Implements the EntitySymbol derived class of the Symbol class." alt="" coords="338,80,474,107"/>
-<area shape="rect" id="node6" href="$_entity_table_symbol_8cpp.html" title="Definitions for the EntityTableSymbol class." alt="" coords="498,80,669,107"/>
-<area shape="rect" id="node7" href="$_symbol_8cpp.html" title="Definitions for the Symbol class." alt="" coords="693,80,791,107"/>
+<area shape="rect" id="node4" href="$_entity_data_member_symbol_8cpp.html" title="Definitions for the EntityDataMemberSymbol class." alt="" coords="111,80,333,107"/>
+<area shape="rect" id="node5" href="$_entity_increment_symbol_8cpp.html" title="Definitions for the EntityIncrementSymbol class." alt="" coords="357,80,559,107"/>
+<area shape="rect" id="node6" href="$_entity_symbol_8cpp.html" title="Implements the EntitySymbol derived class of the Symbol class." alt="" coords="583,80,719,107"/>
+<area shape="rect" id="node7" href="$_entity_table_symbol_8cpp.html" title="Definitions for the EntityTableSymbol class." alt="" coords="743,80,914,107"/>
+<area shape="rect" id="node8" href="$_symbol_8cpp.html" title="Definitions for the Symbol class." alt="" coords="938,80,1037,107"/>
 <area shape="rect" id="node3" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="5,155,113,181"/>
 </map>

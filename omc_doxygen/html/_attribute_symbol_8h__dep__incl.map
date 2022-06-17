@@ -1,32 +1,33 @@
 <map id="AttributeSymbol.h" name="AttributeSymbol.h">
-<area shape="rect" id="node1" title="Declarations for the AttributeSymbol class." alt="" coords="916,5,1056,32"/>
-<area shape="rect" id="node2" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="2512,319,2567,345"/>
-<area shape="rect" id="node4" href="$_attribute_symbol_8cpp.html" title="Definitions for the AttributeSymbol class." alt="" coords="973,169,1128,196"/>
-<area shape="rect" id="node5" href="$_builtin_attribute_symbol_8h.html" title="Declarations for the BuiltinAttributeSymbol class." alt="" coords="594,169,776,196"/>
-<area shape="rect" id="node7" href="$_derived_attribute_symbol_8cpp.html" title="Definitions for the DerivedAttributeSymbol class." alt="" coords="716,244,923,271"/>
-<area shape="rect" id="node8" href="$_entity_event_symbol_8cpp.html" title="Definitions for the EntityEventSymbol class." alt="" coords="52,244,225,271"/>
-<area shape="rect" id="node10" href="$_entity_table_symbol_8cpp.html" title="Definitions for the EntityTableSymbol class." alt="" coords="470,244,641,271"/>
-<area shape="rect" id="node11" href="$_entity_set_symbol_8cpp.html" title="Definitions for the EntitySetSymbol class." alt="" coords="948,244,1105,271"/>
-<area shape="rect" id="node12" href="$_entity_table_accumulator_symbol_8cpp.html" title="Definitions for the EntityTableAccumulatorSymbol class." alt="" coords="1024,87,1276,114"/>
-<area shape="rect" id="node13" href="$_entity_table_measure_attribute_symbol_8cpp.html" title="Definitions for the EntityTableMeasureAttributeSymbol class." alt="" coords="1300,80,1507,121"/>
-<area shape="rect" id="node14" href="$_link_attribute_symbol_8h.html" title="Declarations for the LinkAttributeSymbol class." alt="" coords="1791,169,1958,196"/>
-<area shape="rect" id="node20" href="$_symbol_8cpp.html" title="Definitions for the Symbol class." alt="" coords="2882,244,2981,271"/>
-<area shape="rect" id="node21" href="$_maintained_attribute_symbol_8h.html" title="Declarations for the MaintainedAttributeSymbol class." alt="" coords="2188,87,2401,114"/>
-<area shape="rect" id="node28" href="$_simple_attribute_symbol_8h.html" title="Declarations for the SimpleAttributeSymbol class." alt="" coords="2948,169,3134,196"/>
-<area shape="rect" id="node3" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="2486,393,2594,420"/>
-<area shape="rect" id="node6" href="$_builtin_attribute_symbol_8cpp.html" title="Definitions for the BuiltinAttributeSymbol class." alt="" coords="249,244,446,271"/>
-<area shape="rect" id="node9" href="$_entity_symbol_8cpp.html" title="Implements the EntitySymbol derived class of the Symbol class." alt="" coords="1180,244,1316,271"/>
-<area shape="rect" id="node15" href="$_entity_multilink_symbol_8cpp.html" title="Definitions for the EntityMultilinkSymbol class." alt="" coords="2048,244,2242,271"/>
-<area shape="rect" id="node16" href="$_identity_attribute_symbol_8cpp.html" title="Definitions for the IdentityAttributeSymbol class." alt="" coords="1340,244,1545,271"/>
-<area shape="rect" id="node17" href="$_link_attribute_symbol_8cpp.html" title="Definitions for the LinkAttributeSymbol class." alt="" coords="1570,244,1752,271"/>
-<area shape="rect" id="node18" href="$_link_to_attribute_symbol_8cpp.html" title="Definitions for the LinkToAttributeSymbol class." alt="" coords="1776,244,1972,271"/>
-<area shape="rect" id="node19" href="$_multilink_attribute_symbol_8cpp.html" title="Definitions for the MultilinkAttributeSymbol class." alt="" coords="2266,244,2478,271"/>
-<area shape="rect" id="node22" href="$_derived_attribute_symbol_8h.html" title="Declarations for the DerivedAttributeSymbol class." alt="" coords="2603,169,2794,196"/>
-<area shape="rect" id="node25" href="$_identity_attribute_symbol_8h.html" title="Declarations for the IdentityAttributeSymbol class." alt="" coords="1152,169,1343,196"/>
-<area shape="rect" id="node26" href="$_maintained_attribute_symbol_8cpp.html" title="Definitions for the MaintainedAttributeSymbol class." alt="" coords="2299,169,2527,196"/>
-<area shape="rect" id="node27" href="$_multilink_attribute_symbol_8h.html" title="Declarations for the MultilinkAttributeSymbol class." alt="" coords="2077,169,2274,196"/>
-<area shape="rect" id="node23" href="$_entity_hook_symbol_8cpp.html" title="Definitions for the EntityHookSymbol class." alt="" coords="2702,319,2873,345"/>
-<area shape="rect" id="node24" href="$_entity_hook_symbol_8h.html" title="Declarations for the EntityHookSymbol class." alt="" coords="2653,244,2808,271"/>
-<area shape="rect" id="node29" href="$_simple_attribute_enum_symbol_8h.html" title="Declarations for the SimpleAttributeEnumSymbol class." alt="" coords="3055,244,3278,271"/>
-<area shape="rect" id="node30" href="$_simple_attribute_symbol_8cpp.html" title="Definitions for the SimpleAttributeSymbol class." alt="" coords="3301,244,3501,271"/>
+<area shape="rect" id="node1" title="Declarations for the AttributeSymbol class." alt="" coords="1653,5,1793,32"/>
+<area shape="rect" id="node2" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="1352,319,1407,345"/>
+<area shape="rect" id="node4" href="$_attribute_symbol_8cpp.html" title="Definitions for the AttributeSymbol class." alt="" coords="2105,169,2259,196"/>
+<area shape="rect" id="node5" href="$_builtin_attribute_symbol_8h.html" title="Declarations for the BuiltinAttributeSymbol class." alt="" coords="519,169,701,196"/>
+<area shape="rect" id="node7" href="$_derived_attribute_symbol_8cpp.html" title="Definitions for the DerivedAttributeSymbol class." alt="" coords="688,244,895,271"/>
+<area shape="rect" id="node8" href="$_entity_data_member_symbol_8cpp.html" title="Definitions for the EntityDataMemberSymbol class." alt="" coords="2281,244,2502,271"/>
+<area shape="rect" id="node9" href="$_entity_event_symbol_8cpp.html" title="Definitions for the EntityEventSymbol class." alt="" coords="490,244,663,271"/>
+<area shape="rect" id="node11" href="$_entity_table_symbol_8cpp.html" title="Definitions for the EntityTableSymbol class." alt="" coords="245,244,415,271"/>
+<area shape="rect" id="node12" href="$_entity_set_symbol_8cpp.html" title="Definitions for the EntitySetSymbol class." alt="" coords="1583,244,1741,271"/>
+<area shape="rect" id="node13" href="$_entity_table_accumulator_symbol_8cpp.html" title="Definitions for the EntityTableAccumulatorSymbol class." alt="" coords="2436,87,2688,114"/>
+<area shape="rect" id="node14" href="$_entity_table_measure_attribute_symbol_8cpp.html" title="Definitions for the EntityTableMeasureAttributeSymbol class." alt="" coords="2712,80,2919,121"/>
+<area shape="rect" id="node15" href="$_link_attribute_symbol_8h.html" title="Declarations for the LinkAttributeSymbol class." alt="" coords="2335,169,2501,196"/>
+<area shape="rect" id="node21" href="$_symbol_8cpp.html" title="Definitions for the Symbol class." alt="" coords="1410,244,1509,271"/>
+<area shape="rect" id="node22" href="$_maintained_attribute_symbol_8h.html" title="Declarations for the MaintainedAttributeSymbol class." alt="" coords="1545,87,1758,114"/>
+<area shape="rect" id="node29" href="$_simple_attribute_symbol_8h.html" title="Declarations for the SimpleAttributeSymbol class." alt="" coords="3143,169,3328,196"/>
+<area shape="rect" id="node3" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="1325,393,1433,420"/>
+<area shape="rect" id="node6" href="$_builtin_attribute_symbol_8cpp.html" title="Definitions for the BuiltinAttributeSymbol class." alt="" coords="23,244,221,271"/>
+<area shape="rect" id="node10" href="$_entity_symbol_8cpp.html" title="Implements the EntitySymbol derived class of the Symbol class." alt="" coords="1250,244,1386,271"/>
+<area shape="rect" id="node16" href="$_entity_multilink_symbol_8cpp.html" title="Definitions for the EntityMultilinkSymbol class." alt="" coords="2577,244,2771,271"/>
+<area shape="rect" id="node17" href="$_identity_attribute_symbol_8cpp.html" title="Definitions for the IdentityAttributeSymbol class." alt="" coords="1765,244,1970,271"/>
+<area shape="rect" id="node18" href="$_link_attribute_symbol_8cpp.html" title="Definitions for the LinkAttributeSymbol class." alt="" coords="2795,244,2977,271"/>
+<area shape="rect" id="node19" href="$_link_to_attribute_symbol_8cpp.html" title="Definitions for the LinkToAttributeSymbol class." alt="" coords="3001,244,3197,271"/>
+<area shape="rect" id="node20" href="$_multilink_attribute_symbol_8cpp.html" title="Definitions for the MultilinkAttributeSymbol class." alt="" coords="2044,244,2256,271"/>
+<area shape="rect" id="node23" href="$_derived_attribute_symbol_8h.html" title="Declarations for the DerivedAttributeSymbol class." alt="" coords="945,169,1136,196"/>
+<area shape="rect" id="node26" href="$_identity_attribute_symbol_8h.html" title="Declarations for the IdentityAttributeSymbol class." alt="" coords="1567,169,1757,196"/>
+<area shape="rect" id="node27" href="$_maintained_attribute_symbol_8cpp.html" title="Definitions for the MaintainedAttributeSymbol class." alt="" coords="1263,169,1491,196"/>
+<area shape="rect" id="node28" href="$_multilink_attribute_symbol_8h.html" title="Declarations for the MultilinkAttributeSymbol class." alt="" coords="1833,169,2030,196"/>
+<area shape="rect" id="node24" href="$_entity_hook_symbol_8cpp.html" title="Definitions for the EntityHookSymbol class." alt="" coords="905,319,1075,345"/>
+<area shape="rect" id="node25" href="$_entity_hook_symbol_8h.html" title="Declarations for the EntityHookSymbol class." alt="" coords="970,244,1125,271"/>
+<area shape="rect" id="node30" href="$_simple_attribute_enum_symbol_8h.html" title="Declarations for the SimpleAttributeEnumSymbol class." alt="" coords="3496,244,3719,271"/>
+<area shape="rect" id="node31" href="$_simple_attribute_symbol_8cpp.html" title="Definitions for the SimpleAttributeSymbol class." alt="" coords="3273,244,3473,271"/>
 </map>

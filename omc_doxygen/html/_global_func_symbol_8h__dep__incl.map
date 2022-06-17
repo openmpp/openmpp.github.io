@@ -1,8 +1,10 @@
 <map id="GlobalFuncSymbol.h" name="GlobalFuncSymbol.h">
-<area shape="rect" id="node1" title="Declarations for the GlobalFuncSymbol class." alt="" coords="225,5,379,32"/>
+<area shape="rect" id="node1" title="Declarations for the GlobalFuncSymbol class." alt="" coords="398,5,553,32"/>
 <area shape="rect" id="node2" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="32,80,87,107"/>
-<area shape="rect" id="node4" href="$_global_func_symbol_8cpp.html" title="Definitions for the GlobalFuncSymbol class." alt="" coords="111,80,282,107"/>
-<area shape="rect" id="node5" href="$_identity_attribute_symbol_8cpp.html" title="Definitions for the IdentityAttributeSymbol class." alt="" coords="306,80,511,107"/>
-<area shape="rect" id="node6" href="$_symbol_8cpp.html" title="Definitions for the Symbol class." alt="" coords="535,80,634,107"/>
+<area shape="rect" id="node4" href="$_entity_set_symbol_8cpp.html" title="Definitions for the EntitySetSymbol class." alt="" coords="111,80,269,107"/>
+<area shape="rect" id="node5" href="$_entity_table_symbol_8cpp.html" title="Definitions for the EntityTableSymbol class." alt="" coords="293,80,463,107"/>
+<area shape="rect" id="node6" href="$_global_func_symbol_8cpp.html" title="Definitions for the GlobalFuncSymbol class." alt="" coords="487,80,658,107"/>
+<area shape="rect" id="node7" href="$_identity_attribute_symbol_8cpp.html" title="Definitions for the IdentityAttributeSymbol class." alt="" coords="682,80,887,107"/>
+<area shape="rect" id="node8" href="$_symbol_8cpp.html" title="Definitions for the Symbol class." alt="" coords="911,80,1010,107"/>
 <area shape="rect" id="node3" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="5,155,113,181"/>
 </map>

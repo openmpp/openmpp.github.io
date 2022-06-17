@@ -57,11 +57,11 @@ var hierarchy =
           [ "EntityArrayMemberSymbol", "class_entity_array_member_symbol.html", null ],
           [ "EntityEventSymbol", "class_entity_event_symbol.html", null ],
           [ "EntityForeignMemberSymbol", "class_entity_foreign_member_symbol.html", null ],
+          [ "EntityIncrementSymbol", "class_entity_increment_symbol.html", null ],
           [ "EntityInternalSymbol", "class_entity_internal_symbol.html", null ],
           [ "EntityMultilinkSymbol", "class_entity_multilink_symbol.html", null ]
         ] ],
-        [ "EntityFuncSymbol", "class_entity_func_symbol.html", null ],
-        [ "EntityIncrementSymbol", "class_entity_increment_symbol.html", null ]
+        [ "EntityFuncSymbol", "class_entity_func_symbol.html", null ]
       ] ],
       [ "EntitySetSymbol", "class_entity_set_symbol.html", null ],
       [ "EntitySymbol", "class_entity_symbol.html", null ],
