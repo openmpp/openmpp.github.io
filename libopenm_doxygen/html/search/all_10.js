@@ -25,7 +25,7 @@ var searchData=
   ['setmodelmetarows_825',['setModelMetaRows',['../classopenm_1_1_model_sql_builder.html#abcad23ccd9f67acd91a008bc2fe19fbb',1,'openm::ModelSqlBuilder::setModelMetaRows()'],['../structopenm_1_1_i_model_builder.html#a3126f3fe01901e2fa9e36d5129b1932c',1,'openm::IModelBuilder::setModelMetaRows()']]],
   ['setname_826',['setName',['../structopenm_1_1_run_options_key.html#aed92c56c2760c25b9a1a6ab8eaa1a611',1,'openm::RunOptionsKey::setName()'],['../structopenm_1_1_run_short_key.html#a1ce854da01af379a503dd849eac5a3cd',1,'openm::RunShortKey::setName()']]],
   ['setprogress_827',['setProgress',['../structopenm_1_1_run_state.html#a5c2bcf952cf1d6c6c10bc7b7d399096a',1,'openm::RunState']]],
-  ['setrank_828',['setRank',['../classopenm_1_1_log_base.html#a53f161e9828037c5ea38a64729db4744',1,'openm::LogBase::setRank()'],['../structopenm_1_1_i_log_base.html#aa04e13cdff009df9e907a50f027e7712',1,'openm::ILogBase::setRank()']]],
+  ['setrank_828',['setRank',['../classopenm_1_1_log_base.html#afafac0c7d8fdb98f7ca23168429b1a79',1,'openm::LogBase::setRank()'],['../structopenm_1_1_i_log_base.html#aa04e13cdff009df9e907a50f027e7712',1,'openm::ILogBase::setRank()']]],
   ['setrunoptions_829',['setRunOptions',['../classopenm_1_1_meta_loader.html#a4d4b571f2b762d2dbc98d7bbc0b085ae',1,'openm::MetaLoader']]],
   ['setstatus_830',['setStatus',['../structopenm_1_1_run_state.html#a925f73fef5f8a12a6adb611781d2b439',1,'openm::RunState']]],
   ['settransactionactive_831',['setTransactionActive',['../classopenm_1_1_db_exec_base.html#a62f640e7eaf48a8f3b33e76d1de58260',1,'openm::DbExecBase']]],

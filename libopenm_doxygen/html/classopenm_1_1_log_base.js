@@ -8,7 +8,7 @@ var classopenm_1_1_log_base =
     [ "logFileCreate", "classopenm_1_1_log_base.html#afbdd252c81f0c1af8c80f73f6cc51e86", null ],
     [ "logToConsole", "classopenm_1_1_log_base.html#aa6cfe93ab163e78bb80c839eec582ab4", null ],
     [ "logToFile", "classopenm_1_1_log_base.html#a3989debae8c15980e77afa4080550413", null ],
-    [ "setRank", "classopenm_1_1_log_base.html#a53f161e9828037c5ea38a64729db4744", null ],
+    [ "setRank", "classopenm_1_1_log_base.html#afafac0c7d8fdb98f7ca23168429b1a79", null ],
     [ "timeStamp", "classopenm_1_1_log_base.html#af90db361288885d412c6ace47731176b", null ],
     [ "writeToLog", "classopenm_1_1_log_base.html#a1fdce3f9493339d5e8d707879e7635a3", null ],
     [ "isConsoleEnabled", "classopenm_1_1_log_base.html#aa41899625dcb2161818495e279925cd8", null ],

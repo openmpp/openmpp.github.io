@@ -12,6 +12,7 @@ var class_entity_symbol =
     [ "build_body_initialize_entity_sets", "class_entity_symbol.html#afd136a8fe7e6b7cf3c63ef60c0d8cc3b", null ],
     [ "build_body_initialize_events", "class_entity_symbol.html#a1821f77f4d93c6df1b91848f97b58f72", null ],
     [ "build_body_initialize_tables", "class_entity_symbol.html#ad3db9f80d653c0e20a8e4995df4ffa5d", null ],
+    [ "build_body_start_trace", "class_entity_symbol.html#a101f14908e61e7cc29f792c18e132533", null ],
     [ "create_auxiliary_symbols", "class_entity_symbol.html#a60043840c1cb149d4c51ca14bcfe961e", null ],
     [ "create_ss_event", "class_entity_symbol.html#aeb4f17f3c68b41af5522de9b72277f70", null ],
     [ "finish_ss_event", "class_entity_symbol.html#ace7314027b34e764bc233a28c3fc9a77", null ],
@@ -47,5 +48,6 @@ var class_entity_symbol =
     [ "reset_derived_attributes_fn", "class_entity_symbol.html#a56cf768f9a25c298968951f49e87f7e5", null ],
     [ "ss_event", "class_entity_symbol.html#ad43e1e9e28bd28745fddc094d33fcbfb", null ],
     [ "ss_implement_fn", "class_entity_symbol.html#aae93a836b7aef8584af2eb3c512e2f80", null ],
-    [ "ss_time_fn", "class_entity_symbol.html#af8b2add287b458f30ce388c1814496ad", null ]
+    [ "ss_time_fn", "class_entity_symbol.html#af8b2add287b458f30ce388c1814496ad", null ],
+    [ "start_trace_fn", "class_entity_symbol.html#a69e3f17c632d93f715ca854b1d050ee9", null ]
 ];
