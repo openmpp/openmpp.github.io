@@ -105,24 +105,122 @@ $(document).ready(function(){initNavTree('_classification_enumerator_symbol_8h_s
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">public</span>:</div>
 <div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="class_classification_enumerator_symbol.html#a6c8aca57d53fd6faf33e5c4f903116fe">   22</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_classification_enumerator_symbol.html#a6c8aca57d53fd6faf33e5c4f903116fe">is_base_symbol</a>()<span class="keyword"> const override </span>{ <span class="keywordflow">return</span> <span class="keyword">false</span>; }</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="class_classification_enumerator_symbol.html">ClassificationEnumeratorSymbol</a>(<a class="code" href="class_symbol.html">Symbol</a> *sym, <span class="keyword">const</span> <a class="code" href="class_symbol.html">Symbol</a> *enumeration, <span class="keywordtype">int</span> ordinal, <a class="code" href="classomc_1_1location.html">omc::location</a> decl_loc = <a class="code" href="classomc_1_1location.html">omc::location</a>())</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="class_classification_enumerator_symbol.html">ClassificationEnumeratorSymbol</a>(<a class="code" href="class_symbol.html">Symbol</a> *sym, <span class="keywordtype">string</span>* pname, <span class="keyword">const</span> <a class="code" href="class_symbol.html">Symbol</a> *enumeration, <span class="keywordtype">int</span> ordinal, <a class="code" href="classomc_1_1location.html">omc::location</a> decl_loc = <a class="code" href="classomc_1_1location.html">omc::location</a>())</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        : <a class="code" href="class_enumerator_symbol.html">EnumeratorSymbol</a>(sym, enumeration, ordinal, decl_loc)</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    {</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    }</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
-<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="class_classification_enumerator_symbol.html#af47f8dff8d1af4f89a05af538cb5312a">   29</a></span>&#160;    <span class="keywordtype">string</span> <a class="code" href="class_classification_enumerator_symbol.html#af47f8dff8d1af4f89a05af538cb5312a">db_name</a>()<span class="keyword"> const override</span></div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keyword">    </span>{</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="comment">// The &#39;name&#39; in the data store is the same as the classification level in model code</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="keywordflow">return</span> name;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    };</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;};</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        , short_name(pname ? *pname : name)</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        , short_name_default(name)</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        , short_name_explicit(pname ? *pname : <span class="stringliteral">&quot;&quot;</span>)</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    {</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    }</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="class_classification_enumerator_symbol.html#aa64886393b855eaf068240fada55d02d">   37</a></span>&#160;    <span class="keywordtype">string</span> <a class="code" href="class_classification_enumerator_symbol.html#aa64886393b855eaf068240fada55d02d">heuristic_short_name</a>(<span class="keywordtype">void</span>)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <span class="keywordtype">string</span> hn; <span class="comment">// heuristic name</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="comment">// Get the dimension&#39;s label for the model&#39;s default language.</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <span class="keywordtype">string</span> lbl = pp_labels[0];</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keywordtype">string</span> unm = unique_name;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keywordflow">if</span> (lbl != unm &amp;&amp; lbl.length() &lt;= short_name_max_length) {</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            <span class="comment">// Use label from model source code, if not too long.</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            hn = lbl;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        }</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;            hn = unm;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        }</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        assert(hn.length() &gt; 0); <span class="comment">// logic guarantee</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="comment">// trim off leading &quot;om_&quot; prefix if present</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="comment">//if (hn.starts_with(&quot;om_&quot;)) { // c++20</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <span class="keywordflow">if</span> (hn.length() &gt;= 3 &amp;&amp; hn.substr(0, 3) == <span class="stringliteral">&quot;om_&quot;</span>) {</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            hn.erase(0, 3);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        }</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <span class="keywordflow">if</span> (!std::isalpha(hn[0], locale::classic())) {</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;            <span class="comment">// First character is not alphabetic.</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            <span class="comment">// Prepend X_ to make valid name</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            hn = <span class="stringliteral">&quot;X_&quot;</span> + hn;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        }</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <span class="comment">// trim off trailing &quot;_&quot; if present</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="comment">//if (hn.ends_with(&quot;_&quot;)) { // c++20</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="keywordflow">if</span> (hn[hn.length() - 1] == <span class="charliteral">&#39;_&#39;</span>) {</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            hn.erase(hn.length() - 1, 1);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        }</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160; </div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <span class="comment">// if name is subject to truncation, remove characters from middle rather than truncating from end,</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="comment">// because long descriptions often disambiguate at both beginning and end.</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <span class="keywordflow">if</span> (hn.length() &gt; short_name_max_length) {</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            <span class="comment">// replacement string for snipped section</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;            <span class="keywordtype">string</span> r = <span class="stringliteral">&quot;_x_&quot;</span>;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;            <span class="comment">// number of characters to snip from middle (excess plus length of replacement)</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;            <span class="keywordtype">size_t</span> n = hn.length() - short_name_max_length + r.length();</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;            <span class="comment">// start of snipped section (middle section of original string)</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;            <span class="keywordtype">size_t</span> p = (hn.length() - n) / 2;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;            <span class="comment">// replace snipped section with _</span></div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;            <span class="keywordflow">if</span> (p &gt; 0 &amp;&amp; p &lt; hn.length()) {</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;                hn.replace(p, n, r);</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;            }</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        }</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160; </div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        <span class="comment">// Make name alphanumeric and truncate it to maximum length.</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        hn = openm::toAlphaNumeric(hn, short_name_max_length);</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160; </div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <span class="comment">// trim off trailing &quot;_&quot; if present</span></div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <span class="comment">//if (hn.ends_with(&quot;_&quot;)) { // c++20</span></div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <span class="keywordflow">if</span> (hn[hn.length() - 1] == <span class="charliteral">&#39;_&#39;</span>) {</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;            hn.erase(hn.length() - 1, 1);</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        }</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160; </div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        <span class="keywordflow">return</span> hn;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    }</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160; </div>
+<div class="line"><a name="l00099"></a><span class="lineno"><a class="line" href="class_classification_enumerator_symbol.html#aa13a86017fd6c692314ed75e05c64c43">   99</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_classification_enumerator_symbol.html#aa13a86017fd6c692314ed75e05c64c43">post_parse</a>(<span class="keywordtype">int</span> pass)</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    {</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        <span class="comment">// Hook into the post_parse hierarchical calling chain</span></div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        super::post_parse(pass);</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160; </div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        <span class="comment">// Perform post-parse operations specific to this level in the Symbol hierarchy.</span></div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        <span class="keywordflow">switch</span> (pass) {</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        <span class="keywordflow">case</span> eAssignLabel:</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        {</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;            <span class="comment">// If an explicit short name was given by //NAME, use it</span></div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;            <span class="keyword">auto</span> search = explicit_names.find(unique_name);</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;            <span class="keywordflow">if</span> (search != explicit_names.end()) {</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;                short_name_explicit = search-&gt;second;</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;                short_name = short_name_explicit;</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;            }</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        }</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        }</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    }</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160; </div>
+<div class="line"><a name="l00124"></a><span class="lineno"><a class="line" href="class_classification_enumerator_symbol.html#aef6f94c91dd5fb0d0ff803cc28e17d64">  124</a></span>&#160;    <span class="keywordtype">string</span> <a class="code" href="class_classification_enumerator_symbol.html#aef6f94c91dd5fb0d0ff803cc28e17d64">short_name</a>;</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160; </div>
+<div class="line"><a name="l00129"></a><span class="lineno"><a class="line" href="class_classification_enumerator_symbol.html#a5146b9c1ef219944dfcc2fe38efa2cc5">  129</a></span>&#160;    <span class="keywordtype">string</span> <a class="code" href="class_classification_enumerator_symbol.html#a5146b9c1ef219944dfcc2fe38efa2cc5">short_name_default</a>;</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160; </div>
+<div class="line"><a name="l00134"></a><span class="lineno"><a class="line" href="class_classification_enumerator_symbol.html#a02d3d76f960f79e16b3bd93d500e8a2b">  134</a></span>&#160;    <span class="keywordtype">string</span> <a class="code" href="class_classification_enumerator_symbol.html#a02d3d76f960f79e16b3bd93d500e8a2b">short_name_explicit</a>;</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    </div>
+<div class="line"><a name="l00136"></a><span class="lineno"><a class="line" href="class_classification_enumerator_symbol.html#af47f8dff8d1af4f89a05af538cb5312a">  136</a></span>&#160;    <span class="keywordtype">string</span> <a class="code" href="class_classification_enumerator_symbol.html#af47f8dff8d1af4f89a05af538cb5312a">db_name</a>()<span class="keyword"> const override</span></div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        <span class="comment">// The &#39;name&#39; in the data store is the same as the short name for the level</span></div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        <span class="keywordflow">return</span> short_name;</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    };</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160; </div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;};</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160; </div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160; </div>
 <div class="ttc" id="a_enumerator_symbol_8h_html"><div class="ttname"><a href="_enumerator_symbol_8h.html">EnumeratorSymbol.h</a></div><div class="ttdoc">Declarations for the EnumeratorSymbol class.</div></div>
 <div class="ttc" id="aclass_classification_enumerator_symbol_html"><div class="ttname"><a href="class_classification_enumerator_symbol.html">ClassificationEnumeratorSymbol</a></div><div class="ttdef"><b>Definition:</b> ClassificationEnumeratorSymbol.h:17</div></div>
+<div class="ttc" id="aclass_classification_enumerator_symbol_html_a02d3d76f960f79e16b3bd93d500e8a2b"><div class="ttname"><a href="class_classification_enumerator_symbol.html#a02d3d76f960f79e16b3bd93d500e8a2b">ClassificationEnumeratorSymbol::short_name_explicit</a></div><div class="ttdeci">string short_name_explicit</div><div class="ttdoc">Short name of the enumerator (provided in model source)</div><div class="ttdef"><b>Definition:</b> ClassificationEnumeratorSymbol.h:134</div></div>
+<div class="ttc" id="aclass_classification_enumerator_symbol_html_a5146b9c1ef219944dfcc2fe38efa2cc5"><div class="ttname"><a href="class_classification_enumerator_symbol.html#a5146b9c1ef219944dfcc2fe38efa2cc5">ClassificationEnumeratorSymbol::short_name_default</a></div><div class="ttdeci">string short_name_default</div><div class="ttdoc">Short name of the enumerator (generated default name)</div><div class="ttdef"><b>Definition:</b> ClassificationEnumeratorSymbol.h:129</div></div>
 <div class="ttc" id="aclass_classification_enumerator_symbol_html_a6c8aca57d53fd6faf33e5c4f903116fe"><div class="ttname"><a href="class_classification_enumerator_symbol.html#a6c8aca57d53fd6faf33e5c4f903116fe">ClassificationEnumeratorSymbol::is_base_symbol</a></div><div class="ttdeci">bool is_base_symbol() const override</div><div class="ttdoc">Query if this object is an underived instance of the base Symbol class.</div><div class="ttdef"><b>Definition:</b> ClassificationEnumeratorSymbol.h:22</div></div>
-<div class="ttc" id="aclass_classification_enumerator_symbol_html_af47f8dff8d1af4f89a05af538cb5312a"><div class="ttname"><a href="class_classification_enumerator_symbol.html#af47f8dff8d1af4f89a05af538cb5312a">ClassificationEnumeratorSymbol::db_name</a></div><div class="ttdeci">string db_name() const override</div><div class="ttdoc">Gets the short 'name' associated with the enumerator in the data store.</div><div class="ttdef"><b>Definition:</b> ClassificationEnumeratorSymbol.h:29</div></div>
+<div class="ttc" id="aclass_classification_enumerator_symbol_html_aa13a86017fd6c692314ed75e05c64c43"><div class="ttname"><a href="class_classification_enumerator_symbol.html#aa13a86017fd6c692314ed75e05c64c43">ClassificationEnumeratorSymbol::post_parse</a></div><div class="ttdeci">void post_parse(int pass)</div><div class="ttdoc">Perform post-parse operations.</div><div class="ttdef"><b>Definition:</b> ClassificationEnumeratorSymbol.h:99</div></div>
+<div class="ttc" id="aclass_classification_enumerator_symbol_html_aa64886393b855eaf068240fada55d02d"><div class="ttname"><a href="class_classification_enumerator_symbol.html#aa64886393b855eaf068240fada55d02d">ClassificationEnumeratorSymbol::heuristic_short_name</a></div><div class="ttdeci">string heuristic_short_name(void) const</div><div class="ttdoc">Heuristically-generated short name for the enumerator.</div><div class="ttdef"><b>Definition:</b> ClassificationEnumeratorSymbol.h:37</div></div>
+<div class="ttc" id="aclass_classification_enumerator_symbol_html_aef6f94c91dd5fb0d0ff803cc28e17d64"><div class="ttname"><a href="class_classification_enumerator_symbol.html#aef6f94c91dd5fb0d0ff803cc28e17d64">ClassificationEnumeratorSymbol::short_name</a></div><div class="ttdeci">string short_name</div><div class="ttdoc">Short name of the enumerator.</div><div class="ttdef"><b>Definition:</b> ClassificationEnumeratorSymbol.h:124</div></div>
+<div class="ttc" id="aclass_classification_enumerator_symbol_html_af47f8dff8d1af4f89a05af538cb5312a"><div class="ttname"><a href="class_classification_enumerator_symbol.html#af47f8dff8d1af4f89a05af538cb5312a">ClassificationEnumeratorSymbol::db_name</a></div><div class="ttdeci">string db_name() const override</div><div class="ttdoc">Gets the short 'name' associated with the enumerator in the data store.</div><div class="ttdef"><b>Definition:</b> ClassificationEnumeratorSymbol.h:136</div></div>
 <div class="ttc" id="aclass_enumeration_symbol_html"><div class="ttname"><a href="class_enumeration_symbol.html">EnumerationSymbol</a></div><div class="ttdoc">EnumerationSymbol.</div><div class="ttdef"><b>Definition:</b> EnumerationSymbol.h:21</div></div>
 <div class="ttc" id="aclass_enumerator_symbol_html"><div class="ttname"><a href="class_enumerator_symbol.html">EnumeratorSymbol</a></div><div class="ttdef"><b>Definition:</b> EnumeratorSymbol.h:16</div></div>
 <div class="ttc" id="aclass_symbol_html"><div class="ttname"><a href="class_symbol.html">Symbol</a></div><div class="ttdoc">A Symbol is a named syntactic entity in openM++.</div><div class="ttdef"><b>Definition:</b> Symbol.h:136</div></div>
@@ -133,7 +231,7 @@ $(document).ready(function(){initNavTree('_classification_enumerator_symbol_8h_s
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="_classification_enumerator_symbol_8h.html">ClassificationEnumeratorSymbol.h</a></li>
-    <li class="footer">Generated on Fri Sep 23 2022 01:54:15 for OpenM++ compiler (omc) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sat Dec 10 2022 01:59:41 for OpenM++ compiler (omc) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

@@ -7,6 +7,7 @@ var classopenm_1_1_i_db_exec =
     [ "createStatement", "classopenm_1_1_i_db_exec.html#a54b4aa6ed8deee5a81429b9ce39dbf14", null ],
     [ "executeStatement", "classopenm_1_1_i_db_exec.html#ab6621b76034ef152ed5d045b394d0b9a", null ],
     [ "isTransaction", "classopenm_1_1_i_db_exec.html#a7cee06f40ecc55f5627aabdca805064b", null ],
+    [ "provider", "classopenm_1_1_i_db_exec.html#ab081cf6404f2ded97f58617ba6ff075a", null ],
     [ "releaseStatement", "classopenm_1_1_i_db_exec.html#a06fdb227da6a536999a180df2b127a5a", null ],
     [ "rollback", "classopenm_1_1_i_db_exec.html#ac924097e5175679fbc1daabf99cba011", null ],
     [ "runSqlScript", "classopenm_1_1_i_db_exec.html#af66454f515647080f47bdc60559f11d7", null ],

@@ -84,6 +84,7 @@ $(document).ready(function(){initNavTree('om_model_8h.html',''); initResizable()
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#define-members">Macros</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
@@ -134,9 +135,9 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="om_model_8h__dep__incl.png" border="0" usemap="#a_2home_2build__doc_2ompp-make-doc_2ompp-main_2include_2libopenm_2om_model_8hdep" alt=""/></div>
 <map name="a_2home_2build__doc_2ompp-make-doc_2ompp-main_2include_2libopenm_2om_model_8hdep" id="a_2home_2build__doc_2ompp-make-doc_2ompp-main_2include_2libopenm_2om_model_8hdep">
-<area shape="rect" title="OpenM++ modeling library: public interface." alt="" coords="903,5,1125,61"/>
-<area shape="rect" href="model_8h.html" title="OpenM++ modeling library: modeling thread implementation to calculate model sub&#45;value." alt="" coords="951,184,1077,211"/>
-<area shape="rect" href="model_run_state_8h.html" title="OpenM++ modeling library: implementation." alt="" coords="987,109,1172,136"/>
+<area shape="rect" title="OpenM++ modeling library: public interface." alt="" coords="1011,5,1233,61"/>
+<area shape="rect" href="model_8h.html" title="OpenM++ modeling library: modeling thread implementation to calculate model sub&#45;value." alt="" coords="1059,184,1185,211"/>
+<area shape="rect" href="model_run_state_8h.html" title="OpenM++ modeling library: implementation." alt="" coords="1095,109,1280,136"/>
 <area shape="rect" href="child_controller_8cpp.html" title="OpenM++ modeling library: child process run controller class to receive input parameters from root an..." alt="" coords="5,259,193,285"/>
 <area shape="rect" href="meta_loader_8cpp.html" title="OpenM++ modeling library: model metadata loader to read and broadcast metadata and run options." alt="" coords="218,259,389,285"/>
 <area shape="rect" href="model_base_8cpp.html" title="OpenM++ modeling library: modeling thread implementation to calculate model sub&#45;value." alt="" coords="413,259,580,285"/>
@@ -144,9 +145,10 @@ This graph shows which files directly or indirectly include this file:</div>
 <area shape="rect" href="restart_controller_8cpp.html" title="OpenM++ modeling library: process run controller class for model &quot;restart run&quot; to calculate outstandi..." alt="" coords="806,259,1006,285"/>
 <area shape="rect" href="root_controller_8cpp.html" title="OpenM++ modeling library: root process run controller class to create new model run(s),..." alt="" coords="1031,259,1213,285"/>
 <area shape="rect" href="run_controller_8cpp.html" title="OpenM++ modeling library: run controller class to create new model run(s) and support data exchange." alt="" coords="1238,259,1417,285"/>
-<area shape="rect" href="run_controller_new_run_8cpp.html" title="OpenM++ modeling library: run controller class to create new model run(s) and support data exchange (..." alt="" coords="1441,259,1675,285"/>
-<area shape="rect" href="run_controller_params_8cpp.html" title="OpenM++ modeling library: run controller class to create new model run(s) and support data exchange (..." alt="" coords="1699,259,1926,285"/>
-<area shape="rect" href="single_controller_8cpp.html" title="OpenM++ modeling library: single process run controller class to create new model run(s),..." alt="" coords="1951,259,2147,285"/>
+<area shape="rect" href="run_controller_microdata_8cpp.html" title="OpenM++ modeling library: run controller class to create new model run(s) and support data exchange." alt="" coords="1441,259,1685,285"/>
+<area shape="rect" href="run_controller_new_run_8cpp.html" title="OpenM++ modeling library: run controller class to create new model run(s) and support data exchange (..." alt="" coords="1709,259,1943,285"/>
+<area shape="rect" href="run_controller_params_8cpp.html" title="OpenM++ modeling library: run controller class to create new model run(s) and support data exchange (..." alt="" coords="1967,259,2194,285"/>
+<area shape="rect" href="single_controller_8cpp.html" title="OpenM++ modeling library: single process run controller class to create new model run(s),..." alt="" coords="2219,259,2415,285"/>
 </map>
 </div>
 </div>
@@ -169,12 +171,25 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_parameter_name_size_item.html">openm::ParameterNameSizeItem</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">model input parameter name, type and size  <a href="structopenm_1_1_parameter_name_size_item.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_entity_name_size_item.html">openm::EntityNameSizeItem</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">model entity attributes name, type, size and member offset  <a href="structopenm_1_1_entity_name_size_item.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_event_id_name_item.html">openm::EventIdNameItem</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">model events id, name  <a href="structopenm_1_1_event_id_name_item.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespaceopenm"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html">openm</a></td></tr>
 <tr class="memdesc:namespaceopenm"><td class="mdescLeft">&#160;</td><td class="mdescRight">openM++ namespace <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a54602d9210b36966694da036a4e8d0a4"><td class="memItemLeft" align="right" valign="top"><a id="a54602d9210b36966694da036a4e8d0a4"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="om_model_8h.html#a54602d9210b36966694da036a4e8d0a4">OM_USE_MICRODATA_EVENTS</a>&#160;&#160;&#160;(EVENT_ID_NAME_ARR_LEN &gt; 1)</td></tr>
+<tr class="memdesc:a54602d9210b36966694da036a4e8d0a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true then write microdata events into database and/or CSV <br /></td></tr>
+<tr class="separator:a54602d9210b36966694da036a4e8d0a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -234,6 +249,22 @@ const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 const ParameterNameSizeItem&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a4ed7d7065ec63d5cb8d706ae073de44f">openm::parameterNameSizeArr</a> []</td></tr>
 <tr class="memdesc:a4ed7d7065ec63d5cb8d706ae073de44f"><td class="mdescLeft">&#160;</td><td class="mdescRight">model input parameters name, type and size <br /></td></tr>
 <tr class="separator:a4ed7d7065ec63d5cb8d706ae073de44f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9c99062be74b30c81f41862f23b81a0"><td class="memItemLeft" align="right" valign="top"><a id="ac9c99062be74b30c81f41862f23b81a0"></a>
+const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#ac9c99062be74b30c81f41862f23b81a0">openm::ENTITY_NAME_SIZE_ARR_LEN</a></td></tr>
+<tr class="memdesc:ac9c99062be74b30c81f41862f23b81a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">size of entity attributes list: all attributes of all entities <br /></td></tr>
+<tr class="separator:ac9c99062be74b30c81f41862f23b81a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb30c654321d833ed5f35df477d50c4b"><td class="memItemLeft" align="right" valign="top"><a id="aeb30c654321d833ed5f35df477d50c4b"></a>
+const EntityNameSizeItem&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#aeb30c654321d833ed5f35df477d50c4b">openm::EntityNameSizeArr</a> []</td></tr>
+<tr class="memdesc:aeb30c654321d833ed5f35df477d50c4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">list of entity attributes name, type, size and member offset <br /></td></tr>
+<tr class="separator:aeb30c654321d833ed5f35df477d50c4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa51c29b519510fe445ad588041303f2e"><td class="memItemLeft" align="right" valign="top"><a id="aa51c29b519510fe445ad588041303f2e"></a>
+const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#aa51c29b519510fe445ad588041303f2e">openm::EVENT_ID_NAME_ARR_LEN</a></td></tr>
+<tr class="memdesc:aa51c29b519510fe445ad588041303f2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">size of event list: all events in all entities <br /></td></tr>
+<tr class="separator:aa51c29b519510fe445ad588041303f2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78dcc646054b171108688a3617fe0a13"><td class="memItemLeft" align="right" valign="top"><a id="a78dcc646054b171108688a3617fe0a13"></a>
+const EventIdNameItem&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a78dcc646054b171108688a3617fe0a13">openm::EventIdNameArr</a> []</td></tr>
+<tr class="memdesc:a78dcc646054b171108688a3617fe0a13"><td class="mdescLeft">&#160;</td><td class="mdescRight">list of events id, name <br /></td></tr>
+<tr class="separator:a78dcc646054b171108688a3617fe0a13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c035dfe5287662304a11b2f4765d6e6"><td class="memItemLeft" align="right" valign="top">const char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a7c035dfe5287662304a11b2f4765d6e6">openm::modelUnknownErrorMessage</a> [] = &quot;unknown model error&quot;</td></tr>
 <tr class="memdesc:a7c035dfe5287662304a11b2f4765d6e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">default error message: "unknown model error"  <a href="namespaceopenm.html#a7c035dfe5287662304a11b2f4765d6e6">More...</a><br /></td></tr>
 <tr class="separator:a7c035dfe5287662304a11b2f4765d6e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -281,7 +312,7 @@ const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_30e93d7ad2ce010165d2d10f88217613.html">libopenm</a></li><li class="navelem"><a class="el" href="om_model_8h.html">omModel.h</a></li>
-    <li class="footer">Generated on Fri Sep 23 2022 01:54:11 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sat Dec 10 2022 01:59:36 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

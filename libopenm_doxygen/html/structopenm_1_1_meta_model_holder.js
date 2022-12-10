@@ -1,5 +1,9 @@
 var structopenm_1_1_meta_model_holder =
 [
+    [ "entityAttr", "structopenm_1_1_meta_model_holder.html#a1e34e397259ff1245f19f25a84d02b81", null ],
+    [ "entityAttrTxt", "structopenm_1_1_meta_model_holder.html#a29bb2d72a370142359c90ace903ff5d1", null ],
+    [ "entityDic", "structopenm_1_1_meta_model_holder.html#a58ac155406115035952be5d1da2c8767", null ],
+    [ "entityTxt", "structopenm_1_1_meta_model_holder.html#aeb7191cfba3da79fb00a43a1df99938a", null ],
     [ "groupLst", "structopenm_1_1_meta_model_holder.html#abaaa5fce0a05941e3c17f68ba4de1209", null ],
     [ "groupPc", "structopenm_1_1_meta_model_holder.html#a85cbc4c06fe4e590c45f78917b74c7b6", null ],
     [ "groupTxt", "structopenm_1_1_meta_model_holder.html#af2b395fbdc0dc58789a02152c9738484", null ],

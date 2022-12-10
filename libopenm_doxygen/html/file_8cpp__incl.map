@@ -1,10 +1,10 @@
 <map id="common/file.cpp" name="common/file.cpp">
-<area shape="rect" id="node1" title="OpenM++ common file utility functions." alt="" coords="533,5,664,32"/>
-<area shape="rect" id="node2" title=" " alt="" coords="241,80,332,107"/>
-<area shape="rect" id="node3" href="$om_file_8h.html" title="OpenM++ common file utilities." alt="" coords="357,80,561,107"/>
-<area shape="rect" id="node22" href="$helper_8h.html" title="OpenM++ common helper utilities." alt="" coords="448,155,523,181"/>
-<area shape="rect" id="node23" href="$log_8h.html" title="OpenM++: log to console and into log files." alt="" coords="741,80,795,107"/>
-<area shape="rect" id="node31" title=" " alt="" coords="820,80,895,107"/>
+<area shape="rect" id="node1" title="OpenM++ common file utility functions." alt="" coords="579,5,709,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="287,80,377,107"/>
+<area shape="rect" id="node3" href="$om_file_8h.html" title="OpenM++ common file utilities." alt="" coords="402,80,606,107"/>
+<area shape="rect" id="node22" href="$helper_8h.html" title="OpenM++ common helper utilities." alt="" coords="549,155,624,181"/>
+<area shape="rect" id="node24" href="$log_8h.html" title="OpenM++: log to console and into log files." alt="" coords="741,80,795,107"/>
+<area shape="rect" id="node32" title=" " alt="" coords="820,80,895,107"/>
 <area shape="rect" id="node4" href="$om_helper_8h.html" title="OpenM++ common helper utilities." alt="" coords="699,229,797,256"/>
 <area shape="rect" id="node5" title=" " alt="" coords="283,304,368,331"/>
 <area shape="rect" id="node6" title=" " alt="" coords="392,304,459,331"/>
@@ -23,11 +23,12 @@
 <area shape="rect" id="node19" title=" " alt="" coords="1296,304,1371,331"/>
 <area shape="rect" id="node20" title=" " alt="" coords="1117,304,1184,331"/>
 <area shape="rect" id="node21" title=" " alt="" coords="1209,304,1271,331"/>
-<area shape="rect" id="node24" title=" " alt="" coords="976,155,1040,181"/>
-<area shape="rect" id="node25" title=" " alt="" coords="1065,155,1138,181"/>
-<area shape="rect" id="node26" title=" " alt="" coords="1163,155,1243,181"/>
-<area shape="rect" id="node27" title=" " alt="" coords="1111,229,1182,256"/>
-<area shape="rect" id="node28" href="$om_log_8h.html" title="OpenM++: public interface for log and trace support." alt="" coords="1382,229,1525,256"/>
-<area shape="rect" id="node30" href="$om_error_8h.html" title="OpenM++: public interface for errors and exceptions." alt="" coords="750,155,901,181"/>
-<area shape="rect" id="node29" title=" " alt="" coords="1545,304,1669,331"/>
+<area shape="rect" id="node23" title=" " alt="" coords="557,229,616,256"/>
+<area shape="rect" id="node25" title=" " alt="" coords="976,155,1040,181"/>
+<area shape="rect" id="node26" title=" " alt="" coords="1065,155,1138,181"/>
+<area shape="rect" id="node27" title=" " alt="" coords="1163,155,1243,181"/>
+<area shape="rect" id="node28" title=" " alt="" coords="1111,229,1182,256"/>
+<area shape="rect" id="node29" href="$om_log_8h.html" title="OpenM++: public interface for log and trace support." alt="" coords="1382,229,1525,256"/>
+<area shape="rect" id="node31" href="$om_error_8h.html" title="OpenM++: public interface for errors and exceptions." alt="" coords="750,155,901,181"/>
+<area shape="rect" id="node30" title=" " alt="" coords="1545,304,1669,331"/>
 </map>

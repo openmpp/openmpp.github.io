@@ -4,6 +4,8 @@ var structopenm_1_1_meta_holder =
     [ "accumulatorSize", "structopenm_1_1_meta_holder.html#ab44860e71ee9d1f0e809a9e9c2e4f46c", null ],
     [ "parameterSize", "structopenm_1_1_meta_holder.html#a34632c489f8fd74d9283d3b21eee89b6", null ],
     [ "typeEnumsSize", "structopenm_1_1_meta_holder.html#ac356f321e034ff4940d72675bf3c04bc", null ],
+    [ "entityAttr", "structopenm_1_1_meta_holder.html#a5bc1e87bcaedb01d9f7197a64dda6256", null ],
+    [ "entityDic", "structopenm_1_1_meta_holder.html#a0db5e088319df8e027057716c4f07169", null ],
     [ "groupLst", "structopenm_1_1_meta_holder.html#a01aba20fb30f070905842ac8404165ea", null ],
     [ "groupPc", "structopenm_1_1_meta_holder.html#a1275a8426ce9dc65987ebbd1dbeeb0cc", null ],
     [ "langLst", "structopenm_1_1_meta_holder.html#a2d15b6d3aae21a0fc0488c16404f6822", null ],

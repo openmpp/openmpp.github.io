@@ -313,6 +313,9 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <tr class="memitem:a27ab595aecb3aa01768283f4fa929b3b inherit pub_static_methods_class_symbol"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a27ab595aecb3aa01768283f4fa929b3b">build_imports_csv</a> (void)</td></tr>
 <tr class="memdesc:a27ab595aecb3aa01768283f4fa929b3b inherit pub_static_methods_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate csv echoing model import statements.  <a href="class_symbol.html#a27ab595aecb3aa01768283f4fa929b3b">More...</a><br /></td></tr>
 <tr class="separator:a27ab595aecb3aa01768283f4fa929b3b inherit pub_static_methods_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8ecf9a2fa314faeeeecce9e1faa3235 inherit pub_static_methods_class_symbol"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#af8ecf9a2fa314faeeeecce9e1faa3235">normalize_note</a> (const std::string &amp;txt)</td></tr>
+<tr class="memdesc:af8ecf9a2fa314faeeeecce9e1faa3235 inherit pub_static_methods_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace Modgen syntax in a NOTE by equivalent markdown.  <a href="class_symbol.html#af8ecf9a2fa314faeeeecce9e1faa3235">More...</a><br /></td></tr>
+<tr class="separator:af8ecf9a2fa314faeeeecce9e1faa3235 inherit pub_static_methods_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -596,6 +599,10 @@ static unordered_map&lt; string, string &gt;&#160;</td><td class="memItemRight" 
 static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a2ef683113c066813f03b1c42304c980f">option_event_trace</a> = false</td></tr>
 <tr class="memdesc:a2ef683113c066813f03b1c42304c980f inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">true if event_trace capability is requested in options statement. <br /></td></tr>
 <tr class="separator:a2ef683113c066813f03b1c42304c980f inherit pub_static_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09ca9aecd8e1eb91bd9a772740128890 inherit pub_static_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="a09ca9aecd8e1eb91bd9a772740128890"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a09ca9aecd8e1eb91bd9a772740128890">option_event_trace_warning</a> = true</td></tr>
+<tr class="memdesc:a09ca9aecd8e1eb91bd9a772740128890 inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">true if event_trace microdata warning is enabled in options statement. <br /></td></tr>
+<tr class="separator:a09ca9aecd8e1eb91bd9a772740128890 inherit pub_static_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ba67a5e04f3fc70cc5e4561536ee328 inherit pub_static_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="a4ba67a5e04f3fc70cc5e4561536ee328"></a>
 static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a4ba67a5e04f3fc70cc5e4561536ee328">option_bounds_errors</a> = true</td></tr>
 <tr class="memdesc:a4ba67a5e04f3fc70cc5e4561536ee328 inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">true/false depending on bounds_errors in options statement. <br /></td></tr>
@@ -640,10 +647,42 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a645bd6f4124cde0a0012e06a6347113b">option_entity_member_packing</a> = false</td></tr>
 <tr class="memdesc:a645bd6f4124cde0a0012e06a6347113b inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">true or false depending on entity_member_packing value in options statement. <br /></td></tr>
 <tr class="separator:a645bd6f4124cde0a0012e06a6347113b inherit pub_static_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67bb852be5efb3d67ba4feca75350e3d inherit pub_static_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="a67bb852be5efb3d67ba4feca75350e3d"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a67bb852be5efb3d67ba4feca75350e3d">option_all_attributes_visible</a> = false</td></tr>
+<tr class="memdesc:a67bb852be5efb3d67ba4feca75350e3d inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">true or false depending on all_attributes_visible value in options statement. <br /></td></tr>
+<tr class="separator:a67bb852be5efb3d67ba4feca75350e3d inherit pub_static_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67d41d381d6e40c745ff45760496d651 inherit pub_static_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="a67d41d381d6e40c745ff45760496d651"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a67d41d381d6e40c745ff45760496d651">option_microdata_output</a> = false</td></tr>
+<tr class="memdesc:a67d41d381d6e40c745ff45760496d651 inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">true or false depending on whether microdata output is enabled. <br /></td></tr>
+<tr class="separator:a67d41d381d6e40c745ff45760496d651 inherit pub_static_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fb78b71ca66b667f42bc5e3432fa5bf inherit pub_static_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="a4fb78b71ca66b667f42bc5e3432fa5bf"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a4fb78b71ca66b667f42bc5e3432fa5bf">option_microdata_output_warning</a> = true</td></tr>
+<tr class="memdesc:a4fb78b71ca66b667f42bc5e3432fa5bf inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">true or false depending on whether microdata output runtime warning is emitted. <br /></td></tr>
+<tr class="separator:a4fb78b71ca66b667f42bc5e3432fa5bf inherit pub_static_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af560f465594753f79e1a94e1ef58eff4 inherit pub_static_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="af560f465594753f79e1a94e1ef58eff4"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#af560f465594753f79e1a94e1ef58eff4">option_microdata_write_on_enter</a> = false</td></tr>
+<tr class="memdesc:af560f465594753f79e1a94e1ef58eff4 inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">true or false depending on whether microdata is written when entity enters the simulation. <br /></td></tr>
+<tr class="separator:af560f465594753f79e1a94e1ef58eff4 inherit pub_static_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33c0569f4b9a01074ffe2883b75a6686 inherit pub_static_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="a33c0569f4b9a01074ffe2883b75a6686"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a33c0569f4b9a01074ffe2883b75a6686">option_microdata_write_on_exit</a> = false</td></tr>
+<tr class="memdesc:a33c0569f4b9a01074ffe2883b75a6686 inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">true or false depending on whether microdata is written when entity exits the simulation. <br /></td></tr>
+<tr class="separator:a33c0569f4b9a01074ffe2883b75a6686 inherit pub_static_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21fe66f9c5333c2d70aeca6ec5904a0a inherit pub_static_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="a21fe66f9c5333c2d70aeca6ec5904a0a"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a21fe66f9c5333c2d70aeca6ec5904a0a">option_microdata_write_on_event</a> = false</td></tr>
+<tr class="memdesc:a21fe66f9c5333c2d70aeca6ec5904a0a inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">true or false depending on whether microdata is written after any event. <br /></td></tr>
+<tr class="separator:a21fe66f9c5333c2d70aeca6ec5904a0a inherit pub_static_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c7de07bee2642cf21789001c1fad550 inherit pub_static_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="a7c7de07bee2642cf21789001c1fad550"></a>
 static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a7c7de07bee2642cf21789001c1fad550">option_use_heuristic_short_names</a> = false</td></tr>
 <tr class="memdesc:a7c7de07bee2642cf21789001c1fad550 inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">true or false depending on use_heuristic_short_names in options statement. <br /></td></tr>
 <tr class="separator:a7c7de07bee2642cf21789001c1fad550 inherit pub_static_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0486df22794f94df9bcbc695a3c0f98e inherit pub_static_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="a0486df22794f94df9bcbc695a3c0f98e"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a0486df22794f94df9bcbc695a3c0f98e">option_enable_heuristic_names_for_enumerators</a> = true</td></tr>
+<tr class="memdesc:a0486df22794f94df9bcbc695a3c0f98e inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">true or false depending on enable_heuristic_names_for_enumerators in options statement. <br /></td></tr>
+<tr class="separator:a0486df22794f94df9bcbc695a3c0f98e inherit pub_static_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affc1421bdbce24d8ca6b69dd936af1ed inherit pub_static_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="affc1421bdbce24d8ca6b69dd936af1ed"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#affc1421bdbce24d8ca6b69dd936af1ed">option_convert_modgen_note_syntax</a> = true</td></tr>
+<tr class="memdesc:affc1421bdbce24d8ca6b69dd936af1ed inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">true or false depending on convert_modgen_note_syntax in options statement. <br /></td></tr>
+<tr class="separator:affc1421bdbce24d8ca6b69dd936af1ed inherit pub_static_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64dba1d43a52d9c64dcf8c85cf9e3314 inherit pub_static_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="a64dba1d43a52d9c64dcf8c85cf9e3314"></a>
 static size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a64dba1d43a52d9c64dcf8c85cf9e3314">short_name_max_length</a> = 32</td></tr>
 <tr class="memdesc:a64dba1d43a52d9c64dcf8c85cf9e3314 inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximum length of a short name <br /></td></tr>
@@ -998,7 +1037,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_constant_symbol.html">ConstantSymbol</a></li>
-    <li class="footer">Generated on Fri Sep 23 2022 01:54:15 for OpenM++ compiler (omc) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sat Dec 10 2022 01:59:41 for OpenM++ compiler (omc) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

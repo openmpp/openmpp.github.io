@@ -13,7 +13,6 @@ var class_parse_context =
     [ "get_table_context", "class_parse_context.html#a366313aeb9c3da97841b348873f32517", null ],
     [ "InitializeForCxx", "class_parse_context.html#ad30e0f08d35d1541311b61d3e0ddadb8", null ],
     [ "InitializeForModule", "class_parse_context.html#aa0416056fa52a09653c8ad377efd8b06", null ],
-    [ "normalize_note", "class_parse_context.html#a9c2e68056961b79e17ad0a0ee5df58b7", null ],
     [ "process_c_comment", "class_parse_context.html#ae6f80c1e64f7612ac62a3da1b233b484", null ],
     [ "process_cxx_comment", "class_parse_context.html#aa7d9eab746bea170224c458f1e4d86ef", null ],
     [ "reset_working_counters", "class_parse_context.html#aa895ee1050909dd311208cd719eef748", null ],

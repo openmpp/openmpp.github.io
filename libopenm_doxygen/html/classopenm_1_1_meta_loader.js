@@ -4,6 +4,12 @@ var classopenm_1_1_meta_loader =
     [ "ParamImportOpts", "structopenm_1_1_meta_loader_1_1_param_import_opts.html", "structopenm_1_1_meta_loader_1_1_param_import_opts" ],
     [ "ParamSubOpts", "structopenm_1_1_meta_loader_1_1_param_sub_opts.html", "structopenm_1_1_meta_loader_1_1_param_sub_opts" ],
     [ "RunImportOpts", "structopenm_1_1_meta_loader_1_1_run_import_opts.html", "structopenm_1_1_meta_loader_1_1_run_import_opts" ],
+    [ "FromSub", "classopenm_1_1_meta_loader.html#a3658564bf02a06f8cdbd1e277e5a4613", [
+      [ "defaultValue", "classopenm_1_1_meta_loader.html#a3658564bf02a06f8cdbd1e277e5a4613a16830a58e1e33a4163524366ba7b701b", null ],
+      [ "db", "classopenm_1_1_meta_loader.html#a3658564bf02a06f8cdbd1e277e5a4613ad77d5e503ad1439f585ac494268b351b", null ],
+      [ "csv", "classopenm_1_1_meta_loader.html#a3658564bf02a06f8cdbd1e277e5a4613a628cb5675ff524f3e719b7aa2e88fe3f", null ],
+      [ "iota", "classopenm_1_1_meta_loader.html#a3658564bf02a06f8cdbd1e277e5a4613a57e5fba4ce5b4cb9ffd595beb63e7389", null ]
+    ] ],
     [ "ImportKind", "classopenm_1_1_meta_loader.html#a6661bedaebac09ba209d1a0097997d72", [
       [ "none", "classopenm_1_1_meta_loader.html#a6661bedaebac09ba209d1a0097997d72a334c4a4c42fdb79d7ebc3e73b517e6f8", null ],
       [ "modelName", "classopenm_1_1_meta_loader.html#a6661bedaebac09ba209d1a0097997d72a697c0f8a5b5d8fd1855198029cbc98d6", null ],
@@ -35,6 +41,8 @@ var classopenm_1_1_meta_loader =
     [ "setArgOpt", "classopenm_1_1_meta_loader.html#addabb6d951652d131aa65451e3a8c0d0", null ],
     [ "setRunOptions", "classopenm_1_1_meta_loader.html#a4d4b571f2b762d2dbc98d7bbc0b085ae", null ],
     [ "tableIdByName", "classopenm_1_1_meta_loader.html#a8e832588d4181880e2fc6ecb8d2acdcd", null ],
+    [ "entityIdxArr", "classopenm_1_1_meta_loader.html#a9a80064f62b77dcd4ca661933effb337", null ],
+    [ "entityUseEvents", "classopenm_1_1_meta_loader.html#a1d5ece038bedfa3a85ee3fe925effba1", null ],
     [ "importOptsMap", "classopenm_1_1_meta_loader.html#ac6ff8393be09d6677ba5fb73c5a14cfa", null ],
     [ "langOptsMap", "classopenm_1_1_meta_loader.html#a18af158082d32b49631193c76732c278", null ],
     [ "metaStore", "classopenm_1_1_meta_loader.html#a4bfb0dd088c7683a894e1d80529c3b10", null ],

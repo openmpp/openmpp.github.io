@@ -29,15 +29,17 @@ var dir_a0af34ed3c51f838a0893dc0d41bbfe5 =
       [ "ITableAccTxtTable", "structopenm_1_1_i_table_acc_txt_table.html", "structopenm_1_1_i_table_acc_txt_table" ],
       [ "ITableExprTable", "structopenm_1_1_i_table_expr_table.html", "structopenm_1_1_i_table_expr_table" ],
       [ "ITableExprTxtTable", "structopenm_1_1_i_table_expr_txt_table.html", "structopenm_1_1_i_table_expr_txt_table" ],
+      [ "IEntityDicTable", "structopenm_1_1_i_entity_dic_table.html", "structopenm_1_1_i_entity_dic_table" ],
+      [ "IEntityDicTxtTable", "structopenm_1_1_i_entity_dic_txt_table.html", "structopenm_1_1_i_entity_dic_txt_table" ],
+      [ "IEntityAttrTable", "structopenm_1_1_i_entity_attr_table.html", "structopenm_1_1_i_entity_attr_table" ],
+      [ "IEntityAttrTxtTable", "structopenm_1_1_i_entity_attr_txt_table.html", "structopenm_1_1_i_entity_attr_txt_table" ],
       [ "IGroupLstTable", "structopenm_1_1_i_group_lst_table.html", "structopenm_1_1_i_group_lst_table" ],
       [ "IGroupTxtTable", "structopenm_1_1_i_group_txt_table.html", "structopenm_1_1_i_group_txt_table" ],
       [ "IGroupPcTable", "structopenm_1_1_i_group_pc_table.html", "structopenm_1_1_i_group_pc_table" ],
       [ "IProfileLstTable", "structopenm_1_1_i_profile_lst_table.html", "structopenm_1_1_i_profile_lst_table" ],
       [ "IProfileOptionTable", "structopenm_1_1_i_profile_option_table.html", "structopenm_1_1_i_profile_option_table" ],
       [ "IRunLstTable", "structopenm_1_1_i_run_lst_table.html", "structopenm_1_1_i_run_lst_table" ],
-      [ "IRunTxtTable", "structopenm_1_1_i_run_txt_table.html", "structopenm_1_1_i_run_txt_table" ],
       [ "IRunOptionTable", "structopenm_1_1_i_run_option_table.html", "structopenm_1_1_i_run_option_table" ],
-      [ "IRunParamTxtTable", "structopenm_1_1_i_run_param_txt_table.html", "structopenm_1_1_i_run_param_txt_table" ],
       [ "IWorksetLstTable", "structopenm_1_1_i_workset_lst_table.html", "structopenm_1_1_i_workset_lst_table" ],
       [ "IWorksetTxtTable", "structopenm_1_1_i_workset_txt_table.html", "structopenm_1_1_i_workset_txt_table" ],
       [ "IWorksetParamTable", "structopenm_1_1_i_workset_param_table.html", "structopenm_1_1_i_workset_param_table" ],
@@ -59,13 +61,7 @@ var dir_a0af34ed3c51f838a0893dc0d41bbfe5 =
       [ "IParameterSetWriter", "structopenm_1_1_i_parameter_set_writer.html", "structopenm_1_1_i_parameter_set_writer" ],
       [ "IParameterRunWriter", "structopenm_1_1_i_parameter_run_writer.html", "structopenm_1_1_i_parameter_run_writer" ]
     ] ],
-    [ "dbValue.h", "db_value_8h.html", [
-      [ "ValueRow", "structopenm_1_1_value_row.html", "structopenm_1_1_value_row" ],
-      [ "ValueRowAdapter", "classopenm_1_1_value_row_adapter.html", "classopenm_1_1_value_row_adapter" ],
-      [ "ValueFormatter", "classopenm_1_1_value_formatter.html", "classopenm_1_1_value_formatter" ],
-      [ "ValueRowDigester", "classopenm_1_1_value_row_digester.html", "classopenm_1_1_value_row_digester" ],
-      [ "ValueArray", "structopenm_1_1_value_array.html", "structopenm_1_1_value_array" ]
-    ] ],
+    [ "dbValue.h", "db_value_8h.html", "db_value_8h" ],
     [ "helper.h", "helper_8h.html", "helper_8h" ],
     [ "md5.h", "md5_8h_source.html", null ],
     [ "metaHolder.h", "meta_holder_8h.html", [
@@ -88,7 +84,5 @@ var dir_a0af34ed3c51f838a0893dc0d41bbfe5 =
       [ "RunStateHolder", "classopenm_1_1_run_state_holder.html", "classopenm_1_1_run_state_holder" ]
     ] ],
     [ "msg.h", "msg_8h.html", "msg_8h" ],
-    [ "runController.h", "run_controller_8h.html", [
-      [ "RunController", "classopenm_1_1_run_controller.html", "classopenm_1_1_run_controller" ]
-    ] ]
+    [ "runController.h", "run_controller_8h.html", "run_controller_8h" ]
 ];

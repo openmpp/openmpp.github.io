@@ -1,8 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structopenm_1_1_i_output_table_reader.html" title="output table reader public interface" alt="" coords="5,56,208,83"/>
-<area shape="rect" id="node2" href="$structopenm_1_1_i_output_table_acc_reader.html" title="output table accumulators reader public interface" alt="" coords="259,5,485,32"/>
-<area shape="rect" id="node4" href="$structopenm_1_1_i_output_table_expr_reader.html" title="output table expressions reader public interface" alt="" coords="256,107,488,133"/>
-<area shape="rect" id="node3" href="$classopenm_1_1_output_table_acc_reader.html" title=" " alt="" coords="539,31,761,57"/>
-<area shape="rect" id="node5" href="$classopenm_1_1_output_table_expr_reader.html" title=" " alt="" coords="536,93,764,120"/>
-<area shape="rect" id="node6" href="$classopenm_1_1_output_table_reader.html" title="output table reader base class" alt="" coords="273,56,471,83"/>
+<area shape="rect" id="node1" href="$structopenm_1_1_ini_entry.html" title="Ini&#45;file entry: setcion, key and value." alt="" coords="5,5,131,32"/>
 </map>

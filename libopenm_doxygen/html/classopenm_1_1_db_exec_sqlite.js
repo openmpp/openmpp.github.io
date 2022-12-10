@@ -8,6 +8,7 @@ var classopenm_1_1_db_exec_sqlite =
     [ "createStatement", "classopenm_1_1_db_exec_sqlite.html#a0c81bb96785bd20e8b00e7748545bd4e", null ],
     [ "executeStatement", "classopenm_1_1_db_exec_sqlite.html#a907fa603cd67d3405950b48178f74f45", null ],
     [ "isTransaction", "classopenm_1_1_db_exec_sqlite.html#a30879c10cc5661a0d4251ff38dc36433", null ],
+    [ "provider", "classopenm_1_1_db_exec_sqlite.html#adda1655f82eb414ce3540e6fbafa03ed", null ],
     [ "releaseStatement", "classopenm_1_1_db_exec_sqlite.html#a94edc5c30329f870214c5776e44c28a8", null ],
     [ "rollback", "classopenm_1_1_db_exec_sqlite.html#a9a71a0ead473fa2e468ccdbbc68ba4ae", null ],
     [ "runSqlScript", "classopenm_1_1_db_exec_sqlite.html#a1c997ea16b22bac31d7ddebca37452b7", null ],

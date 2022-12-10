@@ -1,0 +1,6 @@
+<map id="openm::EntityAttrTxtRow" name="openm::EntityAttrTxtRow">
+<area shape="rect" id="node1" title="entity_attr_txt table row." alt="" coords="21,169,207,196"/>
+<area shape="rect" id="node4" href="$structopenm_1_1_entity_attr_txt_lang_row.html" title="entity_attr_txt table row and language code." alt="" coords="5,244,223,271"/>
+<area shape="rect" id="node2" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="5,80,223,121"/>
+<area shape="rect" id="node3" href="$structopenm_1_1_i_row_base.html" title="db&#45;row abstract base" alt="" coords="45,5,183,32"/>
+</map>

@@ -1,5 +1,6 @@
 <map id="include/crc32.h" name="include/crc32.h">
-<area shape="rect" id="node1" title="OpenM++ CRC&#45;32 impelementation, it is same CRC&#45;32 as V.42, gzip, PNG." alt="" coords="114,5,234,32"/>
+<area shape="rect" id="node1" title="OpenM++ CRC&#45;32 impelementation, it is same CRC&#45;32 as V.42, gzip, PNG." alt="" coords="173,5,293,32"/>
 <area shape="rect" id="node2" href="$crc32_8cpp.html" title="OpenM++ CRC&#45;32 impelementation, it is same CRC&#45;32 as V.42, gzip, PNG." alt="" coords="5,80,151,107"/>
-<area shape="rect" id="node3" href="$model_sql_builder_8h.html" title="OpenM++ data library: class to produce sql creation script for new model." alt="" coords="175,80,367,107"/>
+<area shape="rect" id="node3" href="$db_exec_8cpp.html" title="OpenM++ data library: db connection wrapper public interface." alt="" coords="175,80,290,107"/>
+<area shape="rect" id="node4" href="$model_sql_builder_8h.html" title="OpenM++ data library: class to produce sql creation script for new model." alt="" coords="314,80,506,107"/>
 </map>

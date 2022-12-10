@@ -145,6 +145,12 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_model_base.html#a8d65b720c4dd05eafca9520445fb52a1">updateProgress</a> (int i_count, double i_value=0.0) override</td></tr>
 <tr class="memdesc:a8d65b720c4dd05eafca9520445fb52a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">set modeling progress count and value <br /></td></tr>
 <tr class="separator:a8d65b720c4dd05eafca9520445fb52a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7539a4fbb899db1ff8f7c0caf2bbe62e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_model_base.html#a7539a4fbb899db1ff8f7c0caf2bbe62e">writeDbMicrodata</a> (int i_entityKind, uint64_t i_microdataKey, const void *i_entityThis) override</td></tr>
+<tr class="memdesc:a7539a4fbb899db1ff8f7c0caf2bbe62e"><td class="mdescLeft">&#160;</td><td class="mdescRight">write microdata into the database  <a href="classopenm_1_1_model_base.html#a7539a4fbb899db1ff8f7c0caf2bbe62e">More...</a><br /></td></tr>
+<tr class="separator:a7539a4fbb899db1ff8f7c0caf2bbe62e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc40a736a1079fac096070bdb9539041"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_model_base.html#abc40a736a1079fac096070bdb9539041">writeCsvMicrodata</a> (int i_entityKind, uint64_t i_microdataKey, int i_eventId, bool i_isSameEntity, const void *i_entityThis) override</td></tr>
+<tr class="memdesc:abc40a736a1079fac096070bdb9539041"><td class="mdescLeft">&#160;</td><td class="mdescRight">write microdata into CSV file or into trace  <a href="classopenm_1_1_model_base.html#abc40a736a1079fac096070bdb9539041">More...</a><br /></td></tr>
+<tr class="separator:abc40a736a1079fac096070bdb9539041"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_structopenm_1_1_i_model"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structopenm_1_1_i_model')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structopenm_1_1_i_model.html">openm::IModel</a></td></tr>
 <tr class="memitem:a7af33d6ed8fddbd90ab717f6f8ae6679 inherit pub_methods_structopenm_1_1_i_model"><td class="memItemLeft" align="right" valign="top"><a id="a7af33d6ed8fddbd90ab717f6f8ae6679"></a>
 virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_model.html#a7af33d6ed8fddbd90ab717f6f8ae6679">~IModel</a> (void) noexcept=0</td></tr>
@@ -218,6 +224,130 @@ Static Public Member Functions</h2></td></tr>
 
 <p>model factory: create new model sub-value run. </p>
 <p>create new model sub-value run </p>
+
+</div>
+</div>
+<a id="abc40a736a1079fac096070bdb9539041"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc40a736a1079fac096070bdb9539041">&#9670;&nbsp;</a></span>writeCsvMicrodata()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModelBase::writeCsvMicrodata </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i_entityKind</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>i_microdataKey</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i_eventId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>i_isSameEntity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>i_entityThis</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>write microdata into CSV file or into trace </p>
+<p>write microdata into the CSV file or into trace.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i_entityKind</td><td>entity kind id: model metadata entity id in database. </td></tr>
+    <tr><td class="paramname">i_microdataKey</td><td>unique entity instance id. </td></tr>
+    <tr><td class="paramname">i_eventId</td><td>event id, if microdata events enabled. </td></tr>
+    <tr><td class="paramname">i_isSameEntity</td><td>if true then event entity the same as microdata entity. </td></tr>
+    <tr><td class="paramname">i_entityThis</td><td>entity class instance this pointer. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implements <a class="el" href="structopenm_1_1_i_model.html#a67ba255222aae398b32de187325aed6a">openm::IModel</a>.</p>
+
+</div>
+</div>
+<a id="a7539a4fbb899db1ff8f7c0caf2bbe62e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7539a4fbb899db1ff8f7c0caf2bbe62e">&#9670;&nbsp;</a></span>writeDbMicrodata()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModelBase::writeDbMicrodata </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i_entityKind</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>i_microdataKey</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>i_entityThis</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>write microdata into the database </p>
+<p>write microdata into the database.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i_entityKind</td><td>entity kind id: model metadata entity id in database. </td></tr>
+    <tr><td class="paramname">i_microdataKey</td><td>unique entity instance id. </td></tr>
+    <tr><td class="paramname">i_entityThis</td><td>entity class instance this pointer. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implements <a class="el" href="structopenm_1_1_i_model.html#ad231d73ef047675e96d4d42f8ca28598">openm::IModel</a>.</p>
 
 </div>
 </div>
@@ -302,7 +432,7 @@ Static Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceopenm.html">openm</a></li><li class="navelem"><a class="el" href="classopenm_1_1_model_base.html">ModelBase</a></li>
-    <li class="footer">Generated on Fri Sep 23 2022 01:54:11 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sat Dec 10 2022 01:59:37 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

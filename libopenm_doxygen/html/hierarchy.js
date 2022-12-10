@@ -8,7 +8,12 @@ var hierarchy =
       [ "openm::DbExecSqlite", "classopenm_1_1_db_exec_sqlite.html", null ]
     ] ],
     [ "openm::DbValue", "unionopenm_1_1_db_value.html", null ],
+    [ "openm::DbValueSetter", "classopenm_1_1_db_value_setter.html", null ],
     [ "openm::DoneVector", "classopenm_1_1_done_vector.html", null ],
+    [ "openm::RunController::EntityAttrItem", "structopenm_1_1_run_controller_1_1_entity_attr_item.html", null ],
+    [ "openm::RunController::EntityItem", "structopenm_1_1_run_controller_1_1_entity_item.html", null ],
+    [ "openm::EntityNameSizeItem", "structopenm_1_1_entity_name_size_item.html", null ],
+    [ "openm::EventIdNameItem", "structopenm_1_1_event_id_name_item.html", null ],
     [ "std::exception", null, [
       [ "openm::OpenmException< maxMsgSize, defaultMessage >", "classopenm_1_1_openm_exception.html", [
         [ "openm::MpiException", "classopenm_1_1_mpi_exception.html", null ]
@@ -42,11 +47,6 @@ var hierarchy =
       [ "openm::IMetaLoadedTable< TableDicRow >", "structopenm_1_1_i_meta_loaded_table.html", [
         [ "openm::ITableDicTable", "structopenm_1_1_i_table_dic_table.html", [
           [ "openm::TableDicTable", "classopenm_1_1_table_dic_table.html", null ]
-        ] ]
-      ] ],
-      [ "openm::IMetaLoadedTable< RunParamTxtRow >", "structopenm_1_1_i_meta_loaded_table.html", [
-        [ "openm::IRunParamTxtTable", "structopenm_1_1_i_run_param_txt_table.html", [
-          [ "openm::RunParamTxtTable", "classopenm_1_1_run_param_txt_table.html", null ]
         ] ]
       ] ],
       [ "openm::IMetaLoadedTable< TableExprRow >", "structopenm_1_1_i_meta_loaded_table.html", [
@@ -104,6 +104,16 @@ var hierarchy =
           [ "openm::ProfileOptionTable", "classopenm_1_1_profile_option_table.html", null ]
         ] ]
       ] ],
+      [ "openm::IMetaLoadedTable< EntityDicRow >", "structopenm_1_1_i_meta_loaded_table.html", [
+        [ "openm::IEntityDicTable", "structopenm_1_1_i_entity_dic_table.html", [
+          [ "openm::EntityDicTable", "classopenm_1_1_entity_dic_table.html", null ]
+        ] ]
+      ] ],
+      [ "openm::IMetaLoadedTable< EntityAttrTxtRow >", "structopenm_1_1_i_meta_loaded_table.html", [
+        [ "openm::IEntityAttrTxtTable", "structopenm_1_1_i_entity_attr_txt_table.html", [
+          [ "openm::EntityAttrTxtTable", "classopenm_1_1_entity_attr_txt_table.html", null ]
+        ] ]
+      ] ],
       [ "openm::IMetaLoadedTable< TypeDicTxtRow >", "structopenm_1_1_i_meta_loaded_table.html", [
         [ "openm::ITypeDicTxtTable", "structopenm_1_1_i_type_dic_txt_table.html", [
           [ "openm::TypeDicTxtTable", "classopenm_1_1_type_dic_txt_table.html", null ]
@@ -112,6 +122,16 @@ var hierarchy =
       [ "openm::IMetaLoadedTable< TableDimsRow >", "structopenm_1_1_i_meta_loaded_table.html", [
         [ "openm::ITableDimsTable", "structopenm_1_1_i_table_dims_table.html", [
           [ "openm::TableDimsTable", "classopenm_1_1_table_dims_table.html", null ]
+        ] ]
+      ] ],
+      [ "openm::IMetaLoadedTable< EntityDicTxtRow >", "structopenm_1_1_i_meta_loaded_table.html", [
+        [ "openm::IEntityDicTxtTable", "structopenm_1_1_i_entity_dic_txt_table.html", [
+          [ "openm::EntityDicTxtTable", "classopenm_1_1_entity_dic_txt_table.html", null ]
+        ] ]
+      ] ],
+      [ "openm::IMetaLoadedTable< EntityAttrRow >", "structopenm_1_1_i_meta_loaded_table.html", [
+        [ "openm::IEntityAttrTable", "structopenm_1_1_i_entity_attr_table.html", [
+          [ "openm::EntityAttrTable", "classopenm_1_1_entity_attr_table.html", null ]
         ] ]
       ] ],
       [ "openm::IMetaLoadedTable< TableAccRow >", "structopenm_1_1_i_meta_loaded_table.html", [
@@ -189,11 +209,6 @@ var hierarchy =
     [ "openm::IMetaTable< RunLstRow >", "structopenm_1_1_i_meta_table.html", [
       [ "openm::IRunLstTable", "structopenm_1_1_i_run_lst_table.html", [
         [ "openm::RunLstTable", "classopenm_1_1_run_lst_table.html", null ]
-      ] ]
-    ] ],
-    [ "openm::IMetaTable< RunTxtRow >", "structopenm_1_1_i_meta_table.html", [
-      [ "openm::IRunTxtTable", "structopenm_1_1_i_run_txt_table.html", [
-        [ "openm::RunTxtTable", "classopenm_1_1_run_txt_table.html", null ]
       ] ]
     ] ],
     [ "openm::IMetaTable< TaskLstRow >", "structopenm_1_1_i_meta_table.html", [
@@ -299,6 +314,10 @@ var hierarchy =
       [ "openm::ParameterSetWriter", "classopenm_1_1_parameter_set_writer.html", null ]
     ] ],
     [ "openm::IRowAdapter", "classopenm_1_1_i_row_adapter.html", [
+      [ "openm::EntityAttrRowAdapter", "classopenm_1_1_entity_attr_row_adapter.html", null ],
+      [ "openm::EntityAttrTxtRowAdapter", "classopenm_1_1_entity_attr_txt_row_adapter.html", null ],
+      [ "openm::EntityDicRowAdapter", "classopenm_1_1_entity_dic_row_adapter.html", null ],
+      [ "openm::EntityDicTxtRowAdapter", "classopenm_1_1_entity_dic_txt_row_adapter.html", null ],
       [ "openm::GroupLstRowAdapter", "classopenm_1_1_group_lst_row_adapter.html", null ],
       [ "openm::GroupPcRowAdapter", "classopenm_1_1_group_pc_row_adapter.html", null ],
       [ "openm::GroupTxtRowAdapter", "classopenm_1_1_group_txt_row_adapter.html", null ],
@@ -316,8 +335,6 @@ var hierarchy =
       [ "openm::ProfileOptionRowAdapter", "classopenm_1_1_profile_option_row_adapter.html", null ],
       [ "openm::RunLstRowAdapter", "classopenm_1_1_run_lst_row_adapter.html", null ],
       [ "openm::RunOptionRowAdapter", "classopenm_1_1_run_option_row_adapter.html", null ],
-      [ "openm::RunParamTxtRowAdapter", "classopenm_1_1_run_param_txt_row_adapter.html", null ],
-      [ "openm::RunTxtRowAdapter", "classopenm_1_1_run_txt_row_adapter.html", null ],
       [ "openm::TableAccRowAdapter", "classopenm_1_1_table_acc_row_adapter.html", null ],
       [ "openm::TableAccTxtRowAdapter", "classopenm_1_1_table_acc_txt_row_adapter.html", null ],
       [ "openm::TableDicRowAdapter", "classopenm_1_1_table_dic_row_adapter.html", null ],
@@ -350,11 +367,6 @@ var hierarchy =
       ] ],
       [ "openm::IMetaRow< TaskLstRow >", "structopenm_1_1_i_meta_row.html", [
         [ "openm::TaskLstRow", "structopenm_1_1_task_lst_row.html", null ]
-      ] ],
-      [ "openm::IMetaRow< RunParamTxtRow >", "structopenm_1_1_i_meta_row.html", [
-        [ "openm::RunParamTxtRow", "structopenm_1_1_run_param_txt_row.html", [
-          [ "openm::RunParamTxtLangRow", "structopenm_1_1_run_param_txt_lang_row.html", null ]
-        ] ]
       ] ],
       [ "openm::IMetaRow< WorksetParamTxtRow >", "structopenm_1_1_i_meta_row.html", [
         [ "openm::WorksetParamTxtRow", "structopenm_1_1_workset_param_txt_row.html", [
@@ -408,6 +420,14 @@ var hierarchy =
       [ "openm::IMetaRow< ProfileOptionRow >", "structopenm_1_1_i_meta_row.html", [
         [ "openm::ProfileOptionRow", "structopenm_1_1_profile_option_row.html", null ]
       ] ],
+      [ "openm::IMetaRow< EntityDicRow >", "structopenm_1_1_i_meta_row.html", [
+        [ "openm::EntityDicRow", "structopenm_1_1_entity_dic_row.html", null ]
+      ] ],
+      [ "openm::IMetaRow< EntityAttrTxtRow >", "structopenm_1_1_i_meta_row.html", [
+        [ "openm::EntityAttrTxtRow", "structopenm_1_1_entity_attr_txt_row.html", [
+          [ "openm::EntityAttrTxtLangRow", "structopenm_1_1_entity_attr_txt_lang_row.html", null ]
+        ] ]
+      ] ],
       [ "openm::IMetaRow< TypeDicTxtRow >", "structopenm_1_1_i_meta_row.html", [
         [ "openm::TypeDicTxtRow", "structopenm_1_1_type_dic_txt_row.html", [
           [ "openm::TypeDicTxtLangRow", "structopenm_1_1_type_dic_txt_lang_row.html", null ]
@@ -415,6 +435,14 @@ var hierarchy =
       ] ],
       [ "openm::IMetaRow< TableDimsRow >", "structopenm_1_1_i_meta_row.html", [
         [ "openm::TableDimsRow", "structopenm_1_1_table_dims_row.html", null ]
+      ] ],
+      [ "openm::IMetaRow< EntityDicTxtRow >", "structopenm_1_1_i_meta_row.html", [
+        [ "openm::EntityDicTxtRow", "structopenm_1_1_entity_dic_txt_row.html", [
+          [ "openm::EntityDicTxtLangRow", "structopenm_1_1_entity_dic_txt_lang_row.html", null ]
+        ] ]
+      ] ],
+      [ "openm::IMetaRow< EntityAttrRow >", "structopenm_1_1_i_meta_row.html", [
+        [ "openm::EntityAttrRow", "structopenm_1_1_entity_attr_row.html", null ]
       ] ],
       [ "openm::IMetaRow< TableAccRow >", "structopenm_1_1_i_meta_row.html", [
         [ "openm::TableAccRow", "structopenm_1_1_table_acc_row.html", null ]
@@ -431,9 +459,6 @@ var hierarchy =
         [ "openm::TableExprTxtRow", "structopenm_1_1_table_expr_txt_row.html", [
           [ "openm::TableExprTxtLangRow", "structopenm_1_1_table_expr_txt_lang_row.html", null ]
         ] ]
-      ] ],
-      [ "openm::IMetaRow< RunTxtRow >", "structopenm_1_1_i_meta_row.html", [
-        [ "openm::RunTxtRow", "structopenm_1_1_run_txt_row.html", null ]
       ] ],
       [ "openm::IMetaRow< ParamDimsRow >", "structopenm_1_1_i_meta_row.html", [
         [ "openm::ParamDimsRow", "structopenm_1_1_param_dims_row.html", null ]
@@ -506,6 +531,10 @@ var hierarchy =
       [ "openm::ValueRowDigester", "classopenm_1_1_value_row_digester.html", null ],
       [ "openm::ValueRowSparseSetter", "classopenm_1_1_value_row_sparse_setter.html", null ]
     ] ],
+    [ "openm::RunController::IRowsFirstNext", "structopenm_1_1_run_controller_1_1_i_rows_first_next.html", [
+      [ "openm::RunController::BytesFirstNext", "structopenm_1_1_run_controller_1_1_bytes_first_next.html", null ],
+      [ "openm::RunController::ListFirstNext", "structopenm_1_1_run_controller_1_1_list_first_next.html", null ]
+    ] ],
     [ "openm::IRunOptions", "structopenm_1_1_i_run_options.html", [
       [ "openm::IRunBase", "structopenm_1_1_i_run_base.html", [
         [ "openm::RunController", "classopenm_1_1_run_controller.html", [
@@ -524,7 +553,7 @@ var hierarchy =
       [ "Utf8CopyConverter", "class_utf8_copy_converter.html", null ]
     ] ],
     [ "openm::IValueFormatter", "classopenm_1_1_i_value_formatter.html", [
-      [ "openm::ValueFormatter", "classopenm_1_1_value_formatter.html", null ]
+      [ "openm::ValueFormatterBase< valueLen >", "classopenm_1_1_value_formatter_base.html", null ]
     ] ],
     [ "openm::LessNoCase", "structopenm_1_1_less_no_case.html", null ],
     [ "LevelDef", "struct_level_def.html", null ],

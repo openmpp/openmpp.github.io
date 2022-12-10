@@ -13,6 +13,7 @@ var class_attribute_symbol =
     [ "is_maintained", "class_attribute_symbol.html#a391c3215ac583a83ff01d5fabcecd232", null ],
     [ "is_valid_comparison", "class_attribute_symbol.html#a847576ed566fee51f19feb9434b588c7", null ],
     [ "post_parse", "class_attribute_symbol.html#ad9938ffc2a43192f0a3ae984e478f2f2", null ],
+    [ "is_generated", "class_attribute_symbol.html#a14812f8b90ea18df2c618a8ec798102b", null ],
     [ "is_time_like", "class_attribute_symbol.html#a717a9d5fcdd547eb68480844e31b459b", null ],
     [ "lagged", "class_attribute_symbol.html#af07e28b33fd4d1b70cc1a1832f8bc064", null ],
     [ "lagged_event_counter", "class_attribute_symbol.html#ab7a8cbac735b21a973bfcfcc07e8171b", null ],

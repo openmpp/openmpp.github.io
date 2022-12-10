@@ -1,10 +1,109 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structopenm_1_1_i_run_options.html" title="public interface to get model run options" alt="" coords="5,56,160,83"/>
-<area shape="rect" id="node2" href="$structopenm_1_1_i_run_base.html" title="public interface to initialize model run and input parameters" alt="" coords="216,56,352,83"/>
-<area shape="rect" id="node3" href="$classopenm_1_1_run_controller.html" title="run controller: create new model run(s) and support data exchange." alt="" coords="408,81,572,108"/>
-<area shape="rect" id="node4" href="$classopenm_1_1_child_controller.html" title="controller for child process: receive input parameters from root and send output tables." alt="" coords="627,5,799,32"/>
-<area shape="rect" id="node5" href="$classopenm_1_1_restart_controller.html" title="controller for &quot;restart run&quot;: calculate outstanding sub&#45;values for existing run" alt="" coords="620,56,807,83"/>
-<area shape="rect" id="node6" href="$classopenm_1_1_root_controller.html" title="controller for root process: create new model run(s), send input parameters to children and receieve ..." alt="" coords="629,107,798,133"/>
-<area shape="rect" id="node7" href="$classopenm_1_1_single_controller.html" title="controller for single process: create new model run(s), read input parameters and write output tables..." alt="" coords="624,157,803,184"/>
-<area shape="rect" id="node8" href="$classopenm_1_1_meta_loader.html" title="model metadata loader: read and broadcast metadata and run options." alt="" coords="208,107,360,133"/>
+<area shape="rect" id="node1" href="$structopenm_1_1_i_row_base.html" title="db&#45;row abstract base" alt="" coords="5,1470,144,1497"/>
+<area shape="rect" id="node2" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="209,5,417,47"/>
+<area shape="rect" id="node4" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="208,71,419,112"/>
+<area shape="rect" id="node6" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="212,136,415,177"/>
+<area shape="rect" id="node8" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="209,201,417,243"/>
+<area shape="rect" id="node11" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="209,267,418,308"/>
+<area shape="rect" id="node13" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="204,332,423,373"/>
+<area shape="rect" id="node15" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="205,397,422,439"/>
+<area shape="rect" id="node18" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="211,463,416,504"/>
+<area shape="rect" id="node20" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="192,529,435,555"/>
+<area shape="rect" id="node22" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="207,580,420,621"/>
+<area shape="rect" id="node24" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="204,645,423,687"/>
+<area shape="rect" id="node26" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="208,711,419,752"/>
+<area shape="rect" id="node29" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="210,776,417,817"/>
+<area shape="rect" id="node31" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="202,841,425,883"/>
+<area shape="rect" id="node34" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="207,907,419,948"/>
+<area shape="rect" id="node37" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="202,972,425,1013"/>
+<area shape="rect" id="node39" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="215,1037,411,1079"/>
+<area shape="rect" id="node41" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="206,1103,421,1144"/>
+<area shape="rect" id="node43" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="205,1168,422,1209"/>
+<area shape="rect" id="node46" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="210,1233,417,1275"/>
+<area shape="rect" id="node49" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="202,1299,425,1340"/>
+<area shape="rect" id="node51" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="206,1364,421,1405"/>
+<area shape="rect" id="node54" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="205,1429,422,1471"/>
+<area shape="rect" id="node56" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="207,1495,419,1536"/>
+<area shape="rect" id="node58" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="205,1560,421,1601"/>
+<area shape="rect" id="node61" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="209,1625,418,1667"/>
+<area shape="rect" id="node63" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="204,1691,423,1732"/>
+<area shape="rect" id="node66" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="198,1756,429,1797"/>
+<area shape="rect" id="node68" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="206,1821,421,1863"/>
+<area shape="rect" id="node71" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="209,1887,417,1928"/>
+<area shape="rect" id="node73" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="205,1952,421,1993"/>
+<area shape="rect" id="node76" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="201,2017,425,2059"/>
+<area shape="rect" id="node78" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="209,2083,417,2124"/>
+<area shape="rect" id="node81" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="202,2148,425,2189"/>
+<area shape="rect" id="node84" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="215,2213,411,2255"/>
+<area shape="rect" id="node86" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="194,2279,433,2320"/>
+<area shape="rect" id="node88" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="211,2344,416,2385"/>
+<area shape="rect" id="node91" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="198,2409,429,2451"/>
+<area shape="rect" id="node94" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="211,2475,416,2516"/>
+<area shape="rect" id="node96" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="209,2540,418,2581"/>
+<area shape="rect" id="node98" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="205,2605,422,2647"/>
+<area shape="rect" id="node100" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="202,2671,425,2712"/>
+<area shape="rect" id="node102" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="199,2736,427,2777"/>
+<area shape="rect" id="node105" href="$structopenm_1_1_i_meta_row.html" title="base class for model metadata db&#45;rows" alt="" coords="210,2802,417,2829"/>
+<area shape="rect" id="node106" href="$structopenm_1_1_run_state_item.html" title="run state data for sub&#45;value identified by run id and sub&#45;value id" alt="" coords="231,2853,395,2879"/>
+<area shape="rect" id="node107" href="$structopenm_1_1_value_row.html" title="value table row: parameter, accumulators or expression tables" alt="" coords="244,2903,383,2930"/>
+<area shape="rect" id="node3" href="$structopenm_1_1_workset_lst_row.html" title="workset_lst table row." alt="" coords="505,13,679,39"/>
+<area shape="rect" id="node5" href="$structopenm_1_1_table_dic_row.html" title="table_dic table row." alt="" coords="513,78,671,105"/>
+<area shape="rect" id="node7" href="$structopenm_1_1_task_lst_row.html" title="task_lst table row." alt="" coords="517,143,667,170"/>
+<area shape="rect" id="node9" href="$structopenm_1_1_workset_param_txt_row.html" title="workset_parameter_txt join to model_parameter_dic table row." alt="" coords="483,209,701,235"/>
+<area shape="rect" id="node10" href="$structopenm_1_1_workset_param_txt_lang_row.html" title="workset_parameter_txt table row and language code." alt="" coords="749,209,999,235"/>
+<area shape="rect" id="node12" href="$structopenm_1_1_task_run_lst_row.html" title="task_run_lst table row." alt="" coords="504,274,680,301"/>
+<area shape="rect" id="node14" href="$structopenm_1_1_table_expr_row.html" title="table_expr table row." alt="" coords="509,339,675,366"/>
+<area shape="rect" id="node16" href="$structopenm_1_1_param_dic_txt_row.html" title="parameter_dic_txt join to model_parameter_dic table row." alt="" coords="499,405,685,431"/>
+<area shape="rect" id="node17" href="$structopenm_1_1_param_dic_txt_lang_row.html" title="parameter_dic_txt join to model_parameter_dic table row and language code." alt="" coords="765,405,983,431"/>
+<area shape="rect" id="node19" href="$structopenm_1_1_lang_lst_row.html" title="lang_lst table row." alt="" coords="515,470,669,497"/>
+<area shape="rect" id="node21" href="$structopenm_1_1_run_lst_row.html" title="run_lst table row." alt="" coords="519,529,665,555"/>
+<area shape="rect" id="node23" href="$structopenm_1_1_group_lst_row.html" title="group_lst table row." alt="" coords="511,587,673,614"/>
+<area shape="rect" id="node25" href="$structopenm_1_1_lang_word_row.html" title="lang_word table row." alt="" coords="509,653,675,679"/>
+<area shape="rect" id="node27" href="$structopenm_1_1_table_dic_txt_row.html" title="table_dic_txt table row." alt="" coords="503,718,681,745"/>
+<area shape="rect" id="node28" href="$structopenm_1_1_table_dic_txt_lang_row.html" title="table_dic_txt table row and language code." alt="" coords="769,718,979,745"/>
+<area shape="rect" id="node30" href="$structopenm_1_1_type_dic_row.html" title="type_dic join to model_type_dic table row." alt="" coords="515,783,669,810"/>
+<area shape="rect" id="node32" href="$structopenm_1_1_table_dims_txt_row.html" title="table_dims_txt table row." alt="" coords="496,849,688,875"/>
+<area shape="rect" id="node33" href="$structopenm_1_1_table_dims_txt_lang_row.html" title="table_dims_txt table row and language code." alt="" coords="763,849,985,875"/>
+<area shape="rect" id="node35" href="$structopenm_1_1_table_acc_txt_row.html" title="table_acc_txt table row." alt="" coords="501,914,683,941"/>
+<area shape="rect" id="node36" href="$structopenm_1_1_table_acc_txt_lang_row.html" title="table_acc_txt table row and language code." alt="" coords="768,914,980,941"/>
+<area shape="rect" id="node38" href="$structopenm_1_1_run_option_row.html" title="run_option table row." alt="" coords="507,979,677,1006"/>
+<area shape="rect" id="node40" href="$structopenm_1_1_profile_option_row.html" title="profile_option table row." alt="" coords="499,1045,685,1071"/>
+<area shape="rect" id="node42" href="$structopenm_1_1_entity_dic_row.html" title="entity_dic table row." alt="" coords="511,1110,673,1137"/>
+<area shape="rect" id="node44" href="$structopenm_1_1_entity_attr_txt_row.html" title="entity_attr_txt table row." alt="" coords="499,1175,685,1202"/>
+<area shape="rect" id="node45" href="$structopenm_1_1_entity_attr_txt_lang_row.html" title="entity_attr_txt table row and language code." alt="" coords="765,1175,983,1202"/>
+<area shape="rect" id="node47" href="$structopenm_1_1_type_dic_txt_row.html" title="type_dic_txt join to model_type_dic table row." alt="" coords="505,1241,679,1267"/>
+<area shape="rect" id="node48" href="$structopenm_1_1_type_dic_txt_lang_row.html" title="type_dic_txt join to model_type_dic table row and language code." alt="" coords="771,1241,977,1267"/>
+<area shape="rect" id="node50" href="$structopenm_1_1_table_dims_row.html" title="table_dims table row." alt="" coords="507,1306,677,1333"/>
+<area shape="rect" id="node52" href="$structopenm_1_1_entity_dic_txt_row.html" title="entity_dic_txt table row." alt="" coords="501,1371,683,1398"/>
+<area shape="rect" id="node53" href="$structopenm_1_1_entity_dic_txt_lang_row.html" title="entity_dic_txt table row and language code." alt="" coords="767,1371,981,1398"/>
+<area shape="rect" id="node55" href="$structopenm_1_1_entity_attr_row.html" title="entity_attr table row." alt="" coords="509,1437,675,1463"/>
+<area shape="rect" id="node57" href="$structopenm_1_1_table_acc_row.html" title="table_acc table row." alt="" coords="512,1502,672,1529"/>
+<area shape="rect" id="node59" href="$structopenm_1_1_model_dic_txt_row.html" title="model_dic_txt table row." alt="" coords="499,1567,685,1594"/>
+<area shape="rect" id="node60" href="$structopenm_1_1_model_dic_txt_lang_row.html" title="model_dic_txt table row and language code." alt="" coords="766,1567,982,1594"/>
+<area shape="rect" id="node62" href="$structopenm_1_1_group_pc_row.html" title="group_pc table row." alt="" coords="513,1633,671,1659"/>
+<area shape="rect" id="node64" href="$structopenm_1_1_table_expr_txt_row.html" title="table_expr_txt table row." alt="" coords="499,1698,685,1725"/>
+<area shape="rect" id="node65" href="$structopenm_1_1_table_expr_txt_lang_row.html" title="table_expr_txt table row and language code." alt="" coords="765,1698,983,1725"/>
+<area shape="rect" id="node67" href="$structopenm_1_1_param_dims_row.html" title="parameter_dims join to model_parameter_dic table row." alt="" coords="503,1763,681,1790"/>
+<area shape="rect" id="node69" href="$structopenm_1_1_group_txt_row.html" title="group_txt table row." alt="" coords="511,1829,673,1855"/>
+<area shape="rect" id="node70" href="$structopenm_1_1_group_txt_lang_row.html" title="group_txt table row and language code." alt="" coords="777,1829,971,1855"/>
+<area shape="rect" id="node72" href="$structopenm_1_1_workset_param_row.html" title="workset_parameter join to model_parameter_dic table row." alt="" coords="493,1894,691,1921"/>
+<area shape="rect" id="node74" href="$structopenm_1_1_model_dic_row.html" title="model_dic table row." alt="" coords="510,1959,674,1986"/>
+<area shape="rect" id="node75" href="$structopenm_1_1_model_dic_lang_row.html" title="model_dic table row and default model language code." alt="" coords="777,1959,971,1986"/>
+<area shape="rect" id="node77" href="$structopenm_1_1_code_value_row.html" title="generic two string columns: (code, value) table row." alt="" coords="506,2025,678,2051"/>
+<area shape="rect" id="node79" href="$structopenm_1_1_workset_txt_row.html" title="workset_txt table row." alt="" coords="503,2090,681,2117"/>
+<area shape="rect" id="node80" href="$structopenm_1_1_workset_txt_lang_row.html" title="workset_txt table row and language code." alt="" coords="770,2090,978,2117"/>
+<area shape="rect" id="node82" href="$structopenm_1_1_type_enum_txt_row.html" title="type_enum_txt join to model_type_dic table row." alt="" coords="497,2155,687,2182"/>
+<area shape="rect" id="node83" href="$structopenm_1_1_type_enum_txt_lang_row.html" title="type_enum_txt join to model_type_dic table row and language code." alt="" coords="763,2155,985,2182"/>
+<area shape="rect" id="node85" href="$structopenm_1_1_profile_lst_row.html" title="profile_lst table row." alt="" coords="511,2221,673,2247"/>
+<area shape="rect" id="node87" href="$structopenm_1_1_param_import_row.html" title="parameter_dic join to model_parameter_import table row." alt="" coords="499,2286,685,2313"/>
+<area shape="rect" id="node89" href="$structopenm_1_1_task_txt_row.html" title="task_txt table row." alt="" coords="515,2351,669,2378"/>
+<area shape="rect" id="node90" href="$structopenm_1_1_task_txt_lang_row.html" title="task_txt table row and language code." alt="" coords="782,2351,966,2378"/>
+<area shape="rect" id="node92" href="$structopenm_1_1_param_dims_txt_row.html" title="parameter_dims_txt join to model_parameter_dic table row." alt="" coords="493,2417,691,2443"/>
+<area shape="rect" id="node93" href="$structopenm_1_1_param_dims_txt_lang_row.html" title="parameter_dims_txt table row and language code." alt="" coords="759,2417,989,2443"/>
+<area shape="rect" id="node95" href="$structopenm_1_1_task_set_row.html" title="task_set table row." alt="" coords="515,2482,669,2509"/>
+<area shape="rect" id="node97" href="$structopenm_1_1_task_run_set_row.html" title="task_run_set table row." alt="" coords="503,2547,681,2574"/>
+<area shape="rect" id="node99" href="$structopenm_1_1_param_dic_row.html" title="parameter_dic join to model_parameter_dic table row." alt="" coords="509,2613,675,2639"/>
+<area shape="rect" id="node101" href="$structopenm_1_1_type_enum_lst_row.html" title="type_enum_lst join to model_type_dic table row." alt="" coords="497,2678,687,2705"/>
+<area shape="rect" id="node103" href="$structopenm_1_1_model_word_row.html" title="model_word table row." alt="" coords="504,2743,680,2770"/>
+<area shape="rect" id="node104" href="$structopenm_1_1_model_word_lang_row.html" title="model_word table row and language code." alt="" coords="771,2743,977,2770"/>
 </map>

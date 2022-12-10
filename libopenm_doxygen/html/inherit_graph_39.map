@@ -1,44 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classopenm_1_1_i_row_adapter.html" title="row factory and setter interface to select row from database" alt="" coords="5,1019,164,1045"/>
-<area shape="rect" id="node2" href="$classopenm_1_1_group_lst_row_adapter.html" title=" " alt="" coords="231,5,443,32"/>
-<area shape="rect" id="node3" href="$classopenm_1_1_group_pc_row_adapter.html" title=" " alt="" coords="233,56,441,83"/>
-<area shape="rect" id="node4" href="$classopenm_1_1_group_txt_row_adapter.html" title=" " alt="" coords="230,107,445,133"/>
-<area shape="rect" id="node5" href="$classopenm_1_1_lang_lst_row_adapter.html" title=" " alt="" coords="235,157,439,184"/>
-<area shape="rect" id="node6" href="$classopenm_1_1_lang_word_row_adapter.html" title=" " alt="" coords="228,208,447,235"/>
-<area shape="rect" id="node7" href="$classopenm_1_1_model_dic_row_adapter.html" title=" " alt="" coords="230,259,445,285"/>
-<area shape="rect" id="node8" href="$classopenm_1_1_model_dic_txt_row_adapter.html" title=" " alt="" coords="219,309,455,336"/>
-<area shape="rect" id="node9" href="$classopenm_1_1_model_word_row_adapter.html" title=" " alt="" coords="224,360,451,387"/>
-<area shape="rect" id="node10" href="$classopenm_1_1_param_dic_row_adapter.html" title=" " alt="" coords="229,411,445,437"/>
-<area shape="rect" id="node11" href="$classopenm_1_1_param_dic_txt_row_adapter.html" title=" " alt="" coords="219,461,456,488"/>
-<area shape="rect" id="node12" href="$classopenm_1_1_param_dims_row_adapter.html" title=" " alt="" coords="223,512,452,539"/>
-<area shape="rect" id="node13" href="$classopenm_1_1_param_dims_txt_row_adapter.html" title=" " alt="" coords="212,563,463,589"/>
-<area shape="rect" id="node14" href="$classopenm_1_1_param_import_row_adapter.html" title=" " alt="" coords="218,613,457,640"/>
-<area shape="rect" id="node15" href="$classopenm_1_1_profile_lst_row_adapter.html" title=" " alt="" coords="230,664,445,691"/>
-<area shape="rect" id="node16" href="$classopenm_1_1_profile_option_row_adapter.html" title=" " alt="" coords="218,715,457,741"/>
-<area shape="rect" id="node17" href="$classopenm_1_1_run_lst_row_adapter.html" title=" " alt="" coords="238,765,437,792"/>
-<area shape="rect" id="node18" href="$classopenm_1_1_run_option_row_adapter.html" title=" " alt="" coords="226,816,449,843"/>
-<area shape="rect" id="node19" href="$classopenm_1_1_run_param_txt_row_adapter.html" title=" " alt="" coords="217,867,458,893"/>
-<area shape="rect" id="node20" href="$classopenm_1_1_run_txt_row_adapter.html" title=" " alt="" coords="237,917,437,944"/>
-<area shape="rect" id="node21" href="$classopenm_1_1_table_acc_row_adapter.html" title=" " alt="" coords="232,968,443,995"/>
-<area shape="rect" id="node22" href="$classopenm_1_1_table_acc_txt_row_adapter.html" title=" " alt="" coords="221,1019,453,1045"/>
-<area shape="rect" id="node23" href="$classopenm_1_1_table_dic_row_adapter.html" title=" " alt="" coords="233,1069,442,1096"/>
-<area shape="rect" id="node24" href="$classopenm_1_1_table_dic_txt_row_adapter.html" title=" " alt="" coords="222,1120,453,1147"/>
-<area shape="rect" id="node25" href="$classopenm_1_1_table_dims_row_adapter.html" title=" " alt="" coords="226,1171,449,1197"/>
-<area shape="rect" id="node26" href="$classopenm_1_1_table_dims_txt_row_adapter.html" title=" " alt="" coords="216,1221,459,1248"/>
-<area shape="rect" id="node27" href="$classopenm_1_1_table_expr_row_adapter.html" title=" " alt="" coords="229,1272,446,1299"/>
-<area shape="rect" id="node28" href="$classopenm_1_1_table_expr_txt_row_adapter.html" title=" " alt="" coords="218,1323,457,1349"/>
-<area shape="rect" id="node29" href="$classopenm_1_1_task_lst_row_adapter.html" title=" " alt="" coords="236,1373,439,1400"/>
-<area shape="rect" id="node30" href="$classopenm_1_1_task_run_lst_row_adapter.html" title=" " alt="" coords="224,1424,451,1451"/>
-<area shape="rect" id="node31" href="$classopenm_1_1_task_run_set_row_adapter.html" title=" " alt="" coords="223,1475,452,1501"/>
-<area shape="rect" id="node32" href="$classopenm_1_1_task_set_row_adapter.html" title=" " alt="" coords="235,1525,439,1552"/>
-<area shape="rect" id="node33" href="$classopenm_1_1_task_txt_row_adapter.html" title=" " alt="" coords="235,1576,439,1603"/>
-<area shape="rect" id="node34" href="$classopenm_1_1_type_dic_row_adapter.html" title=" " alt="" coords="235,1627,440,1653"/>
-<area shape="rect" id="node35" href="$classopenm_1_1_type_dic_txt_row_adapter.html" title=" " alt="" coords="224,1677,451,1704"/>
-<area shape="rect" id="node36" href="$classopenm_1_1_type_enum_lst_row_adapter.html" title=" " alt="" coords="217,1728,457,1755"/>
-<area shape="rect" id="node37" href="$classopenm_1_1_type_enum_txt_row_adapter.html" title=" " alt="" coords="216,1779,459,1805"/>
-<area shape="rect" id="node38" href="$classopenm_1_1_value_row_adapter.html" title="Row adapter to select row from value table (parameter, accumulator or expression)" alt="" coords="242,1829,433,1856"/>
-<area shape="rect" id="node39" href="$classopenm_1_1_workset_lst_row_adapter.html" title=" " alt="" coords="224,1880,451,1907"/>
-<area shape="rect" id="node40" href="$classopenm_1_1_workset_param_row_adapter.html" title=" " alt="" coords="213,1931,461,1957"/>
-<area shape="rect" id="node41" href="$classopenm_1_1_workset_param_txt_row_adapter.html" title=" " alt="" coords="228,1982,447,2023"/>
-<area shape="rect" id="node42" href="$classopenm_1_1_workset_txt_row_adapter.html" title=" " alt="" coords="223,2048,451,2075"/>
+<area shape="rect" id="node1" href="$structopenm_1_1_i_parameter_reader.html" title="input parameter reader public interface" alt="" coords="5,5,197,32"/>
+<area shape="rect" id="node2" href="$classopenm_1_1_parameter_reader.html" title=" " alt="" coords="245,5,433,32"/>
 </map>

@@ -108,9 +108,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ad12342b21aeefd625aa4e926f7c589e1"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_mpi_packed.html#ad12342b21aeefd625aa4e926f7c589e1">unpackStr</a> (int i_packedSize, void *i_packedData, int &amp;io_packPos)</td></tr>
 <tr class="memdesc:ad12342b21aeefd625aa4e926f7c589e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">MPI_Unpack string from data buffer at i_packPos position and return the string.  <a href="classopenm_1_1_mpi_packed.html#ad12342b21aeefd625aa4e926f7c589e1">More...</a><br /></td></tr>
 <tr class="separator:ad12342b21aeefd625aa4e926f7c589e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac990baef61647c2c08da9119997d40a8"><td class="memItemLeft" align="right" valign="top">static unique_ptr&lt; char &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_mpi_packed.html#ac990baef61647c2c08da9119997d40a8">packArray</a> (const type_info &amp;i_type, size_t i_size, void *i_valueArr)</td></tr>
-<tr class="memdesc:ac990baef61647c2c08da9119997d40a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">return an MPI_Pack'ed copy of source array.  <a href="classopenm_1_1_mpi_packed.html#ac990baef61647c2c08da9119997d40a8">More...</a><br /></td></tr>
-<tr class="separator:ac990baef61647c2c08da9119997d40a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd2656b88db98362701578ee607e08c1"><td class="memItemLeft" align="right" valign="top">static unique_ptr&lt; uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_mpi_packed.html#abd2656b88db98362701578ee607e08c1">packArray</a> (const type_info &amp;i_type, size_t i_size, void *i_valueArr)</td></tr>
+<tr class="memdesc:abd2656b88db98362701578ee607e08c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">return an MPI_Pack'ed copy of source array.  <a href="classopenm_1_1_mpi_packed.html#abd2656b88db98362701578ee607e08c1">More...</a><br /></td></tr>
+<tr class="separator:abd2656b88db98362701578ee607e08c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7b187b6a2db0deeae783279ea744fe9"><td class="memItemLeft" align="right" valign="top">static unique_ptr&lt; char &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_mpi_packed.html#ab7b187b6a2db0deeae783279ea744fe9">packArray</a> (size_t i_size, const string *i_valueArr)</td></tr>
 <tr class="memdesc:ab7b187b6a2db0deeae783279ea744fe9"><td class="mdescLeft">&#160;</td><td class="mdescRight">return an MPI_Pack'ed copy of source string array.  <a href="classopenm_1_1_mpi_packed.html#ab7b187b6a2db0deeae783279ea744fe9">More...</a><br /></td></tr>
 <tr class="separator:ab7b187b6a2db0deeae783279ea744fe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -262,8 +262,8 @@ template&lt;typename TVal &gt; </div>
 
 </div>
 </div>
-<a id="ac990baef61647c2c08da9119997d40a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac990baef61647c2c08da9119997d40a8">&#9670;&nbsp;</a></span>packArray() <span class="overload">[1/2]</span></h2>
+<a id="abd2656b88db98362701578ee607e08c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd2656b88db98362701578ee607e08c1">&#9670;&nbsp;</a></span>packArray() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -272,7 +272,7 @@ template&lt;typename TVal &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unique_ptr&lt; char &gt; MpiPacked::packArray </td>
+          <td class="memname">unique_ptr&lt; uint8_t &gt; MpiPacked::packArray </td>
           <td>(</td>
           <td class="paramtype">const type_info &amp;&#160;</td>
           <td class="paramname"><em>i_type</em>, </td>
@@ -735,7 +735,7 @@ template&lt;typename TVal &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceopenm.html">openm</a></li><li class="navelem"><a class="el" href="classopenm_1_1_mpi_packed.html">MpiPacked</a></li>
-    <li class="footer">Generated on Fri Sep 23 2022 01:54:11 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sat Dec 10 2022 01:59:37 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

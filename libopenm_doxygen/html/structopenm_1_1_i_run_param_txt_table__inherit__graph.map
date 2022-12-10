@@ -1,6 +1,0 @@
-<map id="openm::IRunParamTxtTable" name="openm::IRunParamTxtTable">
-<area shape="rect" id="node1" title="run_parameter_txt table public interface." alt="" coords="5,184,205,211"/>
-<area shape="rect" id="node4" href="$classopenm_1_1_run_param_txt_table.html" title=" " alt="" coords="7,259,203,285"/>
-<area shape="rect" id="node2" href="$structopenm_1_1_i_meta_loaded_table.html" title=" " alt="" coords="9,95,202,136"/>
-<area shape="rect" id="node3" href="$structopenm_1_1_i_meta_table.html" title="base class for metadata db&#45;tables" alt="" coords="27,5,184,47"/>
-</map>

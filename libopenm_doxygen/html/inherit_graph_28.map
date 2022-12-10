@@ -1,4 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structopenm_1_1_i_model_builder.html" title="public interface to build model creation script from metadata rows." alt="" coords="5,5,171,32"/>
-<area shape="rect" id="node2" href="$classopenm_1_1_model_sql_builder.html" title="class to build model creation sql from metadata rows." alt="" coords="219,5,400,32"/>
+<area shape="rect" id="node1" href="$structopenm_1_1_i_meta_table.html" title=" " alt="" coords="5,5,163,47"/>
+<area shape="rect" id="node2" href="$structopenm_1_1_i_workset_txt_table.html" title="workset_txt table public interface." alt="" coords="211,13,397,39"/>
+<area shape="rect" id="node3" href="$classopenm_1_1_workset_txt_table.html" title=" " alt="" coords="445,13,628,39"/>
 </map>

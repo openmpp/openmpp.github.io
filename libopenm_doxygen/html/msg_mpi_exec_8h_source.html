@@ -164,7 +164,7 @@ $(document).ready(function(){initNavTree('msg_mpi_exec_8h_source.html',''); init
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;}</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160; </div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="preprocessor">#endif  </span><span class="comment">// MSG_MPI_EXEC_H</span></div>
-<div class="ttc" id="aclassopenm_1_1_i_msg_exec_html"><div class="ttname"><a href="classopenm_1_1_i_msg_exec.html">openm::IMsgExec</a></div><div class="ttdoc">public interface for message passing</div><div class="ttdef"><b>Definition:</b> msg.h:126</div></div>
+<div class="ttc" id="aclassopenm_1_1_i_msg_exec_html"><div class="ttname"><a href="classopenm_1_1_i_msg_exec.html">openm::IMsgExec</a></div><div class="ttdoc">public interface for message passing</div><div class="ttdef"><b>Definition:</b> msg.h:138</div></div>
 <div class="ttc" id="aclassopenm_1_1_mpi_exec_html"><div class="ttname"><a href="classopenm_1_1_mpi_exec.html">openm::MpiExec</a></div><div class="ttdoc">message passing library main class for MPI-based implementation</div><div class="ttdef"><b>Definition:</b> msgMpiExec.h:23</div></div>
 <div class="ttc" id="aclassopenm_1_1_mpi_exec_html_a01cc2050bee8a52f5e0044d5239e9f81"><div class="ttname"><a href="classopenm_1_1_mpi_exec.html#a01cc2050bee8a52f5e0044d5239e9f81">openm::MpiExec::tryReceive</a></div><div class="ttdeci">bool tryReceive(int i_recvFrom, MsgTag i_msgTag, const type_info &amp;i_type, size_t i_size, void *io_valueArr) const override</div><div class="ttdoc">try to non-blocking receive value array, return true if completed.</div><div class="ttdef"><b>Definition:</b> msgMpiExec.h:74</div></div>
 <div class="ttc" id="aclassopenm_1_1_mpi_exec_html_a093ea27f527f6377b3fb8e05a43f608a"><div class="ttname"><a href="classopenm_1_1_mpi_exec.html#a093ea27f527f6377b3fb8e05a43f608a">openm::MpiExec::waitSendAll</a></div><div class="ttdeci">void waitSendAll(void) override</div><div class="ttdoc">wait for non-blocking send to be completed.</div><div class="ttdef"><b>Definition:</b> msgMpiExec.h:78</div></div>
@@ -182,16 +182,16 @@ $(document).ready(function(){initNavTree('msg_mpi_exec_8h_source.html',''); init
 <div class="ttc" id="amsg_mpi_send_8h_html"><div class="ttname"><a href="msg_mpi_send_8h.html">msgMpiSend.h</a></div><div class="ttdoc">OpenM++ message passing library: sender class for MPI-based implementation.</div></div>
 <div class="ttc" id="anamespaceopenm_html"><div class="ttname"><a href="namespaceopenm.html">openm</a></div><div class="ttdoc">openM++ namespace</div><div class="ttdef"><b>Definition:</b> log.h:32</div></div>
 <div class="ttc" id="anamespaceopenm_html_a3bfbc1c842226a2cda27f3f2ad50df16"><div class="ttname"><a href="namespaceopenm.html#a3bfbc1c842226a2cda27f3f2ad50df16">openm::MsgTag</a></div><div class="ttdeci">MsgTag</div><div class="ttdoc">tag to identify message content</div><div class="ttdef"><b>Definition:</b> msg.h:29</div></div>
-<div class="ttc" id="anamespaceopenm_html_ae33ab59462c9f2ceef92d48c7fb449d0"><div class="ttname"><a href="namespaceopenm.html#ae33ab59462c9f2ceef92d48c7fb449d0">openm::IRowBaseVec</a></div><div class="ttdeci">std::vector&lt; IRowBaseUptr &gt; IRowBaseVec</div><div class="ttdoc">db rows: vector of unique pointers to db row</div><div class="ttdef"><b>Definition:</b> omHelper.h:203</div></div>
-<div class="ttc" id="astructopenm_1_1_i_final_state_html"><div class="ttname"><a href="structopenm_1_1_i_final_state.html">openm::IFinalState</a></div><div class="ttdoc">final model run state public interface: thread safe</div><div class="ttdef"><b>Definition:</b> omHelper.h:210</div></div>
-<div class="ttc" id="astructopenm_1_1_i_packed_adapter_html"><div class="ttname"><a href="structopenm_1_1_i_packed_adapter.html">openm::IPackedAdapter</a></div><div class="ttdoc">public interface to pack and unpack rows of metadata db-table</div><div class="ttdef"><b>Definition:</b> msg.h:87</div></div>
+<div class="ttc" id="anamespaceopenm_html_ae33ab59462c9f2ceef92d48c7fb449d0"><div class="ttname"><a href="namespaceopenm.html#ae33ab59462c9f2ceef92d48c7fb449d0">openm::IRowBaseVec</a></div><div class="ttdeci">std::vector&lt; IRowBaseUptr &gt; IRowBaseVec</div><div class="ttdoc">db rows: vector of unique pointers to db row</div><div class="ttdef"><b>Definition:</b> omHelper.h:241</div></div>
+<div class="ttc" id="astructopenm_1_1_i_final_state_html"><div class="ttname"><a href="structopenm_1_1_i_final_state.html">openm::IFinalState</a></div><div class="ttdoc">final model run state public interface: thread safe</div><div class="ttdef"><b>Definition:</b> omHelper.h:248</div></div>
+<div class="ttc" id="astructopenm_1_1_i_packed_adapter_html"><div class="ttname"><a href="structopenm_1_1_i_packed_adapter.html">openm::IPackedAdapter</a></div><div class="ttdoc">public interface to pack and unpack rows of metadata db-table</div><div class="ttdef"><b>Definition:</b> msg.h:99</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_e35c0210d1ab4017c62c855472c691fb.html">msg</a></li><li class="navelem"><a class="el" href="msg_mpi_exec_8h.html">msgMpiExec.h</a></li>
-    <li class="footer">Generated on Fri Sep 23 2022 01:54:11 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sat Dec 10 2022 01:59:36 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

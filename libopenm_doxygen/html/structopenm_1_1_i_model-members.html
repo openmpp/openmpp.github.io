@@ -95,6 +95,8 @@ $(document).ready(function(){initNavTree('structopenm_1_1_i_model.html',''); ini
   <tr class="even"><td class="entry"><a class="el" href="structopenm_1_1_i_model.html#ab20f27f643aa92bafeb662dd0db3cfc1">subValueId</a>(void) const noexcept=0</td><td class="entry"><a class="el" href="structopenm_1_1_i_model.html">openm::IModel</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="structopenm_1_1_i_model.html#a8e60fb5f2d1f277abfa1c7a9583423ae">tableIdByName</a>(const char *i_name) const =0</td><td class="entry"><a class="el" href="structopenm_1_1_i_model.html">openm::IModel</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="structopenm_1_1_i_model.html#a09e0bd55030837593f8f4bad57315036">updateProgress</a>(int i_count, double i_value=0.0)=0</td><td class="entry"><a class="el" href="structopenm_1_1_i_model.html">openm::IModel</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="structopenm_1_1_i_model.html#a67ba255222aae398b32de187325aed6a">writeCsvMicrodata</a>(int i_entityKind, uint64_t i_microdataKey, int i_eventId, bool i_isSameEntity, const void *i_entityThis)=0</td><td class="entry"><a class="el" href="structopenm_1_1_i_model.html">openm::IModel</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="structopenm_1_1_i_model.html#ad231d73ef047675e96d4d42f8ca28598">writeDbMicrodata</a>(int i_entityKind, uint64_t i_microdataKey, const void *i_entityThis)=0</td><td class="entry"><a class="el" href="structopenm_1_1_i_model.html">openm::IModel</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="structopenm_1_1_i_model.html#ac976dd576a395cb89516242c3f2add31">writeOutputTable</a>(const char *i_name, size_t i_size, std::forward_list&lt; std::unique_ptr&lt; double[]&gt; &gt; &amp;io_accValues)=0</td><td class="entry"><a class="el" href="structopenm_1_1_i_model.html">openm::IModel</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="structopenm_1_1_i_model.html#a7af33d6ed8fddbd90ab717f6f8ae6679">~IModel</a>(void) noexcept=0</td><td class="entry"><a class="el" href="structopenm_1_1_i_model.html">openm::IModel</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
 </table></div><!-- contents -->
@@ -102,7 +104,7 @@ $(document).ready(function(){initNavTree('structopenm_1_1_i_model.html',''); ini
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Sep 23 2022 01:54:11 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sat Dec 10 2022 01:59:37 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

@@ -9,5 +9,6 @@ var dir_5ddca90b2bfae5da637f3f9890c9c5cd =
       [ "IniFileReader", "classopenm_1_1_ini_file_reader.html", "classopenm_1_1_ini_file_reader" ]
     ] ],
     [ "omFile.h", "om_file_8h.html", "om_file_8h" ],
-    [ "omHelper.h", "om_helper_8h.html", "om_helper_8h" ]
+    [ "omHelper.h", "om_helper_8h.html", "om_helper_8h" ],
+    [ "xz_crc64.h", "xz__crc64_8h_source.html", null ]
 ];

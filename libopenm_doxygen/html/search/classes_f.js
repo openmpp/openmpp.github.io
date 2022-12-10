@@ -1,9 +1,6 @@
 var searchData=
 [
-  ['valuearray_1474',['ValueArray',['../structopenm_1_1_value_array.html',1,'openm']]],
-  ['valueformatter_1475',['ValueFormatter',['../classopenm_1_1_value_formatter.html',1,'openm']]],
-  ['valuerow_1476',['ValueRow',['../structopenm_1_1_value_row.html',1,'openm']]],
-  ['valuerowadapter_1477',['ValueRowAdapter',['../classopenm_1_1_value_row_adapter.html',1,'openm']]],
-  ['valuerowdigester_1478',['ValueRowDigester',['../classopenm_1_1_value_row_digester.html',1,'openm']]],
-  ['valuerowsparsesetter_1479',['ValueRowSparseSetter',['../classopenm_1_1_value_row_sparse_setter.html',1,'openm']]]
+  ['utf16bepageconverter_1602',['Utf16BePageConverter',['../class_utf16_be_page_converter.html',1,'']]],
+  ['utf16lepageconverter_1603',['Utf16LePageConverter',['../class_utf16_le_page_converter.html',1,'']]],
+  ['utf8copyconverter_1604',['Utf8CopyConverter',['../class_utf8_copy_converter.html',1,'']]]
 ];

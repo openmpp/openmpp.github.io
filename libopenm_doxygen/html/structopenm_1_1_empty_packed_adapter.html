@@ -120,13 +120,13 @@ Public Member Functions</h2></td></tr>
 <a class="el" href="namespaceopenm.html#a3bfbc1c842226a2cda27f3f2ad50df16">MsgTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_empty_packed_adapter.html#ae065442816ee7a9a46b35d0f98ca87c3">tag</a> (void) const noexcept override</td></tr>
 <tr class="memdesc:ae065442816ee7a9a46b35d0f98ca87c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">return message tag <br /></td></tr>
 <tr class="separator:ae065442816ee7a9a46b35d0f98ca87c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52c0f8ac570b775b8994b1fcac2a8393"><td class="memItemLeft" align="right" valign="top"><a id="a52c0f8ac570b775b8994b1fcac2a8393"></a>
-const vector&lt; char &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_empty_packed_adapter.html#a52c0f8ac570b775b8994b1fcac2a8393">pack</a> (const <a class="el" href="namespaceopenm.html#ae33ab59462c9f2ceef92d48c7fb449d0">IRowBaseVec</a> &amp;) const override</td></tr>
-<tr class="memdesc:a52c0f8ac570b775b8994b1fcac2a8393"><td class="mdescLeft">&#160;</td><td class="mdescRight">pack vector of db rows into char vector: return empty vector. <br /></td></tr>
-<tr class="separator:a52c0f8ac570b775b8994b1fcac2a8393"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2a6cd7f0735ef6de7b306e47edff094"><td class="memItemLeft" align="right" valign="top"><a id="ae2a6cd7f0735ef6de7b306e47edff094"></a>
+const vector&lt; uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_empty_packed_adapter.html#ae2a6cd7f0735ef6de7b306e47edff094">pack</a> (const <a class="el" href="namespaceopenm.html#ae33ab59462c9f2ceef92d48c7fb449d0">IRowBaseVec</a> &amp;) const override</td></tr>
+<tr class="memdesc:ae2a6cd7f0735ef6de7b306e47edff094"><td class="mdescLeft">&#160;</td><td class="mdescRight">pack vector of db rows into byte vector: return empty vector. <br /></td></tr>
+<tr class="separator:ae2a6cd7f0735ef6de7b306e47edff094"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88d6e80790ff97ef06227c09a4d22a2a"><td class="memItemLeft" align="right" valign="top"><a id="a88d6e80790ff97ef06227c09a4d22a2a"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_empty_packed_adapter.html#a88d6e80790ff97ef06227c09a4d22a2a">unpackTo</a> (int, void *, <a class="el" href="namespaceopenm.html#ae33ab59462c9f2ceef92d48c7fb449d0">IRowBaseVec</a> &amp;) const override</td></tr>
-<tr class="memdesc:a88d6e80790ff97ef06227c09a4d22a2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">unpack from char[] into vector of rows (does nothing). <br /></td></tr>
+<tr class="memdesc:a88d6e80790ff97ef06227c09a4d22a2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">unpack from byte[] into vector of rows (does nothing). <br /></td></tr>
 <tr class="separator:a88d6e80790ff97ef06227c09a4d22a2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
@@ -138,9 +138,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:add1d138feb43721abd20c6629941e8df inherit pub_static_methods_structopenm_1_1_i_packed_adapter"><td class="memItemLeft" align="right" valign="top">static size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_packed_adapter.html#add1d138feb43721abd20c6629941e8df">packedSize</a> (const type_info &amp;i_type, size_t i_size)</td></tr>
 <tr class="memdesc:add1d138feb43721abd20c6629941e8df inherit pub_static_methods_structopenm_1_1_i_packed_adapter"><td class="mdescLeft">&#160;</td><td class="mdescRight">return byte size to pack source array.  <a href="structopenm_1_1_i_packed_adapter.html#add1d138feb43721abd20c6629941e8df">More...</a><br /></td></tr>
 <tr class="separator:add1d138feb43721abd20c6629941e8df inherit pub_static_methods_structopenm_1_1_i_packed_adapter"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af93b1388b151ea6f3998058a0b061704 inherit pub_static_methods_structopenm_1_1_i_packed_adapter"><td class="memItemLeft" align="right" valign="top">static unique_ptr&lt; char &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_packed_adapter.html#af93b1388b151ea6f3998058a0b061704">packArray</a> (const type_info &amp;i_type, size_t i_size, void *i_valueArr)</td></tr>
-<tr class="memdesc:af93b1388b151ea6f3998058a0b061704 inherit pub_static_methods_structopenm_1_1_i_packed_adapter"><td class="mdescLeft">&#160;</td><td class="mdescRight">return new allocated and packed copy of source array.  <a href="structopenm_1_1_i_packed_adapter.html#af93b1388b151ea6f3998058a0b061704">More...</a><br /></td></tr>
-<tr class="separator:af93b1388b151ea6f3998058a0b061704 inherit pub_static_methods_structopenm_1_1_i_packed_adapter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a510eebbe7c01f4e252845c504ee89e36 inherit pub_static_methods_structopenm_1_1_i_packed_adapter"><td class="memItemLeft" align="right" valign="top">static unique_ptr&lt; uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_packed_adapter.html#a510eebbe7c01f4e252845c504ee89e36">packArray</a> (const type_info &amp;i_type, size_t i_size, void *i_valueArr)</td></tr>
+<tr class="memdesc:a510eebbe7c01f4e252845c504ee89e36 inherit pub_static_methods_structopenm_1_1_i_packed_adapter"><td class="mdescLeft">&#160;</td><td class="mdescRight">return new allocated and packed copy of source array.  <a href="structopenm_1_1_i_packed_adapter.html#a510eebbe7c01f4e252845c504ee89e36">More...</a><br /></td></tr>
+<tr class="separator:a510eebbe7c01f4e252845c504ee89e36 inherit pub_static_methods_structopenm_1_1_i_packed_adapter"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>pack and unpack adapter for metadata table db rows (empty implementation). </p>
@@ -153,7 +153,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceopenm.html">openm</a></li><li class="navelem"><a class="el" href="structopenm_1_1_empty_packed_adapter.html">EmptyPackedAdapter</a></li>
-    <li class="footer">Generated on Fri Sep 23 2022 01:54:11 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sat Dec 10 2022 01:59:37 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

@@ -99,6 +99,14 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_run_options.html#ae16ae0266e31898fba04a430ae38a427">RunOptions</a> (void)</td></tr>
 <tr class="memdesc:ae16ae0266e31898fba04a430ae38a427"><td class="mdescLeft">&#160;</td><td class="mdescRight">init run options with default values <br /></td></tr>
 <tr class="separator:ae16ae0266e31898fba04a430ae38a427"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03d43a8367cebcf72fc12e208fcb5dc2"><td class="memItemLeft" align="right" valign="top"><a id="a03d43a8367cebcf72fc12e208fcb5dc2"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_run_options.html#a03d43a8367cebcf72fc12e208fcb5dc2">isMicrodata</a> (void) const</td></tr>
+<tr class="memdesc:a03d43a8367cebcf72fc12e208fcb5dc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">retrun true if any microdata output enabled <br /></td></tr>
+<tr class="separator:a03d43a8367cebcf72fc12e208fcb5dc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bbd7ae415a0e9b2507e73244915a988"><td class="memItemLeft" align="right" valign="top"><a id="a3bbd7ae415a0e9b2507e73244915a988"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_run_options.html#a3bbd7ae415a0e9b2507e73244915a988">isTextMicrodata</a> (void) const</td></tr>
+<tr class="memdesc:a3bbd7ae415a0e9b2507e73244915a988"><td class="mdescLeft">&#160;</td><td class="mdescRight">retrun true if microdata output to text enabled: output to CSV or to trace <br /></td></tr>
+<tr class="separator:a3bbd7ae415a0e9b2507e73244915a988"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -118,6 +126,22 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stru
 double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_run_options.html#adc086fdb6c77c1286cadaa4a32bbce99">nullValue</a></td></tr>
 <tr class="memdesc:adc086fdb6c77c1286cadaa4a32bbce99"><td class="mdescLeft">&#160;</td><td class="mdescRight">if use sparse and abs(value) &lt;= nullValue then value not stored <br /></td></tr>
 <tr class="separator:adc086fdb6c77c1286cadaa4a32bbce99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae361ac2d374b041804120a34c088d2f"><td class="memItemLeft" align="right" valign="top"><a id="aae361ac2d374b041804120a34c088d2f"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_run_options.html#aae361ac2d374b041804120a34c088d2f">isDbMicrodata</a></td></tr>
+<tr class="memdesc:aae361ac2d374b041804120a34c088d2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true then model run is storing microdata in database <br /></td></tr>
+<tr class="separator:aae361ac2d374b041804120a34c088d2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9eabaf4400d375a0d1a46ef03da7866c"><td class="memItemLeft" align="right" valign="top"><a id="a9eabaf4400d375a0d1a46ef03da7866c"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_run_options.html#a9eabaf4400d375a0d1a46ef03da7866c">isCsvMicrodata</a></td></tr>
+<tr class="memdesc:a9eabaf4400d375a0d1a46ef03da7866c"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true then model run is writing microdata into CSV <br /></td></tr>
+<tr class="separator:a9eabaf4400d375a0d1a46ef03da7866c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17ef5d83cadb0879c23f778c738bc454"><td class="memItemLeft" align="right" valign="top"><a id="a17ef5d83cadb0879c23f778c738bc454"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_run_options.html#a17ef5d83cadb0879c23f778c738bc454">isTraceMicrodata</a></td></tr>
+<tr class="memdesc:a17ef5d83cadb0879c23f778c738bc454"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true then model run is writing microdata into trace output <br /></td></tr>
+<tr class="separator:a17ef5d83cadb0879c23f778c738bc454"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65f53855a6c48631e6a4b48b92bbc3a5"><td class="memItemLeft" align="right" valign="top"><a id="a65f53855a6c48631e6a4b48b92bbc3a5"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_run_options.html#a65f53855a6c48631e6a4b48b92bbc3a5">isMicrodataEvents</a></td></tr>
+<tr class="memdesc:a65f53855a6c48631e6a4b48b92bbc3a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true then model run is using microdata events <br /></td></tr>
+<tr class="separator:a65f53855a6c48631e6a4b48b92bbc3a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a796180d454212c637ed0324bebcacfad"><td class="memItemLeft" align="right" valign="top"><a id="a796180d454212c637ed0324bebcacfad"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_run_options.html#a796180d454212c637ed0324bebcacfad">progressPercent</a></td></tr>
 <tr class="memdesc:a796180d454212c637ed0324bebcacfad"><td class="mdescLeft">&#160;</td><td class="mdescRight">if positive then used for simulation progress reporting, ex: every 10% <br /></td></tr>
@@ -138,7 +162,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="st
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceopenm.html">openm</a></li><li class="navelem"><a class="el" href="structopenm_1_1_run_options.html">RunOptions</a></li>
-    <li class="footer">Generated on Fri Sep 23 2022 01:54:11 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sat Dec 10 2022 01:59:37 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

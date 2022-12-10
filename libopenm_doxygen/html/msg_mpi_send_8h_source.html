@@ -135,7 +135,7 @@ $(document).ready(function(){initNavTree('msg_mpi_send_8h_source.html',''); init
 <div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="classopenm_1_1_mpi_send_array.html#a931845b8887a820fe1d450d2d04a129d">   59</a></span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="classopenm_1_1_mpi_send_array.html#a931845b8887a820fe1d450d2d04a129d">isCompleted</a>(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> MpiSendBase::isCompleted(); }</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        unique_ptr&lt;char&gt; sendValueArr;     <span class="comment">// copy of data to send</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        unique_ptr&lt;uint8_t&gt; sendValueArr;     <span class="comment">// copy of data to send</span></div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keyword">private</span>:</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <a class="code" href="classopenm_1_1_mpi_send_array.html">MpiSendArray</a>(<span class="keyword">const</span> <a class="code" href="classopenm_1_1_mpi_send_array.html">MpiSendArray</a> &amp; i_send) = <span class="keyword">delete</span>;</div>
@@ -154,7 +154,7 @@ $(document).ready(function(){initNavTree('msg_mpi_send_8h_source.html',''); init
 <div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="classopenm_1_1_mpi_send_packed.html#a29dc0e0f0fc5b1a6ed814112a7253d65">   82</a></span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="classopenm_1_1_mpi_send_packed.html#a29dc0e0f0fc5b1a6ed814112a7253d65">isCompleted</a>(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> MpiSendBase::isCompleted(); }</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        vector&lt;char&gt; packedData;   <span class="comment">// data to send</span></div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        vector&lt;uint8_t&gt; packedData;   <span class="comment">// data to send</span></div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160; </div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="keyword">private</span>:</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <a class="code" href="classopenm_1_1_mpi_send_packed.html">MpiSendPacked</a>(<span class="keyword">const</span> <a class="code" href="classopenm_1_1_mpi_send_packed.html">MpiSendPacked</a> &amp; i_send) = <span class="keyword">delete</span>;</div>
@@ -176,15 +176,15 @@ $(document).ready(function(){initNavTree('msg_mpi_send_8h_source.html',''); init
 <div class="ttc" id="amsg_mpi_packed_8h_html"><div class="ttname"><a href="msg_mpi_packed_8h.html">msgMpiPacked.h</a></div><div class="ttdoc">OpenM++ message passing library: pack and unpack wrapper class for MPI-based implementation.</div></div>
 <div class="ttc" id="anamespaceopenm_html"><div class="ttname"><a href="namespaceopenm.html">openm</a></div><div class="ttdoc">openM++ namespace</div><div class="ttdef"><b>Definition:</b> log.h:32</div></div>
 <div class="ttc" id="anamespaceopenm_html_a3bfbc1c842226a2cda27f3f2ad50df16"><div class="ttname"><a href="namespaceopenm.html#a3bfbc1c842226a2cda27f3f2ad50df16">openm::MsgTag</a></div><div class="ttdeci">MsgTag</div><div class="ttdoc">tag to identify message content</div><div class="ttdef"><b>Definition:</b> msg.h:29</div></div>
-<div class="ttc" id="anamespaceopenm_html_ae33ab59462c9f2ceef92d48c7fb449d0"><div class="ttname"><a href="namespaceopenm.html#ae33ab59462c9f2ceef92d48c7fb449d0">openm::IRowBaseVec</a></div><div class="ttdeci">std::vector&lt; IRowBaseUptr &gt; IRowBaseVec</div><div class="ttdoc">db rows: vector of unique pointers to db row</div><div class="ttdef"><b>Definition:</b> omHelper.h:203</div></div>
-<div class="ttc" id="astructopenm_1_1_i_packed_adapter_html"><div class="ttname"><a href="structopenm_1_1_i_packed_adapter.html">openm::IPackedAdapter</a></div><div class="ttdoc">public interface to pack and unpack rows of metadata db-table</div><div class="ttdef"><b>Definition:</b> msg.h:87</div></div>
+<div class="ttc" id="anamespaceopenm_html_ae33ab59462c9f2ceef92d48c7fb449d0"><div class="ttname"><a href="namespaceopenm.html#ae33ab59462c9f2ceef92d48c7fb449d0">openm::IRowBaseVec</a></div><div class="ttdeci">std::vector&lt; IRowBaseUptr &gt; IRowBaseVec</div><div class="ttdoc">db rows: vector of unique pointers to db row</div><div class="ttdef"><b>Definition:</b> omHelper.h:241</div></div>
+<div class="ttc" id="astructopenm_1_1_i_packed_adapter_html"><div class="ttname"><a href="structopenm_1_1_i_packed_adapter.html">openm::IPackedAdapter</a></div><div class="ttdoc">public interface to pack and unpack rows of metadata db-table</div><div class="ttdef"><b>Definition:</b> msg.h:99</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_e35c0210d1ab4017c62c855472c691fb.html">msg</a></li><li class="navelem"><a class="el" href="msg_mpi_send_8h.html">msgMpiSend.h</a></li>
-    <li class="footer">Generated on Fri Sep 23 2022 01:54:11 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sat Dec 10 2022 01:59:36 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

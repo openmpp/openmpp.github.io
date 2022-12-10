@@ -112,62 +112,67 @@ $(document).ready(function(){initNavTree('_attribute_symbol_8h_source.html','');
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        , side_effects_fn(nullptr)</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        , notify_fn(nullptr)</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        , is_time_like(false)</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    {</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        create_auxiliary_symbols();</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    }</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
-<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="class_attribute_symbol.html#ab4e0c20726966c7464a59a71ad149816">   51</a></span>&#160;    <a class="code" href="class_attribute_symbol.html#ab4e0c20726966c7464a59a71ad149816">AttributeSymbol</a>(<span class="keyword">const</span> <span class="keywordtype">string</span> member_name, <span class="keyword">const</span> <a class="code" href="class_symbol.html">Symbol</a> *agent, <span class="keyword">const</span> <a class="code" href="class_symbol.html">Symbol</a> *type, <a class="code" href="classomc_1_1location.html">omc::location</a> decl_loc = <a class="code" href="classomc_1_1location.html">omc::location</a>())</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        : <a class="code" href="class_entity_data_member_symbol.html">EntityDataMemberSymbol</a>(member_name, agent, type, decl_loc)</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        , lagged(nullptr)</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        , lagged_event_counter(nullptr)</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        , side_effects_fn(nullptr)</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        , notify_fn(nullptr)</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        , is_time_like(false)</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    {</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        create_auxiliary_symbols();</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    }</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordtype">void</span> create_auxiliary_symbols();</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160; </div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <a class="code" href="class_code_block.html">CodeBlock</a> cxx_declaration_agent();</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        , is_generated(false)</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    {</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        create_auxiliary_symbols();</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    }</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
+<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="class_attribute_symbol.html#ab4e0c20726966c7464a59a71ad149816">   52</a></span>&#160;    <a class="code" href="class_attribute_symbol.html#ab4e0c20726966c7464a59a71ad149816">AttributeSymbol</a>(<span class="keyword">const</span> <span class="keywordtype">string</span> member_name, <span class="keyword">const</span> <a class="code" href="class_symbol.html">Symbol</a> *agent, <span class="keyword">const</span> <a class="code" href="class_symbol.html">Symbol</a> *type, <a class="code" href="classomc_1_1location.html">omc::location</a> decl_loc = <a class="code" href="classomc_1_1location.html">omc::location</a>())</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        : <a class="code" href="class_entity_data_member_symbol.html">EntityDataMemberSymbol</a>(member_name, agent, type, decl_loc)</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        , lagged(nullptr)</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        , lagged_event_counter(nullptr)</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        , side_effects_fn(nullptr)</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        , notify_fn(nullptr)</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        , is_time_like(false)</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        , is_generated(false)</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    {</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        create_auxiliary_symbols();</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    }</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordtype">void</span> create_auxiliary_symbols();</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <a class="code" href="class_code_block.html">CodeBlock</a> cxx_definition_agent();</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <a class="code" href="class_code_block.html">CodeBlock</a> cxx_declaration_agent();</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keywordtype">void</span> change_data_type(<a class="code" href="class_type_symbol.html">TypeSymbol</a> *new_type);</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160; </div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keywordtype">void</span> create_lagged();</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160; </div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <span class="keywordtype">string</span> get_lagged_name();</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160; </div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <span class="keywordtype">string</span> get_lagged_event_counter_name();</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160; </div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <span class="keywordtype">bool</span> is_valid_comparison(<span class="keyword">const</span> <a class="code" href="class_constant_symbol.html">ConstantSymbol</a> * constant, <span class="keywordtype">string</span> &amp;err_msg);</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160; </div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <span class="keywordtype">bool</span> is_maintained() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160; </div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    <span class="keywordtype">void</span> post_parse(<span class="keywordtype">int</span> pass);</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <a class="code" href="class_code_block.html">CodeBlock</a> cxx_definition_agent();</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160; </div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="keywordtype">void</span> change_data_type(<a class="code" href="class_type_symbol.html">TypeSymbol</a> *new_type);</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160; </div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="keywordtype">void</span> create_lagged();</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160; </div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="keywordtype">string</span> get_lagged_name();</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160; </div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <span class="keywordtype">string</span> get_lagged_event_counter_name();</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160; </div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    <span class="keywordtype">bool</span> is_valid_comparison(<span class="keyword">const</span> <a class="code" href="class_constant_symbol.html">ConstantSymbol</a> * constant, <span class="keywordtype">string</span> &amp;err_msg);</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160; </div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    <span class="keywordtype">bool</span> is_maintained() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160; </div>
-<div class="line"><a name="l00129"></a><span class="lineno"><a class="line" href="class_attribute_symbol.html#af07e28b33fd4d1b70cc1a1832f8bc064">  129</a></span>&#160;    <a class="code" href="class_entity_internal_symbol.html">EntityInternalSymbol</a> *<a class="code" href="class_attribute_symbol.html#af07e28b33fd4d1b70cc1a1832f8bc064">lagged</a>;</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160; </div>
-<div class="line"><a name="l00136"></a><span class="lineno"><a class="line" href="class_attribute_symbol.html#ab7a8cbac735b21a973bfcfcc07e8171b">  136</a></span>&#160;    <a class="code" href="class_entity_internal_symbol.html">EntityInternalSymbol</a> *<a class="code" href="class_attribute_symbol.html#ab7a8cbac735b21a973bfcfcc07e8171b">lagged_event_counter</a>;</div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160; </div>
-<div class="line"><a name="l00141"></a><span class="lineno"><a class="line" href="class_attribute_symbol.html#a87d56b2c55f9bf2d8215800c841e96b9">  141</a></span>&#160;    <a class="code" href="class_entity_func_symbol.html">EntityFuncSymbol</a> *<a class="code" href="class_attribute_symbol.html#a87d56b2c55f9bf2d8215800c841e96b9">side_effects_fn</a>;</div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160; </div>
-<div class="line"><a name="l00146"></a><span class="lineno"><a class="line" href="class_attribute_symbol.html#a8dee103ef76563bfb305d879d0aad87a">  146</a></span>&#160;    <a class="code" href="class_entity_func_symbol.html">EntityFuncSymbol</a> *<a class="code" href="class_attribute_symbol.html#a8dee103ef76563bfb305d879d0aad87a">notify_fn</a>;</div>
-<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160; </div>
-<div class="line"><a name="l00151"></a><span class="lineno"><a class="line" href="class_attribute_symbol.html#a717a9d5fcdd547eb68480844e31b459b">  151</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_attribute_symbol.html#a717a9d5fcdd547eb68480844e31b459b">is_time_like</a>;</div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;};</div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160; </div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <span class="keywordtype">void</span> post_parse(<span class="keywordtype">int</span> pass);</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160; </div>
+<div class="line"><a name="l00131"></a><span class="lineno"><a class="line" href="class_attribute_symbol.html#af07e28b33fd4d1b70cc1a1832f8bc064">  131</a></span>&#160;    <a class="code" href="class_entity_internal_symbol.html">EntityInternalSymbol</a> *<a class="code" href="class_attribute_symbol.html#af07e28b33fd4d1b70cc1a1832f8bc064">lagged</a>;</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160; </div>
+<div class="line"><a name="l00138"></a><span class="lineno"><a class="line" href="class_attribute_symbol.html#ab7a8cbac735b21a973bfcfcc07e8171b">  138</a></span>&#160;    <a class="code" href="class_entity_internal_symbol.html">EntityInternalSymbol</a> *<a class="code" href="class_attribute_symbol.html#ab7a8cbac735b21a973bfcfcc07e8171b">lagged_event_counter</a>;</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160; </div>
+<div class="line"><a name="l00143"></a><span class="lineno"><a class="line" href="class_attribute_symbol.html#a87d56b2c55f9bf2d8215800c841e96b9">  143</a></span>&#160;    <a class="code" href="class_entity_func_symbol.html">EntityFuncSymbol</a> *<a class="code" href="class_attribute_symbol.html#a87d56b2c55f9bf2d8215800c841e96b9">side_effects_fn</a>;</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160; </div>
+<div class="line"><a name="l00148"></a><span class="lineno"><a class="line" href="class_attribute_symbol.html#a8dee103ef76563bfb305d879d0aad87a">  148</a></span>&#160;    <a class="code" href="class_entity_func_symbol.html">EntityFuncSymbol</a> *<a class="code" href="class_attribute_symbol.html#a8dee103ef76563bfb305d879d0aad87a">notify_fn</a>;</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160; </div>
+<div class="line"><a name="l00153"></a><span class="lineno"><a class="line" href="class_attribute_symbol.html#a717a9d5fcdd547eb68480844e31b459b">  153</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_attribute_symbol.html#a717a9d5fcdd547eb68480844e31b459b">is_time_like</a>;</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160; </div>
+<div class="line"><a name="l00160"></a><span class="lineno"><a class="line" href="class_attribute_symbol.html#a14812f8b90ea18df2c618a8ec798102b">  160</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_attribute_symbol.html#a14812f8b90ea18df2c618a8ec798102b">is_generated</a>;</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;};</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160; </div>
 <div class="ttc" id="a_entity_data_member_symbol_8h_html"><div class="ttname"><a href="_entity_data_member_symbol_8h.html">EntityDataMemberSymbol.h</a></div><div class="ttdoc">Declarations for the EntityDataMemberSymbol class.</div></div>
 <div class="ttc" id="aclass_attribute_symbol_html"><div class="ttname"><a href="class_attribute_symbol.html">AttributeSymbol</a></div><div class="ttdef"><b>Definition:</b> AttributeSymbol.h:17</div></div>
-<div class="ttc" id="aclass_attribute_symbol_html_a717a9d5fcdd547eb68480844e31b459b"><div class="ttname"><a href="class_attribute_symbol.html#a717a9d5fcdd547eb68480844e31b459b">AttributeSymbol::is_time_like</a></div><div class="ttdeci">bool is_time_like</div><div class="ttdoc">The attribute can change between events, like time.</div><div class="ttdef"><b>Definition:</b> AttributeSymbol.h:151</div></div>
+<div class="ttc" id="aclass_attribute_symbol_html_a14812f8b90ea18df2c618a8ec798102b"><div class="ttname"><a href="class_attribute_symbol.html#a14812f8b90ea18df2c618a8ec798102b">AttributeSymbol::is_generated</a></div><div class="ttdeci">bool is_generated</div><div class="ttdoc">Indicates if the member was generated by omc.</div><div class="ttdef"><b>Definition:</b> AttributeSymbol.h:160</div></div>
+<div class="ttc" id="aclass_attribute_symbol_html_a717a9d5fcdd547eb68480844e31b459b"><div class="ttname"><a href="class_attribute_symbol.html#a717a9d5fcdd547eb68480844e31b459b">AttributeSymbol::is_time_like</a></div><div class="ttdeci">bool is_time_like</div><div class="ttdoc">The attribute can change between events, like time.</div><div class="ttdef"><b>Definition:</b> AttributeSymbol.h:153</div></div>
 <div class="ttc" id="aclass_attribute_symbol_html_a75ea8181f41195c39f68696e2aad18ee"><div class="ttname"><a href="class_attribute_symbol.html#a75ea8181f41195c39f68696e2aad18ee">AttributeSymbol::AttributeSymbol</a></div><div class="ttdeci">AttributeSymbol(Symbol *sym, const Symbol *agent, const Symbol *type, omc::location decl_loc=omc::location())</div><div class="ttdoc">Morphing constructor.</div><div class="ttdef"><b>Definition:</b> AttributeSymbol.h:32</div></div>
-<div class="ttc" id="aclass_attribute_symbol_html_a87d56b2c55f9bf2d8215800c841e96b9"><div class="ttname"><a href="class_attribute_symbol.html#a87d56b2c55f9bf2d8215800c841e96b9">AttributeSymbol::side_effects_fn</a></div><div class="ttdeci">EntityFuncSymbol * side_effects_fn</div><div class="ttdoc">The side effects function of the attribute.</div><div class="ttdef"><b>Definition:</b> AttributeSymbol.h:141</div></div>
+<div class="ttc" id="aclass_attribute_symbol_html_a87d56b2c55f9bf2d8215800c841e96b9"><div class="ttname"><a href="class_attribute_symbol.html#a87d56b2c55f9bf2d8215800c841e96b9">AttributeSymbol::side_effects_fn</a></div><div class="ttdeci">EntityFuncSymbol * side_effects_fn</div><div class="ttdoc">The side effects function of the attribute.</div><div class="ttdef"><b>Definition:</b> AttributeSymbol.h:143</div></div>
 <div class="ttc" id="aclass_attribute_symbol_html_a87f08e89cc2e92bf794eca8e97e35689"><div class="ttname"><a href="class_attribute_symbol.html#a87f08e89cc2e92bf794eca8e97e35689">AttributeSymbol::is_base_symbol</a></div><div class="ttdeci">bool is_base_symbol() const</div><div class="ttdoc">Query if this object is an underived instance of the base Symbol class.</div><div class="ttdef"><b>Definition:</b> AttributeSymbol.h:22</div></div>
-<div class="ttc" id="aclass_attribute_symbol_html_a8dee103ef76563bfb305d879d0aad87a"><div class="ttname"><a href="class_attribute_symbol.html#a8dee103ef76563bfb305d879d0aad87a">AttributeSymbol::notify_fn</a></div><div class="ttdeci">EntityFuncSymbol * notify_fn</div><div class="ttdoc">The change notification function of the attribute.</div><div class="ttdef"><b>Definition:</b> AttributeSymbol.h:146</div></div>
-<div class="ttc" id="aclass_attribute_symbol_html_ab4e0c20726966c7464a59a71ad149816"><div class="ttname"><a href="class_attribute_symbol.html#ab4e0c20726966c7464a59a71ad149816">AttributeSymbol::AttributeSymbol</a></div><div class="ttdeci">AttributeSymbol(const string member_name, const Symbol *agent, const Symbol *type, omc::location decl_loc=omc::location())</div><div class="ttdoc">Constructor by name.</div><div class="ttdef"><b>Definition:</b> AttributeSymbol.h:51</div></div>
-<div class="ttc" id="aclass_attribute_symbol_html_ab7a8cbac735b21a973bfcfcc07e8171b"><div class="ttname"><a href="class_attribute_symbol.html#ab7a8cbac735b21a973bfcfcc07e8171b">AttributeSymbol::lagged_event_counter</a></div><div class="ttdeci">EntityInternalSymbol * lagged_event_counter</div><div class="ttdoc">The value of the global event counter when the lagged version was last updated.</div><div class="ttdef"><b>Definition:</b> AttributeSymbol.h:136</div></div>
-<div class="ttc" id="aclass_attribute_symbol_html_af07e28b33fd4d1b70cc1a1832f8bc064"><div class="ttname"><a href="class_attribute_symbol.html#af07e28b33fd4d1b70cc1a1832f8bc064">AttributeSymbol::lagged</a></div><div class="ttdeci">EntityInternalSymbol * lagged</div><div class="ttdoc">The lagged version of this attribute.</div><div class="ttdef"><b>Definition:</b> AttributeSymbol.h:129</div></div>
+<div class="ttc" id="aclass_attribute_symbol_html_a8dee103ef76563bfb305d879d0aad87a"><div class="ttname"><a href="class_attribute_symbol.html#a8dee103ef76563bfb305d879d0aad87a">AttributeSymbol::notify_fn</a></div><div class="ttdeci">EntityFuncSymbol * notify_fn</div><div class="ttdoc">The change notification function of the attribute.</div><div class="ttdef"><b>Definition:</b> AttributeSymbol.h:148</div></div>
+<div class="ttc" id="aclass_attribute_symbol_html_ab4e0c20726966c7464a59a71ad149816"><div class="ttname"><a href="class_attribute_symbol.html#ab4e0c20726966c7464a59a71ad149816">AttributeSymbol::AttributeSymbol</a></div><div class="ttdeci">AttributeSymbol(const string member_name, const Symbol *agent, const Symbol *type, omc::location decl_loc=omc::location())</div><div class="ttdoc">Constructor by name.</div><div class="ttdef"><b>Definition:</b> AttributeSymbol.h:52</div></div>
+<div class="ttc" id="aclass_attribute_symbol_html_ab7a8cbac735b21a973bfcfcc07e8171b"><div class="ttname"><a href="class_attribute_symbol.html#ab7a8cbac735b21a973bfcfcc07e8171b">AttributeSymbol::lagged_event_counter</a></div><div class="ttdeci">EntityInternalSymbol * lagged_event_counter</div><div class="ttdoc">The value of the global event counter when the lagged version was last updated.</div><div class="ttdef"><b>Definition:</b> AttributeSymbol.h:138</div></div>
+<div class="ttc" id="aclass_attribute_symbol_html_af07e28b33fd4d1b70cc1a1832f8bc064"><div class="ttname"><a href="class_attribute_symbol.html#af07e28b33fd4d1b70cc1a1832f8bc064">AttributeSymbol::lagged</a></div><div class="ttdeci">EntityInternalSymbol * lagged</div><div class="ttdoc">The lagged version of this attribute.</div><div class="ttdef"><b>Definition:</b> AttributeSymbol.h:131</div></div>
 <div class="ttc" id="aclass_code_block_html"><div class="ttname"><a href="class_code_block.html">CodeBlock</a></div><div class="ttdef"><b>Definition:</b> CodeBlock.h:16</div></div>
 <div class="ttc" id="aclass_constant_symbol_html"><div class="ttname"><a href="class_constant_symbol.html">ConstantSymbol</a></div><div class="ttdoc">ConstantSymbol - Refers to either a Literal or an EnumeratorSymbol.</div><div class="ttdef"><b>Definition:</b> ConstantSymbol.h:19</div></div>
 <div class="ttc" id="aclass_entity_data_member_symbol_html"><div class="ttname"><a href="class_entity_data_member_symbol.html">EntityDataMemberSymbol</a></div><div class="ttdef"><b>Definition:</b> EntityDataMemberSymbol.h:17</div></div>
@@ -182,7 +187,7 @@ $(document).ready(function(){initNavTree('_attribute_symbol_8h_source.html','');
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="_attribute_symbol_8h.html">AttributeSymbol.h</a></li>
-    <li class="footer">Generated on Fri Sep 23 2022 01:54:15 for OpenM++ compiler (omc) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sat Dec 10 2022 01:59:41 for OpenM++ compiler (omc) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

@@ -104,8 +104,12 @@ static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"
 <tr class="separator:a9295e4313769fd905f344377907e3408"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad48bcd2eae27c4a5e61f04768e04fb6e"><td class="memItemLeft" align="right" valign="top"><a id="ad48bcd2eae27c4a5e61f04768e04fb6e"></a>
 static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_run_options_key.html#ad48bcd2eae27c4a5e61f04768e04fb6e">runId</a> = &quot;OpenM.RunId&quot;</td></tr>
-<tr class="memdesc:ad48bcd2eae27c4a5e61f04768e04fb6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">run id of current model run <br /></td></tr>
+<tr class="memdesc:ad48bcd2eae27c4a5e61f04768e04fb6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">read-only option, current model run id <br /></td></tr>
 <tr class="separator:ad48bcd2eae27c4a5e61f04768e04fb6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7d1c0129dfeb3ad0fc540dd104e2ddb"><td class="memItemLeft" align="right" valign="top"><a id="ab7d1c0129dfeb3ad0fc540dd104e2ddb"></a>
+static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_run_options_key.html#ab7d1c0129dfeb3ad0fc540dd104e2ddb">runCreated</a> = &quot;OpenM.RunCreated&quot;</td></tr>
+<tr class="memdesc:ab7d1c0129dfeb3ad0fc540dd104e2ddb"><td class="mdescLeft">&#160;</td><td class="mdescRight">read-only option, current model run create timestamp, ex: 2018_11_10_22_47_46_076 <br /></td></tr>
+<tr class="separator:ab7d1c0129dfeb3ad0fc540dd104e2ddb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44040759a267ef196c804caf0a34c424"><td class="memItemLeft" align="right" valign="top"><a id="a44040759a267ef196c804caf0a34c424"></a>
 static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_run_options_key.html#a44040759a267ef196c804caf0a34c424">restartRunId</a> = &quot;OpenM.RestartRunId&quot;</td></tr>
 <tr class="memdesc:a44040759a267ef196c804caf0a34c424"><td class="mdescLeft">&#160;</td><td class="mdescRight">model run id to restart model run <br /></td></tr>
@@ -144,7 +148,7 @@ static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"
 <tr class="separator:ab016b5720fc736648eb2796b65112b59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aefb44712bfe654e5f8d9250aa4a21373"><td class="memItemLeft" align="right" valign="top"><a id="aefb44712bfe654e5f8d9250aa4a21373"></a>
 static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_run_options_key.html#aefb44712bfe654e5f8d9250aa4a21373">taskRunId</a> = &quot;OpenM.TaskRunId&quot;</td></tr>
-<tr class="memdesc:aefb44712bfe654e5f8d9250aa4a21373"><td class="mdescLeft">&#160;</td><td class="mdescRight">modeling task run id <br /></td></tr>
+<tr class="memdesc:aefb44712bfe654e5f8d9250aa4a21373"><td class="mdescLeft">&#160;</td><td class="mdescRight">read-only option, modeling task run id <br /></td></tr>
 <tr class="separator:aefb44712bfe654e5f8d9250aa4a21373"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac010392e0fb07c6e89ce1f57dad2a950"><td class="memItemLeft" align="right" valign="top"><a id="ac010392e0fb07c6e89ce1f57dad2a950"></a>
 static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_run_options_key.html#ac010392e0fb07c6e89ce1f57dad2a950">taskWait</a> = &quot;OpenM.TaskWait&quot;</td></tr>
@@ -218,9 +222,40 @@ static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"
 static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_run_options_key.html#ada87a18e264c7883d7389a3d91f9a8e1">tableRetain</a> = &quot;Tables.Retain&quot;</td></tr>
 <tr class="memdesc:ada87a18e264c7883d7389a3d91f9a8e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">include only specified output tables or tables group into run results, ex: -Tables.Retain AgeTable,IncomeGroup <br /></td></tr>
 <tr class="separator:ada87a18e264c7883d7389a3d91f9a8e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a748c8ae051881d278e73637ca22a0d43"><td class="memItemLeft" align="right" valign="top"><a id="a748c8ae051881d278e73637ca22a0d43"></a>
-static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_run_options_key.html#a748c8ae051881d278e73637ca22a0d43">importAll</a> = &quot;Import.All&quot;</td></tr>
-<tr class="memdesc:a748c8ae051881d278e73637ca22a0d43"><td class="mdescLeft">&#160;</td><td class="mdescRight">import parameters from all upstream models last runs, ex: -Import.All true <br /></td></tr>
+<tr class="memitem:a544267a5f948ad508e5b65e093aaf46a"><td class="memItemLeft" align="right" valign="top"><a id="a544267a5f948ad508e5b65e093aaf46a"></a>
+static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_run_options_key.html#a544267a5f948ad508e5b65e093aaf46a">microdataToDb</a> = &quot;Microdata.ToDb&quot;</td></tr>
+<tr class="memdesc:a544267a5f948ad508e5b65e093aaf46a"><td class="mdescLeft">&#160;</td><td class="mdescRight">store entity microdata in database, ex: -Microdata.ToDb true <br /></td></tr>
+<tr class="separator:a544267a5f948ad508e5b65e093aaf46a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada0f9cafafab980be732a7b58a516b54"><td class="memItemLeft" align="right" valign="top"><a id="ada0f9cafafab980be732a7b58a516b54"></a>
+static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_run_options_key.html#ada0f9cafafab980be732a7b58a516b54">microdataToCsv</a> = &quot;Microdata.ToCsv&quot;</td></tr>
+<tr class="memdesc:ada0f9cafafab980be732a7b58a516b54"><td class="mdescLeft">&#160;</td><td class="mdescRight">write entity microdata into CSV file, ex: -Microdata.ToCsv true <br /></td></tr>
+<tr class="separator:ada0f9cafafab980be732a7b58a516b54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a384f1ff90ba942a2b2d1367f04eb99"><td class="memItemLeft" align="right" valign="top"><a id="a9a384f1ff90ba942a2b2d1367f04eb99"></a>
+static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_run_options_key.html#a9a384f1ff90ba942a2b2d1367f04eb99">microdataToTrace</a> = &quot;Microdata.ToTrace&quot;</td></tr>
+<tr class="memdesc:a9a384f1ff90ba942a2b2d1367f04eb99"><td class="mdescLeft">&#160;</td><td class="mdescRight">write entity microdata into trace output, ex: -Microdata.ToTrace true <br /></td></tr>
+<tr class="separator:a9a384f1ff90ba942a2b2d1367f04eb99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a842fe8723b7c7afb48570705902f2c19"><td class="memItemLeft" align="right" valign="top"><a id="a842fe8723b7c7afb48570705902f2c19"></a>
+static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_run_options_key.html#a842fe8723b7c7afb48570705902f2c19">microdataCsvDir</a> = &quot;Microdata.CsvDir&quot;</td></tr>
+<tr class="memdesc:a842fe8723b7c7afb48570705902f2c19"><td class="mdescLeft">&#160;</td><td class="mdescRight">write entity microdata into CSV file, ex: -Microdata.CsvDir csv/output/dir <br /></td></tr>
+<tr class="separator:a842fe8723b7c7afb48570705902f2c19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9900e81bc06f0a72dcac92d0e4938fe3"><td class="memItemLeft" align="right" valign="top"><a id="a9900e81bc06f0a72dcac92d0e4938fe3"></a>
+static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_run_options_key.html#a9900e81bc06f0a72dcac92d0e4938fe3">microdataAll</a> = &quot;Microdata.All&quot;</td></tr>
+<tr class="memdesc:a9900e81bc06f0a72dcac92d0e4938fe3"><td class="mdescLeft">&#160;</td><td class="mdescRight">store all entities and all non-internal attributes, ex: -Microdata.All true <br /></td></tr>
+<tr class="separator:a9900e81bc06f0a72dcac92d0e4938fe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcb69b3827c57d46596e52e5b5a570b6"><td class="memItemLeft" align="right" valign="top"><a id="abcb69b3827c57d46596e52e5b5a570b6"></a>
+static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_run_options_key.html#abcb69b3827c57d46596e52e5b5a570b6">microdataInternal</a> = &quot;Microdata.UseInternal&quot;</td></tr>
+<tr class="memdesc:abcb69b3827c57d46596e52e5b5a570b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">allow to use internal attributes, ex: -Microdata.UseInternal true <br /></td></tr>
+<tr class="separator:abcb69b3827c57d46596e52e5b5a570b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d88e03419cdbd1cf34a26ab64e1e929"><td class="memItemLeft" align="right" valign="top"><a id="a2d88e03419cdbd1cf34a26ab64e1e929"></a>
+static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_run_options_key.html#a2d88e03419cdbd1cf34a26ab64e1e929">microdataEvents</a> = &quot;Microdata.Events&quot;</td></tr>
+<tr class="memdesc:a2d88e03419cdbd1cf34a26ab64e1e929"><td class="mdescLeft">&#160;</td><td class="mdescRight">filter entity events, ex: -Microdata.Events Birth,Union or -Microdata.Events All <br /></td></tr>
+<tr class="separator:a2d88e03419cdbd1cf34a26ab64e1e929"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7860c3b835522f4fbbb4138559f6840"><td class="memItemLeft" align="right" valign="top"><a id="ad7860c3b835522f4fbbb4138559f6840"></a>
+static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_run_options_key.html#ad7860c3b835522f4fbbb4138559f6840">microdataPrefix</a> = &quot;Microdata&quot;</td></tr>
+<tr class="memdesc:ad7860c3b835522f4fbbb4138559f6840"><td class="mdescLeft">&#160;</td><td class="mdescRight">options started with "Microdata." used to specify which entity attributes to store, ex: -Microdata.Person age,region,income <br /></td></tr>
+<tr class="separator:ad7860c3b835522f4fbbb4138559f6840"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a748c8ae051881d278e73637ca22a0d43"><td class="memItemLeft" align="right" valign="top">static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_run_options_key.html#a748c8ae051881d278e73637ca22a0d43">importAll</a> = &quot;Import.All&quot;</td></tr>
+<tr class="memdesc:a748c8ae051881d278e73637ca22a0d43"><td class="mdescLeft">&#160;</td><td class="mdescRight">options started with "MicrodataFilter." used to specify which entity filters, ex: -MicrodataFilter.Person age &gt;= 65  <a href="structopenm_1_1_run_options_key.html#a748c8ae051881d278e73637ca22a0d43">More...</a><br /></td></tr>
 <tr class="separator:a748c8ae051881d278e73637ca22a0d43"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a590fd45d4f164ef1bb6dce292d495ae2"><td class="memItemLeft" align="right" valign="top"><a id="a590fd45d4f164ef1bb6dce292d495ae2"></a>
 static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_run_options_key.html#a590fd45d4f164ef1bb6dce292d495ae2">importPrefix</a> = &quot;Import&quot;</td></tr>
@@ -325,7 +360,33 @@ static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>keys for model run options </p>
-</div><hr/>The documentation for this struct was generated from the following file:<ul>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="a748c8ae051881d278e73637ca22a0d43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a748c8ae051881d278e73637ca22a0d43">&#9670;&nbsp;</a></span>importAll</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr const char* openm::RunOptionsKey::importAll = &quot;Import.All&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>options started with "MicrodataFilter." used to specify which entity filters, ex: -MicrodataFilter.Person age &gt;= 65 </p>
+<p>import parameters from all upstream models last runs, ex: -Import.All true </p>
+
+</div>
+</div>
+<hr/>The documentation for this struct was generated from the following file:<ul>
 <li>include/<a class="el" href="meta_loader_8h_source.html">metaLoader.h</a></li>
 </ul>
 </div><!-- contents -->
@@ -334,7 +395,7 @@ static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceopenm.html">openm</a></li><li class="navelem"><a class="el" href="structopenm_1_1_run_options_key.html">RunOptionsKey</a></li>
-    <li class="footer">Generated on Fri Sep 23 2022 01:54:11 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sat Dec 10 2022 01:59:37 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>
