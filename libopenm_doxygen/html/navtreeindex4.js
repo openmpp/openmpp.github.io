@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"classopenm_1_1_task_txt_table.html":[1,0,0,89],
 "classopenm_1_1_task_txt_table.html#af95da0d42f5e17704ed3d5432dec1cf5":[1,0,0,89,0],
 "classopenm_1_1_trace_log.html":[1,0,0,2],
 "classopenm_1_1_trace_log.html#a00447f18286f513e1a6120e4f6d9cb78":[1,0,0,2,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "helper_8cpp.html":[2,0,0,3],
 "helper_8cpp.html#acd6e9935b5dc6ea6be58e9f759f191b6":[2,0,0,3,0],
 "helper_8h.html":[2,0,3,6],
-"helper_8h.html#a113a577b48d617ffe9b4c6a4a27fcac9":[2,0,3,6,7],
-"helper_8h.html#a11688acb5ea4a23f6a4506845c617107":[2,0,3,6,1]
+"helper_8h.html#a113a577b48d617ffe9b4c6a4a27fcac9":[2,0,3,6,7]
 };

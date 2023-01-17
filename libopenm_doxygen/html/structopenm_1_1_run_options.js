@@ -6,7 +6,6 @@ var structopenm_1_1_run_options =
     [ "isTextMicrodata", "structopenm_1_1_run_options.html#a3bbd7ae415a0e9b2507e73244915a988", null ],
     [ "isCsvMicrodata", "structopenm_1_1_run_options.html#a9eabaf4400d375a0d1a46ef03da7866c", null ],
     [ "isDbMicrodata", "structopenm_1_1_run_options.html#aae361ac2d374b041804120a34c088d2f", null ],
-    [ "isMicrodataEvents", "structopenm_1_1_run_options.html#a65f53855a6c48631e6a4b48b92bbc3a5", null ],
     [ "isTraceMicrodata", "structopenm_1_1_run_options.html#a17ef5d83cadb0879c23f778c738bc454", null ],
     [ "nullValue", "structopenm_1_1_run_options.html#adc086fdb6c77c1286cadaa4a32bbce99", null ],
     [ "progressPercent", "structopenm_1_1_run_options.html#a796180d454212c637ed0324bebcacfad", null ],

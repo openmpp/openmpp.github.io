@@ -146,7 +146,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memdesc:a8d65b720c4dd05eafca9520445fb52a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">set modeling progress count and value <br /></td></tr>
 <tr class="separator:a8d65b720c4dd05eafca9520445fb52a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7539a4fbb899db1ff8f7c0caf2bbe62e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_model_base.html#a7539a4fbb899db1ff8f7c0caf2bbe62e">writeDbMicrodata</a> (int i_entityKind, uint64_t i_microdataKey, const void *i_entityThis) override</td></tr>
-<tr class="memdesc:a7539a4fbb899db1ff8f7c0caf2bbe62e"><td class="mdescLeft">&#160;</td><td class="mdescRight">write microdata into the database  <a href="classopenm_1_1_model_base.html#a7539a4fbb899db1ff8f7c0caf2bbe62e">More...</a><br /></td></tr>
+<tr class="memdesc:a7539a4fbb899db1ff8f7c0caf2bbe62e"><td class="mdescLeft">&#160;</td><td class="mdescRight">write microdata into the database.  <a href="classopenm_1_1_model_base.html#a7539a4fbb899db1ff8f7c0caf2bbe62e">More...</a><br /></td></tr>
 <tr class="separator:a7539a4fbb899db1ff8f7c0caf2bbe62e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc40a736a1079fac096070bdb9539041"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_model_base.html#abc40a736a1079fac096070bdb9539041">writeCsvMicrodata</a> (int i_entityKind, uint64_t i_microdataKey, int i_eventId, bool i_isSameEntity, const void *i_entityThis) override</td></tr>
 <tr class="memdesc:abc40a736a1079fac096070bdb9539041"><td class="mdescLeft">&#160;</td><td class="mdescRight">write microdata into CSV file or into trace  <a href="classopenm_1_1_model_base.html#abc40a736a1079fac096070bdb9539041">More...</a><br /></td></tr>
@@ -336,16 +336,16 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>write microdata into the database </p>
-<p>write microdata into the database.</p>
+<p>write microdata into the database. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">i_entityKind</td><td>entity kind id: model metadata entity id in database. </td></tr>
     <tr><td class="paramname">i_microdataKey</td><td>unique entity instance id. </td></tr>
-    <tr><td class="paramname">i_entityThis</td><td>entity class instance this pointer. </td></tr>
+    <tr><td class="paramname">i_entityThis</td><td>entity class instance this pointer.</td></tr>
   </table>
   </dd>
 </dl>
+<p>Pair of (i_entityKind, i_microdataKey) must provide a unique key of microdata record for this model run. </p>
 
 <p>Implements <a class="el" href="structopenm_1_1_i_model.html#ad231d73ef047675e96d4d42f8ca28598">openm::IModel</a>.</p>
 
@@ -432,7 +432,7 @@ Static Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceopenm.html">openm</a></li><li class="navelem"><a class="el" href="classopenm_1_1_model_base.html">ModelBase</a></li>
-    <li class="footer">Generated on Sat Dec 10 2022 01:59:37 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Tue Jan 17 2023 04:15:17 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

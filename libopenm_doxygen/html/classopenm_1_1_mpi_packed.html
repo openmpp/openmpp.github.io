@@ -108,12 +108,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ad12342b21aeefd625aa4e926f7c589e1"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_mpi_packed.html#ad12342b21aeefd625aa4e926f7c589e1">unpackStr</a> (int i_packedSize, void *i_packedData, int &amp;io_packPos)</td></tr>
 <tr class="memdesc:ad12342b21aeefd625aa4e926f7c589e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">MPI_Unpack string from data buffer at i_packPos position and return the string.  <a href="classopenm_1_1_mpi_packed.html#ad12342b21aeefd625aa4e926f7c589e1">More...</a><br /></td></tr>
 <tr class="separator:ad12342b21aeefd625aa4e926f7c589e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd2656b88db98362701578ee607e08c1"><td class="memItemLeft" align="right" valign="top">static unique_ptr&lt; uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_mpi_packed.html#abd2656b88db98362701578ee607e08c1">packArray</a> (const type_info &amp;i_type, size_t i_size, void *i_valueArr)</td></tr>
-<tr class="memdesc:abd2656b88db98362701578ee607e08c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">return an MPI_Pack'ed copy of source array.  <a href="classopenm_1_1_mpi_packed.html#abd2656b88db98362701578ee607e08c1">More...</a><br /></td></tr>
-<tr class="separator:abd2656b88db98362701578ee607e08c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7b187b6a2db0deeae783279ea744fe9"><td class="memItemLeft" align="right" valign="top">static unique_ptr&lt; char &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_mpi_packed.html#ab7b187b6a2db0deeae783279ea744fe9">packArray</a> (size_t i_size, const string *i_valueArr)</td></tr>
-<tr class="memdesc:ab7b187b6a2db0deeae783279ea744fe9"><td class="mdescLeft">&#160;</td><td class="mdescRight">return an MPI_Pack'ed copy of source string array.  <a href="classopenm_1_1_mpi_packed.html#ab7b187b6a2db0deeae783279ea744fe9">More...</a><br /></td></tr>
-<tr class="separator:ab7b187b6a2db0deeae783279ea744fe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95cfdbaabfc291b33b7dd28ce3edbf6f"><td class="memItemLeft" align="right" valign="top">static unique_ptr&lt; uint8_t[]&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_mpi_packed.html#a95cfdbaabfc291b33b7dd28ce3edbf6f">packArray</a> (const type_info &amp;i_type, size_t i_size, void *i_valueArr)</td></tr>
+<tr class="memdesc:a95cfdbaabfc291b33b7dd28ce3edbf6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">return an MPI_Pack'ed copy of source array.  <a href="classopenm_1_1_mpi_packed.html#a95cfdbaabfc291b33b7dd28ce3edbf6f">More...</a><br /></td></tr>
+<tr class="separator:a95cfdbaabfc291b33b7dd28ce3edbf6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18d1d8100467140286cc0b9239de6b0f"><td class="memItemLeft" align="right" valign="top">static unique_ptr&lt; uint8_t[]&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_mpi_packed.html#a18d1d8100467140286cc0b9239de6b0f">packArray</a> (size_t i_size, const string *i_valueArr)</td></tr>
+<tr class="memdesc:a18d1d8100467140286cc0b9239de6b0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">return an MPI_Pack'ed copy of source string array.  <a href="classopenm_1_1_mpi_packed.html#a18d1d8100467140286cc0b9239de6b0f">More...</a><br /></td></tr>
+<tr class="separator:a18d1d8100467140286cc0b9239de6b0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42ca449abd588ec12afa3fc5702140b0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_mpi_packed.html#a42ca449abd588ec12afa3fc5702140b0">unpackArray</a> (int i_packedSize, void *i_packedData, size_t i_size, string *io_valueArr)</td></tr>
 <tr class="memdesc:a42ca449abd588ec12afa3fc5702140b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">unpack MPI_Pack'ed string array from i_packedData into supplied io_valueArr.  <a href="classopenm_1_1_mpi_packed.html#a42ca449abd588ec12afa3fc5702140b0">More...</a><br /></td></tr>
 <tr class="separator:a42ca449abd588ec12afa3fc5702140b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -262,8 +262,8 @@ template&lt;typename TVal &gt; </div>
 
 </div>
 </div>
-<a id="abd2656b88db98362701578ee607e08c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd2656b88db98362701578ee607e08c1">&#9670;&nbsp;</a></span>packArray() <span class="overload">[1/2]</span></h2>
+<a id="a95cfdbaabfc291b33b7dd28ce3edbf6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95cfdbaabfc291b33b7dd28ce3edbf6f">&#9670;&nbsp;</a></span>packArray() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -272,7 +272,7 @@ template&lt;typename TVal &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unique_ptr&lt; uint8_t &gt; MpiPacked::packArray </td>
+          <td class="memname">unique_ptr&lt; uint8_t[]&gt; MpiPacked::packArray </td>
           <td>(</td>
           <td class="paramtype">const type_info &amp;&#160;</td>
           <td class="paramname"><em>i_type</em>, </td>
@@ -314,8 +314,8 @@ template&lt;typename TVal &gt; </div>
 
 </div>
 </div>
-<a id="ab7b187b6a2db0deeae783279ea744fe9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab7b187b6a2db0deeae783279ea744fe9">&#9670;&nbsp;</a></span>packArray() <span class="overload">[2/2]</span></h2>
+<a id="a18d1d8100467140286cc0b9239de6b0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18d1d8100467140286cc0b9239de6b0f">&#9670;&nbsp;</a></span>packArray() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -324,7 +324,7 @@ template&lt;typename TVal &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unique_ptr&lt; char &gt; MpiPacked::packArray </td>
+          <td class="memname">unique_ptr&lt; uint8_t[]&gt; MpiPacked::packArray </td>
           <td>(</td>
           <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>i_size</em>, </td>
@@ -735,7 +735,7 @@ template&lt;typename TVal &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceopenm.html">openm</a></li><li class="navelem"><a class="el" href="classopenm_1_1_mpi_packed.html">MpiPacked</a></li>
-    <li class="footer">Generated on Sat Dec 10 2022 01:59:37 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Tue Jan 17 2023 04:15:17 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

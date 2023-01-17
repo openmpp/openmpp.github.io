@@ -140,45 +140,45 @@ $(document).ready(function(){initNavTree('model_8h_source.html',''); initResizab
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
 <div class="line"><a name="l00067"></a><span class="lineno"><a class="line" href="classopenm_1_1_model_base.html#a8d65b720c4dd05eafca9520445fb52a1">   67</a></span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classopenm_1_1_model_base.html#a8d65b720c4dd05eafca9520445fb52a1">updateProgress</a>(<span class="keywordtype">int</span> i_count, <span class="keywordtype">double</span> i_value = 0.0)<span class="keyword"> override </span>{ runCtrl-&gt;runStateStore().updateProgress(runId, runOpts.subValueId, i_count, i_value); }</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> writeDbMicrodata(<span class="keywordtype">int</span> i_entityKind, uint64_t i_microdataKey, <span class="keyword">const</span> <span class="keywordtype">void</span> * i_entityThis) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160; </div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> writeCsvMicrodata(<span class="keywordtype">int</span> i_entityKind, uint64_t i_microdataKey, <span class="keywordtype">int</span> i_eventId, <span class="keywordtype">bool</span> i_isSameEntity, <span class="keyword">const</span> <span class="keywordtype">void</span> * i_entityThis) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160; </div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <span class="keywordtype">int</span> modelId;                    <span class="comment">// model id in database</span></div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <span class="keywordtype">int</span> runId;                      <span class="comment">// model run id</span></div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <a class="code" href="classopenm_1_1_run_controller.html">RunController</a> * runCtrl;        <span class="comment">// run controller interface</span></div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <span class="keyword">const</span> <a class="code" href="structopenm_1_1_meta_holder.html">MetaHolder</a> * metaStore;   <span class="comment">// metadata tables</span></div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <a class="code" href="structopenm_1_1_run_options.html">RunOptions</a> runOpts;             <span class="comment">// model run options</span></div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <span class="keywordtype">string</span> microdataBuf;            <span class="comment">// microdata write buffer</span></div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160; </div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <a class="code" href="classopenm_1_1_model_base.html">ModelBase</a>(</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;            <span class="keywordtype">int</span> i_modelId,</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;            <span class="keywordtype">int</span> i_runId,</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;            <span class="keywordtype">int</span> i_subCount,</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            <span class="keywordtype">int</span> i_subId,</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;            <a class="code" href="classopenm_1_1_run_controller.html">RunController</a> * i_runCtrl,</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            <span class="keyword">const</span> <a class="code" href="structopenm_1_1_meta_holder.html">MetaHolder</a> * i_metaStore</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;            );</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160; </div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <span class="comment">// helper struct to store output table save status</span></div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        <span class="keyword">struct </span>TableDoneItem</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        {</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;            <span class="keywordtype">int</span> tableId;    <span class="comment">// output table id</span></div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;            <span class="keywordtype">bool</span> isDone;    <span class="comment">// if true then table is written into db or send to root process</span></div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160; </div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;            TableDoneItem(<span class="keyword">const</span> <a class="code" href="structopenm_1_1_table_dic_row.html">TableDicRow</a> &amp; i_tableRow) : tableId(i_tableRow.tableId), isDone(false)</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;            { }</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        };</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        vector&lt;TableDoneItem&gt; tableDoneVec;     <span class="comment">// status for all output tables of sub-value</span></div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160; </div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        ModelBase(<span class="keyword">const</span> ModelBase &amp; i_model) = <span class="keyword">delete</span>;</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        ModelBase &amp; operator=(<span class="keyword">const</span> ModelBase &amp; i_model) = <span class="keyword">delete</span>;</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    };</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;}</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160; </div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;<span class="preprocessor">#endif  </span><span class="comment">// MODEL_H</span></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> writeDbMicrodata(<span class="keywordtype">int</span> i_entityKind, uint64_t i_microdataKey, <span class="keyword">const</span> <span class="keywordtype">void</span> * i_entityThis) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160; </div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> writeCsvMicrodata(<span class="keywordtype">int</span> i_entityKind, uint64_t i_microdataKey, <span class="keywordtype">int</span> i_eventId, <span class="keywordtype">bool</span> i_isSameEntity, <span class="keyword">const</span> <span class="keywordtype">void</span> * i_entityThis) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160; </div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <span class="keywordtype">int</span> modelId;                    <span class="comment">// model id in database</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        <span class="keywordtype">int</span> runId;                      <span class="comment">// model run id</span></div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <a class="code" href="classopenm_1_1_run_controller.html">RunController</a> * runCtrl;        <span class="comment">// run controller interface</span></div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <span class="keyword">const</span> <a class="code" href="structopenm_1_1_meta_holder.html">MetaHolder</a> * metaStore;   <span class="comment">// metadata tables</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        <a class="code" href="structopenm_1_1_run_options.html">RunOptions</a> runOpts;             <span class="comment">// model run options</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <span class="keywordtype">string</span> microdataBuf;            <span class="comment">// microdata write buffer</span></div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160; </div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <a class="code" href="classopenm_1_1_model_base.html">ModelBase</a>(</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;            <span class="keywordtype">int</span> i_modelId,</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;            <span class="keywordtype">int</span> i_runId,</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;            <span class="keywordtype">int</span> i_subCount,</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;            <span class="keywordtype">int</span> i_subId,</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;            <a class="code" href="classopenm_1_1_run_controller.html">RunController</a> * i_runCtrl,</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;            <span class="keyword">const</span> <a class="code" href="structopenm_1_1_meta_holder.html">MetaHolder</a> * i_metaStore</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;            );</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160; </div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        <span class="comment">// helper struct to store output table save status</span></div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        <span class="keyword">struct </span>TableDoneItem</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        {</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;            <span class="keywordtype">int</span> tableId;    <span class="comment">// output table id</span></div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;            <span class="keywordtype">bool</span> isDone;    <span class="comment">// if true then table is written into db or send to root process</span></div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160; </div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;            TableDoneItem(<span class="keyword">const</span> <a class="code" href="structopenm_1_1_table_dic_row.html">TableDicRow</a> &amp; i_tableRow) : tableId(i_tableRow.tableId), isDone(false)</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;            { }</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        };</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        vector&lt;TableDoneItem&gt; tableDoneVec;     <span class="comment">// status for all output tables of sub-value</span></div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160; </div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        ModelBase(<span class="keyword">const</span> ModelBase &amp; i_model) = <span class="keyword">delete</span>;</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        ModelBase &amp; operator=(<span class="keyword">const</span> ModelBase &amp; i_model) = <span class="keyword">delete</span>;</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    };</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;}</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160; </div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;<span class="preprocessor">#endif  </span><span class="comment">// MODEL_H</span></div>
 <div class="ttc" id="aclassopenm_1_1_model_base_html"><div class="ttname"><a href="classopenm_1_1_model_base.html">openm::ModelBase</a></div><div class="ttdoc">model sub-value run base class</div><div class="ttdef"><b>Definition:</b> model.h:32</div></div>
 <div class="ttc" id="aclassopenm_1_1_model_base_html_a1f0ab8dca2f2268a133c01939c2b9d19"><div class="ttname"><a href="classopenm_1_1_model_base.html#a1f0ab8dca2f2268a133c01939c2b9d19">openm::ModelBase::tableIdByName</a></div><div class="ttdeci">int tableIdByName(const char *i_name) const override</div><div class="ttdoc">return id of output table by name</div><div class="ttdef"><b>Definition:</b> model.h:58</div></div>
 <div class="ttc" id="aclassopenm_1_1_model_base_html_a22db03324ed3a1336df00f259d8e3309"><div class="ttname"><a href="classopenm_1_1_model_base.html#a22db03324ed3a1336df00f259d8e3309">openm::ModelBase::subValueCount</a></div><div class="ttdeci">int subValueCount(void) const noexcept override</div><div class="ttdoc">number of sub-values</div><div class="ttdef"><b>Definition:</b> model.h:46</div></div>
@@ -196,7 +196,7 @@ $(document).ready(function(){initNavTree('model_8h_source.html',''); initResizab
 <div class="ttc" id="aom_log_8h_html"><div class="ttname"><a href="om_log_8h.html">omLog.h</a></div><div class="ttdoc">OpenM++: public interface for log and trace support.</div></div>
 <div class="ttc" id="aom_model_8h_html"><div class="ttname"><a href="om_model_8h.html">omModel.h</a></div><div class="ttdoc">OpenM++ modeling library: public interface.</div></div>
 <div class="ttc" id="arun_controller_8h_html"><div class="ttname"><a href="run_controller_8h.html">runController.h</a></div><div class="ttdoc">OpenM++ modeling library: public base class for run controller to run modeling process.</div></div>
-<div class="ttc" id="astructopenm_1_1_i_model_html"><div class="ttname"><a href="structopenm_1_1_i_model.html">openm::IModel</a></div><div class="ttdoc">model sub-value run public interface</div><div class="ttdef"><b>Definition:</b> omModel.h:140</div></div>
+<div class="ttc" id="astructopenm_1_1_i_model_html"><div class="ttname"><a href="structopenm_1_1_i_model.html">openm::IModel</a></div><div class="ttdoc">model sub-value run public interface</div><div class="ttdef"><b>Definition:</b> omModel.h:136</div></div>
 <div class="ttc" id="astructopenm_1_1_meta_holder_html"><div class="ttname"><a href="structopenm_1_1_meta_holder.html">openm::MetaHolder</a></div><div class="ttdoc">Holder for model metadata core part (not include model text).</div><div class="ttdef"><b>Definition:</b> metaHolder.h:20</div></div>
 <div class="ttc" id="astructopenm_1_1_run_options_html"><div class="ttname"><a href="structopenm_1_1_run_options.html">openm::RunOptions</a></div><div class="ttdoc">basic model run options</div><div class="ttdef"><b>Definition:</b> omModel.h:26</div></div>
 <div class="ttc" id="astructopenm_1_1_table_dic_row_html"><div class="ttname"><a href="structopenm_1_1_table_dic_row.html">openm::TableDicRow</a></div><div class="ttdoc">table_dic table row.</div><div class="ttdef"><b>Definition:</b> dbMetaRow.h:741</div></div>
@@ -206,7 +206,7 @@ $(document).ready(function(){initNavTree('model_8h_source.html',''); initResizab
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_a0af34ed3c51f838a0893dc0d41bbfe5.html">include</a></li><li class="navelem"><a class="el" href="model_8h.html">model.h</a></li>
-    <li class="footer">Generated on Sat Dec 10 2022 01:59:36 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Tue Jan 17 2023 04:15:16 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>
