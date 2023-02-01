@@ -488,6 +488,16 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:aba1541e22e960caaf62384ce85f13f75"><td class="memItemLeft" align="right" valign="top">static multimap&lt; string, string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#aba1541e22e960caaf62384ce85f13f75">memfunc_bodyids</a></td></tr>
 <tr class="memdesc:aba1541e22e960caaf62384ce85f13f75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map of member function qualified names to all identifiers used in the body of the function.  <a href="class_symbol.html#aba1541e22e960caaf62384ce85f13f75">More...</a><br /></td></tr>
 <tr class="separator:aba1541e22e960caaf62384ce85f13f75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ab6ff53053374db84a41711557e7f40"><td class="memItemLeft" align="right" valign="top">static multimap&lt; string, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a2ab6ff53053374db84a41711557e7f40">memfunc_rng_streams</a></td></tr>
+<tr class="memdesc:a2ab6ff53053374db84a41711557e7f40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map of member function qualified names to all rng streams used in the body of the function.  <a href="class_symbol.html#a2ab6ff53053374db84a41711557e7f40">More...</a><br /></td></tr>
+<tr class="separator:a2ab6ff53053374db84a41711557e7f40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa11cb9a4160a5d5f53f10663862c00fb"><td class="memItemLeft" align="right" valign="top">static multimap&lt; string, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#aa11cb9a4160a5d5f53f10663862c00fb">memfunc_rng_normal_streams</a></td></tr>
+<tr class="memdesc:aa11cb9a4160a5d5f53f10663862c00fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map of member function qualified names to all rng Normal streams used in the body of the function.  <a href="class_symbol.html#aa11cb9a4160a5d5f53f10663862c00fb">More...</a><br /></td></tr>
+<tr class="separator:aa11cb9a4160a5d5f53f10663862c00fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8dcaf95be0a5e7416638680ea2506304"><td class="memItemLeft" align="right" valign="top"><a id="a8dcaf95be0a5e7416638680ea2506304"></a>
+static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a8dcaf95be0a5e7416638680ea2506304">size_streams</a> = 0</td></tr>
+<tr class="memdesc:a8dcaf95be0a5e7416638680ea2506304"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size of an array whose index is a random number stream in this model. <br /></td></tr>
+<tr class="separator:a8dcaf95be0a5e7416638680ea2506304"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0de446ca9bbad55dbe17f7ce903a976a"><td class="memItemLeft" align="right" valign="top">static map&lt; string, vector&lt; string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a0de446ca9bbad55dbe17f7ce903a976a">memfunc_parmlist</a></td></tr>
 <tr class="memdesc:a0de446ca9bbad55dbe17f7ce903a976a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map of member function qualified names to the parameter list of each (as a vector of strings).  <a href="class_symbol.html#a0de446ca9bbad55dbe17f7ce903a976a">More...</a><br /></td></tr>
 <tr class="separator:a0de446ca9bbad55dbe17f7ce903a976a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -526,11 +536,14 @@ static map&lt; string, <a class="el" href="classomc_1_1location.html">omc::locat
 <tr class="memdesc:a6ba3b59f491821e02f2827909f3eee38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map from a string to the token associated with that string.  <a href="class_symbol.html#a6ba3b59f491821e02f2827909f3eee38">More...</a><br /></td></tr>
 <tr class="separator:a6ba3b59f491821e02f2827909f3eee38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5e0f9aafd0c5457e754550635ecb441"><td class="memItemLeft" align="right" valign="top">static unordered_set&lt; <a class="el" href="_symbol_8h.html#a4cf0077b3db1fb6a9d460051e87f2f09">token_type</a>, std::hash&lt; int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#ad5e0f9aafd0c5457e754550635ecb441">om_outer_keywords</a></td></tr>
-<tr class="memdesc:ad5e0f9aafd0c5457e754550635ecb441"><td class="mdescLeft">&#160;</td><td class="mdescRight">The list of om outer keywords.  <a href="class_symbol.html#ad5e0f9aafd0c5457e754550635ecb441">More...</a><br /></td></tr>
+<tr class="memdesc:ad5e0f9aafd0c5457e754550635ecb441"><td class="mdescLeft">&#160;</td><td class="mdescRight">The set of om outer keywords.  <a href="class_symbol.html#ad5e0f9aafd0c5457e754550635ecb441">More...</a><br /></td></tr>
 <tr class="separator:ad5e0f9aafd0c5457e754550635ecb441"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0196ff5f82c337f506781292496e579"><td class="memItemLeft" align="right" valign="top">static unordered_set&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#ae0196ff5f82c337f506781292496e579">om_developer_functions</a></td></tr>
-<tr class="memdesc:ae0196ff5f82c337f506781292496e579"><td class="mdescLeft">&#160;</td><td class="mdescRight">The list of om developer functions.  <a href="class_symbol.html#ae0196ff5f82c337f506781292496e579">More...</a><br /></td></tr>
+<tr class="memdesc:ae0196ff5f82c337f506781292496e579"><td class="mdescLeft">&#160;</td><td class="mdescRight">The set of om developer functions.  <a href="class_symbol.html#ae0196ff5f82c337f506781292496e579">More...</a><br /></td></tr>
 <tr class="separator:ae0196ff5f82c337f506781292496e579"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af73e8b64ec04a43c26d0ad98aa3bc3e1"><td class="memItemLeft" align="right" valign="top">static unordered_set&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#af73e8b64ec04a43c26d0ad98aa3bc3e1">om_rng_functions</a></td></tr>
+<tr class="memdesc:af73e8b64ec04a43c26d0ad98aa3bc3e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The set of om random number functions.  <a href="class_symbol.html#af73e8b64ec04a43c26d0ad98aa3bc3e1">More...</a><br /></td></tr>
+<tr class="separator:af73e8b64ec04a43c26d0ad98aa3bc3e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e8310b885728ad537e16a149d3cd8bb"><td class="memItemLeft" align="right" valign="top"><a id="a3e8310b885728ad537e16a149d3cd8bb"></a>
 static <a class="el" href="class_special_global.html">SpecialGlobal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a3e8310b885728ad537e16a149d3cd8bb">pre_simulation</a></td></tr>
 <tr class="memdesc:a3e8310b885728ad537e16a149d3cd8bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">PreSimulation functions in model code. <br /></td></tr>
@@ -610,10 +623,10 @@ static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
 static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a25a70069e3d7fc1bb62b6193d2386872">post_parse_warnings</a> = 0</td></tr>
 <tr class="memdesc:a25a70069e3d7fc1bb62b6193d2386872"><td class="mdescLeft">&#160;</td><td class="mdescRight">A count of warnings identified during post-parse processing. <br /></td></tr>
 <tr class="separator:a25a70069e3d7fc1bb62b6193d2386872"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab98a223f6b0002ee2d837562c9fa68fd"><td class="memItemLeft" align="right" valign="top"><a id="ab98a223f6b0002ee2d837562c9fa68fd"></a>
-static unordered_map&lt; string, string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#ab98a223f6b0002ee2d837562c9fa68fd">options</a></td></tr>
-<tr class="memdesc:ab98a223f6b0002ee2d837562c9fa68fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">All key-value pairs given in options statements in model code. <br /></td></tr>
-<tr class="separator:ab98a223f6b0002ee2d837562c9fa68fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75a45df8ca221e6a24bffa1c26d37b3e"><td class="memItemLeft" align="right" valign="top"><a id="a75a45df8ca221e6a24bffa1c26d37b3e"></a>
+static unordered_multimap&lt; string, string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a75a45df8ca221e6a24bffa1c26d37b3e">options</a></td></tr>
+<tr class="memdesc:a75a45df8ca221e6a24bffa1c26d37b3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">All key-value pairs given in options statements in model code. <br /></td></tr>
+<tr class="separator:a75a45df8ca221e6a24bffa1c26d37b3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ef683113c066813f03b1c42304c980f"><td class="memItemLeft" align="right" valign="top"><a id="a2ef683113c066813f03b1c42304c980f"></a>
 static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a2ef683113c066813f03b1c42304c980f">option_event_trace</a> = false</td></tr>
 <tr class="memdesc:a2ef683113c066813f03b1c42304c980f"><td class="mdescLeft">&#160;</td><td class="mdescRight">true if event_trace capability is requested in options statement. <br /></td></tr>
@@ -1247,7 +1260,7 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 </div><div class="memdoc">
 
 <p>Parse all options in model source code. </p>
-<p>All key-value pairs in options statements are placed in the map <a class="el" href="class_symbol.html#ab98a223f6b0002ee2d837562c9fa68fd" title="All key-value pairs given in options statements in model code.">Symbol::options</a> during model code parsing for subsequent processing by this function. Unrecognized options are ignored, as are unrecognized values for recognized options. </p>
+<p>All key-value pairs in options statements are placed in the map <a class="el" href="class_symbol.html#a75a45df8ca221e6a24bffa1c26d37b3e" title="All key-value pairs given in options statements in model code.">Symbol::options</a> during model code parsing for subsequent processing by this function. Unrecognized options are ignored, as are unrecognized values for recognized options. </p>
 
 </div>
 </div>
@@ -2883,6 +2896,56 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 
 </div>
 </div>
+<a id="aa11cb9a4160a5d5f53f10663862c00fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa11cb9a4160a5d5f53f10663862c00fb">&#9670;&nbsp;</a></span>memfunc_rng_normal_streams</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">multimap&lt; string, int &gt; Symbol::memfunc_rng_normal_streams</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Map of member function qualified names to all rng Normal streams used in the body of the function. </p>
+<p>An example entry might be "Person::MortalityEvent" ==&gt; 12. </p>
+
+</div>
+</div>
+<a id="a2ab6ff53053374db84a41711557e7f40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ab6ff53053374db84a41711557e7f40">&#9670;&nbsp;</a></span>memfunc_rng_streams</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">multimap&lt; string, int &gt; Symbol::memfunc_rng_streams</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Map of member function qualified names to all rng streams used in the body of the function. </p>
+<p>An example entry might be "Person::MortalityEvent" ==&gt; 12. </p>
+
+</div>
+</div>
 <a id="a9c6d271b2a6c3fd3d609b9af3a72a432"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9c6d271b2a6c3fd3d609b9af3a72a432">&#9670;&nbsp;</a></span>modgen_sort_option</h2>
 
@@ -3005,8 +3068,8 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <div class="line">    <span class="stringliteral">&quot;ProcessDevelopmentOptions&quot;</span>,</div>
 <div class="line">}</div>
 </div><!-- fragment -->
-<p>The list of om developer functions. </p>
-<p>This is a fixed map independent of any model. These are C++ functions with fixed names which are supplied by the om developer in the model source code. An example is the 'Simulation' function. </p>
+<p>The set of om developer functions. </p>
+<p>This is a fixed set independent of any model. These are C++ functions with fixed names supplied by the om developer in the model source code. An example is the 'Simulation' function. </p>
 
 </div>
 </div>
@@ -3030,9 +3093,40 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 </table>
 </div><div class="memdoc">
 
-<p>The list of om outer keywords. </p>
-<p>This is a fixed map independent of any model. During parsing these keywords cause a transition from C++ code to om declarative code islands. There is an exact one-to-one relationship between this list and the first block of entries in the list <em>token_string</em>.</p>
+<p>The set of om outer keywords. </p>
+<p>This is a fixed set independent of any model. During parsing these keywords cause a transition from C++ code to om declarative code islands. There is an exact one-to-one relationship between this set and the first block of entries in the list <em>token_string</em>.</p>
 <dl class="section return"><dt>Returns</dt><dd>The om outer keywords. </dd></dl>
+
+</div>
+</div>
+<a id="af73e8b64ec04a43c26d0ad98aa3bc3e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af73e8b64ec04a43c26d0ad98aa3bc3e1">&#9670;&nbsp;</a></span>om_rng_functions</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unordered_set&lt; string &gt; Symbol::om_rng_functions</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">{</div>
+<div class="line">    <span class="stringliteral">&quot;RandUniform&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;RandNormal&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;RandLogistic&quot;</span>,</div>
+<div class="line">}</div>
+</div><!-- fragment -->
+<p>The set of om random number functions. </p>
+<p>This is a fixed set independent of any model. These are C++ functions with fixed names which can be called by the om developer in the model source code. An example is the 'RandUniform' function. </p>
 
 </div>
 </div>
@@ -3879,7 +3973,7 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_symbol.html">Symbol</a></li>
-    <li class="footer">Generated on Tue Jan 17 2023 04:15:22 for OpenM++ compiler (omc) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Wed Feb 1 2023 03:42:55 for OpenM++ compiler (omc) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

@@ -15,6 +15,8 @@ var class_entity_func_symbol =
     [ "func_body", "class_entity_func_symbol.html#adb0de2e353c98d651cbb6292a1ea71ad", null ],
     [ "has_line_directive", "class_entity_func_symbol.html#a985c3ed2b7168092d5d80413aa57754f", null ],
     [ "return_decl", "class_entity_func_symbol.html#adf86790a5719c45929c7e2a9897c1a05", null ],
+    [ "rng_normal_streams", "class_entity_func_symbol.html#a8bfe528fbd44e6eb966f6c6061dc5da4", null ],
+    [ "rng_streams", "class_entity_func_symbol.html#a5da33a09340bdbf64395379a298d42a5", null ],
     [ "suppress_code_if_empty", "class_entity_func_symbol.html#ac0492bbe1e8cadc33ade88bc657b7826", null ],
     [ "suppress_defn", "class_entity_func_symbol.html#a51ce43d55207f019569c3e6f199dbdb1", null ]
 ];
