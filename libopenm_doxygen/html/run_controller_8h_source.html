@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('run_controller_8h_source.html',''); in
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">using namespace </span>std;</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">static</span> constexpr <span class="keywordtype">size_t</span> MinSizeToSaveMicrodata = 512 * 1024;        </div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">static</span> constexpr <span class="keywordtype">size_t</span> MinSizeToSaveMicrodata = 128 * 1024;        </div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">static</span> constexpr <span class="keywordtype">size_t</span> MaxSizeToSaveMicrodata = 2 * 1024 * 1024;   </div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceopenm.html">openm</a></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{</div>
@@ -406,7 +406,7 @@ $(document).ready(function(){initNavTree('run_controller_8h_source.html',''); in
 <div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;            <span class="keywordtype">int</span> entityId;                           <span class="comment">// entity metadata id</span></div>
 <div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;            <span class="comment">//</span></div>
 <div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;            recursive_mutex theMutex;               <span class="comment">// mutex to lock for db write operations</span></div>
-<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;            list&lt;unique_ptr&lt;uint8_t[]&gt;&gt; rowLst;       <span class="comment">// microdata list of rows</span></div>
+<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;            list&lt;unique_ptr&lt;uint8_t[]&gt;&gt; rowLst;     <span class="comment">// microdata list of rows</span></div>
 <div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;            chrono::system_clock::time_point lastSaveTime = chrono::system_clock::time_point::min();  <span class="comment">// last time of save</span></div>
 <div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;        };</div>
 <div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;        map&lt;int, EntityDbItem&gt; entityDbMap;         <span class="comment">// map entity id to database microdata buffer</span></div>
@@ -518,7 +518,7 @@ $(document).ready(function(){initNavTree('run_controller_8h_source.html',''); in
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_a0af34ed3c51f838a0893dc0d41bbfe5.html">include</a></li><li class="navelem"><a class="el" href="run_controller_8h.html">runController.h</a></li>
-    <li class="footer">Generated on Fri Mar 10 2023 15:58:39 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Tue May 2 2023 15:54:49 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

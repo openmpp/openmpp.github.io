@@ -398,6 +398,7 @@ var namespaceopenm =
     [ "formatTo", "namespaceopenm.html#a7b605680a51287b19d15eef68648d754", null ],
     [ "getDefaultLocaleName", "namespaceopenm.html#a53aceb151662b27ab94b62a3f766b5ea", null ],
     [ "getMilliseconds", "namespaceopenm.html#a79817a8d2562a945198ee9e1757f2131", null ],
+    [ "getProcessMemorySize", "namespaceopenm.html#a1e2215ea844201635316e4646fa8e857", null ],
     [ "isBigIntType", "namespaceopenm.html#a71fd7e4c6751f327d4ae483cfacd412e", null ],
     [ "isBoolTrue", "namespaceopenm.html#a3f2ae62b2f2d2bceff334624834cbeb1", null ],
     [ "isBoolType", "namespaceopenm.html#ae7079ed9e114e722bfbf39892f4a6ea4", null ],

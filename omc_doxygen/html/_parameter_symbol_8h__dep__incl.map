@@ -1,14 +1,15 @@
 <map id="ParameterSymbol.h" name="ParameterSymbol.h">
-<area shape="rect" id="node1" title="Definitions for the ParameterSymbol class." alt="" coords="525,5,675,32"/>
+<area shape="rect" id="node1" title="Definitions for the ParameterSymbol class." alt="" coords="439,5,590,32"/>
 <area shape="rect" id="node2" href="$_anon_group_symbol_8cpp.html" title="Definitions for the AnonGroupSymbol class." alt="" coords="5,80,176,107"/>
-<area shape="rect" id="node3" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="271,155,326,181"/>
-<area shape="rect" id="node5" href="$_extend_parameter_symbol_8cpp.html" title="Definitions for the ExtendParameterSymbol class." alt="" coords="251,80,461,107"/>
-<area shape="rect" id="node6" href="$_import_symbol_8h.html" title="Declarations for the ImportSymbol class." alt="" coords="486,80,613,107"/>
-<area shape="rect" id="node8" href="$_symbol_8cpp.html" title="Definitions for the Symbol class." alt="" coords="601,155,700,181"/>
-<area shape="rect" id="node9" href="$_model_symbol_8cpp.html" title="Definitions for the ModelSymbol class." alt="" coords="688,80,827,107"/>
-<area shape="rect" id="node10" href="$omc__csv_8h.html" title="omc functions to read parameters data from .csv or .tsv files." alt="" coords="851,80,941,107"/>
-<area shape="rect" id="node12" href="$_parameter_group_symbol_8cpp.html" title="Definitions for the ParameterGroupSymbol class." alt="" coords="966,80,1170,107"/>
-<area shape="rect" id="node4" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="245,229,353,256"/>
-<area shape="rect" id="node7" href="$_import_symbol_8cpp.html" title="Definitions for the ImportSymbol class." alt="" coords="436,155,577,181"/>
-<area shape="rect" id="node11" href="$omc__csv_8cpp.html" title="omc functions to read parameters data from .csv or .tsv files." alt="" coords="843,155,949,181"/>
+<area shape="rect" id="node3" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="177,155,231,181"/>
+<area shape="rect" id="node5" href="$_extend_parameter_symbol_8cpp.html" title="Definitions for the ExtendParameterSymbol class." alt="" coords="651,80,861,107"/>
+<area shape="rect" id="node6" href="$_import_symbol_8h.html" title="Declarations for the ImportSymbol class." alt="" coords="251,80,378,107"/>
+<area shape="rect" id="node8" href="$_symbol_8cpp.html" title="Definitions for the Symbol class." alt="" coords="421,155,520,181"/>
+<area shape="rect" id="node9" href="$_model_symbol_8cpp.html" title="Definitions for the ModelSymbol class." alt="" coords="544,155,683,181"/>
+<area shape="rect" id="node10" href="$_model_symbol_8h.html" title="Declarations for the ModelSymbol class." alt="" coords="453,80,576,107"/>
+<area shape="rect" id="node11" href="$omc__csv_8h.html" title="omc functions to read parameters data from .csv or .tsv files." alt="" coords="885,80,976,107"/>
+<area shape="rect" id="node13" href="$_parameter_group_symbol_8cpp.html" title="Definitions for the ParameterGroupSymbol class." alt="" coords="1001,80,1205,107"/>
+<area shape="rect" id="node4" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="150,229,258,256"/>
+<area shape="rect" id="node7" href="$_import_symbol_8cpp.html" title="Definitions for the ImportSymbol class." alt="" coords="256,155,397,181"/>
+<area shape="rect" id="node12" href="$omc__csv_8cpp.html" title="omc functions to read parameters data from .csv or .tsv files." alt="" coords="878,155,983,181"/>
 </map>

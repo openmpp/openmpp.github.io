@@ -12,6 +12,7 @@ var om_model_8h =
     [ "OM_EVENT_LOOP_HANDLER", "om_model_8h.html#a77fcda4a5e370fc5bf0978bbc3739099", null ],
     [ "OM_RUN_INIT_HANDLER", "om_model_8h.html#af26d4eb73e9d9ced0b976c5865053f4e", null ],
     [ "OM_RUN_ONCE_HANDLER", "om_model_8h.html#ab892b2fdcbae3a6128f4d59bf67c3212", null ],
+    [ "OM_RUN_SHUTDOWN_HANDLER", "om_model_8h.html#aac50992b6c11db0dfd578e7f5ef2042d", null ],
     [ "OM_SHUTDOWN_HANDLER", "om_model_8h.html#ac3d293e42380d6c6b746d458a1599014", null ],
     [ "OM_STARTUP_HANDLER", "om_model_8h.html#a26d37d2d64f0e4e212871240905f5ee3", null ],
     [ "SimulationException", "om_model_8h.html#ad68120fc77d3f8e6436c93e24e1bad39", null ],
@@ -32,6 +33,7 @@ var om_model_8h =
     [ "RunInitHandler", "om_model_8h.html#ab6e07a42445842f1239dfcaf491ae45a", null ],
     [ "RunModelHandler", "om_model_8h.html#ad9c9353bc9fad350f9c43b26ded2d660", null ],
     [ "RunOnceHandler", "om_model_8h.html#a45e9f51d12ca05fb078347ee58d2bdf6", null ],
+    [ "RunShutdownHandler", "om_model_8h.html#a8703f2f46ab7705661c3cda6afb11a94", null ],
     [ "simulationUnknownErrorMessage", "om_model_8h.html#ad6344e88368961ad36da4c9433e0c1cc", null ],
     [ "theModelRunState", "om_model_8h.html#a23b790297e68ccf5ca2e035f38086101", null ]
 ];

@@ -1,52 +1,52 @@
 <map id="omc_common.h" name="omc_common.h">
-<area shape="rect" id="node1" title="Common declarations for omc." alt="" coords="3657,5,3784,32"/>
-<area shape="rect" id="node2" href="$_symbol_8h.html" title="Declarations for the Symbol class." alt="" coords="3679,80,3762,107"/>
-<area shape="rect" id="node3" href="$_aggregation_symbol_8h.html" title="Declarations for the AggregationSymbol class." alt="" coords="2246,386,2408,413"/>
-<area shape="rect" id="node5" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="3181,543,3236,569"/>
-<area shape="rect" id="node8" href="$_symbol_8cpp.html" title="Definitions for the Symbol class." alt="" coords="3530,468,3628,495"/>
-<area shape="rect" id="node9" href="$_constant_8h.html" title="Declarations for the Constant class." alt="" coords="1900,155,1992,181"/>
-<area shape="rect" id="node17" href="$_entity_hook_symbol_8cpp.html" title="Definitions for the EntityHookSymbol class." alt="" coords="358,543,528,569"/>
-<area shape="rect" id="node18" href="$_entity_hook_symbol_8h.html" title="Declarations for the EntityHookSymbol class." alt="" coords="44,468,199,495"/>
-<area shape="rect" id="node19" href="$_parameter_symbol_8h.html" title="Definitions for the ParameterSymbol class." alt="" coords="2764,386,2914,413"/>
-<area shape="rect" id="node22" href="$_type_symbol_8h.html" title="Declarations for the TypeSymbol class." alt="" coords="1446,229,1560,256"/>
-<area shape="rect" id="node23" href="$_constant_symbol_8h.html" title="Declarations for the ConstantSymbol class." alt="" coords="982,304,1123,331"/>
-<area shape="rect" id="node25" href="$_derived_table_symbol_8h.html" title="Declarations for the DerivedTableSymbol class." alt="" coords="5208,386,5376,413"/>
-<area shape="rect" id="node26" href="$_dimension_symbol_8h.html" title="Definitions for the DimensionSymbol class." alt="" coords="4924,229,5077,256"/>
-<area shape="rect" id="node27" href="$_table_symbol_8h.html" title="Declarations for the TableSymbol class." alt="" coords="5087,304,5204,331"/>
-<area shape="rect" id="node28" href="$_driver_8h.html" title="Declares the Driver class." alt="" coords="3316,155,3389,181"/>
-<area shape="rect" id="node29" href="$_entity_member_symbol_8h.html" title="Declarations for the EntityMemberSymbol class." alt="" coords="2938,386,3113,413"/>
-<area shape="rect" id="node30" href="$_entity_set_symbol_8h.html" title="Declarations for the EntitySetSymbol class." alt="" coords="3137,386,3280,413"/>
-<area shape="rect" id="node31" href="$_entity_symbol_8h.html" title="Declares the EntitySymbol derived class of the Symbol class." alt="" coords="884,386,1005,413"/>
-<area shape="rect" id="node32" href="$_entity_table_accumulator_symbol_8h.html" title="Declarations for the EntityTableAccumulatorSymbol class." alt="" coords="3304,386,3542,413"/>
-<area shape="rect" id="node33" href="$_entity_table_measure_attribute_symbol_8h.html" title="Declarations for the EntityTableMeasureAttributeSymbol class." alt="" coords="3617,379,3824,420"/>
-<area shape="rect" id="node34" href="$_entity_table_measure_symbol_8h.html" title="Definitions for the EntityTableMeasureSymbol class." alt="" coords="4708,304,4919,331"/>
-<area shape="rect" id="node35" href="$_enumerator_symbol_8h.html" title="Declarations for the EnumeratorSymbol class." alt="" coords="2196,304,2354,331"/>
-<area shape="rect" id="node36" href="$_expr_for_attribute_8h.html" title="Declares and implements the class ExprForAttribute which represents elements in an openM++ attribute ..." alt="" coords="402,386,542,413"/>
-<area shape="rect" id="node37" href="$_expr_for_table_8h.html" title="Declares and implements the class ExprForTable which represents elements in an openM++ table expressi..." alt="" coords="5552,229,5670,256"/>
-<area shape="rect" id="node38" href="$_extend_parameter_symbol_8h.html" title="Declarations for the ExtendParameterSymbol class." alt="" coords="5694,229,5888,256"/>
-<area shape="rect" id="node39" href="$_global_func_symbol_8h.html" title="Declarations for the GlobalFuncSymbol class." alt="" coords="2483,386,2638,413"/>
-<area shape="rect" id="node40" href="$_group_symbol_8h.html" title="Declarations for the GroupSymbol class." alt="" coords="3848,386,3971,413"/>
-<area shape="rect" id="node41" href="$_language_symbol_8h.html" title="Declarations for the LanguageSymbol class." alt="" coords="3995,386,4142,413"/>
-<area shape="rect" id="node42" href="$_link_to_attribute_symbol_8h.html" title="Declarations for the LinkToAttributeSymbol class." alt="" coords="146,386,327,413"/>
-<area shape="rect" id="node43" href="$_model_symbol_8h.html" title="Declarations for the ModelSymbol class." alt="" coords="4166,386,4288,413"/>
-<area shape="rect" id="node44" href="$_model_type_symbol_8h.html" title="Declarations for the ModelTypeSymbol class." alt="" coords="4313,386,4466,413"/>
-<area shape="rect" id="node45" href="$_module_symbol_8h.html" title="Declarations for the ModuleSymbol class." alt="" coords="5347,155,5478,181"/>
-<area shape="rect" id="node46" href="$_parse_context_8h.html" title="Declares the parse context class." alt="" coords="5203,155,5323,181"/>
-<area shape="rect" id="node47" href="$_scenario_symbol_8h.html" title="Declarations for the ScenarioSymbol class." alt="" coords="4491,386,4630,413"/>
-<area shape="rect" id="node48" href="$_string_symbol_8h.html" title="Declarations for the StringSymbol class." alt="" coords="4654,386,4776,413"/>
-<area shape="rect" id="node49" href="$_table_measure_symbol_8h.html" title="Declarations for the TableMeasureSymbol class." alt="" coords="4726,229,4899,256"/>
-<area shape="rect" id="node50" href="$_version_symbol_8h.html" title="Declarations for the VersionSymbol class." alt="" coords="4902,386,5032,413"/>
-<area shape="rect" id="node4" href="$_aggregation_symbol_8cpp.html" title="Definitions for the AggregationSymbol class." alt="" coords="2246,468,2424,495"/>
-<area shape="rect" id="node7" href="$_derived_attribute_symbol_8cpp.html" title="Definitions for the DerivedAttributeSymbol class." alt="" coords="1028,468,1234,495"/>
-<area shape="rect" id="node6" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="3154,617,3262,644"/>
-<area shape="rect" id="node10" href="$_bool_symbol_8h.html" title="Declarations for the BoolSymbol class." alt="" coords="1080,386,1192,413"/>
-<area shape="rect" id="node12" href="$_classification_symbol_8h.html" title="Declarations for the ClassificationSymbol class." alt="" coords="1950,304,2120,331"/>
-<area shape="rect" id="node13" href="$_constant_8cpp.html" title="Definitions for the Constant class." alt="" coords="1712,386,1819,413"/>
-<area shape="rect" id="node14" href="$_numeric_symbol_8h.html" title="Declarations for the NumericSymbol class." alt="" coords="1787,304,1926,331"/>
-<area shape="rect" id="node20" href="$_partition_symbol_8h.html" title="Declarations for the PartitionSymbol class." alt="" coords="1268,386,1405,413"/>
-<area shape="rect" id="node21" href="$_range_symbol_8h.html" title="Declarations for the RangeSymbol class." alt="" coords="2046,386,2170,413"/>
-<area shape="rect" id="node11" href="$_identity_attribute_symbol_8cpp.html" title="Definitions for the IdentityAttributeSymbol class." alt="" coords="522,468,727,495"/>
-<area shape="rect" id="node15" href="$_attribute_symbol_8cpp.html" title="Definitions for the AttributeSymbol class." alt="" coords="1598,468,1752,495"/>
-<area shape="rect" id="node16" href="$_derived_attribute_symbol_8h.html" title="Declarations for the DerivedAttributeSymbol class." alt="" coords="669,386,860,413"/>
-<area shape="rect" id="node24" href="$_constant_symbol_8cpp.html" title="Definitions for the ConstantSymbol class." alt="" coords="1481,386,1637,413"/>
+<area shape="rect" id="node1" title="Common declarations for omc." alt="" coords="3171,5,3298,32"/>
+<area shape="rect" id="node2" href="$_symbol_8h.html" title="Declarations for the Symbol class." alt="" coords="3193,80,3276,107"/>
+<area shape="rect" id="node3" href="$_aggregation_symbol_8h.html" title="Declarations for the AggregationSymbol class." alt="" coords="1408,379,1570,405"/>
+<area shape="rect" id="node5" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="2480,543,2535,569"/>
+<area shape="rect" id="node8" href="$_symbol_8cpp.html" title="Definitions for the Symbol class." alt="" coords="4026,543,4125,569"/>
+<area shape="rect" id="node9" href="$_constant_8h.html" title="Declarations for the Constant class." alt="" coords="1815,155,1907,181"/>
+<area shape="rect" id="node17" href="$_entity_hook_symbol_8cpp.html" title="Definitions for the EntityHookSymbol class." alt="" coords="593,543,764,569"/>
+<area shape="rect" id="node18" href="$_entity_hook_symbol_8h.html" title="Declarations for the EntityHookSymbol class." alt="" coords="45,461,200,487"/>
+<area shape="rect" id="node19" href="$_parameter_symbol_8h.html" title="Definitions for the ParameterSymbol class." alt="" coords="3046,379,3196,405"/>
+<area shape="rect" id="node20" href="$_model_symbol_8h.html" title="Declarations for the ModelSymbol class." alt="" coords="2966,461,3089,487"/>
+<area shape="rect" id="node23" href="$_type_symbol_8h.html" title="Declarations for the TypeSymbol class." alt="" coords="1523,229,1636,256"/>
+<area shape="rect" id="node24" href="$_constant_symbol_8h.html" title="Declarations for the ConstantSymbol class." alt="" coords="1217,304,1358,331"/>
+<area shape="rect" id="node26" href="$_derived_table_symbol_8h.html" title="Declarations for the DerivedTableSymbol class." alt="" coords="3468,461,3636,487"/>
+<area shape="rect" id="node27" href="$_dimension_symbol_8h.html" title="Definitions for the DimensionSymbol class." alt="" coords="3158,304,3311,331"/>
+<area shape="rect" id="node28" href="$_table_symbol_8h.html" title="Declarations for the TableSymbol class." alt="" coords="3424,379,3541,405"/>
+<area shape="rect" id="node29" href="$_driver_8h.html" title="Declares the Driver class." alt="" coords="5567,155,5640,181"/>
+<area shape="rect" id="node30" href="$_entity_member_symbol_8h.html" title="Declarations for the EntityMemberSymbol class." alt="" coords="5316,461,5491,487"/>
+<area shape="rect" id="node31" href="$_entity_set_symbol_8h.html" title="Declarations for the EntitySetSymbol class." alt="" coords="2596,461,2739,487"/>
+<area shape="rect" id="node32" href="$_entity_symbol_8h.html" title="Declares the EntitySymbol derived class of the Symbol class." alt="" coords="1960,379,2082,405"/>
+<area shape="rect" id="node33" href="$_entity_table_accumulator_symbol_8h.html" title="Declarations for the EntityTableAccumulatorSymbol class." alt="" coords="3710,461,3948,487"/>
+<area shape="rect" id="node34" href="$_entity_table_measure_attribute_symbol_8h.html" title="Declarations for the EntityTableMeasureAttributeSymbol class." alt="" coords="3972,453,4179,495"/>
+<area shape="rect" id="node35" href="$_entity_table_measure_symbol_8h.html" title="Definitions for the EntityTableMeasureSymbol class." alt="" coords="3666,379,3877,405"/>
+<area shape="rect" id="node36" href="$_enumerator_symbol_8h.html" title="Declarations for the EnumeratorSymbol class." alt="" coords="715,304,874,331"/>
+<area shape="rect" id="node37" href="$_expr_for_attribute_8h.html" title="Declares and implements the class ExprForAttribute which represents elements in an openM++ attribute ..." alt="" coords="2294,379,2434,405"/>
+<area shape="rect" id="node38" href="$_expr_for_table_8h.html" title="Declares and implements the class ExprForTable which represents elements in an openM++ table expressi..." alt="" coords="178,229,296,256"/>
+<area shape="rect" id="node39" href="$_extend_parameter_symbol_8h.html" title="Declarations for the ExtendParameterSymbol class." alt="" coords="320,229,514,256"/>
+<area shape="rect" id="node40" href="$_global_func_symbol_8h.html" title="Declarations for the GlobalFuncSymbol class." alt="" coords="2816,379,2970,405"/>
+<area shape="rect" id="node41" href="$_group_symbol_8h.html" title="Declarations for the GroupSymbol class." alt="" coords="4204,461,4326,487"/>
+<area shape="rect" id="node42" href="$_language_symbol_8h.html" title="Declarations for the LanguageSymbol class." alt="" coords="4350,461,4497,487"/>
+<area shape="rect" id="node43" href="$_link_to_attribute_symbol_8h.html" title="Declarations for the LinkToAttributeSymbol class." alt="" coords="2560,379,2741,405"/>
+<area shape="rect" id="node44" href="$_model_type_symbol_8h.html" title="Declarations for the ModelTypeSymbol class." alt="" coords="4522,461,4675,487"/>
+<area shape="rect" id="node45" href="$_module_symbol_8h.html" title="Declarations for the ModuleSymbol class." alt="" coords="538,229,669,256"/>
+<area shape="rect" id="node46" href="$_parse_context_8h.html" title="Declares the parse context class." alt="" coords="5665,155,5785,181"/>
+<area shape="rect" id="node47" href="$_scenario_symbol_8h.html" title="Declarations for the ScenarioSymbol class." alt="" coords="4700,461,4838,487"/>
+<area shape="rect" id="node48" href="$_string_symbol_8h.html" title="Declarations for the StringSymbol class." alt="" coords="4863,461,4984,487"/>
+<area shape="rect" id="node49" href="$_table_measure_symbol_8h.html" title="Declarations for the TableMeasureSymbol class." alt="" coords="3437,304,3610,331"/>
+<area shape="rect" id="node50" href="$_version_symbol_8h.html" title="Declarations for the VersionSymbol class." alt="" coords="5161,461,5292,487"/>
+<area shape="rect" id="node4" href="$_aggregation_symbol_8cpp.html" title="Definitions for the AggregationSymbol class." alt="" coords="1324,461,1502,487"/>
+<area shape="rect" id="node7" href="$_derived_attribute_symbol_8cpp.html" title="Definitions for the DerivedAttributeSymbol class." alt="" coords="1679,461,1886,487"/>
+<area shape="rect" id="node6" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="2454,617,2562,644"/>
+<area shape="rect" id="node10" href="$_bool_symbol_8h.html" title="Declarations for the BoolSymbol class." alt="" coords="2106,379,2218,405"/>
+<area shape="rect" id="node12" href="$_classification_symbol_8h.html" title="Declarations for the ClassificationSymbol class." alt="" coords="1837,304,2008,331"/>
+<area shape="rect" id="node13" href="$_constant_8cpp.html" title="Definitions for the Constant class." alt="" coords="1010,379,1117,405"/>
+<area shape="rect" id="node14" href="$_numeric_symbol_8h.html" title="Declarations for the NumericSymbol class." alt="" coords="1624,304,1762,331"/>
+<area shape="rect" id="node21" href="$_partition_symbol_8h.html" title="Declarations for the PartitionSymbol class." alt="" coords="1646,379,1783,405"/>
+<area shape="rect" id="node22" href="$_range_symbol_8h.html" title="Declarations for the RangeSymbol class." alt="" coords="478,379,602,405"/>
+<area shape="rect" id="node11" href="$_identity_attribute_symbol_8cpp.html" title="Definitions for the IdentityAttributeSymbol class." alt="" coords="2214,461,2420,487"/>
+<area shape="rect" id="node15" href="$_attribute_symbol_8cpp.html" title="Definitions for the AttributeSymbol class." alt="" coords="781,461,936,487"/>
+<area shape="rect" id="node16" href="$_derived_attribute_symbol_8h.html" title="Declarations for the DerivedAttributeSymbol class." alt="" coords="1192,379,1383,405"/>
+<area shape="rect" id="node25" href="$_constant_symbol_8cpp.html" title="Definitions for the ConstantSymbol class." alt="" coords="728,379,884,405"/>
 </map>

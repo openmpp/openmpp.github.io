@@ -1256,10 +1256,6 @@ const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#ac8ae4ef3e653c615daae9b357ced6a87">toDateTimeString</a> (const std::string &amp;i_timestamp)</td></tr>
 <tr class="memdesc:ac8ae4ef3e653c615daae9b357ced6a87"><td class="mdescLeft">&#160;</td><td class="mdescRight">make date-time string from timestamp string, ie: 2012_08_17_16_04_59_148 =&gt; 2012-08-17 16:04:59.148 <br /></td></tr>
 <tr class="separator:ac8ae4ef3e653c615daae9b357ced6a87"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79817a8d2562a945198ee9e1757f2131"><td class="memItemLeft" align="right" valign="top"><a id="a79817a8d2562a945198ee9e1757f2131"></a>
-int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a79817a8d2562a945198ee9e1757f2131">getMilliseconds</a> (void)</td></tr>
-<tr class="memdesc:a79817a8d2562a945198ee9e1757f2131"><td class="mdescLeft">&#160;</td><td class="mdescRight">return number of milliseconds since epoch to measure intervals <br /></td></tr>
-<tr class="separator:a79817a8d2562a945198ee9e1757f2131"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b605680a51287b19d15eef68648d754"><td class="memItemLeft" align="right" valign="top"><a id="a7b605680a51287b19d15eef68648d754"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a7b605680a51287b19d15eef68648d754">formatTo</a> (size_t i_size, char *io_buffer, const char *i_format, va_list io_args)</td></tr>
 <tr class="memdesc:a7b605680a51287b19d15eef68648d754"><td class="mdescLeft">&#160;</td><td class="mdescRight">format message into supplied buffer using vsnprintf() <br /></td></tr>
@@ -1276,16 +1272,23 @@ const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 const std::list&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#ad2800edf935087455510600e768e17f3">splitLanguageName</a> (const std::string &amp;i_srcLanguage)</td></tr>
 <tr class="memdesc:ad2800edf935087455510600e768e17f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">normalize language name and split it into list of prefered languages: en_CA =&gt; [en-ca, en] <br /></td></tr>
 <tr class="separator:ad2800edf935087455510600e768e17f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53aceb151662b27ab94b62a3f766b5ea"><td class="memItemLeft" align="right" valign="top"><a id="a53aceb151662b27ab94b62a3f766b5ea"></a>
-const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a53aceb151662b27ab94b62a3f766b5ea">getDefaultLocaleName</a> (void)</td></tr>
-<tr class="memdesc:a53aceb151662b27ab94b62a3f766b5ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">get user prefered locale name: en-CA en-CA or empty "" string on error <br /></td></tr>
-<tr class="separator:a53aceb151662b27ab94b62a3f766b5ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac04f2e0df51904c51dde3eb978a1f8af"><td class="memItemLeft" align="right" valign="top">std::list&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#ac04f2e0df51904c51dde3eb978a1f8af">splitCsv</a> (const std::string &amp;i_values, const char *i_delimiters=&quot;,&quot;, bool i_isUnquote=false, char i_quote='\'')</td></tr>
 <tr class="memdesc:ac04f2e0df51904c51dde3eb978a1f8af"><td class="mdescLeft">&#160;</td><td class="mdescRight">split and trim comma-separated list of values (other delimiters can be used too, ie: semicolon).  <a href="namespaceopenm.html#ac04f2e0df51904c51dde3eb978a1f8af">More...</a><br /></td></tr>
 <tr class="separator:ac04f2e0df51904c51dde3eb978a1f8af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a723cbbbc195258d1e5a49ea5e44a0609"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a723cbbbc195258d1e5a49ea5e44a0609">splitCsv</a> (const std::string &amp;i_values, std::list&lt; std::string &gt; &amp;io_resultLst, const char *i_delimiters=&quot;,&quot;, bool i_isUnquote=false, char i_quote='\'', const std::locale &amp;i_locale=std::locale(&quot;&quot;))</td></tr>
 <tr class="memdesc:a723cbbbc195258d1e5a49ea5e44a0609"><td class="mdescLeft">&#160;</td><td class="mdescRight">split and trim comma-separated list of values (other delimiters can be used too, ie: semicolon).  <a href="namespaceopenm.html#a723cbbbc195258d1e5a49ea5e44a0609">More...</a><br /></td></tr>
 <tr class="separator:a723cbbbc195258d1e5a49ea5e44a0609"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79817a8d2562a945198ee9e1757f2131"><td class="memItemLeft" align="right" valign="top"><a id="a79817a8d2562a945198ee9e1757f2131"></a>
+int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a79817a8d2562a945198ee9e1757f2131">getMilliseconds</a> (void)</td></tr>
+<tr class="memdesc:a79817a8d2562a945198ee9e1757f2131"><td class="mdescLeft">&#160;</td><td class="mdescRight">return number of milliseconds since epoch to measure intervals <br /></td></tr>
+<tr class="separator:a79817a8d2562a945198ee9e1757f2131"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53aceb151662b27ab94b62a3f766b5ea"><td class="memItemLeft" align="right" valign="top"><a id="a53aceb151662b27ab94b62a3f766b5ea"></a>
+const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a53aceb151662b27ab94b62a3f766b5ea">getDefaultLocaleName</a> (void)</td></tr>
+<tr class="memdesc:a53aceb151662b27ab94b62a3f766b5ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">get user prefered locale name: en-CA en-CA or empty "" string on error <br /></td></tr>
+<tr class="separator:a53aceb151662b27ab94b62a3f766b5ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e2215ea844201635316e4646fa8e857"><td class="memItemLeft" align="right" valign="top">std::tuple&lt; uint64_t, uint64_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a1e2215ea844201635316e4646fa8e857">getProcessMemorySize</a> (void)</td></tr>
+<tr class="memdesc:a1e2215ea844201635316e4646fa8e857"><td class="mdescLeft">&#160;</td><td class="mdescRight">return current process memory size and max peak memory size, in bytes.  <a href="namespaceopenm.html#a1e2215ea844201635316e4646fa8e857">More...</a><br /></td></tr>
+<tr class="separator:a1e2215ea844201635316e4646fa8e857"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23956e29aef6f04e11d952f7f91f7f4c"><td class="memTemplParams" colspan="2"><a id="a23956e29aef6f04e11d952f7f91f7f4c"></a>
 template&lt;typename TVal &gt; </td></tr>
 <tr class="memitem:a23956e29aef6f04e11d952f7f91f7f4c"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; TVal &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a23956e29aef6f04e11d952f7f91f7f4c">read_om_parameter</a> (<a class="el" href="structopenm_1_1_i_run_base.html">IRunBase</a> *const i_runBase, const char *i_name)</td></tr>
@@ -1745,6 +1748,36 @@ const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>file content as UTF-8 string. </dd></dl>
 
+</div>
+</div>
+<a id="a1e2215ea844201635316e4646fa8e857"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e2215ea844201635316e4646fa8e857">&#9670;&nbsp;</a></span>getProcessMemorySize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::tuple&lt; uint64_t, uint64_t &gt; openm::getProcessMemorySize </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>return current process memory size and max peak memory size, in bytes. </p>
+<p>if return value is zero then memory information not avaliable.</p>
+<p>usage example: <br  />
+</p><div class="fragment"><div class="line"><span class="keyword">auto</span> [nMem, nMax] = <a class="code" href="namespaceopenm.html#a1e2215ea844201635316e4646fa8e857">getProcessMemorySize</a>();</div>
+<div class="line"> </div>
+<div class="line"><span class="keywordflow">if</span> (nMem &gt; 0) <a class="code" href="log_8cpp.html#acc2c12426b71d32febdbabb61b69687b">theLog</a>-&gt;<a class="code" href="structopenm_1_1_i_log_base.html#afb39081ccaea604f2126c163d29cb6f1">logFormatted</a>(<a class="code" href="om_log_8h.html#a2627891a60efbe66767126a53591f282">LT</a>(<span class="stringliteral">&quot;Current memory size: %f MB&quot;</span>), ((<span class="keywordtype">double</span>)nMem / (1024.0 * 1024.0)));</div>
+<div class="line"><span class="keywordflow">if</span> (nMax &gt; 0) <a class="code" href="log_8cpp.html#acc2c12426b71d32febdbabb61b69687b">theLog</a>-&gt;<a class="code" href="structopenm_1_1_i_log_base.html#afb39081ccaea604f2126c163d29cb6f1">logFormatted</a>(<a class="code" href="om_log_8h.html#a2627891a60efbe66767126a53591f282">LT</a>(<span class="stringliteral">&quot;Maximum memory size: %f MB&quot;</span>), ((<span class="keywordtype">double</span>)nMax / (1024.0 * 1024.0)));</div>
+<div class="ttc" id="alog_8cpp_html_acc2c12426b71d32febdbabb61b69687b"><div class="ttname"><a href="log_8cpp.html#acc2c12426b71d32febdbabb61b69687b">theLog</a></div><div class="ttdeci">ILog * theLog</div><div class="ttdoc">public log interface</div><div class="ttdef"><b>Definition:</b> log.cpp:28</div></div>
+<div class="ttc" id="anamespaceopenm_html_a1e2215ea844201635316e4646fa8e857"><div class="ttname"><a href="namespaceopenm.html#a1e2215ea844201635316e4646fa8e857">openm::getProcessMemorySize</a></div><div class="ttdeci">std::tuple&lt; uint64_t, uint64_t &gt; getProcessMemorySize(void)</div><div class="ttdoc">return current process memory size and max peak memory size, in bytes.</div><div class="ttdef"><b>Definition:</b> os.cpp:11</div></div>
+<div class="ttc" id="aom_log_8h_html_a2627891a60efbe66767126a53591f282"><div class="ttname"><a href="om_log_8h.html#a2627891a60efbe66767126a53591f282">LT</a></div><div class="ttdeci">#define LT(sourceMessage)</div><div class="ttdoc">LT localisation function: return is temporary const char* and must be copied to avoid memory violatio...</div><div class="ttdef"><b>Definition:</b> omLog.h:133</div></div>
+<div class="ttc" id="astructopenm_1_1_i_log_base_html_afb39081ccaea604f2126c163d29cb6f1"><div class="ttname"><a href="structopenm_1_1_i_log_base.html#afb39081ccaea604f2126c163d29cb6f1">openm::ILogBase::logFormatted</a></div><div class="ttdeci">virtual void logFormatted(const char *i_format,...) noexcept=0</div><div class="ttdoc">log message formatted with vsnprintf()</div></div>
+</div><!-- fragment --> 
 </div>
 </div>
 <a id="a81a7119dd8ebf32d99f39ebe6d1cf4d0"></a>
@@ -2224,7 +2257,7 @@ const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceopenm.html">openm</a></li>
-    <li class="footer">Generated on Fri Mar 10 2023 15:58:39 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Tue May 2 2023 15:54:49 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

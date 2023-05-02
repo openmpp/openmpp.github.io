@@ -221,6 +221,10 @@ typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" 
 typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="om_model_8h.html#ac3d293e42380d6c6b746d458a1599014">OM_SHUTDOWN_HANDLER</a>) (<a class="el" href="structopenm_1_1_i_model.html">openm::IModel</a> *const i_model)</td></tr>
 <tr class="memdesc:ac3d293e42380d6c6b746d458a1599014"><td class="mdescLeft">&#160;</td><td class="mdescRight">model shutdown method: save output results <br /></td></tr>
 <tr class="separator:ac3d293e42380d6c6b746d458a1599014"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac50992b6c11db0dfd578e7f5ef2042d"><td class="memItemLeft" align="right" valign="top"><a id="aac50992b6c11db0dfd578e7f5ef2042d"></a>
+typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="om_model_8h.html#aac50992b6c11db0dfd578e7f5ef2042d">OM_RUN_SHUTDOWN_HANDLER</a>) (bool i_isError, <a class="el" href="structopenm_1_1_i_run_base.html">openm::IRunBase</a> *const i_runBase)</td></tr>
+<tr class="memdesc:aac50992b6c11db0dfd578e7f5ef2042d"><td class="mdescLeft">&#160;</td><td class="mdescRight">process shutdown: last entry point from user code before process exit <br /></td></tr>
+<tr class="separator:aac50992b6c11db0dfd578e7f5ef2042d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -299,6 +303,10 @@ const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <a class="el" href="om_model_8h.html#ac3d293e42380d6c6b746d458a1599014">OM_SHUTDOWN_HANDLER</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="om_model_8h.html#a2edb95df77850e8a67ddf30030cc2fce">ModelShutdownHandler</a></td></tr>
 <tr class="memdesc:a2edb95df77850e8a67ddf30030cc2fce"><td class="mdescLeft">&#160;</td><td class="mdescRight">model shutdown method: save output results <br /></td></tr>
 <tr class="separator:a2edb95df77850e8a67ddf30030cc2fce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8703f2f46ab7705661c3cda6afb11a94"><td class="memItemLeft" align="right" valign="top"><a id="a8703f2f46ab7705661c3cda6afb11a94"></a>
+<a class="el" href="om_model_8h.html#aac50992b6c11db0dfd578e7f5ef2042d">OM_RUN_SHUTDOWN_HANDLER</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="om_model_8h.html#a8703f2f46ab7705661c3cda6afb11a94">RunShutdownHandler</a></td></tr>
+<tr class="memdesc:a8703f2f46ab7705661c3cda6afb11a94"><td class="mdescLeft">&#160;</td><td class="mdescRight">process shutdown: last entry point from user code before process exit <br /></td></tr>
+<tr class="separator:a8703f2f46ab7705661c3cda6afb11a94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23b790297e68ccf5ca2e035f38086101"><td class="memItemLeft" align="right" valign="top"><a id="a23b790297e68ccf5ca2e035f38086101"></a>
 <a class="el" href="structopenm_1_1_i_model_run_state.html">openm::IModelRunState</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="om_model_8h.html#a23b790297e68ccf5ca2e035f38086101">theModelRunState</a></td></tr>
 <tr class="memdesc:a23b790297e68ccf5ca2e035f38086101"><td class="mdescLeft">&#160;</td><td class="mdescRight">public interface of process-wide model run state: status, progress, update times <br /></td></tr>
@@ -312,7 +320,7 @@ const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_30e93d7ad2ce010165d2d10f88217613.html">libopenm</a></li><li class="navelem"><a class="el" href="om_model_8h.html">omModel.h</a></li>
-    <li class="footer">Generated on Fri Mar 10 2023 15:58:39 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Tue May 2 2023 15:54:49 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

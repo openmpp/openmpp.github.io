@@ -106,11 +106,16 @@ Collaboration diagram for ModelSymbol:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_model_symbol__coll__graph.png" border="0" usemap="#a_model_symbol_coll__map" alt="Collaboration graph"/></div>
 <map name="a_model_symbol_coll__map" id="a_model_symbol_coll__map">
-<area shape="rect" title="Symbol for the model itself." alt="" coords="73,304,184,331"/>
-<area shape="rect" href="class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="93,228,164,255"/>
-<area shape="rect" href="class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="5,109,116,136"/>
-<area shape="rect" href="classomc_1_1location.html" title="Two points in a source file." alt="" coords="141,109,252,136"/>
-<area shape="rect" href="classomc_1_1position.html" title="A point in a source file." alt="" coords="141,5,252,32"/>
+<area shape="rect" title="Symbol for the model itself." alt="" coords="220,528,330,555"/>
+<area shape="rect" href="class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="112,228,182,255"/>
+<area shape="rect" href="class_parameter_symbol.html" title="ParameterSymbol." alt="" coords="78,439,216,465"/>
+<area shape="rect" href="class_global_func_symbol.html" title="GlobalFuncSymbol." alt="" coords="222,333,365,360"/>
+<area shape="rect" href="class_type_symbol.html" title="TypeSymbol." alt="" coords="96,333,198,360"/>
+<area shape="rect" href="class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="141,109,252,136"/>
+<area shape="rect" href="classomc_1_1location.html" title="Two points in a source file." alt="" coords="6,109,117,136"/>
+<area shape="rect" href="classomc_1_1position.html" title="A point in a source file." alt="" coords="6,5,117,32"/>
+<area shape="rect" href="class_code_block.html" title=" " alt="" coords="402,228,492,255"/>
+<area shape="rect" title=" " alt="" coords="392,109,502,136"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -122,6 +127,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab1282b1170e100e0d3579dd51424ce01"><td class="memItemLeft" align="right" valign="top"><a id="ab1282b1170e100e0d3579dd51424ce01"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>ModelSymbol</b> (string nm, string enm)</td></tr>
 <tr class="separator:ab1282b1170e100e0d3579dd51424ce01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3bae1f543ee2e9c0fd4778da2ce48e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_symbol.html#aa3bae1f543ee2e9c0fd4778da2ce48e3">post_parse</a> (int pass)</td></tr>
+<tr class="memdesc:aa3bae1f543ee2e9c0fd4778da2ce48e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform post-parse operations.  <a href="class_model_symbol.html#aa3bae1f543ee2e9c0fd4778da2ce48e3">More...</a><br /></td></tr>
+<tr class="separator:aa3bae1f543ee2e9c0fd4778da2ce48e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca526e4f6b24129d1cdbe66293e1fdd4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_code_block.html">CodeBlock</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_symbol.html#aca526e4f6b24129d1cdbe66293e1fdd4">cxx_definition_global</a> ()</td></tr>
 <tr class="memdesc:aca526e4f6b24129d1cdbe66293e1fdd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the c++ definition code associated with the symbol.  <a href="class_model_symbol.html#aca526e4f6b24129d1cdbe66293e1fdd4">More...</a><br /></td></tr>
 <tr class="separator:aca526e4f6b24129d1cdbe66293e1fdd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -144,9 +152,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a30d2478ed83ac6ff65df9ea60a8d5b93 inherit pub_methods_class_symbol"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_symbol.html">Symbol</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a30d2478ed83ac6ff65df9ea60a8d5b93">stable_pp</a> () const</td></tr>
 <tr class="memdesc:a30d2478ed83ac6ff65df9ea60a8d5b93 inherit pub_methods_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get stable pointer to pointer to symbol.  <a href="class_symbol.html#a30d2478ed83ac6ff65df9ea60a8d5b93">More...</a><br /></td></tr>
 <tr class="separator:a30d2478ed83ac6ff65df9ea60a8d5b93 inherit pub_methods_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29af895ccf17432b29a7e6cdb2784a84 inherit pub_methods_class_symbol"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a29af895ccf17432b29a7e6cdb2784a84">post_parse</a> (int pass)</td></tr>
-<tr class="memdesc:a29af895ccf17432b29a7e6cdb2784a84 inherit pub_methods_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform post-parse operations.  <a href="class_symbol.html#a29af895ccf17432b29a7e6cdb2784a84">More...</a><br /></td></tr>
-<tr class="separator:a29af895ccf17432b29a7e6cdb2784a84 inherit pub_methods_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5e7a2bf5ec95dece9f14eca46982a64 inherit pub_methods_class_symbol"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_code_block.html">CodeBlock</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#aa5e7a2bf5ec95dece9f14eca46982a64">cxx_declaration_agent</a> ()</td></tr>
 <tr class="memdesc:aa5e7a2bf5ec95dece9f14eca46982a64 inherit pub_methods_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the c++ declaration code (in entity scope) associated with the symbol.  <a href="class_symbol.html#aa5e7a2bf5ec95dece9f14eca46982a64">More...</a><br /></td></tr>
 <tr class="separator:aa5e7a2bf5ec95dece9f14eca46982a64 inherit pub_methods_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -195,9 +200,30 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a5586f57ce0e467d7f7dcb890bb560a6d"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_symbol.html#a5586f57ce0e467d7f7dcb890bb560a6d">external_name</a></td></tr>
-<tr class="memdesc:a5586f57ce0e467d7f7dcb890bb560a6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The external name of the published scenario.  <a href="class_model_symbol.html#a5586f57ce0e467d7f7dcb890bb560a6d">More...</a><br /></td></tr>
+<tr class="memitem:a5586f57ce0e467d7f7dcb890bb560a6d"><td class="memItemLeft" align="right" valign="top"><a id="a5586f57ce0e467d7f7dcb890bb560a6d"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_symbol.html#a5586f57ce0e467d7f7dcb890bb560a6d">external_name</a></td></tr>
+<tr class="memdesc:a5586f57ce0e467d7f7dcb890bb560a6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The name of the model. <br /></td></tr>
 <tr class="separator:a5586f57ce0e467d7f7dcb890bb560a6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2772dacdc149bb339e5a4896f20f7582"><td class="memItemLeft" align="right" valign="top"><a id="a2772dacdc149bb339e5a4896f20f7582"></a>
+<a class="el" href="class_parameter_symbol.html">ParameterSymbol</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_symbol.html#a2772dacdc149bb339e5a4896f20f7582">pp_memory_popsize_parameter</a></td></tr>
+<tr class="memdesc:a2772dacdc149bb339e5a4896f20f7582"><td class="mdescLeft">&#160;</td><td class="mdescRight">Memory prediction - The parameter containing an indication of population size. <br /></td></tr>
+<tr class="separator:a2772dacdc149bb339e5a4896f20f7582"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9790c213af9f8efd862b7b3c8c02e9d8"><td class="memItemLeft" align="right" valign="top"><a id="a9790c213af9f8efd862b7b3c8c02e9d8"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_symbol.html#a9790c213af9f8efd862b7b3c8c02e9d8">memory_MB_constant_per_instance</a></td></tr>
+<tr class="memdesc:a9790c213af9f8efd862b7b3c8c02e9d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Memory prediction - The value of the option memory_MB_constant_per_instance. <br /></td></tr>
+<tr class="separator:a9790c213af9f8efd862b7b3c8c02e9d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adaec9bf0803d5d43b393a244c024bd24"><td class="memItemLeft" align="right" valign="top"><a id="adaec9bf0803d5d43b393a244c024bd24"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_symbol.html#adaec9bf0803d5d43b393a244c024bd24">memory_MB_constant_per_sub</a></td></tr>
+<tr class="memdesc:adaec9bf0803d5d43b393a244c024bd24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Memory prediction - The value of the option memory_MB_constant_per_sub. <br /></td></tr>
+<tr class="separator:adaec9bf0803d5d43b393a244c024bd24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8203892bbcb7118320461fe50c0bc258"><td class="memItemLeft" align="right" valign="top"><a id="a8203892bbcb7118320461fe50c0bc258"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_symbol.html#a8203892bbcb7118320461fe50c0bc258">memory_MB_popsize_coefficient</a></td></tr>
+<tr class="memdesc:a8203892bbcb7118320461fe50c0bc258"><td class="mdescLeft">&#160;</td><td class="mdescRight">Memory prediction - The value of the option memory_MB_popsize_coefficient. <br /></td></tr>
+<tr class="separator:a8203892bbcb7118320461fe50c0bc258"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b766d91d0a2d2d233f1cc52bb92250c"><td class="memItemLeft" align="right" valign="top"><a id="a9b766d91d0a2d2d233f1cc52bb92250c"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_symbol.html#a9b766d91d0a2d2d233f1cc52bb92250c">memory_safety_factor</a></td></tr>
+<tr class="memdesc:a9b766d91d0a2d2d233f1cc52bb92250c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Memory prediction - The value of the option memory_safety_factor. <br /></td></tr>
+<tr class="separator:a9b766d91d0a2d2d233f1cc52bb92250c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_class_symbol"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_symbol')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_symbol.html">Symbol</a></td></tr>
 <tr class="memitem:a73fc59c394e3bdc9fdbb525a24ba5b5f inherit pub_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a73fc59c394e3bdc9fdbb525a24ba5b5f">unique_name</a></td></tr>
 <tr class="memdesc:a73fc59c394e3bdc9fdbb525a24ba5b5f inherit pub_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">The unique identifier for the symbol.  <a href="class_symbol.html#a73fc59c394e3bdc9fdbb525a24ba5b5f">More...</a><br /></td></tr>
@@ -679,6 +705,10 @@ static size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
 static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a693e806ff7ef8cefa4686f355f20a77c">option_censor_event_time</a> = false</td></tr>
 <tr class="memdesc:a693e806ff7ef8cefa4686f355f20a77c inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">true or false depending on censor_event_time value in options statement. <br /></td></tr>
 <tr class="separator:a693e806ff7ef8cefa4686f355f20a77c inherit pub_static_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e6d1afd956e8d4a00e0cc486db0c011 inherit pub_static_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="a3e6d1afd956e8d4a00e0cc486db0c011"></a>
+static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a3e6d1afd956e8d4a00e0cc486db0c011">option_memory_popsize_parameter</a></td></tr>
+<tr class="memdesc:a3e6d1afd956e8d4a00e0cc486db0c011 inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">name of parameter containing population size. <br /></td></tr>
+<tr class="separator:a3e6d1afd956e8d4a00e0cc486db0c011 inherit pub_static_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0cff7608976f1c1abc45797b3a71061f inherit pub_static_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="a0cff7608976f1c1abc45797b3a71061f"></a>
 static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a0cff7608976f1c1abc45797b3a71061f">code_page</a></td></tr>
 <tr class="memdesc:a0cff7608976f1c1abc45797b3a71061f inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Code page to use for source file conversion. <br /></td></tr>
@@ -804,21 +834,42 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a5586f57ce0e467d7f7dcb890bb560a6d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5586f57ce0e467d7f7dcb890bb560a6d">&#9670;&nbsp;</a></span>external_name</h2>
+<a id="aa3bae1f543ee2e9c0fd4778da2ce48e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3bae1f543ee2e9c0fd4778da2ce48e3">&#9670;&nbsp;</a></span>post_parse()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">string ModelSymbol::external_name</td>
+          <td class="memname">void ModelSymbol::post_parse </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pass</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>The external name of the published scenario. </p>
-<p>The external name of the published scenario is given by the -s option when omc is invoked. </p>
+<p>Perform post-parse operations. </p>
+<p>Post-parse operations create derived information based on information obtained during the parse phase. This information is stored in members of the <a class="el" href="class_symbol.html" title="A Symbol is a named syntactic entity in openM++.">Symbol</a> class hierarchy which by convention have a 'pp_' prefix in their name. For example, the pp_callback_members collection of the <a class="el" href="class_entity_symbol.html">EntitySymbol</a> class contains a list of all attributes of the agent after post-parse processing. These pp_ members are used subsequently in the code-generation phase.</p>
+<p>When post_parse is called on an object in the <a class="el" href="class_symbol.html">Symbol</a> hierarchy, the call is first passed upwards through the inheritance hierarchy so that post-parse operations are performed at all hierarchical levels, and at higher levels before lower levels (for each <em>pass</em>).</p>
+<p>Post-parse operations occur in a series of sequential passes, with the results of each pass usable by subsequent passes. <a class="el" href="class_model_symbol.html#aa3bae1f543ee2e9c0fd4778da2ce48e3">post_parse</a> is called on all symbols through the function \ ref <a class="el" href="class_symbol.html#a27b36929b5425090a644f9415719981a" title="Perform operations after the parser has parsed all input files.">Symbol::post_parse_all</a>.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pass</td><td>The pass number. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented from <a class="el" href="class_symbol.html#a29af895ccf17432b29a7e6cdb2784a84">Symbol</a>.</p>
 
 </div>
 </div>
@@ -832,7 +883,7 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_model_symbol.html">ModelSymbol</a></li>
-    <li class="footer">Generated on Fri Mar 10 2023 15:58:44 for OpenM++ compiler (omc) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Tue May 2 2023 15:54:56 for OpenM++ compiler (omc) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

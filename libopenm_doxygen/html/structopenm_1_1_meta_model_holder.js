@@ -15,6 +15,8 @@ var structopenm_1_1_meta_model_holder =
     [ "paramDimsTxt", "structopenm_1_1_meta_model_holder.html#a9affe3133f4e1fc5156df670a22c06c9", null ],
     [ "paramImport", "structopenm_1_1_meta_model_holder.html#a324ba62d808cd007a8cd41d3bc723855", null ],
     [ "paramTxt", "structopenm_1_1_meta_model_holder.html#ae2ebe3a01555ad361025fb8b95a82063", null ],
+    [ "profileName", "structopenm_1_1_meta_model_holder.html#a4a59b00e48ad10857672fb164a5ac2ad", null ],
+    [ "profileRows", "structopenm_1_1_meta_model_holder.html#a3319adaf0964b69e760bfee8d7077e21", null ],
     [ "tableAcc", "structopenm_1_1_meta_model_holder.html#a65fb7a393e076272551ad36672c373d3", null ],
     [ "tableAccTxt", "structopenm_1_1_meta_model_holder.html#a25f3c52dca193e4882469281378f4be0", null ],
     [ "tableDic", "structopenm_1_1_meta_model_holder.html#a6697d0b170ffa07d531ed35fff41c8f2", null ],

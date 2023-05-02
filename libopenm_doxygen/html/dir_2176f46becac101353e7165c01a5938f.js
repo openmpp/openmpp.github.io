@@ -11,6 +11,7 @@ var dir_2176f46becac101353e7165c01a5938f =
       [ "Log", "classopenm_1_1_log.html", "classopenm_1_1_log" ],
       [ "TraceLog", "classopenm_1_1_trace_log.html", "classopenm_1_1_trace_log" ]
     ] ],
+    [ "os.cpp", "os_8cpp.html", null ],
     [ "splitCsv.cpp", "split_csv_8cpp.html", null ],
     [ "utf8Convert.cpp", "utf8_convert_8cpp.html", "utf8_convert_8cpp" ]
 ];

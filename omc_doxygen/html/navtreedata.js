@@ -54,10 +54,10 @@ var NAVTREEINDEX =
 [
 "_aggregation_symbol_8cpp.html",
 "class_aggregation_symbol.html#a9b5cb7e274fd1c4b6ed20fd48a4b3c91",
-"class_entity_data_member_symbol.html",
-"class_entity_table_measure_symbol.html#a73255a56934ff75991666f77c07a0a53",
-"class_numeric_symbol.html#a556074848eabdf91947795d56c95c693",
-"class_symbol.html#aba348cf237e05feb3f8f29f84648a438"
+"class_entity_array_member_symbol.html#ade6c49e0f0cec07475b01531f73f6a55",
+"class_entity_table_measure_symbol.html#a5dcefdcba23b56396f5e832692a9d3c8",
+"class_multilink_attribute_symbol.html#ac03cb10b66ea1bbc0658f070f53a020e",
+"class_symbol.html#a73fc59c394e3bdc9fdbb525a24ba5b5f"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
