@@ -1,9 +1,8 @@
 <map id="db/dbExecSqlite.h" name="db/dbExecSqlite.h">
-<area shape="rect" id="node1" title="OpenM++ data library: db connection wrapper for SQLite." alt="" coords="681,5,819,32"/>
+<area shape="rect" id="node1" title="OpenM++ data library: db connection wrapper for SQLite." alt="" coords="621,5,759,32"/>
 <area shape="rect" id="node2" href="$db_exec_8h.html" title="OpenM++ data library: public interface." alt="" coords="557,155,637,181"/>
 <area shape="rect" id="node28" href="$db_exec_base_8h.html" title="OpenM++ data library: common classes for db connection wrapper." alt="" coords="634,80,746,107"/>
 <area shape="rect" id="node31" title=" " alt="" coords="771,80,849,107"/>
-<area shape="rect" id="node32" title=" " alt="" coords="874,80,1039,107"/>
 <area shape="rect" id="node3" title=" " alt="" coords="649,229,713,256"/>
 <area shape="rect" id="node4" href="$om_log_8h.html" title="OpenM++: public interface for log and trace support." alt="" coords="149,379,292,405"/>
 <area shape="rect" id="node8" href="$db_common_8h.html" title="OpenM++ data library: public interface for db common structures." alt="" coords="430,229,625,256"/>

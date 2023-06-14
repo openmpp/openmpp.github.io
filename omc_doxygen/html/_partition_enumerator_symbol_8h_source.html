@@ -114,61 +114,71 @@ $(document).ready(function(){initNavTree('_partition_enumerator_symbol_8h_source
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="keyword">    </span>{</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keywordtype">string</span> result = <span class="stringliteral">&quot;&quot;</span>;</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keywordflow">if</span> (lower_split_point == <span class="stringliteral">&quot;min&quot;</span>) {</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;            <span class="comment">//result += &quot;(-\u221e&quot;; // unicode for infinity - requires C++ compiler support for UTF-8</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            result += <span class="stringliteral">&quot;(-\xE2\x88\x9E&quot;</span>; <span class="comment">// UTF-8 for infinity in hexadecimal</span></div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        }</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            result += <span class="stringliteral">&quot;[&quot;</span> + lower_split_point;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        }</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        result += <span class="stringliteral">&quot;,&quot;</span>;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordflow">if</span> (upper_split_point == <span class="stringliteral">&quot;max&quot;</span>) {</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            <span class="comment">//result += &quot;\u221e)&quot;; // unicode for infinity - requires C++ compiler support for UTF-8</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;            result += <span class="stringliteral">&quot;\xE2\x88\x9E)&quot;</span>; <span class="comment">// UTF-8 for infinity in hexadecimal</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        }</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            result += upper_split_point + <span class="stringliteral">&quot;)&quot;</span>;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        }</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keywordflow">return</span> result;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    }</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
-<div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="class_partition_enumerator_symbol.html#ad8d435b8aae3a7e85bd9271964ed1e39">   58</a></span>&#160;    <span class="keywordtype">string</span> <a class="code" href="class_partition_enumerator_symbol.html#ad8d435b8aae3a7e85bd9271964ed1e39">db_name</a>()<span class="keyword"> const override</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="keyword">    </span>{</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <span class="comment">// The &#39;name&#39; in the data store is the formatted partition, e.g. &quot;[14,20)&quot;</span></div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <span class="keywordflow">return</span> formatted_interval();</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    };</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;            <span class="keywordflow">if</span> (option_ascii_infinity) {</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                result += <span class="stringliteral">&quot;(-inf&quot;</span>;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            }</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                <span class="comment">//result += &quot;(-\u221e&quot;; // unicode for infinity - requires C++ compiler support for UTF-8</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                result += <span class="stringliteral">&quot;(-\xE2\x88\x9E&quot;</span>; <span class="comment">// UTF-8 for infinity in hexadecimal</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            }</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        }</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            result += <span class="stringliteral">&quot;[&quot;</span> + lower_split_point;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        }</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        result += <span class="stringliteral">&quot;,&quot;</span>;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="keywordflow">if</span> (upper_split_point == <span class="stringliteral">&quot;max&quot;</span>) {</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            <span class="keywordflow">if</span> (option_ascii_infinity) {</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                result += <span class="stringliteral">&quot;inf)&quot;</span>;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            }</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                <span class="comment">//result += &quot;\u221e)&quot;; // unicode for infinity - requires C++ compiler support for UTF-8</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                result += <span class="stringliteral">&quot;\xE2\x88\x9E)&quot;</span>; <span class="comment">// UTF-8 for infinity in hexadecimal</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;            }</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        }</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            result += upper_split_point + <span class="stringliteral">&quot;)&quot;</span>;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        }</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160; </div>
-<div class="line"><a name="l00074"></a><span class="lineno"><a class="line" href="class_partition_enumerator_symbol.html#a6612f0174db6ff9adf5a0b6f8ac28919">   74</a></span>&#160;    <span class="keywordtype">string</span> <a class="code" href="class_partition_enumerator_symbol.html#a6612f0174db6ff9adf5a0b6f8ac28919">label</a>(<span class="keyword">const</span> <a class="code" href="class_language_symbol.html">LanguageSymbol</a> &amp; language)<span class="keyword"> const override</span></div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="keyword">    </span>{</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <span class="keywordflow">return</span> formatted_interval();</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    }</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160; </div>
-<div class="line"><a name="l00088"></a><span class="lineno"><a class="line" href="class_partition_enumerator_symbol.html#af71650ef72912454e8c7a225052fe47a">   88</a></span>&#160;    <span class="keywordtype">string</span> <a class="code" href="class_partition_enumerator_symbol.html#af71650ef72912454e8c7a225052fe47a">note</a>(<span class="keyword">const</span> <a class="code" href="class_language_symbol.html">LanguageSymbol</a> &amp; language)<span class="keyword"> const override</span></div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="keyword">    </span>{</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    }</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160; </div>
-<div class="line"><a name="l00098"></a><span class="lineno"><a class="line" href="class_partition_enumerator_symbol.html#ad726c88353d1276e38b61f4f6801a978">   98</a></span>&#160;    <span class="keywordtype">string</span> <a class="code" href="class_partition_enumerator_symbol.html#ad726c88353d1276e38b61f4f6801a978">lower_split_point</a>;</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160; </div>
-<div class="line"><a name="l00105"></a><span class="lineno"><a class="line" href="class_partition_enumerator_symbol.html#a0b75f208a5a8572a85eb9bfb4d4de53f">  105</a></span>&#160;    <span class="keywordtype">string</span> <a class="code" href="class_partition_enumerator_symbol.html#a0b75f208a5a8572a85eb9bfb4d4de53f">upper_split_point</a>;</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;};</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160; </div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160; </div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    }</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
+<div class="line"><a name="l00068"></a><span class="lineno"><a class="line" href="class_partition_enumerator_symbol.html#ad8d435b8aae3a7e85bd9271964ed1e39">   68</a></span>&#160;    <span class="keywordtype">string</span> <a class="code" href="class_partition_enumerator_symbol.html#ad8d435b8aae3a7e85bd9271964ed1e39">db_name</a>()<span class="keyword"> const override</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="comment">// The &#39;name&#39; in the data store is the formatted partition, e.g. &quot;[14,20)&quot;</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="keywordflow">return</span> formatted_interval();</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    };</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160; </div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160; </div>
+<div class="line"><a name="l00084"></a><span class="lineno"><a class="line" href="class_partition_enumerator_symbol.html#a6612f0174db6ff9adf5a0b6f8ac28919">   84</a></span>&#160;    <span class="keywordtype">string</span> <a class="code" href="class_partition_enumerator_symbol.html#a6612f0174db6ff9adf5a0b6f8ac28919">label</a>(<span class="keyword">const</span> <a class="code" href="class_language_symbol.html">LanguageSymbol</a> &amp; language)<span class="keyword"> const override</span></div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <span class="keywordflow">return</span> formatted_interval();</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    }</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160; </div>
+<div class="line"><a name="l00098"></a><span class="lineno"><a class="line" href="class_partition_enumerator_symbol.html#af71650ef72912454e8c7a225052fe47a">   98</a></span>&#160;    <span class="keywordtype">string</span> <a class="code" href="class_partition_enumerator_symbol.html#af71650ef72912454e8c7a225052fe47a">note</a>(<span class="keyword">const</span> <a class="code" href="class_language_symbol.html">LanguageSymbol</a> &amp; language)<span class="keyword"> const override</span></div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    }</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160; </div>
+<div class="line"><a name="l00108"></a><span class="lineno"><a class="line" href="class_partition_enumerator_symbol.html#ad726c88353d1276e38b61f4f6801a978">  108</a></span>&#160;    <span class="keywordtype">string</span> <a class="code" href="class_partition_enumerator_symbol.html#ad726c88353d1276e38b61f4f6801a978">lower_split_point</a>;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160; </div>
+<div class="line"><a name="l00115"></a><span class="lineno"><a class="line" href="class_partition_enumerator_symbol.html#a0b75f208a5a8572a85eb9bfb4d4de53f">  115</a></span>&#160;    <span class="keywordtype">string</span> <a class="code" href="class_partition_enumerator_symbol.html#a0b75f208a5a8572a85eb9bfb4d4de53f">upper_split_point</a>;</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;};</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160; </div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160; </div>
 <div class="ttc" id="a_enumerator_symbol_8h_html"><div class="ttname"><a href="_enumerator_symbol_8h.html">EnumeratorSymbol.h</a></div><div class="ttdoc">Declarations for the EnumeratorSymbol class.</div></div>
 <div class="ttc" id="aclass_enumeration_symbol_html"><div class="ttname"><a href="class_enumeration_symbol.html">EnumerationSymbol</a></div><div class="ttdoc">EnumerationSymbol.</div><div class="ttdef"><b>Definition:</b> EnumerationSymbol.h:21</div></div>
 <div class="ttc" id="aclass_enumerator_symbol_html"><div class="ttname"><a href="class_enumerator_symbol.html">EnumeratorSymbol</a></div><div class="ttdef"><b>Definition:</b> EnumeratorSymbol.h:16</div></div>
 <div class="ttc" id="aclass_language_symbol_html"><div class="ttname"><a href="class_language_symbol.html">LanguageSymbol</a></div><div class="ttdoc">Symbol for a supported human language in the model.</div><div class="ttdef"><b>Definition:</b> LanguageSymbol.h:23</div></div>
 <div class="ttc" id="aclass_partition_enumerator_symbol_html"><div class="ttname"><a href="class_partition_enumerator_symbol.html">PartitionEnumeratorSymbol</a></div><div class="ttdef"><b>Definition:</b> PartitionEnumeratorSymbol.h:16</div></div>
-<div class="ttc" id="aclass_partition_enumerator_symbol_html_a0b75f208a5a8572a85eb9bfb4d4de53f"><div class="ttname"><a href="class_partition_enumerator_symbol.html#a0b75f208a5a8572a85eb9bfb4d4de53f">PartitionEnumeratorSymbol::upper_split_point</a></div><div class="ttdeci">string upper_split_point</div><div class="ttdoc">The upper split point of the partition interval.</div><div class="ttdef"><b>Definition:</b> PartitionEnumeratorSymbol.h:105</div></div>
+<div class="ttc" id="aclass_partition_enumerator_symbol_html_a0b75f208a5a8572a85eb9bfb4d4de53f"><div class="ttname"><a href="class_partition_enumerator_symbol.html#a0b75f208a5a8572a85eb9bfb4d4de53f">PartitionEnumeratorSymbol::upper_split_point</a></div><div class="ttdeci">string upper_split_point</div><div class="ttdoc">The upper split point of the partition interval.</div><div class="ttdef"><b>Definition:</b> PartitionEnumeratorSymbol.h:115</div></div>
 <div class="ttc" id="aclass_partition_enumerator_symbol_html_a31b2f2fba877c957187e100c4d87946d"><div class="ttname"><a href="class_partition_enumerator_symbol.html#a31b2f2fba877c957187e100c4d87946d">PartitionEnumeratorSymbol::formatted_interval</a></div><div class="ttdeci">string formatted_interval() const</div><div class="ttdoc">Gets a formatted representation of the interval in standard notation.</div><div class="ttdef"><b>Definition:</b> PartitionEnumeratorSymbol.h:34</div></div>
-<div class="ttc" id="aclass_partition_enumerator_symbol_html_a6612f0174db6ff9adf5a0b6f8ac28919"><div class="ttname"><a href="class_partition_enumerator_symbol.html#a6612f0174db6ff9adf5a0b6f8ac28919">PartitionEnumeratorSymbol::label</a></div><div class="ttdeci">string label(const LanguageSymbol &amp;language) const override</div><div class="ttdoc">Gets the fixed label for the interval in the partition.</div><div class="ttdef"><b>Definition:</b> PartitionEnumeratorSymbol.h:74</div></div>
+<div class="ttc" id="aclass_partition_enumerator_symbol_html_a6612f0174db6ff9adf5a0b6f8ac28919"><div class="ttname"><a href="class_partition_enumerator_symbol.html#a6612f0174db6ff9adf5a0b6f8ac28919">PartitionEnumeratorSymbol::label</a></div><div class="ttdeci">string label(const LanguageSymbol &amp;language) const override</div><div class="ttdoc">Gets the fixed label for the interval in the partition.</div><div class="ttdef"><b>Definition:</b> PartitionEnumeratorSymbol.h:84</div></div>
 <div class="ttc" id="aclass_partition_enumerator_symbol_html_ad21b9ab0590375f5ef632e8b7743fb55"><div class="ttname"><a href="class_partition_enumerator_symbol.html#ad21b9ab0590375f5ef632e8b7743fb55">PartitionEnumeratorSymbol::is_base_symbol</a></div><div class="ttdeci">bool is_base_symbol() const override</div><div class="ttdoc">Query if this object is an underived instance of the base Symbol class.</div><div class="ttdef"><b>Definition:</b> PartitionEnumeratorSymbol.h:21</div></div>
-<div class="ttc" id="aclass_partition_enumerator_symbol_html_ad726c88353d1276e38b61f4f6801a978"><div class="ttname"><a href="class_partition_enumerator_symbol.html#ad726c88353d1276e38b61f4f6801a978">PartitionEnumeratorSymbol::lower_split_point</a></div><div class="ttdeci">string lower_split_point</div><div class="ttdoc">The lower split point of the partition interval.</div><div class="ttdef"><b>Definition:</b> PartitionEnumeratorSymbol.h:98</div></div>
-<div class="ttc" id="aclass_partition_enumerator_symbol_html_ad8d435b8aae3a7e85bd9271964ed1e39"><div class="ttname"><a href="class_partition_enumerator_symbol.html#ad8d435b8aae3a7e85bd9271964ed1e39">PartitionEnumeratorSymbol::db_name</a></div><div class="ttdeci">string db_name() const override</div><div class="ttdoc">Gets the short 'name' associated with the enumerator in the data store.</div><div class="ttdef"><b>Definition:</b> PartitionEnumeratorSymbol.h:58</div></div>
-<div class="ttc" id="aclass_partition_enumerator_symbol_html_af71650ef72912454e8c7a225052fe47a"><div class="ttname"><a href="class_partition_enumerator_symbol.html#af71650ef72912454e8c7a225052fe47a">PartitionEnumeratorSymbol::note</a></div><div class="ttdeci">string note(const LanguageSymbol &amp;language) const override</div><div class="ttdoc">Gets the (always empty) note for the interval in the partition.</div><div class="ttdef"><b>Definition:</b> PartitionEnumeratorSymbol.h:88</div></div>
+<div class="ttc" id="aclass_partition_enumerator_symbol_html_ad726c88353d1276e38b61f4f6801a978"><div class="ttname"><a href="class_partition_enumerator_symbol.html#ad726c88353d1276e38b61f4f6801a978">PartitionEnumeratorSymbol::lower_split_point</a></div><div class="ttdeci">string lower_split_point</div><div class="ttdoc">The lower split point of the partition interval.</div><div class="ttdef"><b>Definition:</b> PartitionEnumeratorSymbol.h:108</div></div>
+<div class="ttc" id="aclass_partition_enumerator_symbol_html_ad8d435b8aae3a7e85bd9271964ed1e39"><div class="ttname"><a href="class_partition_enumerator_symbol.html#ad8d435b8aae3a7e85bd9271964ed1e39">PartitionEnumeratorSymbol::db_name</a></div><div class="ttdeci">string db_name() const override</div><div class="ttdoc">Gets the short 'name' associated with the enumerator in the data store.</div><div class="ttdef"><b>Definition:</b> PartitionEnumeratorSymbol.h:68</div></div>
+<div class="ttc" id="aclass_partition_enumerator_symbol_html_af71650ef72912454e8c7a225052fe47a"><div class="ttname"><a href="class_partition_enumerator_symbol.html#af71650ef72912454e8c7a225052fe47a">PartitionEnumeratorSymbol::note</a></div><div class="ttdeci">string note(const LanguageSymbol &amp;language) const override</div><div class="ttdoc">Gets the (always empty) note for the interval in the partition.</div><div class="ttdef"><b>Definition:</b> PartitionEnumeratorSymbol.h:98</div></div>
 <div class="ttc" id="aclass_symbol_html"><div class="ttname"><a href="class_symbol.html">Symbol</a></div><div class="ttdoc">A Symbol is a named syntactic entity in openM++.</div><div class="ttdef"><b>Definition:</b> Symbol.h:136</div></div>
 <div class="ttc" id="aclassomc_1_1location_html"><div class="ttname"><a href="classomc_1_1location.html">omc::location</a></div><div class="ttdoc">Two points in a source file.</div><div class="ttdef"><b>Definition:</b> omc_location.hh:187</div></div>
 </div><!-- fragment --></div><!-- contents -->
@@ -177,7 +187,7 @@ $(document).ready(function(){initNavTree('_partition_enumerator_symbol_8h_source
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="_partition_enumerator_symbol_8h.html">PartitionEnumeratorSymbol.h</a></li>
-    <li class="footer">Generated on Tue May 2 2023 21:27:40 for OpenM++ compiler (omc) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Wed Jun 14 2023 01:16:36 for OpenM++ compiler (omc) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>
