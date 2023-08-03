@@ -9,6 +9,10 @@ var class_symbol =
       [ "ePopulateCollections", "class_symbol.html#a727eeadd13c4b96fa83938a0bec0309fa34856fb12bb9c0dd494dc4029d8aeb98", null ],
       [ "ePopulateDependencies", "class_symbol.html#a727eeadd13c4b96fa83938a0bec0309fa020689651ef8ad580730e601f5f2f5e2", null ]
     ] ],
+    [ "random_stream_error", "class_symbol.html#aaf315d370a26ccdb2e8883f4d099c31e", [
+      [ "eMissingStreamArgument", "class_symbol.html#aaf315d370a26ccdb2e8883f4d099c31ea17d7fe70dcd5df1764f3d9e0c06fe8fe", null ],
+      [ "eInvalidStreamArgument", "class_symbol.html#aaf315d370a26ccdb2e8883f4d099c31ea2be737b186d334ceb1efa8bc830d298f", null ]
+    ] ],
     [ "Symbol", "class_symbol.html#a14714ce4c9ce30d4ad07579826a0d058", null ],
     [ "Symbol", "class_symbol.html#a177875c007fd47624c2e4b17e35efaed", null ],
     [ "Symbol", "class_symbol.html#a14c3c68ba333c6d3d7f365379690d1d8", null ],
@@ -28,6 +32,7 @@ var class_symbol =
     [ "pp_error", "class_symbol.html#ad52546a6e81c04b58eec2a5b340573db", null ],
     [ "pp_fatal", "class_symbol.html#ad8c2d1f44c38fb776e1d8e54b72cd580", null ],
     [ "pp_log_message", "class_symbol.html#a65fbaf5fc5a1d0bb38e3f78513110118", null ],
+    [ "pp_message", "class_symbol.html#aebcc4899998c61ba7471e2062be8a23b", null ],
     [ "pp_modgen_name", "class_symbol.html#a331397d25105f14c83052eb70b532187", null ],
     [ "pp_warning", "class_symbol.html#ae57ba05486928e8076d3371947a5cd1a", null ],
     [ "pretty_name", "class_symbol.html#a33d21ebb8d06d2fe9b8ded167aa711e7", null ],

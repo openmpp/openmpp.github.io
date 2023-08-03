@@ -1,7 +1,7 @@
 var class_parse_context =
 [
     [ "ParseContext", "class_parse_context.html#a00bb2971fdf3c8c88265eb2fd4a7c284", null ],
-    [ "cxx_process_token", "class_parse_context.html#a3fb50096cfa012f240e0d40c9707c64c", null ],
+    [ "cxx_process_token", "class_parse_context.html#a54ecf94850e3949b60911ec35bcf441a", null ],
     [ "error", "class_parse_context.html#a7dd5f787ac063999552dc920abd160ae", null ],
     [ "error", "class_parse_context.html#ae3c88dd4f58df5bb054fccb2b33f2dd4", null ],
     [ "get_agent_context", "class_parse_context.html#a270f32dec466ba664d71c69ee8b484ac", null ],
@@ -32,8 +32,8 @@ var class_parse_context =
     [ "counter2", "class_parse_context.html#ace59618abaab80521743d968beaa7270", null ],
     [ "counter3", "class_parse_context.html#a332301d9bd640e0130963f646bbfc9c7", null ],
     [ "counter4", "class_parse_context.html#ad8fbcf0f7b7d7bfd7beb3e1c5f8564e6", null ],
-    [ "cxx_memfunc_gather", "class_parse_context.html#a8f40a7edd2bbf63f3e037a5dd384e3c8", null ],
-    [ "cxx_memfunc_name", "class_parse_context.html#a8467021081961b51214ede9dc263f4dc", null ],
+    [ "cxx_function_gather", "class_parse_context.html#a9d8915e96ef0b61b3e15a4f6cac7b02e", null ],
+    [ "cxx_function_name", "class_parse_context.html#aa8bc52ec41be1589af3d19cb419f20ef", null ],
     [ "is_fixed_parameter_value", "class_parse_context.html#abfee6734abbaad4fcacd8bc71e5f8d05", null ],
     [ "is_scenario_parameter_value", "class_parse_context.html#aff932bcf7572ad1fffe2f31d5aa04ac1", null ],
     [ "literal_length", "class_parse_context.html#ae3fcd840cbff3338ce85ae4f31896c30", null ],

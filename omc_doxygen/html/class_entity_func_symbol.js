@@ -10,6 +10,7 @@ var class_entity_func_symbol =
     [ "post_parse", "class_entity_func_symbol.html#ac1c451f57619d3aeb3e8c78d2a72ecc7", null ],
     [ "arg_list_decl", "class_entity_func_symbol.html#aaf787927f3d5c623c911e09d9833cfc1", null ],
     [ "body_identifiers", "class_entity_func_symbol.html#af19c54dd5bb4de19cb54ffdb340fb336", null ],
+    [ "body_pointers", "class_entity_func_symbol.html#a6458363dacfa75ac3caaf9b7596544ba", null ],
     [ "defn_loc", "class_entity_func_symbol.html#a844680a2693f7daf73c24f7f4afc0a2b", null ],
     [ "doc_block", "class_entity_func_symbol.html#ab5364ab8814e2c1912322f5bd0921470", null ],
     [ "func_body", "class_entity_func_symbol.html#adb0de2e353c98d651cbb6292a1ea71ad", null ],
