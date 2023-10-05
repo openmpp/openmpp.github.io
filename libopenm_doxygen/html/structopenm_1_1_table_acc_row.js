@@ -2,7 +2,6 @@ var structopenm_1_1_table_acc_row =
 [
     [ "TableAccRow", "structopenm_1_1_table_acc_row.html#a8facbf7ed5926d13f3c660dd7d60b91c", null ],
     [ "TableAccRow", "structopenm_1_1_table_acc_row.html#ae901eeff1276f1fe08064fda5d1e43f5", null ],
-    [ "~TableAccRow", "structopenm_1_1_table_acc_row.html#a9570cca3b63b3e808bbc923c85ec380c", null ],
     [ "columnName", "structopenm_1_1_table_acc_row.html#a2e89a090da1d17d28412fd5333f7cdc3", null ],
     [ "accId", "structopenm_1_1_table_acc_row.html#a5febdbd0ea1103f495ef2f6f170f19d2", null ],
     [ "accSql", "structopenm_1_1_table_acc_row.html#aed8c62dc947a31d5c61483ced399718f", null ],

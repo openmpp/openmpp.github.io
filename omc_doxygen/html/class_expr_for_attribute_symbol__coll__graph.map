@@ -2,7 +2,7 @@
 <area shape="rect" id="node1" title=" " alt="" coords="5,332,183,359"/>
 <area shape="rect" id="node2" href="$class_expr_for_attribute.html" title="Expression tree element in an identity attribute." alt="" coords="9,228,137,255"/>
 <area shape="rect" id="node3" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="161,228,232,255"/>
-<area shape="rect" id="node4" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="73,109,184,136"/>
-<area shape="rect" id="node5" href="$classomc_1_1location.html" title="Two points in a source file." alt="" coords="209,109,320,136"/>
-<area shape="rect" id="node6" href="$classomc_1_1position.html" title="A point in a source file." alt="" coords="209,5,320,32"/>
+<area shape="rect" id="node4" href="$classomc_1_1location.html" title="Two points in a source file." alt="" coords="65,109,176,136"/>
+<area shape="rect" id="node5" href="$classomc_1_1position.html" title="A point in a source file." alt="" coords="65,5,176,32"/>
+<area shape="rect" id="node6" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="200,109,311,136"/>
 </map>

@@ -2,7 +2,6 @@ var structopenm_1_1_model_dic_row =
 [
     [ "ModelDicRow", "structopenm_1_1_model_dic_row.html#ad235c17366bb49b88a60b13e57577d2c", null ],
     [ "ModelDicRow", "structopenm_1_1_model_dic_row.html#a93b88df5d13f98a0f50fb453439c6a32", null ],
-    [ "~ModelDicRow", "structopenm_1_1_model_dic_row.html#a2bfd8500cb4ec6f77f6592306ca51822", null ],
     [ "createDateTime", "structopenm_1_1_model_dic_row.html#a2a7c4d3e51b61bfad0b104381d346228", null ],
     [ "defaultLangId", "structopenm_1_1_model_dic_row.html#a2d3f93e10870121720282d87c1c18b63", null ],
     [ "digest", "structopenm_1_1_model_dic_row.html#af77f4b9c3f679868e2388a0737f5a153", null ],

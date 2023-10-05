@@ -2,7 +2,6 @@ var structopenm_1_1_table_expr_row =
 [
     [ "TableExprRow", "structopenm_1_1_table_expr_row.html#acc1f20f50d6f1b1888c392b39cac80ca", null ],
     [ "TableExprRow", "structopenm_1_1_table_expr_row.html#a53faded149878ebc9510634f1d197700", null ],
-    [ "~TableExprRow", "structopenm_1_1_table_expr_row.html#a6dd3f6f9cf1420e4e647269bf8916014", null ],
     [ "columnName", "structopenm_1_1_table_expr_row.html#a9774de7f5c0d8819c5c0ef77c0b4b4a8", null ],
     [ "decimals", "structopenm_1_1_table_expr_row.html#ab994860f7a238cb00c7d712329c7345e", null ],
     [ "exprId", "structopenm_1_1_table_expr_row.html#abe23af5805b4bf89edb68363e581d560", null ],

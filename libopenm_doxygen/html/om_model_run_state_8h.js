@@ -1,9 +1,9 @@
 var om_model_run_state_8h =
 [
-    [ "RunStatus", "structopenm_1_1_run_status.html", null ],
-    [ "RunState", "structopenm_1_1_run_state.html", "structopenm_1_1_run_state" ],
-    [ "IModelRunState", "structopenm_1_1_i_model_run_state.html", "structopenm_1_1_i_model_run_state" ],
-    [ "RunStateItem", "structopenm_1_1_run_state_item.html", "structopenm_1_1_run_state_item" ],
+    [ "openm::RunStatus", "structopenm_1_1_run_status.html", null ],
+    [ "openm::RunState", "structopenm_1_1_run_state.html", "structopenm_1_1_run_state" ],
+    [ "openm::IModelRunState", "structopenm_1_1_i_model_run_state.html", "structopenm_1_1_i_model_run_state" ],
+    [ "openm::RunStateItem", "structopenm_1_1_run_state_item.html", "structopenm_1_1_run_state_item" ],
     [ "ExitStatus", "om_model_run_state_8h.html#a5a721e80d29f496d1bd73e1281cbaa9b", [
       [ "OK", "om_model_run_state_8h.html#a5a721e80d29f496d1bd73e1281cbaa9bae0aa021e21dddbd6d8cecec71e9cf564", null ],
       [ "FAIL", "om_model_run_state_8h.html#a5a721e80d29f496d1bd73e1281cbaa9bac2759effffc94bb9acc71d69fe3e8a1f", null ],

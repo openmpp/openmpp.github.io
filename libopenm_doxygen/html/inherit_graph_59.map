@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classopenm_1_1_mpi_packed.html" title="wrapper class around of MPI_Pack and MPI_Unpack" alt="" coords="5,5,149,32"/>
+<area shape="rect" id="node1" href="$structopenm_1_1_i_meta_table.html" title=" " alt="" coords="5,5,189,47"/>
+<area shape="rect" id="node2" href="$structopenm_1_1_i_workset_param_txt_table.html" title="workset_parameter_txt table public interface." alt="" coords="237,13,465,39"/>
+<area shape="rect" id="node3" href="$classopenm_1_1_workset_param_txt_table.html" title=" " alt="" coords="513,13,737,39"/>
 </map>

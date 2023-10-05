@@ -20,7 +20,10 @@ var class_entity_set_symbol =
     [ "insert_fn", "class_entity_set_symbol.html#aeafea9cd3f52b8796cf40c2b42321ff1", null ],
     [ "inserts_gvn", "class_entity_set_symbol.html#a52a20d9b05cda4939489c73ce6867a03", null ],
     [ "max_gvn", "class_entity_set_symbol.html#a6509ad4112f034f3ba5868595c15dd58", null ],
+    [ "order", "class_entity_set_symbol.html#a89db429d77bfa622458676193d1787c0", null ],
     [ "pp_agent", "class_entity_set_symbol.html#acb836e91051293bb499ed1b486853302", null ],
+    [ "pp_entity_set_id", "class_entity_set_symbol.html#a9785b82de71fe3b661129cbfa3369312", null ],
+    [ "pp_order_attribute", "class_entity_set_symbol.html#a4cc94bdbb8e1eac307635943333e8794", null ],
     [ "resource_use_gfn", "class_entity_set_symbol.html#aa9e6a840a1a74a652924171558997fa9", null ],
     [ "resource_use_reset_gfn", "class_entity_set_symbol.html#ae624e34284c5872e2244e32060876822", null ],
     [ "update_cell_fn", "class_entity_set_symbol.html#ab8cb478af51ed03230c64c643a612c0f", null ]

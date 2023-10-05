@@ -1,6 +1,5 @@
 var structopenm_1_1_i_model_builder =
 [
-    [ "~IModelBuilder", "structopenm_1_1_i_model_builder.html#ac34a00edcf2034ec0aad74bb52e0edb2", null ],
     [ "addWorksetParameter", "structopenm_1_1_i_model_builder.html#ab6be35377dc515f9d8e7936baca45192", null ],
     [ "addWorksetParameter", "structopenm_1_1_i_model_builder.html#aa62278571027ba7e08216792e08e3013", null ],
     [ "beginWorkset", "structopenm_1_1_i_model_builder.html#a8f1cc88d9f28ceb2c38e83fa85ce9d42", null ],

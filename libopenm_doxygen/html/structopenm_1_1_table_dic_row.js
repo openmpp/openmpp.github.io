@@ -2,7 +2,6 @@ var structopenm_1_1_table_dic_row =
 [
     [ "TableDicRow", "structopenm_1_1_table_dic_row.html#ada8979659e75046102fb58b4dde804d8", null ],
     [ "TableDicRow", "structopenm_1_1_table_dic_row.html#a9bbc82b7e507d9056a2f653bad824d73", null ],
-    [ "~TableDicRow", "structopenm_1_1_table_dic_row.html#a116446c184ac7b9a7c634753fadf7644", null ],
     [ "dbAccAll", "structopenm_1_1_table_dic_row.html#a08a22c228b1cd69b3b6809aab2f1d163", null ],
     [ "dbAccTable", "structopenm_1_1_table_dic_row.html#a62dfb9bf7fca8fca0578ee458a162970", null ],
     [ "dbExprTable", "structopenm_1_1_table_dic_row.html#ad9122a018592137efac391f8d3354eed", null ],

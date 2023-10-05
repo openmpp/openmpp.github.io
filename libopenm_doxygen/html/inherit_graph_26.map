@@ -1,5 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structopenm_1_1_i_meta_table.html" title=" " alt="" coords="5,5,168,47"/>
-<area shape="rect" id="node2" href="$structopenm_1_1_i_workset_param_table.html" title="workset_parameter table public interface." alt="" coords="216,13,423,39"/>
-<area shape="rect" id="node3" href="$classopenm_1_1_workset_param_table.html" title=" " alt="" coords="471,13,673,39"/>
+<area shape="rect" id="node1" href="$structopenm_1_1_i_meta_table.html" title=" " alt="" coords="5,5,163,47"/>
+<area shape="rect" id="node2" href="$structopenm_1_1_i_meta_loaded_table.html" title=" " alt="" coords="211,5,404,47"/>
+<area shape="rect" id="node3" href="$structopenm_1_1_i_lang_word_table.html" title="lang_word table public interface." alt="" coords="452,13,629,39"/>
+<area shape="rect" id="node4" href="$classopenm_1_1_lang_word_table.html" title=" " alt="" coords="677,13,851,39"/>
 </map>

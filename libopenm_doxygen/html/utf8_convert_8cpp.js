@@ -1,14 +1,11 @@
 var utf8_convert_8cpp =
 [
-    [ "IUtf8Converter", "classopenm_1_1_i_utf8_converter.html", "classopenm_1_1_i_utf8_converter" ],
+    [ "openm::IUtf8Converter", "classopenm_1_1_i_utf8_converter.html", "classopenm_1_1_i_utf8_converter" ],
     [ "Utf8CopyConverter", "class_utf8_copy_converter.html", "class_utf8_copy_converter" ],
     [ "DefaultPageConverter", "class_default_page_converter.html", "class_default_page_converter" ],
     [ "ExpicitPageConverter", "class_expicit_page_converter.html", "class_expicit_page_converter" ],
     [ "Utf16LePageConverter", "class_utf16_le_page_converter.html", "class_utf16_le_page_converter" ],
     [ "Utf16BePageConverter", "class_utf16_be_page_converter.html", "class_utf16_be_page_converter" ],
-    [ "_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING", "utf8_convert_8cpp.html#ab327acd0a24a2ccb9dfc3af0a807172f", null ],
-    [ "IN_CVT_SIZE", "utf8_convert_8cpp.html#a9db2c7ace2fa88a037fc7b04b7225b3c", null ],
-    [ "OUT_CVT_SIZE", "utf8_convert_8cpp.html#a2b53bfa46b4ac3dc496948d1eedf4745", null ],
     [ "CharCvtFrom", "utf8_convert_8cpp.html#a0314e082fb4ca9b53f0682b831cc7b13", [
       [ "defaultPage", "utf8_convert_8cpp.html#a0314e082fb4ca9b53f0682b831cc7b13a15a55f0ad0f1296d22dac7b7ab80e8e9", null ],
       [ "explicitPage", "utf8_convert_8cpp.html#a0314e082fb4ca9b53f0682b831cc7b13ae2813323b951a15b22babe5224d9dabe", null ],

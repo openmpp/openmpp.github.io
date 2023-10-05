@@ -1,6 +1,5 @@
 var class_table_measure_symbol =
 [
-    [ "TableMeasureSymbol", "class_table_measure_symbol.html#a316938b0ff1128131238508c46653e8c", null ],
     [ "heuristic_short_name", "class_table_measure_symbol.html#a64af6c1bb7c25f9640d985ddb76a6366", null ],
     [ "is_base_symbol", "class_table_measure_symbol.html#ab48d7fcbc98285c4bb1b3516e8197125", null ],
     [ "post_parse", "class_table_measure_symbol.html#a3c214c328dfd5768fd107c7eca8b661d", null ],

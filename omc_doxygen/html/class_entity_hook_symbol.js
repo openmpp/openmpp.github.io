@@ -1,6 +1,5 @@
 var class_entity_hook_symbol =
 [
-    [ "EntityHookSymbol", "class_entity_hook_symbol.html#a9fa2b0d048440922418ff58f29a9949f", null ],
     [ "create_auxiliary_symbols", "class_entity_hook_symbol.html#a1b81a9cb537d4d9e9a407fcbbba5cd86", null ],
     [ "is_base_symbol", "class_entity_hook_symbol.html#a5881ff14c85ddba797a067cd8358369b", null ],
     [ "post_parse", "class_entity_hook_symbol.html#a0a09149b9bf4d229488825419c74a26d", null ],

@@ -21,7 +21,7 @@ var class_type_symbol =
     [ "is_unknown", "class_type_symbol.html#ad6699f5691b849e5a17a54d19da4eea8", null ],
     [ "is_valid_constant", "class_type_symbol.html#af5df5b33236a8d8bc6b7d5aa15b5e9db", null ],
     [ "is_wrapped", "class_type_symbol.html#a6e70228bf22b9314162a65f017bf1e3d", null ],
-    [ "make_constant", "class_type_symbol.html#a1175f62ba1bbf493454275332101d28e", null ],
+    [ "make_constant", "class_type_symbol.html#aeb141857bb6860579be09bc3a756768c", null ],
     [ "summing_type", "class_type_symbol.html#a8f5dd2683c6c253fc9385ba141aac5e1", null ],
     [ "type_id", "class_type_symbol.html#af70009dfd31f97c488d602ee3b3f1695", null ]
 ];

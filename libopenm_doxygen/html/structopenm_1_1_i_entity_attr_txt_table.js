@@ -1,6 +1,5 @@
 var structopenm_1_1_i_entity_attr_txt_table =
 [
-    [ "~IEntityAttrTxtTable", "structopenm_1_1_i_entity_attr_txt_table.html#aa4244d06ecc585986418f8744135fccd", null ],
-    [ "byKey", "structopenm_1_1_i_entity_attr_txt_table.html#ae0df4a22023f3671d0716a8471f682de", null ],
-    [ "rowsRef", "structopenm_1_1_i_entity_attr_txt_table.html#aaab1ce5872b6c04134879ecc7f5fc893", null ]
+    [ "byKey", "structopenm_1_1_i_entity_attr_txt_table.html#a5fe232e6e58d48ec582a352b8e1bd774", null ],
+    [ "rowsRef", "structopenm_1_1_i_entity_attr_txt_table.html#af3e02c0e55f279a29ea81e2cedf11dac", null ]
 ];

@@ -1,6 +1,6 @@
 <map id="ModuleSymbol.h" name="ModuleSymbol.h">
-<area shape="rect" id="node1" title="Declarations for the ModuleSymbol class." alt="" coords="42,5,173,32"/>
-<area shape="rect" id="node2" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="32,80,87,107"/>
-<area shape="rect" id="node4" href="$_driver_8cpp.html" title="Implements the driver class." alt="" coords="111,80,199,107"/>
-<area shape="rect" id="node3" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="5,155,113,181"/>
+<area shape="rect" id="node1" title="Declarations for the ModuleSymbol class." alt="" coords="32,5,163,32"/>
+<area shape="rect" id="node2" href="$_driver_8cpp.html" title="Implements the driver class." alt="" coords="5,80,93,107"/>
+<area shape="rect" id="node3" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="118,80,173,107"/>
+<area shape="rect" id="node4" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="91,155,199,181"/>
 </map>

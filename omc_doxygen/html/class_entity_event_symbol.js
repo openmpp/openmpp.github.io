@@ -1,6 +1,5 @@
 var class_entity_event_symbol =
 [
-    [ "EntityEventSymbol", "class_entity_event_symbol.html#a7f6f9e14e7610c8bb2c31b14ba5d5cfd", null ],
     [ "create_auxiliary_symbols", "class_entity_event_symbol.html#ad27efb9a0f818d48c1b50e8fcb98bbdb", null ],
     [ "cxx_declaration_agent", "class_entity_event_symbol.html#ac01b911474ca1384c56365857d4fb997", null ],
     [ "initialization_value", "class_entity_event_symbol.html#ac466367f3a4081cdca0f3bab5275e983", null ],

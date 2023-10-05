@@ -2,7 +2,6 @@ var structopenm_1_1_entity_attr_row =
 [
     [ "EntityAttrRow", "structopenm_1_1_entity_attr_row.html#a35b5be2c30037f5b8ca20a9d4540a377", null ],
     [ "EntityAttrRow", "structopenm_1_1_entity_attr_row.html#aa51951c012973b5209deba8d45efd10f", null ],
-    [ "~EntityAttrRow", "structopenm_1_1_entity_attr_row.html#a202eab38128f22cadf17ea5bf1553f8a", null ],
     [ "columnName", "structopenm_1_1_entity_attr_row.html#a0b2c9d8f5ac23f475495c43123426608", null ],
     [ "attrId", "structopenm_1_1_entity_attr_row.html#a27652e15968e13889b2c01ed3de67aed", null ],
     [ "entityId", "structopenm_1_1_entity_attr_row.html#a431e77e7413a883eec3f05868bba54e4", null ],

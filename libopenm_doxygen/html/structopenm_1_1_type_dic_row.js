@@ -2,7 +2,6 @@ var structopenm_1_1_type_dic_row =
 [
     [ "TypeDicRow", "structopenm_1_1_type_dic_row.html#a7172748907c0772b75910a53c2581cda", null ],
     [ "TypeDicRow", "structopenm_1_1_type_dic_row.html#ad08a1d37b84427a3ae53597323058fce", null ],
-    [ "~TypeDicRow", "structopenm_1_1_type_dic_row.html#afd304c09fc12dbf8bbe60b017546f737", null ],
     [ "isBigInt", "structopenm_1_1_type_dic_row.html#a6f2ee62d4020b41890890f9c5ae8e74f", null ],
     [ "isBool", "structopenm_1_1_type_dic_row.html#aa5b1a1919e5fa3afd8da480e4927b8bb", null ],
     [ "isBuiltIn", "structopenm_1_1_type_dic_row.html#a5be03e3bfe6a38bccb82f15eda0fdb4b", null ],

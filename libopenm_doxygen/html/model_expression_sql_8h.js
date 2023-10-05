@@ -1,9 +1,9 @@
 var model_expression_sql_8h =
 [
-    [ "AggregationColumnExpr", "structopenm_1_1_aggregation_column_expr.html", "structopenm_1_1_aggregation_column_expr" ],
-    [ "ModelBaseExpressionSql", "classopenm_1_1_model_base_expression_sql.html", "classopenm_1_1_model_base_expression_sql" ],
-    [ "ModelAccumulatorSql", "classopenm_1_1_model_accumulator_sql.html", "classopenm_1_1_model_accumulator_sql" ],
-    [ "ModelAggregationSql", "classopenm_1_1_model_aggregation_sql.html", "classopenm_1_1_model_aggregation_sql" ],
+    [ "openm::AggregationColumnExpr", "structopenm_1_1_aggregation_column_expr.html", "structopenm_1_1_aggregation_column_expr" ],
+    [ "openm::ModelBaseExpressionSql", "classopenm_1_1_model_base_expression_sql.html", "classopenm_1_1_model_base_expression_sql" ],
+    [ "openm::ModelAccumulatorSql", "classopenm_1_1_model_accumulator_sql.html", "classopenm_1_1_model_accumulator_sql" ],
+    [ "openm::ModelAggregationSql", "classopenm_1_1_model_aggregation_sql.html", "classopenm_1_1_model_aggregation_sql" ],
     [ "FncCode", "model_expression_sql_8h.html#a1d961a1d992de740bd98b57f571cd448", [
       [ "undefined", "model_expression_sql_8h.html#a1d961a1d992de740bd98b57f571cd448a5e543256c480ac577d30f76f9120eb74", null ],
       [ "if_case", "model_expression_sql_8h.html#a1d961a1d992de740bd98b57f571cd448acaf2d484bde184c4127b99c59c0cc5c5", null ],

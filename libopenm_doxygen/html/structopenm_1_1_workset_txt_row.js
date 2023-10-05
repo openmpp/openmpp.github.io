@@ -2,7 +2,6 @@ var structopenm_1_1_workset_txt_row =
 [
     [ "WorksetTxtRow", "structopenm_1_1_workset_txt_row.html#a785e8acb85b003448d07a69911af8571", null ],
     [ "WorksetTxtRow", "structopenm_1_1_workset_txt_row.html#af70c020aee19a00cf9ab2f17a251518b", null ],
-    [ "~WorksetTxtRow", "structopenm_1_1_workset_txt_row.html#a78fbdc1dc7fd24227f92b0ca30d5b5e0", null ],
     [ "descr", "structopenm_1_1_workset_txt_row.html#a4559887bde37618a25737a0d8f1bb464", null ],
     [ "langId", "structopenm_1_1_workset_txt_row.html#a10043d9063ea3e80d9f80cf01a33dfa7", null ],
     [ "note", "structopenm_1_1_workset_txt_row.html#a72a85f87db6f691b8e0cab2afcb39c8f", null ],

@@ -12,10 +12,6 @@ var class_numeric_symbol =
     [ "make_constant", "class_numeric_symbol.html#a43456cedd2d4a84076360447f78bcdcb", null ],
     [ "populate_metadata", "class_numeric_symbol.html#a76996a5c6d9fa8bef623e71bca2e10fb", null ],
     [ "post_parse", "class_numeric_symbol.html#a556074848eabdf91947795d56c95c693", null ],
-    [ "Set_keywords", "class_numeric_symbol.html#ada641e6bdac3426e0ac95b132fdb7149", null ],
-    [ "Set_keywords", "class_numeric_symbol.html#ac4f2354ee4832b94c743dda32ae35541", null ],
-    [ "Set_keywords", "class_numeric_symbol.html#adc536694a273b3c393cdab0d4b09ebad", null ],
-    [ "Set_keywords", "class_numeric_symbol.html#af5d6c032d265b066dbed9188f6216d36", null ],
     [ "initial_value", "class_numeric_symbol.html#a073237b235e9555b82d4c6e260e95b75", null ],
     [ "keywords", "class_numeric_symbol.html#abc7ec2e0cde65af0aa4c6d11859bacec", null ],
     [ "type", "class_numeric_symbol.html#a5e5f010b83305d400450b3dfcb43ddeb", null ]

@@ -1,8 +1,8 @@
 <map id="SimpleAttributeSymbol.h" name="SimpleAttributeSymbol.h">
-<area shape="rect" id="node1" title="Declarations for the SimpleAttributeSymbol class." alt="" coords="166,5,352,32"/>
-<area shape="rect" id="node2" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="158,155,213,181"/>
-<area shape="rect" id="node4" href="$_entity_data_member_symbol_8cpp.html" title="Definitions for the EntityDataMemberSymbol class." alt="" coords="26,80,247,107"/>
-<area shape="rect" id="node5" href="$_simple_attribute_enum_symbol_8h.html" title="Declarations for the SimpleAttributeEnumSymbol class." alt="" coords="272,80,494,107"/>
-<area shape="rect" id="node6" href="$_simple_attribute_symbol_8cpp.html" title="Definitions for the SimpleAttributeSymbol class." alt="" coords="518,80,718,107"/>
-<area shape="rect" id="node3" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="132,229,240,256"/>
+<area shape="rect" id="node1" title="Declarations for the SimpleAttributeSymbol class." alt="" coords="343,5,529,32"/>
+<area shape="rect" id="node2" href="$_entity_data_member_symbol_8cpp.html" title="Definitions for the EntityDataMemberSymbol class." alt="" coords="5,80,227,107"/>
+<area shape="rect" id="node3" href="$_simple_attribute_enum_symbol_8h.html" title="Declarations for the SimpleAttributeEnumSymbol class." alt="" coords="251,80,474,107"/>
+<area shape="rect" id="node4" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="409,155,463,181"/>
+<area shape="rect" id="node6" href="$_simple_attribute_symbol_8cpp.html" title="Definitions for the SimpleAttributeSymbol class." alt="" coords="548,80,748,107"/>
+<area shape="rect" id="node5" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="382,229,490,256"/>
 </map>

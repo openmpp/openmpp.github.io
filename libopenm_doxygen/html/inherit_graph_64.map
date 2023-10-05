@@ -1,3 +1,9 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structopenm_1_1_run_controller_1_1_entity_attr_item.html" title="entity attribute item to write microdata into database or csv file" alt="" coords="5,5,169,47"/>
+<area shape="rect" id="node1" href="$classopenm_1_1_i_msg_recv.html" title="public interface for message receiver" alt="" coords="5,81,144,108"/>
+<area shape="rect" id="node2" href="$classopenm_1_1_i_msg_recv_array.html" title="public interface to receive value array" alt="" coords="197,56,370,83"/>
+<area shape="rect" id="node5" href="$classopenm_1_1_i_msg_recv_packed.html" title="public interface to receive packed data" alt="" coords="192,107,375,133"/>
+<area shape="rect" id="node3" href="$classopenm_1_1_mpi_recv_array.html" title="non&#45;blocking receive of value array" alt="" coords="450,5,617,32"/>
+<area shape="rect" id="node4" href="$classopenm_1_1_msg_empty_recv_array.html" title="non&#45;blocking receive of value array (empty implementation)" alt="" coords="428,56,639,83"/>
+<area shape="rect" id="node6" href="$classopenm_1_1_mpi_recv_packed.html" title="non&#45;blocking receive of packed data" alt="" coords="445,107,621,133"/>
+<area shape="rect" id="node7" href="$classopenm_1_1_msg_empty_recv_packed.html" title="non&#45;blocking receive of packed data (empty implementation)" alt="" coords="423,157,644,184"/>
 </map>

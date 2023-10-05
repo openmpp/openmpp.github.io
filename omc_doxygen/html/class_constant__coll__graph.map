@@ -1,8 +1,8 @@
 <map id="Constant" name="Constant">
-<area shape="rect" id="node1" title="Constant &#45; Refers to either a Literal or an EnumeratorSymbol." alt="" coords="142,317,222,344"/>
-<area shape="rect" id="node2" href="$class_literal.html" title="Literal encapsulates a C++ literal or an openM++ literal." alt="" coords="68,228,131,255"/>
-<area shape="rect" id="node3" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="155,228,225,255"/>
-<area shape="rect" id="node4" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="5,109,116,136"/>
-<area shape="rect" id="node5" href="$classomc_1_1location.html" title="Two points in a source file." alt="" coords="184,109,295,136"/>
-<area shape="rect" id="node6" href="$classomc_1_1position.html" title="A point in a source file." alt="" coords="184,5,295,32"/>
+<area shape="rect" id="node1" title="Constant &#45; Refers to either a Literal or an EnumeratorSymbol." alt="" coords="123,317,203,344"/>
+<area shape="rect" id="node2" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="139,228,209,255"/>
+<area shape="rect" id="node3" href="$classomc_1_1location.html" title="Two points in a source file." alt="" coords="5,109,116,136"/>
+<area shape="rect" id="node4" href="$classomc_1_1position.html" title="A point in a source file." alt="" coords="5,5,116,32"/>
+<area shape="rect" id="node5" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="143,109,253,136"/>
+<area shape="rect" id="node6" href="$class_literal.html" title="Literal encapsulates a C++ literal or an openM++ literal." alt="" coords="244,228,307,255"/>
 </map>

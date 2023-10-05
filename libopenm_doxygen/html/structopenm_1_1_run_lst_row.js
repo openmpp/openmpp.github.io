@@ -2,7 +2,6 @@ var structopenm_1_1_run_lst_row =
 [
     [ "RunLstRow", "structopenm_1_1_run_lst_row.html#ad487f4edb2441189f0e918fe54ba1e12", null ],
     [ "RunLstRow", "structopenm_1_1_run_lst_row.html#a05f4d6510fe86c0a08c06c5975a36e7e", null ],
-    [ "~RunLstRow", "structopenm_1_1_run_lst_row.html#a0b129d18595c9be4091887e8ba94d465", null ],
     [ "createDateTime", "structopenm_1_1_run_lst_row.html#a8e9b81de19c38ca020d9be513a525a6c", null ],
     [ "modelId", "structopenm_1_1_run_lst_row.html#a9e024e15587f185eb2aa487a2e55e731", null ],
     [ "name", "structopenm_1_1_run_lst_row.html#ad64f41960cabea11a8e9c79506eaf2fc", null ],

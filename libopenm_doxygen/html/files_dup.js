@@ -5,5 +5,6 @@ var files_dup =
     [ "include", "dir_d44c64559bbebec7f509842c48db8b23.html", "dir_d44c64559bbebec7f509842c48db8b23" ],
     [ "include", "dir_a0af34ed3c51f838a0893dc0d41bbfe5.html", "dir_a0af34ed3c51f838a0893dc0d41bbfe5" ],
     [ "model", "dir_a0a3dc0c2495790bed2e4e8abdaa9c61.html", "dir_a0a3dc0c2495790bed2e4e8abdaa9c61" ],
-    [ "msg", "dir_e35c0210d1ab4017c62c855472c691fb.html", "dir_e35c0210d1ab4017c62c855472c691fb" ]
+    [ "msg", "dir_e35c0210d1ab4017c62c855472c691fb.html", "dir_e35c0210d1ab4017c62c855472c691fb" ],
+    [ "main.cpp", "main_8cpp.html", "main_8cpp" ]
 ];

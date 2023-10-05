@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classopenm_1_1_model_insert_sql.html" title="metadata inserter class: produce sql statements and insert metadata rows into db tables." alt="" coords="5,5,177,32"/>
+<area shape="rect" id="node1" href="$structopenm_1_1_i_meta_table.html" title=" " alt="" coords="5,5,163,47"/>
+<area shape="rect" id="node2" href="$structopenm_1_1_i_workset_lst_table.html" title="workset_lst table public interface." alt="" coords="211,13,396,39"/>
+<area shape="rect" id="node3" href="$classopenm_1_1_workset_lst_table.html" title=" " alt="" coords="444,13,625,39"/>
 </map>

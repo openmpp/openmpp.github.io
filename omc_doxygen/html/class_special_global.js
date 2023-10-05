@@ -1,6 +1,5 @@
 var class_special_global =
 [
-    [ "SpecialGlobal", "class_special_global.html#a0154134226a36ef18df965385a0b3bb8", null ],
     [ "disambiguated_name", "class_special_global.html#ac2748cfd754245c00d0a21ce376f46dc", null ],
     [ "ambiguous_count", "class_special_global.html#ab338f3fd80097f33a511d2b690cff263", null ],
     [ "prefix", "class_special_global.html#ae4300e0fc4d8feb1be87e7f083d93854", null ],

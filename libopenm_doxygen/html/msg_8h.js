@@ -1,7 +1,7 @@
 var msg_8h =
 [
-    [ "IPackedAdapter", "structopenm_1_1_i_packed_adapter.html", "structopenm_1_1_i_packed_adapter" ],
-    [ "IMsgExec", "classopenm_1_1_i_msg_exec.html", "classopenm_1_1_i_msg_exec" ],
+    [ "openm::IPackedAdapter", "structopenm_1_1_i_packed_adapter.html", "structopenm_1_1_i_packed_adapter" ],
+    [ "openm::IMsgExec", "classopenm_1_1_i_msg_exec.html", "classopenm_1_1_i_msg_exec" ],
     [ "MsgException", "msg_8h.html#aca993ec02ab554e3964fe233bfc3cd01", null ],
     [ "MsgTag", "msg_8h.html#a3bfbc1c842226a2cda27f3f2ad50df16", [
       [ "unused", "msg_8h.html#a3bfbc1c842226a2cda27f3f2ad50df16afd94c6a26d6b6571e8d9398446227ae8", null ],

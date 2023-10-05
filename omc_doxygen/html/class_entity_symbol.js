@@ -20,6 +20,7 @@ var class_entity_symbol =
     [ "populate_metadata", "class_entity_symbol.html#a0d3ec415c8b04ba6bd42b951c1e08ec4", null ],
     [ "post_parse", "class_entity_symbol.html#adf4c0c7df52bf9c06fbac9d1652d97fe", null ],
     [ "post_parse_mark_enumerations", "class_entity_symbol.html#aef63deb8c272052234e5bf084b22f29b", null ],
+    [ "any_entity_set_has_order_clause", "class_entity_symbol.html#a8b71de51ef3258ad71be907116dbc0aa", null ],
     [ "assign_member_offsets_fn", "class_entity_symbol.html#a6a9356279af48c1782470017f37f0f72", null ],
     [ "finalize_entity_sets_fn", "class_entity_symbol.html#af3aff9e97495e6e777e4bb8ab871abbb", null ],
     [ "finalize_events_fn", "class_entity_symbol.html#ac8b6b6cd08d87f5d17186dc969612b5d", null ],

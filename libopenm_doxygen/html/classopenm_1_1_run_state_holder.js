@@ -1,6 +1,5 @@
 var classopenm_1_1_run_state_holder =
 [
-    [ "RunStateHolder", "classopenm_1_1_run_state_holder.html#aa6335ccfb0635e4e686dfb0b503080b0", null ],
     [ "add", "classopenm_1_1_run_state_holder.html#a93030a331e0945f6b3d3cb5eabf1b234", null ],
     [ "add", "classopenm_1_1_run_state_holder.html#a63e64d4099aac73001cc5f43dc0a155d", null ],
     [ "fromRowVector", "classopenm_1_1_run_state_holder.html#af2100c012c8d5a7ebe5d00c435592ea3", null ],

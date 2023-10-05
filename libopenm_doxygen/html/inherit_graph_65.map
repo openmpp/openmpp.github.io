@@ -1,3 +1,11 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structopenm_1_1_run_controller_1_1_entity_item.html" title="entity item to write microdata into database or csv file" alt="" coords="5,5,169,47"/>
+<area shape="rect" id="node1" href="$classopenm_1_1_i_msg_send.html" title="public interface for message sender" alt="" coords="5,81,144,108"/>
+<area shape="rect" id="node2" href="$classopenm_1_1_i_msg_send_array.html" title="public interface to send value array" alt="" coords="209,56,383,83"/>
+<area shape="rect" id="node5" href="$classopenm_1_1_i_msg_send_packed.html" title="public interface to send packed data." alt="" coords="205,107,387,133"/>
+<area shape="rect" id="node3" href="$classopenm_1_1_mpi_send_array.html" title="non&#45;blocking MPI send of value array" alt="" coords="475,5,642,32"/>
+<area shape="rect" id="node4" href="$classopenm_1_1_msg_empty_send_array.html" title="non&#45;blocking send of value array (empty implementation)" alt="" coords="453,107,664,133"/>
+<area shape="rect" id="node6" href="$classopenm_1_1_mpi_send_packed.html" title="non&#45;blocking MPI send of packed data" alt="" coords="471,56,647,83"/>
+<area shape="rect" id="node7" href="$classopenm_1_1_msg_empty_send_packed.html" title="non&#45;blocking send of packed data (empty implementation)" alt="" coords="448,157,669,184"/>
+<area shape="rect" id="node8" href="$classopenm_1_1_mpi_send_base.html" title="base class for non&#45;blocking MPI send" alt="" coords="215,5,377,32"/>
+<area shape="rect" id="node9" href="$classopenm_1_1_msg_empty_send_base.html" title="base class for non&#45;blocking send (empty implementation)" alt="" coords="192,157,400,184"/>
 </map>

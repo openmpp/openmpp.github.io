@@ -1,11 +1,11 @@
 <map id="BuiltinAttributeSymbol.h" name="BuiltinAttributeSymbol.h">
-<area shape="rect" id="node1" title="Declarations for the BuiltinAttributeSymbol class." alt="" coords="584,5,767,32"/>
-<area shape="rect" id="node2" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="32,80,87,107"/>
-<area shape="rect" id="node4" href="$_builtin_attribute_symbol_8cpp.html" title="Definitions for the BuiltinAttributeSymbol class." alt="" coords="111,80,309,107"/>
-<area shape="rect" id="node5" href="$_derived_attribute_symbol_8cpp.html" title="Definitions for the DerivedAttributeSymbol class." alt="" coords="333,80,540,107"/>
-<area shape="rect" id="node6" href="$_entity_data_member_symbol_8cpp.html" title="Definitions for the EntityDataMemberSymbol class." alt="" coords="565,80,786,107"/>
-<area shape="rect" id="node7" href="$_entity_event_symbol_8cpp.html" title="Definitions for the EntityEventSymbol class." alt="" coords="810,80,983,107"/>
-<area shape="rect" id="node8" href="$_entity_symbol_8cpp.html" title="Implements the EntitySymbol derived class of the Symbol class." alt="" coords="1007,80,1143,107"/>
-<area shape="rect" id="node9" href="$_entity_table_symbol_8cpp.html" title="Definitions for the EntityTableSymbol class." alt="" coords="1167,80,1338,107"/>
-<area shape="rect" id="node3" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="5,155,113,181"/>
+<area shape="rect" id="node1" title="Declarations for the BuiltinAttributeSymbol class." alt="" coords="699,5,882,32"/>
+<area shape="rect" id="node2" href="$_builtin_attribute_symbol_8cpp.html" title="Definitions for the BuiltinAttributeSymbol class." alt="" coords="5,80,203,107"/>
+<area shape="rect" id="node3" href="$_derived_attribute_symbol_8cpp.html" title="Definitions for the DerivedAttributeSymbol class." alt="" coords="227,80,434,107"/>
+<area shape="rect" id="node4" href="$_entity_data_member_symbol_8cpp.html" title="Definitions for the EntityDataMemberSymbol class." alt="" coords="459,80,680,107"/>
+<area shape="rect" id="node5" href="$_entity_event_symbol_8cpp.html" title="Definitions for the EntityEventSymbol class." alt="" coords="704,80,877,107"/>
+<area shape="rect" id="node6" href="$_entity_symbol_8cpp.html" title="Implements the EntitySymbol derived class of the Symbol class." alt="" coords="901,80,1037,107"/>
+<area shape="rect" id="node7" href="$_entity_table_symbol_8cpp.html" title="Definitions for the EntityTableSymbol class." alt="" coords="1061,80,1232,107"/>
+<area shape="rect" id="node8" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="1257,80,1311,107"/>
+<area shape="rect" id="node9" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="1230,155,1338,181"/>
 </map>

@@ -10,6 +10,5 @@ var class_multilink_attribute_symbol =
     [ "evaluate_fn", "class_multilink_attribute_symbol.html#ab09c33aecda1676432af2ac0ecf517be", null ],
     [ "func", "class_multilink_attribute_symbol.html#aa632ea8172afa8dc4085047c7a9ce9a7", null ],
     [ "multilink", "class_multilink_attribute_symbol.html#aa40e700032ab35a2802cabd769a83bfa", null ],
-    [ "pp_attribute", "class_multilink_attribute_symbol.html#a4447f1d80e2a1b731d872e2325973bc3", null ],
     [ "pp_multilink", "class_multilink_attribute_symbol.html#abcebb00f529ae138306eb9f2440a278d", null ]
 ];

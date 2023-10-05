@@ -1,12 +1,12 @@
 <map id="ClassificationSymbol.h" name="ClassificationSymbol.h">
-<area shape="rect" id="node1" title="Declarations for the ClassificationSymbol class." alt="" coords="379,5,550,32"/>
-<area shape="rect" id="node2" href="$_aggregation_symbol_8h.html" title="Declarations for the AggregationSymbol class." alt="" coords="199,87,362,114"/>
-<area shape="rect" id="node4" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="32,169,87,196"/>
-<area shape="rect" id="node6" href="$_derived_attribute_symbol_8cpp.html" title="Definitions for the DerivedAttributeSymbol class." alt="" coords="436,169,643,196"/>
-<area shape="rect" id="node8" href="$_classification_symbol_8cpp.html" title="Definitions for the ClassificationSymbol class." alt="" coords="437,87,623,114"/>
-<area shape="rect" id="node9" href="$_enumeration_with_enumerators_symbol_8cpp.html" title="Definitions for the EnumerationWithEnumeratorsSymbol class." alt="" coords="647,80,866,121"/>
-<area shape="rect" id="node10" href="$_type_symbol_8cpp.html" title="Definitions for the TypeSymbol class." alt="" coords="890,87,1018,114"/>
-<area shape="rect" id="node3" href="$_aggregation_symbol_8cpp.html" title="Definitions for the AggregationSymbol class." alt="" coords="111,169,288,196"/>
-<area shape="rect" id="node7" href="$_symbol_8cpp.html" title="Definitions for the Symbol class." alt="" coords="313,169,411,196"/>
-<area shape="rect" id="node5" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="5,244,113,271"/>
+<area shape="rect" id="node1" title="Declarations for the ClassificationSymbol class." alt="" coords="495,5,666,32"/>
+<area shape="rect" id="node2" href="$_aggregation_symbol_8h.html" title="Declarations for the AggregationSymbol class." alt="" coords="315,87,478,114"/>
+<area shape="rect" id="node4" href="$_derived_attribute_symbol_8cpp.html" title="Definitions for the DerivedAttributeSymbol class." alt="" coords="5,169,212,196"/>
+<area shape="rect" id="node6" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="561,169,616,196"/>
+<area shape="rect" id="node8" href="$_classification_symbol_8cpp.html" title="Definitions for the ClassificationSymbol class." alt="" coords="553,87,739,114"/>
+<area shape="rect" id="node9" href="$_enumeration_with_enumerators_symbol_8cpp.html" title="Definitions for the EnumerationWithEnumeratorsSymbol class." alt="" coords="763,80,982,121"/>
+<area shape="rect" id="node10" href="$_type_symbol_8cpp.html" title="Definitions for the TypeSymbol class." alt="" coords="1006,87,1134,114"/>
+<area shape="rect" id="node3" href="$_aggregation_symbol_8cpp.html" title="Definitions for the AggregationSymbol class." alt="" coords="236,169,413,196"/>
+<area shape="rect" id="node5" href="$_symbol_8cpp.html" title="Definitions for the Symbol class." alt="" coords="438,169,537,196"/>
+<area shape="rect" id="node7" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="535,244,643,271"/>
 </map>

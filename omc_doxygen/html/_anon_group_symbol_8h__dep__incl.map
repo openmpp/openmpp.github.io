@@ -1,7 +1,8 @@
 <map id="AnonGroupSymbol.h" name="AnonGroupSymbol.h">
-<area shape="rect" id="node1" title="Declarations for the AnonGroupSymbol class." alt="" coords="151,5,305,32"/>
+<area shape="rect" id="node1" title="Declarations for the AnonGroupSymbol class." alt="" coords="223,5,377,32"/>
 <area shape="rect" id="node2" href="$_anon_group_symbol_8cpp.html" title="Definitions for the AnonGroupSymbol class." alt="" coords="5,80,176,107"/>
-<area shape="rect" id="node3" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="201,80,255,107"/>
-<area shape="rect" id="node5" href="$_symbol_8cpp.html" title="Definitions for the Symbol class." alt="" coords="280,80,379,107"/>
-<area shape="rect" id="node4" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="174,155,282,181"/>
+<area shape="rect" id="node3" href="$_symbol_8cpp.html" title="Definitions for the Symbol class." alt="" coords="200,80,299,107"/>
+<area shape="rect" id="node4" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="323,80,378,107"/>
+<area shape="rect" id="node6" href="$omc_8cpp.html" title="OpenM++ compiler (omc): main entry point." alt="" coords="403,80,480,107"/>
+<area shape="rect" id="node5" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="297,155,405,181"/>
 </map>

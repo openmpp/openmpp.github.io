@@ -1,7 +1,6 @@
 var structopenm_1_1_run_options =
 [
     [ "RunOptions", "structopenm_1_1_run_options.html#ae16ae0266e31898fba04a430ae38a427", null ],
-    [ "~RunOptions", "structopenm_1_1_run_options.html#a9346861ab93ecf865635e1760a25b0e9", null ],
     [ "isMicrodata", "structopenm_1_1_run_options.html#a03d43a8367cebcf72fc12e208fcb5dc2", null ],
     [ "isTextMicrodata", "structopenm_1_1_run_options.html#a3bbd7ae415a0e9b2507e73244915a988", null ],
     [ "isCsvMicrodata", "structopenm_1_1_run_options.html#a9eabaf4400d375a0d1a46ef03da7866c", null ],

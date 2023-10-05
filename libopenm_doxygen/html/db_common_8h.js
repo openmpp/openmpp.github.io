@@ -1,9 +1,9 @@
 var db_common_8h =
 [
-    [ "IRowAdapter", "classopenm_1_1_i_row_adapter.html", "classopenm_1_1_i_row_adapter" ],
-    [ "DbValue", "unionopenm_1_1_db_value.html", "unionopenm_1_1_db_value" ],
-    [ "IValueFormatter", "classopenm_1_1_i_value_formatter.html", "classopenm_1_1_i_value_formatter" ],
-    [ "IRowProcessor", "classopenm_1_1_i_row_processor.html", "classopenm_1_1_i_row_processor" ],
+    [ "openm::IRowAdapter", "classopenm_1_1_i_row_adapter.html", "classopenm_1_1_i_row_adapter" ],
+    [ "openm::DbValue", "unionopenm_1_1_db_value.html", "unionopenm_1_1_db_value" ],
+    [ "openm::IValueFormatter", "classopenm_1_1_i_value_formatter.html", "classopenm_1_1_i_value_formatter" ],
+    [ "openm::IRowProcessor", "classopenm_1_1_i_row_processor.html", "classopenm_1_1_i_row_processor" ],
     [ "DbException", "db_common_8h.html#a72640fd763e2e68568b93932eb04be14", null ],
     [ "DB2_DB_PROVIDER", "db_common_8h.html#a882ca954341c843881e74bc7e3541645", null ],
     [ "dbUnknownErrorMessage", "db_common_8h.html#a7727d75fc3c3177948607fc00fa9bf78", null ],
