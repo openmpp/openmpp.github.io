@@ -1,8 +1,8 @@
 var class_entity_multilink_symbol =
 [
-    [ "EntityMultilinkSymbol", "class_entity_multilink_symbol.html#af49994e71922f9320070928c7c164f9e", null ],
+    [ "EntityMultilinkSymbol", "class_entity_multilink_symbol.html#a089f8795f8c2ba25f044d47cd41a7506", null ],
     [ "create_auxiliary_symbols", "class_entity_multilink_symbol.html#a5e6421858b08bf8f412c99de60496525", null ],
-    [ "cxx_declaration_agent", "class_entity_multilink_symbol.html#a44e65ae9be927c14dc45963b874c68d3", null ],
+    [ "cxx_declaration_entity", "class_entity_multilink_symbol.html#a71006a6786fc463830167847b2f047cf", null ],
     [ "is_base_symbol", "class_entity_multilink_symbol.html#ab1cb0472ea3c7c745b503675e4abdfcd", null ],
     [ "post_parse", "class_entity_multilink_symbol.html#ac0c12e04b3979eadc10a72ff23da5f4a", null ],
     [ "erase_fn", "class_entity_multilink_symbol.html#a9e3cceb1e9282d1ad5324f7fd51144ea", null ],

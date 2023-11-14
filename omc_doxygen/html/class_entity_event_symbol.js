@@ -1,7 +1,7 @@
 var class_entity_event_symbol =
 [
     [ "create_auxiliary_symbols", "class_entity_event_symbol.html#ad27efb9a0f818d48c1b50e8fcb98bbdb", null ],
-    [ "cxx_declaration_agent", "class_entity_event_symbol.html#ac01b911474ca1384c56365857d4fb997", null ],
+    [ "cxx_declaration_entity", "class_entity_event_symbol.html#a2e77527e791ae5a3fcf367d6322473e6", null ],
     [ "initialization_value", "class_entity_event_symbol.html#ac466367f3a4081cdca0f3bab5275e983", null ],
     [ "is_base_symbol", "class_entity_event_symbol.html#aa4fede6fd600554a72b6fb1cbd3d9fb1", null ],
     [ "post_parse", "class_entity_event_symbol.html#a6a56f7bf554263972a4429cd80fb9954", null ],

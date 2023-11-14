@@ -1,17 +1,17 @@
 <map id="EntitySymbol" name="EntitySymbol">
-<area shape="rect" id="node1" title="EntitySymbol." alt="" coords="426,304,535,331"/>
-<area shape="rect" id="node9" href="$class_entity_member_symbol.html" title=" " alt="" coords="275,549,438,575"/>
-<area shape="rect" id="node2" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="277,228,348,255"/>
-<area shape="rect" id="node8" href="$class_entity_data_member_symbol.html" title=" " alt="" coords="148,793,343,820"/>
-<area shape="rect" id="node10" href="$class_type_symbol.html" title="TypeSymbol." alt="" coords="151,356,252,383"/>
-<area shape="rect" id="node3" href="$classomc_1_1location.html" title="Two points in a source file." alt="" coords="708,109,818,136"/>
-<area shape="rect" id="node12" href="$class_entity_func_symbol.html" title="Symbol for a function member of an agent." alt="" coords="583,793,722,820"/>
-<area shape="rect" id="node4" href="$classomc_1_1position.html" title="A point in a source file." alt="" coords="708,5,818,32"/>
-<area shape="rect" id="node5" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="257,109,368,136"/>
-<area shape="rect" id="node6" href="$class_builtin_attribute_symbol.html" title="BuiltinAttributeSymbol." alt="" coords="690,1109,860,1136"/>
-<area shape="rect" id="node7" href="$class_attribute_symbol.html" title=" " alt="" coords="491,1033,619,1060"/>
-<area shape="rect" id="node11" href="$class_entity_internal_symbol.html" title="Internal data symbol." alt="" coords="164,928,322,955"/>
-<area shape="rect" id="node15" href="$class_entity_event_symbol.html" title="Event time member symbol for an event." alt="" coords="446,928,592,955"/>
-<area shape="rect" id="node13" href="$class_code_block.html" title=" " alt="" coords="720,549,811,575"/>
-<area shape="rect" id="node14" title=" " alt="" coords="711,304,820,331"/>
+<area shape="rect" id="node1" title="EntitySymbol." alt="" coords="426,304,536,331"/>
+<area shape="rect" id="node9" href="$class_entity_member_symbol.html" title=" " alt="" coords="276,549,438,575"/>
+<area shape="rect" id="node2" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="276,228,347,255"/>
+<area shape="rect" id="node8" href="$class_entity_data_member_symbol.html" title=" " alt="" coords="149,793,344,820"/>
+<area shape="rect" id="node10" href="$class_type_symbol.html" title="TypeSymbol." alt="" coords="150,356,252,383"/>
+<area shape="rect" id="node3" href="$classomc_1_1location.html" title="Two points in a source file." alt="" coords="708,109,819,136"/>
+<area shape="rect" id="node12" href="$class_entity_func_symbol.html" title="Symbol for a function member of an entity." alt="" coords="584,793,722,820"/>
+<area shape="rect" id="node4" href="$classomc_1_1position.html" title="A point in a source file." alt="" coords="708,5,819,32"/>
+<area shape="rect" id="node5" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="256,109,367,136"/>
+<area shape="rect" id="node6" href="$class_builtin_attribute_symbol.html" title="BuiltinAttributeSymbol." alt="" coords="690,1109,861,1136"/>
+<area shape="rect" id="node7" href="$class_attribute_symbol.html" title=" " alt="" coords="492,1033,620,1060"/>
+<area shape="rect" id="node11" href="$class_entity_internal_symbol.html" title="Internal data symbol." alt="" coords="164,928,323,955"/>
+<area shape="rect" id="node15" href="$class_entity_event_symbol.html" title="Event time member symbol for an event." alt="" coords="446,928,593,955"/>
+<area shape="rect" id="node13" href="$class_code_block.html" title=" " alt="" coords="721,549,812,575"/>
+<area shape="rect" id="node14" title=" " alt="" coords="712,304,821,331"/>
 </map>

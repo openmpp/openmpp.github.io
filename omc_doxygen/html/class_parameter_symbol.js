@@ -26,6 +26,7 @@ var class_parameter_symbol =
     [ "initializer_for_storage", "class_parameter_symbol.html#ac3c8d3434bfbda55df17fe767ac15a66", null ],
     [ "is_base_symbol", "class_parameter_symbol.html#a629bad3a3ad7d02c4a3e376d0c2640bc", null ],
     [ "is_derived", "class_parameter_symbol.html#ade8c93e70c92d4604eac467ae2af5bf9", null ],
+    [ "is_published", "class_parameter_symbol.html#ac418a550caf1dafd51e26922dc5c321b", null ],
     [ "populate_metadata", "class_parameter_symbol.html#abac744fe1ef44adc584d2d9c02a8ba7a", null ],
     [ "post_parse", "class_parameter_symbol.html#a39635cfa9cf8ea6d34eff4a4fe2f8a17", null ],
     [ "post_parse_mark_enumerations", "class_parameter_symbol.html#a5cdb0bdcf8c02e32d4c51001755bac24", null ],

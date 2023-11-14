@@ -1,5 +1,5 @@
 <map id="EntityFuncSymbol" name="EntityFuncSymbol">
-<area shape="rect" id="node1" title="Symbol for a function member of an agent." alt="" coords="246,228,384,255"/>
+<area shape="rect" id="node1" title="Symbol for a function member of an entity." alt="" coords="246,228,384,255"/>
 <area shape="rect" id="node7" href="$class_entity_symbol.html" title="EntitySymbol." alt="" coords="311,611,420,637"/>
 <area shape="rect" id="node9" href="$class_attribute_symbol.html" title=" " alt="" coords="412,1044,540,1071"/>
 <area shape="rect" id="node13" href="$class_entity_event_symbol.html" title="Event time member symbol for an event." alt="" coords="191,940,338,967"/>

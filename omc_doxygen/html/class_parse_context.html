@@ -94,7 +94,7 @@ Collaboration diagram for ParseContext:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_parse_context__coll__graph.png" border="0" usemap="#a_parse_context_coll__map" alt="Collaboration graph"/></div>
 <map name="a_parse_context_coll__map" id="a_parse_context_coll__map">
-<area shape="rect" title=" " alt="" coords="7,199,115,225"/>
+<area shape="rect" title=" " alt="" coords="7,301,115,328"/>
 <area shape="rect" href="classomc_1_1location.html" title="Two points in a source file." alt="" coords="5,109,116,136"/>
 <area shape="rect" href="classomc_1_1position.html" title="A point in a source file." alt="" coords="5,5,116,32"/>
 </map>
@@ -109,12 +109,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa895ee1050909dd311208cd719eef748"><td class="memItemLeft" align="right" valign="top"><a id="aa895ee1050909dd311208cd719eef748" name="aa895ee1050909dd311208cd719eef748"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>reset_working_counters</b> ()</td></tr>
 <tr class="separator:aa895ee1050909dd311208cd719eef748"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee606a61dd539cd63285e4f745ce63f7"><td class="memItemLeft" align="right" valign="top"><a id="aee606a61dd539cd63285e4f745ce63f7" name="aee606a61dd539cd63285e4f745ce63f7"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>set_agent_context</b> (<a class="el" href="class_symbol.html">Symbol</a> *agent)</td></tr>
-<tr class="separator:aee606a61dd539cd63285e4f745ce63f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46c9b542728b212756657da65ab1dfbb"><td class="memItemLeft" align="right" valign="top"><a id="a46c9b542728b212756657da65ab1dfbb" name="a46c9b542728b212756657da65ab1dfbb"></a>
-<a class="el" href="class_symbol.html">Symbol</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>get_agent_context</b> ()</td></tr>
-<tr class="separator:a46c9b542728b212756657da65ab1dfbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af138b648d501defea7d9eabab3ed24c7"><td class="memItemLeft" align="right" valign="top"><a id="af138b648d501defea7d9eabab3ed24c7" name="af138b648d501defea7d9eabab3ed24c7"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>set_entity_context</b> (<a class="el" href="class_symbol.html">Symbol</a> *ent)</td></tr>
+<tr class="separator:af138b648d501defea7d9eabab3ed24c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6582d0084df8e8e8b45936163fa882da"><td class="memItemLeft" align="right" valign="top"><a id="a6582d0084df8e8e8b45936163fa882da" name="a6582d0084df8e8e8b45936163fa882da"></a>
+<a class="el" href="class_symbol.html">Symbol</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>get_entity_context</b> ()</td></tr>
+<tr class="separator:a6582d0084df8e8e8b45936163fa882da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab4bb49e41d2bc7ec6212131d86a39023"><td class="memItemLeft" align="right" valign="top"><a id="ab4bb49e41d2bc7ec6212131d86a39023" name="ab4bb49e41d2bc7ec6212131d86a39023"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>set_table_context</b> (<a class="el" href="class_entity_table_symbol.html">EntityTableSymbol</a> *table)</td></tr>
 <tr class="separator:ab4bb49e41d2bc7ec6212131d86a39023"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -160,14 +160,17 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>InitializeForModule</
 <tr class="memdesc:aa0416056fa52a09653c8ad377efd8b06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize parse contaxt for a new module. <br /></td></tr>
 <tr class="separator:aa0416056fa52a09653c8ad377efd8b06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3c88dd4f58df5bb054fccb2b33f2dd4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_parse_context.html#ae3c88dd4f58df5bb054fccb2b33f2dd4">error</a> (const string &amp;m)</td></tr>
-<tr class="memdesc:ae3c88dd4f58df5bb054fccb2b33f2dd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle parse error.  <a href="class_parse_context.html#ae3c88dd4f58df5bb054fccb2b33f2dd4">More...</a><br /></td></tr>
+<tr class="memdesc:ae3c88dd4f58df5bb054fccb2b33f2dd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle parse error with no code location.  <a href="class_parse_context.html#ae3c88dd4f58df5bb054fccb2b33f2dd4">More...</a><br /></td></tr>
 <tr class="separator:ae3c88dd4f58df5bb054fccb2b33f2dd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7dd5f787ac063999552dc920abd160ae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_parse_context.html#a7dd5f787ac063999552dc920abd160ae">error</a> (const <a class="el" href="classomc_1_1location.html">omc::location</a> &amp;l, const string &amp;m)</td></tr>
-<tr class="memdesc:a7dd5f787ac063999552dc920abd160ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle parse error at code location.  <a href="class_parse_context.html#a7dd5f787ac063999552dc920abd160ae">More...</a><br /></td></tr>
+<tr class="memdesc:a7dd5f787ac063999552dc920abd160ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle parse error with code location.  <a href="class_parse_context.html#a7dd5f787ac063999552dc920abd160ae">More...</a><br /></td></tr>
 <tr class="separator:a7dd5f787ac063999552dc920abd160ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb97704d9e3c99f1f9ae2d52bdf8d325"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_parse_context.html#acb97704d9e3c99f1f9ae2d52bdf8d325">warning</a> (const <a class="el" href="classomc_1_1location.html">omc::location</a> &amp;l, const string &amp;m)</td></tr>
-<tr class="memdesc:acb97704d9e3c99f1f9ae2d52bdf8d325"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle parse warning at code location.  <a href="class_parse_context.html#acb97704d9e3c99f1f9ae2d52bdf8d325">More...</a><br /></td></tr>
+<tr class="memdesc:acb97704d9e3c99f1f9ae2d52bdf8d325"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle parse warning with code location.  <a href="class_parse_context.html#acb97704d9e3c99f1f9ae2d52bdf8d325">More...</a><br /></td></tr>
 <tr class="separator:acb97704d9e3c99f1f9ae2d52bdf8d325"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a831e81c02e82b8b8e328b5ceda503dbe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_parse_context.html#a831e81c02e82b8b8e328b5ceda503dbe">note</a> (const <a class="el" href="classomc_1_1location.html">omc::location</a> &amp;l, const string &amp;m)</td></tr>
+<tr class="memdesc:a831e81c02e82b8b8e328b5ceda503dbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle parse note with code location.  <a href="class_parse_context.html#a831e81c02e82b8b8e328b5ceda503dbe">More...</a><br /></td></tr>
+<tr class="separator:a831e81c02e82b8b8e328b5ceda503dbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54ecf94850e3949b60911ec35bcf441a"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_parse_context.html#a54ecf94850e3949b60911ec35bcf441a">cxx_process_token</a> (<a class="el" href="_symbol_8h.html#a4cf0077b3db1fb6a9d460051e87f2f09">token_type</a> tok, const string yytext, <a class="el" href="classomc_1_1location.html">omc::location</a> *loc)</td></tr>
 <tr class="memdesc:a54ecf94850e3949b60911ec35bcf441a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Process a token in C++ code.  <a href="class_parse_context.html#a54ecf94850e3949b60911ec35bcf441a">More...</a><br /></td></tr>
 <tr class="separator:a54ecf94850e3949b60911ec35bcf441a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -184,6 +187,19 @@ Public Attributes</h2></td></tr>
 <a class="el" href="classomc_1_1location.html">omc::location</a>&#160;</td><td class="memItemRight" valign="bottom"><b>comment_location</b></td></tr>
 <tr class="memdesc:a9fe784a5a5a3dec4977d1d4c35ee77c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">comment location. <br /></td></tr>
 <tr class="separator:a9fe784a5a5a3dec4977d1d4c35ee77c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa362ede96dae232664e3c64a8d44bcd4"><td class="memItemLeft" align="right" valign="top"><a id="aa362ede96dae232664e3c64a8d44bcd4" name="aa362ede96dae232664e3c64a8d44bcd4"></a>
+<a class="el" href="classomc_1_1location.html">omc::location</a>&#160;</td><td class="memItemRight" valign="bottom"><b>syntactic_island_location</b></td></tr>
+<tr class="memdesc:aa362ede96dae232664e3c64a8d44bcd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">syntactic island start location. <br /></td></tr>
+<tr class="separator:aa362ede96dae232664e3c64a8d44bcd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfe5c556eaaab2ba0fc3392b8be47dd2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classomc_1_1location.html">omc::location</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_parse_context.html#abfe5c556eaaab2ba0fc3392b8be47dd2">innermost_opening_brace_location</a></td></tr>
+<tr class="memdesc:abfe5c556eaaab2ba0fc3392b8be47dd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">innermost opening brace location.  <a href="class_parse_context.html#abfe5c556eaaab2ba0fc3392b8be47dd2">More...</a><br /></td></tr>
+<tr class="separator:abfe5c556eaaab2ba0fc3392b8be47dd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf8c7cfc416922b8dd40852bbdc99256"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classomc_1_1location.html">omc::location</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_parse_context.html#aaf8c7cfc416922b8dd40852bbdc99256">innermost_opening_parenthesis_location</a></td></tr>
+<tr class="memdesc:aaf8c7cfc416922b8dd40852bbdc99256"><td class="mdescLeft">&#160;</td><td class="mdescRight">innermost opening parenthesis location.  <a href="class_parse_context.html#aaf8c7cfc416922b8dd40852bbdc99256">More...</a><br /></td></tr>
+<tr class="separator:aaf8c7cfc416922b8dd40852bbdc99256"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa37ccdd3f05394d38136263d86d23cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classomc_1_1location.html">omc::location</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_parse_context.html#aaa37ccdd3f05394d38136263d86d23cd">innermost_opening_bracket_location</a></td></tr>
+<tr class="memdesc:aaa37ccdd3f05394d38136263d86d23cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">innermost opening bracket location.  <a href="class_parse_context.html#aaa37ccdd3f05394d38136263d86d23cd">More...</a><br /></td></tr>
+<tr class="separator:aaa37ccdd3f05394d38136263d86d23cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2352fcd5e6aec597ed788bc09842c7c5"><td class="memItemLeft" align="right" valign="top"><a id="a2352fcd5e6aec597ed788bc09842c7c5" name="a2352fcd5e6aec597ed788bc09842c7c5"></a>
 string&#160;</td><td class="memItemRight" valign="bottom"><b>comment_body</b></td></tr>
 <tr class="memdesc:a2352fcd5e6aec597ed788bc09842c7c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">comment body. <br /></td></tr>
@@ -208,6 +224,14 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>parenthesis_level</b><
 int&#160;</td><td class="memItemRight" valign="bottom"><b>bracket_level</b></td></tr>
 <tr class="memdesc:ac3b500e15a8269e754b8953b9bfe35ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">bracket nesting level. <br /></td></tr>
 <tr class="separator:ac3b500e15a8269e754b8953b9bfe35ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5eba4b3a3bc6a5de1848575ec0b1bb42"><td class="memItemLeft" align="right" valign="top"><a id="a5eba4b3a3bc6a5de1848575ec0b1bb42" name="a5eba4b3a3bc6a5de1848575ec0b1bb42"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>all_line_count</b></td></tr>
+<tr class="memdesc:a5eba4b3a3bc6a5de1848575ec0b1bb42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Line count of all input. <br /></td></tr>
+<tr class="separator:a5eba4b3a3bc6a5de1848575ec0b1bb42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a967262168cebcc93c36913154f1b7cfd"><td class="memItemLeft" align="right" valign="top"><a id="a967262168cebcc93c36913154f1b7cfd" name="a967262168cebcc93c36913154f1b7cfd"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>island_line_count</b></td></tr>
+<tr class="memdesc:a967262168cebcc93c36913154f1b7cfd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Line count of syntactic islands. <br /></td></tr>
+<tr class="separator:a967262168cebcc93c36913154f1b7cfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a35a0367bc101fbc2ae4465232dc83d8c"><td class="memItemLeft" align="right" valign="top"><a id="a35a0367bc101fbc2ae4465232dc83d8c" name="a35a0367bc101fbc2ae4465232dc83d8c"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>counter1</b></td></tr>
 <tr class="memdesc:a35a0367bc101fbc2ae4465232dc83d8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">working counter #1 for parsing. <br /></td></tr>
@@ -326,7 +350,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>is_scenario_parameter
 </table>
 </div><div class="memdoc">
 
-<p>Handle parse error at code location. </p>
+<p>Handle parse error with code location. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">l</td><td>The location </td></tr>
@@ -361,10 +385,55 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>is_scenario_parameter
 </table>
 </div><div class="memdoc">
 
-<p>Handle parse error. </p>
+<p>Handle parse error with no code location. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">m</td><td>The error message </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a831e81c02e82b8b8e328b5ceda503dbe" name="a831e81c02e82b8b8e328b5ceda503dbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a831e81c02e82b8b8e328b5ceda503dbe">&#9670;&nbsp;</a></span>note()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ParseContext::note </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classomc_1_1location.html">omc::location</a> &amp;&#160;</td>
+          <td class="paramname"><em>l</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const string &amp;&#160;</td>
+          <td class="paramname"><em>m</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Handle parse note with code location. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">l</td><td>The location </td></tr>
+    <tr><td class="paramname">m</td><td>The note message </td></tr>
   </table>
   </dd>
 </dl>
@@ -479,11 +548,11 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>is_scenario_parameter
 </table>
 </div><div class="memdoc">
 
-<p>Handle parse warning at code location. </p>
+<p>Handle parse warning with code location. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">l</td><td>The location </td></tr>
-    <tr><td class="paramname">m</td><td>The error message </td></tr>
+    <tr><td class="paramname">m</td><td>The warning message </td></tr>
   </table>
   </dd>
 </dl>
@@ -505,6 +574,57 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>is_scenario_parameter
 
 <p>Qualified name of the C++ member function. </p>
 <p >Example: "Person::MortalityEvent". </p>
+
+</div>
+</div>
+<a id="abfe5c556eaaab2ba0fc3392b8be47dd2" name="abfe5c556eaaab2ba0fc3392b8be47dd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfe5c556eaaab2ba0fc3392b8be47dd2">&#9670;&nbsp;</a></span>innermost_opening_brace_location</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classomc_1_1location.html">omc::location</a> ParseContext::innermost_opening_brace_location</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>innermost opening brace location. </p>
+<p >For error reporting. </p>
+
+</div>
+</div>
+<a id="aaa37ccdd3f05394d38136263d86d23cd" name="aaa37ccdd3f05394d38136263d86d23cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa37ccdd3f05394d38136263d86d23cd">&#9670;&nbsp;</a></span>innermost_opening_bracket_location</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classomc_1_1location.html">omc::location</a> ParseContext::innermost_opening_bracket_location</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>innermost opening bracket location. </p>
+<p >For error reporting. </p>
+
+</div>
+</div>
+<a id="aaf8c7cfc416922b8dd40852bbdc99256" name="aaf8c7cfc416922b8dd40852bbdc99256"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf8c7cfc416922b8dd40852bbdc99256">&#9670;&nbsp;</a></span>innermost_opening_parenthesis_location</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classomc_1_1location.html">omc::location</a> ParseContext::innermost_opening_parenthesis_location</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>innermost opening parenthesis location. </p>
+<p >For error reporting. </p>
 
 </div>
 </div>
@@ -538,7 +658,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>is_scenario_parameter
 </div><div class="memdoc">
 
 <p>Indicates if context is a redeclaration of an enclosing symbol. </p>
-<p >The om langauge permits redeclaration isncertain contexts, in particular agents can be freely redeclared, and the attribute specifications are gathered together. Parameters can be redeclared, once to give their properties and (optionally) a second time to provide values. </p>
+<p >The ompp language permits redeclaration isncertain contexts, in particular entities can be freely redeclared, and the attribute specifications are gathered together. Parameters can be redeclared, once to give their properties and (optionally) a second time to provide values. </p>
 
 </div>
 </div>
@@ -552,7 +672,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>is_scenario_parameter
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_parse_context.html">ParseContext</a></li>
-    <li class="footer">Generated on Thu Oct 5 2023 17:10:23 for OpenM++ compiler (omc) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Tue Nov 14 2023 13:22:25 for OpenM++ compiler (omc) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>

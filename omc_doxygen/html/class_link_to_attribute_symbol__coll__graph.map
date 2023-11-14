@@ -6,7 +6,7 @@
 <area shape="rect" id="node10" href="$class_entity_member_symbol.html" title=" " alt="" coords="848,287,1011,313"/>
 <area shape="rect" id="node11" href="$class_type_symbol.html" title="TypeSymbol." alt="" coords="723,221,824,248"/>
 <area shape="rect" id="node3" href="$classomc_1_1location.html" title="Two points in a source file." alt="" coords="205,540,316,567"/>
-<area shape="rect" id="node13" href="$class_entity_func_symbol.html" title="Symbol for a function member of an agent." alt="" coords="1156,552,1295,579"/>
+<area shape="rect" id="node13" href="$class_entity_func_symbol.html" title="Symbol for a function member of an entity." alt="" coords="1156,552,1295,579"/>
 <area shape="rect" id="node4" href="$classomc_1_1position.html" title="A point in a source file." alt="" coords="5,540,116,567"/>
 <area shape="rect" id="node5" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="205,248,316,275"/>
 <area shape="rect" id="node7" href="$class_builtin_attribute_symbol.html" title="BuiltinAttributeSymbol." alt="" coords="2063,353,2233,380"/>
@@ -14,7 +14,7 @@
 <area shape="rect" id="node17" href="$class_link_attribute_symbol.html" title="Symbol for a link member of an entity." alt="" coords="2071,295,2225,321"/>
 <area shape="rect" id="node12" href="$class_entity_internal_symbol.html" title="Internal data symbol." alt="" coords="1533,255,1692,281"/>
 <area shape="rect" id="node16" href="$class_entity_event_symbol.html" title="Event time member symbol for an event." alt="" coords="1539,356,1686,383"/>
-<area shape="rect" id="node18" href="$class_entity_multilink_symbol.html" title="Symbol for a multilink member of an agent." alt="" coords="2416,392,2583,419"/>
+<area shape="rect" id="node18" href="$class_entity_multilink_symbol.html" title="Symbol for a multilink member of an entity." alt="" coords="2416,392,2583,419"/>
 <area shape="rect" id="node14" href="$class_code_block.html" title=" " alt="" coords="884,795,975,821"/>
 <area shape="rect" id="node15" title=" " alt="" coords="589,805,699,832"/>
 </map>

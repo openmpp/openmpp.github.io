@@ -17,5 +17,7 @@ var searchData=
   ['minor_14',['minor',['../class_version_symbol.html#ad15577d74069523fae22233522b1d2a6',1,'VersionSymbol']]],
   ['modelname_15',['modelName',['../structopenm_1_1_omc_arg_key.html#a1b392ab3cebb00e6fea72c2eaf6b2419',1,'openm::OmcArgKey::modelName()'],['../structopenm_1_1_omc_short_key.html#ad7c077d886e4e0efde83dccb273db2be',1,'openm::OmcShortKey::modelName()']]],
   ['modgen_5fsort_5foption_16',['modgen_sort_option',['../class_symbol.html#a9c6d271b2a6c3fd3d609b9af3a72a432',1,'Symbol']]],
-  ['multilink_17',['multilink',['../class_multilink_attribute_symbol.html#aa40e700032ab35a2802cabd769a83bfa',1,'MultilinkAttributeSymbol']]]
+  ['modgen_5funique_5fname_17',['modgen_unique_name',['../class_symbol.html#a4d4b6dc1a81b9f09c5ed90e4eddb5ab8',1,'Symbol']]],
+  ['mpp_5fsource_5ffiles_18',['mpp_source_files',['../class_symbol.html#a4028fbb76d7daea31874fe2c95a1814f',1,'Symbol']]],
+  ['multilink_19',['multilink',['../class_multilink_attribute_symbol.html#aa40e700032ab35a2802cabd769a83bfa',1,'MultilinkAttributeSymbol']]]
 ];

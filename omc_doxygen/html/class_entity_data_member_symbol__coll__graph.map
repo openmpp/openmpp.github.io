@@ -4,7 +4,7 @@
 <area shape="rect" id="node10" href="$class_entity_internal_symbol.html" title="Internal data symbol." alt="" coords="1076,475,1235,501"/>
 <area shape="rect" id="node14" href="$class_entity_event_symbol.html" title="Event time member symbol for an event." alt="" coords="2733,175,2880,201"/>
 <area shape="rect" id="node2" href="$class_entity_member_symbol.html" title=" " alt="" coords="2104,632,2267,659"/>
-<area shape="rect" id="node11" href="$class_entity_func_symbol.html" title="Symbol for a function member of an agent." alt="" coords="2384,175,2523,201"/>
+<area shape="rect" id="node11" href="$class_entity_func_symbol.html" title="Symbol for a function member of an entity." alt="" coords="2384,175,2523,201"/>
 <area shape="rect" id="node3" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="469,556,540,583"/>
 <area shape="rect" id="node7" href="$class_entity_symbol.html" title="EntitySymbol." alt="" coords="1881,553,1991,580"/>
 <area shape="rect" id="node15" href="$class_type_symbol.html" title="TypeSymbol." alt="" coords="589,527,691,553"/>

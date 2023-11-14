@@ -11,5 +11,6 @@ var searchData=
   ['stringtypesymbol_2ecpp_8',['StringTypeSymbol.cpp',['../_string_type_symbol_8cpp.html',1,'']]],
   ['stringtypesymbol_2eh_9',['StringTypeSymbol.h',['../_string_type_symbol_8h.html',1,'']]],
   ['symbol_2ecpp_10',['Symbol.cpp',['../_symbol_8cpp.html',1,'']]],
-  ['symbol_2eh_11',['Symbol.h',['../_symbol_8h.html',1,'']]]
+  ['symbol_2eh_11',['Symbol.h',['../_symbol_8h.html',1,'']]],
+  ['symbol_5foptions_2ecpp_12',['Symbol_options.cpp',['../_symbol__options_8cpp.html',1,'']]]
 ];

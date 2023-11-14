@@ -1,13 +1,13 @@
 var class_derived_attribute_symbol =
 [
-    [ "DerivedAttributeSymbol", "class_derived_attribute_symbol.html#a9e223214796cb57f4f39904fb7ad3b4f", null ],
+    [ "DerivedAttributeSymbol", "class_derived_attribute_symbol.html#ae58dc34e3528ec88ec4599b9afc49a39", null ],
     [ "assign_data_type", "class_derived_attribute_symbol.html#a0a3d284761888d3cbfc27c1d2ab7b680", null ],
     [ "assign_pp_members", "class_derived_attribute_symbol.html#a2e81882de3a61bc3e3079e5e50b1fb24", null ],
     [ "assign_sorting_group", "class_derived_attribute_symbol.html#a29be08972de06e81515c6bdb9a27f902", null ],
     [ "check_ss_arguments", "class_derived_attribute_symbol.html#a0eac9f2a4d864989e77721121dc083b9", null ],
     [ "create_auxiliary_symbols", "class_derived_attribute_symbol.html#aaad46d33d120f1f4067fed3790126335", null ],
     [ "create_side_effects", "class_derived_attribute_symbol.html#a05831f1d020e06553303b16c3928ef45", null ],
-    [ "cxx_declaration_agent", "class_derived_attribute_symbol.html#a29addb475e83b5d37b43a0cbec359cf4", null ],
+    [ "cxx_declaration_entity", "class_derived_attribute_symbol.html#a55226dac022c8bbcaa68fd050816fb9a", null ],
     [ "flag_name", "class_derived_attribute_symbol.html#adbece07746d4825c370fb4783c34394d", null ],
     [ "is_base_symbol", "class_derived_attribute_symbol.html#a23b16b2d8559494d10650d87c3819d1d", null ],
     [ "is_self_scheduling", "class_derived_attribute_symbol.html#ae8f1247d3e41eaaeec36b9e9c63e72ae", null ],

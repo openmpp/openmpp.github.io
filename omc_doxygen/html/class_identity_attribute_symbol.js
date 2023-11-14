@@ -1,10 +1,10 @@
 var class_identity_attribute_symbol =
 [
-    [ "IdentityAttributeSymbol", "class_identity_attribute_symbol.html#a4015502fa5c46a6cbba1391ee36ac9a2", null ],
-    [ "IdentityAttributeSymbol", "class_identity_attribute_symbol.html#a59f867a8d859dc886d3646ba65f4d831", null ],
+    [ "IdentityAttributeSymbol", "class_identity_attribute_symbol.html#a094f8ba6bc50c986591d9042b03c6d21", null ],
+    [ "IdentityAttributeSymbol", "class_identity_attribute_symbol.html#a24e5f8dcecaefb6910590bd68397d239", null ],
     [ "build_body_expression", "class_identity_attribute_symbol.html#adcb278f7acf34f2b055874c9e29cd9db", null ],
     [ "create_auxiliary_symbols", "class_identity_attribute_symbol.html#a958f14f854f5d601a37d62652b3036dd", null ],
-    [ "cxx_declaration_agent", "class_identity_attribute_symbol.html#af2447d11a5e5363d11bdf6083d4967be", null ],
+    [ "cxx_declaration_entity", "class_identity_attribute_symbol.html#ab65319c31695f335957ad24dde23a3f9", null ],
     [ "is_base_symbol", "class_identity_attribute_symbol.html#a6feeff4be1950b5bc29147907674c601", null ],
     [ "post_parse", "class_identity_attribute_symbol.html#ae948871f321d05a7ce93585eea470765", null ],
     [ "expression_fn", "class_identity_attribute_symbol.html#a74cac5958ab04051d74fba6cdf0d9386", null ],

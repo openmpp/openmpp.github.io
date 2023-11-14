@@ -1,9 +1,9 @@
 var class_multilink_attribute_symbol =
 [
-    [ "MultilinkAttributeSymbol", "class_multilink_attribute_symbol.html#a5b2b6dbae041f3bb9f139a979ec3c701", null ],
+    [ "MultilinkAttributeSymbol", "class_multilink_attribute_symbol.html#a7cfed85e15043547038f87de14f59530", null ],
     [ "build_body_evaluate", "class_multilink_attribute_symbol.html#aa856df42472fcdaad60fa4306ad0f780", null ],
     [ "create_auxiliary_symbols", "class_multilink_attribute_symbol.html#ab1504b379c898b46699f3f64a7f0c719", null ],
-    [ "cxx_declaration_agent", "class_multilink_attribute_symbol.html#afe11b13e51db38327508aaa97a78c901", null ],
+    [ "cxx_declaration_entity", "class_multilink_attribute_symbol.html#a3d12b9d2986d839ec1a82453054076a7", null ],
     [ "is_base_symbol", "class_multilink_attribute_symbol.html#ac03cb10b66ea1bbc0658f070f53a020e", null ],
     [ "post_parse", "class_multilink_attribute_symbol.html#a06d2d08f031c4da8bc29e31c1265760c", null ],
     [ "attribute", "class_multilink_attribute_symbol.html#ad3107e4c25180b3df0db03034c86c24e", null ],

@@ -7,7 +7,7 @@
 <area shape="rect" id="node11" href="$class_type_symbol.html" title="TypeSymbol." alt="" coords="723,841,824,868"/>
 <area shape="rect" id="node20" href="$class_global_func_symbol.html" title="GlobalFuncSymbol." alt="" coords="1154,152,1297,179"/>
 <area shape="rect" id="node3" href="$classomc_1_1location.html" title="Two points in a source file." alt="" coords="205,135,316,161"/>
-<area shape="rect" id="node13" href="$class_entity_func_symbol.html" title="Symbol for a function member of an agent." alt="" coords="1156,516,1295,543"/>
+<area shape="rect" id="node13" href="$class_entity_func_symbol.html" title="Symbol for a function member of an entity." alt="" coords="1156,516,1295,543"/>
 <area shape="rect" id="node4" href="$classomc_1_1position.html" title="A point in a source file." alt="" coords="5,135,116,161"/>
 <area shape="rect" id="node5" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="205,655,316,681"/>
 <area shape="rect" id="node7" href="$class_builtin_attribute_symbol.html" title="BuiltinAttributeSymbol." alt="" coords="2231,544,2402,571"/>

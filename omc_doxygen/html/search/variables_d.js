@@ -10,9 +10,11 @@ var searchData=
   ['next_5ftype_5fid_7',['next_type_id',['../class_type_symbol.html#a054d39837497b5398671c51a566a6cc9',1,'TypeSymbol']]],
   ['next_5fword_5fis_5fstring_8',['next_word_is_string',['../class_parse_context.html#a6d7f29c32930ac404fed4f8569f1743b',1,'ParseContext']]],
   ['no_5fline_5fdirectives_9',['no_line_directives',['../class_code_gen.html#afbdc0adf38ac0993c0f11992411f796d',1,'CodeGen::no_line_directives()'],['../class_symbol.html#abb2da4a7c765b2a0cc636b9b24f474fa',1,'Symbol::no_line_directives()']]],
-  ['nolinedirectives_10',['noLineDirectives',['../structopenm_1_1_omc_arg_key.html#ac18c0cd1bad00a02d32b1969535eb18a',1,'openm::OmcArgKey']]],
-  ['notes_5finput_11',['notes_input',['../class_symbol.html#a590d0ea74f0c39ec0b11e488954eb454',1,'Symbol']]],
-  ['notes_5fsource_12',['notes_source',['../class_symbol.html#ac1c966d7a02dc2d665cd32ad21518a72',1,'Symbol']]],
-  ['notify_5ffn_13',['notify_fn',['../class_attribute_symbol.html#a8dee103ef76563bfb305d879d0aad87a',1,'AttributeSymbol']]],
-  ['numeric_5fid_14',['numeric_id',['../class_derived_attribute_symbol.html#a9d3666f3d0963652bd8fa87146e660bf',1,'DerivedAttributeSymbol']]]
+  ['no_5fmetadata_10',['no_metadata',['../class_symbol.html#a1ae85b8da55a2d5aff10fa1756b94b1c',1,'Symbol']]],
+  ['nolinedirectives_11',['noLineDirectives',['../structopenm_1_1_omc_arg_key.html#ac18c0cd1bad00a02d32b1969535eb18a',1,'openm::OmcArgKey']]],
+  ['nometadata_12',['noMetadata',['../structopenm_1_1_omc_arg_key.html#a3db9dfe254be8d04eb3632b09a761cbf',1,'openm::OmcArgKey']]],
+  ['notes_5finput_13',['notes_input',['../class_symbol.html#a772675c9f910be14e5b467d3fe12bb97',1,'Symbol']]],
+  ['notes_5fsource_14',['notes_source',['../class_symbol.html#a0a8490a28c86256094f6cc8d85d48c79',1,'Symbol']]],
+  ['notify_5ffn_15',['notify_fn',['../class_attribute_symbol.html#a8dee103ef76563bfb305d879d0aad87a',1,'AttributeSymbol']]],
+  ['numeric_5fid_16',['numeric_id',['../class_derived_attribute_symbol.html#a9d3666f3d0963652bd8fa87146e660bf',1,'DerivedAttributeSymbol']]]
 ];

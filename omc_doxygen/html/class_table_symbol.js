@@ -10,6 +10,8 @@ var class_table_symbol =
     [ "cxx_shape_initializer_list", "class_table_symbol.html#a798b266b76fcae0e4fe80b286e3b9c37", null ],
     [ "dimension_count", "class_table_symbol.html#abe06adbe48e32b786dba3a126fd530a9", null ],
     [ "is_base_symbol", "class_table_symbol.html#a4fa066c3f3dcef4570e3f917b9d3abf5", null ],
+    [ "is_entity_table", "class_table_symbol.html#a4f8227167fed533de88b1a6ba207318a", null ],
+    [ "is_published", "class_table_symbol.html#a10403569115430d580e42b7bd1b8da7b", null ],
     [ "margin_count", "class_table_symbol.html#a6e9970b71173b77d604a26719068bf87", null ],
     [ "measure_count", "class_table_symbol.html#a446bb381249c5c2a58abc8fea807e128", null ],
     [ "populate_metadata", "class_table_symbol.html#a461c5d69e269ee84ec5a62580f4aef58", null ],

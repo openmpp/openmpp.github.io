@@ -1,7 +1,7 @@
 <map id="EntityMemberSymbol" name="EntityMemberSymbol">
 <area shape="rect" id="node1" title=" " alt="" coords="687,221,849,248"/>
 <area shape="rect" id="node9" href="$class_entity_data_member_symbol.html" title=" " alt="" coords="991,99,1185,125"/>
-<area shape="rect" id="node12" href="$class_entity_func_symbol.html" title="Symbol for a function member of an agent." alt="" coords="1019,303,1157,329"/>
+<area shape="rect" id="node12" href="$class_entity_func_symbol.html" title="Symbol for a function member of an entity." alt="" coords="1019,303,1157,329"/>
 <area shape="rect" id="node2" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="489,164,559,191"/>
 <area shape="rect" id="node6" href="$class_entity_symbol.html" title="EntitySymbol." alt="" coords="2295,221,2404,248"/>
 <area shape="rect" id="node10" href="$class_type_symbol.html" title="TypeSymbol." alt="" coords="717,80,819,107"/>

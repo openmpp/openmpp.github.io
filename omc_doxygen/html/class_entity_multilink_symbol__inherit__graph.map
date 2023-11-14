@@ -1,5 +1,5 @@
 <map id="EntityMultilinkSymbol" name="EntityMultilinkSymbol">
-<area shape="rect" id="node1" title="Symbol for a multilink member of an agent." alt="" coords="19,229,186,256"/>
+<area shape="rect" id="node1" title="Symbol for a multilink member of an entity." alt="" coords="19,229,186,256"/>
 <area shape="rect" id="node2" href="$class_entity_data_member_symbol.html" title=" " alt="" coords="5,155,200,181"/>
 <area shape="rect" id="node3" href="$class_entity_member_symbol.html" title=" " alt="" coords="21,80,184,107"/>
 <area shape="rect" id="node4" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="67,5,138,32"/>

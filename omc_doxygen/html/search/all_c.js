@@ -1,7 +1,7 @@
 var searchData=
 [
   ['m_0',['m',['../class_code_gen.html#adcd570968f15a10d0346fe4129f173cc',1,'CodeGen']]],
-  ['maintainedattributesymbol_1',['MaintainedAttributeSymbol',['../class_maintained_attribute_symbol.html',1,'MaintainedAttributeSymbol'],['../class_maintained_attribute_symbol.html#a97bd009f7061be46c46c227f67a91313',1,'MaintainedAttributeSymbol::MaintainedAttributeSymbol(const string member_name, const Symbol *agent, const Symbol *type, omc::location decl_loc=omc::location())'],['../class_maintained_attribute_symbol.html#ae2dce9fe120935751929fb22079b7877',1,'MaintainedAttributeSymbol::MaintainedAttributeSymbol(Symbol *sym, const Symbol *agent, const Symbol *type, omc::location decl_loc=omc::location())']]],
+  ['maintainedattributesymbol_1',['MaintainedAttributeSymbol',['../class_maintained_attribute_symbol.html',1,'MaintainedAttributeSymbol'],['../class_maintained_attribute_symbol.html#ab2e8eb68f874875a88b2c98353e37f22',1,'MaintainedAttributeSymbol::MaintainedAttributeSymbol(const string member_name, const Symbol *ent, const Symbol *type, omc::location decl_loc=omc::location())'],['../class_maintained_attribute_symbol.html#af9733150233bbbb99b604c2e24242607',1,'MaintainedAttributeSymbol::MaintainedAttributeSymbol(Symbol *sym, const Symbol *ent, const Symbol *type, omc::location decl_loc=omc::location())']]],
   ['maintainedattributesymbol_2ecpp_2',['MaintainedAttributeSymbol.cpp',['../_maintained_attribute_symbol_8cpp.html',1,'']]],
   ['maintainedattributesymbol_2eh_3',['MaintainedAttributeSymbol.h',['../_maintained_attribute_symbol_8h.html',1,'']]],
   ['major_4',['major',['../class_version_symbol.html#a4123b0b8a69d70dc63470eb42a4b2459',1,'VersionSymbol']]],
@@ -29,7 +29,7 @@ var searchData=
   ['modelsymbol_26',['ModelSymbol',['../class_model_symbol.html',1,'']]],
   ['modelsymbol_2ecpp_27',['ModelSymbol.cpp',['../_model_symbol_8cpp.html',1,'']]],
   ['modelsymbol_2eh_28',['ModelSymbol.h',['../_model_symbol_8h.html',1,'']]],
-  ['modeltypesymbol_29',['ModelTypeSymbol',['../class_model_type_symbol.html#aa775be7406cadba47a07161f05f8e264',1,'ModelTypeSymbol::ModelTypeSymbol()'],['../class_model_type_symbol.html',1,'ModelTypeSymbol']]],
+  ['modeltypesymbol_29',['ModelTypeSymbol',['../class_model_type_symbol.html',1,'ModelTypeSymbol'],['../class_model_type_symbol.html#aa775be7406cadba47a07161f05f8e264',1,'ModelTypeSymbol::ModelTypeSymbol()']]],
   ['modeltypesymbol_2ecpp_30',['ModelTypeSymbol.cpp',['../_model_type_symbol_8cpp.html',1,'']]],
   ['modeltypesymbol_2eh_31',['ModelTypeSymbol.h',['../_model_type_symbol_8h.html',1,'']]],
   ['modgen_5fcumulation_5foperator_5fto_5facc_32',['modgen_cumulation_operator_to_acc',['../class_symbol.html#a33d3639fe32d4032ed487df32b2b020c',1,'Symbol']]],
@@ -37,10 +37,13 @@ var searchData=
   ['modgen_5fsort_5foption_34',['modgen_sort_option',['../class_symbol.html#a9c6d271b2a6c3fd3d609b9af3a72a432',1,'Symbol']]],
   ['modgen_5fsort_5fpp_5fsymbols1_35',['modgen_sort_pp_symbols1',['../class_symbol.html#a3c99303a52a39a363913bdc9689206a1',1,'Symbol']]],
   ['modgen_5fsort_5fpp_5fsymbols2_36',['modgen_sort_pp_symbols2',['../class_symbol.html#a54597062d5b6419ea2eafc11441d112b',1,'Symbol']]],
-  ['modulesymbol_37',['ModuleSymbol',['../class_module_symbol.html',1,'ModuleSymbol'],['../class_module_symbol.html#acae3b8602e28b468975da880d25d342d',1,'ModuleSymbol::ModuleSymbol()']]],
-  ['modulesymbol_2eh_38',['ModuleSymbol.h',['../_module_symbol_8h.html',1,'']]],
-  ['multilink_39',['multilink',['../class_multilink_attribute_symbol.html#aa40e700032ab35a2802cabd769a83bfa',1,'MultilinkAttributeSymbol']]],
-  ['multilinkattributesymbol_40',['MultilinkAttributeSymbol',['../class_multilink_attribute_symbol.html#a5b2b6dbae041f3bb9f139a979ec3c701',1,'MultilinkAttributeSymbol::MultilinkAttributeSymbol()'],['../class_multilink_attribute_symbol.html',1,'MultilinkAttributeSymbol']]],
-  ['multilinkattributesymbol_2ecpp_41',['MultilinkAttributeSymbol.cpp',['../_multilink_attribute_symbol_8cpp.html',1,'']]],
-  ['multilinkattributesymbol_2eh_42',['MultilinkAttributeSymbol.h',['../_multilink_attribute_symbol_8h.html',1,'']]]
+  ['modgen_5fsymbol_5fname_37',['modgen_symbol_name',['../class_dimension_symbol.html#a23e9b3098622d48123b492d3dd412fda',1,'DimensionSymbol']]],
+  ['modgen_5funique_5fname_38',['modgen_unique_name',['../class_symbol.html#a4d4b6dc1a81b9f09c5ed90e4eddb5ab8',1,'Symbol']]],
+  ['modulesymbol_39',['ModuleSymbol',['../class_module_symbol.html#acae3b8602e28b468975da880d25d342d',1,'ModuleSymbol::ModuleSymbol()'],['../class_module_symbol.html',1,'ModuleSymbol']]],
+  ['modulesymbol_2eh_40',['ModuleSymbol.h',['../_module_symbol_8h.html',1,'']]],
+  ['mpp_5fsource_5ffiles_41',['mpp_source_files',['../class_symbol.html#a4028fbb76d7daea31874fe2c95a1814f',1,'Symbol']]],
+  ['multilink_42',['multilink',['../class_multilink_attribute_symbol.html#aa40e700032ab35a2802cabd769a83bfa',1,'MultilinkAttributeSymbol']]],
+  ['multilinkattributesymbol_43',['MultilinkAttributeSymbol',['../class_multilink_attribute_symbol.html#a7cfed85e15043547038f87de14f59530',1,'MultilinkAttributeSymbol::MultilinkAttributeSymbol()'],['../class_multilink_attribute_symbol.html',1,'MultilinkAttributeSymbol']]],
+  ['multilinkattributesymbol_2ecpp_44',['MultilinkAttributeSymbol.cpp',['../_multilink_attribute_symbol_8cpp.html',1,'']]],
+  ['multilinkattributesymbol_2eh_45',['MultilinkAttributeSymbol.h',['../_multilink_attribute_symbol_8h.html',1,'']]]
 ];

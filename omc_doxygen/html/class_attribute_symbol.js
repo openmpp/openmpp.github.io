@@ -1,12 +1,12 @@
 var class_attribute_symbol =
 [
-    [ "AttributeSymbol", "class_attribute_symbol.html#a75ea8181f41195c39f68696e2aad18ee", null ],
-    [ "AttributeSymbol", "class_attribute_symbol.html#ab4e0c20726966c7464a59a71ad149816", null ],
+    [ "AttributeSymbol", "class_attribute_symbol.html#af27ba3113d9ea5de7aa595ade381e9c7", null ],
+    [ "AttributeSymbol", "class_attribute_symbol.html#ad6055a297364bcbe89d5ee3eaafc8ad9", null ],
     [ "change_data_type", "class_attribute_symbol.html#aef1267a5721f46e28aa6f4d307690dc1", null ],
     [ "create_auxiliary_symbols", "class_attribute_symbol.html#ab7e87b8c051a8455440f6a035d34fe35", null ],
     [ "create_lagged", "class_attribute_symbol.html#ae7de567d7cbaac8fcb027c4db549fc12", null ],
-    [ "cxx_declaration_agent", "class_attribute_symbol.html#a0a9f50ece2f7b32ef611079b620aa6b7", null ],
-    [ "cxx_definition_agent", "class_attribute_symbol.html#abe8f3c6d67f922bf2ba2a2c9a2a75ef8", null ],
+    [ "cxx_declaration_entity", "class_attribute_symbol.html#a47ea4fefce2dbf142d61abe04835d81c", null ],
+    [ "cxx_definition_entity", "class_attribute_symbol.html#a8647966eaf354961dc542548bad95870", null ],
     [ "get_lagged_event_counter_name", "class_attribute_symbol.html#a1a3fe8ddb90048bccfdf68916bcde435", null ],
     [ "get_lagged_name", "class_attribute_symbol.html#a34ef388d7744b738628caedc0b7c306c", null ],
     [ "is_base_symbol", "class_attribute_symbol.html#a87f08e89cc2e92bf794eca8e97e35689", null ],

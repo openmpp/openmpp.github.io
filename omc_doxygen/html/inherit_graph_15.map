@@ -28,14 +28,14 @@
 <area shape="rect" id="node54" href="$class_type_symbol.html" title="TypeSymbol." alt="" coords="186,1389,287,1416"/>
 <area shape="rect" id="node67" href="$class_version_symbol.html" title="Symbol for the model version information." alt="" coords="177,1440,296,1467"/>
 <area shape="rect" id="node7" href="$class_entity_data_member_symbol.html" title=" " alt="" coords="401,233,595,260"/>
-<area shape="rect" id="node23" href="$class_entity_func_symbol.html" title="Symbol for a function member of an agent." alt="" coords="429,284,567,311"/>
+<area shape="rect" id="node23" href="$class_entity_func_symbol.html" title="Symbol for a function member of an entity." alt="" coords="429,284,567,311"/>
 <area shape="rect" id="node8" href="$class_attribute_symbol.html" title=" " alt="" coords="692,81,820,108"/>
 <area shape="rect" id="node17" href="$class_entity_array_member_symbol.html" title="Internal data symbol." alt="" coords="657,132,855,159"/>
 <area shape="rect" id="node18" href="$class_entity_event_symbol.html" title="Event time member symbol for an event." alt="" coords="683,183,829,209"/>
 <area shape="rect" id="node19" href="$class_entity_foreign_member_symbol.html" title="Foreign data symbol." alt="" coords="651,233,861,260"/>
 <area shape="rect" id="node20" href="$class_entity_increment_symbol.html" title="Functionality associated with the entity member Increment&lt;&gt; associated with a table." alt="" coords="669,284,843,311"/>
 <area shape="rect" id="node21" href="$class_entity_internal_symbol.html" title="Internal data symbol." alt="" coords="677,335,835,361"/>
-<area shape="rect" id="node22" href="$class_entity_multilink_symbol.html" title="Symbol for a multilink member of an agent." alt="" coords="673,385,839,412"/>
+<area shape="rect" id="node22" href="$class_entity_multilink_symbol.html" title="Symbol for a multilink member of an entity." alt="" coords="673,385,839,412"/>
 <area shape="rect" id="node9" href="$class_builtin_attribute_symbol.html" title="BuiltinAttributeSymbol." alt="" coords="929,5,1099,32"/>
 <area shape="rect" id="node10" href="$class_link_attribute_symbol.html" title="Symbol for a link member of an entity." alt="" coords="937,56,1091,83"/>
 <area shape="rect" id="node11" href="$class_maintained_attribute_symbol.html" title="MaintainedAttributeSymbol." alt="" coords="913,107,1115,133"/>
