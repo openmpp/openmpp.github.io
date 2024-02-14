@@ -1,8 +1,9 @@
 <map id="TypeOfLinkSymbol" name="TypeOfLinkSymbol">
-<area shape="rect" id="node1" title="TypeOfLinkSymbol." alt="" coords="75,380,217,407"/>
-<area shape="rect" id="node2" href="$class_type_symbol.html" title="TypeSymbol." alt="" coords="95,304,197,331"/>
-<area shape="rect" id="node3" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="111,228,181,255"/>
-<area shape="rect" id="node4" href="$classomc_1_1location.html" title="Two points in a source file." alt="" coords="5,109,116,136"/>
-<area shape="rect" id="node5" href="$classomc_1_1position.html" title="A point in a source file." alt="" coords="5,5,116,32"/>
-<area shape="rect" id="node6" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="140,109,251,136"/>
+<area shape="rect" id="node1" title="TypeOfLinkSymbol." alt="" coords="5,393,148,420"/>
+<area shape="rect" id="node2" href="$class_type_symbol.html" title="TypeSymbol." alt="" coords="26,317,127,344"/>
+<area shape="rect" id="node3" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="132,228,203,255"/>
+<area shape="rect" id="node6" href="$class_module_symbol.html" title="Symbol for a source code module." alt="" coords="152,317,271,344"/>
+<area shape="rect" id="node4" href="$classomc_1_1location.html" title="Two points in a source file." alt="" coords="45,109,156,136"/>
+<area shape="rect" id="node5" href="$classomc_1_1position.html" title="A point in a source file." alt="" coords="45,5,156,32"/>
+<area shape="rect" id="node7" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="180,109,291,136"/>
 </map>

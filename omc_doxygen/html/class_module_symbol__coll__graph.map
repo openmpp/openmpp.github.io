@@ -1,7 +1,7 @@
 <map id="ModuleSymbol" name="ModuleSymbol">
-<area shape="rect" id="node1" title="Symbol for a source code module." alt="" coords="87,304,205,331"/>
-<area shape="rect" id="node2" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="111,228,181,255"/>
-<area shape="rect" id="node3" href="$classomc_1_1location.html" title="Two points in a source file." alt="" coords="5,109,116,136"/>
-<area shape="rect" id="node4" href="$classomc_1_1position.html" title="A point in a source file." alt="" coords="5,5,116,32"/>
-<area shape="rect" id="node5" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="140,109,251,136"/>
+<area shape="rect" id="node1" title="Symbol for a source code module." alt="" coords="5,109,124,136"/>
+<area shape="rect" id="node2" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="147,228,217,255"/>
+<area shape="rect" id="node3" href="$classomc_1_1location.html" title="Two points in a source file." alt="" coords="148,109,259,136"/>
+<area shape="rect" id="node4" href="$classomc_1_1position.html" title="A point in a source file." alt="" coords="148,5,259,32"/>
+<area shape="rect" id="node5" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="283,109,393,136"/>
 </map>

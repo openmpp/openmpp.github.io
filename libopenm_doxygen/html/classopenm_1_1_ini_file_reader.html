@@ -104,21 +104,18 @@ Public Member Functions</h2></td></tr>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>isLoaded</b> (void) const noexcept</td></tr>
 <tr class="memdesc:a18823fc745ce0be9a7623d351aceba5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if ini-file loaded correctly or false on error <br /></td></tr>
 <tr class="separator:a18823fc745ce0be9a7623d351aceba5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc5847745bafdad69a1a27e47808d085"><td class="memItemLeft" align="right" valign="top"><a id="acc5847745bafdad69a1a27e47808d085" name="acc5847745bafdad69a1a27e47808d085"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>isExist</b> (const char *i_section, const char *i_key) const noexcept</td></tr>
-<tr class="memdesc:acc5847745bafdad69a1a27e47808d085"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if section and key exist in ini-file. <br /></td></tr>
+<tr class="memitem:acc5847745bafdad69a1a27e47808d085"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_ini_file_reader.html#acc5847745bafdad69a1a27e47808d085">isExist</a> (const char *i_section, const char *i_key) const noexcept</td></tr>
+<tr class="memdesc:acc5847745bafdad69a1a27e47808d085"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if section and key found in ini-file using case-neutral search.  <a href="classopenm_1_1_ini_file_reader.html#acc5847745bafdad69a1a27e47808d085">More...</a><br /></td></tr>
 <tr class="separator:acc5847745bafdad69a1a27e47808d085"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace1e3a2bad9aacb695257b14d05bc347"><td class="memItemLeft" align="right" valign="top"><a id="ace1e3a2bad9aacb695257b14d05bc347" name="ace1e3a2bad9aacb695257b14d05bc347"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>isExist</b> (const char *i_sectionKey) const noexcept</td></tr>
-<tr class="memdesc:ace1e3a2bad9aacb695257b14d05bc347"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if section.key exist in ini-file. <br /></td></tr>
+<tr class="memitem:ace1e3a2bad9aacb695257b14d05bc347"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_ini_file_reader.html#ace1e3a2bad9aacb695257b14d05bc347">isExist</a> (const char *i_sectionKey) const noexcept</td></tr>
+<tr class="memdesc:ace1e3a2bad9aacb695257b14d05bc347"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if section.key found in ini-file using case-neutral search.  <a href="classopenm_1_1_ini_file_reader.html#ace1e3a2bad9aacb695257b14d05bc347">More...</a><br /></td></tr>
 <tr class="separator:ace1e3a2bad9aacb695257b14d05bc347"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add1883726f959e027263566108f52fae"><td class="memItemLeft" align="right" valign="top"><a id="add1883726f959e027263566108f52fae" name="add1883726f959e027263566108f52fae"></a>
-const string&#160;</td><td class="memItemRight" valign="bottom"><b>strValue</b> (const char *i_section, const char *i_key, const string &amp;i_default=&quot;&quot;) const noexcept</td></tr>
-<tr class="memdesc:add1883726f959e027263566108f52fae"><td class="mdescLeft">&#160;</td><td class="mdescRight">return string value by section and key or deafult value if not found. <br /></td></tr>
+<tr class="memitem:add1883726f959e027263566108f52fae"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_ini_file_reader.html#add1883726f959e027263566108f52fae">strValue</a> (const char *i_section, const char *i_key, const string &amp;i_default=&quot;&quot;) const noexcept</td></tr>
+<tr class="memdesc:add1883726f959e027263566108f52fae"><td class="mdescLeft">&#160;</td><td class="mdescRight">return string value by section and key using case-neutral search, or default value if not found.  <a href="classopenm_1_1_ini_file_reader.html#add1883726f959e027263566108f52fae">More...</a><br /></td></tr>
 <tr class="separator:add1883726f959e027263566108f52fae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a577822b62c00f4d52ebff83ba3922bde"><td class="memItemLeft" align="right" valign="top"><a id="a577822b62c00f4d52ebff83ba3922bde" name="a577822b62c00f4d52ebff83ba3922bde"></a>
 const string&#160;</td><td class="memItemRight" valign="bottom"><b>strValue</b> (const char *i_sectionKey, const string &amp;i_default=&quot;&quot;) const noexcept</td></tr>
-<tr class="memdesc:a577822b62c00f4d52ebff83ba3922bde"><td class="mdescLeft">&#160;</td><td class="mdescRight">return string value by section.key or deafult value if not found. <br /></td></tr>
+<tr class="memdesc:a577822b62c00f4d52ebff83ba3922bde"><td class="mdescLeft">&#160;</td><td class="mdescRight">return string value by section.key using case-neutral search, or default value if not found. <br /></td></tr>
 <tr class="separator:a577822b62c00f4d52ebff83ba3922bde"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a048830b4ad275c30618ffa6a5ef03ab0"><td class="memItemLeft" align="right" valign="top"><a id="a048830b4ad275c30618ffa6a5ef03ab0" name="a048830b4ad275c30618ffa6a5ef03ab0"></a>
 const IniEntryVec &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>rowsCRef</b> (void) const</td></tr>
@@ -135,10 +132,13 @@ const <a class="el" href="namespaceopenm.html#ab9a196d865db1d64eb2832f924dcb892"
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:afb31fe2cc33514e610ebe0a8904ee69a"><td class="memItemLeft" align="right" valign="top"><a id="afb31fe2cc33514e610ebe0a8904ee69a" name="afb31fe2cc33514e610ebe0a8904ee69a"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>loadMessages</b> (const char *i_iniMsgPath, const string &amp;i_language=&quot;&quot;) noexcept</td></tr>
-<tr class="memdesc:afb31fe2cc33514e610ebe0a8904ee69a"><td class="mdescLeft">&#160;</td><td class="mdescRight">read language specific messages from path/to/theExe.message.ini and pass it to the log <br /></td></tr>
-<tr class="separator:afb31fe2cc33514e610ebe0a8904ee69a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcdaa7b5e3d9caec5c121db658101840"><td class="memItemLeft" align="right" valign="top"><a id="afcdaa7b5e3d9caec5c121db658101840" name="afcdaa7b5e3d9caec5c121db658101840"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>loadMessages</b> (const char *i_iniMsgPath, const string &amp;i_language=&quot;&quot;, const char *i_codePageName=nullptr) noexcept</td></tr>
+<tr class="memdesc:afcdaa7b5e3d9caec5c121db658101840"><td class="mdescLeft">&#160;</td><td class="mdescRight">read language specific messages from path/to/theExe.message.ini and pass it to the log <br /></td></tr>
+<tr class="separator:afcdaa7b5e3d9caec5c121db658101840"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac44c129d1db76e680870008f34f0609e"><td class="memItemLeft" align="right" valign="top">static list&lt; pair&lt; string, unordered_map&lt; string, string &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_ini_file_reader.html#ac44c129d1db76e680870008f34f0609e">loadAllMessages</a> (const char *i_iniMsgPath, const char *i_codePageName=nullptr) noexcept</td></tr>
+<tr class="memdesc:ac44c129d1db76e680870008f34f0609e"><td class="mdescLeft">&#160;</td><td class="mdescRight">read language specific messages from path/to/theExe.message.ini for all languages  <a href="classopenm_1_1_ini_file_reader.html#ac44c129d1db76e680870008f34f0609e">More...</a><br /></td></tr>
+<tr class="separator:ac44c129d1db76e680870008f34f0609e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >ini-file reader: load all entries in memory and provide search methods. </p>
@@ -199,6 +199,164 @@ keep = "Multi line \ text with spaces"
 
 </div>
 </div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="acc5847745bafdad69a1a27e47808d085" name="acc5847745bafdad69a1a27e47808d085"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc5847745bafdad69a1a27e47808d085">&#9670;&nbsp;</a></span>isExist() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IniFileReader::isExist </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>i_section</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>i_key</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>return true if section and key found in ini-file using case-neutral search. </p>
+<p >return true if section and key exist in ini-file. </p>
+
+</div>
+</div>
+<a id="ace1e3a2bad9aacb695257b14d05bc347" name="ace1e3a2bad9aacb695257b14d05bc347"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace1e3a2bad9aacb695257b14d05bc347">&#9670;&nbsp;</a></span>isExist() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IniFileReader::isExist </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>i_sectionKey</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>return true if section.key found in ini-file using case-neutral search. </p>
+<p >return true if section.key exist in ini-file. </p>
+
+</div>
+</div>
+<a id="ac44c129d1db76e680870008f34f0609e" name="ac44c129d1db76e680870008f34f0609e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac44c129d1db76e680870008f34f0609e">&#9670;&nbsp;</a></span>loadAllMessages()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">list&lt; pair&lt; string, unordered_map&lt; string, string &gt; &gt; &gt; IniFileReader::loadAllMessages </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>i_iniMsgPath</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>i_codePageName</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>read language specific messages from path/to/theExe.message.ini for all languages </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">i_iniMsgPath</td><td>path to message ini-file, usually: path/to/theExe.message.ini </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="add1883726f959e027263566108f52fae" name="add1883726f959e027263566108f52fae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add1883726f959e027263566108f52fae">&#9670;&nbsp;</a></span>strValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string IniFileReader::strValue </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>i_section</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>i_key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const string &amp;&#160;</td>
+          <td class="paramname"><em>i_default</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>return string value by section and key using case-neutral search, or default value if not found. </p>
+<p >return string value by section and .key using case-neutral search, or default value if not found. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>/home/build_doc/ompp-make-doc/ompp-main/include/libopenm/common/<a class="el" href="ini_reader_8h_source.html">iniReader.h</a></li>
 <li>common/<a class="el" href="ini_reader_8cpp.html">iniReader.cpp</a></li>
@@ -209,7 +367,7 @@ keep = "Multi line \ text with spaces"
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceopenm.html">openm</a></li><li class="navelem"><a class="el" href="classopenm_1_1_ini_file_reader.html">IniFileReader</a></li>
-    <li class="footer">Generated on Wed Nov 15 2023 19:16:27 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Tue Feb 13 2024 19:18:35 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>

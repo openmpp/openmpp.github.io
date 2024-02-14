@@ -1,8 +1,9 @@
 <map id="ModelSymbol.h" name="ModelSymbol.h">
-<area shape="rect" id="node1" title="Declarations for the ModelSymbol class." alt="" coords="231,5,353,32"/>
+<area shape="rect" id="node1" title="Declarations for the ModelSymbol class." alt="" coords="307,5,429,32"/>
 <area shape="rect" id="node2" href="$_model_symbol_8cpp.html" title="Definitions for the ModelSymbol class." alt="" coords="5,80,144,107"/>
 <area shape="rect" id="node3" href="$_symbol_8cpp.html" title="Definitions for the Symbol class." alt="" coords="168,80,267,107"/>
 <area shape="rect" id="node4" href="$_symbol__options_8cpp.html" title="Definition of the Symbol::do_options function." alt="" coords="291,80,445,107"/>
 <area shape="rect" id="node5" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="469,80,523,107"/>
+<area shape="rect" id="node7" href="$omc__model__doc_8cpp.html" title="Function to create Model doc." alt="" coords="548,80,703,107"/>
 <area shape="rect" id="node6" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="442,155,550,181"/>
 </map>

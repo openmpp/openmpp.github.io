@@ -7,7 +7,7 @@ var class_enumeration_symbol =
     [ "is_published", "class_enumeration_symbol.html#afcfe2d4d053b1ec344df3ff544fe4d0a", null ],
     [ "populate_metadata", "class_enumeration_symbol.html#a083fd365d741a2c76290a4ae18941483", null ],
     [ "post_parse", "class_enumeration_symbol.html#a233ceac0b6efafa1148645afba217a87", null ],
-    [ "pp_size", "class_enumeration_symbol.html#aae8022326cdc3d6ac6d68ed37ac83695", null ],
+    [ "pp_size", "class_enumeration_symbol.html#a0520ac9ae0030c1b7434ec9fb218aca8", null ],
     [ "dicId", "class_enumeration_symbol.html#a351aca76a50c9c1c7e2ce8556d7a5852", null ],
     [ "metadata_needed", "class_enumeration_symbol.html#a0d7b634c0e61c8f577b3bcf806c0ca5b", null ],
     [ "storage_type", "class_enumeration_symbol.html#a1f29b4ab24906986cf42fa13df36827b", null ]

@@ -92,6 +92,10 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 <li>implement_func&#160;:&#160;<a class="el" href="class_entity_event_symbol.html#ae902778f53c24c51ac4fce642c3db2b5">EntityEventSymbol</a></li>
 <li>implement_func_original&#160;:&#160;<a class="el" href="class_entity_event_symbol.html#ae3dfef0c7aed23de22edf4fdd45f3bcd">EntityEventSymbol</a></li>
 <li>ImportSymbol()&#160;:&#160;<a class="el" href="class_import_symbol.html#a442816bf76d091968c762fea4dbd1cf6">ImportSymbol</a></li>
+<li>in_doc_active&#160;:&#160;<a class="el" href="class_symbol.html#aa41092b2829b656eb48cec5dfccd2253">Symbol</a></li>
+<li>in_doc_dir&#160;:&#160;<a class="el" href="class_symbol.html#a3d7b9df0ff6db458d97af73c28ca5f48">Symbol</a></li>
+<li>in_doc_stems_md&#160;:&#160;<a class="el" href="class_symbol.html#a6cb455f8dbda7140a90d1a70911e8b78">Symbol</a></li>
+<li>in_doc_stems_txt&#160;:&#160;<a class="el" href="class_symbol.html#afb5388b86df1b06c96b46e4cfd9c6509">Symbol</a></li>
 <li>in_event_member_name()&#160;:&#160;<a class="el" href="class_entity_table_measure_attribute_symbol.html#aea7a3f59c624a3f921cf76d209ad984d">EntityTableMeasureAttributeSymbol</a></li>
 <li>in_member_name()&#160;:&#160;<a class="el" href="class_entity_table_measure_attribute_symbol.html#a89d20e342c444c2f1d1dd3e416165ee2">EntityTableMeasureAttributeSymbol</a></li>
 <li>increment&#160;:&#160;<a class="el" href="class_entity_table_accumulator_symbol.html#a9d92b3e24ab34b826d691514b3ee4ad2">EntityTableAccumulatorSymbol</a>, <a class="el" href="class_entity_table_symbol.html#a0697940ecc687dfe98db8836d217db6f">EntityTableSymbol</a></li>
@@ -99,6 +103,7 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 <li>index&#160;:&#160;<a class="el" href="class_dimension_symbol.html#a47e6d16073775f44c9571867ec9a521f">DimensionSymbol</a>, <a class="el" href="class_entity_table_accumulator_symbol.html#a671725dcd7421391838308d014f213f6">EntityTableAccumulatorSymbol</a>, <a class="el" href="class_entity_table_measure_attribute_symbol.html#a86f50405b662a1882014da52428c5967">EntityTableMeasureAttributeSymbol</a>, <a class="el" href="class_table_measure_symbol.html#a6423f6b9b501bd96141ca8bbd48bdb7e">TableMeasureSymbol</a></li>
 <li>index_parameter&#160;:&#160;<a class="el" href="class_extend_parameter_symbol.html#a4a78550cfababd51b188ca7d08107a8c">ExtendParameterSymbol</a></li>
 <li>index_series_offset&#160;:&#160;<a class="el" href="class_parameter_symbol.html#a3d119dc49eb323f02465878682418348">ParameterSymbol</a></li>
+<li>inDocDir&#160;:&#160;<a class="el" href="structopenm_1_1_omc_arg_key.html#ac18237a81f3cecaef16d1029f76df152">openm::OmcArgKey</a>, <a class="el" href="structopenm_1_1_omc_short_key.html#a5f51a16bc57dd9378342d61533f97a51">openm::OmcShortKey</a></li>
 <li>iniFile&#160;:&#160;<a class="el" href="structopenm_1_1_omc_short_key.html#a36d3d1b5586191792c8cdc12c97192c7">openm::OmcShortKey</a></li>
 <li>init_increment_fn&#160;:&#160;<a class="el" href="class_entity_table_symbol.html#a784168cb268742fc359ede71b96c1ba3">EntityTableSymbol</a></li>
 <li>initial_value&#160;:&#160;<a class="el" href="class_numeric_symbol.html#a073237b235e9555b82d4c6e260e95b75">NumericSymbol</a></li>
@@ -180,7 +185,7 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 <li>is_side_effects()&#160;:&#160;<a class="el" href="class_entity_func_symbol.html#ab3b6f89f004f50cb7faa236795930361">EntityFuncSymbol</a></li>
 <li>is_simple_attribute()&#160;:&#160;<a class="el" href="class_entity_data_member_symbol.html#aebc32280ad41421aaca1680c27c600b5">EntityDataMemberSymbol</a></li>
 <li>is_string()&#160;:&#160;<a class="el" href="class_type_symbol.html#a17a41f6da04c8b159eae6efbbf52b30f">TypeSymbol</a></li>
-<li>is_suppressed&#160;:&#160;<a class="el" href="class_parameter_symbol.html#a70999b3b2af624fe5dff5aa31968ef49">ParameterSymbol</a>, <a class="el" href="class_table_symbol.html#a0c0f1b6a6afebbd6a7bcd3420abeddea">TableSymbol</a></li>
+<li>is_suppressed_table&#160;:&#160;<a class="el" href="class_parameter_symbol.html#ae30e31bf5ec297f7f32f3db4117d144b">ParameterSymbol</a>, <a class="el" href="class_table_symbol.html#a84b75818b573857714b429674b0d7394">TableSymbol</a></li>
 <li>is_time()&#160;:&#160;<a class="el" href="class_type_symbol.html#a237d722bc3b29a333bd13dd8167e810f">TypeSymbol</a></li>
 <li>is_time_like&#160;:&#160;<a class="el" href="class_attribute_symbol.html#a717a9d5fcdd547eb68480844e31b459b">AttributeSymbol</a></li>
 <li>is_trigger()&#160;:&#160;<a class="el" href="class_derived_attribute_symbol.html#a48b751cc867cd62c95c1baf7f3171467">DerivedAttributeSymbol</a></li>
@@ -199,7 +204,7 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Nov 15 2023 19:16:34 for OpenM++ compiler (omc) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Tue Feb 13 2024 19:18:43 for OpenM++ compiler (omc) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>

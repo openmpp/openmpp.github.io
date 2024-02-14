@@ -1,7 +1,8 @@
 <map id="ClassificationEnumeratorSymbol.h" name="ClassificationEnumeratorSymbol.h">
-<area shape="rect" id="node1" title="Declarations for the ClassificationEnumeratorSymbol class." alt="" coords="63,5,249,47"/>
+<area shape="rect" id="node1" title="Declarations for the ClassificationEnumeratorSymbol class." alt="" coords="149,5,334,47"/>
 <area shape="rect" id="node2" href="$_symbol_8cpp.html" title="Definitions for the Symbol class." alt="" coords="5,95,104,121"/>
 <area shape="rect" id="node3" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="129,95,183,121"/>
 <area shape="rect" id="node5" href="$omc__missing__documentation_8cpp.html" title="Function which emits warnings for missing model documentation." alt="" coords="208,95,448,121"/>
+<area shape="rect" id="node6" href="$omc__model__doc_8cpp.html" title="Function to create Model doc." alt="" coords="472,95,627,121"/>
 <area shape="rect" id="node4" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="102,169,210,196"/>
 </map>

@@ -1,8 +1,9 @@
 <map id="ParameterGroupSymbol" name="ParameterGroupSymbol">
-<area shape="rect" id="node1" title="ParameterGroupSymbol." alt="" coords="57,380,235,407"/>
-<area shape="rect" id="node2" href="$class_group_symbol.html" title="GroupSymbol." alt="" coords="91,304,201,331"/>
-<area shape="rect" id="node3" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="111,228,181,255"/>
-<area shape="rect" id="node4" href="$classomc_1_1location.html" title="Two points in a source file." alt="" coords="5,109,116,136"/>
-<area shape="rect" id="node5" href="$classomc_1_1position.html" title="A point in a source file." alt="" coords="5,5,116,32"/>
-<area shape="rect" id="node6" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="140,109,251,136"/>
+<area shape="rect" id="node1" title="ParameterGroupSymbol." alt="" coords="5,393,183,420"/>
+<area shape="rect" id="node2" href="$class_group_symbol.html" title="GroupSymbol." alt="" coords="39,317,149,344"/>
+<area shape="rect" id="node3" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="153,228,224,255"/>
+<area shape="rect" id="node6" href="$class_module_symbol.html" title="Symbol for a source code module." alt="" coords="173,317,292,344"/>
+<area shape="rect" id="node4" href="$classomc_1_1location.html" title="Two points in a source file." alt="" coords="48,109,159,136"/>
+<area shape="rect" id="node5" href="$classomc_1_1position.html" title="A point in a source file." alt="" coords="48,5,159,32"/>
+<area shape="rect" id="node7" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="183,109,293,136"/>
 </map>

@@ -7,11 +7,12 @@ var searchData=
   ['get_5fmicrodata_5fkey_5ffn_4',['get_microdata_key_fn',['../class_entity_symbol.html#a5b311d9595e813fc371b924044196b54',1,'EntitySymbol']]],
   ['get_5fmulti_5',['get_multi',['../class_type_of_link_symbol.html#ab14ff04bd18c0254cb4ec687454bba59',1,'TypeOfLinkSymbol']]],
   ['get_5fsingle_6',['get_single',['../class_type_of_link_symbol.html#a663b0ba93868fda3c896637aa70ad314',1,'TypeOfLinkSymbol']]],
-  ['get_5fsymbol_7',['get_symbol',['../class_symbol.html#af63e8978fdcbfaa5d86501cc217e9c78',1,'Symbol::get_symbol(const string &amp;unm)'],['../class_symbol.html#a27ec1203cdf4cf2829790212e88959b8',1,'Symbol::get_symbol(const string &amp;nm, const Symbol *ent)']]],
-  ['globalfuncsymbol_8',['GlobalFuncSymbol',['../class_global_func_symbol.html',1,'GlobalFuncSymbol'],['../class_global_func_symbol.html#a336b5463e465a1278c8259cc72077a00',1,'GlobalFuncSymbol::GlobalFuncSymbol(const string name, omc::location decl_loc=omc::location())'],['../class_global_func_symbol.html#a11b866be27c66bce8fdc01ec270f906d',1,'GlobalFuncSymbol::GlobalFuncSymbol(const string name, string return_decl, string arg_list_decl, omc::location decl_loc=omc::location())']]],
-  ['globalfuncsymbol_2ecpp_9',['GlobalFuncSymbol.cpp',['../_global_func_symbol_8cpp.html',1,'']]],
-  ['globalfuncsymbol_2eh_10',['GlobalFuncSymbol.h',['../_global_func_symbol_8h.html',1,'']]],
-  ['groupsymbol_11',['GroupSymbol',['../class_group_symbol.html#a59979f91a0204aa262e60dd71d16a93c',1,'GroupSymbol::GroupSymbol(const string unique_name, omc::location decl_loc=omc::location())'],['../class_group_symbol.html#a91c0bb78f11634ed5c115db77a8fdee4',1,'GroupSymbol::GroupSymbol(Symbol *sym, omc::location decl_loc=omc::location())'],['../class_group_symbol.html',1,'GroupSymbol']]],
-  ['groupsymbol_2ecpp_12',['GroupSymbol.cpp',['../_group_symbol_8cpp.html',1,'']]],
-  ['groupsymbol_2eh_13',['GroupSymbol.h',['../_group_symbol_8h.html',1,'']]]
+  ['get_5fsymbol_7',['get_symbol',['../class_symbol.html#a27ec1203cdf4cf2829790212e88959b8',1,'Symbol::get_symbol(const string &amp;nm, const Symbol *ent)'],['../class_symbol.html#af63e8978fdcbfaa5d86501cc217e9c78',1,'Symbol::get_symbol(const string &amp;unm)']]],
+  ['gettranslated_8',['getTranslated',['../classomc_1_1_translated_store.html#aa3291388691f2be7c6a37274637e83a6',1,'omc::TranslatedStore']]],
+  ['globalfuncsymbol_9',['GlobalFuncSymbol',['../class_global_func_symbol.html#a11b866be27c66bce8fdc01ec270f906d',1,'GlobalFuncSymbol::GlobalFuncSymbol(const string name, string return_decl, string arg_list_decl, omc::location decl_loc=omc::location())'],['../class_global_func_symbol.html#a336b5463e465a1278c8259cc72077a00',1,'GlobalFuncSymbol::GlobalFuncSymbol(const string name, omc::location decl_loc=omc::location())'],['../class_global_func_symbol.html',1,'GlobalFuncSymbol']]],
+  ['globalfuncsymbol_2ecpp_10',['GlobalFuncSymbol.cpp',['../_global_func_symbol_8cpp.html',1,'']]],
+  ['globalfuncsymbol_2eh_11',['GlobalFuncSymbol.h',['../_global_func_symbol_8h.html',1,'']]],
+  ['groupsymbol_12',['GroupSymbol',['../class_group_symbol.html#a91c0bb78f11634ed5c115db77a8fdee4',1,'GroupSymbol::GroupSymbol(Symbol *sym, omc::location decl_loc=omc::location())'],['../class_group_symbol.html#a59979f91a0204aa262e60dd71d16a93c',1,'GroupSymbol::GroupSymbol(const string unique_name, omc::location decl_loc=omc::location())'],['../class_group_symbol.html',1,'GroupSymbol']]],
+  ['groupsymbol_2ecpp_13',['GroupSymbol.cpp',['../_group_symbol_8cpp.html',1,'']]],
+  ['groupsymbol_2eh_14',['GroupSymbol.h',['../_group_symbol_8h.html',1,'']]]
 ];

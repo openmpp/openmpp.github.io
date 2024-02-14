@@ -1,11 +1,12 @@
 <map id="AggregationSymbol" name="AggregationSymbol">
-<area shape="rect" id="node1" title="AggregationSymbol." alt="" coords="52,679,203,705"/>
-<area shape="rect" id="node2" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="92,228,163,255"/>
-<area shape="rect" id="node9" href="$class_type_symbol.html" title="TypeSymbol." alt="" coords="186,304,287,331"/>
-<area shape="rect" id="node3" href="$classomc_1_1location.html" title="Two points in a source file." alt="" coords="5,109,116,136"/>
-<area shape="rect" id="node4" href="$classomc_1_1position.html" title="A point in a source file." alt="" coords="5,5,116,32"/>
-<area shape="rect" id="node5" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="140,109,251,136"/>
-<area shape="rect" id="node6" href="$class_classification_symbol.html" title="ClassificationSymbol." alt="" coords="180,575,339,601"/>
-<area shape="rect" id="node7" href="$class_enumeration_with_enumerators_symbol.html" title="EnumerationWithEnumeratorsSymbol." alt="" coords="165,484,383,525"/>
-<area shape="rect" id="node8" href="$class_enumeration_symbol.html" title="EnumerationSymbol." alt="" coords="181,380,335,407"/>
+<area shape="rect" id="node1" title="AggregationSymbol." alt="" coords="5,692,156,719"/>
+<area shape="rect" id="node2" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="99,228,169,255"/>
+<area shape="rect" id="node5" href="$class_module_symbol.html" title="Symbol for a source code module." alt="" coords="119,317,237,344"/>
+<area shape="rect" id="node10" href="$class_type_symbol.html" title="TypeSymbol." alt="" coords="262,317,363,344"/>
+<area shape="rect" id="node3" href="$classomc_1_1location.html" title="Two points in a source file." alt="" coords="12,109,123,136"/>
+<area shape="rect" id="node4" href="$classomc_1_1position.html" title="A point in a source file." alt="" coords="12,5,123,32"/>
+<area shape="rect" id="node6" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="147,109,257,136"/>
+<area shape="rect" id="node7" href="$class_classification_symbol.html" title="ClassificationSymbol." alt="" coords="133,588,292,615"/>
+<area shape="rect" id="node8" href="$class_enumeration_with_enumerators_symbol.html" title="EnumerationWithEnumeratorsSymbol." alt="" coords="161,497,379,539"/>
+<area shape="rect" id="node9" href="$class_enumeration_symbol.html" title="EnumerationSymbol." alt="" coords="219,393,374,420"/>
 </map>

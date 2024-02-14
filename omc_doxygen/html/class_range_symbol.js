@@ -10,7 +10,7 @@ var class_range_symbol =
     [ "make_constant", "class_range_symbol.html#a9b7cc319df1f58236eab91586cd28a3b", null ],
     [ "populate_metadata", "class_range_symbol.html#a13e8f85e35bb54e3660d63c84dce6e6f", null ],
     [ "post_parse", "class_range_symbol.html#a7def648db65c839a5202ea4c5dd2f80c", null ],
-    [ "pp_size", "class_range_symbol.html#a47f967d451f4cf7dcb0564277be46be1", null ],
+    [ "pp_size", "class_range_symbol.html#a1115831e37338222e1d6277c48c7faf9", null ],
     [ "lower_bound", "class_range_symbol.html#a9ca37461984aa0ec525c5dd3c6fd7141", null ],
     [ "upper_bound", "class_range_symbol.html#aaae6a9b93097ec1f2221060fcdcb7c03", null ]
 ];

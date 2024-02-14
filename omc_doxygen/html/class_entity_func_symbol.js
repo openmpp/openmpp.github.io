@@ -11,6 +11,7 @@ var class_entity_func_symbol =
     [ "is_side_effects", "class_entity_func_symbol.html#ab3b6f89f004f50cb7faa236795930361", null ],
     [ "post_parse", "class_entity_func_symbol.html#ac1c451f57619d3aeb3e8c78d2a72ecc7", null ],
     [ "arg_list_decl", "class_entity_func_symbol.html#aaf787927f3d5c623c911e09d9833cfc1", null ],
+    [ "associated_event", "class_entity_func_symbol.html#a6d4669b7a3a32c089eee03f631f66566", null ],
     [ "body_identifiers", "class_entity_func_symbol.html#af19c54dd5bb4de19cb54ffdb340fb336", null ],
     [ "body_pointers", "class_entity_func_symbol.html#a6458363dacfa75ac3caaf9b7596544ba", null ],
     [ "defn_loc", "class_entity_func_symbol.html#a844680a2693f7daf73c24f7f4afc0a2b", null ],

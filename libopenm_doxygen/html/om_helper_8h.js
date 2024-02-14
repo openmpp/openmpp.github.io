@@ -17,6 +17,7 @@ var om_helper_8h =
     [ "endWithNoCase", "om_helper_8h.html#ad3fa9f34d397207e9c803e56b572ce8d", null ],
     [ "equalNoCase", "om_helper_8h.html#ac80656844f7f527cafa160438d6c0294", null ],
     [ "formatTo", "om_helper_8h.html#a7b605680a51287b19d15eef68648d754", null ],
+    [ "formatToString", "om_helper_8h.html#a001ee4fe88245d14b2d7694c9885b75a", null ],
     [ "isBigIntType", "om_helper_8h.html#a71fd7e4c6751f327d4ae483cfacd412e", null ],
     [ "isBoolTrue", "om_helper_8h.html#a3f2ae62b2f2d2bceff334624834cbeb1", null ],
     [ "isBoolType", "om_helper_8h.html#ae7079ed9e114e722bfbf39892f4a6ea4", null ],

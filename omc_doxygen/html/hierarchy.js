@@ -115,5 +115,6 @@ var hierarchy =
         [ "UnknownTypeSymbol", "class_unknown_type_symbol.html", null ]
       ] ],
       [ "VersionSymbol", "class_version_symbol.html", null ]
-    ] ]
+    ] ],
+    [ "omc::TranslatedStore", "classomc_1_1_translated_store.html", null ]
 ];

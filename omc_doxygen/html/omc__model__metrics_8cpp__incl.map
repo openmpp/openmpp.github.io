@@ -21,7 +21,7 @@
 <area shape="rect" id="node46" href="$_entity_table_symbol_8h.html" title="Declares the EntityTableSymbol derived class of the Symbol class." alt="" coords="195,319,349,345"/>
 <area shape="rect" id="node47" href="$_entity_event_symbol_8h.html" title="Declarations for the EntityEventSymbol class." alt="" coords="1714,80,1873,107"/>
 <area shape="rect" id="node48" href="$_parse_context_8h.html" title="Declares the parse context class." alt="" coords="1980,468,2100,495"/>
-<area shape="rect" id="node49" href="$omc__file_8h.html" title="omc file helper functions." alt="" coords="2295,468,2385,495"/>
+<area shape="rect" id="node49" href="$omc__file_8h.html" title="omc file helper functions and translation functions." alt="" coords="2295,468,2385,495"/>
 <area shape="rect" id="node50" href="$omc__model__metrics_8h.html" title="Function to create Model Metrics Report." alt="" coords="2426,393,2593,420"/>
 <area shape="rect" id="node5" title=" " alt="" coords="1672,617,1741,644"/>
 <area shape="rect" id="node6" title=" " alt="" coords="784,692,843,719"/>

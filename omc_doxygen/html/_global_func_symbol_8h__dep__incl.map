@@ -1,10 +1,12 @@
 <map id="GlobalFuncSymbol.h" name="GlobalFuncSymbol.h">
-<area shape="rect" id="node1" title="Declarations for the GlobalFuncSymbol class." alt="" coords="495,5,649,32"/>
+<area shape="rect" id="node1" title="Declarations for the GlobalFuncSymbol class." alt="" coords="699,5,853,32"/>
 <area shape="rect" id="node2" href="$_entity_set_symbol_8cpp.html" title="Definitions for the EntitySetSymbol class." alt="" coords="5,80,163,107"/>
 <area shape="rect" id="node3" href="$_entity_table_symbol_8cpp.html" title="Definitions for the EntityTableSymbol class." alt="" coords="187,80,357,107"/>
 <area shape="rect" id="node4" href="$_global_func_symbol_8cpp.html" title="Definitions for the GlobalFuncSymbol class." alt="" coords="381,80,552,107"/>
 <area shape="rect" id="node5" href="$_identity_attribute_symbol_8cpp.html" title="Definitions for the IdentityAttributeSymbol class." alt="" coords="576,80,781,107"/>
-<area shape="rect" id="node6" href="$_symbol_8cpp.html" title="Definitions for the Symbol class." alt="" coords="805,80,904,107"/>
-<area shape="rect" id="node7" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="929,80,983,107"/>
-<area shape="rect" id="node8" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="902,155,1010,181"/>
+<area shape="rect" id="node6" href="$_parse_context_8cpp.html" title="Implements some functions in the parse context class." alt="" coords="806,80,941,107"/>
+<area shape="rect" id="node7" href="$_symbol_8cpp.html" title="Definitions for the Symbol class." alt="" coords="965,80,1064,107"/>
+<area shape="rect" id="node8" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="1089,80,1143,107"/>
+<area shape="rect" id="node10" href="$omc__model__doc_8cpp.html" title="Function to create Model doc." alt="" coords="1168,80,1323,107"/>
+<area shape="rect" id="node9" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="1062,155,1170,181"/>
 </map>

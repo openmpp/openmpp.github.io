@@ -2,7 +2,8 @@ var annotated_dup =
 [
     [ "omc", null, [
       [ "location", "classomc_1_1location.html", "classomc_1_1location" ],
-      [ "position", "classomc_1_1position.html", "classomc_1_1position" ]
+      [ "position", "classomc_1_1position.html", "classomc_1_1position" ],
+      [ "TranslatedStore", "classomc_1_1_translated_store.html", "classomc_1_1_translated_store" ]
     ] ],
     [ "openm", null, [
       [ "OmcArgKey", "structopenm_1_1_omc_arg_key.html", null ],

@@ -1,8 +1,8 @@
 <map id="common/os.cpp" name="common/os.cpp">
-<area shape="rect" id="node1" title="OpenM++ platform&#45;specific utility functions." alt="" coords="643,5,768,32"/>
-<area shape="rect" id="node2" href="$om_o_s_8h.html" title="OpenM++ platform&#45;specific utility functions." alt="" coords="606,80,805,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="629,155,683,181"/>
-<area shape="rect" id="node4" href="$om_helper_8h.html" title="OpenM++ common helper utilities." alt="" coords="707,155,805,181"/>
+<area shape="rect" id="node1" title="OpenM++ platform&#45;specific utility functions." alt="" coords="684,5,809,32"/>
+<area shape="rect" id="node2" href="$om_o_s_8h.html" title="OpenM++ platform&#45;specific utility functions." alt="" coords="647,80,846,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="670,155,725,181"/>
+<area shape="rect" id="node4" href="$om_helper_8h.html" title="OpenM++ common helper utilities." alt="" coords="749,155,846,181"/>
 <area shape="rect" id="node5" title=" " alt="" coords="5,229,91,256"/>
 <area shape="rect" id="node6" title=" " alt="" coords="115,229,181,256"/>
 <area shape="rect" id="node7" title=" " alt="" coords="205,229,264,256"/>
@@ -20,4 +20,5 @@
 <area shape="rect" id="node19" title=" " alt="" coords="1267,229,1341,256"/>
 <area shape="rect" id="node20" title=" " alt="" coords="1365,229,1432,256"/>
 <area shape="rect" id="node21" title=" " alt="" coords="1457,229,1519,256"/>
+<area shape="rect" id="node22" title=" " alt="" coords="1543,229,1614,256"/>
 </map>

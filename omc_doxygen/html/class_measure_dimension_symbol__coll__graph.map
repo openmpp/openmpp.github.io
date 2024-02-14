@@ -1,8 +1,9 @@
 <map id="MeasureDimensionSymbol" name="MeasureDimensionSymbol">
-<area shape="rect" id="node1" title="MeasureDimensionSymbol." alt="" coords="5,304,203,331"/>
-<area shape="rect" id="node6" href="$class_table_symbol.html" title="TableSymbol." alt="" coords="130,393,235,420"/>
-<area shape="rect" id="node2" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="137,228,207,255"/>
-<area shape="rect" id="node3" href="$classomc_1_1location.html" title="Two points in a source file." alt="" coords="50,109,161,136"/>
-<area shape="rect" id="node4" href="$classomc_1_1position.html" title="A point in a source file." alt="" coords="50,5,161,32"/>
-<area shape="rect" id="node5" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="185,109,295,136"/>
+<area shape="rect" id="node1" title="MeasureDimensionSymbol." alt="" coords="5,317,203,344"/>
+<area shape="rect" id="node7" href="$class_table_symbol.html" title="TableSymbol." alt="" coords="219,407,325,433"/>
+<area shape="rect" id="node2" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="229,228,299,255"/>
+<area shape="rect" id="node5" href="$class_module_symbol.html" title="Symbol for a source code module." alt="" coords="227,317,346,344"/>
+<area shape="rect" id="node3" href="$classomc_1_1location.html" title="Two points in a source file." alt="" coords="142,109,253,136"/>
+<area shape="rect" id="node4" href="$classomc_1_1position.html" title="A point in a source file." alt="" coords="142,5,253,32"/>
+<area shape="rect" id="node6" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="277,109,387,136"/>
 </map>

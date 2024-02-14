@@ -32,6 +32,7 @@ var class_entity_data_member_symbol =
     [ "data_type", "class_entity_data_member_symbol.html#ac3df1d284e1fcc1fe00e4ea59b1de4bc", null ],
     [ "parent", "class_entity_data_member_symbol.html#a0c72a47b718b66cb594cddbca46865bc", null ],
     [ "pp_data_type", "class_entity_data_member_symbol.html#a1b98b6ee3edad0dff0e3a7170b92308c", null ],
+    [ "pp_eligible_microdata", "class_entity_data_member_symbol.html#ad49fdbacb9ccc49098ff4c455503e420", null ],
     [ "pp_member_id", "class_entity_data_member_symbol.html#aa5d31ea2618c8c03ff6e8d11465627e4", null ],
     [ "pp_parent", "class_entity_data_member_symbol.html#a7ce987ca4d9a25727c1e20971ea930b6", null ]
 ];

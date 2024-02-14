@@ -95,15 +95,20 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <li>-Omc.UseDir use/dir/with/ompp/files</li>
 <li>-Omc.ParamDir input/dir/to/find/parameter/files/for/scenario (can be list of directories)</li>
 <li>-Omc.FixedDir input/dir/to/find/fixed/parameter/files/</li>
+<li>-Omc.InDocDir input/dir/to/find/authored/model/documentation/files/</li>
+<li>-Omc.OutDocDir output directory to create model documentation files, e.g.: ompp/bin/doc</li>
+<li>-Omc.ModelDoc if true then generate model documentation</li>
+<li>-Omc.SqlDir input sql/script/dir to create SQLite database</li>
+<li>-Omc.SqliteDir output directory to create SQLite model database</li>
+<li>-Omc.SqlPublishTo create sql scripts to publish in SQLite,MySQL,PostgreSQL,MSSQL,Oracle,DB2, default: SQLite</li>
 <li>-Omc.CodePage code page for converting source files, e.g. windows-1252</li>
 <li>-Omc.MessageLanguage language to display output messages, default: user environment settings</li>
 <li>-Omc.MessageFnc localized message functions, default: LT,logMsg,logFormatted,WriteLogEntry,WarningMsg,ModelExit</li>
 <li>-Omc.NoLineDirectives suppress #line directives in generated cpp files</li>
-<li>-OpenM.IniFile path/to/optional/omc.ini</li>
+<li>-Omc.NoMetadata suppress production of model metadata (model cannot be run), default: false</li>
 <li>-Omc.TraceScanning detailed tracing from scanner</li>
 <li>-Omc.TraceParsing detailed tracing from parser</li>
-<li>-Omc.SqlDir sql/script/dir to create SQLite database</li>
-<li>-Omc.SqlPublishTo create sql scripts to publish in SQLite,MySQL,PostgreSQL,MSSQL,Oracle,DB2, default: SQLite</li>
+<li>-OpenM.IniFile path/to/optional/omc.ini</li>
 </ul>
 <p >Short form of command line arguments:</p><ul>
 <li>-m short form of -Omc.ModelName</li>
@@ -113,6 +118,7 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <li>-u short form of -Omc.UseDir</li>
 <li>-p short form of -Omc.ParamDir</li>
 <li>-f short form of -Omc.FixedDir</li>
+<li>-d short form of -Omc.InDocDir</li>
 <li>-ini short form of -OpenM.IniFile</li>
 </ul>
 <p >Also common OpenM log options supported: OpenM.LogToConsole, OpenM.LogToFile, OpenM.LogFilePath, OpenM.LogToStampedFile, OpenM.LogUseTimeStamp, OpenM.LogUsePidStamp, OpenM.LogSql. Please see OpenM++ wiki for more information about log options. <br  />
@@ -123,7 +129,7 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Nov 15 2023 19:16:34 for OpenM++ compiler (omc) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Tue Feb 13 2024 19:18:43 for OpenM++ compiler (omc) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>

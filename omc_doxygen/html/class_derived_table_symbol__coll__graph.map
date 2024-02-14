@@ -1,9 +1,10 @@
 <map id="DerivedTableSymbol" name="DerivedTableSymbol">
-<area shape="rect" id="node1" title="DerivedTableSymbol." alt="" coords="5,393,161,420"/>
-<area shape="rect" id="node2" href="$class_table_symbol.html" title="TableSymbol." alt="" coords="153,304,259,331"/>
-<area shape="rect" id="node7" href="$class_measure_dimension_symbol.html" title="MeasureDimensionSymbol." alt="" coords="186,393,383,420"/>
-<area shape="rect" id="node3" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="265,228,336,255"/>
-<area shape="rect" id="node4" href="$classomc_1_1location.html" title="Two points in a source file." alt="" coords="179,109,289,136"/>
-<area shape="rect" id="node5" href="$classomc_1_1position.html" title="A point in a source file." alt="" coords="179,5,289,32"/>
-<area shape="rect" id="node6" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="313,109,424,136"/>
+<area shape="rect" id="node1" title="DerivedTableSymbol." alt="" coords="5,407,161,433"/>
+<area shape="rect" id="node2" href="$class_table_symbol.html" title="TableSymbol." alt="" coords="116,317,221,344"/>
+<area shape="rect" id="node8" href="$class_measure_dimension_symbol.html" title="MeasureDimensionSymbol." alt="" coords="186,407,383,433"/>
+<area shape="rect" id="node3" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="247,228,317,255"/>
+<area shape="rect" id="node6" href="$class_module_symbol.html" title="Symbol for a source code module." alt="" coords="245,317,364,344"/>
+<area shape="rect" id="node4" href="$classomc_1_1location.html" title="Two points in a source file." alt="" coords="160,109,271,136"/>
+<area shape="rect" id="node5" href="$classomc_1_1position.html" title="A point in a source file." alt="" coords="160,5,271,32"/>
+<area shape="rect" id="node7" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="295,109,405,136"/>
 </map>

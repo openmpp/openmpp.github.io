@@ -394,6 +394,7 @@ var namespaceopenm =
     [ "FloatSqlFormatHandler", "namespaceopenm.html#ad0f17e986143d820b85f7c0b28b79903", null ],
     [ "FormatHandler", "namespaceopenm.html#aac31d90947aa12a9881dd7e56d713875", null ],
     [ "formatTo", "namespaceopenm.html#a7b605680a51287b19d15eef68648d754", null ],
+    [ "formatToString", "namespaceopenm.html#a001ee4fe88245d14b2d7694c9885b75a", null ],
     [ "getDefaultLocaleName", "namespaceopenm.html#a53aceb151662b27ab94b62a3f766b5ea", null ],
     [ "getMilliseconds", "namespaceopenm.html#a79817a8d2562a945198ee9e1757f2131", null ],
     [ "getProcessMemorySize", "namespaceopenm.html#a1e2215ea844201635316e4646fa8e857", null ],

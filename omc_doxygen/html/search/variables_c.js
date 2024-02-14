@@ -13,11 +13,14 @@ var searchData=
   ['memory_5fsafety_5ffactor_10',['memory_safety_factor',['../class_model_symbol.html#a9b766d91d0a2d2d233f1cc52bb92250c',1,'ModelSymbol']]],
   ['messagefnc_11',['messageFnc',['../structopenm_1_1_omc_arg_key.html#a03b5e5815ef26373d75e01fd6a37d88f',1,'openm::OmcArgKey']]],
   ['messagelang_12',['messageLang',['../structopenm_1_1_omc_arg_key.html#aaa0eabd69ce687047ef1d218186dd6ff',1,'openm::OmcArgKey']]],
-  ['metadata_5fneeded_13',['metadata_needed',['../class_enumeration_symbol.html#a0d7b634c0e61c8f577b3bcf806c0ca5b',1,'EnumerationSymbol']]],
-  ['minor_14',['minor',['../class_version_symbol.html#ad15577d74069523fae22233522b1d2a6',1,'VersionSymbol']]],
-  ['modelname_15',['modelName',['../structopenm_1_1_omc_arg_key.html#a1b392ab3cebb00e6fea72c2eaf6b2419',1,'openm::OmcArgKey::modelName()'],['../structopenm_1_1_omc_short_key.html#ad7c077d886e4e0efde83dccb273db2be',1,'openm::OmcShortKey::modelName()']]],
-  ['modgen_5fsort_5foption_16',['modgen_sort_option',['../class_symbol.html#a9c6d271b2a6c3fd3d609b9af3a72a432',1,'Symbol']]],
-  ['modgen_5funique_5fname_17',['modgen_unique_name',['../class_symbol.html#a4d4b6dc1a81b9f09c5ed90e4eddb5ab8',1,'Symbol']]],
-  ['mpp_5fsource_5ffiles_18',['mpp_source_files',['../class_symbol.html#a4028fbb76d7daea31874fe2c95a1814f',1,'Symbol']]],
-  ['multilink_19',['multilink',['../class_multilink_attribute_symbol.html#aa40e700032ab35a2802cabd769a83bfa',1,'MultilinkAttributeSymbol']]]
+  ['metadata_5fas_5ftable_13',['metadata_as_table',['../class_parameter_symbol.html#a6ed74d3702830ada48f97232368eef07',1,'ParameterSymbol']]],
+  ['metadata_5fneeded_14',['metadata_needed',['../class_enumeration_symbol.html#a0d7b634c0e61c8f577b3bcf806c0ca5b',1,'EnumerationSymbol']]],
+  ['minor_15',['minor',['../class_version_symbol.html#ad15577d74069523fae22233522b1d2a6',1,'VersionSymbol']]],
+  ['model_5fdoc_16',['model_doc',['../class_symbol.html#aa205352506d61e01973e6f18a70c7d9e',1,'Symbol']]],
+  ['modeldoc_17',['modelDoc',['../structopenm_1_1_omc_arg_key.html#aed5e2e665b83d1aaf040903af19b7183',1,'openm::OmcArgKey']]],
+  ['modelname_18',['modelName',['../structopenm_1_1_omc_arg_key.html#a1b392ab3cebb00e6fea72c2eaf6b2419',1,'openm::OmcArgKey::modelName()'],['../structopenm_1_1_omc_short_key.html#ad7c077d886e4e0efde83dccb273db2be',1,'openm::OmcShortKey::modelName()']]],
+  ['modgen_5fsort_5foption_19',['modgen_sort_option',['../class_symbol.html#a9c6d271b2a6c3fd3d609b9af3a72a432',1,'Symbol']]],
+  ['modgen_5funique_5fname_20',['modgen_unique_name',['../class_symbol.html#a4d4b6dc1a81b9f09c5ed90e4eddb5ab8',1,'Symbol']]],
+  ['mpp_5fsource_5ffiles_21',['mpp_source_files',['../class_symbol.html#a4028fbb76d7daea31874fe2c95a1814f',1,'Symbol']]],
+  ['multilink_22',['multilink',['../class_multilink_attribute_symbol.html#aa40e700032ab35a2802cabd769a83bfa',1,'MultilinkAttributeSymbol']]]
 ];

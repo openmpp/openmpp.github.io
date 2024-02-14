@@ -1,10 +1,10 @@
 <map id="db/dbExec.cpp" name="db/dbExec.cpp">
-<area shape="rect" id="node1" title="OpenM++ data library: db connection wrapper public interface." alt="" coords="759,5,874,32"/>
-<area shape="rect" id="node2" href="$helper_8h.html" title="OpenM++ common helper utilities." alt="" coords="594,80,669,107"/>
-<area shape="rect" id="node22" href="$crc32_8h.html" title="OpenM++ CRC&#45;32 impelementation, it is same CRC&#45;32 as V.42, gzip, PNG." alt="" coords="375,304,445,331"/>
-<area shape="rect" id="node23" href="$db_exec_8h.html" title="OpenM++ data library: public interface." alt="" coords="777,80,857,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="535,155,594,181"/>
-<area shape="rect" id="node4" href="$om_helper_8h.html" title="OpenM++ common helper utilities." alt="" coords="705,304,928,331"/>
+<area shape="rect" id="node1" title="OpenM++ data library: db connection wrapper public interface." alt="" coords="861,5,975,32"/>
+<area shape="rect" id="node2" href="$helper_8h.html" title="OpenM++ common helper utilities." alt="" coords="695,80,770,107"/>
+<area shape="rect" id="node23" href="$crc32_8h.html" title="OpenM++ CRC&#45;32 impelementation, it is same CRC&#45;32 as V.42, gzip, PNG." alt="" coords="375,304,445,331"/>
+<area shape="rect" id="node24" href="$db_exec_8h.html" title="OpenM++ data library: public interface." alt="" coords="878,80,958,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="637,155,695,181"/>
+<area shape="rect" id="node4" href="$om_helper_8h.html" title="OpenM++ common helper utilities." alt="" coords="807,304,1029,331"/>
 <area shape="rect" id="node5" title=" " alt="" coords="501,379,586,405"/>
 <area shape="rect" id="node6" title=" " alt="" coords="610,379,677,405"/>
 <area shape="rect" id="node7" title=" " alt="" coords="701,379,759,405"/>
@@ -22,11 +22,11 @@
 <area shape="rect" id="node19" title=" " alt="" coords="402,379,477,405"/>
 <area shape="rect" id="node20" title=" " alt="" coords="1514,379,1581,405"/>
 <area shape="rect" id="node21" title=" " alt="" coords="1605,379,1668,405"/>
-<area shape="rect" id="node24" title=" " alt="" coords="938,155,1002,181"/>
-<area shape="rect" id="node25" href="$om_log_8h.html" title="OpenM++: public interface for log and trace support." alt="" coords="141,304,284,331"/>
-<area shape="rect" id="node27" href="$db_common_8h.html" title="OpenM++ data library: public interface for db common structures." alt="" coords="719,155,914,181"/>
-<area shape="rect" id="node26" title=" " alt="" coords="5,379,129,405"/>
-<area shape="rect" id="node28" title=" " alt="" coords="916,229,979,256"/>
-<area shape="rect" id="node29" href="$om_error_8h.html" title="OpenM++: public interface for errors and exceptions." alt="" coords="741,229,892,256"/>
-<area shape="rect" id="node30" title=" " alt="" coords="952,304,1023,331"/>
+<area shape="rect" id="node22" title=" " alt="" coords="1692,379,1763,405"/>
+<area shape="rect" id="node25" title=" " alt="" coords="1039,155,1103,181"/>
+<area shape="rect" id="node26" href="$om_log_8h.html" title="OpenM++: public interface for log and trace support." alt="" coords="141,304,284,331"/>
+<area shape="rect" id="node28" href="$db_common_8h.html" title="OpenM++ data library: public interface for db common structures." alt="" coords="821,155,1015,181"/>
+<area shape="rect" id="node27" title=" " alt="" coords="5,379,129,405"/>
+<area shape="rect" id="node29" title=" " alt="" coords="1017,229,1080,256"/>
+<area shape="rect" id="node30" href="$om_error_8h.html" title="OpenM++: public interface for errors and exceptions." alt="" coords="843,229,993,256"/>
 </map>

@@ -1,10 +1,11 @@
 <map id="DependencyGroupSymbol" name="DependencyGroupSymbol">
-<area shape="rect" id="node1" title="DependencyGroupSymbol." alt="" coords="5,393,196,420"/>
-<area shape="rect" id="node2" href="$class_group_symbol.html" title="GroupSymbol." alt="" coords="57,304,168,331"/>
-<area shape="rect" id="node3" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="243,228,313,255"/>
-<area shape="rect" id="node7" href="$class_table_symbol.html" title="TableSymbol." alt="" coords="225,304,331,331"/>
-<area shape="rect" id="node8" href="$class_measure_dimension_symbol.html" title="MeasureDimensionSymbol." alt="" coords="247,393,445,420"/>
-<area shape="rect" id="node4" href="$classomc_1_1location.html" title="Two points in a source file." alt="" coords="156,109,267,136"/>
-<area shape="rect" id="node5" href="$classomc_1_1position.html" title="A point in a source file." alt="" coords="156,5,267,32"/>
-<area shape="rect" id="node6" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="291,109,401,136"/>
+<area shape="rect" id="node1" title="DependencyGroupSymbol." alt="" coords="5,407,196,433"/>
+<area shape="rect" id="node2" href="$class_group_symbol.html" title="GroupSymbol." alt="" coords="17,317,128,344"/>
+<area shape="rect" id="node3" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="215,228,285,255"/>
+<area shape="rect" id="node6" href="$class_module_symbol.html" title="Symbol for a source code module." alt="" coords="152,317,271,344"/>
+<area shape="rect" id="node8" href="$class_table_symbol.html" title="TableSymbol." alt="" coords="295,317,400,344"/>
+<area shape="rect" id="node9" href="$class_measure_dimension_symbol.html" title="MeasureDimensionSymbol." alt="" coords="249,407,446,433"/>
+<area shape="rect" id="node4" href="$classomc_1_1location.html" title="Two points in a source file." alt="" coords="128,109,239,136"/>
+<area shape="rect" id="node5" href="$classomc_1_1position.html" title="A point in a source file." alt="" coords="128,5,239,32"/>
+<area shape="rect" id="node7" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="263,109,373,136"/>
 </map>
