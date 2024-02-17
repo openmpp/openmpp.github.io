@@ -2,6 +2,7 @@ var class_table_measure_symbol =
 [
     [ "heuristic_short_name", "class_table_measure_symbol.html#a64af6c1bb7c25f9640d985ddb76a6366", null ],
     [ "is_base_symbol", "class_table_measure_symbol.html#ab48d7fcbc98285c4bb1b3516e8197125", null ],
+    [ "is_published", "class_table_measure_symbol.html#afa8008a2f2dff6ce28e324870272879a", null ],
     [ "post_parse", "class_table_measure_symbol.html#a3c214c328dfd5768fd107c7eca8b661d", null ],
     [ "pretty_name", "class_table_measure_symbol.html#a05f97c577384e81a36943c3ee570c331", null ],
     [ "scale_as_factor", "class_table_measure_symbol.html#aa03e6b94c61b7327c5594bc04d6be391", null ],

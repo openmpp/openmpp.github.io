@@ -1,5 +1,7 @@
 var NAVTREEINDEX5 =
 {
+"class_time_literal.html":[0,0,89],
+"class_time_symbol.html":[0,0,90],
 "class_time_symbol.html#a223f5c20461e997241c0a1ded2c8e510":[0,0,90,3],
 "class_time_symbol.html#a3e753b48e00c4249c5c6a0b1be1eca23":[0,0,90,6],
 "class_time_symbol.html#a4a6271efc31c86ea6e397e162544172c":[0,0,90,7],
@@ -79,8 +81,8 @@ var NAVTREEINDEX5 =
 "disable__selected__warnings_8h.html":[1,0,30],
 "disable__selected__warnings_8h_source.html":[1,0,30],
 "files.html":[1,0],
-"functions.html":[0,3,0],
 "functions.html":[0,3,0,0],
+"functions.html":[0,3,0],
 "functions_b.html":[0,3,0,1],
 "functions_c.html":[0,3,0,2],
 "functions_d.html":[0,3,0,3],

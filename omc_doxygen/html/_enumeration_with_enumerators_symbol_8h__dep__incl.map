@@ -1,28 +1,41 @@
 <map id="EnumerationWithEnumeratorsSymbol.h" name="EnumerationWithEnumeratorsSymbol.h">
-<area shape="rect" id="node1" title="Declarations for the EnumerationWithEnumeratorsSymbol class." alt="" coords="2177,5,2395,47"/>
-<area shape="rect" id="node2" href="$_attribute_symbol_8cpp.html" title="Definitions for the AttributeSymbol class." alt="" coords="2530,177,2685,203"/>
-<area shape="rect" id="node3" href="$_bool_symbol_8h.html" title="Declarations for the BoolSymbol class." alt="" coords="677,95,789,121"/>
-<area shape="rect" id="node8" href="$_enumeration_with_enumerators_symbol_8cpp.html" title="Definitions for the EnumerationWithEnumeratorsSymbol class." alt="" coords="1207,169,1426,211"/>
-<area shape="rect" id="node12" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="1624,259,1679,285"/>
-<area shape="rect" id="node15" href="$_classification_symbol_8h.html" title="Declarations for the ClassificationSymbol class." alt="" coords="1826,95,1997,121"/>
-<area shape="rect" id="node18" href="$omc__model__doc_8cpp.html" title="Function to create Model doc." alt="" coords="2379,259,2534,285"/>
-<area shape="rect" id="node21" href="$_enumerator_symbol_8cpp.html" title="Definitions for the EnumeratorSymbol class." alt="" coords="2811,95,2985,121"/>
-<area shape="rect" id="node22" href="$_partition_symbol_8h.html" title="Declarations for the PartitionSymbol class." alt="" coords="2217,95,2355,121"/>
-<area shape="rect" id="node24" href="$omc__csv_8h.html" title="omc functions to read parameters data from .csv or .tsv files." alt="" coords="2759,177,2850,203"/>
-<area shape="rect" id="node4" href="$_bool_symbol_8cpp.html" title="Definitions for the BoolSymbol class." alt="" coords="5,177,132,203"/>
-<area shape="rect" id="node5" href="$_derived_attribute_symbol_8cpp.html" title="Definitions for the DerivedAttributeSymbol class." alt="" coords="2111,259,2317,285"/>
-<area shape="rect" id="node6" href="$_entity_symbol_8cpp.html" title="Implements the EntitySymbol derived class of the Symbol class." alt="" coords="487,177,623,203"/>
-<area shape="rect" id="node7" href="$_entity_table_symbol_8cpp.html" title="Definitions for the EntityTableSymbol class." alt="" coords="647,177,818,203"/>
-<area shape="rect" id="node9" href="$_identity_attribute_symbol_8cpp.html" title="Definitions for the IdentityAttributeSymbol class." alt="" coords="157,177,362,203"/>
-<area shape="rect" id="node10" href="$_symbol_8cpp.html" title="Definitions for the Symbol class." alt="" coords="926,259,1025,285"/>
-<area shape="rect" id="node11" href="$_type_symbol_8cpp.html" title="Definitions for the TypeSymbol class." alt="" coords="1661,177,1789,203"/>
-<area shape="rect" id="node14" href="$omc__missing__documentation_8cpp.html" title="Function which emits warnings for missing model documentation." alt="" coords="943,177,1183,203"/>
-<area shape="rect" id="node13" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="1597,333,1705,360"/>
-<area shape="rect" id="node16" href="$_aggregation_symbol_8h.html" title="Declarations for the AggregationSymbol class." alt="" coords="1914,177,2077,203"/>
-<area shape="rect" id="node19" href="$omc__model__metrics_8cpp.html" title="Function to create Model Metrics Report." alt="" coords="1905,259,2086,285"/>
-<area shape="rect" id="node20" href="$_classification_symbol_8cpp.html" title="Definitions for the ClassificationSymbol class." alt="" coords="1451,177,1636,203"/>
-<area shape="rect" id="node17" href="$_aggregation_symbol_8cpp.html" title="Definitions for the AggregationSymbol class." alt="" coords="1703,259,1880,285"/>
-<area shape="rect" id="node23" href="$_partition_symbol_8cpp.html" title="Definitions for the PartitionSymbol class." alt="" coords="2303,177,2455,203"/>
-<area shape="rect" id="node25" href="$omc_8cpp.html" title="OpenM++ compiler (omc): main entry point." alt="" coords="2707,259,2785,285"/>
-<area shape="rect" id="node26" href="$omc__csv_8cpp.html" title="omc functions to read parameters data from .csv or .tsv files." alt="" coords="2809,259,2915,285"/>
+<area shape="rect" id="node1" title="Declarations for the EnumerationWithEnumeratorsSymbol class." alt="" coords="2371,5,2589,47"/>
+<area shape="rect" id="node2" href="$_attribute_symbol_8cpp.html" title="Definitions for the AttributeSymbol class." alt="" coords="3987,266,4141,293"/>
+<area shape="rect" id="node3" href="$_bool_symbol_8h.html" title="Declarations for the BoolSymbol class." alt="" coords="527,177,639,203"/>
+<area shape="rect" id="node8" href="$_enumeration_with_enumerators_symbol_8cpp.html" title="Definitions for the EnumerationWithEnumeratorsSymbol class." alt="" coords="5,259,224,300"/>
+<area shape="rect" id="node12" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="2162,266,2217,293"/>
+<area shape="rect" id="node15" href="$_classification_symbol_8h.html" title="Declarations for the ClassificationSymbol class." alt="" coords="921,95,1092,121"/>
+<area shape="rect" id="node18" href="$omc__model__doc_8cpp.html" title="Function to create Model doc." alt="" coords="2693,266,2848,293"/>
+<area shape="rect" id="node21" href="$_enumerator_symbol_8cpp.html" title="Definitions for the EnumeratorSymbol class." alt="" coords="1314,177,1489,203"/>
+<area shape="rect" id="node22" href="$_enumerator_symbol_8h.html" title="Declarations for the EnumeratorSymbol class." alt="" coords="2018,95,2177,121"/>
+<area shape="rect" id="node30" href="$omc__csv_8h.html" title="omc functions to read parameters data from .csv or .tsv files." alt="" coords="3048,266,3139,293"/>
+<area shape="rect" id="node39" href="$_partition_symbol_8h.html" title="Declarations for the PartitionSymbol class." alt="" coords="2902,177,3039,203"/>
+<area shape="rect" id="node4" href="$_bool_symbol_8cpp.html" title="Definitions for the BoolSymbol class." alt="" coords="902,266,1029,293"/>
+<area shape="rect" id="node5" href="$_derived_attribute_symbol_8cpp.html" title="Definitions for the DerivedAttributeSymbol class." alt="" coords="1053,266,1259,293"/>
+<area shape="rect" id="node6" href="$_entity_symbol_8cpp.html" title="Implements the EntitySymbol derived class of the Symbol class." alt="" coords="512,266,648,293"/>
+<area shape="rect" id="node7" href="$_entity_table_symbol_8cpp.html" title="Definitions for the EntityTableSymbol class." alt="" coords="1967,266,2137,293"/>
+<area shape="rect" id="node9" href="$_identity_attribute_symbol_8cpp.html" title="Definitions for the IdentityAttributeSymbol class." alt="" coords="672,266,877,293"/>
+<area shape="rect" id="node10" href="$_symbol_8cpp.html" title="Definitions for the Symbol class." alt="" coords="1692,266,1791,293"/>
+<area shape="rect" id="node11" href="$_type_symbol_8cpp.html" title="Definitions for the TypeSymbol class." alt="" coords="1815,266,1943,293"/>
+<area shape="rect" id="node14" href="$omc__missing__documentation_8cpp.html" title="Function which emits warnings for missing model documentation." alt="" coords="248,266,488,293"/>
+<area shape="rect" id="node13" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="2135,348,2243,375"/>
+<area shape="rect" id="node16" href="$_aggregation_symbol_8h.html" title="Declarations for the AggregationSymbol class." alt="" coords="1025,177,1188,203"/>
+<area shape="rect" id="node19" href="$omc__model__metrics_8cpp.html" title="Function to create Model Metrics Report." alt="" coords="1284,266,1465,293"/>
+<area shape="rect" id="node20" href="$_classification_symbol_8cpp.html" title="Definitions for the ClassificationSymbol class." alt="" coords="765,177,950,203"/>
+<area shape="rect" id="node17" href="$_aggregation_symbol_8cpp.html" title="Definitions for the AggregationSymbol class." alt="" coords="1490,266,1667,293"/>
+<area shape="rect" id="node23" href="$_bool_enumerator_symbol_8h.html" title="Declarations for the BoolEnumeratorSymbol class." alt="" coords="1513,177,1701,203"/>
+<area shape="rect" id="node24" href="$_classification_enumerator_symbol_8h.html" title="Declarations for the ClassificationEnumeratorSymbol class." alt="" coords="1777,169,1962,211"/>
+<area shape="rect" id="node25" href="$_constant_8cpp.html" title="Definitions for the Constant class." alt="" coords="2333,177,2440,203"/>
+<area shape="rect" id="node26" href="$_constant_symbol_8cpp.html" title="Definitions for the ConstantSymbol class." alt="" coords="2465,177,2621,203"/>
+<area shape="rect" id="node27" href="$_enumeration_symbol_8cpp.html" title="Definitions for the EnumerationSymbol class." alt="" coords="2645,177,2827,203"/>
+<area shape="rect" id="node28" href="$_partition_enumerator_symbol_8h.html" title="Declarations for the PartitionEnumeratorSymbol class." alt="" coords="3165,177,3379,203"/>
+<area shape="rect" id="node33" href="$_range_symbol_8h.html" title="Declarations for the RangeSymbol class." alt="" coords="3403,177,3527,203"/>
+<area shape="rect" id="node38" href="$_simple_attribute_enum_symbol_8h.html" title="Declarations for the SimpleAttributeEnumSymbol class." alt="" coords="1986,177,2209,203"/>
+<area shape="rect" id="node29" href="$_partition_symbol_8cpp.html" title="Definitions for the PartitionSymbol class." alt="" coords="2872,266,3024,293"/>
+<area shape="rect" id="node31" href="$omc_8cpp.html" title="OpenM++ compiler (omc): main entry point." alt="" coords="3112,348,3189,375"/>
+<area shape="rect" id="node32" href="$omc__csv_8cpp.html" title="omc functions to read parameters data from .csv or .tsv files." alt="" coords="2983,348,3089,375"/>
+<area shape="rect" id="node34" href="$_entity_data_member_symbol_8cpp.html" title="Definitions for the EntityDataMemberSymbol class." alt="" coords="3163,266,3384,293"/>
+<area shape="rect" id="node35" href="$_entity_set_symbol_8cpp.html" title="Definitions for the EntitySetSymbol class." alt="" coords="3408,266,3565,293"/>
+<area shape="rect" id="node36" href="$_extend_parameter_symbol_8cpp.html" title="Definitions for the ExtendParameterSymbol class." alt="" coords="3589,266,3800,293"/>
+<area shape="rect" id="node37" href="$_range_symbol_8cpp.html" title="Definitions for the RangeSymbol class." alt="" coords="3824,266,3963,293"/>
 </map>

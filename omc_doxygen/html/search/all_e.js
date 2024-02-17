@@ -98,10 +98,11 @@ var searchData=
   ['option_5fverify_5ftimelike_5fattribute_5faccess_95',['option_verify_timelike_attribute_access',['../class_symbol.html#a65a9cdd3270893eb6e641c9c9a5d9740',1,'Symbol']]],
   ['option_5fverify_5fvalid_5ftable_5fincrement_96',['option_verify_valid_table_increment',['../class_symbol.html#abd215a32af563d75da2ca40052369533',1,'Symbol']]],
   ['option_5fweighted_5ftabulation_97',['option_weighted_tabulation',['../class_symbol.html#a6c3dbc70764c0438f11ad6ddcd826ab3',1,'Symbol']]],
-  ['options_98',['options',['../class_symbol.html#a48252646eab5ec18a2a70c5eba1c9524',1,'Symbol']]],
-  ['order_99',['order',['../class_entity_hook_symbol.html#acfe181e8193f1afe908da59fbf84a422',1,'EntityHookSymbol::order()'],['../class_entity_set_symbol.html#a89db429d77bfa622458676193d1787c0',1,'EntitySetSymbol::order()']]],
-  ['ordinal_100',['ordinal',['../class_enumerator_symbol.html#a6820f76c5fac6f0845e0eb4b516b4bad',1,'EnumeratorSymbol']]],
-  ['ost_5fhelper_101',['OST_HELPER',['../_symbol_8cpp.html#a8441e7bf10c2b395406d3ab09e96375c',1,'Symbol.cpp']]],
-  ['outdocdir_102',['outDocDir',['../structopenm_1_1_omc_arg_key.html#a952548df7d9099a763c3ffff53712531',1,'openm::OmcArgKey']]],
-  ['outputdir_103',['outputDir',['../structopenm_1_1_omc_arg_key.html#abf71463c0e498638e613c3812f2e647f',1,'openm::OmcArgKey::outputDir()'],['../structopenm_1_1_omc_short_key.html#a7cba64aeca19c4854c6dfe270295c439',1,'openm::OmcShortKey::outputDir()']]]
+  ['option_5fweighted_5ftabulation_5fallow_5ftime_5fbased_98',['option_weighted_tabulation_allow_time_based',['../class_symbol.html#a4f5006c5914a170d7594f8f1be34d4bb',1,'Symbol']]],
+  ['options_99',['options',['../class_symbol.html#a48252646eab5ec18a2a70c5eba1c9524',1,'Symbol']]],
+  ['order_100',['order',['../class_entity_hook_symbol.html#acfe181e8193f1afe908da59fbf84a422',1,'EntityHookSymbol::order()'],['../class_entity_set_symbol.html#a89db429d77bfa622458676193d1787c0',1,'EntitySetSymbol::order()']]],
+  ['ordinal_101',['ordinal',['../class_enumerator_symbol.html#a6820f76c5fac6f0845e0eb4b516b4bad',1,'EnumeratorSymbol']]],
+  ['ost_5fhelper_102',['OST_HELPER',['../_symbol_8cpp.html#a8441e7bf10c2b395406d3ab09e96375c',1,'Symbol.cpp']]],
+  ['outdocdir_103',['outDocDir',['../structopenm_1_1_omc_arg_key.html#a952548df7d9099a763c3ffff53712531',1,'openm::OmcArgKey']]],
+  ['outputdir_104',['outputDir',['../structopenm_1_1_omc_arg_key.html#abf71463c0e498638e613c3812f2e647f',1,'openm::OmcArgKey::outputDir()'],['../structopenm_1_1_omc_short_key.html#a7cba64aeca19c4854c6dfe270295c439',1,'openm::OmcShortKey::outputDir()']]]
 ];
