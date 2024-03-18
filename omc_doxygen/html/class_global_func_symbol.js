@@ -11,5 +11,6 @@ var class_global_func_symbol =
     [ "doc_block", "class_global_func_symbol.html#adac69f5677d86dc73b77bf85aad7aec9", null ],
     [ "func_body", "class_global_func_symbol.html#a6ea14e6f039b2e9705dde228e2e4fb22", null ],
     [ "return_decl", "class_global_func_symbol.html#a2c2ddfe83259b03351f327e6a0f70bcb", null ],
+    [ "suppress_decl", "class_global_func_symbol.html#ad441f85238c1e144d2e857740f9a94b0", null ],
     [ "suppress_defn", "class_global_func_symbol.html#a1b8cd1cf6f4eb81db3651098e74622fc", null ]
 ];

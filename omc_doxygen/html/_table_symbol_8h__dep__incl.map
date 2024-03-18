@@ -1,19 +1,20 @@
 <map id="TableSymbol.h" name="TableSymbol.h">
-<area shape="rect" id="node1" title="Declarations for the TableSymbol class." alt="" coords="922,5,1039,32"/>
+<area shape="rect" id="node1" title="Declarations for the TableSymbol class." alt="" coords="1077,5,1194,32"/>
 <area shape="rect" id="node2" href="$_anon_group_symbol_8cpp.html" title="Definitions for the AnonGroupSymbol class." alt="" coords="63,80,234,107"/>
 <area shape="rect" id="node3" href="$_dependency_group_symbol_8cpp.html" title="Definitions for the DependencyGroupSymbol class." alt="" coords="359,162,578,189"/>
-<area shape="rect" id="node4" href="$_dependency_group_symbol_8h.html" title="Declarations for the DependencyGroupSymbol class." alt="" coords="506,80,709,107"/>
+<area shape="rect" id="node4" href="$_dependency_group_symbol_8h.html" title="Declarations for the DependencyGroupSymbol class." alt="" coords="510,80,713,107"/>
 <area shape="rect" id="node5" href="$_symbol_8cpp.html" title="Definitions for the Symbol class." alt="" coords="566,244,665,271"/>
 <area shape="rect" id="node6" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="715,244,769,271"/>
 <area shape="rect" id="node8" href="$_derived_table_symbol_8h.html" title="Declarations for the DerivedTableSymbol class." alt="" coords="117,162,285,189"/>
-<area shape="rect" id="node11" href="$_entity_table_symbol_8h.html" title="Declares the EntityTableSymbol derived class of the Symbol class." alt="" coords="1279,80,1434,107"/>
+<area shape="rect" id="node11" href="$_entity_table_symbol_8h.html" title="Declares the EntityTableSymbol derived class of the Symbol class." alt="" coords="1209,80,1363,107"/>
 <area shape="rect" id="node19" href="$_table_symbol_8cpp.html" title="Definitions for the TableSymbol class." alt="" coords="1727,162,1859,189"/>
 <area shape="rect" id="node20" href="$omc__missing__documentation_8cpp.html" title="Function which emits warnings for missing model documentation." alt="" coords="1883,162,2123,189"/>
 <area shape="rect" id="node21" href="$omc__model__doc_8cpp.html" title="Function to create Model doc." alt="" coords="2147,162,2302,189"/>
 <area shape="rect" id="node22" href="$omc__model__metrics_8cpp.html" title="Function to create Model Metrics Report." alt="" coords="2326,162,2507,189"/>
-<area shape="rect" id="node23" href="$_measure_dimension_symbol_8h.html" title="Definitions for the MeasureDimensionSymbol class." alt="" coords="733,80,943,107"/>
-<area shape="rect" id="node24" href="$_model_symbol_8cpp.html" title="Definitions for the ModelSymbol class." alt="" coords="1661,80,1799,107"/>
-<area shape="rect" id="node25" href="$_table_group_symbol_8cpp.html" title="Definitions for the TableGroupSymbol class." alt="" coords="1823,80,1994,107"/>
+<area shape="rect" id="node23" href="$_measure_dimension_symbol_8h.html" title="Definitions for the MeasureDimensionSymbol class." alt="" coords="737,80,947,107"/>
+<area shape="rect" id="node24" href="$_model_symbol_8cpp.html" title="Definitions for the ModelSymbol class." alt="" coords="1590,80,1729,107"/>
+<area shape="rect" id="node25" href="$_table_group_symbol_8cpp.html" title="Definitions for the TableGroupSymbol class." alt="" coords="1753,80,1923,107"/>
+<area shape="rect" id="node26" href="$omc_8cpp.html" title="OpenM++ compiler (omc): main entry point." alt="" coords="1947,80,2025,107"/>
 <area shape="rect" id="node7" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="688,319,796,345"/>
 <area shape="rect" id="node9" href="$_derived_table_symbol_8cpp.html" title="Definitions for the DerivedTableSymbol class." alt="" coords="5,244,188,271"/>
 <area shape="rect" id="node10" href="$_table_measure_symbol_8cpp.html" title="Definitions for the TableMeasureSymbol class." alt="" coords="212,244,400,271"/>

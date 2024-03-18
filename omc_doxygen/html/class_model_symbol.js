@@ -1,6 +1,7 @@
 var class_model_symbol =
 [
     [ "cxx_definition_global", "class_model_symbol.html#aca526e4f6b24129d1cdbe66293e1fdd4", null ],
+    [ "default_label", "class_model_symbol.html#abcaa936da9843310438002e66ccbfc67", null ],
     [ "is_base_symbol", "class_model_symbol.html#afe936790d48d9d46cf6ffe8377716dd2", null ],
     [ "populate_metadata", "class_model_symbol.html#ae16d6fde8b65f4ed221ae8c50a2b7dd4", null ],
     [ "post_parse", "class_model_symbol.html#aa3bae1f543ee2e9c0fd4778da2ce48e3", null ],

@@ -185,6 +185,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abf7d18b5e66898797957df8b6957e909 inherit pub_methods_class_symbol"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#abf7d18b5e66898797957df8b6957e909">is_published</a> () const</td></tr>
 <tr class="memdesc:abf7d18b5e66898797957df8b6957e909 inherit pub_methods_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if this object is published to the database.  <a href="class_symbol.html#abf7d18b5e66898797957df8b6957e909">More...</a><br /></td></tr>
 <tr class="separator:abf7d18b5e66898797957df8b6957e909 inherit pub_methods_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a530c722b2b87db52236f15ed9e4bfe2d inherit pub_methods_class_symbol"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a530c722b2b87db52236f15ed9e4bfe2d">dot_name</a> () const</td></tr>
+<tr class="memdesc:a530c722b2b87db52236f15ed9e4bfe2d inherit pub_methods_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns unique_name with "::" replaced by ".".  <a href="class_symbol.html#a530c722b2b87db52236f15ed9e4bfe2d">More...</a><br /></td></tr>
+<tr class="separator:a530c722b2b87db52236f15ed9e4bfe2d inherit pub_methods_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a853e058373c0809bc29f2a20e6998e8b inherit pub_methods_class_symbol"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_code_block.html">CodeBlock</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a853e058373c0809bc29f2a20e6998e8b">injection_description</a> ()</td></tr>
 <tr class="memdesc:a853e058373c0809bc29f2a20e6998e8b inherit pub_methods_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Description of code injection into side-effect function.  <a href="class_symbol.html#a853e058373c0809bc29f2a20e6998e8b">More...</a><br /></td></tr>
 <tr class="separator:a853e058373c0809bc29f2a20e6998e8b inherit pub_methods_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -343,6 +346,10 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>default_sort_p
 static void&#160;</td><td class="memItemRight" valign="bottom"><b>do_module_provenance</b> (void)</td></tr>
 <tr class="memdesc:a0c5fe22587cbd452fd136920f8d5023f inherit pub_static_methods_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assign provenance of ModuleSymbols. <br /></td></tr>
 <tr class="separator:a0c5fe22587cbd452fd136920f8d5023f inherit pub_static_methods_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9563bcc29b77c23baf4c4fbc9436b09a inherit pub_static_methods_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="a9563bcc29b77c23baf4c4fbc9436b09a" name="a9563bcc29b77c23baf4c4fbc9436b09a"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>create_missing_global_funcs</b> (void)</td></tr>
+<tr class="memdesc:a9563bcc29b77c23baf4c4fbc9436b09a inherit pub_static_methods_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create missing global functions. <br /></td></tr>
+<tr class="separator:a9563bcc29b77c23baf4c4fbc9436b09a inherit pub_static_methods_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca61645e17098ea674345702860553a4 inherit pub_static_methods_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="aca61645e17098ea674345702860553a4" name="aca61645e17098ea674345702860553a4"></a>
 static void&#160;</td><td class="memItemRight" valign="bottom"><b>do_unrecognized_options</b> ()</td></tr>
 <tr class="memdesc:aca61645e17098ea674345702860553a4 inherit pub_static_methods_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Look for and handle unrecognized options after post-parse phases. <br /></td></tr>
@@ -471,6 +478,18 @@ set&lt; <a class="el" href="class_global_func_symbol.html">GlobalFuncSymbol</a> 
 set&lt; <a class="el" href="class_identity_attribute_symbol.html">IdentityAttributeSymbol</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>pp_identity_attributes_using</b></td></tr>
 <tr class="memdesc:aa4f9bfd5949081c39e4807cf81752815 inherit pub_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">All <a class="el" href="class_identity_attribute_symbol.html" title="IdentityAttributeSymbol.">IdentityAttributeSymbol</a> which use this <a class="el" href="class_symbol.html" title="A Symbol is a named syntactic entity in openM++.">Symbol</a>. <br /></td></tr>
 <tr class="separator:aa4f9bfd5949081c39e4807cf81752815 inherit pub_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a789b2fd773f960b8cc026a9c7e102f0a inherit pub_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="a789b2fd773f960b8cc026a9c7e102f0a" name="a789b2fd773f960b8cc026a9c7e102f0a"></a>
+set&lt; <a class="el" href="class_derived_attribute_symbol.html">DerivedAttributeSymbol</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>pp_derived_attributes_using</b></td></tr>
+<tr class="memdesc:a789b2fd773f960b8cc026a9c7e102f0a inherit pub_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">All <a class="el" href="class_derived_attribute_symbol.html" title="DerivedAttributeSymbol.">DerivedAttributeSymbol</a> which use this <a class="el" href="class_symbol.html" title="A Symbol is a named syntactic entity in openM++.">Symbol</a>. <br /></td></tr>
+<tr class="separator:a789b2fd773f960b8cc026a9c7e102f0a inherit pub_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8764a7db4f9f3c6dba6cfdf913f91a52 inherit pub_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="a8764a7db4f9f3c6dba6cfdf913f91a52" name="a8764a7db4f9f3c6dba6cfdf913f91a52"></a>
+set&lt; <a class="el" href="class_entity_table_symbol.html">EntityTableSymbol</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>pp_entity_tables_using</b></td></tr>
+<tr class="memdesc:a8764a7db4f9f3c6dba6cfdf913f91a52 inherit pub_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">All <a class="el" href="class_entity_table_symbol.html" title="EntityTableSymbol.">EntityTableSymbol</a> which use this <a class="el" href="class_symbol.html" title="A Symbol is a named syntactic entity in openM++.">Symbol</a>. <br /></td></tr>
+<tr class="separator:a8764a7db4f9f3c6dba6cfdf913f91a52 inherit pub_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4780dce2498b21a3cf1eac73c7f9e278 inherit pub_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="a4780dce2498b21a3cf1eac73c7f9e278" name="a4780dce2498b21a3cf1eac73c7f9e278"></a>
+set&lt; <a class="el" href="class_entity_set_symbol.html">EntitySetSymbol</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>pp_entity_sets_using</b></td></tr>
+<tr class="memdesc:a4780dce2498b21a3cf1eac73c7f9e278 inherit pub_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">All <a class="el" href="class_entity_set_symbol.html" title="EntitySetSymbol.">EntitySetSymbol</a> which use this <a class="el" href="class_symbol.html" title="A Symbol is a named syntactic entity in openM++.">Symbol</a>. <br /></td></tr>
+<tr class="separator:a4780dce2498b21a3cf1eac73c7f9e278 inherit pub_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -620,6 +639,10 @@ static map&lt; string, <a class="el" href="classomc_1_1location.html">omc::locat
 static multimap&lt; int, string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>rng_stream_calls</b></td></tr>
 <tr class="memdesc:a5247a463f26957f1596d90b3115194f7 inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multimap of rng stream to code location of call. <br /></td></tr>
 <tr class="separator:a5247a463f26957f1596d90b3115194f7 inherit pub_static_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25d523fe9298da79eaabe251084ddd32 inherit pub_static_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="a25d523fe9298da79eaabe251084ddd32" name="a25d523fe9298da79eaabe251084ddd32"></a>
+static set&lt; <a class="el" href="class_global_func_symbol.html">GlobalFuncSymbol</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>pp_missing_global_funcs</b></td></tr>
+<tr class="memdesc:a25d523fe9298da79eaabe251084ddd32 inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set of global funcs which need a declaration or definition. <br /></td></tr>
+<tr class="separator:a25d523fe9298da79eaabe251084ddd32 inherit pub_static_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99db9cc112083118293ccae041725bc2 inherit pub_static_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_symbol_8h.html#aba4288020d247fd687c120148c968c7a">comment_map_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a99db9cc112083118293ccae041725bc2">cxx_comments</a></td></tr>
 <tr class="memdesc:a99db9cc112083118293ccae041725bc2 inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">A map of all the C++ style single line comments in the model source code, indexed by location.  <a href="class_symbol.html#a99db9cc112083118293ccae041725bc2">More...</a><br /></td></tr>
 <tr class="separator:a99db9cc112083118293ccae041725bc2 inherit pub_static_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -632,6 +655,9 @@ static multimap&lt; int, string &gt;&#160;</td><td class="memItemRight" valign="
 <tr class="memitem:a43b2031c57331acaaf5fc069efb3b77f inherit pub_static_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top">static unordered_map&lt; string, pair&lt; string, <a class="el" href="classomc_1_1location.html">omc::location</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a43b2031c57331acaaf5fc069efb3b77f">explicit_names</a></td></tr>
 <tr class="memdesc:a43b2031c57331acaaf5fc069efb3b77f inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map of NAME from symbol name to short name.  <a href="class_symbol.html#a43b2031c57331acaaf5fc069efb3b77f">More...</a><br /></td></tr>
 <tr class="separator:a43b2031c57331acaaf5fc069efb3b77f inherit pub_static_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af689944c9c7ce79f7bb3e4609f3fb6fd inherit pub_static_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top">static unordered_map&lt; string, pair&lt; string, <a class="el" href="classomc_1_1location.html">omc::location</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#af689944c9c7ce79f7bb3e4609f3fb6fd">explicit_exprs</a></td></tr>
+<tr class="memdesc:af689944c9c7ce79f7bb3e4609f3fb6fd inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map of EXPR from symbol name to expression (for derived tables).  <a href="class_symbol.html#af689944c9c7ce79f7bb3e4609f3fb6fd">More...</a><br /></td></tr>
+<tr class="separator:af689944c9c7ce79f7bb3e4609f3fb6fd inherit pub_static_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a8490a28c86256094f6cc8d85d48c79 inherit pub_static_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top">static unordered_map&lt; string, pair&lt; string, <a class="el" href="classomc_1_1location.html">omc::location</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a0a8490a28c86256094f6cc8d85d48c79">notes_source</a></td></tr>
 <tr class="memdesc:a0a8490a28c86256094f6cc8d85d48c79 inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map of NOTE from symbol name to note (model source)  <a href="class_symbol.html#a0a8490a28c86256094f6cc8d85d48c79">More...</a><br /></td></tr>
 <tr class="separator:a0a8490a28c86256094f6cc8d85d48c79 inherit pub_static_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -955,8 +981,8 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><b>option_symref_
 <tr class="memdesc:a501938f3be6cd79aa29d4126271a8176 inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">true to turn on most other option_symref_* options. <br /></td></tr>
 <tr class="separator:a501938f3be6cd79aa29d4126271a8176 inherit pub_static_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e8099221c6d2d66242dda92312d30d7 inherit pub_static_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="a1e8099221c6d2d66242dda92312d30d7" name="a1e8099221c6d2d66242dda92312d30d7"></a>
-static bool&#160;</td><td class="memItemRight" valign="bottom"><b>option_symref_unpublished_symbols</b> = false</td></tr>
-<tr class="memdesc:a1e8099221c6d2d66242dda92312d30d7 inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">true to include unpublished symbols in symbol reference. <br /></td></tr>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><b>option_symref_unpublished_symbols</b> = true</td></tr>
+<tr class="memdesc:a1e8099221c6d2d66242dda92312d30d7 inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">false to exclude unpublished symbols in symbol reference. <br /></td></tr>
 <tr class="separator:a1e8099221c6d2d66242dda92312d30d7 inherit pub_static_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a55ccb74d8a3cc5455cf8c36e694cd6 inherit pub_static_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="a2a55ccb74d8a3cc5455cf8c36e694cd6" name="a2a55ccb74d8a3cc5455cf8c36e694cd6"></a>
 static bool&#160;</td><td class="memItemRight" valign="bottom"><b>option_symref_main_topic</b> = true</td></tr>
@@ -994,6 +1020,10 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><b>option_symref_
 static bool&#160;</td><td class="memItemRight" valign="bottom"><b>option_symref_enumerations_alphabetic</b> = true</td></tr>
 <tr class="memdesc:ae4c6ec083623f83a1475ac2cd875437e inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">true to include in symbol reference the enumerations alphabetic list topic. <br /></td></tr>
 <tr class="separator:ae4c6ec083623f83a1475ac2cd875437e inherit pub_static_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ce8e23a4002d6c92846871f9a2b4a94 inherit pub_static_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="a4ce8e23a4002d6c92846871f9a2b4a94" name="a4ce8e23a4002d6c92846871f9a2b4a94"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><b>option_symref_attributes_alphabetic</b> = true</td></tr>
+<tr class="memdesc:a4ce8e23a4002d6c92846871f9a2b4a94 inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">true to include in symbol reference the attributes alphabetic list topic. <br /></td></tr>
+<tr class="separator:a4ce8e23a4002d6c92846871f9a2b4a94 inherit pub_static_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3bd1a22a810b3cc24156273945884f5b inherit pub_static_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="a3bd1a22a810b3cc24156273945884f5b" name="a3bd1a22a810b3cc24156273945884f5b"></a>
 static bool&#160;</td><td class="memItemRight" valign="bottom"><b>option_symref_topic_parameters</b> = true</td></tr>
 <tr class="memdesc:a3bd1a22a810b3cc24156273945884f5b inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">true to include in symbol reference individual parameter topics. <br /></td></tr>
@@ -1002,12 +1032,24 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><b>option_symref_
 static bool&#160;</td><td class="memItemRight" valign="bottom"><b>option_symref_topic_tables</b> = true</td></tr>
 <tr class="memdesc:a3fe18171a6beb6b325ea16aade131c90 inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">true to include in symbol reference individual table topics. <br /></td></tr>
 <tr class="separator:a3fe18171a6beb6b325ea16aade131c90 inherit pub_static_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6eac9e092a89cd1f8f9d8e1a73b5db6d inherit pub_static_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="a6eac9e092a89cd1f8f9d8e1a73b5db6d" name="a6eac9e092a89cd1f8f9d8e1a73b5db6d"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><b>option_symref_topic_attributes</b> = true</td></tr>
+<tr class="memdesc:a6eac9e092a89cd1f8f9d8e1a73b5db6d inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">true to include in symbol reference individual attribute topics. <br /></td></tr>
+<tr class="separator:a6eac9e092a89cd1f8f9d8e1a73b5db6d inherit pub_static_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c81025d4251c56a7e1eb29cb066b98c inherit pub_static_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="a5c81025d4251c56a7e1eb29cb066b98c" name="a5c81025d4251c56a7e1eb29cb066b98c"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><b>option_symref_topic_attributes_internal</b> = true</td></tr>
+<tr class="memdesc:a5c81025d4251c56a7e1eb29cb066b98c inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">true to include in symbol reference individual internal attribute topics. <br /></td></tr>
+<tr class="separator:a5c81025d4251c56a7e1eb29cb066b98c inherit pub_static_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c202980aca4739a2af3c3cb4bb8fb5f inherit pub_static_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="a4c202980aca4739a2af3c3cb4bb8fb5f" name="a4c202980aca4739a2af3c3cb4bb8fb5f"></a>
 static bool&#160;</td><td class="memItemRight" valign="bottom"><b>option_symref_topic_enumerations</b> = true</td></tr>
 <tr class="memdesc:a4c202980aca4739a2af3c3cb4bb8fb5f inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">true to include in symbol reference individual enumeration topics. <br /></td></tr>
 <tr class="separator:a4c202980aca4739a2af3c3cb4bb8fb5f inherit pub_static_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a009299404339bd9d44805704a241fbe2 inherit pub_static_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="a009299404339bd9d44805704a241fbe2" name="a009299404339bd9d44805704a241fbe2"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><b>option_symref_topic_entity_sets</b> = true</td></tr>
+<tr class="memdesc:a009299404339bd9d44805704a241fbe2 inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">true to include in symbol reference individual mentity set topics. <br /></td></tr>
+<tr class="separator:a009299404339bd9d44805704a241fbe2 inherit pub_static_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f8c76deaf5eacc3fc086a11cceb9faf inherit pub_static_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="a7f8c76deaf5eacc3fc086a11cceb9faf" name="a7f8c76deaf5eacc3fc086a11cceb9faf"></a>
-static bool&#160;</td><td class="memItemRight" valign="bottom"><b>option_symref_topic_modules</b> = false</td></tr>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><b>option_symref_topic_modules</b> = true</td></tr>
 <tr class="memdesc:a7f8c76deaf5eacc3fc086a11cceb9faf inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">true to include in symbol reference individual module topics. <br /></td></tr>
 <tr class="separator:a7f8c76deaf5eacc3fc086a11cceb9faf inherit pub_static_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb19ee5fc59400a29e0deb1cd7ef3749 inherit pub_static_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="adb19ee5fc59400a29e0deb1cd7ef3749" name="adb19ee5fc59400a29e0deb1cd7ef3749"></a>
@@ -1022,6 +1064,14 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><b>option_symref_
 static bool&#160;</td><td class="memItemRight" valign="bottom"><b>option_symref_topic_notes</b> = true</td></tr>
 <tr class="memdesc:a5b213b8330c3c7a99627c74f37deb91f inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">true to include in symbol reference any authored NOTEs. <br /></td></tr>
 <tr class="separator:a5b213b8330c3c7a99627c74f37deb91f inherit pub_static_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11347a218a42c78b5b3692929863705e inherit pub_static_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="a11347a218a42c78b5b3692929863705e" name="a11347a218a42c78b5b3692929863705e"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><b>option_symref_topic_notes_early</b> = true</td></tr>
+<tr class="memdesc:a11347a218a42c78b5b3692929863705e inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">true to place notes early in an individual symbol topic. <br /></td></tr>
+<tr class="separator:a11347a218a42c78b5b3692929863705e inherit pub_static_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9aff63607f77cab4a53f259ca152d6ce inherit pub_static_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="a9aff63607f77cab4a53f259ca152d6ce" name="a9aff63607f77cab4a53f259ca152d6ce"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><b>option_symref_topic_note_heading</b> = true</td></tr>
+<tr class="memdesc:a9aff63607f77cab4a53f259ca152d6ce inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">true to show the Note heading in an individual symbol topic <br /></td></tr>
+<tr class="separator:a9aff63607f77cab4a53f259ca152d6ce inherit pub_static_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e6f177ea393455bd2e736dbcfb4d93c inherit pub_static_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="a9e6f177ea393455bd2e736dbcfb4d93c" name="a9e6f177ea393455bd2e736dbcfb4d93c"></a>
 static bool&#160;</td><td class="memItemRight" valign="bottom"><b>option_alternate_attribute_dependency_implementation</b> = false</td></tr>
 <tr class="memdesc:a9e6f177ea393455bd2e736dbcfb4d93c inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">true or false depending on alternate_attribute_dependency_implementation in options statement. <br /></td></tr>
@@ -1159,7 +1209,7 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><b>trace_scanning
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_link_to_attribute_symbol.html">LinkToAttributeSymbol</a></li>
-    <li class="footer">Generated on Fri Feb 16 2024 20:53:32 for OpenM++ compiler (omc) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Mon Mar 18 2024 17:01:15 for OpenM++ compiler (omc) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>
