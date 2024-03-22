@@ -59,5 +59,6 @@ var class_entity_symbol =
     [ "ss_event", "class_entity_symbol.html#ad43e1e9e28bd28745fddc094d33fcbfb", null ],
     [ "ss_implement_fn", "class_entity_symbol.html#aae93a836b7aef8584af2eb3c512e2f80", null ],
     [ "ss_time_fn", "class_entity_symbol.html#af8b2add287b458f30ce388c1814496ad", null ],
-    [ "start_trace_fn", "class_entity_symbol.html#a69e3f17c632d93f715ca854b1d050ee9", null ]
+    [ "start_trace_fn", "class_entity_symbol.html#a69e3f17c632d93f715ca854b1d050ee9", null ],
+    [ "write_microdata_fn", "class_entity_symbol.html#a513fa902207cae89c80e20217ccde049", null ]
 ];

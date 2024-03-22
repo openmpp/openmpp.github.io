@@ -1,5 +1,10 @@
 var class_entity_table_symbol =
 [
+    [ "table_kind", "class_entity_table_symbol.html#a4e249476cdafe752eb7f451d841d372b", [
+      [ "classic", "class_entity_table_symbol.html#a4e249476cdafe752eb7f451d841d372baf3d64714d1f6e7f71558d4252e84ab58", null ],
+      [ "duration", "class_entity_table_symbol.html#a4e249476cdafe752eb7f451d841d372bab85ec314bf443b797ef8a66b3b03f8a4", null ],
+      [ "snapshot", "class_entity_table_symbol.html#a4e249476cdafe752eb7f451d841d372bac322d3de29d2b0c5e2e011dad5e77df2", null ]
+    ] ],
     [ "accumulator_count", "class_entity_table_symbol.html#ae812dd8319ba07ec2f29f2933b0a6379", null ],
     [ "build_body_current_cell", "class_entity_table_symbol.html#a3c830de9d13d2d1bb9f7aca415a452a0", null ],
     [ "build_body_init_increment", "class_entity_table_symbol.html#af4b909981642ac67b585280678bb440b", null ],
@@ -18,6 +23,8 @@ var class_entity_table_symbol =
     [ "increment", "class_entity_table_symbol.html#a0697940ecc687dfe98db8836d217db6f", null ],
     [ "increments_gvn", "class_entity_table_symbol.html#ab744fb9042d48305348a46c7c18e2eca", null ],
     [ "init_increment_fn", "class_entity_table_symbol.html#a784168cb268742fc359ede71b96c1ba3", null ],
+    [ "is_unweighted", "class_entity_table_symbol.html#ad1d002263ed2984cbdbb8088dfd58041", null ],
+    [ "kind", "class_entity_table_symbol.html#a023825dad52bfa5b3d881d028cfee95b", null ],
     [ "n_collections", "class_entity_table_symbol.html#a86076513f79fd07fc4b46d55d5487b22", null ],
     [ "pp_accumulators", "class_entity_table_symbol.html#afdea0e15c0eb39576a1181291c03241c", null ],
     [ "pp_entity", "class_entity_table_symbol.html#a85aa690614209af5474855d02561f5c3", null ],
