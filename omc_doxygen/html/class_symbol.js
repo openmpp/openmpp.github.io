@@ -13,6 +13,11 @@ var class_symbol =
       [ "eMissingStreamArgument", "class_symbol.html#aaf315d370a26ccdb2e8883f4d099c31ea17d7fe70dcd5df1764f3d9e0c06fe8fe", null ],
       [ "eInvalidStreamArgument", "class_symbol.html#aaf315d370a26ccdb2e8883f4d099c31ea2be737b186d334ceb1efa8bc830d298f", null ]
     ] ],
+    [ "run_table_method", "class_symbol.html#a9f80860242e44df5ffe063277cd3d079", [
+      [ "average", "class_symbol.html#a9f80860242e44df5ffe063277cd3d079acd95889aad2094f6efc65d0442bdefbc", null ],
+      [ "aggregate", "class_symbol.html#a9f80860242e44df5ffe063277cd3d079a3b9277ac4b3fe2543d9d2e2dde5bf387", null ],
+      [ "assemble", "class_symbol.html#a9f80860242e44df5ffe063277cd3d079a705b730585e7e7d74c827a535ca8641f", null ]
+    ] ],
     [ "Symbol", "class_symbol.html#a14714ce4c9ce30d4ad07579826a0d058", null ],
     [ "Symbol", "class_symbol.html#aade85b42dca7a2ed2902877e7474ddd1", null ],
     [ "Symbol", "class_symbol.html#a14c3c68ba333c6d3d7f365379690d1d8", null ],
@@ -46,6 +51,8 @@ var class_symbol =
     [ "process_symbol_label", "class_symbol.html#a1201b50aabd1afd14d1895d408c1d7c6", null ],
     [ "stable_pp", "class_symbol.html#a87b027a9938d886d9d729db412be091d", null ],
     [ "stable_rp", "class_symbol.html#a2f11dad3fb62639bf955224e80967414", null ],
+    [ "builtin_alingual_label", "class_symbol.html#af45dc524cc09684b9e6f7f075305cefe", null ],
+    [ "builtin_english_label", "class_symbol.html#a94d61c351324571777c10c9fb45427da", null ],
     [ "code_label_allowed", "class_symbol.html#a5e262ad05ffa77efbcfc3d2d27ae6f23", null ],
     [ "code_order", "class_symbol.html#a3e6310f70d9163d9653f16d5c906b550", null ],
     [ "decl_loc", "class_symbol.html#a3f4b455d4a56cfe9eb8dcf334a02333a", null ],

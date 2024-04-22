@@ -5,7 +5,7 @@ var searchData=
   ['max_5ferror_5fcount_2',['max_error_count',['../class_symbol.html#a699b189cfc305bec8b2db5fe9b090d77',1,'Symbol']]],
   ['max_5fgvn_3',['max_gvn',['../class_entity_set_symbol.html#a6509ad4112f034f3ba5868595c15dd58',1,'EntitySetSymbol']]],
   ['measure_5fdimension_4',['measure_dimension',['../class_table_symbol.html#ac04b7b85ec7e8799976e96acac10d440',1,'TableSymbol']]],
-  ['measures_5fare_5faggregated_5',['measures_are_aggregated',['../class_symbol.html#a86ad8174f31a7310124499c4ba94d032',1,'Symbol']]],
+  ['measures_5fmethod_5',['measures_method',['../class_symbol.html#a6b9d355a4909b6bc99f3996edb0689ff',1,'Symbol']]],
   ['measures_5fposition_6',['measures_position',['../class_table_symbol.html#aeec7c9e56a5df4188463e54a1b56d3fe',1,'TableSymbol']]],
   ['memory_5fmb_5fconstant_5fper_5finstance_7',['memory_MB_constant_per_instance',['../class_model_symbol.html#a9790c213af9f8efd862b7b3c8c02e9d8',1,'ModelSymbol']]],
   ['memory_5fmb_5fconstant_5fper_5fsub_8',['memory_MB_constant_per_sub',['../class_model_symbol.html#adaec9bf0803d5d43b393a244c024bd24',1,'ModelSymbol']]],

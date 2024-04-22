@@ -48,6 +48,6 @@ var searchData=
   ['is_5fscenario_5fparameter_5fvalue_45',['is_scenario_parameter_value',['../class_parse_context.html#aff932bcf7572ad1fffe2f31d5aa04ac1',1,'ParseContext']]],
   ['is_5fsuppressed_5ftable_46',['is_suppressed_table',['../class_parameter_symbol.html#ae30e31bf5ec297f7f32f3db4117d144b',1,'ParameterSymbol::is_suppressed_table()'],['../class_table_symbol.html#a84b75818b573857714b429674b0d7394',1,'TableSymbol::is_suppressed_table()']]],
   ['is_5ftime_5flike_47',['is_time_like',['../class_attribute_symbol.html#a717a9d5fcdd547eb68480844e31b459b',1,'AttributeSymbol']]],
-  ['is_5funweighted_48',['is_unweighted',['../class_entity_table_symbol.html#ad1d002263ed2984cbdbb8088dfd58041',1,'EntityTableSymbol']]],
+  ['is_5funtransformed_48',['is_untransformed',['../class_entity_table_symbol.html#aebe606c98667c0ce8689ef97dc1bf917',1,'EntityTableSymbol']]],
   ['island_5fline_5fcount_49',['island_line_count',['../class_parse_context.html#a967262168cebcc93c36913154f1b7cfd',1,'ParseContext']]]
 ];

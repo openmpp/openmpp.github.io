@@ -1,10 +1,10 @@
 var class_table_measure_symbol =
 [
     [ "heuristic_short_name", "class_table_measure_symbol.html#a64af6c1bb7c25f9640d985ddb76a6366", null ],
-    [ "is_base_symbol", "class_table_measure_symbol.html#ab48d7fcbc98285c4bb1b3516e8197125", null ],
+    [ "is_base_symbol", "class_table_measure_symbol.html#a1bff61ac9251fdaad8d54f7e428565f3", null ],
     [ "is_published", "class_table_measure_symbol.html#afa8008a2f2dff6ce28e324870272879a", null ],
-    [ "post_parse", "class_table_measure_symbol.html#a3c214c328dfd5768fd107c7eca8b661d", null ],
-    [ "pretty_name", "class_table_measure_symbol.html#a05f97c577384e81a36943c3ee570c331", null ],
+    [ "post_parse", "class_table_measure_symbol.html#a93757fbdbd94b2956754bbe8c5af7678", null ],
+    [ "pretty_name", "class_table_measure_symbol.html#a51e0fdf77025442f50fcfbd76ab0a5fa", null ],
     [ "scale_as_factor", "class_table_measure_symbol.html#aa03e6b94c61b7327c5594bc04d6be391", null ],
     [ "decimals", "class_table_measure_symbol.html#ac13ca6d122cff59f61ec29f72edc305c", null ],
     [ "index", "class_table_measure_symbol.html#a6423f6b9b501bd96141ca8bbd48bdb7e", null ],

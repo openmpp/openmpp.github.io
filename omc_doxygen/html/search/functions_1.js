@@ -18,11 +18,12 @@ var searchData=
   ['build_5fbody_5finitialize_5fevents_15',['build_body_initialize_events',['../class_entity_symbol.html#a1821f77f4d93c6df1b91848f97b58f72',1,'EntitySymbol']]],
   ['build_5fbody_5finitialize_5ftables_16',['build_body_initialize_tables',['../class_entity_symbol.html#ad3db9f80d653c0e20a8e4995df4ffa5d',1,'EntitySymbol']]],
   ['build_5fbody_5finsert_17',['build_body_insert',['../class_entity_set_symbol.html#a97603a258eae88743742baad15c01835',1,'EntitySetSymbol']]],
-  ['build_5fbody_5fpush_5fincrement_18',['build_body_push_increment',['../class_entity_table_symbol.html#a50822b0b1b26ce1fd9e10a18e04fe943',1,'EntityTableSymbol']]],
-  ['build_5fbody_5fstart_5ftrace_19',['build_body_start_trace',['../class_entity_symbol.html#a101f14908e61e7cc29f792c18e132533',1,'EntitySymbol']]],
-  ['build_5fbody_5fupdate_5fcell_20',['build_body_update_cell',['../class_entity_set_symbol.html#aa0d5190dadf39cae2eccf3141522918c',1,'EntitySetSymbol']]],
-  ['build_5fevent_5fdependencies_5fcsv_21',['build_event_dependencies_csv',['../class_symbol.html#a504dcaba6052ff82263eb2882c7ad15e',1,'Symbol']]],
-  ['build_5fimports_5fcsv_22',['build_imports_csv',['../class_symbol.html#a27ab595aecb3aa01768283f4fa929b3b',1,'Symbol']]],
-  ['build_5fname_5fcode_23',['build_NAME_code',['../class_symbol.html#a61354154ca13aff803396ce791c0edfd',1,'Symbol']]],
-  ['builtinattributesymbol_24',['BuiltinAttributeSymbol',['../class_builtin_attribute_symbol.html#a0c3c8f1abc72dc7e5dfe07b7f32434ba',1,'BuiltinAttributeSymbol::BuiltinAttributeSymbol(const string member_name, const Symbol *ent, const Symbol *type)'],['../class_builtin_attribute_symbol.html#a0f696d32457f510cbeb6c72b5fec3a3b',1,'BuiltinAttributeSymbol::BuiltinAttributeSymbol(Symbol *sym, const Symbol *ent, const Symbol *type)']]]
+  ['build_5fbody_5flifecycle_5fevent_18',['build_body_lifecycle_event',['../class_entity_symbol.html#a12055995cdc57f382d67fbd264f0be71',1,'EntitySymbol']]],
+  ['build_5fbody_5fpush_5fincrement_19',['build_body_push_increment',['../class_entity_table_symbol.html#a50822b0b1b26ce1fd9e10a18e04fe943',1,'EntityTableSymbol']]],
+  ['build_5fbody_5fstart_5ftrace_20',['build_body_start_trace',['../class_entity_symbol.html#a101f14908e61e7cc29f792c18e132533',1,'EntitySymbol']]],
+  ['build_5fbody_5fupdate_5fcell_21',['build_body_update_cell',['../class_entity_set_symbol.html#aa0d5190dadf39cae2eccf3141522918c',1,'EntitySetSymbol']]],
+  ['build_5fevent_5fdependencies_5fcsv_22',['build_event_dependencies_csv',['../class_symbol.html#a504dcaba6052ff82263eb2882c7ad15e',1,'Symbol']]],
+  ['build_5fimports_5fcsv_23',['build_imports_csv',['../class_symbol.html#a27ab595aecb3aa01768283f4fa929b3b',1,'Symbol']]],
+  ['build_5fname_5fcode_24',['build_NAME_code',['../class_symbol.html#a61354154ca13aff803396ce791c0edfd',1,'Symbol']]],
+  ['builtinattributesymbol_25',['BuiltinAttributeSymbol',['../class_builtin_attribute_symbol.html#a0c3c8f1abc72dc7e5dfe07b7f32434ba',1,'BuiltinAttributeSymbol::BuiltinAttributeSymbol(const string member_name, const Symbol *ent, const Symbol *type)'],['../class_builtin_attribute_symbol.html#a0f696d32457f510cbeb6c72b5fec3a3b',1,'BuiltinAttributeSymbol::BuiltinAttributeSymbol(Symbol *sym, const Symbol *ent, const Symbol *type)']]]
 ];

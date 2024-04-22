@@ -28,7 +28,7 @@ var searchData=
   ['sub_5fsub_5fminor_25',['sub_sub_minor',['../class_version_symbol.html#ae93e1dbdcf162475bc933956e4982a72',1,'VersionSymbol']]],
   ['suffixes_26',['suffixes',['../class_special_global.html#afc3907bac22fa8dac533f267aca67d00',1,'SpecialGlobal']]],
   ['suppress_5fcode_5fif_5fempty_27',['suppress_code_if_empty',['../class_entity_func_symbol.html#ac0492bbe1e8cadc33ade88bc657b7826',1,'EntityFuncSymbol']]],
-  ['suppress_5fdecl_28',['suppress_decl',['../class_global_func_symbol.html#ad441f85238c1e144d2e857740f9a94b0',1,'GlobalFuncSymbol']]],
+  ['suppress_5fdecl_28',['suppress_decl',['../class_entity_func_symbol.html#a480580c6eb6216c2808c906c3f385a3c',1,'EntityFuncSymbol::suppress_decl()'],['../class_global_func_symbol.html#ad441f85238c1e144d2e857740f9a94b0',1,'GlobalFuncSymbol::suppress_decl()']]],
   ['suppress_5fdefn_29',['suppress_defn',['../class_entity_func_symbol.html#a51ce43d55207f019569c3e6f199dbdb1',1,'EntityFuncSymbol::suppress_defn()'],['../class_global_func_symbol.html#a1b8cd1cf6f4eb81db3651098e74622fc',1,'GlobalFuncSymbol::suppress_defn()']]],
   ['symbol_5flist_30',['symbol_list',['../class_aggregation_symbol.html#a2e35f0cf6fcbc0575e473f6fc6422128',1,'AggregationSymbol::symbol_list()'],['../class_group_symbol.html#a7b3b95df1efa96fe42557b3e54ddc203',1,'GroupSymbol::symbol_list()']]],
   ['symbols_31',['symbols',['../class_symbol.html#a3ca46151353103b7ee1a34416b9cd2c3',1,'Symbol']]],

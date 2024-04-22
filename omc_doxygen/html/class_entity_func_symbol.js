@@ -23,5 +23,6 @@ var class_entity_func_symbol =
     [ "rng_normal_streams", "class_entity_func_symbol.html#a8bfe528fbd44e6eb966f6c6061dc5da4", null ],
     [ "rng_streams", "class_entity_func_symbol.html#a5da33a09340bdbf64395379a298d42a5", null ],
     [ "suppress_code_if_empty", "class_entity_func_symbol.html#ac0492bbe1e8cadc33ade88bc657b7826", null ],
+    [ "suppress_decl", "class_entity_func_symbol.html#a480580c6eb6216c2808c906c3f385a3c", null ],
     [ "suppress_defn", "class_entity_func_symbol.html#a51ce43d55207f019569c3e6f199dbdb1", null ]
 ];

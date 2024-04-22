@@ -17,6 +17,6 @@ var class_entity_table_accumulator_symbol =
     [ "pp_table", "class_entity_table_accumulator_symbol.html#a5606881213849c69c0f8b9f64cae26c9", null ],
     [ "statistic", "class_entity_table_accumulator_symbol.html#a7823942983d7439d7df8461a56b3fb22", null ],
     [ "table", "class_entity_table_accumulator_symbol.html#a6cbdd46d7165380b3ba33bf5379496b0", null ],
-    [ "timing", "class_entity_table_accumulator_symbol.html#aded0d126318e2eaed5ae51fe020fe981", null ],
+    [ "tabop", "class_entity_table_accumulator_symbol.html#a9492b5723ec0701f757d821b221a6963", null ],
     [ "updates_obs_collection", "class_entity_table_accumulator_symbol.html#abbaf08d3833bed744a814d94111e2a63", null ]
 ];

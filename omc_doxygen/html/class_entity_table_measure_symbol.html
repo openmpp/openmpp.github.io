@@ -125,10 +125,14 @@ Collaboration diagram for EntityTableMeasureSymbol:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:adcc6487ff50a20e20f8032ecd3133dd4"><td class="memItemLeft" align="right" valign="top"><a id="adcc6487ff50a20e20f8032ecd3133dd4" name="adcc6487ff50a20e20f8032ecd3133dd4"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>expression_style</b> { <b>cxx</b>
-, <b>sql_aggregated_accumulators</b>
-, <b>sql_accumulators</b>
-, <b>table_syntax</b>
+<tr class="memitem:adcc6487ff50a20e20f8032ecd3133dd4"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_entity_table_measure_symbol.html#adcc6487ff50a20e20f8032ecd3133dd4">expression_style</a> { <br />
+&#160;&#160;<a class="el" href="class_entity_table_measure_symbol.html#adcc6487ff50a20e20f8032ecd3133dd4aeea55003092a1f17b40ca52fbc5ccb07">cxx</a>
+, <a class="el" href="class_entity_table_measure_symbol.html#adcc6487ff50a20e20f8032ecd3133dd4a5ffaca5f247d5057fd8f02221cd428b8">sql_accumulators</a>
+, <a class="el" href="class_entity_table_measure_symbol.html#adcc6487ff50a20e20f8032ecd3133dd4a0869c4ff88c0db9ad877a5b0fce21366">sql_aggregated_accumulators</a>
+, <a class="el" href="class_entity_table_measure_symbol.html#adcc6487ff50a20e20f8032ecd3133dd4a2a5dd9d40383375f26cea32af89db7aa">sql_assembled_accumulators</a>
+, <br />
+&#160;&#160;<a class="el" href="class_entity_table_measure_symbol.html#adcc6487ff50a20e20f8032ecd3133dd4affff34118e86517d449061009fc6d86e">table_syntax</a>
+<br />
  }</td></tr>
 <tr class="separator:adcc6487ff50a20e20f8032ecd3133dd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_types_class_symbol"><td colspan="2" onclick="javascript:toggleInherit('pub_types_class_symbol')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="class_symbol.html">Symbol</a></td></tr>
@@ -150,6 +154,12 @@ Public Types</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:a727eeadd13c4b96fa83938a0bec0309f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Values that represent a post-parse pass of all symbols.  <a href="class_symbol.html#a727eeadd13c4b96fa83938a0bec0309f">More...</a><br /></td></tr>
 <tr class="separator:a727eeadd13c4b96fa83938a0bec0309f inherit pub_types_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f80860242e44df5ffe063277cd3d079 inherit pub_types_class_symbol"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a9f80860242e44df5ffe063277cd3d079">run_table_method</a> { <a class="el" href="class_symbol.html#a9f80860242e44df5ffe063277cd3d079acd95889aad2094f6efc65d0442bdefbc">average</a>
+, <a class="el" href="class_symbol.html#a9f80860242e44df5ffe063277cd3d079a3b9277ac4b3fe2543d9d2e2dde5bf387">aggregate</a>
+, <a class="el" href="class_symbol.html#a9f80860242e44df5ffe063277cd3d079a705b730585e7e7d74c827a535ca8641f">assemble</a>
+ }</td></tr>
+<tr class="memdesc:a9f80860242e44df5ffe063277cd3d079"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to compute run results from subs.  <a href="class_symbol.html#a9f80860242e44df5ffe063277cd3d079">More...</a><br /></td></tr>
+<tr class="separator:a9f80860242e44df5ffe063277cd3d079 inherit pub_types_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -165,22 +175,22 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a460073fa156e628b151820bff2ef600b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_entity_table_measure_symbol.html#a460073fa156e628b151820bff2ef600b">post_parse_traverse</a> (<a class="el" href="class_expr_for_table.html">ExprForTable</a> *node)</td></tr>
 <tr class="memdesc:a460073fa156e628b151820bff2ef600b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform post-parse operations on nodes of a <a class="el" href="class_expr_for_table.html" title="Table expression tree element.">ExprForTable</a> tree.  <a href="class_entity_table_measure_symbol.html#a460073fa156e628b151820bff2ef600b">More...</a><br /></td></tr>
 <tr class="separator:a460073fa156e628b151820bff2ef600b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73255a56934ff75991666f77c07a0a53"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_entity_table_measure_symbol.html#a73255a56934ff75991666f77c07a0a53">get_expression</a> (const <a class="el" href="class_expr_for_table.html">ExprForTable</a> *node, expression_style style)</td></tr>
+<tr class="memitem:a73255a56934ff75991666f77c07a0a53"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_entity_table_measure_symbol.html#a73255a56934ff75991666f77c07a0a53">get_expression</a> (const <a class="el" href="class_expr_for_table.html">ExprForTable</a> *node, <a class="el" href="class_entity_table_measure_symbol.html#adcc6487ff50a20e20f8032ecd3133dd4">expression_style</a> style)</td></tr>
 <tr class="memdesc:a73255a56934ff75991666f77c07a0a53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get C++ expression using accumulators.  <a href="class_entity_table_measure_symbol.html#a73255a56934ff75991666f77c07a0a53">More...</a><br /></td></tr>
 <tr class="separator:a73255a56934ff75991666f77c07a0a53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_table_measure_symbol"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_table_measure_symbol')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_table_measure_symbol.html">TableMeasureSymbol</a></td></tr>
-<tr class="memitem:ab48d7fcbc98285c4bb1b3516e8197125 inherit pub_methods_class_table_measure_symbol"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_table_measure_symbol.html#ab48d7fcbc98285c4bb1b3516e8197125">is_base_symbol</a> () const</td></tr>
-<tr class="memdesc:ab48d7fcbc98285c4bb1b3516e8197125 inherit pub_methods_class_table_measure_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Query if this object is an underived instance of the base <a class="el" href="class_symbol.html" title="A Symbol is a named syntactic entity in openM++.">Symbol</a> class.  <a href="class_table_measure_symbol.html#ab48d7fcbc98285c4bb1b3516e8197125">More...</a><br /></td></tr>
-<tr class="separator:ab48d7fcbc98285c4bb1b3516e8197125 inherit pub_methods_class_table_measure_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bff61ac9251fdaad8d54f7e428565f3 inherit pub_methods_class_table_measure_symbol"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_table_measure_symbol.html#a1bff61ac9251fdaad8d54f7e428565f3">is_base_symbol</a> () const override</td></tr>
+<tr class="memdesc:a1bff61ac9251fdaad8d54f7e428565f3 inherit pub_methods_class_table_measure_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Query if this object is an underived instance of the base <a class="el" href="class_symbol.html" title="A Symbol is a named syntactic entity in openM++.">Symbol</a> class.  <a href="class_table_measure_symbol.html#a1bff61ac9251fdaad8d54f7e428565f3">More...</a><br /></td></tr>
+<tr class="separator:a1bff61ac9251fdaad8d54f7e428565f3 inherit pub_methods_class_table_measure_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a316938b0ff1128131238508c46653e8c inherit pub_methods_class_table_measure_symbol"><td class="memItemLeft" align="right" valign="top"><a id="a316938b0ff1128131238508c46653e8c" name="a316938b0ff1128131238508c46653e8c"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>TableMeasureSymbol</b> (<a class="el" href="class_symbol.html">Symbol</a> *<a class="el" href="class_table_measure_symbol.html#a8718009a04594e99ee1b75a0fe634118">table</a>, string *pname_default, string *pname_explicit, int <a class="el" href="class_table_measure_symbol.html#a6423f6b9b501bd96141ca8bbd48bdb7e">index</a>, <a class="el" href="classomc_1_1location.html">omc::location</a> <a class="el" href="class_symbol.html#a3f4b455d4a56cfe9eb8dcf334a02333a">decl_loc</a>=<a class="el" href="classomc_1_1location.html">omc::location</a>())</td></tr>
 <tr class="separator:a316938b0ff1128131238508c46653e8c inherit pub_methods_class_table_measure_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c214c328dfd5768fd107c7eca8b661d inherit pub_methods_class_table_measure_symbol"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_table_measure_symbol.html#a3c214c328dfd5768fd107c7eca8b661d">post_parse</a> (int pass)</td></tr>
-<tr class="memdesc:a3c214c328dfd5768fd107c7eca8b661d inherit pub_methods_class_table_measure_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform post-parse operations.  <a href="class_table_measure_symbol.html#a3c214c328dfd5768fd107c7eca8b661d">More...</a><br /></td></tr>
-<tr class="separator:a3c214c328dfd5768fd107c7eca8b661d inherit pub_methods_class_table_measure_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05f97c577384e81a36943c3ee570c331 inherit pub_methods_class_table_measure_symbol"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_table_measure_symbol.html#a05f97c577384e81a36943c3ee570c331">pretty_name</a> () const</td></tr>
-<tr class="memdesc:a05f97c577384e81a36943c3ee570c331 inherit pub_methods_class_table_measure_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a short pretty name for a symbol.  <a href="class_table_measure_symbol.html#a05f97c577384e81a36943c3ee570c331">More...</a><br /></td></tr>
-<tr class="separator:a05f97c577384e81a36943c3ee570c331 inherit pub_methods_class_table_measure_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93757fbdbd94b2956754bbe8c5af7678 inherit pub_methods_class_table_measure_symbol"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_table_measure_symbol.html#a93757fbdbd94b2956754bbe8c5af7678">post_parse</a> (int pass) override</td></tr>
+<tr class="memdesc:a93757fbdbd94b2956754bbe8c5af7678 inherit pub_methods_class_table_measure_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform post-parse operations.  <a href="class_table_measure_symbol.html#a93757fbdbd94b2956754bbe8c5af7678">More...</a><br /></td></tr>
+<tr class="separator:a93757fbdbd94b2956754bbe8c5af7678 inherit pub_methods_class_table_measure_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51e0fdf77025442f50fcfbd76ab0a5fa inherit pub_methods_class_table_measure_symbol"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_table_measure_symbol.html#a51e0fdf77025442f50fcfbd76ab0a5fa">pretty_name</a> () const override</td></tr>
+<tr class="memdesc:a51e0fdf77025442f50fcfbd76ab0a5fa inherit pub_methods_class_table_measure_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a short pretty name for a symbol.  <a href="class_table_measure_symbol.html#a51e0fdf77025442f50fcfbd76ab0a5fa">More...</a><br /></td></tr>
+<tr class="separator:a51e0fdf77025442f50fcfbd76ab0a5fa inherit pub_methods_class_table_measure_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64af6c1bb7c25f9640d985ddb76a6366 inherit pub_methods_class_table_measure_symbol"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_table_measure_symbol.html#a64af6c1bb7c25f9640d985ddb76a6366">heuristic_short_name</a> (void) const</td></tr>
 <tr class="memdesc:a64af6c1bb7c25f9640d985ddb76a6366 inherit pub_methods_class_table_measure_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Heuristically-generated short name for the dimension.  <a href="class_table_measure_symbol.html#a64af6c1bb7c25f9640d985ddb76a6366">More...</a><br /></td></tr>
 <tr class="separator:a64af6c1bb7c25f9640d985ddb76a6366 inherit pub_methods_class_table_measure_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -335,6 +345,14 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>scale</b></td></tr>
 <tr class="memdesc:a9eff50a4a2146e07de67b77a3dd22eeb inherit pub_attribs_class_table_measure_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">The decimal scaling to apply to this measure. <br /></td></tr>
 <tr class="separator:a9eff50a4a2146e07de67b77a3dd22eeb inherit pub_attribs_class_table_measure_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_class_symbol"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_symbol')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_symbol.html">Symbol</a></td></tr>
+<tr class="memitem:a94d61c351324571777c10c9fb45427da inherit pub_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="a94d61c351324571777c10c9fb45427da" name="a94d61c351324571777c10c9fb45427da"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><b>builtin_english_label</b></td></tr>
+<tr class="memdesc:a94d61c351324571777c10c9fb45427da inherit pub_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">English label provided for built-in symbols (optional) <br /></td></tr>
+<tr class="separator:a94d61c351324571777c10c9fb45427da inherit pub_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af45dc524cc09684b9e6f7f075305cefe inherit pub_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="af45dc524cc09684b9e6f7f075305cefe" name="af45dc524cc09684b9e6f7f075305cefe"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><b>builtin_alingual_label</b></td></tr>
+<tr class="memdesc:af45dc524cc09684b9e6f7f075305cefe inherit pub_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">alingual label provided for built-in symbols (optional) <br /></td></tr>
+<tr class="separator:af45dc524cc09684b9e6f7f075305cefe inherit pub_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73fc59c394e3bdc9fdbb525a24ba5b5f inherit pub_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a73fc59c394e3bdc9fdbb525a24ba5b5f">unique_name</a></td></tr>
 <tr class="memdesc:a73fc59c394e3bdc9fdbb525a24ba5b5f inherit pub_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">The unique identifier for the symbol.  <a href="class_symbol.html#a73fc59c394e3bdc9fdbb525a24ba5b5f">More...</a><br /></td></tr>
 <tr class="separator:a73fc59c394e3bdc9fdbb525a24ba5b5f inherit pub_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -471,12 +489,12 @@ static <a class="el" href="class_symbol.html">Symbol</a> *&#160;</td><td class="
 <tr class="memitem:a52688bd2b38aa2360dd3f0a8dbe9ad06 inherit pub_static_methods_class_symbol"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="_symbol_8h.html#a4cf0077b3db1fb6a9d460051e87f2f09">token_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a52688bd2b38aa2360dd3f0a8dbe9ad06">optimized_storage_type</a> (long long min_value, long long max_value)</td></tr>
 <tr class="memdesc:a52688bd2b38aa2360dd3f0a8dbe9ad06 inherit pub_static_methods_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine integer/character storage type which can store a bounded value.  <a href="class_symbol.html#a52688bd2b38aa2360dd3f0a8dbe9ad06">More...</a><br /></td></tr>
 <tr class="separator:a52688bd2b38aa2360dd3f0a8dbe9ad06 inherit pub_static_methods_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33d3639fe32d4032ed487df32b2b020c inherit pub_static_methods_class_symbol"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="_symbol_8h.html#a4cf0077b3db1fb6a9d460051e87f2f09">token_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a33d3639fe32d4032ed487df32b2b020c">modgen_cumulation_operator_to_acc</a> (const <a class="el" href="_symbol_8h.html#a4cf0077b3db1fb6a9d460051e87f2f09">token_type</a> &amp;e)</td></tr>
-<tr class="memdesc:a33d3639fe32d4032ed487df32b2b020c inherit pub_static_methods_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extract accumulator from Modgen cumulation operator.  <a href="class_symbol.html#a33d3639fe32d4032ed487df32b2b020c">More...</a><br /></td></tr>
-<tr class="separator:a33d3639fe32d4032ed487df32b2b020c inherit pub_static_methods_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1d9b2575557c0aef32ebd8b62eb27ec inherit pub_static_methods_class_symbol"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="_symbol_8h.html#a4cf0077b3db1fb6a9d460051e87f2f09">token_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#ab1d9b2575557c0aef32ebd8b62eb27ec">modgen_cumulation_operator_to_incr</a> (const <a class="el" href="_symbol_8h.html#a4cf0077b3db1fb6a9d460051e87f2f09">token_type</a> &amp;e)</td></tr>
-<tr class="memdesc:ab1d9b2575557c0aef32ebd8b62eb27ec inherit pub_static_methods_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extract increment from Modgen cumulation operator.  <a href="class_symbol.html#ab1d9b2575557c0aef32ebd8b62eb27ec">More...</a><br /></td></tr>
-<tr class="separator:ab1d9b2575557c0aef32ebd8b62eb27ec inherit pub_static_methods_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7653e33f262eca3d21140c61ddfe174 inherit pub_static_methods_class_symbol"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="_symbol_8h.html#a4cf0077b3db1fb6a9d460051e87f2f09">token_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#af7653e33f262eca3d21140c61ddfe174">modgen_cumulation_operator_to_stat</a> (const <a class="el" href="_symbol_8h.html#a4cf0077b3db1fb6a9d460051e87f2f09">token_type</a> &amp;e, const <a class="el" href="_symbol_8h.html#a4cf0077b3db1fb6a9d460051e87f2f09">token_type</a> &amp;dflt)</td></tr>
+<tr class="memdesc:af7653e33f262eca3d21140c61ddfe174 inherit pub_static_methods_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extract statistic from Modgen cumulation operator.  <a href="class_symbol.html#af7653e33f262eca3d21140c61ddfe174">More...</a><br /></td></tr>
+<tr class="separator:af7653e33f262eca3d21140c61ddfe174 inherit pub_static_methods_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeed986c9087e9bd93f9a8af903cd3c50 inherit pub_static_methods_class_symbol"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="_symbol_8h.html#a4cf0077b3db1fb6a9d460051e87f2f09">token_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#aeed986c9087e9bd93f9a8af903cd3c50">modgen_cumulation_operator_to_incr</a> (const <a class="el" href="_symbol_8h.html#a4cf0077b3db1fb6a9d460051e87f2f09">token_type</a> &amp;e, const <a class="el" href="_symbol_8h.html#a4cf0077b3db1fb6a9d460051e87f2f09">token_type</a> &amp;dflt)</td></tr>
+<tr class="memdesc:aeed986c9087e9bd93f9a8af903cd3c50 inherit pub_static_methods_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extract increment from Modgen cumulation operator.  <a href="class_symbol.html#aeed986c9087e9bd93f9a8af903cd3c50">More...</a><br /></td></tr>
+<tr class="separator:aeed986c9087e9bd93f9a8af903cd3c50 inherit pub_static_methods_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b6b0f277195cfcdd6d63d565b7c7482 inherit pub_static_methods_class_symbol"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a8b6b0f277195cfcdd6d63d565b7c7482">populate_default_symbols</a> (const string &amp;model_name, const string &amp;scenario_name)</td></tr>
 <tr class="memdesc:a8b6b0f277195cfcdd6d63d565b7c7482 inherit pub_static_methods_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Populate default symbols in symbol table.  <a href="class_symbol.html#a8b6b0f277195cfcdd6d63d565b7c7482">More...</a><br /></td></tr>
 <tr class="separator:a8b6b0f277195cfcdd6d63d565b7c7482 inherit pub_static_methods_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -788,9 +806,10 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><b>any_tables_ret
 static bool&#160;</td><td class="memItemRight" valign="bottom"><b>any_parameters_to_tables</b> = false</td></tr>
 <tr class="memdesc:af5b0492bf8c4f39191e0dfd031d8b286 inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true, model contains one or more parameters_to_tables statements. <br /></td></tr>
 <tr class="separator:af5b0492bf8c4f39191e0dfd031d8b286 inherit pub_static_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86ad8174f31a7310124499c4ba94d032 inherit pub_static_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a86ad8174f31a7310124499c4ba94d032">measures_are_aggregated</a> = true</td></tr>
-<tr class="memdesc:a86ad8174f31a7310124499c4ba94d032 inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true, table measures are aggregated across simulation members.  <a href="class_symbol.html#a86ad8174f31a7310124499c4ba94d032">More...</a><br /></td></tr>
-<tr class="separator:a86ad8174f31a7310124499c4ba94d032 inherit pub_static_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b9d355a4909b6bc99f3996edb0689ff inherit pub_static_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="a6b9d355a4909b6bc99f3996edb0689ff" name="a6b9d355a4909b6bc99f3996edb0689ff"></a>
+static <a class="el" href="class_symbol.html#a9f80860242e44df5ffe063277cd3d079">run_table_method</a>&#160;</td><td class="memItemRight" valign="bottom"><b>measures_method</b> = run_table_method::average</td></tr>
+<tr class="memdesc:a6b9d355a4909b6bc99f3996edb0689ff inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">The method used to compute run level results from subs. <br /></td></tr>
+<tr class="separator:a6b9d355a4909b6bc99f3996edb0689ff inherit pub_static_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af023c193e2cadc7a62f5d68ad7535c6d inherit pub_static_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="af023c193e2cadc7a62f5d68ad7535c6d" name="af023c193e2cadc7a62f5d68ad7535c6d"></a>
 static int&#160;</td><td class="memItemRight" valign="bottom"><b>type_changes</b> = 0</td></tr>
 <tr class="memdesc:af023c193e2cadc7a62f5d68ad7535c6d inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">A count of type changes made in a single post-parse pass. <br /></td></tr>
@@ -1164,7 +1183,34 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><b>trace_scanning
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p ><a class="el" href="class_entity_table_measure_symbol.html" title="EntityTableMeasureSymbol.">EntityTableMeasureSymbol</a>. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="adcc6487ff50a20e20f8032ecd3133dd4" name="adcc6487ff50a20e20f8032ecd3133dd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adcc6487ff50a20e20f8032ecd3133dd4">&#9670;&nbsp;</a></span>expression_style</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_entity_table_measure_symbol.html#adcc6487ff50a20e20f8032ecd3133dd4">EntityTableMeasureSymbol::expression_style</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="adcc6487ff50a20e20f8032ecd3133dd4aeea55003092a1f17b40ca52fbc5ccb07" name="adcc6487ff50a20e20f8032ecd3133dd4aeea55003092a1f17b40ca52fbc5ccb07"></a>cxx&#160;</td><td class="fielddoc"><p >C++ expression to compute table measures for a simulation member. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="adcc6487ff50a20e20f8032ecd3133dd4a5ffaca5f247d5057fd8f02221cd428b8" name="adcc6487ff50a20e20f8032ecd3133dd4a5ffaca5f247d5057fd8f02221cd428b8"></a>sql_accumulators&#160;</td><td class="fielddoc"><p >ompp SQL with unaggregated accumulators, ex1: acc0/acc1 =&gt; OM_AVG(acc0/acc1) ex2: acc0 =&gt; OM_AVG(acc0) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="adcc6487ff50a20e20f8032ecd3133dd4a0869c4ff88c0db9ad877a5b0fce21366" name="adcc6487ff50a20e20f8032ecd3133dd4a0869c4ff88c0db9ad877a5b0fce21366"></a>sql_aggregated_accumulators&#160;</td><td class="fielddoc"><p >ompp SQL with aggregated accumulators, ex1: acc0/acc1 =&gt; OM_AVG(acc0)/OM_AVG(acc1) ex2: acc0 =&gt; OM_AVG(acc0) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="adcc6487ff50a20e20f8032ecd3133dd4a2a5dd9d40383375f26cea32af89db7aa" name="adcc6487ff50a20e20f8032ecd3133dd4a2a5dd9d40383375f26cea32af89db7aa"></a>sql_assembled_accumulators&#160;</td><td class="fielddoc"><p >ompp SQL with assembled accumulators, ex1: acc0/acc1 =&gt; OM_SUM(acc0)/OM_SUM(acc1) ex2: acc0 =&gt; OM_SUM(acc0) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="adcc6487ff50a20e20f8032ecd3133dd4affff34118e86517d449061009fc6d86e" name="adcc6487ff50a20e20f8032ecd3133dd4affff34118e86517d449061009fc6d86e"></a>table_syntax&#160;</td><td class="fielddoc"><p >table expression syntax </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="a73255a56934ff75991666f77c07a0a53" name="a73255a56934ff75991666f77c07a0a53"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a73255a56934ff75991666f77c07a0a53">&#9670;&nbsp;</a></span>get_expression()</h2>
 
@@ -1180,7 +1226,7 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><b>trace_scanning
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">expression_style&#160;</td>
+          <td class="paramtype"><a class="el" href="class_entity_table_measure_symbol.html#adcc6487ff50a20e20f8032ecd3133dd4">expression_style</a>&#160;</td>
           <td class="paramname"><em>style</em>&#160;</td>
         </tr>
         <tr>
@@ -1303,7 +1349,7 @@ return Result as a \a CodeBlock.</h3>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_entity_table_measure_symbol.html">EntityTableMeasureSymbol</a></li>
-    <li class="footer">Generated on Fri Mar 22 2024 13:21:03 for OpenM++ compiler (omc) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Mon Apr 22 2024 04:14:02 for OpenM++ compiler (omc) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>
