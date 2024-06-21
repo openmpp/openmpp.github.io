@@ -92,20 +92,21 @@ $(document).ready(function(){initNavTree('crc32_8h_source.html',''); initResizab
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#ifndef CRC32_H</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#define CRC32_H</span></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;string&gt;</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;iomanip&gt;</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;sstream&gt;</span></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">using namespace </span>std;</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceopenm.html">openm</a></div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>{</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="keyword">extern</span> uint32_t <a class="code hl_function" href="namespaceopenm.html#afde18892637ee611b001058cbcc5fed9">calculateNextCrc32</a>(uint32_t i_initialCrc, <span class="keyword">const</span> <span class="keywordtype">void</span> * i_data, <span class="keywordtype">size_t</span> i_dataSize);</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keyword">extern</span> <span class="keywordtype">string</span> <a class="code hl_function" href="namespaceopenm.html#a0a8d97a95a86c26cfeb3d19f7d54bafe">crc32String</a>(<span class="keyword">const</span> <span class="keywordtype">string</span> &amp; i_source);</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>}</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#endif  </span><span class="comment">// CRC32_H</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;cstdint&gt;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;iomanip&gt;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;sstream&gt;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">using namespace </span>std;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceopenm.html">openm</a></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>{</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <span class="keyword">extern</span> uint32_t <a class="code hl_function" href="namespaceopenm.html#afde18892637ee611b001058cbcc5fed9">calculateNextCrc32</a>(uint32_t i_initialCrc, <span class="keyword">const</span> <span class="keywordtype">void</span> * i_data, <span class="keywordtype">size_t</span> i_dataSize);</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keyword">extern</span> <span class="keywordtype">string</span> <a class="code hl_function" href="namespaceopenm.html#a0a8d97a95a86c26cfeb3d19f7d54bafe">crc32String</a>(<span class="keyword">const</span> <span class="keywordtype">string</span> &amp; i_source);</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>}</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#endif  </span><span class="comment">// CRC32_H</span></div>
 <div class="ttc" id="anamespaceopenm_html"><div class="ttname"><a href="namespaceopenm.html">openm</a></div><div class="ttdoc">openM++ namespace</div><div class="ttdef"><b>Definition:</b> log.h:32</div></div>
 <div class="ttc" id="anamespaceopenm_html_a0a8d97a95a86c26cfeb3d19f7d54bafe"><div class="ttname"><a href="namespaceopenm.html#a0a8d97a95a86c26cfeb3d19f7d54bafe">openm::crc32String</a></div><div class="ttdeci">string crc32String(const string &amp;i_source)</div><div class="ttdoc">return CRC-32 of source string</div><div class="ttdef"><b>Definition:</b> crc32.cpp:62</div></div>
 <div class="ttc" id="anamespaceopenm_html_afde18892637ee611b001058cbcc5fed9"><div class="ttname"><a href="namespaceopenm.html#afde18892637ee611b001058cbcc5fed9">openm::calculateNextCrc32</a></div><div class="ttdeci">uint32_t calculateNextCrc32(uint32_t i_initialCrc, const void *i_data, size_t i_dataSize)</div><div class="ttdoc">calculate CRC-32 on next data block of bytes</div><div class="ttdef"><b>Definition:</b> crc32.cpp:48</div></div>
@@ -115,7 +116,7 @@ $(document).ready(function(){initNavTree('crc32_8h_source.html',''); initResizab
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_a0af34ed3c51f838a0893dc0d41bbfe5.html">include</a></li><li class="navelem"><a class="el" href="crc32_8h.html">crc32.h</a></li>
-    <li class="footer">Generated on Mon Apr 22 2024 04:13:56 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Fri Jun 21 2024 04:23:34 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>

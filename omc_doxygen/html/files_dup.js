@@ -110,6 +110,8 @@ var files_dup =
     [ "omc_file.cpp", "omc__file_8cpp.html", "omc__file_8cpp" ],
     [ "omc_file.h", "omc__file_8h.html", "omc__file_8h" ],
     [ "omc_location.hh", "omc__location_8hh_source.html", null ],
+    [ "omc_markup.cpp", "omc__markup_8cpp.html", "omc__markup_8cpp" ],
+    [ "omc_markup.h", "omc__markup_8h.html", "omc__markup_8h" ],
     [ "omc_missing_documentation.cpp", "omc__missing__documentation_8cpp.html", null ],
     [ "omc_missing_documentation.h", "omc__missing__documentation_8h_source.html", null ],
     [ "omc_model_code_metrics.h", "omc__model__code__metrics_8h.html", null ],
