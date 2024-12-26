@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['childgroupid_0',['childGroupId',['../structopenm_1_1_group_pc_row.html#a99052a3da3df0fee7e2984fbb9f9a516',1,'openm::GroupPcRow']]],
-  ['childpos_1',['childPos',['../structopenm_1_1_group_pc_row.html#a99c2ccb3ac250e074e699a4bce118035',1,'openm::GroupPcRow']]],
+  ['childgroupid_0',['childGroupId',['../structopenm_1_1_entity_group_pc_row.html#a3c8801be836e5c8896f4c122d6344987',1,'openm::EntityGroupPcRow::childGroupId()'],['../structopenm_1_1_group_pc_row.html#a99052a3da3df0fee7e2984fbb9f9a516',1,'openm::GroupPcRow::childGroupId()']]],
+  ['childpos_1',['childPos',['../structopenm_1_1_group_pc_row.html#a99c2ccb3ac250e074e699a4bce118035',1,'openm::GroupPcRow::childPos()'],['../structopenm_1_1_entity_group_pc_row.html#a9ddb0a8e4308c376b16015f2f8617d8e',1,'openm::EntityGroupPcRow::childPos()']]],
   ['closepos_2',['closePos',['../struct_fnc_token.html#a78d3ef2e98a6d365e5cdbbe44de43bb3',1,'FncToken']]],
   ['code_3',['code',['../struct_fnc_token.html#a624caaaadb18765e953cf755ea10efd8',1,'FncToken::code()'],['../structopenm_1_1_lang_lst_row.html#a8651f6191eb8c80f3538df9afb6396b0',1,'openm::LangLstRow::code()'],['../structopenm_1_1_lang_word_row.html#a4cd3eea3e582855712369bf4870416ae',1,'openm::LangWordRow::code()'],['../structopenm_1_1_model_word_row.html#a5ee1ccd091f4939e3e006495c765be10',1,'openm::ModelWordRow::code()'],['../structopenm_1_1_code_value_row.html#ab736acc7ca37a5dbfed914b0e537c3d2',1,'openm::CodeValueRow::code()']]],
   ['colname_4',['colName',['../structopenm_1_1_aggregation_column_expr.html#a66e46446bcfb34ae39eb9a74cc802afe',1,'openm::AggregationColumnExpr']]],

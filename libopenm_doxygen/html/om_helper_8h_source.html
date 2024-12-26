@@ -289,9 +289,14 @@ $(document).ready(function(){initNavTree('om_helper_8h_source.html',''); initRes
 <div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span>        <a class="code hl_function" href="classopenm_1_1exit__guard.html#adf4c0261f3c4fad37e725fddcdf827ed">exit_guard</a>(<span class="keyword">const</span> <a class="code hl_class" href="classopenm_1_1exit__guard.html">exit_guard</a> &amp; i_guard) = <span class="keyword">delete</span>;</div>
 <div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span>        <a class="code hl_class" href="classopenm_1_1exit__guard.html">exit_guard</a> &amp; operator=(<span class="keyword">const</span> <a class="code hl_class" href="classopenm_1_1exit__guard.html">exit_guard</a> &amp; i_guard) = <span class="keyword">delete</span>;</div>
 <div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span>    };</div>
-<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span>}</div>
-<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span> </div>
-<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span><span class="preprocessor">#endif  </span><span class="comment">// OM_H_HELPER_H</span></div>
+<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span> </div>
+<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>    <span class="keyword">inline</span> <span class="keyword">thread_local</span> <span class="keyword">const</span> <span class="keywordtype">char</span>* checkpoint_message = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span>}</div>
+<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span> </div>
+<div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span><span class="preprocessor">#define CHECKPOINT(x) openm::checkpoint_message = x;</span></div>
+<div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span><span class="preprocessor">#define GET_CHECKPOINT_MESSAGE (openm::checkpoint_message)</span></div>
+<div class="line"><a id="l00299" name="l00299"></a><span class="lineno">  299</span> </div>
+<div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span><span class="preprocessor">#endif  </span><span class="comment">// OM_H_HELPER_H</span></div>
 <div class="ttc" id="aclassopenm_1_1exit__guard_html"><div class="ttname"><a href="classopenm_1_1exit__guard.html">openm::exit_guard</a></div><div class="ttdoc">simple resource exit guard implementation</div><div class="ttdef"><b>Definition:</b> omHelper.h:259</div></div>
 <div class="ttc" id="aclassopenm_1_1exit__guard_html_a8b5f8dac8edc0bde52189b2d29c96aff"><div class="ttname"><a href="classopenm_1_1exit__guard.html#a8b5f8dac8edc0bde52189b2d29c96aff">openm::exit_guard::hold</a></div><div class="ttdeci">void hold(void) noexcept</div><div class="ttdoc">hold resource on exit instead of relesing it</div><div class="ttdef"><b>Definition:</b> omHelper.h:282</div></div>
 <div class="ttc" id="aclassopenm_1_1exit__guard_html_a9019d992ace965f11c0dbf1fd286b795"><div class="ttname"><a href="classopenm_1_1exit__guard.html#a9019d992ace965f11c0dbf1fd286b795">openm::exit_guard::CleanupHandler</a></div><div class="ttdeci">void(ResourceHolder::* CleanupHandler)(void)</div><div class="ttdoc">resource release method of resource holder class</div><div class="ttdef"><b>Definition:</b> omHelper.h:263</div></div>
@@ -352,7 +357,7 @@ $(document).ready(function(){initNavTree('om_helper_8h_source.html',''); initRes
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_30e93d7ad2ce010165d2d10f88217613.html">libopenm</a></li><li class="navelem"><a class="el" href="dir_5ddca90b2bfae5da637f3f9890c9c5cd.html">common</a></li><li class="navelem"><a class="el" href="om_helper_8h.html">omHelper.h</a></li>
-    <li class="footer">Generated on Mon Oct 21 2024 23:02:25 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Thu Dec 26 2024 03:42:47 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>

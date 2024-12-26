@@ -17,12 +17,14 @@ var class_entity_table_symbol =
     [ "get_default_tabop", "class_entity_table_symbol.html#a1d37357cb17f8087fcb473db5967d81f", null ],
     [ "is_base_symbol", "class_entity_table_symbol.html#a1325d567537d69489b0073b24e70a984", null ],
     [ "is_general", "class_entity_table_symbol.html#ab9f674799e9882e4fd064b6f11cc72dd", null ],
+    [ "is_screened", "class_entity_table_symbol.html#ad41f1ef67b781a7f487583f26c27d981", null ],
     [ "is_snapshot", "class_entity_table_symbol.html#acdb75c04478bc32055f4cfb289984fc7", null ],
     [ "populate_metadata", "class_entity_table_symbol.html#abe9cfea0c40e409544be8ada0f6646f8", null ],
     [ "post_parse", "class_entity_table_symbol.html#abb29f7c5121c07562755ea8ca41eb793", null ],
     [ "set_default_increment", "class_entity_table_symbol.html#a57161df293d4d8432966e5bf6a789612", null ],
     [ "set_default_statistic", "class_entity_table_symbol.html#acdab7926963b5f7b2c6e127ec6f407db", null ],
     [ "set_default_tabop", "class_entity_table_symbol.html#a39cd90a2ffd2a74f90ddcab70a12dd95", null ],
+    [ "uses_mean", "class_entity_table_symbol.html#a57a2132525d8a97b13d1d99719d7c9cd", null ],
     [ "current_cell_fn", "class_entity_table_symbol.html#a98e66ed5349fd2544913e0173396e45e", null ],
     [ "cxx_class", "class_entity_table_symbol.html#afca1b4395fc008852bf6eb10ea77ac19", null ],
     [ "default_increment", "class_entity_table_symbol.html#abacbce3f1f14a2d8b8042cc4d53f34c8", null ],
@@ -38,8 +40,11 @@ var class_entity_table_symbol =
     [ "n_collections", "class_entity_table_symbol.html#a86076513f79fd07fc4b46d55d5487b22", null ],
     [ "pp_accumulators", "class_entity_table_symbol.html#afdea0e15c0eb39576a1181291c03241c", null ],
     [ "pp_entity", "class_entity_table_symbol.html#a85aa690614209af5474855d02561f5c3", null ],
+    [ "pp_has_count", "class_entity_table_symbol.html#a683e5098b9ed82bfaf51224fc74deb30", null ],
+    [ "pp_has_sumweight", "class_entity_table_symbol.html#a9318e7ddb5ad7743aa93c2656e0d9193", null ],
     [ "pp_measure_attributes", "class_entity_table_symbol.html#ac000094db8cae0df9b9aaca13d997de1", null ],
     [ "push_increment_fn", "class_entity_table_symbol.html#a174d5e8ecc218064fb49cd434faf7f3d", null ],
     [ "resource_use_gfn", "class_entity_table_symbol.html#aeb13ad7fed2ba5c53e8721848bba66ca", null ],
-    [ "resource_use_reset_gfn", "class_entity_table_symbol.html#ad559639ffb301e9e7d53fc73e4ee5484", null ]
+    [ "resource_use_reset_gfn", "class_entity_table_symbol.html#ad559639ffb301e9e7d53fc73e4ee5484", null ],
+    [ "screened_method", "class_entity_table_symbol.html#a22bc05cc1aebb7eaf2f46b6763a9b26e", null ]
 ];

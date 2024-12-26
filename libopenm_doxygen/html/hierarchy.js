@@ -74,6 +74,27 @@ var hierarchy =
         ] ]
       ] ]
     ] ],
+    [ "openm::IMetaTable< EntityGroupLstRow >", "structopenm_1_1_i_meta_table.html", [
+      [ "openm::IMetaLoadedTable< EntityGroupLstRow >", "structopenm_1_1_i_meta_loaded_table.html", [
+        [ "openm::IEntityGroupLstTable", "structopenm_1_1_i_entity_group_lst_table.html", [
+          [ "openm::EntityGroupLstTable", "classopenm_1_1_entity_group_lst_table.html", null ]
+        ] ]
+      ] ]
+    ] ],
+    [ "openm::IMetaTable< EntityGroupPcRow >", "structopenm_1_1_i_meta_table.html", [
+      [ "openm::IMetaLoadedTable< EntityGroupPcRow >", "structopenm_1_1_i_meta_loaded_table.html", [
+        [ "openm::IEntityGroupPcTable", "structopenm_1_1_i_entity_group_pc_table.html", [
+          [ "openm::EntityGroupPcTable", "classopenm_1_1_entity_group_pc_table.html", null ]
+        ] ]
+      ] ]
+    ] ],
+    [ "openm::IMetaTable< EntityGroupTxtRow >", "structopenm_1_1_i_meta_table.html", [
+      [ "openm::IMetaLoadedTable< EntityGroupTxtRow >", "structopenm_1_1_i_meta_loaded_table.html", [
+        [ "openm::IEntityGroupTxtTable", "structopenm_1_1_i_entity_group_txt_table.html", [
+          [ "openm::EntityGroupTxtTable", "classopenm_1_1_entity_group_txt_table.html", null ]
+        ] ]
+      ] ]
+    ] ],
     [ "openm::IMetaTable< GroupLstRow >", "structopenm_1_1_i_meta_table.html", [
       [ "openm::IMetaLoadedTable< GroupLstRow >", "structopenm_1_1_i_meta_loaded_table.html", [
         [ "openm::IGroupLstTable", "structopenm_1_1_i_group_lst_table.html", [
@@ -382,6 +403,9 @@ var hierarchy =
       [ "openm::EntityAttrTxtRowAdapter", "classopenm_1_1_entity_attr_txt_row_adapter.html", null ],
       [ "openm::EntityDicRowAdapter", "classopenm_1_1_entity_dic_row_adapter.html", null ],
       [ "openm::EntityDicTxtRowAdapter", "classopenm_1_1_entity_dic_txt_row_adapter.html", null ],
+      [ "openm::EntityGroupLstRowAdapter", "classopenm_1_1_entity_group_lst_row_adapter.html", null ],
+      [ "openm::EntityGroupPcRowAdapter", "classopenm_1_1_entity_group_pc_row_adapter.html", null ],
+      [ "openm::EntityGroupTxtRowAdapter", "classopenm_1_1_entity_group_txt_row_adapter.html", null ],
       [ "openm::GroupLstRowAdapter", "classopenm_1_1_group_lst_row_adapter.html", null ],
       [ "openm::GroupPcRowAdapter", "classopenm_1_1_group_pc_row_adapter.html", null ],
       [ "openm::GroupTxtRowAdapter", "classopenm_1_1_group_txt_row_adapter.html", null ],
@@ -440,6 +464,17 @@ var hierarchy =
       [ "openm::IMetaRow< EntityDicTxtRow >", "structopenm_1_1_i_meta_row.html", [
         [ "openm::EntityDicTxtRow", "structopenm_1_1_entity_dic_txt_row.html", [
           [ "openm::EntityDicTxtLangRow", "structopenm_1_1_entity_dic_txt_lang_row.html", null ]
+        ] ]
+      ] ],
+      [ "openm::IMetaRow< EntityGroupLstRow >", "structopenm_1_1_i_meta_row.html", [
+        [ "openm::EntityGroupLstRow", "structopenm_1_1_entity_group_lst_row.html", null ]
+      ] ],
+      [ "openm::IMetaRow< EntityGroupPcRow >", "structopenm_1_1_i_meta_row.html", [
+        [ "openm::EntityGroupPcRow", "structopenm_1_1_entity_group_pc_row.html", null ]
+      ] ],
+      [ "openm::IMetaRow< EntityGroupTxtRow >", "structopenm_1_1_i_meta_row.html", [
+        [ "openm::EntityGroupTxtRow", "structopenm_1_1_entity_group_txt_row.html", [
+          [ "openm::EntityGroupTxtLangRow", "structopenm_1_1_entity_group_txt_lang_row.html", null ]
         ] ]
       ] ],
       [ "openm::IMetaRow< GroupLstRow >", "structopenm_1_1_i_meta_row.html", [

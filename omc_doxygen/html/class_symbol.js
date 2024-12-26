@@ -1,6 +1,7 @@
 var class_symbol =
 [
     [ "post_parse_pass", "class_symbol.html#a727eeadd13c4b96fa83938a0bec0309f", [
+      [ "eBeforeFirst", "class_symbol.html#a727eeadd13c4b96fa83938a0bec0309fa17c4a92c6861eed811ab4f055904c57e", null ],
       [ "eCreateForeignTypes", "class_symbol.html#a727eeadd13c4b96fa83938a0bec0309fac3b3b2eae024391f1c73b572eb672aba", null ],
       [ "eCreateMissingSymbols", "class_symbol.html#a727eeadd13c4b96fa83938a0bec0309fa09b14f6c5ff336be0761fea189a62d28", null ],
       [ "eAssignLabel", "class_symbol.html#a727eeadd13c4b96fa83938a0bec0309fa47103e0f8847eb8eeab9e9c17956b365", null ],
@@ -71,6 +72,7 @@ var class_symbol =
     [ "pp_notes", "class_symbol.html#a864960bd4fef7ca6b9fcfb377ed81150", null ],
     [ "pp_notes_pos", "class_symbol.html#a03a7be7ec8e91d8cc92cb91d25043b72", null ],
     [ "pp_parent_groups", "class_symbol.html#ae01ca4a4ef4acc387707f096bfaa055a", null ],
+    [ "pp_pass", "class_symbol.html#ac98bc8159288589879fac75a4c6f9f22", null ],
     [ "pp_symbol_id", "class_symbol.html#a8702021f00f6783e68a01967baec0331", null ],
     [ "redecl_loc", "class_symbol.html#aba348cf237e05feb3f8f29f84648a438", null ],
     [ "reference_count", "class_symbol.html#aaf798d9d565c3e23f4d156588245e33d", null ],

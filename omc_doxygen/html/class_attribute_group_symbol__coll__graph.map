@@ -1,0 +1,23 @@
+<map id="AttributeGroupSymbol" name="AttributeGroupSymbol">
+<area shape="rect" id="node1" title="AttributeGroupSymbol." alt="" coords="2087,233,2253,260"/>
+<area shape="rect" id="node2" href="$class_group_symbol.html" title="GroupSymbol." alt="" coords="808,299,919,325"/>
+<area shape="rect" id="node3" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="469,483,540,509"/>
+<area shape="rect" id="node6" href="$class_module_symbol.html" title="Symbol for a source code module." alt="" coords="665,579,784,605"/>
+<area shape="rect" id="node8" href="$class_entity_symbol.html" title="EntitySymbol." alt="" coords="1864,453,1973,480"/>
+<area shape="rect" id="node11" href="$class_entity_data_member_symbol.html" title=" " alt="" coords="2364,655,2559,681"/>
+<area shape="rect" id="node12" href="$class_entity_member_symbol.html" title=" " alt="" coords="2089,565,2251,592"/>
+<area shape="rect" id="node13" href="$class_type_symbol.html" title="TypeSymbol." alt="" coords="674,528,775,555"/>
+<area shape="rect" id="node4" href="$classomc_1_1location.html" title="Two points in a source file." alt="" coords="205,120,316,147"/>
+<area shape="rect" id="node15" href="$class_entity_func_symbol.html" title="Symbol for a function member of an entity." alt="" coords="2969,487,3107,513"/>
+<area shape="rect" id="node5" href="$classomc_1_1position.html" title="A point in a source file." alt="" coords="5,120,116,147"/>
+<area shape="rect" id="node7" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="205,483,316,509"/>
+<area shape="rect" id="node9" href="$class_builtin_attribute_symbol.html" title="BuiltinAttributeSymbol." alt="" coords="3435,272,3605,299"/>
+<area shape="rect" id="node10" href="$class_attribute_symbol.html" title=" " alt="" coords="3257,601,3385,628"/>
+<area shape="rect" id="node14" href="$class_entity_internal_symbol.html" title="Internal data symbol." alt="" coords="2781,717,2939,744"/>
+<area shape="rect" id="node18" href="$class_entity_event_symbol.html" title="Event time member symbol for an event." alt="" coords="2608,584,2755,611"/>
+<area shape="rect" id="node21" href="$class_enumeration_symbol.html" title="EnumerationSymbol." alt="" coords="943,531,1097,557"/>
+<area shape="rect" id="node16" href="$class_code_block.html" title=" " alt="" coords="2636,285,2727,312"/>
+<area shape="rect" id="node17" title=" " alt="" coords="2407,108,2516,135"/>
+<area shape="rect" id="node19" href="$class_classification_symbol.html" title="ClassificationSymbol." alt="" coords="1483,469,1641,496"/>
+<area shape="rect" id="node20" href="$class_enumeration_with_enumerators_symbol.html" title="EnumerationWithEnumeratorsSymbol." alt="" coords="1147,529,1365,570"/>
+</map>

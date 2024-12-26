@@ -14,6 +14,7 @@ var annotated_dup =
     ] ],
     [ "AggregationSymbol", "class_aggregation_symbol.html", "class_aggregation_symbol" ],
     [ "AnonGroupSymbol", "class_anon_group_symbol.html", "class_anon_group_symbol" ],
+    [ "AttributeGroupSymbol", "class_attribute_group_symbol.html", "class_attribute_group_symbol" ],
     [ "AttributeSymbol", "class_attribute_symbol.html", "class_attribute_symbol" ],
     [ "BooleanLiteral", "class_boolean_literal.html", null ],
     [ "BoolEnumeratorSymbol", "class_bool_enumerator_symbol.html", "class_bool_enumerator_symbol" ],

@@ -76,6 +76,7 @@ var hierarchy =
       [ "GlobalFuncSymbol", "class_global_func_symbol.html", null ],
       [ "GroupSymbol", "class_group_symbol.html", [
         [ "AnonGroupSymbol", "class_anon_group_symbol.html", null ],
+        [ "AttributeGroupSymbol", "class_attribute_group_symbol.html", null ],
         [ "DependencyGroupSymbol", "class_dependency_group_symbol.html", null ],
         [ "ParameterGroupSymbol", "class_parameter_group_symbol.html", null ],
         [ "TableGroupSymbol", "class_table_group_symbol.html", null ]

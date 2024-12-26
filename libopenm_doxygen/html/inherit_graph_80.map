@@ -1,3 +1,8 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structopenm_1_1_message_ellipter.html" title="helper to return ellipted string if source string exceed max size." alt="" coords="5,5,184,32"/>
+<area shape="rect" id="node1" href="$classopenm_1_1_i_utf8_converter.html" title="UTF&#45;8 converter public interface." alt="" coords="5,107,176,133"/>
+<area shape="rect" id="node2" href="$class_default_page_converter.html" title=" " alt="" coords="227,5,392,32"/>
+<area shape="rect" id="node3" href="$class_expicit_page_converter.html" title=" " alt="" coords="229,56,390,83"/>
+<area shape="rect" id="node4" href="$class_utf16_be_page_converter.html" title=" " alt="" coords="224,107,395,133"/>
+<area shape="rect" id="node5" href="$class_utf16_le_page_converter.html" title=" " alt="" coords="225,157,393,184"/>
+<area shape="rect" id="node6" href="$class_utf8_copy_converter.html" title=" " alt="" coords="236,208,383,235"/>
 </map>

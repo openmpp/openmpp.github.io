@@ -1,6 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structopenm_1_1_i_meta_table.html" title=" " alt="" coords="5,5,163,47"/>
-<area shape="rect" id="node2" href="$structopenm_1_1_i_meta_loaded_table.html" title=" " alt="" coords="211,5,404,47"/>
-<area shape="rect" id="node3" href="$structopenm_1_1_i_type_enum_lst_table.html" title="type_enum_lst table public interface." alt="" coords="452,13,651,39"/>
-<area shape="rect" id="node4" href="$classopenm_1_1_type_enum_lst_table.html" title=" " alt="" coords="699,13,893,39"/>
+<area shape="rect" id="node1" href="$structopenm_1_1_i_meta_table.html" title="base class for metadata db&#45;tables" alt="" coords="5,5,163,47"/>
+<area shape="rect" id="node2" href="$structopenm_1_1_i_meta_loaded_table.html" title="base class for preloaded metadata db&#45;tables" alt="" coords="211,5,404,47"/>
 </map>

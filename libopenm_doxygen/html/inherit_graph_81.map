@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structopenm_1_1_meta_holder.html" title="Holder for model metadata core part (not include model text)." alt="" coords="5,5,156,32"/>
+<area shape="rect" id="node1" href="$classopenm_1_1_i_value_formatter.html" title="converter for value column (parameter, accumulator or expression value) to string" alt="" coords="5,13,184,39"/>
+<area shape="rect" id="node2" href="$classopenm_1_1_value_formatter_base.html" title="false boolean value as string" alt="" coords="232,5,439,47"/>
 </map>

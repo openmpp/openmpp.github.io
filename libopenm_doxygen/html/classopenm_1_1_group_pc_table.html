@@ -132,7 +132,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a968b1057369e67c48a0a0a85486bbe45"><td class="mdescLeft">&#160;</td><td class="mdescRight">get list of rows by model id.  <a href="classopenm_1_1_group_pc_table.html#a968b1057369e67c48a0a0a85486bbe45">More...</a><br /></td></tr>
 <tr class="separator:a968b1057369e67c48a0a0a85486bbe45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a521e64adab06dfcdf31b93278b0dbf4b"><td class="memItemLeft" align="right" valign="top">vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classopenm_1_1_group_pc_table.html#a521e64adab06dfcdf31b93278b0dbf4b">groupLeafs</a> (int i_modelId, int i_groupId) const override</td></tr>
-<tr class="memdesc:a521e64adab06dfcdf31b93278b0dbf4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">get list of parameter id's or table id's for the group: list of bottom level group members.  <a href="classopenm_1_1_group_pc_table.html#a521e64adab06dfcdf31b93278b0dbf4b">More...</a><br /></td></tr>
+<tr class="memdesc:a521e64adab06dfcdf31b93278b0dbf4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">get list of parameter or table id's or table id's for the group: list of bottom level group members.  <a href="classopenm_1_1_group_pc_table.html#a521e64adab06dfcdf31b93278b0dbf4b">More...</a><br /></td></tr>
 <tr class="separator:a521e64adab06dfcdf31b93278b0dbf4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3840ba37a76015813e328a98553727d"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="structopenm_1_1_group_pc_row.html">GroupPcRow</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_group_pc_table.html#af3840ba37a76015813e328a98553727d">byKey</a> (int i_modelId, int i_groupId, int i_chidPos) const =0</td></tr>
 <tr class="memdesc:af3840ba37a76015813e328a98553727d"><td class="mdescLeft">&#160;</td><td class="mdescRight">binary search row by primary key: model id, group id, child position; return NULL if not found.  <a href="structopenm_1_1_i_group_pc_table.html#af3840ba37a76015813e328a98553727d">More...</a><br /></td></tr>
@@ -141,7 +141,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a8654211e67644819340c0915b216440b"><td class="mdescLeft">&#160;</td><td class="mdescRight">get list of rows by model id.  <a href="structopenm_1_1_i_group_pc_table.html#a8654211e67644819340c0915b216440b">More...</a><br /></td></tr>
 <tr class="separator:a8654211e67644819340c0915b216440b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1bcc1954bf33b5dc25bcc43e495ea1c"><td class="memItemLeft" align="right" valign="top">virtual vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_group_pc_table.html#ab1bcc1954bf33b5dc25bcc43e495ea1c">groupLeafs</a> (int i_modelId, int i_groupId) const =0</td></tr>
-<tr class="memdesc:ab1bcc1954bf33b5dc25bcc43e495ea1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">get list of parameter id's or table id's for the group: list of bottom level group members.  <a href="structopenm_1_1_i_group_pc_table.html#ab1bcc1954bf33b5dc25bcc43e495ea1c">More...</a><br /></td></tr>
+<tr class="memdesc:ab1bcc1954bf33b5dc25bcc43e495ea1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">get list of parameter or table id's or table id's for the group: list of bottom level group members.  <a href="structopenm_1_1_i_group_pc_table.html#ab1bcc1954bf33b5dc25bcc43e495ea1c">More...</a><br /></td></tr>
 <tr class="separator:ab1bcc1954bf33b5dc25bcc43e495ea1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c5436eff677671401ab6d6126805438"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceopenm.html#ae33ab59462c9f2ceef92d48c7fb449d0">IRowBaseVec</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_group_pc_table.html#a5c5436eff677671401ab6d6126805438">rowsRef</a> (void)=0</td></tr>
 <tr class="memdesc:a5c5436eff677671401ab6d6126805438"><td class="mdescLeft">&#160;</td><td class="mdescRight">get reference to list of all table rows.  <a href="structopenm_1_1_i_group_pc_table.html#a5c5436eff677671401ab6d6126805438">More...</a><br /></td></tr>
@@ -328,7 +328,7 @@ static vector&lt; <a class="el" href="structopenm_1_1_group_pc_row.html">GroupPc
 </table>
 </div><div class="memdoc">
 
-<p>get list of parameter id's or table id's for the group: list of bottom level group members. </p>
+<p>get list of parameter or table id's or table id's for the group: list of bottom level group members. </p>
 
 <p>Implements <a class="el" href="structopenm_1_1_i_group_pc_table.html#ab1bcc1954bf33b5dc25bcc43e495ea1c">openm::IGroupPcTable</a>.</p>
 
@@ -403,7 +403,7 @@ static vector&lt; <a class="el" href="structopenm_1_1_group_pc_row.html">GroupPc
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceopenm.html">openm</a></li><li class="navelem"><a class="el" href="classopenm_1_1_group_pc_table.html">GroupPcTable</a></li>
-    <li class="footer">Generated on Mon Oct 21 2024 23:02:26 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Thu Dec 26 2024 03:42:47 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>

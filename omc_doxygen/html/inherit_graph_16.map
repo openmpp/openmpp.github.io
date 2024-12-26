@@ -13,20 +13,20 @@
 <area shape="rect" id="node32" href="$class_extend_parameter_symbol.html" title="Symbol associated with an extend_parameter statement." alt="" coords="145,579,328,605"/>
 <area shape="rect" id="node33" href="$class_global_func_symbol.html" title="GlobalFuncSymbol." alt="" coords="165,629,308,656"/>
 <area shape="rect" id="node34" href="$class_group_symbol.html" title="GroupSymbol." alt="" coords="181,680,292,707"/>
-<area shape="rect" id="node39" href="$class_import_symbol.html" title="ImportSymbol." alt="" coords="179,731,294,757"/>
-<area shape="rect" id="node40" href="$class_language_symbol.html" title="Symbol for a supported human language in the model." alt="" coords="169,781,304,808"/>
-<area shape="rect" id="node41" href="$class_link_to_attribute_symbol.html" title="A symbol for a link to an attribute in an entity." alt="" coords="152,832,321,859"/>
-<area shape="rect" id="node42" href="$class_measure_dimension_symbol.html" title="MeasureDimensionSymbol." alt="" coords="138,883,335,909"/>
-<area shape="rect" id="node43" href="$class_model_symbol.html" title="Symbol for the model itself." alt="" coords="181,933,292,960"/>
-<area shape="rect" id="node44" href="$class_model_type_symbol.html" title="Symbol for the model type information." alt="" coords="166,984,307,1011"/>
-<area shape="rect" id="node45" href="$class_module_symbol.html" title="Symbol for a source code module." alt="" coords="177,1035,296,1061"/>
-<area shape="rect" id="node46" href="$class_parameter_symbol.html" title="ParameterSymbol." alt="" coords="167,1085,306,1112"/>
-<area shape="rect" id="node47" href="$class_scenario_symbol.html" title="Symbol for the published scenario." alt="" coords="173,1136,300,1163"/>
-<area shape="rect" id="node48" href="$class_string_symbol.html" title="StringSymbol." alt="" coords="182,1187,291,1213"/>
-<area shape="rect" id="node49" href="$class_table_measure_symbol.html" title="TableMeasureSymbol." alt="" coords="156,1237,317,1264"/>
-<area shape="rect" id="node51" href="$class_table_symbol.html" title="TableSymbol." alt="" coords="184,1288,289,1315"/>
-<area shape="rect" id="node54" href="$class_type_symbol.html" title="TypeSymbol." alt="" coords="186,1389,287,1416"/>
-<area shape="rect" id="node67" href="$class_version_symbol.html" title="Symbol for the model version information." alt="" coords="177,1440,296,1467"/>
+<area shape="rect" id="node40" href="$class_import_symbol.html" title="ImportSymbol." alt="" coords="179,731,294,757"/>
+<area shape="rect" id="node41" href="$class_language_symbol.html" title="Symbol for a supported human language in the model." alt="" coords="169,781,304,808"/>
+<area shape="rect" id="node42" href="$class_link_to_attribute_symbol.html" title="A symbol for a link to an attribute in an entity." alt="" coords="152,832,321,859"/>
+<area shape="rect" id="node43" href="$class_measure_dimension_symbol.html" title="MeasureDimensionSymbol." alt="" coords="138,883,335,909"/>
+<area shape="rect" id="node44" href="$class_model_symbol.html" title="Symbol for the model itself." alt="" coords="181,933,292,960"/>
+<area shape="rect" id="node45" href="$class_model_type_symbol.html" title="Symbol for the model type information." alt="" coords="166,984,307,1011"/>
+<area shape="rect" id="node46" href="$class_module_symbol.html" title="Symbol for a source code module." alt="" coords="177,1035,296,1061"/>
+<area shape="rect" id="node47" href="$class_parameter_symbol.html" title="ParameterSymbol." alt="" coords="167,1085,306,1112"/>
+<area shape="rect" id="node48" href="$class_scenario_symbol.html" title="Symbol for the published scenario." alt="" coords="173,1136,300,1163"/>
+<area shape="rect" id="node49" href="$class_string_symbol.html" title="StringSymbol." alt="" coords="182,1187,291,1213"/>
+<area shape="rect" id="node50" href="$class_table_measure_symbol.html" title="TableMeasureSymbol." alt="" coords="156,1237,317,1264"/>
+<area shape="rect" id="node52" href="$class_table_symbol.html" title="TableSymbol." alt="" coords="184,1288,289,1315"/>
+<area shape="rect" id="node55" href="$class_type_symbol.html" title="TypeSymbol." alt="" coords="186,1389,287,1416"/>
+<area shape="rect" id="node68" href="$class_version_symbol.html" title="Symbol for the model version information." alt="" coords="177,1440,296,1467"/>
 <area shape="rect" id="node7" href="$class_entity_data_member_symbol.html" title=" " alt="" coords="401,233,595,260"/>
 <area shape="rect" id="node23" href="$class_entity_func_symbol.html" title="Symbol for a function member of an entity." alt="" coords="429,284,567,311"/>
 <area shape="rect" id="node8" href="$class_attribute_symbol.html" title=" " alt="" coords="692,81,820,108"/>
@@ -44,26 +44,27 @@
 <area shape="rect" id="node13" href="$class_identity_attribute_symbol.html" title="IdentityAttributeSymbol." alt="" coords="1179,95,1357,121"/>
 <area shape="rect" id="node14" href="$class_multilink_attribute_symbol.html" title="MultilinkAttributeSymbol." alt="" coords="1175,145,1361,172"/>
 <area shape="rect" id="node16" href="$class_simple_attribute_enum_symbol.html" title="SimpleAttributeEnumSymbol." alt="" coords="1163,196,1373,223"/>
-<area shape="rect" id="node29" href="$class_bool_enumerator_symbol.html" title=" " alt="" coords="410,461,586,488"/>
-<area shape="rect" id="node30" href="$class_classification_enumerator_symbol.html" title=" " alt="" coords="405,513,591,554"/>
-<area shape="rect" id="node31" href="$class_partition_enumerator_symbol.html" title=" " alt="" coords="397,579,599,605"/>
-<area shape="rect" id="node35" href="$class_anon_group_symbol.html" title="AnonGroupSymbol." alt="" coords="427,629,569,656"/>
-<area shape="rect" id="node36" href="$class_dependency_group_symbol.html" title="DependencyGroupSymbol." alt="" coords="403,680,593,707"/>
-<area shape="rect" id="node37" href="$class_parameter_group_symbol.html" title="ParameterGroupSymbol." alt="" coords="409,731,587,757"/>
-<area shape="rect" id="node38" href="$class_table_group_symbol.html" title="TableGroupSymbol." alt="" coords="426,781,570,808"/>
-<area shape="rect" id="node50" href="$class_entity_table_measure_symbol.html" title="EntityTableMeasureSymbol." alt="" coords="399,1187,597,1213"/>
-<area shape="rect" id="node52" href="$class_derived_table_symbol.html" title="DerivedTableSymbol." alt="" coords="420,1237,576,1264"/>
-<area shape="rect" id="node53" href="$class_entity_table_symbol.html" title="EntityTableSymbol." alt="" coords="427,1288,569,1315"/>
-<area shape="rect" id="node55" href="$class_enumeration_symbol.html" title="EnumerationSymbol." alt="" coords="421,1339,575,1365"/>
-<area shape="rect" id="node61" href="$class_numeric_symbol.html" title="NumericSymbol." alt="" coords="435,1389,561,1416"/>
-<area shape="rect" id="node64" href="$class_string_type_symbol.html" title="StringTypeSymbol." alt="" coords="429,1440,567,1467"/>
-<area shape="rect" id="node65" href="$class_type_of_link_symbol.html" title="TypeOfLinkSymbol." alt="" coords="427,1491,569,1517"/>
-<area shape="rect" id="node66" href="$class_unknown_type_symbol.html" title="BoolSymbol." alt="" coords="417,1541,579,1568"/>
-<area shape="rect" id="node56" href="$class_enumeration_with_enumerators_symbol.html" title="EnumerationWithEnumeratorsSymbol." alt="" coords="647,1273,865,1314"/>
-<area shape="rect" id="node60" href="$class_range_symbol.html" title="RangeSymbol." alt="" coords="700,1339,812,1365"/>
-<area shape="rect" id="node57" href="$class_bool_symbol.html" title="BoolSymbol." alt="" coords="964,1229,1064,1256"/>
-<area shape="rect" id="node58" href="$class_classification_symbol.html" title="ClassificationSymbol." alt="" coords="935,1280,1093,1307"/>
-<area shape="rect" id="node59" href="$class_partition_symbol.html" title="PartitionSymbol." alt="" coords="951,1331,1077,1357"/>
-<area shape="rect" id="node62" href="$class_real_symbol.html" title=" " alt="" coords="706,1389,806,1416"/>
-<area shape="rect" id="node63" href="$class_time_symbol.html" title=" " alt="" coords="704,1440,808,1467"/>
+<area shape="rect" id="node29" href="$class_bool_enumerator_symbol.html" title=" " alt="" coords="410,436,586,463"/>
+<area shape="rect" id="node30" href="$class_classification_enumerator_symbol.html" title=" " alt="" coords="405,487,591,529"/>
+<area shape="rect" id="node31" href="$class_partition_enumerator_symbol.html" title=" " alt="" coords="397,553,599,580"/>
+<area shape="rect" id="node35" href="$class_anon_group_symbol.html" title="AnonGroupSymbol." alt="" coords="427,604,569,631"/>
+<area shape="rect" id="node36" href="$class_attribute_group_symbol.html" title="AttributeGroupSymbol." alt="" coords="415,655,581,681"/>
+<area shape="rect" id="node37" href="$class_dependency_group_symbol.html" title="DependencyGroupSymbol." alt="" coords="403,705,593,732"/>
+<area shape="rect" id="node38" href="$class_parameter_group_symbol.html" title="ParameterGroupSymbol." alt="" coords="409,756,587,783"/>
+<area shape="rect" id="node39" href="$class_table_group_symbol.html" title="TableGroupSymbol." alt="" coords="426,807,570,833"/>
+<area shape="rect" id="node51" href="$class_entity_table_measure_symbol.html" title="EntityTableMeasureSymbol." alt="" coords="399,1187,597,1213"/>
+<area shape="rect" id="node53" href="$class_derived_table_symbol.html" title="DerivedTableSymbol." alt="" coords="420,1237,576,1264"/>
+<area shape="rect" id="node54" href="$class_entity_table_symbol.html" title="EntityTableSymbol." alt="" coords="427,1288,569,1315"/>
+<area shape="rect" id="node56" href="$class_enumeration_symbol.html" title="EnumerationSymbol." alt="" coords="421,1339,575,1365"/>
+<area shape="rect" id="node62" href="$class_numeric_symbol.html" title="NumericSymbol." alt="" coords="435,1389,561,1416"/>
+<area shape="rect" id="node65" href="$class_string_type_symbol.html" title="StringTypeSymbol." alt="" coords="429,1440,567,1467"/>
+<area shape="rect" id="node66" href="$class_type_of_link_symbol.html" title="TypeOfLinkSymbol." alt="" coords="427,1491,569,1517"/>
+<area shape="rect" id="node67" href="$class_unknown_type_symbol.html" title="BoolSymbol." alt="" coords="417,1541,579,1568"/>
+<area shape="rect" id="node57" href="$class_enumeration_with_enumerators_symbol.html" title="EnumerationWithEnumeratorsSymbol." alt="" coords="647,1273,865,1314"/>
+<area shape="rect" id="node61" href="$class_range_symbol.html" title="RangeSymbol." alt="" coords="700,1339,812,1365"/>
+<area shape="rect" id="node58" href="$class_bool_symbol.html" title="BoolSymbol." alt="" coords="964,1229,1064,1256"/>
+<area shape="rect" id="node59" href="$class_classification_symbol.html" title="ClassificationSymbol." alt="" coords="935,1280,1093,1307"/>
+<area shape="rect" id="node60" href="$class_partition_symbol.html" title="PartitionSymbol." alt="" coords="951,1331,1077,1357"/>
+<area shape="rect" id="node63" href="$class_real_symbol.html" title=" " alt="" coords="706,1389,806,1416"/>
+<area shape="rect" id="node64" href="$class_time_symbol.html" title=" " alt="" coords="704,1440,808,1467"/>
 </map>

@@ -1,3 +1,10 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structopenm_1_1_less_no_case.html" title="case neutral less comparator for strings" alt="" coords="5,5,160,32"/>
+<area shape="rect" id="node1" href="$structopenm_1_1_i_run_options.html" title="public interface to get model run options" alt="" coords="5,56,160,83"/>
+<area shape="rect" id="node2" href="$structopenm_1_1_i_run_base.html" title="public interface to initialize model run and input parameters" alt="" coords="216,56,352,83"/>
+<area shape="rect" id="node3" href="$classopenm_1_1_run_controller.html" title="run controller: create new model run(s) and support data exchange." alt="" coords="408,81,572,108"/>
+<area shape="rect" id="node4" href="$classopenm_1_1_child_controller.html" title="controller for child process: receive input parameters from root and send output tables." alt="" coords="627,5,799,32"/>
+<area shape="rect" id="node5" href="$classopenm_1_1_restart_controller.html" title="controller for &quot;restart run&quot;: calculate outstanding sub&#45;values for existing run" alt="" coords="620,56,807,83"/>
+<area shape="rect" id="node6" href="$classopenm_1_1_root_controller.html" title="controller for root process: create new model run(s), send input parameters to children and receieve ..." alt="" coords="629,107,798,133"/>
+<area shape="rect" id="node7" href="$classopenm_1_1_single_controller.html" title="controller for single process: create new model run(s), read input parameters and write output tables..." alt="" coords="624,157,803,184"/>
+<area shape="rect" id="node8" href="$classopenm_1_1_meta_loader.html" title="model metadata loader: read and broadcast metadata and run options." alt="" coords="208,107,360,133"/>
 </map>

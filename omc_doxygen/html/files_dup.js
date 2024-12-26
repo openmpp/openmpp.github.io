@@ -5,6 +5,8 @@ var files_dup =
     [ "AnonGroupSymbol.cpp", "_anon_group_symbol_8cpp.html", null ],
     [ "AnonGroupSymbol.h", "_anon_group_symbol_8h.html", "_anon_group_symbol_8h" ],
     [ "ast.h", "ast_8h.html", null ],
+    [ "AttributeGroupSymbol.cpp", "_attribute_group_symbol_8cpp.html", null ],
+    [ "AttributeGroupSymbol.h", "_attribute_group_symbol_8h.html", "_attribute_group_symbol_8h" ],
     [ "AttributeSymbol.cpp", "_attribute_symbol_8cpp.html", null ],
     [ "AttributeSymbol.h", "_attribute_symbol_8h.html", "_attribute_symbol_8h" ],
     [ "BoolEnumeratorSymbol.h", "_bool_enumerator_symbol_8h.html", "_bool_enumerator_symbol_8h" ],

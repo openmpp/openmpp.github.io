@@ -1,8 +1,9 @@
 <map id="GroupSymbol" name="GroupSymbol">
-<area shape="rect" id="node1" title="GroupSymbol." alt="" coords="316,80,427,107"/>
-<area shape="rect" id="node3" href="$class_anon_group_symbol.html" title="AnonGroupSymbol." alt="" coords="5,155,148,181"/>
-<area shape="rect" id="node4" href="$class_dependency_group_symbol.html" title="DependencyGroupSymbol." alt="" coords="172,155,363,181"/>
-<area shape="rect" id="node5" href="$class_parameter_group_symbol.html" title="ParameterGroupSymbol." alt="" coords="387,155,564,181"/>
-<area shape="rect" id="node6" href="$class_table_group_symbol.html" title="TableGroupSymbol." alt="" coords="589,155,733,181"/>
-<area shape="rect" id="node2" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="336,5,407,32"/>
+<area shape="rect" id="node1" title="GroupSymbol." alt="" coords="124,107,235,133"/>
+<area shape="rect" id="node3" href="$class_anon_group_symbol.html" title="AnonGroupSymbol." alt="" coords="307,5,449,32"/>
+<area shape="rect" id="node4" href="$class_attribute_group_symbol.html" title="AttributeGroupSymbol." alt="" coords="295,56,461,83"/>
+<area shape="rect" id="node5" href="$class_dependency_group_symbol.html" title="DependencyGroupSymbol." alt="" coords="283,107,473,133"/>
+<area shape="rect" id="node6" href="$class_parameter_group_symbol.html" title="ParameterGroupSymbol." alt="" coords="289,157,467,184"/>
+<area shape="rect" id="node7" href="$class_table_group_symbol.html" title="TableGroupSymbol." alt="" coords="306,208,450,235"/>
+<area shape="rect" id="node2" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="5,107,76,133"/>
 </map>
