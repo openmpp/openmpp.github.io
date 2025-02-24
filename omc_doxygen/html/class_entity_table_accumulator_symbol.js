@@ -1,6 +1,7 @@
 var class_entity_table_accumulator_symbol =
 [
     [ "declaration", "class_entity_table_accumulator_symbol.html#a9540339631a54c8ebe6ac1fcb56a9159", null ],
+    [ "has_extrema_collections", "class_entity_table_accumulator_symbol.html#ade9a46c72b48e4253d337f28fc0def56", null ],
     [ "is_base_symbol", "class_entity_table_accumulator_symbol.html#ae7937de33d496486f55ae661fac87c42", null ],
     [ "post_parse", "class_entity_table_accumulator_symbol.html#a408505b237e87bbfb1de4be4c5c279ac", null ],
     [ "pretty_name", "class_entity_table_accumulator_symbol.html#ab398ffe8a55ae02cf20bc4800e0d9b67", null ],
@@ -8,6 +9,10 @@ var class_entity_table_accumulator_symbol =
     [ "uses_value_out", "class_entity_table_accumulator_symbol.html#af929948f9a06a53797f27503cb6843e9", null ],
     [ "analysis_attribute", "class_entity_table_accumulator_symbol.html#a3d2a97239d1832d289e587fcd3aceea8", null ],
     [ "attribute", "class_entity_table_accumulator_symbol.html#adad8ddc41f876f40b767a0b0e9184385", null ],
+    [ "eligible_for_extrema_collections", "class_entity_table_accumulator_symbol.html#ab45cb60cd5335ec8d1b1289d736c1d01", null ],
+    [ "extra_index", "class_entity_table_accumulator_symbol.html#a824cfc8d846a9de7b61af87d54faa30d", null ],
+    [ "extrema_collections_index", "class_entity_table_accumulator_symbol.html#aa305a1ab17b93c33557c39b67e7a6d33", null ],
+    [ "has_extra", "class_entity_table_accumulator_symbol.html#a0aba374de3bd7a1cbdb77f35fbdbffab", null ],
     [ "has_obs_collection", "class_entity_table_accumulator_symbol.html#a79c8a98acd3ff0b6d9758978e9e6c219", null ],
     [ "increment", "class_entity_table_accumulator_symbol.html#a9d92b3e24ab34b826d691514b3ee4ad2", null ],
     [ "index", "class_entity_table_accumulator_symbol.html#a671725dcd7421391838308d014f213f6", null ],
@@ -18,5 +23,6 @@ var class_entity_table_accumulator_symbol =
     [ "statistic", "class_entity_table_accumulator_symbol.html#a7823942983d7439d7df8461a56b3fb22", null ],
     [ "table", "class_entity_table_accumulator_symbol.html#a6cbdd46d7165380b3ba33bf5379496b0", null ],
     [ "tabop", "class_entity_table_accumulator_symbol.html#a9492b5723ec0701f757d821b221a6963", null ],
+    [ "updates_extrema_collections", "class_entity_table_accumulator_symbol.html#ac03aa649ce59d5557e0bff88b9d9f96b", null ],
     [ "updates_obs_collection", "class_entity_table_accumulator_symbol.html#abbaf08d3833bed744a814d94111e2a63", null ]
 ];

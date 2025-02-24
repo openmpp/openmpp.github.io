@@ -1368,9 +1368,6 @@ const char&#160;</td><td class="memItemRight" valign="bottom"><b>msgUnknownError
 recursive_mutex&#160;</td><td class="memItemRight" valign="bottom"><b>msgMutex</b></td></tr>
 <tr class="memdesc:aa825c3458de69adf40639b9b428958c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">mutex to lock messaging operations <br /></td></tr>
 <tr class="separator:aa825c3458de69adf40639b9b428958c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a446f9ea7f649c0648cd9e2fa06141d11"><td class="memItemLeft" align="right" valign="top"><a id="a446f9ea7f649c0648cd9e2fa06141d11" name="a446f9ea7f649c0648cd9e2fa06141d11"></a>
-thread_local const char *&#160;</td><td class="memItemRight" valign="bottom"><b>checkpoint_message</b> = &quot;&quot;</td></tr>
-<tr class="separator:a446f9ea7f649c0648cd9e2fa06141d11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c01e816dc3ad5b595be4f09be92bd44"><td class="memItemLeft" align="right" valign="top"><a id="a3c01e816dc3ad5b595be4f09be92bd44" name="a3c01e816dc3ad5b595be4f09be92bd44"></a>
 const char *&#160;</td><td class="memItemRight" valign="bottom"><b>SQLITE_DB_PROVIDER</b> = &quot;sqlite&quot;</td></tr>
 <tr class="memdesc:a3c01e816dc3ad5b595be4f09be92bd44"><td class="mdescLeft">&#160;</td><td class="mdescRight">SQLite db-provider name. <br /></td></tr>
@@ -1402,6 +1399,14 @@ const char&#160;</td><td class="memItemRight" valign="bottom"><b>dbUnknownErrorM
 <tr class="memitem:a4495264cc1a4d4833133ad0ff77ebb5e"><td class="memItemLeft" align="right" valign="top">const char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a4495264cc1a4d4833133ad0ff77ebb5e">helperUnknownErrorMessage</a> [] = &quot;unknown error in helper method&quot;</td></tr>
 <tr class="memdesc:a4495264cc1a4d4833133ad0ff77ebb5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper library exception default error message: "unknown error in helper method"  <a href="namespaceopenm.html#a4495264cc1a4d4833133ad0ff77ebb5e">More...</a><br /></td></tr>
 <tr class="separator:a4495264cc1a4d4833133ad0ff77ebb5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca1188daf8d95bd9f710f8e4b715f525"><td class="memItemLeft" align="right" valign="top"><a id="aca1188daf8d95bd9f710f8e4b715f525" name="aca1188daf8d95bd9f710f8e4b715f525"></a>
+thread_local const char *&#160;</td><td class="memItemRight" valign="bottom"><b>the_checkpoint_message</b> = &quot;&quot;</td></tr>
+<tr class="memdesc:aca1188daf8d95bd9f710f8e4b715f525"><td class="mdescLeft">&#160;</td><td class="mdescRight">checkpoint log message <br /></td></tr>
+<tr class="separator:aca1188daf8d95bd9f710f8e4b715f525"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fbd635b5a023bbb4917a18d896da9b7"><td class="memItemLeft" align="right" valign="top"><a id="a3fbd635b5a023bbb4917a18d896da9b7" name="a3fbd635b5a023bbb4917a18d896da9b7"></a>
+thread_local std::source_location&#160;</td><td class="memItemRight" valign="bottom"><b>the_checkpoint_location</b></td></tr>
+<tr class="memdesc:a3fbd635b5a023bbb4917a18d896da9b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">checkpoint source code location: file name, line and column <br /></td></tr>
+<tr class="separator:a3fbd635b5a023bbb4917a18d896da9b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6831eac65aa0d9a777367fbfb688b73"><td class="memItemLeft" align="right" valign="top"><a id="ac6831eac65aa0d9a777367fbfb688b73" name="ac6831eac65aa0d9a777367fbfb688b73"></a>
 const size_t&#160;</td><td class="memItemRight" valign="bottom"><b>PARAMETER_NAME_ARR_LEN</b></td></tr>
 <tr class="memdesc:ac6831eac65aa0d9a777367fbfb688b73"><td class="mdescLeft">&#160;</td><td class="mdescRight">size of parameters list: number of model input parameters <br /></td></tr>
@@ -1821,7 +1826,7 @@ const size_t&#160;</td><td class="memItemRight" valign="bottom"><b>EVENT_ID_NAME
 <div class="line"><span class="keywordflow">if</span> (nMax &gt; 0) <a class="code hl_variable" href="log_8cpp.html#acc2c12426b71d32febdbabb61b69687b">theLog</a>-&gt;<a class="code hl_function" href="structopenm_1_1_i_log_base.html#afb39081ccaea604f2126c163d29cb6f1">logFormatted</a>(<a class="code hl_define" href="om_log_8h.html#a2627891a60efbe66767126a53591f282">LT</a>(<span class="stringliteral">&quot;Maximum memory size: %f MB&quot;</span>), ((<span class="keywordtype">double</span>)nMax / (1024.0 * 1024.0)));</div>
 <div class="ttc" id="alog_8cpp_html_acc2c12426b71d32febdbabb61b69687b"><div class="ttname"><a href="log_8cpp.html#acc2c12426b71d32febdbabb61b69687b">theLog</a></div><div class="ttdeci">ILog * theLog</div><div class="ttdoc">public log interface</div><div class="ttdef"><b>Definition:</b> log.cpp:28</div></div>
 <div class="ttc" id="anamespaceopenm_html_a1e2215ea844201635316e4646fa8e857"><div class="ttname"><a href="namespaceopenm.html#a1e2215ea844201635316e4646fa8e857">openm::getProcessMemorySize</a></div><div class="ttdeci">std::tuple&lt; uint64_t, uint64_t &gt; getProcessMemorySize(void)</div><div class="ttdoc">return current process memory size and max peak memory size, in bytes.</div><div class="ttdef"><b>Definition:</b> os.cpp:11</div></div>
-<div class="ttc" id="aom_log_8h_html_a2627891a60efbe66767126a53591f282"><div class="ttname"><a href="om_log_8h.html#a2627891a60efbe66767126a53591f282">LT</a></div><div class="ttdeci">#define LT(sourceMessage)</div><div class="ttdoc">LT localisation function: return is temporary const char* and must be copied to avoid memory violatio...</div><div class="ttdef"><b>Definition:</b> omLog.h:133</div></div>
+<div class="ttc" id="aom_log_8h_html_a2627891a60efbe66767126a53591f282"><div class="ttname"><a href="om_log_8h.html#a2627891a60efbe66767126a53591f282">LT</a></div><div class="ttdeci">#define LT(sourceMessage)</div><div class="ttdoc">LT localisation function: return is temporary const char* and must be copied to avoid memory violatio...</div><div class="ttdef"><b>Definition:</b> omLog.h:149</div></div>
 <div class="ttc" id="astructopenm_1_1_i_log_base_html_afb39081ccaea604f2126c163d29cb6f1"><div class="ttname"><a href="structopenm_1_1_i_log_base.html#afb39081ccaea604f2126c163d29cb6f1">openm::ILogBase::logFormatted</a></div><div class="ttdeci">virtual void logFormatted(const char *i_format,...) noexcept=0</div><div class="ttdoc">log message formatted with vsnprintf()</div></div>
 </div><!-- fragment --> 
 </div>
@@ -2377,7 +2382,7 @@ const size_t&#160;</td><td class="memItemRight" valign="bottom"><b>EVENT_ID_NAME
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceopenm.html">openm</a></li>
-    <li class="footer">Generated on Thu Dec 26 2024 03:42:47 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Mon Feb 17 2025 13:43:31 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>

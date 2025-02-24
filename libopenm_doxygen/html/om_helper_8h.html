@@ -87,8 +87,7 @@ $(document).ready(function(){initNavTree('om_helper_8h.html',''); initResizable(
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#define-members">Macros</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">omHelper.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -237,12 +236,6 @@ Macros</h2></td></tr>
 <tr class="memitem:ab69c67eb0dc3d612d0f23db949d555dc"><td class="memItemLeft" align="right" valign="top"><a id="ab69c67eb0dc3d612d0f23db949d555dc" name="ab69c67eb0dc3d612d0f23db949d555dc"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>OM_STATE_BEAT_TIME</b>&#160;&#160;&#160;1823L        /** msec, interval between run state heart beats update */</td></tr>
 <tr class="separator:ab69c67eb0dc3d612d0f23db949d555dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4a74b2f9212f153c0d4007a8d440c09"><td class="memItemLeft" align="right" valign="top"><a id="ae4a74b2f9212f153c0d4007a8d440c09" name="ae4a74b2f9212f153c0d4007a8d440c09"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>CHECKPOINT</b>(x)&#160;&#160;&#160;openm::checkpoint_message = x;</td></tr>
-<tr class="separator:ae4a74b2f9212f153c0d4007a8d440c09"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3137c1364d3b4004fc9ff0a2ed56efbe"><td class="memItemLeft" align="right" valign="top"><a id="a3137c1364d3b4004fc9ff0a2ed56efbe" name="a3137c1364d3b4004fc9ff0a2ed56efbe"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>GET_CHECKPOINT_MESSAGE</b>&#160;&#160;&#160;(openm::checkpoint_message)</td></tr>
-<tr class="separator:a3137c1364d3b4004fc9ff0a2ed56efbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -435,12 +428,6 @@ const std::list&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="
 <tr class="memitem:a723cbbbc195258d1e5a49ea5e44a0609"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopenm.html#a723cbbbc195258d1e5a49ea5e44a0609">openm::splitCsv</a> (const std::string &amp;i_values, std::list&lt; std::string &gt; &amp;io_resultLst, const char *i_delimiters=&quot;,&quot;, bool i_isUnquote=false, char i_quote='\'', const std::locale &amp;i_locale=std::locale(&quot;&quot;))</td></tr>
 <tr class="memdesc:a723cbbbc195258d1e5a49ea5e44a0609"><td class="mdescLeft">&#160;</td><td class="mdescRight">split and trim comma-separated list of values (other delimiters can be used too, ie: semicolon).  <a href="namespaceopenm.html#a723cbbbc195258d1e5a49ea5e44a0609">More...</a><br /></td></tr>
 <tr class="separator:a723cbbbc195258d1e5a49ea5e44a0609"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a446f9ea7f649c0648cd9e2fa06141d11"><td class="memItemLeft" align="right" valign="top"><a id="a446f9ea7f649c0648cd9e2fa06141d11" name="a446f9ea7f649c0648cd9e2fa06141d11"></a>
-thread_local const char *&#160;</td><td class="memItemRight" valign="bottom"><b>openm::checkpoint_message</b> = &quot;&quot;</td></tr>
-<tr class="separator:a446f9ea7f649c0648cd9e2fa06141d11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >OpenM++ common helper utilities. </p>
@@ -450,7 +437,7 @@ thread_local const char *&#160;</td><td class="memItemRight" valign="bottom"><b>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_30e93d7ad2ce010165d2d10f88217613.html">libopenm</a></li><li class="navelem"><a class="el" href="dir_5ddca90b2bfae5da637f3f9890c9c5cd.html">common</a></li><li class="navelem"><a class="el" href="om_helper_8h.html">omHelper.h</a></li>
-    <li class="footer">Generated on Thu Dec 26 2024 03:42:47 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Mon Feb 17 2025 13:43:31 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>

@@ -134,6 +134,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac0975245f23e4f90d11fd34edd8ed866"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_run_base.html#ac0975245f23e4f90d11fd34edd8ed866">isUseSubValue</a> (int i_subId) const =0</td></tr>
 <tr class="memdesc:ac0975245f23e4f90d11fd34edd8ed866"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if sub-value used by current process  <a href="structopenm_1_1_i_run_base.html#ac0975245f23e4f90d11fd34edd8ed866">More...</a><br /></td></tr>
 <tr class="separator:ac0975245f23e4f90d11fd34edd8ed866"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3df0db579ec5ee39647f771e52b65956"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_run_base.html#a3df0db579ec5ee39647f771e52b65956">isTableSuppressed</a> (const char *i_name) const =0</td></tr>
+<tr class="memdesc:a3df0db579ec5ee39647f771e52b65956"><td class="mdescLeft">&#160;</td><td class="mdescRight">check by name if output table suppressed.  <a href="structopenm_1_1_i_run_base.html#a3df0db579ec5ee39647f771e52b65956">More...</a><br /></td></tr>
+<tr class="separator:a3df0db579ec5ee39647f771e52b65956"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a327e59fb0be91ccbaf460844e0396fd8"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structopenm_1_1_i_run_base.html#a327e59fb0be91ccbaf460844e0396fd8">isTableSuppressed</a> (int i_tableId) const =0</td></tr>
+<tr class="memdesc:a327e59fb0be91ccbaf460844e0396fd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">check by id if output table suppressed.  <a href="structopenm_1_1_i_run_base.html#a327e59fb0be91ccbaf460844e0396fd8">More...</a><br /></td></tr>
+<tr class="separator:a327e59fb0be91ccbaf460844e0396fd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84612ac0177d89f0a0c7efc7f0df9fad"><td class="memItemLeft" align="right" valign="top"><a id="a84612ac0177d89f0a0c7efc7f0df9fad" name="a84612ac0177d89f0a0c7efc7f0df9fad"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>readParameter</b> (const char *i_name, int i_subId, const std::type_info &amp;i_type, size_t i_size, void *io_valueArr)=0</td></tr>
 <tr class="memdesc:a84612ac0177d89f0a0c7efc7f0df9fad"><td class="mdescLeft">&#160;</td><td class="mdescRight">read model parameter <br /></td></tr>
@@ -172,6 +178,66 @@ return -2 otherwise.  <a href="structopenm_1_1_i_run_options.html#a2b74baa09db18
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >public interface to initialize model run and input parameters </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a3df0db579ec5ee39647f771e52b65956" name="a3df0db579ec5ee39647f771e52b65956"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3df0db579ec5ee39647f771e52b65956">&#9670;&nbsp;</a></span>isTableSuppressed() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool openm::IRunBase::isTableSuppressed </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>i_name</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>check by name if output table suppressed. </p>
+
+<p>Implemented in <a class="el" href="classopenm_1_1_run_controller.html#a24b15d2d731744b90f2369439fc368fa">openm::RunController</a>.</p>
+
+</div>
+</div>
+<a id="a327e59fb0be91ccbaf460844e0396fd8" name="a327e59fb0be91ccbaf460844e0396fd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a327e59fb0be91ccbaf460844e0396fd8">&#9670;&nbsp;</a></span>isTableSuppressed() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool openm::IRunBase::isTableSuppressed </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i_tableId</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>check by id if output table suppressed. </p>
+
+<p>Implemented in <a class="el" href="classopenm_1_1_run_controller.html#a3e8727fb0b4a9730851d80723136d378">openm::RunController</a>.</p>
+
+</div>
+</div>
 <a id="ac0975245f23e4f90d11fd34edd8ed866" name="ac0975245f23e4f90d11fd34edd8ed866"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac0975245f23e4f90d11fd34edd8ed866">&#9670;&nbsp;</a></span>isUseSubValue()</h2>
 
@@ -342,7 +408,7 @@ return -2 otherwise.  <a href="structopenm_1_1_i_run_options.html#a2b74baa09db18
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceopenm.html">openm</a></li><li class="navelem"><a class="el" href="structopenm_1_1_i_run_base.html">IRunBase</a></li>
-    <li class="footer">Generated on Thu Dec 26 2024 03:42:47 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Mon Feb 17 2025 13:43:31 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>

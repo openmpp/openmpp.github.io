@@ -128,6 +128,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5c0b6761f19bee4b3d3aa5ce5a9915e8"><td class="memItemLeft" align="right" valign="top"><a id="a5c0b6761f19bee4b3d3aa5ce5a9915e8" name="a5c0b6761f19bee4b3d3aa5ce5a9915e8"></a>
 string&#160;</td><td class="memItemRight" valign="bottom"><b>formatted_value</b> () const</td></tr>
 <tr class="separator:a5c0b6761f19bee4b3d3aa5ce5a9915e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87c5fe42b48d4705edd703d9f2da9fe9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_code_block.html">CodeBlock</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_version_symbol.html#a87c5fe42b48d4705edd703d9f2da9fe9">cxx_definition_global</a> () override</td></tr>
+<tr class="memdesc:a87c5fe42b48d4705edd703d9f2da9fe9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the c++ definition code associated with the symbol.  <a href="class_version_symbol.html#a87c5fe42b48d4705edd703d9f2da9fe9">More...</a><br /></td></tr>
+<tr class="separator:a87c5fe42b48d4705edd703d9f2da9fe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8511e2b768249ed03252037df27f850"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_version_symbol.html#ab8511e2b768249ed03252037df27f850">populate_metadata</a> (openm::MetaModelHolder &amp;metaRows)</td></tr>
 <tr class="memdesc:ab8511e2b768249ed03252037df27f850"><td class="mdescLeft">&#160;</td><td class="mdescRight">Populate metadata associated with the symbol.  <a href="class_version_symbol.html#ab8511e2b768249ed03252037df27f850">More...</a><br /></td></tr>
 <tr class="separator:ab8511e2b768249ed03252037df27f850"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -570,6 +573,9 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>heuristic_shor
 <tr class="memitem:ac50ba744619779b1e248a65a9192c17c inherit pub_static_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top">static list&lt; <a class="el" href="class_entity_table_symbol.html">EntityTableSymbol</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#ac50ba744619779b1e248a65a9192c17c">pp_all_entity_tables</a></td></tr>
 <tr class="memdesc:ac50ba744619779b1e248a65a9192c17c inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">The entity tables in the model.  <a href="class_symbol.html#ac50ba744619779b1e248a65a9192c17c">More...</a><br /></td></tr>
 <tr class="separator:ac50ba744619779b1e248a65a9192c17c inherit pub_static_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e02bc40841da0a9c4a870db962d774c inherit pub_static_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a6e02bc40841da0a9c4a870db962d774c">pp_any_screened_entity_tables</a> = false</td></tr>
+<tr class="memdesc:a6e02bc40841da0a9c4a870db962d774c inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if model contains any screened entity tables.  <a href="class_symbol.html#a6e02bc40841da0a9c4a870db962d774c">More...</a><br /></td></tr>
+<tr class="separator:a6e02bc40841da0a9c4a870db962d774c inherit pub_static_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b6943ea27773b0fb5db9aacda27794c inherit pub_static_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top">static list&lt; <a class="el" href="class_derived_table_symbol.html">DerivedTableSymbol</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_symbol.html#a0b6943ea27773b0fb5db9aacda27794c">pp_all_derived_tables</a></td></tr>
 <tr class="memdesc:a0b6943ea27773b0fb5db9aacda27794c inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">The derived tables in the model.  <a href="class_symbol.html#a0b6943ea27773b0fb5db9aacda27794c">More...</a><br /></td></tr>
 <tr class="separator:a0b6943ea27773b0fb5db9aacda27794c inherit pub_static_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -878,6 +884,22 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><b>option_enable_
 static bool&#160;</td><td class="memItemRight" valign="bottom"><b>option_convert_modgen_note_syntax</b> = true</td></tr>
 <tr class="memdesc:affc1421bdbce24d8ca6b69dd936af1ed inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">true or false depending on convert_modgen_note_syntax in options statement. <br /></td></tr>
 <tr class="separator:affc1421bdbce24d8ca6b69dd936af1ed inherit pub_static_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1dc25602625da01764d11833db9a2f3e inherit pub_static_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="a1dc25602625da01764d11833db9a2f3e" name="a1dc25602625da01764d11833db9a2f3e"></a>
+static size_t&#160;</td><td class="memItemRight" valign="bottom"><b>option_screened1_extremas_size</b> = 0</td></tr>
+<tr class="memdesc:a1dc25602625da01764d11833db9a2f3e inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">size of the screened1 extremas collections <br /></td></tr>
+<tr class="separator:a1dc25602625da01764d11833db9a2f3e inherit pub_static_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af01f6d7c036481da8ce41c66d594d01c inherit pub_static_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="af01f6d7c036481da8ce41c66d594d01c" name="af01f6d7c036481da8ce41c66d594d01c"></a>
+static size_t&#160;</td><td class="memItemRight" valign="bottom"><b>option_screened2_extremas_size</b> = 0</td></tr>
+<tr class="memdesc:af01f6d7c036481da8ce41c66d594d01c inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">size of the screened2 extremas collections <br /></td></tr>
+<tr class="separator:af01f6d7c036481da8ce41c66d594d01c inherit pub_static_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6248de2ea9c0f61b96d939c158da714e inherit pub_static_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="a6248de2ea9c0f61b96d939c158da714e" name="a6248de2ea9c0f61b96d939c158da714e"></a>
+static size_t&#160;</td><td class="memItemRight" valign="bottom"><b>option_screened3_extremas_size</b> = 0</td></tr>
+<tr class="memdesc:a6248de2ea9c0f61b96d939c158da714e inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">size of the screened3 extremas collections <br /></td></tr>
+<tr class="separator:a6248de2ea9c0f61b96d939c158da714e inherit pub_static_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbf328a5ba1d0d18613fa5538418a014 inherit pub_static_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="acbf328a5ba1d0d18613fa5538418a014" name="acbf328a5ba1d0d18613fa5538418a014"></a>
+static size_t&#160;</td><td class="memItemRight" valign="bottom"><b>option_screened4_extremas_size</b> = 0</td></tr>
+<tr class="memdesc:acbf328a5ba1d0d18613fa5538418a014 inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">size of the screened4 extremas collections <br /></td></tr>
+<tr class="separator:acbf328a5ba1d0d18613fa5538418a014 inherit pub_static_attribs_class_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64dba1d43a52d9c64dcf8c85cf9e3314 inherit pub_static_attribs_class_symbol"><td class="memItemLeft" align="right" valign="top"><a id="a64dba1d43a52d9c64dcf8c85cf9e3314" name="a64dba1d43a52d9c64dcf8c85cf9e3314"></a>
 static size_t&#160;</td><td class="memItemRight" valign="bottom"><b>short_name_max_length</b> = 32</td></tr>
 <tr class="memdesc:a64dba1d43a52d9c64dcf8c85cf9e3314 inherit pub_static_attribs_class_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximum length of a short name <br /></td></tr>
@@ -1199,6 +1221,39 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><b>trace_scanning
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a87c5fe42b48d4705edd703d9f2da9fe9" name="a87c5fe42b48d4705edd703d9f2da9fe9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87c5fe42b48d4705edd703d9f2da9fe9">&#9670;&nbsp;</a></span>cxx_definition_global()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_code_block.html">CodeBlock</a> VersionSymbol::cxx_definition_global </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the c++ definition code associated with the symbol. </p>
+<p >The code fragment is not qualified by any entity class.</p>
+<p >When this function is called on an object in the <a class="el" href="class_symbol.html">Symbol</a> hierarchy, the call is first passed upwards through the inheritance hierarchy so that operations are performed at all hierarchical levels, and at higher levels before lower levels.</p>
+<dl class="section return"><dt>Returns</dt><dd>A <a class="el" href="class_code_block.html">CodeBlock</a>. </dd></dl>
+
+<p>Reimplemented from <a class="el" href="class_symbol.html#a7f646bc8ca60aa3e56505aaf9d4a8a89">Symbol</a>.</p>
+
+</div>
+</div>
 <a id="a069f4d3b07a2ecb7a32964f3f0bb108b" name="a069f4d3b07a2ecb7a32964f3f0bb108b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a069f4d3b07a2ecb7a32964f3f0bb108b">&#9670;&nbsp;</a></span>is_base_symbol()</h2>
 
@@ -1277,7 +1332,7 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><b>trace_scanning
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_version_symbol.html">VersionSymbol</a></li>
-    <li class="footer">Generated on Thu Dec 26 2024 03:42:56 for OpenM++ compiler (omc) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Mon Feb 17 2025 13:43:37 for OpenM++ compiler (omc) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>

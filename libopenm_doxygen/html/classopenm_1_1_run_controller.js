@@ -28,6 +28,8 @@ var classopenm_1_1_run_controller =
     [ "intOption", "classopenm_1_1_run_controller.html#a6f64f083daf19da4c1cb320c67050666", null ],
     [ "isEntityEventInFilter", "classopenm_1_1_run_controller.html#ad45c609ad9dd1e2014fdbd27911656b0", null ],
     [ "isOptionExist", "classopenm_1_1_run_controller.html#a703c62770228874a8768d8cf6e9a19e5", null ],
+    [ "isTableSuppressed", "classopenm_1_1_run_controller.html#a24b15d2d731744b90f2369439fc368fa", null ],
+    [ "isTableSuppressed", "classopenm_1_1_run_controller.html#a3e8727fb0b4a9730851d80723136d378", null ],
     [ "isUseSubValue", "classopenm_1_1_run_controller.html#a19fb295661270cc69d14c7c51bac23ba", null ],
     [ "longOption", "classopenm_1_1_run_controller.html#a028be9b0b4b5e4e6487c78bf82486749", null ],
     [ "makeCsvLineMicrodata", "classopenm_1_1_run_controller.html#aa875f434ac29cefbd235da5413746472", null ],

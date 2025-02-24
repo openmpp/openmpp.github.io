@@ -98,10 +98,11 @@ Include dependency graph for omLog.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="om_log_8h__incl.png" border="0" usemap="#a_2home_2build__doc_2ompp-make-doc_2ompp-main_2include_2libopenm_2om_log_8h" alt=""/></div>
 <map name="a_2home_2build__doc_2ompp-make-doc_2ompp-main_2include_2libopenm_2om_log_8h" id="a_2home_2build__doc_2ompp-make-doc_2ompp-main_2include_2libopenm_2om_log_8h">
-<area shape="rect" title="OpenM++: public interface for log and trace support." alt="" coords="5,5,227,61"/>
-<area shape="rect" title=" " alt="" coords="12,109,71,136"/>
-<area shape="rect" title=" " alt="" coords="95,109,137,136"/>
-<area shape="rect" title=" " alt="" coords="162,109,286,136"/>
+<area shape="rect" title="OpenM++: public interface for log and trace support." alt="" coords="52,5,273,61"/>
+<area shape="rect" title=" " alt="" coords="5,109,64,136"/>
+<area shape="rect" title=" " alt="" coords="88,109,131,136"/>
+<area shape="rect" title=" " alt="" coords="155,109,279,136"/>
+<area shape="rect" title=" " alt="" coords="303,109,427,136"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -184,6 +185,13 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
+<tr class="memitem:ae4a74b2f9212f153c0d4007a8d440c09"><td class="memItemLeft" align="right" valign="top"><a id="ae4a74b2f9212f153c0d4007a8d440c09" name="ae4a74b2f9212f153c0d4007a8d440c09"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>CHECKPOINT</b>(x)&#160;&#160;&#160;{ <a class="el" href="namespaceopenm.html#a3fbd635b5a023bbb4917a18d896da9b7">openm::the_checkpoint_location</a> = std::source_location::current(); <a class="el" href="namespaceopenm.html#aca1188daf8d95bd9f710f8e4b715f525">openm::the_checkpoint_message</a> = x; }</td></tr>
+<tr class="memdesc:ae4a74b2f9212f153c0d4007a8d440c09"><td class="mdescLeft">&#160;</td><td class="mdescRight">save checkpoint message and source code location <br /></td></tr>
+<tr class="separator:ae4a74b2f9212f153c0d4007a8d440c09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0ae87bb32244048c2b8caa1e476e1b1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="om_log_8h.html#ab0ae87bb32244048c2b8caa1e476e1b1">LOG_CHECKPOINT</a></td></tr>
+<tr class="memdesc:ab0ae87bb32244048c2b8caa1e476e1b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">output to the log latest checkpoint message and source code location  <a href="om_log_8h.html#ab0ae87bb32244048c2b8caa1e476e1b1">More...</a><br /></td></tr>
+<tr class="separator:ab0ae87bb32244048c2b8caa1e476e1b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2627891a60efbe66767126a53591f282"><td class="memItemLeft" align="right" valign="top"><a id="a2627891a60efbe66767126a53591f282" name="a2627891a60efbe66767126a53591f282"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>LT</b>(sourceMessage)&#160;&#160;&#160;((<a class="el" href="om_log_8h.html#ae1eb1573365ebf5ae047bdef622d1459">theLog</a>-&gt;getMessage(sourceMessage)).c_str())</td></tr>
 <tr class="memdesc:a2627891a60efbe66767126a53591f282"><td class="mdescLeft">&#160;</td><td class="mdescRight">LT localisation function: return is temporary const char* and must be copied to avoid memory violation crash. <br /></td></tr>
@@ -194,6 +202,14 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
+<tr class="memitem:aca1188daf8d95bd9f710f8e4b715f525"><td class="memItemLeft" align="right" valign="top"><a id="aca1188daf8d95bd9f710f8e4b715f525" name="aca1188daf8d95bd9f710f8e4b715f525"></a>
+thread_local const char *&#160;</td><td class="memItemRight" valign="bottom"><b>openm::the_checkpoint_message</b> = &quot;&quot;</td></tr>
+<tr class="memdesc:aca1188daf8d95bd9f710f8e4b715f525"><td class="mdescLeft">&#160;</td><td class="mdescRight">checkpoint log message <br /></td></tr>
+<tr class="separator:aca1188daf8d95bd9f710f8e4b715f525"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fbd635b5a023bbb4917a18d896da9b7"><td class="memItemLeft" align="right" valign="top"><a id="a3fbd635b5a023bbb4917a18d896da9b7" name="a3fbd635b5a023bbb4917a18d896da9b7"></a>
+thread_local std::source_location&#160;</td><td class="memItemRight" valign="bottom"><b>openm::the_checkpoint_location</b></td></tr>
+<tr class="memdesc:a3fbd635b5a023bbb4917a18d896da9b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">checkpoint source code location: file name, line and column <br /></td></tr>
+<tr class="separator:a3fbd635b5a023bbb4917a18d896da9b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1eb1573365ebf5ae047bdef622d1459"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structopenm_1_1_i_log.html">openm::ILog</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="om_log_8h.html#ae1eb1573365ebf5ae047bdef622d1459">theLog</a></td></tr>
 <tr class="memdesc:ae1eb1573365ebf5ae047bdef622d1459"><td class="mdescLeft">&#160;</td><td class="mdescRight">log global instance: log to console and into log files  <a href="om_log_8h.html#ae1eb1573365ebf5ae047bdef622d1459">More...</a><br /></td></tr>
 <tr class="separator:ae1eb1573365ebf5ae047bdef622d1459"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -204,6 +220,29 @@ Variables</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >OpenM++: public interface for log and trace support. </p>
 </div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ab0ae87bb32244048c2b8caa1e476e1b1" name="ab0ae87bb32244048c2b8caa1e476e1b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0ae87bb32244048c2b8caa1e476e1b1">&#9670;&nbsp;</a></span>LOG_CHECKPOINT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LOG_CHECKPOINT</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_variable" href="om_log_8h.html#ae1eb1573365ebf5ae047bdef622d1459">theLog</a>-&gt;<a class="code hl_function" href="structopenm_1_1_i_log_base.html#afb39081ccaea604f2126c163d29cb6f1">logFormatted</a>(<span class="stringliteral">&quot;%s: [%d,%d] %s&quot;</span>, \</div>
+<div class="line">        <a class="code hl_variable" href="namespaceopenm.html#aca1188daf8d95bd9f710f8e4b715f525">the_checkpoint_message</a>, \</div>
+<div class="line">        <a class="code hl_variable" href="namespaceopenm.html#a3fbd635b5a023bbb4917a18d896da9b7">the_checkpoint_location</a>.line(), <a class="code hl_variable" href="namespaceopenm.html#a3fbd635b5a023bbb4917a18d896da9b7">the_checkpoint_location</a>.column(), <a class="code hl_variable" href="namespaceopenm.html#a3fbd635b5a023bbb4917a18d896da9b7">the_checkpoint_location</a>.file_name());</div>
+<div class="ttc" id="anamespaceopenm_html_a3fbd635b5a023bbb4917a18d896da9b7"><div class="ttname"><a href="namespaceopenm.html#a3fbd635b5a023bbb4917a18d896da9b7">openm::the_checkpoint_location</a></div><div class="ttdeci">thread_local std::source_location the_checkpoint_location</div><div class="ttdoc">checkpoint source code location: file name, line and column</div><div class="ttdef"><b>Definition:</b> omLog.h:119</div></div>
+<div class="ttc" id="anamespaceopenm_html_aca1188daf8d95bd9f710f8e4b715f525"><div class="ttname"><a href="namespaceopenm.html#aca1188daf8d95bd9f710f8e4b715f525">openm::the_checkpoint_message</a></div><div class="ttdeci">thread_local const char * the_checkpoint_message</div><div class="ttdoc">checkpoint log message</div><div class="ttdef"><b>Definition:</b> omLog.h:116</div></div>
+<div class="ttc" id="aom_log_8h_html_ae1eb1573365ebf5ae047bdef622d1459"><div class="ttname"><a href="om_log_8h.html#ae1eb1573365ebf5ae047bdef622d1459">theLog</a></div><div class="ttdeci">openm::ILog * theLog</div><div class="ttdoc">log global instance: log to console and into log files</div><div class="ttdef"><b>Definition:</b> log.cpp:28</div></div>
+<div class="ttc" id="astructopenm_1_1_i_log_base_html_afb39081ccaea604f2126c163d29cb6f1"><div class="ttname"><a href="structopenm_1_1_i_log_base.html#afb39081ccaea604f2126c163d29cb6f1">openm::ILogBase::logFormatted</a></div><div class="ttdeci">virtual void logFormatted(const char *i_format,...) noexcept=0</div><div class="ttdoc">log message formatted with vsnprintf()</div></div>
+</div><!-- fragment -->
+<p>output to the log latest checkpoint message and source code location </p>
+
+</div>
+</div>
 <a id="a43d458ce09111a91ea8ab2ea2b6753e3" name="a43d458ce09111a91ea8ab2ea2b6753e3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a43d458ce09111a91ea8ab2ea2b6753e3">&#9670;&nbsp;</a></span>NO_LT</h2>
 
@@ -282,7 +321,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_30e93d7ad2ce010165d2d10f88217613.html">libopenm</a></li><li class="navelem"><a class="el" href="om_log_8h.html">omLog.h</a></li>
-    <li class="footer">Generated on Thu Dec 26 2024 03:42:47 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Mon Feb 17 2025 13:43:31 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>

@@ -475,5 +475,7 @@ var namespaceopenm =
     [ "PGSQL_DB_PROVIDER", "namespaceopenm.html#aaa2c08311bb1c5bd89a399fdccd8a3de", null ],
     [ "simulationUnknownErrorMessage", "namespaceopenm.html#ad6344e88368961ad36da4c9433e0c1cc", null ],
     [ "SQLITE_DB_PROVIDER", "namespaceopenm.html#a3c01e816dc3ad5b595be4f09be92bd44", null ],
+    [ "the_checkpoint_location", "namespaceopenm.html#a3fbd635b5a023bbb4917a18d896da9b7", null ],
+    [ "the_checkpoint_message", "namespaceopenm.html#aca1188daf8d95bd9f710f8e4b715f525", null ],
     [ "trueValueString", "namespaceopenm.html#a0050fa8b48b1e60915e04be1bf743f47", null ]
 ];
