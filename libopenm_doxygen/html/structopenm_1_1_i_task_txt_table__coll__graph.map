@@ -1,4 +1,5 @@
 <map id="openm::ITaskTxtTable" name="openm::ITaskTxtTable">
-<area shape="rect" id="node1" title="task_txt table public interface." alt="" coords="5,95,168,121"/>
-<area shape="rect" id="node2" href="$structopenm_1_1_i_meta_table.html" title=" " alt="" coords="8,5,165,47"/>
+<area shape="rect" id="Node000001" title="task_txt table public interface." alt="" coords="5,93,168,119"/>
+<area shape="rect" id="Node000002" href="$structopenm_1_1_i_meta_table.html" title=" " alt="" coords="8,5,165,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,59,89,93,84,93,84,59"/>
 </map>

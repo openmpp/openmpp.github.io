@@ -1,9 +1,15 @@
 <map id="EnumerationWithEnumeratorsSymbol" name="EnumerationWithEnumeratorsSymbol">
-<area shape="rect" id="node1" title="EnumerationWithEnumeratorsSymbol." alt="" coords="99,229,318,271"/>
-<area shape="rect" id="node5" href="$class_bool_symbol.html" title="BoolSymbol." alt="" coords="5,319,105,345"/>
-<area shape="rect" id="node6" href="$class_classification_symbol.html" title="ClassificationSymbol." alt="" coords="129,319,288,345"/>
-<area shape="rect" id="node7" href="$class_partition_symbol.html" title="PartitionSymbol." alt="" coords="313,319,438,345"/>
-<area shape="rect" id="node2" href="$class_enumeration_symbol.html" title="EnumerationSymbol." alt="" coords="131,155,286,181"/>
-<area shape="rect" id="node3" href="$class_type_symbol.html" title="TypeSymbol." alt="" coords="158,80,259,107"/>
-<area shape="rect" id="node4" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="173,5,244,32"/>
+<area shape="rect" id="Node000001" title="EnumerationWithEnumeratorsSymbol." alt="" coords="99,225,318,265"/>
+<area shape="rect" id="Node000005" href="$class_bool_symbol.html" title="BoolSymbol." alt="" coords="5,313,105,339"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="161,274,79,316,77,311,159,269"/>
+<area shape="rect" id="Node000006" href="$class_classification_symbol.html" title="ClassificationSymbol." alt="" coords="129,313,288,339"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="211,279,211,313,206,313,206,279"/>
+<area shape="rect" id="Node000007" href="$class_partition_symbol.html" title="PartitionSymbol." alt="" coords="313,313,438,339"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="262,269,352,311,350,316,260,274"/>
+<area shape="rect" id="Node000002" href="$class_enumeration_symbol.html" title="EnumerationSymbol." alt="" coords="131,152,286,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="211,191,211,225,206,225,206,191"/>
+<area shape="rect" id="Node000003" href="$class_type_symbol.html" title="TypeSymbol." alt="" coords="158,79,259,104"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="211,118,211,152,206,152,206,118"/>
+<area shape="rect" id="Node000004" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="173,5,244,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="211,44,211,79,206,79,206,44"/>
 </map>

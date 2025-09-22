@@ -1,12 +1,24 @@
 <map id="BoolEnumeratorSymbol" name="BoolEnumeratorSymbol">
-<area shape="rect" id="node1" title=" " alt="" coords="5,649,181,676"/>
-<area shape="rect" id="node2" href="$class_enumerator_symbol.html" title=" " alt="" coords="20,573,167,600"/>
-<area shape="rect" id="node3" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="111,228,182,255"/>
-<area shape="rect" id="node6" href="$class_module_symbol.html" title="Symbol for a source code module." alt="" coords="131,317,250,344"/>
-<area shape="rect" id="node10" href="$class_type_symbol.html" title="TypeSymbol." alt="" coords="275,317,376,344"/>
-<area shape="rect" id="node4" href="$classomc_1_1location.html" title="Two points in a source file." alt="" coords="25,109,135,136"/>
-<area shape="rect" id="node5" href="$classomc_1_1position.html" title="A point in a source file." alt="" coords="25,5,135,32"/>
-<area shape="rect" id="node7" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="159,109,270,136"/>
-<area shape="rect" id="node8" href="$class_enumeration_with_enumerators_symbol.html" title="EnumerationWithEnumeratorsSymbol." alt="" coords="152,469,371,511"/>
-<area shape="rect" id="node9" href="$class_enumeration_symbol.html" title="EnumerationSymbol." alt="" coords="227,393,381,420"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,640,181,665"/>
+<area shape="rect" id="Node000002" href="$class_enumerator_symbol.html" title=" " alt="" coords="20,565,167,591"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="96,605,96,640,91,640,91,605"/>
+<area shape="rect" id="Node000003" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="111,225,182,251"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="100,257,76,268,55,283,40,302,35,325,35,484,39,508,51,530,81,563,77,567,47,533,34,510,29,484,29,324,36,299,52,279,73,263,97,252"/>
+<area shape="poly" id="edge8_Node000002_Node000003" title=" " alt="" coords="126,263,105,291,99,307,96,325,96,484,96,565,91,565,91,484,91,324,93,306,101,288,121,259"/>
+<area shape="rect" id="Node000006" href="$class_module_symbol.html" title="Symbol for a source code module." alt="" coords="131,313,250,339"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="157,263,168,288,183,311,179,314,163,291,152,265"/>
+<area shape="rect" id="Node000010" href="$class_type_symbol.html" title="TypeSymbol." alt="" coords="275,313,376,339"/>
+<area shape="poly" id="edge12_Node000010_Node000003" title=" " alt="" coords="196,250,255,272,287,292,313,311,310,315,284,296,252,277,194,255"/>
+<area shape="rect" id="Node000004" href="$classomc_1_1location.html" title="Two points in a source file." alt="" coords="25,108,135,133"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="93,145,121,200,138,223,134,226,116,203,88,148"/>
+<area shape="rect" id="Node000005" href="$classomc_1_1position.html" title="A point in a source file." alt="" coords="25,5,135,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="83,45,83,108,77,108,77,45"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="176,302,150,252,155,250,181,300"/>
+<area shape="rect" id="Node000007" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="159,108,270,133"/>
+<area shape="poly" id="edge7_Node000003_Node000007" title=" " alt="" coords="211,148,202,175,188,203,164,227,160,223,183,200,197,173,206,146"/>
+<area shape="rect" id="Node000008" href="$class_enumeration_with_enumerators_symbol.html" title="EnumerationWithEnumeratorsSymbol." alt="" coords="152,463,371,503"/>
+<area shape="poly" id="edge9_Node000002_Node000008" title=" " alt="" coords="217,512,115,568,113,563,214,507"/>
+<area shape="rect" id="Node000009" href="$class_enumeration_symbol.html" title="EnumerationSymbol." alt="" coords="227,388,381,413"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="294,427,274,464,269,461,289,424"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="321,353,310,388,305,387,315,351"/>
 </map>

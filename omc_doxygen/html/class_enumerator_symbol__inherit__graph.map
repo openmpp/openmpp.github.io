@@ -1,7 +1,11 @@
 <map id="EnumeratorSymbol" name="EnumeratorSymbol">
-<area shape="rect" id="node1" title=" " alt="" coords="225,80,372,107"/>
-<area shape="rect" id="node3" href="$class_bool_enumerator_symbol.html" title=" " alt="" coords="5,162,181,189"/>
-<area shape="rect" id="node4" href="$class_classification_enumerator_symbol.html" title=" " alt="" coords="206,155,391,196"/>
-<area shape="rect" id="node5" href="$class_partition_enumerator_symbol.html" title=" " alt="" coords="415,162,617,189"/>
-<area shape="rect" id="node2" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="263,5,334,32"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="225,79,372,104"/>
+<area shape="rect" id="Node000003" href="$class_bool_enumerator_symbol.html" title=" " alt="" coords="5,159,181,185"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="257,111,124,162,122,157,255,106"/>
+<area shape="rect" id="Node000004" href="$class_classification_enumerator_symbol.html" title=" " alt="" coords="206,152,391,192"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="301,118,301,152,296,152,296,118"/>
+<area shape="rect" id="Node000005" href="$class_partition_enumerator_symbol.html" title=" " alt="" coords="415,159,617,185"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="344,106,485,157,483,162,342,111"/>
+<area shape="rect" id="Node000002" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="263,5,334,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="301,44,301,79,296,79,296,44"/>
 </map>

@@ -1,5 +1,7 @@
 <map id="openm::MpiSendBase" name="openm::MpiSendBase">
-<area shape="rect" id="node1" title="base class for non&#45;blocking MPI send" alt="" coords="105,5,267,32"/>
-<area shape="rect" id="node2" href="$classopenm_1_1_mpi_send_array.html" title="non&#45;blocking MPI send of value array" alt="" coords="5,80,172,107"/>
-<area shape="rect" id="node3" href="$classopenm_1_1_mpi_send_packed.html" title="non&#45;blocking MPI send of packed data" alt="" coords="197,80,373,107"/>
+<area shape="rect" id="Node000001" title="base class for non&#45;blocking MPI send" alt="" coords="105,5,267,31"/>
+<area shape="rect" id="Node000002" href="$classopenm_1_1_mpi_send_array.html" title="non&#45;blocking MPI send of value array" alt="" coords="5,79,172,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,41,106,81,103,76,158,37"/>
+<area shape="rect" id="Node000003" href="$classopenm_1_1_mpi_send_packed.html" title="non&#45;blocking MPI send of packed data" alt="" coords="197,79,373,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="214,36,270,76,267,81,211,41"/>
 </map>

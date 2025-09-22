@@ -1,7 +1,11 @@
 <map id="db/dbExecBase.h" name="db/dbExecBase.h">
-<area shape="rect" id="node1" title="OpenM++ data library: common classes for db connection wrapper." alt="" coords="95,5,227,32"/>
-<area shape="rect" id="node2" href="$db_exec_base_8cpp.html" title="OpenM++ data library: base class for db connection wrapper." alt="" coords="5,80,152,107"/>
-<area shape="rect" id="node3" href="$db_exec_sqlite_8h.html" title="OpenM++ data library: db connection wrapper for SQLite." alt="" coords="177,80,314,107"/>
-<area shape="rect" id="node4" href="$db_exec_provider_8cpp.html" title="OpenM++ data library: base class for db connection wrapper." alt="" coords="69,155,237,181"/>
-<area shape="rect" id="node5" href="$db_exec_sqlite_8cpp.html" title="OpenM++ data library: db connection wrapper for SQLite." alt="" coords="261,155,413,181"/>
+<area shape="rect" id="Node000001" title="OpenM++ data library: common classes for db connection wrapper." alt="" coords="95,5,227,31"/>
+<area shape="rect" id="Node000002" href="$db_exec_base_8cpp.html" title="OpenM++ data library: base class for db connection wrapper." alt="" coords="5,79,152,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="139,42,94,80,90,76,136,38"/>
+<area shape="rect" id="Node000003" href="$db_exec_sqlite_8h.html" title="OpenM++ data library: db connection wrapper for SQLite." alt="" coords="177,79,314,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="187,38,233,76,230,80,184,42"/>
+<area shape="rect" id="Node000004" href="$db_exec_provider_8cpp.html" title="OpenM++ data library: base class for db connection wrapper." alt="" coords="69,152,237,177"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="222,114,170,154,167,150,218,110"/>
+<area shape="rect" id="Node000005" href="$db_exec_sqlite_8cpp.html" title="OpenM++ data library: db connection wrapper for SQLite." alt="" coords="261,152,413,177"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="272,110,324,150,321,154,269,114"/>
 </map>

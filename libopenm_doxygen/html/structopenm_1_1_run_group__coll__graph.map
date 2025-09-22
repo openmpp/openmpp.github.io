@@ -1,8 +1,13 @@
 <map id="openm::RunGroup" name="openm::RunGroup">
-<area shape="rect" id="node1" title=" " alt="" coords="209,247,348,273"/>
-<area shape="rect" id="node2" href="$classopenm_1_1_model_run_state.html" title="model run state: thread safe" alt="" coords="98,157,273,184"/>
-<area shape="rect" id="node3" href="$structopenm_1_1_i_model_run_state.html" title="model run state public interface: thread safe" alt="" coords="5,81,184,108"/>
-<area shape="rect" id="node4" href="$structopenm_1_1_i_final_state.html" title="final model run state public interface: thread safe" alt="" coords="23,5,167,32"/>
-<area shape="rect" id="node5" href="$structopenm_1_1_run_state.html" title="model run state data: status, progress, update times" alt="" coords="209,81,343,108"/>
-<area shape="rect" id="node6" href="$classopenm_1_1_done_vector.html" title=" " alt="" coords="297,157,447,184"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="209,243,348,268"/>
+<area shape="rect" id="Node000002" href="$classopenm_1_1_model_run_state.html" title="model run state: thread safe" alt="" coords="98,155,273,180"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="210,188,267,240,264,244,206,192"/>
+<area shape="rect" id="Node000003" href="$structopenm_1_1_i_model_run_state.html" title="model run state public interface: thread safe" alt="" coords="5,80,184,105"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="121,112,172,152,169,156,118,116"/>
+<area shape="rect" id="Node000004" href="$structopenm_1_1_i_final_state.html" title="final model run state public interface: thread safe" alt="" coords="23,5,167,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="97,45,97,80,92,80,92,45"/>
+<area shape="rect" id="Node000005" href="$structopenm_1_1_run_state.html" title="model run state data: status, progress, update times" alt="" coords="209,80,343,105"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="253,116,202,156,199,152,249,112"/>
+<area shape="rect" id="Node000006" href="$classopenm_1_1_done_vector.html" title=" " alt="" coords="297,155,447,180"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="351,192,293,244,290,240,347,188"/>
 </map>

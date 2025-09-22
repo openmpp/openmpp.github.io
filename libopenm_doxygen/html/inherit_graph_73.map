@@ -1,5 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structopenm_1_1_i_packed_adapter.html" title="public interface to pack and unpack rows of metadata db&#45;table" alt="" coords="5,35,180,61"/>
-<area shape="rect" id="node2" href="$structopenm_1_1_empty_packed_adapter.html" title="pack and unpack adapter for metadata table db rows (empty implementation)." alt="" coords="235,5,449,32"/>
-<area shape="rect" id="node3" href="$structopenm_1_1_meta_mpi_packed_adapter.html" title="MPI&#45;based adapter to pack and unpack vector of metadata db rows." alt="" coords="228,57,456,98"/>
+<area shape="rect" id="Node000000" href="$structopenm_1_1_i_packed_adapter.html" title="public interface to pack and unpack rows of metadata db&#45;table" alt="" coords="5,35,180,60"/>
+<area shape="rect" id="Node000001" href="$structopenm_1_1_empty_packed_adapter.html" title="pack and unpack adapter for metadata table db rows (empty implementation)." alt="" coords="235,5,449,31"/>
+<area shape="poly" id="edge168_Node000000_Node000001" title=" " alt="" coords="193,33,235,28,235,33,194,38"/>
+<area shape="rect" id="Node000002" href="$structopenm_1_1_meta_mpi_packed_adapter.html" title="MPI&#45;based adapter to pack and unpack vector of metadata db rows." alt="" coords="228,55,456,95"/>
+<area shape="poly" id="edge169_Node000000_Node000002" title=" " alt="" coords="194,56,228,60,228,65,194,61"/>
 </map>

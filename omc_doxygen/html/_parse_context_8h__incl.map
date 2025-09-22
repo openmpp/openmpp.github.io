@@ -1,21 +1,43 @@
 <map id="ParseContext.h" name="ParseContext.h">
-<area shape="rect" id="node1" title="Declares the parse context class." alt="" coords="661,5,781,32"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,229,148,256"/>
-<area shape="rect" id="node3" title=" " alt="" coords="521,80,744,107"/>
-<area shape="rect" id="node4" href="$omc__location_8hh_source.html" title=" " alt="" coords="1340,155,1469,181"/>
-<area shape="rect" id="node7" href="$_symbol_8h.html" title="Declarations for the Symbol class." alt="" coords="767,80,850,107"/>
-<area shape="rect" id="node5" title=" " alt="" coords="1365,229,1445,256"/>
-<area shape="rect" id="node6" title=" " alt="" coords="1179,229,1238,256"/>
-<area shape="rect" id="node8" title=" " alt="" coords="1246,155,1315,181"/>
-<area shape="rect" id="node9" title=" " alt="" coords="215,155,277,181"/>
-<area shape="rect" id="node10" title=" " alt="" coords="302,155,417,181"/>
-<area shape="rect" id="node11" title=" " alt="" coords="441,155,565,181"/>
-<area shape="rect" id="node12" title=" " alt="" coords="590,155,689,181"/>
-<area shape="rect" id="node13" title=" " alt="" coords="713,155,763,181"/>
-<area shape="rect" id="node14" title=" " alt="" coords="787,155,830,181"/>
-<area shape="rect" id="node15" title=" " alt="" coords="855,155,909,181"/>
-<area shape="rect" id="node16" href="$omc__common_8h.html" title="Common declarations for omc." alt="" coords="64,155,191,181"/>
-<area shape="rect" id="node17" href="$_special_global_8h.html" title="Declarations for the SpecialGlobal class." alt="" coords="934,155,1057,181"/>
-<area shape="rect" id="node19" title=" " alt="" coords="1081,155,1171,181"/>
-<area shape="rect" id="node18" title=" " alt="" coords="974,229,1017,256"/>
+<area shape="rect" id="Node000001" title="Declares the parse context class." alt="" coords="661,5,781,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,225,148,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="660,25,513,35,329,57,239,74,159,96,95,122,71,137,54,154,47,167,48,182,62,212,57,215,43,183,42,166,49,150,68,133,92,117,157,91,238,69,328,52,512,30,660,19"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="521,79,744,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="708,33,659,72,656,68,705,29"/>
+<area shape="rect" id="Node000004" href="$omc__location_8hh_source.html" title=" " alt="" coords="1340,152,1469,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="775,28,1338,146,1337,152,774,33"/>
+<area shape="rect" id="Node000007" href="$_symbol_8h.html" title="Declarations for the Symbol class." alt="" coords="767,79,850,104"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="736,29,785,68,782,72,733,33"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="1365,225,1445,251"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="1407,178,1407,212,1402,212,1402,178"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="1179,225,1238,251"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="1374,180,1252,224,1250,219,1372,175"/>
+<area shape="poly" id="edge18_Node000007_Node000004" title=" " alt="" coords="850,94,1327,149,1326,155,850,100"/>
+<area shape="poly" id="edge8_Node000007_Node000006" title=" " alt="" coords="850,91,932,96,1031,105,1123,123,1160,135,1185,150,1196,163,1204,179,1211,210,1205,212,1199,181,1192,166,1182,154,1157,140,1122,128,1031,111,932,101,850,96"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="1246,152,1315,177"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="851,95,1016,116,1228,149,1233,150,1232,156,1227,155,1015,122,850,100"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="215,152,277,177"/>
+<area shape="poly" id="edge9_Node000007_Node000009" title=" " alt="" coords="767,105,756,107,627,122,525,129,422,137,291,155,290,150,422,131,525,124,627,117,755,101,766,99"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="302,152,417,177"/>
+<area shape="poly" id="edge10_Node000007_Node000010" title=" " alt="" coords="767,104,756,107,595,132,431,154,430,149,594,126,755,101,766,99"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="441,152,565,177"/>
+<area shape="poly" id="edge11_Node000007_Node000011" title=" " alt="" coords="767,105,566,151,565,146,766,100"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="590,152,689,177"/>
+<area shape="poly" id="edge12_Node000007_Node000012" title=" " alt="" coords="782,106,681,149,679,144,780,102"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="713,152,763,177"/>
+<area shape="poly" id="edge13_Node000007_Node000013" title=" " alt="" coords="799,106,761,144,757,140,795,102"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="787,152,830,177"/>
+<area shape="poly" id="edge14_Node000007_Node000014" title=" " alt="" coords="811,104,811,138,806,138,806,104"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="855,152,909,177"/>
+<area shape="poly" id="edge15_Node000007_Node000015" title=" " alt="" coords="823,102,862,140,858,144,819,106"/>
+<area shape="rect" id="Node000016" href="$omc__common_8h.html" title="Common declarations for omc." alt="" coords="64,152,191,177"/>
+<area shape="poly" id="edge16_Node000007_Node000016" title=" " alt="" coords="767,105,756,107,603,125,482,133,360,140,204,154,204,149,360,135,482,128,602,120,755,101,766,99"/>
+<area shape="rect" id="Node000017" href="$_special_global_8h.html" title="Declarations for the SpecialGlobal class." alt="" coords="934,152,1057,177"/>
+<area shape="poly" id="edge19_Node000007_Node000017" title=" " alt="" coords="840,102,953,145,951,149,838,107"/>
+<area shape="rect" id="Node000019" title=" " alt="" coords="1081,152,1171,177"/>
+<area shape="poly" id="edge22_Node000007_Node000019" title=" " alt="" coords="851,99,1068,148,1067,153,850,105"/>
+<area shape="poly" id="edge17_Node000016_Node000002" title=" " alt="" coords="121,179,95,216,91,213,117,176"/>
+<area shape="poly" id="edge20_Node000017_Node000006" title=" " alt="" coords="1030,175,1167,220,1166,225,1029,180"/>
+<area shape="rect" id="Node000018" title=" " alt="" coords="974,225,1017,251"/>
+<area shape="poly" id="edge21_Node000017_Node000018" title=" " alt="" coords="998,178,998,212,993,212,993,178"/>
 </map>

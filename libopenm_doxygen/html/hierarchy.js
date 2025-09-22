@@ -44,230 +44,219 @@ var hierarchy =
       ] ]
     ] ],
     [ "openm::IMetaTable< TRow >", "structopenm_1_1_i_meta_table.html", [
-      [ "openm::IMetaLoadedTable< TRow >", "structopenm_1_1_i_meta_loaded_table.html", null ]
-    ] ],
-    [ "openm::IMetaTable< EntityAttrRow >", "structopenm_1_1_i_meta_table.html", [
       [ "openm::IMetaLoadedTable< EntityAttrRow >", "structopenm_1_1_i_meta_loaded_table.html", [
         [ "openm::IEntityAttrTable", "structopenm_1_1_i_entity_attr_table.html", [
           [ "openm::EntityAttrTable", "classopenm_1_1_entity_attr_table.html", null ]
         ] ]
-      ] ]
-    ] ],
-    [ "openm::IMetaTable< EntityAttrTxtRow >", "structopenm_1_1_i_meta_table.html", [
+      ] ],
       [ "openm::IMetaLoadedTable< EntityAttrTxtRow >", "structopenm_1_1_i_meta_loaded_table.html", [
         [ "openm::IEntityAttrTxtTable", "structopenm_1_1_i_entity_attr_txt_table.html", [
           [ "openm::EntityAttrTxtTable", "classopenm_1_1_entity_attr_txt_table.html", null ]
         ] ]
-      ] ]
-    ] ],
-    [ "openm::IMetaTable< EntityDicRow >", "structopenm_1_1_i_meta_table.html", [
+      ] ],
       [ "openm::IMetaLoadedTable< EntityDicRow >", "structopenm_1_1_i_meta_loaded_table.html", [
         [ "openm::IEntityDicTable", "structopenm_1_1_i_entity_dic_table.html", [
           [ "openm::EntityDicTable", "classopenm_1_1_entity_dic_table.html", null ]
         ] ]
-      ] ]
-    ] ],
-    [ "openm::IMetaTable< EntityDicTxtRow >", "structopenm_1_1_i_meta_table.html", [
+      ] ],
       [ "openm::IMetaLoadedTable< EntityDicTxtRow >", "structopenm_1_1_i_meta_loaded_table.html", [
         [ "openm::IEntityDicTxtTable", "structopenm_1_1_i_entity_dic_txt_table.html", [
           [ "openm::EntityDicTxtTable", "classopenm_1_1_entity_dic_txt_table.html", null ]
         ] ]
-      ] ]
-    ] ],
-    [ "openm::IMetaTable< EntityGroupLstRow >", "structopenm_1_1_i_meta_table.html", [
+      ] ],
       [ "openm::IMetaLoadedTable< EntityGroupLstRow >", "structopenm_1_1_i_meta_loaded_table.html", [
         [ "openm::IEntityGroupLstTable", "structopenm_1_1_i_entity_group_lst_table.html", [
           [ "openm::EntityGroupLstTable", "classopenm_1_1_entity_group_lst_table.html", null ]
         ] ]
-      ] ]
-    ] ],
-    [ "openm::IMetaTable< EntityGroupPcRow >", "structopenm_1_1_i_meta_table.html", [
+      ] ],
       [ "openm::IMetaLoadedTable< EntityGroupPcRow >", "structopenm_1_1_i_meta_loaded_table.html", [
         [ "openm::IEntityGroupPcTable", "structopenm_1_1_i_entity_group_pc_table.html", [
           [ "openm::EntityGroupPcTable", "classopenm_1_1_entity_group_pc_table.html", null ]
         ] ]
-      ] ]
-    ] ],
-    [ "openm::IMetaTable< EntityGroupTxtRow >", "structopenm_1_1_i_meta_table.html", [
+      ] ],
       [ "openm::IMetaLoadedTable< EntityGroupTxtRow >", "structopenm_1_1_i_meta_loaded_table.html", [
         [ "openm::IEntityGroupTxtTable", "structopenm_1_1_i_entity_group_txt_table.html", [
           [ "openm::EntityGroupTxtTable", "classopenm_1_1_entity_group_txt_table.html", null ]
         ] ]
-      ] ]
-    ] ],
-    [ "openm::IMetaTable< GroupLstRow >", "structopenm_1_1_i_meta_table.html", [
+      ] ],
       [ "openm::IMetaLoadedTable< GroupLstRow >", "structopenm_1_1_i_meta_loaded_table.html", [
         [ "openm::IGroupLstTable", "structopenm_1_1_i_group_lst_table.html", [
           [ "openm::GroupLstTable", "classopenm_1_1_group_lst_table.html", null ]
         ] ]
-      ] ]
-    ] ],
-    [ "openm::IMetaTable< GroupPcRow >", "structopenm_1_1_i_meta_table.html", [
+      ] ],
       [ "openm::IMetaLoadedTable< GroupPcRow >", "structopenm_1_1_i_meta_loaded_table.html", [
         [ "openm::IGroupPcTable", "structopenm_1_1_i_group_pc_table.html", [
           [ "openm::GroupPcTable", "classopenm_1_1_group_pc_table.html", null ]
         ] ]
-      ] ]
-    ] ],
-    [ "openm::IMetaTable< GroupTxtRow >", "structopenm_1_1_i_meta_table.html", [
+      ] ],
       [ "openm::IMetaLoadedTable< GroupTxtRow >", "structopenm_1_1_i_meta_loaded_table.html", [
         [ "openm::IGroupTxtTable", "structopenm_1_1_i_group_txt_table.html", [
           [ "openm::GroupTxtTable", "classopenm_1_1_group_txt_table.html", null ]
         ] ]
-      ] ]
-    ] ],
-    [ "openm::IMetaTable< LangLstRow >", "structopenm_1_1_i_meta_table.html", [
+      ] ],
       [ "openm::IMetaLoadedTable< LangLstRow >", "structopenm_1_1_i_meta_loaded_table.html", [
         [ "openm::ILangLstTable", "structopenm_1_1_i_lang_lst_table.html", [
           [ "openm::LangLstTable", "classopenm_1_1_lang_lst_table.html", null ]
         ] ]
-      ] ]
-    ] ],
-    [ "openm::IMetaTable< LangWordRow >", "structopenm_1_1_i_meta_table.html", [
+      ] ],
       [ "openm::IMetaLoadedTable< LangWordRow >", "structopenm_1_1_i_meta_loaded_table.html", [
         [ "openm::ILangWordTable", "structopenm_1_1_i_lang_word_table.html", [
           [ "openm::LangWordTable", "classopenm_1_1_lang_word_table.html", null ]
         ] ]
-      ] ]
-    ] ],
-    [ "openm::IMetaTable< ModelDicRow >", "structopenm_1_1_i_meta_table.html", [
+      ] ],
       [ "openm::IMetaLoadedTable< ModelDicRow >", "structopenm_1_1_i_meta_loaded_table.html", [
         [ "openm::IModelDicTable", "structopenm_1_1_i_model_dic_table.html", [
           [ "openm::ModelDicTable", "classopenm_1_1_model_dic_table.html", null ]
         ] ]
-      ] ]
-    ] ],
-    [ "openm::IMetaTable< ModelDicTxtRow >", "structopenm_1_1_i_meta_table.html", [
+      ] ],
       [ "openm::IMetaLoadedTable< ModelDicTxtRow >", "structopenm_1_1_i_meta_loaded_table.html", [
         [ "openm::IModelDicTxtTable", "structopenm_1_1_i_model_dic_txt_table.html", [
           [ "openm::ModelDicTxtTable", "classopenm_1_1_model_dic_txt_table.html", null ]
         ] ]
-      ] ]
-    ] ],
-    [ "openm::IMetaTable< ModelWordRow >", "structopenm_1_1_i_meta_table.html", [
+      ] ],
       [ "openm::IMetaLoadedTable< ModelWordRow >", "structopenm_1_1_i_meta_loaded_table.html", [
         [ "openm::IModelWordTable", "structopenm_1_1_i_model_word_table.html", [
           [ "openm::ModelWordTable", "classopenm_1_1_model_word_table.html", null ]
         ] ]
-      ] ]
-    ] ],
-    [ "openm::IMetaTable< ParamDicRow >", "structopenm_1_1_i_meta_table.html", [
+      ] ],
       [ "openm::IMetaLoadedTable< ParamDicRow >", "structopenm_1_1_i_meta_loaded_table.html", [
         [ "openm::IParamDicTable", "structopenm_1_1_i_param_dic_table.html", [
           [ "openm::ParamDicTable", "classopenm_1_1_param_dic_table.html", null ]
         ] ]
-      ] ]
-    ] ],
-    [ "openm::IMetaTable< ParamDicTxtRow >", "structopenm_1_1_i_meta_table.html", [
+      ] ],
       [ "openm::IMetaLoadedTable< ParamDicTxtRow >", "structopenm_1_1_i_meta_loaded_table.html", [
         [ "openm::IParamDicTxtTable", "structopenm_1_1_i_param_dic_txt_table.html", [
           [ "openm::ParamDicTxtTable", "classopenm_1_1_param_dic_txt_table.html", null ]
         ] ]
-      ] ]
-    ] ],
-    [ "openm::IMetaTable< ParamDimsRow >", "structopenm_1_1_i_meta_table.html", [
+      ] ],
       [ "openm::IMetaLoadedTable< ParamDimsRow >", "structopenm_1_1_i_meta_loaded_table.html", [
         [ "openm::IParamDimsTable", "structopenm_1_1_i_param_dims_table.html", [
           [ "openm::ParamDimsTable", "classopenm_1_1_param_dims_table.html", null ]
         ] ]
-      ] ]
-    ] ],
-    [ "openm::IMetaTable< ParamDimsTxtRow >", "structopenm_1_1_i_meta_table.html", [
+      ] ],
       [ "openm::IMetaLoadedTable< ParamDimsTxtRow >", "structopenm_1_1_i_meta_loaded_table.html", [
         [ "openm::IParamDimsTxtTable", "structopenm_1_1_i_param_dims_txt_table.html", [
           [ "openm::ParamDimsTxtTable", "classopenm_1_1_param_dims_txt_table.html", null ]
         ] ]
-      ] ]
-    ] ],
-    [ "openm::IMetaTable< ParamImportRow >", "structopenm_1_1_i_meta_table.html", [
+      ] ],
       [ "openm::IMetaLoadedTable< ParamImportRow >", "structopenm_1_1_i_meta_loaded_table.html", [
         [ "openm::IParamImportTable", "structopenm_1_1_i_param_import_table.html", [
           [ "openm::ParamImportTable", "classopenm_1_1_param_import_table.html", null ]
         ] ]
-      ] ]
-    ] ],
-    [ "openm::IMetaTable< ProfileLstRow >", "structopenm_1_1_i_meta_table.html", [
+      ] ],
       [ "openm::IMetaLoadedTable< ProfileLstRow >", "structopenm_1_1_i_meta_loaded_table.html", [
         [ "openm::IProfileLstTable", "structopenm_1_1_i_profile_lst_table.html", [
           [ "openm::ProfileLstTable", "classopenm_1_1_profile_lst_table.html", null ]
         ] ]
-      ] ]
-    ] ],
-    [ "openm::IMetaTable< ProfileOptionRow >", "structopenm_1_1_i_meta_table.html", [
+      ] ],
       [ "openm::IMetaLoadedTable< ProfileOptionRow >", "structopenm_1_1_i_meta_loaded_table.html", [
         [ "openm::IProfileOptionTable", "structopenm_1_1_i_profile_option_table.html", [
           [ "openm::ProfileOptionTable", "classopenm_1_1_profile_option_table.html", null ]
         ] ]
-      ] ]
+      ] ],
+      [ "openm::IMetaLoadedTable< RunOptionRow >", "structopenm_1_1_i_meta_loaded_table.html", [
+        [ "openm::IRunOptionTable", "structopenm_1_1_i_run_option_table.html", [
+          [ "openm::RunOptionTable", "classopenm_1_1_run_option_table.html", null ]
+        ] ]
+      ] ],
+      [ "openm::IMetaLoadedTable< TableAccRow >", "structopenm_1_1_i_meta_loaded_table.html", [
+        [ "openm::ITableAccTable", "structopenm_1_1_i_table_acc_table.html", [
+          [ "openm::TableAccTable", "classopenm_1_1_table_acc_table.html", null ]
+        ] ]
+      ] ],
+      [ "openm::IMetaLoadedTable< TableAccTxtRow >", "structopenm_1_1_i_meta_loaded_table.html", [
+        [ "openm::ITableAccTxtTable", "structopenm_1_1_i_table_acc_txt_table.html", [
+          [ "openm::TableAccTxtTable", "classopenm_1_1_table_acc_txt_table.html", null ]
+        ] ]
+      ] ],
+      [ "openm::IMetaLoadedTable< TableDicRow >", "structopenm_1_1_i_meta_loaded_table.html", [
+        [ "openm::ITableDicTable", "structopenm_1_1_i_table_dic_table.html", [
+          [ "openm::TableDicTable", "classopenm_1_1_table_dic_table.html", null ]
+        ] ]
+      ] ],
+      [ "openm::IMetaLoadedTable< TableDicTxtRow >", "structopenm_1_1_i_meta_loaded_table.html", [
+        [ "openm::ITableDicTxtTable", "structopenm_1_1_i_table_dic_txt_table.html", [
+          [ "openm::TableDicTxtTable", "classopenm_1_1_table_dic_txt_table.html", null ]
+        ] ]
+      ] ],
+      [ "openm::IMetaLoadedTable< TableDimsRow >", "structopenm_1_1_i_meta_loaded_table.html", [
+        [ "openm::ITableDimsTable", "structopenm_1_1_i_table_dims_table.html", [
+          [ "openm::TableDimsTable", "classopenm_1_1_table_dims_table.html", null ]
+        ] ]
+      ] ],
+      [ "openm::IMetaLoadedTable< TableDimsTxtRow >", "structopenm_1_1_i_meta_loaded_table.html", [
+        [ "openm::ITableDimsTxtTable", "structopenm_1_1_i_table_dims_txt_table.html", [
+          [ "openm::TableDimsTxtTable", "classopenm_1_1_table_dims_txt_table.html", null ]
+        ] ]
+      ] ],
+      [ "openm::IMetaLoadedTable< TableExprRow >", "structopenm_1_1_i_meta_loaded_table.html", [
+        [ "openm::ITableExprTable", "structopenm_1_1_i_table_expr_table.html", [
+          [ "openm::TableExprTable", "classopenm_1_1_table_expr_table.html", null ]
+        ] ]
+      ] ],
+      [ "openm::IMetaLoadedTable< TableExprTxtRow >", "structopenm_1_1_i_meta_loaded_table.html", [
+        [ "openm::ITableExprTxtTable", "structopenm_1_1_i_table_expr_txt_table.html", [
+          [ "openm::TableExprTxtTable", "classopenm_1_1_table_expr_txt_table.html", null ]
+        ] ]
+      ] ],
+      [ "openm::IMetaLoadedTable< TypeDicRow >", "structopenm_1_1_i_meta_loaded_table.html", [
+        [ "openm::ITypeDicTable", "structopenm_1_1_i_type_dic_table.html", [
+          [ "openm::TypeDicTable", "classopenm_1_1_type_dic_table.html", null ]
+        ] ]
+      ] ],
+      [ "openm::IMetaLoadedTable< TypeDicTxtRow >", "structopenm_1_1_i_meta_loaded_table.html", [
+        [ "openm::ITypeDicTxtTable", "structopenm_1_1_i_type_dic_txt_table.html", [
+          [ "openm::TypeDicTxtTable", "classopenm_1_1_type_dic_txt_table.html", null ]
+        ] ]
+      ] ],
+      [ "openm::IMetaLoadedTable< TypeEnumLstRow >", "structopenm_1_1_i_meta_loaded_table.html", [
+        [ "openm::ITypeEnumLstTable", "structopenm_1_1_i_type_enum_lst_table.html", [
+          [ "openm::TypeEnumLstTable", "classopenm_1_1_type_enum_lst_table.html", null ]
+        ] ]
+      ] ],
+      [ "openm::IMetaLoadedTable< TypeEnumTxtRow >", "structopenm_1_1_i_meta_loaded_table.html", [
+        [ "openm::ITypeEnumTxtTable", "structopenm_1_1_i_type_enum_txt_table.html", [
+          [ "openm::TypeEnumTxtTable", "classopenm_1_1_type_enum_txt_table.html", null ]
+        ] ]
+      ] ],
+      [ "openm::IMetaLoadedTable< TRow >", "structopenm_1_1_i_meta_loaded_table.html", null ]
     ] ],
+    [ "openm::IMetaTable< EntityAttrRow >", "structopenm_1_1_i_meta_table.html", null ],
+    [ "openm::IMetaTable< EntityAttrTxtRow >", "structopenm_1_1_i_meta_table.html", null ],
+    [ "openm::IMetaTable< EntityDicRow >", "structopenm_1_1_i_meta_table.html", null ],
+    [ "openm::IMetaTable< EntityDicTxtRow >", "structopenm_1_1_i_meta_table.html", null ],
+    [ "openm::IMetaTable< EntityGroupLstRow >", "structopenm_1_1_i_meta_table.html", null ],
+    [ "openm::IMetaTable< EntityGroupPcRow >", "structopenm_1_1_i_meta_table.html", null ],
+    [ "openm::IMetaTable< EntityGroupTxtRow >", "structopenm_1_1_i_meta_table.html", null ],
+    [ "openm::IMetaTable< GroupLstRow >", "structopenm_1_1_i_meta_table.html", null ],
+    [ "openm::IMetaTable< GroupPcRow >", "structopenm_1_1_i_meta_table.html", null ],
+    [ "openm::IMetaTable< GroupTxtRow >", "structopenm_1_1_i_meta_table.html", null ],
+    [ "openm::IMetaTable< LangLstRow >", "structopenm_1_1_i_meta_table.html", null ],
+    [ "openm::IMetaTable< LangWordRow >", "structopenm_1_1_i_meta_table.html", null ],
+    [ "openm::IMetaTable< ModelDicRow >", "structopenm_1_1_i_meta_table.html", null ],
+    [ "openm::IMetaTable< ModelDicTxtRow >", "structopenm_1_1_i_meta_table.html", null ],
+    [ "openm::IMetaTable< ModelWordRow >", "structopenm_1_1_i_meta_table.html", null ],
+    [ "openm::IMetaTable< ParamDicRow >", "structopenm_1_1_i_meta_table.html", null ],
+    [ "openm::IMetaTable< ParamDicTxtRow >", "structopenm_1_1_i_meta_table.html", null ],
+    [ "openm::IMetaTable< ParamDimsRow >", "structopenm_1_1_i_meta_table.html", null ],
+    [ "openm::IMetaTable< ParamDimsTxtRow >", "structopenm_1_1_i_meta_table.html", null ],
+    [ "openm::IMetaTable< ParamImportRow >", "structopenm_1_1_i_meta_table.html", null ],
+    [ "openm::IMetaTable< ProfileLstRow >", "structopenm_1_1_i_meta_table.html", null ],
+    [ "openm::IMetaTable< ProfileOptionRow >", "structopenm_1_1_i_meta_table.html", null ],
     [ "openm::IMetaTable< RunLstRow >", "structopenm_1_1_i_meta_table.html", [
       [ "openm::IRunLstTable", "structopenm_1_1_i_run_lst_table.html", [
         [ "openm::RunLstTable", "classopenm_1_1_run_lst_table.html", null ]
       ] ]
     ] ],
-    [ "openm::IMetaTable< RunOptionRow >", "structopenm_1_1_i_meta_table.html", [
-      [ "openm::IMetaLoadedTable< RunOptionRow >", "structopenm_1_1_i_meta_loaded_table.html", [
-        [ "openm::IRunOptionTable", "structopenm_1_1_i_run_option_table.html", [
-          [ "openm::RunOptionTable", "classopenm_1_1_run_option_table.html", null ]
-        ] ]
-      ] ]
-    ] ],
-    [ "openm::IMetaTable< TableAccRow >", "structopenm_1_1_i_meta_table.html", [
-      [ "openm::IMetaLoadedTable< TableAccRow >", "structopenm_1_1_i_meta_loaded_table.html", [
-        [ "openm::ITableAccTable", "structopenm_1_1_i_table_acc_table.html", [
-          [ "openm::TableAccTable", "classopenm_1_1_table_acc_table.html", null ]
-        ] ]
-      ] ]
-    ] ],
-    [ "openm::IMetaTable< TableAccTxtRow >", "structopenm_1_1_i_meta_table.html", [
-      [ "openm::IMetaLoadedTable< TableAccTxtRow >", "structopenm_1_1_i_meta_loaded_table.html", [
-        [ "openm::ITableAccTxtTable", "structopenm_1_1_i_table_acc_txt_table.html", [
-          [ "openm::TableAccTxtTable", "classopenm_1_1_table_acc_txt_table.html", null ]
-        ] ]
-      ] ]
-    ] ],
-    [ "openm::IMetaTable< TableDicRow >", "structopenm_1_1_i_meta_table.html", [
-      [ "openm::IMetaLoadedTable< TableDicRow >", "structopenm_1_1_i_meta_loaded_table.html", [
-        [ "openm::ITableDicTable", "structopenm_1_1_i_table_dic_table.html", [
-          [ "openm::TableDicTable", "classopenm_1_1_table_dic_table.html", null ]
-        ] ]
-      ] ]
-    ] ],
-    [ "openm::IMetaTable< TableDicTxtRow >", "structopenm_1_1_i_meta_table.html", [
-      [ "openm::IMetaLoadedTable< TableDicTxtRow >", "structopenm_1_1_i_meta_loaded_table.html", [
-        [ "openm::ITableDicTxtTable", "structopenm_1_1_i_table_dic_txt_table.html", [
-          [ "openm::TableDicTxtTable", "classopenm_1_1_table_dic_txt_table.html", null ]
-        ] ]
-      ] ]
-    ] ],
-    [ "openm::IMetaTable< TableDimsRow >", "structopenm_1_1_i_meta_table.html", [
-      [ "openm::IMetaLoadedTable< TableDimsRow >", "structopenm_1_1_i_meta_loaded_table.html", [
-        [ "openm::ITableDimsTable", "structopenm_1_1_i_table_dims_table.html", [
-          [ "openm::TableDimsTable", "classopenm_1_1_table_dims_table.html", null ]
-        ] ]
-      ] ]
-    ] ],
-    [ "openm::IMetaTable< TableDimsTxtRow >", "structopenm_1_1_i_meta_table.html", [
-      [ "openm::IMetaLoadedTable< TableDimsTxtRow >", "structopenm_1_1_i_meta_loaded_table.html", [
-        [ "openm::ITableDimsTxtTable", "structopenm_1_1_i_table_dims_txt_table.html", [
-          [ "openm::TableDimsTxtTable", "classopenm_1_1_table_dims_txt_table.html", null ]
-        ] ]
-      ] ]
-    ] ],
-    [ "openm::IMetaTable< TableExprRow >", "structopenm_1_1_i_meta_table.html", [
-      [ "openm::IMetaLoadedTable< TableExprRow >", "structopenm_1_1_i_meta_loaded_table.html", [
-        [ "openm::ITableExprTable", "structopenm_1_1_i_table_expr_table.html", [
-          [ "openm::TableExprTable", "classopenm_1_1_table_expr_table.html", null ]
-        ] ]
-      ] ]
-    ] ],
-    [ "openm::IMetaTable< TableExprTxtRow >", "structopenm_1_1_i_meta_table.html", [
-      [ "openm::IMetaLoadedTable< TableExprTxtRow >", "structopenm_1_1_i_meta_loaded_table.html", [
-        [ "openm::ITableExprTxtTable", "structopenm_1_1_i_table_expr_txt_table.html", [
-          [ "openm::TableExprTxtTable", "classopenm_1_1_table_expr_txt_table.html", null ]
-        ] ]
-      ] ]
-    ] ],
+    [ "openm::IMetaTable< RunOptionRow >", "structopenm_1_1_i_meta_table.html", null ],
+    [ "openm::IMetaTable< TableAccRow >", "structopenm_1_1_i_meta_table.html", null ],
+    [ "openm::IMetaTable< TableAccTxtRow >", "structopenm_1_1_i_meta_table.html", null ],
+    [ "openm::IMetaTable< TableDicRow >", "structopenm_1_1_i_meta_table.html", null ],
+    [ "openm::IMetaTable< TableDicTxtRow >", "structopenm_1_1_i_meta_table.html", null ],
+    [ "openm::IMetaTable< TableDimsRow >", "structopenm_1_1_i_meta_table.html", null ],
+    [ "openm::IMetaTable< TableDimsTxtRow >", "structopenm_1_1_i_meta_table.html", null ],
+    [ "openm::IMetaTable< TableExprRow >", "structopenm_1_1_i_meta_table.html", null ],
+    [ "openm::IMetaTable< TableExprTxtRow >", "structopenm_1_1_i_meta_table.html", null ],
     [ "openm::IMetaTable< TaskLstRow >", "structopenm_1_1_i_meta_table.html", [
       [ "openm::ITaskLstTable", "structopenm_1_1_i_task_lst_table.html", [
         [ "openm::TaskLstTable", "classopenm_1_1_task_lst_table.html", null ]
@@ -293,34 +282,10 @@ var hierarchy =
         [ "openm::TaskTxtTable", "classopenm_1_1_task_txt_table.html", null ]
       ] ]
     ] ],
-    [ "openm::IMetaTable< TypeDicRow >", "structopenm_1_1_i_meta_table.html", [
-      [ "openm::IMetaLoadedTable< TypeDicRow >", "structopenm_1_1_i_meta_loaded_table.html", [
-        [ "openm::ITypeDicTable", "structopenm_1_1_i_type_dic_table.html", [
-          [ "openm::TypeDicTable", "classopenm_1_1_type_dic_table.html", null ]
-        ] ]
-      ] ]
-    ] ],
-    [ "openm::IMetaTable< TypeDicTxtRow >", "structopenm_1_1_i_meta_table.html", [
-      [ "openm::IMetaLoadedTable< TypeDicTxtRow >", "structopenm_1_1_i_meta_loaded_table.html", [
-        [ "openm::ITypeDicTxtTable", "structopenm_1_1_i_type_dic_txt_table.html", [
-          [ "openm::TypeDicTxtTable", "classopenm_1_1_type_dic_txt_table.html", null ]
-        ] ]
-      ] ]
-    ] ],
-    [ "openm::IMetaTable< TypeEnumLstRow >", "structopenm_1_1_i_meta_table.html", [
-      [ "openm::IMetaLoadedTable< TypeEnumLstRow >", "structopenm_1_1_i_meta_loaded_table.html", [
-        [ "openm::ITypeEnumLstTable", "structopenm_1_1_i_type_enum_lst_table.html", [
-          [ "openm::TypeEnumLstTable", "classopenm_1_1_type_enum_lst_table.html", null ]
-        ] ]
-      ] ]
-    ] ],
-    [ "openm::IMetaTable< TypeEnumTxtRow >", "structopenm_1_1_i_meta_table.html", [
-      [ "openm::IMetaLoadedTable< TypeEnumTxtRow >", "structopenm_1_1_i_meta_loaded_table.html", [
-        [ "openm::ITypeEnumTxtTable", "structopenm_1_1_i_type_enum_txt_table.html", [
-          [ "openm::TypeEnumTxtTable", "classopenm_1_1_type_enum_txt_table.html", null ]
-        ] ]
-      ] ]
-    ] ],
+    [ "openm::IMetaTable< TypeDicRow >", "structopenm_1_1_i_meta_table.html", null ],
+    [ "openm::IMetaTable< TypeDicTxtRow >", "structopenm_1_1_i_meta_table.html", null ],
+    [ "openm::IMetaTable< TypeEnumLstRow >", "structopenm_1_1_i_meta_table.html", null ],
+    [ "openm::IMetaTable< TypeEnumTxtRow >", "structopenm_1_1_i_meta_table.html", null ],
     [ "openm::IMetaTable< WorksetLstRow >", "structopenm_1_1_i_meta_table.html", [
       [ "openm::IWorksetLstTable", "structopenm_1_1_i_workset_lst_table.html", [
         [ "openm::WorksetLstTable", "classopenm_1_1_workset_lst_table.html", null ]

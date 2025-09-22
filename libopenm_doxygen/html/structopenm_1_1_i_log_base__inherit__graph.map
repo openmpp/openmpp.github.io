@@ -1,8 +1,15 @@
 <map id="openm::ILogBase" name="openm::ILogBase">
-<area shape="rect" id="node1" title="base for log public interface" alt="" coords="131,5,265,32"/>
-<area shape="rect" id="node2" href="$structopenm_1_1_i_log.html" title="log public interface: log to console and into log files" alt="" coords="5,80,108,107"/>
-<area shape="rect" id="node4" href="$structopenm_1_1_i_trace.html" title="trace log public interface: model event log to console and into log files" alt="" coords="288,80,401,107"/>
-<area shape="rect" id="node6" href="$classopenm_1_1_log_base.html" title="Log base class: log to console and into log files." alt="" coords="133,80,263,107"/>
-<area shape="rect" id="node3" href="$classopenm_1_1_log.html" title="log implementation class: log to console and into log files." alt="" coords="78,155,177,181"/>
-<area shape="rect" id="node5" href="$classopenm_1_1_trace_log.html" title="trace log implementation class: model event log to console and into log files." alt="" coords="201,155,333,181"/>
+<area shape="rect" id="Node000001" title="base for log public interface" alt="" coords="131,5,265,31"/>
+<area shape="rect" id="Node000002" href="$structopenm_1_1_i_log.html" title="log public interface: log to console and into log files" alt="" coords="5,79,108,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="165,39,81,81,79,76,162,34"/>
+<area shape="rect" id="Node000004" href="$structopenm_1_1_i_trace.html" title="trace log public interface: model event log to console and into log files" alt="" coords="288,79,401,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="235,34,322,76,320,81,232,39"/>
+<area shape="rect" id="Node000006" href="$classopenm_1_1_log_base.html" title="Log base class: log to console and into log files." alt="" coords="133,79,263,104"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="201,44,201,79,195,79,195,44"/>
+<area shape="rect" id="Node000003" href="$classopenm_1_1_log.html" title="log implementation class: log to console and into log files." alt="" coords="78,152,177,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="80,112,118,150,114,154,76,116"/>
+<area shape="rect" id="Node000005" href="$classopenm_1_1_trace_log.html" title="trace log implementation class: model event log to console and into log files." alt="" coords="201,152,333,177"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="324,115,282,154,278,150,320,111"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="179,116,141,154,137,150,175,112"/>
+<area shape="poly" id="edge7_Node000006_Node000005" title=" " alt="" coords="221,112,258,150,254,154,217,116"/>
 </map>

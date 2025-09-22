@@ -1,4 +1,5 @@
 <map id="openm::IRunLstTable" name="openm::IRunLstTable">
-<area shape="rect" id="node1" title="run_lst table public interface." alt="" coords="5,95,163,121"/>
-<area shape="rect" id="node2" href="$structopenm_1_1_i_meta_table.html" title=" " alt="" coords="5,5,163,47"/>
+<area shape="rect" id="Node000001" title="run_lst table public interface." alt="" coords="5,93,163,119"/>
+<area shape="rect" id="Node000002" href="$structopenm_1_1_i_meta_table.html" title=" " alt="" coords="5,5,163,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,59,87,93,81,93,81,59"/>
 </map>

@@ -1,5 +1,8 @@
 <map id="msg/msgMpiSend.h" name="msg/msgMpiSend.h">
-<area shape="rect" id="node1" title="OpenM++ message passing library: sender class for MPI&#45;based implementation." alt="" coords="5,5,156,32"/>
-<area shape="rect" id="node2" href="$msg_mpi_8h.html" title="OpenM++: message passing library common classes and interfaces." alt="" coords="21,155,140,181"/>
-<area shape="rect" id="node3" href="$msg_mpi_exec_8h.html" title="OpenM++: message passing library main class for MPI&#45;based implementation." alt="" coords="63,80,211,107"/>
+<area shape="rect" id="Node000001" title="OpenM++ message passing library: sender class for MPI&#45;based implementation." alt="" coords="5,5,156,31"/>
+<area shape="rect" id="Node000002" href="$msg_mpi_8h.html" title="OpenM++: message passing library common classes and interfaces." alt="" coords="21,152,140,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="69,44,54,79,53,99,58,118,74,150,70,153,53,120,48,99,49,78,64,42"/>
+<area shape="rect" id="Node000003" href="$msg_mpi_exec_8h.html" title="OpenM++: message passing library main class for MPI&#45;based implementation." alt="" coords="63,79,211,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="101,40,130,77,126,80,96,43"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="121,117,92,154,88,150,117,113"/>
 </map>

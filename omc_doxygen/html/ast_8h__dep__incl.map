@@ -1,4 +1,5 @@
 <map id="ast.h" name="ast.h">
-<area shape="rect" id="node1" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="32,5,87,32"/>
-<area shape="rect" id="node2" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="5,80,113,107"/>
+<area shape="rect" id="Node000001" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="32,5,87,31"/>
+<area shape="rect" id="Node000002" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="5,79,113,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="62,44,62,79,57,79,57,44"/>
 </map>

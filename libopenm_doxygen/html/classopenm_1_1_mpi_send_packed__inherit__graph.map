@@ -1,6 +1,9 @@
 <map id="openm::MpiSendPacked" name="openm::MpiSendPacked">
-<area shape="rect" id="node1" title="non&#45;blocking MPI send of packed data" alt="" coords="97,155,273,181"/>
-<area shape="rect" id="node2" href="$classopenm_1_1_mpi_send_base.html" title="base class for non&#45;blocking MPI send" alt="" coords="5,80,168,107"/>
-<area shape="rect" id="node3" href="$classopenm_1_1_i_msg_send_packed.html" title="public interface to send packed data." alt="" coords="193,80,375,107"/>
-<area shape="rect" id="node4" href="$classopenm_1_1_i_msg_send.html" title="public interface for message sender" alt="" coords="215,5,353,32"/>
+<area shape="rect" id="Node000001" title="non&#45;blocking MPI send of packed data" alt="" coords="97,152,273,177"/>
+<area shape="rect" id="Node000002" href="$classopenm_1_1_mpi_send_base.html" title="base class for non&#45;blocking MPI send" alt="" coords="5,79,168,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,110,171,150,168,154,112,114"/>
+<area shape="rect" id="Node000003" href="$classopenm_1_1_i_msg_send_packed.html" title="public interface to send packed data." alt="" coords="193,79,375,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="259,114,203,154,200,150,256,110"/>
+<area shape="rect" id="Node000004" href="$classopenm_1_1_i_msg_send.html" title="public interface for message sender" alt="" coords="215,5,353,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="287,44,287,79,281,79,281,44"/>
 </map>

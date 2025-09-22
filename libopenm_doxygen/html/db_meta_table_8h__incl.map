@@ -1,31 +1,68 @@
 <map id="include/dbMetaTable.h" name="include/dbMetaTable.h">
-<area shape="rect" id="node1" title="OpenM++ data library: db tables for model metadata." alt="" coords="197,5,365,32"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,379,91,405"/>
-<area shape="rect" id="node3" title=" " alt="" coords="115,379,202,405"/>
-<area shape="rect" id="node4" title=" " alt="" coords="249,155,313,181"/>
-<area shape="rect" id="node5" href="$db_exec_8h.html" title="OpenM++ data library: public interface." alt="" coords="344,80,424,107"/>
-<area shape="rect" id="node29" href="$db_meta_row_8h.html" title="OpenM++ data library: db rows of model metadata tables." alt="" coords="536,80,731,107"/>
-<area shape="rect" id="node6" href="$om_log_8h.html" title="OpenM++: public interface for log and trace support." alt="" coords="338,155,481,181"/>
-<area shape="rect" id="node11" href="$db_common_8h.html" title="OpenM++ data library: public interface for db common structures." alt="" coords="599,155,793,181"/>
-<area shape="rect" id="node7" title=" " alt="" coords="227,379,285,405"/>
-<area shape="rect" id="node8" title=" " alt="" coords="309,379,352,405"/>
-<area shape="rect" id="node9" title=" " alt="" coords="447,229,571,256"/>
-<area shape="rect" id="node10" title=" " alt="" coords="197,229,321,256"/>
-<area shape="rect" id="node12" title=" " alt="" coords="839,229,902,256"/>
-<area shape="rect" id="node13" href="$om_error_8h.html" title="OpenM++: public interface for errors and exceptions." alt="" coords="665,229,815,256"/>
-<area shape="rect" id="node14" title=" " alt="" coords="1443,379,1514,405"/>
-<area shape="rect" id="node15" href="$om_helper_8h.html" title="OpenM++ common helper utilities." alt="" coords="675,304,834,331"/>
-<area shape="rect" id="node16" title=" " alt="" coords="1093,379,1160,405"/>
-<area shape="rect" id="node17" title=" " alt="" coords="1184,379,1243,405"/>
-<area shape="rect" id="node18" title=" " alt="" coords="1267,379,1333,405"/>
-<area shape="rect" id="node19" title=" " alt="" coords="1357,379,1419,405"/>
-<area shape="rect" id="node20" title=" " alt="" coords="376,379,427,405"/>
-<area shape="rect" id="node21" title=" " alt="" coords="1539,379,1616,405"/>
-<area shape="rect" id="node22" title=" " alt="" coords="451,379,493,405"/>
-<area shape="rect" id="node23" title=" " alt="" coords="518,379,605,405"/>
-<area shape="rect" id="node24" title=" " alt="" coords="629,379,693,405"/>
-<area shape="rect" id="node25" title=" " alt="" coords="717,379,792,405"/>
-<area shape="rect" id="node26" title=" " alt="" coords="816,379,891,405"/>
-<area shape="rect" id="node27" title=" " alt="" coords="915,379,981,405"/>
-<area shape="rect" id="node28" title=" " alt="" coords="1006,379,1069,405"/>
+<area shape="rect" id="Node000001" title="OpenM++ data library: db tables for model metadata." alt="" coords="197,5,365,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,372,91,397"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="234,33,185,51,135,78,114,95,97,115,85,137,81,164,81,239,74,305,59,360,54,358,68,304,76,239,76,163,80,136,92,112,110,91,132,73,183,46,232,28"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="115,372,202,397"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="263,33,232,54,199,83,172,121,164,141,161,164,161,239,161,358,156,358,156,239,156,163,159,140,167,118,195,80,229,49,260,28"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="249,152,313,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="284,31,284,138,279,138,279,31"/>
+<area shape="rect" id="Node000005" href="$db_exec_8h.html" title="OpenM++ data library: public interface." alt="" coords="344,79,424,104"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="299,28,357,68,354,73,296,33"/>
+<area shape="rect" id="Node000029" href="$db_meta_row_8h.html" title="OpenM++ data library: db rows of model metadata tables." alt="" coords="536,79,731,104"/>
+<area shape="poly" id="edge34_Node000001_Node000029" title=" " alt="" coords="338,28,564,73,563,79,337,33"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="369,106,311,146,308,142,366,102"/>
+<area shape="rect" id="Node000006" href="$om_log_8h.html" title="OpenM++: public interface for log and trace support." alt="" coords="338,152,481,177"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="391,103,403,138,398,140,386,105"/>
+<area shape="rect" id="Node000011" href="$db_common_8h.html" title="OpenM++ data library: public interface for db common structures." alt="" coords="599,152,793,177"/>
+<area shape="poly" id="edge11_Node000005_Node000011" title=" " alt="" coords="425,99,633,146,632,152,424,104"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="227,372,285,397"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="403,179,275,362,270,359,399,176"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="309,372,352,397"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="411,178,404,242,395,284,380,325,354,363,349,360,375,323,389,283,399,241,406,177"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="447,225,571,251"/>
+<area shape="poly" id="edge9_Node000006_Node000009" title=" " alt="" coords="427,175,483,215,480,219,424,180"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="197,225,321,251"/>
+<area shape="poly" id="edge10_Node000006_Node000010" title=" " alt="" coords="386,180,297,222,295,217,384,175"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="839,225,902,251"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="725,175,830,218,828,222,723,180"/>
+<area shape="rect" id="Node000013" href="$om_error_8h.html" title="OpenM++: public interface for errors and exceptions." alt="" coords="665,225,815,251"/>
+<area shape="poly" id="edge13_Node000011_Node000013" title=" " alt="" coords="706,176,728,212,723,215,701,179"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="1443,372,1514,397"/>
+<area shape="poly" id="edge14_Node000013_Node000014" title=" " alt="" coords="763,249,842,286,892,305,945,321,1016,337,1077,346,1183,352,1292,355,1355,360,1430,369,1429,375,1355,365,1291,360,1183,357,1076,351,1015,342,943,327,891,310,840,290,761,253"/>
+<area shape="rect" id="Node000015" href="$om_helper_8h.html" title="OpenM++ common helper utilities." alt="" coords="675,299,834,324"/>
+<area shape="poly" id="edge15_Node000013_Node000015" title=" " alt="" coords="745,250,752,285,747,286,740,252"/>
+<area shape="poly" id="edge16_Node000015_Node000002" title=" " alt="" coords="675,320,425,338,267,354,105,375,104,369,266,349,424,333,675,314"/>
+<area shape="poly" id="edge20_Node000015_Node000003" title=" " alt="" coords="675,322,471,342,216,375,215,369,471,336,675,316"/>
+<area shape="poly" id="edge26_Node000015_Node000007" title=" " alt="" coords="676,322,506,341,300,375,299,369,506,336,675,317"/>
+<area shape="poly" id="edge21_Node000015_Node000008" title=" " alt="" coords="676,323,535,342,366,375,365,370,534,337,675,318"/>
+<area shape="poly" id="edge33_Node000015_Node000014" title=" " alt="" coords="834,317,880,321,1033,332,1154,339,1275,349,1430,370,1430,375,1275,354,1153,344,1033,338,880,327,834,323"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="1093,372,1160,397"/>
+<area shape="poly" id="edge17_Node000015_Node000016" title=" " alt="" coords="826,321,1080,369,1079,374,825,327"/>
+<area shape="rect" id="Node000017" title=" " alt="" coords="1184,372,1243,397"/>
+<area shape="poly" id="edge18_Node000015_Node000017" title=" " alt="" coords="834,318,987,338,1171,369,1170,375,986,343,834,324"/>
+<area shape="rect" id="Node000018" title=" " alt="" coords="1267,372,1333,397"/>
+<area shape="poly" id="edge19_Node000015_Node000018" title=" " alt="" coords="835,318,1050,342,1253,369,1253,375,1050,347,834,324"/>
+<area shape="rect" id="Node000019" title=" " alt="" coords="1357,372,1419,397"/>
+<area shape="poly" id="edge22_Node000015_Node000019" title=" " alt="" coords="835,317,1111,344,1344,370,1343,375,1110,349,834,323"/>
+<area shape="rect" id="Node000020" title=" " alt="" coords="376,372,427,397"/>
+<area shape="poly" id="edge23_Node000015_Node000020" title=" " alt="" coords="682,327,572,346,441,375,440,369,571,341,681,321"/>
+<area shape="rect" id="Node000021" title=" " alt="" coords="1539,372,1616,397"/>
+<area shape="poly" id="edge24_Node000015_Node000021" title=" " alt="" coords="834,315,1184,338,1376,353,1525,369,1525,375,1375,359,1184,343,834,320"/>
+<area shape="rect" id="Node000022" title=" " alt="" coords="451,372,493,397"/>
+<area shape="poly" id="edge25_Node000015_Node000022" title=" " alt="" coords="701,327,614,347,507,375,506,369,612,341,700,321"/>
+<area shape="rect" id="Node000023" title=" " alt="" coords="518,372,605,397"/>
+<area shape="poly" id="edge27_Node000015_Node000023" title=" " alt="" coords="725,327,606,370,605,365,723,322"/>
+<area shape="rect" id="Node000024" title=" " alt="" coords="629,372,693,397"/>
+<area shape="poly" id="edge28_Node000015_Node000024" title=" " alt="" coords="741,326,689,366,686,361,738,322"/>
+<area shape="rect" id="Node000025" title=" " alt="" coords="717,372,792,397"/>
+<area shape="poly" id="edge29_Node000015_Node000025" title=" " alt="" coords="757,324,757,358,752,358,752,324"/>
+<area shape="rect" id="Node000026" title=" " alt="" coords="816,372,891,397"/>
+<area shape="poly" id="edge30_Node000015_Node000026" title=" " alt="" coords="772,322,828,362,825,366,769,326"/>
+<area shape="rect" id="Node000027" title=" " alt="" coords="915,372,981,397"/>
+<area shape="poly" id="edge31_Node000015_Node000027" title=" " alt="" coords="787,322,905,365,903,370,785,327"/>
+<area shape="rect" id="Node000028" title=" " alt="" coords="1006,372,1069,397"/>
+<area shape="poly" id="edge32_Node000015_Node000028" title=" " alt="" coords="802,321,993,369,992,374,800,327"/>
+<area shape="poly" id="edge36_Node000029_Node000006" title=" " alt="" coords="598,107,459,150,458,145,597,101"/>
+<area shape="poly" id="edge37_Node000029_Node000011" title=" " alt="" coords="646,103,679,140,675,143,642,106"/>
+<area shape="poly" id="edge35_Node000029_Node000021" title=" " alt="" coords="671,102,1528,365,1526,370,670,107"/>
 </map>

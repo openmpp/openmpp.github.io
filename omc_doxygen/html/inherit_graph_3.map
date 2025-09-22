@@ -1,8 +1,13 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_expr_for_attribute.html" title="Expression tree element in an identity attribute." alt="" coords="5,107,133,133"/>
-<area shape="rect" id="node2" href="$class_expr_for_attribute_binary_op.html" title=" " alt="" coords="185,5,373,32"/>
-<area shape="rect" id="node3" href="$class_expr_for_attribute_literal.html" title=" " alt="" coords="194,56,363,83"/>
-<area shape="rect" id="node4" href="$class_expr_for_attribute_symbol.html" title=" " alt="" coords="190,107,367,133"/>
-<area shape="rect" id="node5" href="$class_expr_for_attribute_ternary_op.html" title=" " alt="" coords="181,157,376,184"/>
-<area shape="rect" id="node6" href="$class_expr_for_attribute_unary_op.html" title=" " alt="" coords="186,208,371,235"/>
+<area shape="rect" id="Node000000" href="$class_expr_for_attribute.html" title="Expression tree element in an identity attribute." alt="" coords="5,104,133,129"/>
+<area shape="rect" id="Node000001" href="$class_expr_for_attribute_binary_op.html" title=" " alt="" coords="185,5,373,31"/>
+<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="95,93,134,65,180,40,212,28,214,33,182,44,137,70,98,98"/>
+<area shape="rect" id="Node000002" href="$class_expr_for_attribute_literal.html" title=" " alt="" coords="194,55,363,80"/>
+<area shape="poly" id="edge2_Node000000_Node000002" title=" " alt="" coords="136,98,223,77,225,83,138,103"/>
+<area shape="rect" id="Node000003" href="$class_expr_for_attribute_symbol.html" title=" " alt="" coords="190,104,367,129"/>
+<area shape="poly" id="edge3_Node000000_Node000003" title=" " alt="" coords="147,114,190,114,190,119,147,119"/>
+<area shape="rect" id="Node000004" href="$class_expr_for_attribute_ternary_op.html" title=" " alt="" coords="181,153,376,179"/>
+<area shape="poly" id="edge4_Node000000_Node000004" title=" " alt="" coords="138,130,225,151,223,156,136,135"/>
+<area shape="rect" id="Node000005" href="$class_expr_for_attribute_unary_op.html" title=" " alt="" coords="186,203,371,228"/>
+<area shape="poly" id="edge5_Node000000_Node000005" title=" " alt="" coords="99,136,137,163,182,188,218,200,216,205,180,192,134,167,96,140"/>
 </map>

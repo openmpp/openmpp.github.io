@@ -1,22 +1,56 @@
 <map id="MaintainedAttributeSymbol" name="MaintainedAttributeSymbol">
-<area shape="rect" id="node1" title="MaintainedAttributeSymbol." alt="" coords="1373,157,1575,184"/>
-<area shape="rect" id="node2" href="$class_attribute_symbol.html" title=" " alt="" coords="1083,157,1211,184"/>
-<area shape="rect" id="node11" href="$class_builtin_attribute_symbol.html" title="BuiltinAttributeSymbol." alt="" coords="1389,256,1559,283"/>
-<area shape="rect" id="node3" href="$class_entity_data_member_symbol.html" title=" " alt="" coords="2373,579,2568,605"/>
-<area shape="rect" id="node15" href="$class_entity_event_symbol.html" title="Event time member symbol for an event." alt="" coords="2623,579,2770,605"/>
-<area shape="rect" id="node20" href="$class_entity_internal_symbol.html" title="Internal data symbol." alt="" coords="2617,231,2776,257"/>
-<area shape="rect" id="node4" href="$class_entity_member_symbol.html" title=" " alt="" coords="2100,680,2263,707"/>
-<area shape="rect" id="node12" href="$class_entity_func_symbol.html" title="Symbol for a function member of an entity." alt="" coords="2987,624,3125,651"/>
-<area shape="rect" id="node5" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="469,687,540,713"/>
-<area shape="rect" id="node8" href="$class_module_symbol.html" title="Symbol for a source code module." alt="" coords="665,731,784,757"/>
-<area shape="rect" id="node10" href="$class_entity_symbol.html" title="EntitySymbol." alt="" coords="1797,489,1907,516"/>
-<area shape="rect" id="node19" href="$class_type_symbol.html" title="TypeSymbol." alt="" coords="674,579,775,605"/>
-<area shape="rect" id="node6" href="$classomc_1_1location.html" title="Two points in a source file." alt="" coords="205,793,316,820"/>
-<area shape="rect" id="node7" href="$classomc_1_1position.html" title="A point in a source file." alt="" coords="5,793,116,820"/>
-<area shape="rect" id="node9" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="205,687,316,713"/>
-<area shape="rect" id="node13" href="$class_code_block.html" title=" " alt="" coords="2651,885,2742,912"/>
-<area shape="rect" id="node14" title=" " alt="" coords="2416,885,2525,912"/>
-<area shape="rect" id="node16" href="$class_classification_symbol.html" title="ClassificationSymbol." alt="" coords="1395,515,1553,541"/>
-<area shape="rect" id="node17" href="$class_enumeration_with_enumerators_symbol.html" title="EnumerationWithEnumeratorsSymbol." alt="" coords="1037,513,1256,554"/>
-<area shape="rect" id="node18" href="$class_enumeration_symbol.html" title="EnumerationSymbol." alt="" coords="833,525,988,552"/>
+<area shape="rect" id="Node000001" title="MaintainedAttributeSymbol." alt="" coords="1373,158,1575,183"/>
+<area shape="rect" id="Node000002" href="$class_attribute_symbol.html" title=" " alt="" coords="1083,158,1211,183"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1224,168,1373,168,1373,173,1224,173"/>
+<area shape="rect" id="Node000011" href="$class_builtin_attribute_symbol.html" title="BuiltinAttributeSymbol." alt="" coords="1389,257,1559,282"/>
+<area shape="poly" id="edge14_Node000011_Node000002" title=" " alt="" coords="1204,185,1431,254,1430,259,1202,190"/>
+<area shape="rect" id="Node000003" href="$class_entity_data_member_symbol.html" title=" " alt="" coords="2373,579,2568,605"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="2452,570,2409,518,2381,493,2348,473,2293,451,2242,435,2194,425,2149,419,2063,420,1981,430,1897,441,1809,448,1710,444,1656,435,1598,420,1529,396,1460,366,1333,298,1229,233,1163,186,1166,181,1232,228,1335,294,1462,362,1531,391,1599,415,1657,429,1711,438,1809,443,1897,436,1980,424,2063,415,2149,414,2195,419,2244,430,2295,446,2351,468,2384,489,2413,515,2456,566"/>
+<area shape="poly" id="edge31_Node000003_Node000003" title=" " alt="" coords="2447,564,2454,556,2471,553,2485,555,2494,561,2496,571,2492,580,2487,578,2490,570,2489,564,2483,560,2471,558,2457,561,2451,568"/>
+<area shape="rect" id="Node000015" href="$class_entity_event_symbol.html" title="Event time member symbol for an event." alt="" coords="2623,579,2770,605"/>
+<area shape="poly" id="edge20_Node000015_Node000003" title=" " alt="" coords="2581,589,2623,589,2623,595,2581,595"/>
+<area shape="rect" id="Node000020" href="$class_entity_internal_symbol.html" title="Internal data symbol." alt="" coords="2617,230,2776,255"/>
+<area shape="poly" id="edge33_Node000020_Node000003" title=" " alt="" coords="2490,567,2527,522,2566,469,2639,346,2687,254,2691,257,2644,348,2570,472,2531,526,2494,570"/>
+<area shape="rect" id="Node000004" href="$class_entity_member_symbol.html" title=" " alt="" coords="2100,681,2263,706"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="2275,675,2348,655,2404,629,2449,602,2452,607,2406,634,2350,660,2277,681"/>
+<area shape="rect" id="Node000012" href="$class_entity_func_symbol.html" title="Symbol for a function member of an entity." alt="" coords="2987,625,3125,650"/>
+<area shape="poly" id="edge16_Node000012_Node000004" title=" " alt="" coords="2277,688,2582,676,2772,664,2962,648,2986,645,2987,651,2963,653,2772,669,2582,681,2277,694"/>
+<area shape="rect" id="Node000005" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="469,687,540,713"/>
+<area shape="poly" id="edge29_Node000003_Node000005" title=" " alt="" coords="547,680,627,654,675,644,723,640,2183,640,2249,636,2315,627,2424,602,2426,607,2316,632,2250,642,2183,645,723,645,676,649,629,659,548,685"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="554,696,808,691,1853,691,2100,691,2100,696,1853,696,808,696,554,701"/>
+<area shape="poly" id="edge10_Node000004_Node000005" title=" " alt="" coords="529,721,546,736,565,748,592,759,613,763,666,767,847,782,989,787,1313,784,1853,784,1897,782,1941,775,2026,753,2099,727,2153,704,2155,709,2101,732,2028,759,1942,780,1898,787,1853,789,1313,789,989,792,847,787,665,772,613,768,590,764,563,753,543,740,525,725"/>
+<area shape="rect" id="Node000008" href="$class_module_symbol.html" title="Symbol for a source code module." alt="" coords="665,731,784,757"/>
+<area shape="poly" id="edge8_Node000008_Node000005" title=" " alt="" coords="535,718,565,732,615,742,665,745,665,750,615,747,563,737,533,723"/>
+<area shape="rect" id="Node000010" href="$class_entity_symbol.html" title="EntitySymbol." alt="" coords="1797,483,1907,509"/>
+<area shape="poly" id="edge12_Node000010_Node000005" title=" " alt="" coords="514,673,542,617,587,552,615,522,647,498,683,481,723,475,1013,475,1467,481,1797,491,1797,497,1467,487,1013,480,724,480,685,486,650,502,619,526,591,556,547,620,519,675"/>
+<area shape="rect" id="Node000019" href="$class_type_symbol.html" title="TypeSymbol." alt="" coords="674,579,775,605"/>
+<area shape="poly" id="edge28_Node000019_Node000005" title=" " alt="" coords="517,673,536,646,562,622,589,608,618,599,673,590,674,596,619,604,591,613,566,626,540,650,521,677"/>
+<area shape="rect" id="Node000006" href="$classomc_1_1location.html" title="Two points in a source file." alt="" coords="205,802,316,827"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="306,794,372,766,444,732,482,711,485,715,447,737,374,771,308,799"/>
+<area shape="poly" id="edge22_Node000012_Node000006" title=" " alt="" coords="330,827,413,839,503,845,2698,845,2755,839,2811,821,2864,795,2912,764,2955,731,2992,699,3041,649,3045,652,2996,703,2959,735,2915,769,2866,800,2813,826,2756,844,2698,851,503,851,412,845,330,832"/>
+<area shape="rect" id="Node000007" href="$classomc_1_1position.html" title="A point in a source file." alt="" coords="5,802,116,827"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="130,812,205,812,205,817,130,817"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="651,736,563,719,540,713,541,707,565,713,652,730"/>
+<area shape="rect" id="Node000009" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="205,687,316,713"/>
+<area shape="poly" id="edge9_Node000005_Node000009" title=" " alt="" coords="330,697,469,697,469,703,330,703"/>
+<area shape="poly" id="edge11_Node000004_Node000010" title=" " alt="" coords="1888,514,2160,678,2158,683,1885,518"/>
+<area shape="poly" id="edge13_Node000010_Node000011" title=" " alt="" coords="1510,287,1831,481,1828,486,1507,291"/>
+<area shape="poly" id="edge34_Node000002_Node000012" title=" " alt="" coords="3049,611,3042,553,3027,472,3003,378,2969,280,2948,232,2924,188,2896,146,2864,110,2829,80,2790,57,2746,42,2698,37,1473,37,1425,41,1378,52,1333,67,1290,86,1216,127,1166,160,1163,156,1213,122,1287,81,1331,62,1377,47,1425,36,1473,32,2698,32,2747,37,2792,52,2832,76,2868,106,2900,143,2928,185,2953,230,2974,278,3008,376,3032,471,3047,552,3055,610"/>
+<area shape="poly" id="edge15_Node000010_Node000012" title=" " alt="" coords="3037,614,3005,575,2985,555,2961,540,2901,514,2821,492,2730,473,2631,458,2437,439,2287,436,2107,442,2030,450,1931,469,1882,486,1881,481,1930,464,2029,445,2107,437,2287,431,2438,434,2632,453,2731,468,2823,487,2902,509,2964,535,2988,551,3009,571,3041,611"/>
+<area shape="poly" id="edge21_Node000015_Node000012" title=" " alt="" coords="2973,625,2962,624,2770,601,2770,596,2963,619,2973,620"/>
+<area shape="rect" id="Node000013" href="$class_code_block.html" title=" " alt="" coords="2651,886,2742,911"/>
+<area shape="poly" id="edge17_Node000012_Node000013" title=" " alt="" coords="2752,912,2801,921,2856,924,2911,917,2937,908,2961,894,2989,868,3010,837,3026,803,3037,767,3049,699,3052,650,3057,651,3055,699,3042,768,3031,805,3015,840,2993,872,2964,898,2939,912,2913,922,2856,930,2800,926,2751,917"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="2416,886,2525,911"/>
+<area shape="poly" id="edge18_Node000013_Node000014" title=" " alt="" coords="2539,896,2651,896,2651,901,2539,901"/>
+<area shape="poly" id="edge23_Node000010_Node000015" title=" " alt="" coords="2663,574,2619,551,2567,532,2475,512,2380,499,2285,490,2192,486,2027,487,1907,494,1907,488,2027,482,2193,481,2285,485,2381,493,2476,507,2569,527,2621,546,2665,570"/>
+<area shape="poly" id="edge19_Node000012_Node000015" title=" " alt="" coords="2734,609,2766,623,2801,633,2848,641,2897,644,2986,642,2986,647,2897,649,2848,646,2799,639,2764,628,2731,613"/>
+<area shape="rect" id="Node000016" href="$class_classification_symbol.html" title="ClassificationSymbol." alt="" coords="1395,517,1553,542"/>
+<area shape="poly" id="edge24_Node000010_Node000016" title=" " alt="" coords="1567,525,1666,520,1773,509,1797,505,1798,511,1774,515,1667,525,1567,530"/>
+<area shape="rect" id="Node000017" href="$class_enumeration_with_enumerators_symbol.html" title="EnumerationWithEnumeratorsSymbol." alt="" coords="1037,515,1256,555"/>
+<area shape="poly" id="edge25_Node000016_Node000017" title=" " alt="" coords="1269,530,1394,528,1394,533,1270,535"/>
+<area shape="rect" id="Node000018" href="$class_enumeration_symbol.html" title="EnumerationSymbol." alt="" coords="833,526,988,551"/>
+<area shape="poly" id="edge26_Node000017_Node000018" title=" " alt="" coords="1002,534,1037,534,1037,539,1002,540"/>
+<area shape="poly" id="edge30_Node000003_Node000019" title=" " alt="" coords="789,588,1168,582,1685,579,2183,579,2373,584,2373,589,2183,584,1685,584,1168,588,789,593"/>
+<area shape="poly" id="edge27_Node000018_Node000019" title=" " alt="" coords="782,573,865,549,867,554,784,578"/>
+<area shape="poly" id="edge32_Node000002_Node000020" title=" " alt="" coords="2675,221,2629,170,2600,144,2567,122,2521,103,2472,99,1473,99,1390,105,1308,122,1237,142,1182,160,1180,155,1235,137,1307,116,1389,100,1473,93,2472,93,2523,97,2569,118,2603,140,2633,167,2679,217"/>
 </map>

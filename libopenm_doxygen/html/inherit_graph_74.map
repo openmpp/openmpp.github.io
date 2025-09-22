@@ -1,4 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structopenm_1_1_i_parameter_reader.html" title="input parameter reader public interface" alt="" coords="5,5,197,32"/>
-<area shape="rect" id="node2" href="$classopenm_1_1_parameter_reader.html" title=" " alt="" coords="245,5,433,32"/>
+<area shape="rect" id="Node000000" href="$structopenm_1_1_i_parameter_reader.html" title="input parameter reader public interface" alt="" coords="5,5,197,31"/>
+<area shape="rect" id="Node000001" href="$classopenm_1_1_parameter_reader.html" title=" " alt="" coords="245,5,433,31"/>
+<area shape="poly" id="edge170_Node000000_Node000001" title=" " alt="" coords="211,15,245,15,245,21,211,21"/>
 </map>

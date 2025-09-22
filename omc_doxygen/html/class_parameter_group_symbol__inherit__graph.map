@@ -1,5 +1,7 @@
 <map id="ParameterGroupSymbol" name="ParameterGroupSymbol">
-<area shape="rect" id="node1" title="ParameterGroupSymbol." alt="" coords="5,155,183,181"/>
-<area shape="rect" id="node2" href="$class_group_symbol.html" title="GroupSymbol." alt="" coords="39,80,149,107"/>
-<area shape="rect" id="node3" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="59,5,129,32"/>
+<area shape="rect" id="Node000001" title="ParameterGroupSymbol." alt="" coords="5,152,183,177"/>
+<area shape="rect" id="Node000002" href="$class_group_symbol.html" title="GroupSymbol." alt="" coords="39,79,149,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,118,97,152,91,152,91,118"/>
+<area shape="rect" id="Node000003" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="59,5,129,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="97,44,97,79,91,79,91,44"/>
 </map>

@@ -1,5 +1,7 @@
 <map id="SimpleAttributeEnumSymbol.h" name="SimpleAttributeEnumSymbol.h">
-<area shape="rect" id="node1" title="Declarations for the SimpleAttributeEnumSymbol class." alt="" coords="5,5,228,32"/>
-<area shape="rect" id="node2" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="89,80,144,107"/>
-<area shape="rect" id="node3" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="63,155,171,181"/>
+<area shape="rect" id="Node000001" title="Declarations for the SimpleAttributeEnumSymbol class." alt="" coords="5,5,228,31"/>
+<area shape="rect" id="Node000002" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="89,79,144,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="119,44,119,79,114,79,114,44"/>
+<area shape="rect" id="Node000003" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="63,152,171,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="119,118,119,152,114,152,114,118"/>
 </map>

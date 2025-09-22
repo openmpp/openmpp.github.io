@@ -1,5 +1,7 @@
 <map id="openm::IPackedAdapter" name="openm::IPackedAdapter">
-<area shape="rect" id="node1" title="public interface to pack and unpack rows of metadata db&#45;table" alt="" coords="147,5,322,32"/>
-<area shape="rect" id="node2" href="$structopenm_1_1_empty_packed_adapter.html" title="pack and unpack adapter for metadata table db rows (empty implementation)." alt="" coords="5,87,219,114"/>
-<area shape="rect" id="node3" href="$structopenm_1_1_meta_mpi_packed_adapter.html" title="MPI&#45;based adapter to pack and unpack vector of metadata db rows." alt="" coords="243,80,471,121"/>
+<area shape="rect" id="Node000001" title="public interface to pack and unpack rows of metadata db&#45;table" alt="" coords="147,5,322,31"/>
+<area shape="rect" id="Node000002" href="$structopenm_1_1_empty_packed_adapter.html" title="pack and unpack adapter for metadata table db rows (empty implementation)." alt="" coords="5,86,219,111"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="207,40,132,88,129,84,204,36"/>
+<area shape="rect" id="Node000003" href="$structopenm_1_1_meta_mpi_packed_adapter.html" title="MPI&#45;based adapter to pack and unpack vector of metadata db rows." alt="" coords="243,79,471,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="266,36,329,76,326,81,263,41"/>
 </map>

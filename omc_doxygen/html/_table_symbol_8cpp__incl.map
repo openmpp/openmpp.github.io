@@ -1,35 +1,89 @@
 <map id="TableSymbol.cpp" name="TableSymbol.cpp">
-<area shape="rect" id="node1" title="Definitions for the TableSymbol class." alt="" coords="890,5,1022,32"/>
-<area shape="rect" id="node2" title=" " alt="" coords="62,379,131,405"/>
-<area shape="rect" id="node3" href="$_table_symbol_8h.html" title="Declarations for the TableSymbol class." alt="" coords="654,155,771,181"/>
-<area shape="rect" id="node24" href="$_language_symbol_8h.html" title="Declarations for the LanguageSymbol class." alt="" coords="994,80,1140,107"/>
-<area shape="rect" id="node25" title=" " alt="" coords="862,155,1096,181"/>
-<area shape="rect" id="node26" href="$_enumeration_symbol_8h.html" title="Declarations for the EnumerationSymbol class." alt="" coords="1453,80,1620,107"/>
-<area shape="rect" id="node31" href="$_entity_table_symbol_8h.html" title="Declares the EntityTableSymbol derived class of the Symbol class." alt="" coords="750,80,904,107"/>
-<area shape="rect" id="node32" href="$_code_block_8h.html" title="Declarations for the CodeBlock class." alt="" coords="1746,379,1849,405"/>
-<area shape="rect" id="node4" title=" " alt="" coords="1636,453,1679,480"/>
-<area shape="rect" id="node5" href="$_symbol_8h.html" title="Declarations for the Symbol class." alt="" coords="795,304,878,331"/>
-<area shape="rect" id="node20" href="$_dimension_symbol_8h.html" title="Definitions for the DimensionSymbol class." alt="" coords="448,229,601,256"/>
-<area shape="rect" id="node21" href="$_measure_dimension_symbol_8h.html" title="Definitions for the MeasureDimensionSymbol class." alt="" coords="214,229,424,256"/>
-<area shape="rect" id="node22" href="$_table_measure_symbol_8h.html" title="Declarations for the TableMeasureSymbol class." alt="" coords="626,229,799,256"/>
-<area shape="rect" id="node6" title=" " alt="" coords="1274,453,1332,480"/>
-<area shape="rect" id="node7" title=" " alt="" coords="306,379,369,405"/>
-<area shape="rect" id="node8" title=" " alt="" coords="394,379,508,405"/>
-<area shape="rect" id="node9" title=" " alt="" coords="533,379,657,405"/>
-<area shape="rect" id="node10" title=" " alt="" coords="682,379,780,405"/>
-<area shape="rect" id="node11" title=" " alt="" coords="804,379,855,405"/>
-<area shape="rect" id="node12" title=" " alt="" coords="879,379,922,405"/>
-<area shape="rect" id="node13" title=" " alt="" coords="946,379,1001,405"/>
-<area shape="rect" id="node14" href="$omc__common_8h.html" title="Common declarations for omc." alt="" coords="156,379,282,405"/>
-<area shape="rect" id="node16" href="$omc__location_8hh_source.html" title=" " alt="" coords="1192,379,1321,405"/>
-<area shape="rect" id="node18" href="$_special_global_8h.html" title="Declarations for the SpecialGlobal class." alt="" coords="1346,379,1468,405"/>
-<area shape="rect" id="node19" title=" " alt="" coords="1076,379,1167,405"/>
-<area shape="rect" id="node15" title=" " alt="" coords="148,453,290,480"/>
-<area shape="rect" id="node17" title=" " alt="" coords="1170,453,1250,480"/>
-<area shape="rect" id="node23" title=" " alt="" coords="98,304,156,331"/>
-<area shape="rect" id="node27" href="$_type_symbol_8h.html" title="Declarations for the TypeSymbol class." alt="" coords="1300,155,1413,181"/>
-<area shape="rect" id="node28" title=" " alt="" coords="1438,229,1589,256"/>
-<area shape="rect" id="node29" href="$_constant_8h.html" title="Declarations for the Constant class." alt="" coords="1220,229,1312,256"/>
-<area shape="rect" id="node30" href="$_literal_8h.html" title="Declares the Literal class and sub&#45;classes." alt="" coords="1304,304,1379,331"/>
-<area shape="rect" id="node33" title=" " alt="" coords="1760,453,1836,480"/>
+<area shape="rect" id="Node000001" title="Definitions for the TableSymbol class." alt="" coords="890,5,1022,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="61,372,130,397"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="890,26,672,41,397,69,268,88,161,110,119,123,88,136,69,150,62,164,62,239,65,272,71,304,88,358,83,360,66,306,60,273,57,239,57,163,65,146,85,131,117,118,159,105,267,83,396,64,672,36,889,20"/>
+<area shape="rect" id="Node000003" href="$_table_symbol_8h.html" title="Declarations for the TableSymbol class." alt="" coords="653,152,770,177"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="890,23,851,29,811,39,772,56,739,81,729,93,722,108,715,139,710,138,717,106,724,90,735,77,770,51,809,34,850,24,889,18"/>
+<area shape="rect" id="Node000024" href="$_language_symbol_8h.html" title="Declarations for the LanguageSymbol class." alt="" coords="993,79,1140,104"/>
+<area shape="poly" id="edge33_Node000001_Node000024" title=" " alt="" coords="975,28,1038,69,1035,73,972,33"/>
+<area shape="rect" id="Node000025" title=" " alt="" coords="861,152,1096,177"/>
+<area shape="poly" id="edge54_Node000001_Node000025" title=" " alt="" coords="960,31,977,138,972,139,955,32"/>
+<area shape="rect" id="Node000026" href="$_enumeration_symbol_8h.html" title="Declarations for the EnumerationSymbol class." alt="" coords="1452,79,1619,104"/>
+<area shape="poly" id="edge36_Node000001_Node000026" title=" " alt="" coords="1022,25,1439,76,1438,81,1022,30"/>
+<area shape="rect" id="Node000031" href="$_entity_table_symbol_8h.html" title="Declares the EntityTableSymbol derived class of the Symbol class." alt="" coords="749,79,904,104"/>
+<area shape="poly" id="edge47_Node000001_Node000031" title=" " alt="" coords="936,33,861,74,858,69,934,28"/>
+<area shape="rect" id="Node000032" href="$_code_block_8h.html" title="Declarations for the CodeBlock class." alt="" coords="1746,372,1848,397"/>
+<area shape="poly" id="edge50_Node000001_Node000032" title=" " alt="" coords="1022,19,1163,25,1340,36,1510,53,1580,64,1632,76,1685,88,1732,99,1751,107,1766,120,1776,138,1780,163,1780,239,1785,304,1794,358,1789,359,1779,304,1774,239,1774,164,1771,140,1762,123,1748,112,1730,104,1684,94,1631,81,1579,69,1509,58,1340,41,1163,30,1022,24"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="1636,445,1678,471"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="771,171,805,175,884,181,952,181,1069,178,1125,179,1184,185,1249,199,1325,223,1393,259,1481,319,1634,435,1630,439,1478,323,1390,264,1323,228,1248,204,1183,190,1124,184,1069,184,952,187,884,186,805,180,770,176"/>
+<area shape="rect" id="Node000005" href="$_symbol_8h.html" title="Declarations for the Symbol class." alt="" coords="794,299,877,324"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="744,175,780,194,812,224,828,254,836,284,830,286,823,256,808,227,777,199,741,180"/>
+<area shape="rect" id="Node000020" href="$_dimension_symbol_8h.html" title="Definitions for the DimensionSymbol class." alt="" coords="447,225,600,251"/>
+<area shape="poly" id="edge23_Node000003_Node000020" title=" " alt="" coords="682,180,568,223,566,218,680,175"/>
+<area shape="rect" id="Node000021" href="$_measure_dimension_symbol_8h.html" title="Definitions for the MeasureDimensionSymbol class." alt="" coords="214,225,423,251"/>
+<area shape="poly" id="edge26_Node000003_Node000021" title=" " alt="" coords="653,178,389,225,388,220,652,173"/>
+<area shape="rect" id="Node000022" href="$_table_measure_symbol_8h.html" title="Declarations for the TableMeasureSymbol class." alt="" coords="625,225,798,251"/>
+<area shape="poly" id="edge29_Node000003_Node000022" title=" " alt="" coords="714,178,714,212,709,212,709,178"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="794,317,524,332,338,349,144,375,143,369,337,344,524,327,794,311"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="1273,445,1332,471"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="875,321,940,342,1013,370,1039,383,1065,395,1117,411,1159,421,1260,442,1258,448,1158,427,1115,417,1063,400,1036,387,1011,374,938,348,873,327"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="306,372,368,397"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="794,319,619,338,503,354,382,375,382,369,502,349,618,333,794,314"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="393,372,508,397"/>
+<area shape="poly" id="edge8_Node000005_Node000008" title=" " alt="" coords="794,323,522,373,521,368,793,318"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="532,372,656,397"/>
+<area shape="poly" id="edge9_Node000005_Node000009" title=" " alt="" coords="798,327,647,371,646,365,796,321"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="681,372,780,397"/>
+<area shape="poly" id="edge10_Node000005_Node000010" title=" " alt="" coords="820,326,760,367,757,362,817,322"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="804,372,854,397"/>
+<area shape="poly" id="edge11_Node000005_Node000011" title=" " alt="" coords="837,325,834,359,829,358,832,324"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="878,372,921,397"/>
+<area shape="poly" id="edge12_Node000005_Node000012" title=" " alt="" coords="848,323,882,360,878,364,844,326"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="946,372,1000,397"/>
+<area shape="poly" id="edge13_Node000005_Node000013" title=" " alt="" coords="859,322,940,363,937,368,856,326"/>
+<area shape="rect" id="Node000014" href="$omc__common_8h.html" title="Common declarations for omc." alt="" coords="155,372,282,397"/>
+<area shape="poly" id="edge14_Node000005_Node000014" title=" " alt="" coords="794,319,584,341,295,374,295,369,584,335,794,314"/>
+<area shape="rect" id="Node000016" href="$omc__location_8hh_source.html" title=" " alt="" coords="1191,372,1320,397"/>
+<area shape="poly" id="edge16_Node000005_Node000016" title=" " alt="" coords="877,317,1178,368,1177,373,877,322"/>
+<area shape="rect" id="Node000018" href="$_special_global_8h.html" title="Declarations for the SpecialGlobal class." alt="" coords="1345,372,1468,397"/>
+<area shape="poly" id="edge19_Node000005_Node000018" title=" " alt="" coords="878,315,1070,336,1332,369,1331,374,1069,342,877,320"/>
+<area shape="rect" id="Node000019" title=" " alt="" coords="1076,372,1166,397"/>
+<area shape="poly" id="edge22_Node000005_Node000019" title=" " alt="" coords="878,320,1063,366,1061,371,876,326"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="147,445,290,471"/>
+<area shape="poly" id="edge15_Node000014_Node000015" title=" " alt="" coords="221,398,221,432,216,432,216,398"/>
+<area shape="poly" id="edge18_Node000016_Node000006" title=" " alt="" coords="1266,396,1289,432,1285,435,1261,399"/>
+<area shape="rect" id="Node000017" title=" " alt="" coords="1169,445,1249,471"/>
+<area shape="poly" id="edge17_Node000016_Node000017" title=" " alt="" coords="1250,399,1226,435,1222,432,1246,396"/>
+<area shape="poly" id="edge21_Node000018_Node000004" title=" " alt="" coords="1447,395,1623,444,1622,449,1446,400"/>
+<area shape="poly" id="edge20_Node000018_Node000006" title=" " alt="" coords="1391,400,1332,439,1329,435,1388,395"/>
+<area shape="poly" id="edge25_Node000020_Node000005" title=" " alt="" coords="574,248,782,295,780,300,573,253"/>
+<area shape="poly" id="edge24_Node000020_Node000006" title=" " alt="" coords="447,252,86,301,57,322,36,346,30,358,28,371,31,383,40,395,59,403,98,410,227,421,610,433,1012,438,1259,444,1259,449,1012,443,610,438,227,426,97,415,57,408,37,399,26,385,23,371,25,357,31,343,54,318,84,296,446,247"/>
+<area shape="poly" id="edge28_Node000021_Node000003" title=" " alt="" coords="388,223,641,177,642,182,389,228"/>
+<area shape="poly" id="edge27_Node000021_Node000006" title=" " alt="" coords="222,253,120,272,77,285,49,301,27,324,12,348,10,372,14,384,23,395,41,403,81,410,213,421,393,428,601,433,1009,438,1259,444,1259,449,1009,444,601,438,393,434,212,426,81,415,40,408,19,399,9,386,4,373,7,346,22,320,46,297,75,281,118,267,221,248"/>
+<area shape="poly" id="edge32_Node000022_Node000005" title=" " alt="" coords="733,248,805,289,802,294,730,253"/>
+<area shape="poly" id="edge30_Node000022_Node000006" title=" " alt="" coords="625,253,468,276,287,306,131,340,78,357,51,374,46,385,51,395,69,403,108,410,236,421,616,433,1014,438,1259,444,1259,449,1014,443,616,438,236,426,107,415,68,408,47,399,41,385,47,370,76,353,129,335,286,301,467,270,624,248"/>
+<area shape="rect" id="Node000023" title=" " alt="" coords="97,299,156,324"/>
+<area shape="poly" id="edge31_Node000022_Node000023" title=" " alt="" coords="625,252,612,253,393,273,297,283,175,301,170,302,169,297,174,296,296,278,392,268,611,248,625,247"/>
+<area shape="poly" id="edge34_Node000024_Node000005" title=" " alt="" coords="1081,102,1095,117,1108,136,1115,158,1110,178,1089,206,1064,229,1007,265,946,289,891,303,890,298,944,284,1004,260,1061,225,1085,202,1105,176,1109,158,1103,139,1091,121,1077,106"/>
+<area shape="poly" id="edge35_Node000024_Node000025" title=" " alt="" coords="1054,106,1005,145,1002,141,1050,102"/>
+<area shape="poly" id="edge38_Node000026_Node000004" title=" " alt="" coords="1571,102,1614,120,1659,149,1679,167,1695,187,1706,211,1710,236,1710,313,1707,347,1697,380,1673,434,1668,432,1692,378,1701,346,1705,313,1705,237,1701,212,1691,190,1675,170,1656,153,1612,125,1569,106"/>
+<area shape="poly" id="edge37_Node000026_Node000006" title=" " alt="" coords="1549,103,1569,129,1591,165,1606,207,1607,229,1603,251,1587,300,1568,336,1542,367,1502,400,1464,422,1422,438,1346,455,1345,450,1421,433,1462,417,1499,395,1538,363,1564,333,1582,298,1598,250,1602,229,1600,208,1586,167,1565,132,1544,106"/>
+<area shape="rect" id="Node000027" href="$_type_symbol_8h.html" title="Declarations for the TypeSymbol class." alt="" coords="1299,152,1412,177"/>
+<area shape="poly" id="edge39_Node000026_Node000027" title=" " alt="" coords="1508,107,1399,149,1397,144,1506,102"/>
+<area shape="poly" id="edge41_Node000027_Node000005" title=" " alt="" coords="1328,180,1209,228,1180,241,1150,253,1081,272,1011,287,891,306,891,301,1010,281,1080,267,1148,248,1178,237,1207,223,1326,175"/>
+<area shape="rect" id="Node000028" title=" " alt="" coords="1438,225,1588,251"/>
+<area shape="poly" id="edge40_Node000027_Node000028" title=" " alt="" coords="1382,175,1476,217,1474,222,1380,180"/>
+<area shape="rect" id="Node000029" href="$_constant_8h.html" title="Declarations for the Constant class." alt="" coords="1219,225,1311,251"/>
+<area shape="poly" id="edge42_Node000027_Node000029" title=" " alt="" coords="1343,179,1292,219,1289,214,1339,175"/>
+<area shape="poly" id="edge43_Node000029_Node000005" title=" " alt="" coords="1219,250,1200,253,891,304,890,299,1199,248,1218,245"/>
+<area shape="poly" id="edge46_Node000029_Node000016" title=" " alt="" coords="1267,251,1260,358,1255,358,1261,251"/>
+<area shape="rect" id="Node000030" href="$_literal_8h.html" title="Declares the Literal class and sub&#45;classes." alt="" coords="1304,299,1378,324"/>
+<area shape="poly" id="edge44_Node000029_Node000030" title=" " alt="" coords="1279,249,1320,287,1317,291,1275,253"/>
+<area shape="poly" id="edge45_Node000030_Node000006" title=" " alt="" coords="1379,317,1421,328,1460,345,1476,356,1486,368,1488,383,1482,399,1453,426,1418,444,1380,454,1346,458,1345,453,1379,448,1416,439,1450,422,1477,396,1483,382,1481,371,1472,360,1458,350,1419,333,1378,322"/>
+<area shape="poly" id="edge49_Node000031_Node000003" title=" " alt="" coords="809,106,743,147,740,142,806,102"/>
+<area shape="poly" id="edge48_Node000031_Node000004" title=" " alt="" coords="828,104,832,140,838,160,851,175,869,187,893,197,952,208,1023,213,1100,213,1252,210,1317,213,1367,223,1403,238,1429,254,1485,296,1537,331,1585,370,1642,433,1638,436,1582,374,1534,335,1482,301,1426,259,1401,243,1365,228,1316,218,1252,215,1100,218,1022,218,951,214,891,202,867,192,847,179,834,162,826,141,823,104"/>
+<area shape="poly" id="edge52_Node000032_Node000004" title=" " alt="" coords="1776,400,1692,442,1689,437,1773,395"/>
+<area shape="poly" id="edge51_Node000032_Node000006" title=" " alt="" coords="1746,396,1346,453,1345,448,1745,391"/>
+<area shape="rect" id="Node000033" title=" " alt="" coords="1759,445,1835,471"/>
+<area shape="poly" id="edge53_Node000032_Node000033" title=" " alt="" coords="1800,398,1800,432,1794,432,1794,398"/>
 </map>

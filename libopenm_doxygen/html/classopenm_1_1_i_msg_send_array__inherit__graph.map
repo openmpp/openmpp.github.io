@@ -1,6 +1,9 @@
 <map id="openm::IMsgSendArray" name="openm::IMsgSendArray">
-<area shape="rect" id="node1" title="public interface to send value array" alt="" coords="109,80,282,107"/>
-<area shape="rect" id="node3" href="$classopenm_1_1_mpi_send_array.html" title="non&#45;blocking MPI send of value array" alt="" coords="5,155,172,181"/>
-<area shape="rect" id="node4" href="$classopenm_1_1_msg_empty_send_array.html" title="non&#45;blocking send of value array (empty implementation)" alt="" coords="197,155,407,181"/>
-<area shape="rect" id="node2" href="$classopenm_1_1_i_msg_send.html" title="public interface for message sender" alt="" coords="126,5,265,32"/>
+<area shape="rect" id="Node000001" title="public interface to send value array" alt="" coords="109,79,282,104"/>
+<area shape="rect" id="Node000003" href="$classopenm_1_1_mpi_send_array.html" title="non&#45;blocking MPI send of value array" alt="" coords="5,152,172,177"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="168,114,108,154,105,150,166,109"/>
+<area shape="rect" id="Node000004" href="$classopenm_1_1_msg_empty_send_array.html" title="non&#45;blocking send of value array (empty implementation)" alt="" coords="197,152,407,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="225,109,286,150,283,154,222,114"/>
+<area shape="rect" id="Node000002" href="$classopenm_1_1_i_msg_send.html" title="public interface for message sender" alt="" coords="126,5,265,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="198,44,198,79,193,79,193,44"/>
 </map>

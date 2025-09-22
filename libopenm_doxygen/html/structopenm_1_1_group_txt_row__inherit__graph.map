@@ -1,6 +1,9 @@
 <map id="openm::GroupTxtRow" name="openm::GroupTxtRow">
-<area shape="rect" id="node1" title="group_txt table row." alt="" coords="31,169,194,196"/>
-<area shape="rect" id="node4" href="$structopenm_1_1_group_txt_lang_row.html" title="group_txt table row and language code." alt="" coords="15,244,210,271"/>
-<area shape="rect" id="node2" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="5,80,220,121"/>
-<area shape="rect" id="node3" href="$structopenm_1_1_i_row_base.html" title="db&#45;row abstract base" alt="" coords="43,5,182,32"/>
+<area shape="rect" id="Node000001" title="group_txt table row." alt="" coords="31,167,194,192"/>
+<area shape="rect" id="Node000004" href="$structopenm_1_1_group_txt_lang_row.html" title="group_txt table row and language code." alt="" coords="15,240,210,265"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="115,206,115,240,110,240,110,206"/>
+<area shape="rect" id="Node000002" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="5,79,220,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,132,115,166,110,166,110,132"/>
+<area shape="rect" id="Node000003" href="$structopenm_1_1_i_row_base.html" title="db&#45;row abstract base" alt="" coords="43,5,182,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="115,44,115,79,110,79,110,44"/>
 </map>

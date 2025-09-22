@@ -1,11 +1,19 @@
 <map id="TableGroupSymbol.h" name="TableGroupSymbol.h">
-<area shape="rect" id="node1" title="Declarations for the TableGroupSymbol class." alt="" coords="515,5,671,32"/>
-<area shape="rect" id="node2" href="$_dependency_group_symbol_8cpp.html" title="Definitions for the DependencyGroupSymbol class." alt="" coords="5,80,224,107"/>
-<area shape="rect" id="node3" href="$_symbol_8cpp.html" title="Definitions for the Symbol class." alt="" coords="248,80,347,107"/>
-<area shape="rect" id="node4" href="$_table_group_symbol_8cpp.html" title="Definitions for the TableGroupSymbol class." alt="" coords="371,80,541,107"/>
-<area shape="rect" id="node5" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="566,80,621,107"/>
-<area shape="rect" id="node7" href="$omc__missing__documentation_8cpp.html" title="Function which emits warnings for missing model documentation." alt="" coords="645,80,885,107"/>
-<area shape="rect" id="node8" href="$omc__model__doc_8cpp.html" title="Function to create Model doc." alt="" coords="909,80,1064,107"/>
-<area shape="rect" id="node9" href="$omc__model__metrics_8cpp.html" title="Function to create Model Metrics Report." alt="" coords="1088,80,1269,107"/>
-<area shape="rect" id="node6" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="539,155,647,181"/>
+<area shape="rect" id="Node000001" title="Declarations for the TableGroupSymbol class." alt="" coords="515,5,671,31"/>
+<area shape="rect" id="Node000002" href="$_dependency_group_symbol_8cpp.html" title="Definitions for the DependencyGroupSymbol class." alt="" coords="5,79,224,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="503,35,192,81,191,76,503,30"/>
+<area shape="rect" id="Node000003" href="$_symbol_8cpp.html" title="Definitions for the Symbol class." alt="" coords="248,79,347,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="533,36,346,81,345,76,532,31"/>
+<area shape="rect" id="Node000004" href="$_table_group_symbol_8cpp.html" title="Definitions for the TableGroupSymbol class." alt="" coords="371,79,541,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="561,39,480,81,477,76,558,34"/>
+<area shape="rect" id="Node000005" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="566,79,621,104"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="596,44,596,79,591,79,591,44"/>
+<area shape="rect" id="Node000007" href="$omc__missing__documentation_8cpp.html" title="Function which emits warnings for missing model documentation." alt="" coords="645,79,885,104"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="634,33,738,76,736,81,632,38"/>
+<area shape="rect" id="Node000008" href="$omc__model__doc_8cpp.html" title="Function to create Model doc." alt="" coords="909,79,1064,104"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="670,30,923,76,923,81,669,36"/>
+<area shape="rect" id="Node000009" href="$omc__model__metrics_8cpp.html" title="Function to create Model Metrics Report." alt="" coords="1088,79,1269,104"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="685,28,1088,76,1088,82,685,33"/>
+<area shape="rect" id="Node000006" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="539,152,647,177"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="596,118,596,152,591,152,591,118"/>
 </map>

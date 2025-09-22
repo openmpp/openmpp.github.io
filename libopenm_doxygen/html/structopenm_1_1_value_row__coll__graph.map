@@ -1,5 +1,7 @@
 <map id="openm::ValueRow" name="openm::ValueRow">
-<area shape="rect" id="node1" title="value table row: parameter, accumulators or expression tables" alt="" coords="84,95,223,121"/>
-<area shape="rect" id="node2" href="$structopenm_1_1_i_row_base.html" title="db&#45;row abstract base" alt="" coords="5,5,144,32"/>
-<area shape="rect" id="node3" href="$unionopenm_1_1_db_value.html" title="union to pass value to database methods" alt="" coords="169,5,298,32"/>
+<area shape="rect" id="Node000001" title="value table row: parameter, accumulators or expression tables" alt="" coords="84,93,223,119"/>
+<area shape="rect" id="Node000002" href="$structopenm_1_1_i_row_base.html" title="db&#45;row abstract base" alt="" coords="5,5,144,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="96,39,144,91,140,95,92,43"/>
+<area shape="rect" id="Node000003" href="$unionopenm_1_1_db_value.html" title="union to pass value to database methods" alt="" coords="169,5,298,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="215,43,166,95,163,91,211,39"/>
 </map>

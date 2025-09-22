@@ -1,5 +1,7 @@
 <map id="ExprForTableLiteral" name="ExprForTableLiteral">
-<area shape="rect" id="node1" title=" " alt="" coords="38,95,185,121"/>
-<area shape="rect" id="node2" href="$class_expr_for_table.html" title="Table expression tree element." alt="" coords="5,5,111,32"/>
-<area shape="rect" id="node3" href="$class_literal.html" title="Literal encapsulates a C++ literal or an openM++ literal." alt="" coords="135,5,197,32"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="38,93,185,119"/>
+<area shape="rect" id="Node000002" href="$class_expr_for_table.html" title="Table expression tree element." alt="" coords="5,5,111,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="75,41,106,91,102,94,70,44"/>
+<area shape="rect" id="Node000003" href="$class_literal.html" title="Literal encapsulates a C++ literal or an openM++ literal." alt="" coords="135,5,197,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="154,44,121,94,117,91,149,41"/>
 </map>

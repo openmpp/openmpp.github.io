@@ -1,5 +1,8 @@
 <map id="db/omc/modelSqlWriter.h" name="db/omc/modelSqlWriter.h">
-<area shape="rect" id="node1" title="OpenM++ data library: wrapper around file stream to write into sql script file." alt="" coords="68,5,255,32"/>
-<area shape="rect" id="node2" href="$model_insert_sql_8h.html" title="OpenM++ data library: class to produce insert sql statements for new model." alt="" coords="5,80,189,107"/>
-<area shape="rect" id="node3" href="$model_sql_builder_8h.html" title="OpenM++ data library: class to produce sql creation script for new model." alt="" coords="65,155,257,181"/>
+<area shape="rect" id="Node000001" title="OpenM++ data library: wrapper around file stream to write into sql script file." alt="" coords="68,5,255,31"/>
+<area shape="rect" id="Node000002" href="$model_insert_sql_8h.html" title="OpenM++ data library: class to produce insert sql statements for new model." alt="" coords="5,79,189,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="144,43,110,80,106,77,140,39"/>
+<area shape="rect" id="Node000003" href="$model_sql_builder_8h.html" title="OpenM++ data library: class to produce sql creation script for new model." alt="" coords="65,152,257,177"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="183,40,195,58,204,78,205,100,198,121,175,153,171,150,193,118,200,99,199,79,190,60,179,43"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="119,113,153,150,149,154,115,116"/>
 </map>

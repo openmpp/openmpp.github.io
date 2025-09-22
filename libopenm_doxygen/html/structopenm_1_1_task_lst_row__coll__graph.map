@@ -1,5 +1,7 @@
 <map id="openm::TaskLstRow" name="openm::TaskLstRow">
-<area shape="rect" id="node1" title="task_lst table row." alt="" coords="31,169,182,196"/>
-<area shape="rect" id="node2" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="5,80,208,121"/>
-<area shape="rect" id="node3" href="$structopenm_1_1_i_row_base.html" title="db&#45;row abstract base" alt="" coords="37,5,176,32"/>
+<area shape="rect" id="Node000001" title="task_lst table row." alt="" coords="31,167,182,192"/>
+<area shape="rect" id="Node000002" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="5,79,208,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,132,109,166,104,166,104,132"/>
+<area shape="rect" id="Node000003" href="$structopenm_1_1_i_row_base.html" title="db&#45;row abstract base" alt="" coords="37,5,176,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="109,44,109,79,104,79,104,44"/>
 </map>

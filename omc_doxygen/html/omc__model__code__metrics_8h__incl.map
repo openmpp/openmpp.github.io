@@ -1,12 +1,22 @@
 <map id="omc_model_code_metrics.h" name="omc_model_code_metrics.h">
-<area shape="rect" id="node1" title="omc function to rpoduce Model Code Metrics Report" alt="" coords="5,5,209,32"/>
-<area shape="rect" id="node2" title=" " alt="" coords="97,229,155,256"/>
-<area shape="rect" id="node3" href="$_code_gen_8h.html" title="Declares the code generation class." alt="" coords="206,80,299,107"/>
-<area shape="rect" id="node4" title=" " alt="" coords="55,155,135,181"/>
-<area shape="rect" id="node5" title=" " alt="" coords="160,155,233,181"/>
-<area shape="rect" id="node6" href="$_code_block_8h.html" title="Declarations for the CodeBlock class." alt="" coords="257,155,360,181"/>
-<area shape="rect" id="node9" title=" " alt="" coords="385,155,619,181"/>
-<area shape="rect" id="node10" title=" " alt="" coords="643,155,849,181"/>
-<area shape="rect" id="node7" title=" " alt="" coords="245,229,287,256"/>
-<area shape="rect" id="node8" title=" " alt="" coords="312,229,388,256"/>
+<area shape="rect" id="Node000001" title="omc function to rpoduce Model Code Metrics Report" alt="" coords="5,5,209,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="97,225,155,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,32,76,59,53,95,44,115,39,136,39,157,46,176,64,199,88,217,85,221,61,203,41,179,34,157,34,136,39,114,48,93,71,56,94,29"/>
+<area shape="rect" id="Node000003" href="$_code_gen_8h.html" title="Declares the code generation class." alt="" coords="206,79,299,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="132,28,218,70,216,75,130,33"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="55,152,135,177"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="228,106,134,149,132,144,226,102"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="160,152,233,177"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="246,106,216,143,212,140,241,103"/>
+<area shape="rect" id="Node000006" href="$_code_block_8h.html" title="Declarations for the CodeBlock class." alt="" coords="257,152,360,177"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="264,103,293,140,289,143,260,106"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="385,152,619,177"/>
+<area shape="poly" id="edge9_Node000003_Node000009" title=" " alt="" coords="293,101,449,146,448,151,292,107"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="643,152,849,177"/>
+<area shape="poly" id="edge10_Node000003_Node000010" title=" " alt="" coords="300,97,653,147,653,153,299,102"/>
+<area shape="poly" id="edge6_Node000006_Node000002" title=" " alt="" coords="280,180,170,223,168,218,278,175"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="245,225,287,251"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="304,179,282,215,278,212,299,176"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="312,225,388,251"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="318,176,339,212,334,215,313,179"/>
 </map>

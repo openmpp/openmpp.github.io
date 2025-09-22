@@ -1,8 +1,13 @@
 <map id="AttributeGroupSymbol.h" name="AttributeGroupSymbol.h">
-<area shape="rect" id="node1" title="Declarations for the AttributeGroupSymbol class." alt="" coords="235,5,413,32"/>
-<area shape="rect" id="node2" href="$_attribute_group_symbol_8cpp.html" title="Definitions for the AttributeGroupSymbol class." alt="" coords="5,80,200,107"/>
-<area shape="rect" id="node3" href="$_symbol_8cpp.html" title="Definitions for the Symbol class." alt="" coords="224,80,323,107"/>
-<area shape="rect" id="node4" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="347,80,402,107"/>
-<area shape="rect" id="node6" href="$omc__missing__documentation_8cpp.html" title="Function which emits warnings for missing model documentation." alt="" coords="427,80,667,107"/>
-<area shape="rect" id="node5" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="321,155,429,181"/>
+<area shape="rect" id="Node000001" title="Declarations for the AttributeGroupSymbol class." alt="" coords="235,5,413,31"/>
+<area shape="rect" id="Node000002" href="$_attribute_group_symbol_8cpp.html" title="Definitions for the AttributeGroupSymbol class." alt="" coords="5,79,200,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="276,37,139,81,138,76,275,32"/>
+<area shape="rect" id="Node000003" href="$_symbol_8cpp.html" title="Definitions for the Symbol class." alt="" coords="224,79,323,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="310,44,284,80,279,77,305,41"/>
+<area shape="rect" id="Node000004" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="347,79,402,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="343,41,369,77,364,80,338,44"/>
+<area shape="rect" id="Node000006" href="$omc__missing__documentation_8cpp.html" title="Function which emits warnings for missing model documentation." alt="" coords="427,79,667,104"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="373,32,511,76,510,81,372,37"/>
+<area shape="rect" id="Node000005" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="321,152,429,177"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="377,118,377,152,372,152,372,118"/>
 </map>

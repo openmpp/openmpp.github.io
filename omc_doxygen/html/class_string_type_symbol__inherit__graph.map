@@ -1,5 +1,7 @@
 <map id="StringTypeSymbol" name="StringTypeSymbol">
-<area shape="rect" id="node1" title="StringTypeSymbol." alt="" coords="5,155,144,181"/>
-<area shape="rect" id="node2" href="$class_type_symbol.html" title="TypeSymbol." alt="" coords="24,80,125,107"/>
-<area shape="rect" id="node3" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="39,5,110,32"/>
+<area shape="rect" id="Node000001" title="StringTypeSymbol." alt="" coords="5,152,144,177"/>
+<area shape="rect" id="Node000002" href="$class_type_symbol.html" title="TypeSymbol." alt="" coords="24,79,125,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="77,118,77,152,72,152,72,118"/>
+<area shape="rect" id="Node000003" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="39,5,110,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="77,44,77,79,72,79,72,44"/>
 </map>

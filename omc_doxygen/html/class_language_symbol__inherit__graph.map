@@ -1,4 +1,5 @@
 <map id="LanguageSymbol" name="LanguageSymbol">
-<area shape="rect" id="node1" title="Symbol for a supported human language in the model." alt="" coords="5,80,140,107"/>
-<area shape="rect" id="node2" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="37,5,108,32"/>
+<area shape="rect" id="Node000001" title="Symbol for a supported human language in the model." alt="" coords="5,79,140,104"/>
+<area shape="rect" id="Node000002" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="37,5,108,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="75,44,75,79,70,79,70,44"/>
 </map>

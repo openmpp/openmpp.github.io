@@ -1,7 +1,11 @@
 <map id="DependencyGroupSymbol.h" name="DependencyGroupSymbol.h">
-<area shape="rect" id="node1" title="Declarations for the DependencyGroupSymbol class." alt="" coords="196,5,399,32"/>
-<area shape="rect" id="node2" href="$_dependency_group_symbol_8cpp.html" title="Definitions for the DependencyGroupSymbol class." alt="" coords="5,80,224,107"/>
-<area shape="rect" id="node3" href="$_symbol_8cpp.html" title="Definitions for the Symbol class." alt="" coords="248,80,347,107"/>
-<area shape="rect" id="node4" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="371,80,426,107"/>
-<area shape="rect" id="node5" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="345,155,453,181"/>
+<area shape="rect" id="Node000001" title="Declarations for the DependencyGroupSymbol class." alt="" coords="196,5,399,31"/>
+<area shape="rect" id="Node000002" href="$_dependency_group_symbol_8cpp.html" title="Definitions for the DependencyGroupSymbol class." alt="" coords="5,79,224,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="256,38,146,81,144,76,254,33"/>
+<area shape="rect" id="Node000003" href="$_symbol_8cpp.html" title="Definitions for the Symbol class." alt="" coords="248,79,347,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="300,44,300,79,295,79,295,44"/>
+<area shape="rect" id="Node000004" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="371,79,426,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="326,36,384,76,381,81,323,41"/>
+<area shape="rect" id="Node000005" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="345,152,453,177"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="401,118,401,152,396,152,396,118"/>
 </map>

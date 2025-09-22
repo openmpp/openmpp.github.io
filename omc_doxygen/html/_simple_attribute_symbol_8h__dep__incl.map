@@ -1,9 +1,16 @@
 <map id="SimpleAttributeSymbol.h" name="SimpleAttributeSymbol.h">
-<area shape="rect" id="node1" title="Declarations for the SimpleAttributeSymbol class." alt="" coords="418,5,603,32"/>
-<area shape="rect" id="node2" href="$_entity_data_member_symbol_8cpp.html" title="Definitions for the EntityDataMemberSymbol class." alt="" coords="5,80,227,107"/>
-<area shape="rect" id="node3" href="$_simple_attribute_enum_symbol_8h.html" title="Declarations for the SimpleAttributeEnumSymbol class." alt="" coords="251,80,474,107"/>
-<area shape="rect" id="node4" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="409,155,463,181"/>
-<area shape="rect" id="node6" href="$_simple_attribute_symbol_8cpp.html" title="Definitions for the SimpleAttributeSymbol class." alt="" coords="548,80,748,107"/>
-<area shape="rect" id="node7" href="$omc__model__doc_8cpp.html" title="Function to create Model doc." alt="" coords="772,80,927,107"/>
-<area shape="rect" id="node5" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="382,229,490,256"/>
+<area shape="rect" id="Node000001" title="Declarations for the SimpleAttributeSymbol class." alt="" coords="418,5,603,31"/>
+<area shape="rect" id="Node000002" href="$_entity_data_member_symbol_8cpp.html" title="Definitions for the EntityDataMemberSymbol class." alt="" coords="5,79,227,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="434,36,180,81,179,76,433,30"/>
+<area shape="rect" id="Node000003" href="$_simple_attribute_enum_symbol_8h.html" title="Declarations for the SimpleAttributeEnumSymbol class." alt="" coords="251,79,474,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="476,39,388,81,386,76,474,34"/>
+<area shape="rect" id="Node000004" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="409,152,463,177"/>
+<area shape="poly" id="edge6_Node000001_Node000004" title=" " alt="" coords="509,45,502,75,489,105,470,132,451,154,447,150,466,129,484,103,496,73,504,44"/>
+<area shape="rect" id="Node000006" href="$_simple_attribute_symbol_8cpp.html" title="Definitions for the SimpleAttributeSymbol class." alt="" coords="548,79,748,104"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="546,34,627,76,624,81,543,39"/>
+<area shape="rect" id="Node000007" href="$omc__model__doc_8cpp.html" title="Function to create Model doc." alt="" coords="772,79,927,104"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="579,31,795,76,794,81,578,36"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="386,112,426,150,422,154,383,116"/>
+<area shape="rect" id="Node000005" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="382,225,490,251"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="439,191,439,225,433,225,433,191"/>
 </map>

@@ -1,8 +1,13 @@
 <map id="MultilinkAttributeSymbol.h" name="MultilinkAttributeSymbol.h">
-<area shape="rect" id="node1" title="Declarations for the MultilinkAttributeSymbol class." alt="" coords="388,5,585,32"/>
-<area shape="rect" id="node2" href="$_entity_data_member_symbol_8cpp.html" title="Definitions for the EntityDataMemberSymbol class." alt="" coords="5,80,227,107"/>
-<area shape="rect" id="node3" href="$_maintained_attribute_symbol_8cpp.html" title="Definitions for the MaintainedAttributeSymbol class." alt="" coords="251,80,479,107"/>
-<area shape="rect" id="node4" href="$_multilink_attribute_symbol_8cpp.html" title="Definitions for the MultilinkAttributeSymbol class." alt="" coords="503,80,715,107"/>
-<area shape="rect" id="node5" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="739,80,794,107"/>
-<area shape="rect" id="node6" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="713,155,821,181"/>
+<area shape="rect" id="Node000001" title="Declarations for the MultilinkAttributeSymbol class." alt="" coords="388,5,585,31"/>
+<area shape="rect" id="Node000002" href="$_entity_data_member_symbol_8cpp.html" title="Definitions for the EntityDataMemberSymbol class." alt="" coords="5,79,227,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="414,36,177,81,176,76,413,31"/>
+<area shape="rect" id="Node000003" href="$_maintained_attribute_symbol_8cpp.html" title="Definitions for the MaintainedAttributeSymbol class." alt="" coords="251,79,479,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="456,40,387,81,384,76,454,35"/>
+<area shape="rect" id="Node000004" href="$_multilink_attribute_symbol_8cpp.html" title="Definitions for the MultilinkAttributeSymbol class." alt="" coords="503,79,715,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="519,35,591,76,588,81,517,40"/>
+<area shape="rect" id="Node000005" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="739,79,794,104"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="550,31,729,76,740,79,739,84,727,81,548,36"/>
+<area shape="rect" id="Node000006" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="713,152,821,177"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="769,118,769,152,764,152,764,118"/>
 </map>

@@ -2,12 +2,12 @@ var searchData=
 [
   ['begin_0',['begin',['../classomc_1_1location.html#a744c08d497ada98fe42afcf3877ff154',1,'omc::location']]],
   ['big_5fcounter_5fctype_1',['big_counter_ctype',['../class_symbol.html#ab494bbd13f451baedad0cd2ec53e18c4',1,'Symbol']]],
-  ['body_5fidentifiers_2',['body_identifiers',['../class_global_func_symbol.html#aeee35cf3b8405c4535d5becc4334ef2b',1,'GlobalFuncSymbol::body_identifiers()'],['../class_entity_func_symbol.html#af19c54dd5bb4de19cb54ffdb340fb336',1,'EntityFuncSymbol::body_identifiers()']]],
+  ['body_5fidentifiers_2',['body_identifiers',['../class_global_func_symbol.html#aeee35cf3b8405c4535d5becc4334ef2b',1,'GlobalFuncSymbol::body_identifiers'],['../class_entity_func_symbol.html#af19c54dd5bb4de19cb54ffdb340fb336',1,'EntityFuncSymbol::body_identifiers']]],
   ['body_5fpointers_3',['body_pointers',['../class_entity_func_symbol.html#a6458363dacfa75ac3caaf9b7596544ba',1,'EntityFuncSymbol']]],
   ['booleanliteral_4',['BooleanLiteral',['../class_boolean_literal.html',1,'']]],
   ['boolenumeratorsymbol_5',['BoolEnumeratorSymbol',['../class_bool_enumerator_symbol.html',1,'']]],
   ['boolenumeratorsymbol_2eh_6',['BoolEnumeratorSymbol.h',['../_bool_enumerator_symbol_8h.html',1,'']]],
-  ['boolsymbol_7',['BoolSymbol',['../class_bool_symbol.html',1,'BoolSymbol'],['../class_bool_symbol.html#a3d48dcdcfbe83876163596d2b963a879',1,'BoolSymbol::BoolSymbol()']]],
+  ['boolsymbol_7',['boolsymbol',['../class_bool_symbol.html',1,'BoolSymbol'],['../class_bool_symbol.html#a3d48dcdcfbe83876163596d2b963a879',1,'BoolSymbol::BoolSymbol()']]],
   ['boolsymbol_2ecpp_8',['BoolSymbol.cpp',['../_bool_symbol_8cpp.html',1,'']]],
   ['boolsymbol_2eh_9',['BoolSymbol.h',['../_bool_symbol_8h.html',1,'']]],
   ['brace_5flevel_10',['brace_level',['../class_parse_context.html#ae5fa8ed8db9a690409b7288136bbef80',1,'ParseContext']]],
@@ -38,7 +38,7 @@ var searchData=
   ['build_5fname_5fcode_35',['build_NAME_code',['../class_symbol.html#a61354154ca13aff803396ce791c0edfd',1,'Symbol']]],
   ['builtin_5falingual_5flabel_36',['builtin_alingual_label',['../class_symbol.html#af45dc524cc09684b9e6f7f075305cefe',1,'Symbol']]],
   ['builtin_5fenglish_5flabel_37',['builtin_english_label',['../class_symbol.html#a94d61c351324571777c10c9fb45427da',1,'Symbol']]],
-  ['builtinattributesymbol_38',['BuiltinAttributeSymbol',['../class_builtin_attribute_symbol.html#a0c3c8f1abc72dc7e5dfe07b7f32434ba',1,'BuiltinAttributeSymbol::BuiltinAttributeSymbol(const string member_name, const Symbol *ent, const Symbol *type)'],['../class_builtin_attribute_symbol.html#a0f696d32457f510cbeb6c72b5fec3a3b',1,'BuiltinAttributeSymbol::BuiltinAttributeSymbol(Symbol *sym, const Symbol *ent, const Symbol *type)'],['../class_builtin_attribute_symbol.html',1,'BuiltinAttributeSymbol']]],
+  ['builtinattributesymbol_38',['builtinattributesymbol',['../class_builtin_attribute_symbol.html#a0c3c8f1abc72dc7e5dfe07b7f32434ba',1,'BuiltinAttributeSymbol::BuiltinAttributeSymbol(const string member_name, const Symbol *ent, const Symbol *type)'],['../class_builtin_attribute_symbol.html#a0f696d32457f510cbeb6c72b5fec3a3b',1,'BuiltinAttributeSymbol::BuiltinAttributeSymbol(Symbol *sym, const Symbol *ent, const Symbol *type)'],['../class_builtin_attribute_symbol.html',1,'BuiltinAttributeSymbol']]],
   ['builtinattributesymbol_2ecpp_39',['BuiltinAttributeSymbol.cpp',['../_builtin_attribute_symbol_8cpp.html',1,'']]],
   ['builtinattributesymbol_2eh_40',['BuiltinAttributeSymbol.h',['../_builtin_attribute_symbol_8h.html',1,'']]]
 ];

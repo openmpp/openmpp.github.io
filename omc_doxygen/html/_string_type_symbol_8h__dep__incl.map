@@ -1,8 +1,13 @@
 <map id="StringTypeSymbol.h" name="StringTypeSymbol.h">
-<area shape="rect" id="node1" title="Declarations for the StringTypeSymbol class." alt="" coords="239,5,389,32"/>
-<area shape="rect" id="node2" href="$_string_type_symbol_8cpp.html" title="Definitions for the StringTypeSymbol class." alt="" coords="5,80,172,107"/>
-<area shape="rect" id="node3" href="$_symbol_8cpp.html" title="Definitions for the Symbol class." alt="" coords="197,80,295,107"/>
-<area shape="rect" id="node4" href="$_type_symbol_8cpp.html" title="Definitions for the TypeSymbol class." alt="" coords="319,80,447,107"/>
-<area shape="rect" id="node5" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="472,80,527,107"/>
-<area shape="rect" id="node6" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="445,155,553,181"/>
+<area shape="rect" id="Node000001" title="Declarations for the StringTypeSymbol class." alt="" coords="239,5,389,31"/>
+<area shape="rect" id="Node000002" href="$_string_type_symbol_8cpp.html" title="Definitions for the StringTypeSymbol class." alt="" coords="5,79,172,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="266,37,126,81,124,76,264,32"/>
+<area shape="rect" id="Node000003" href="$_symbol_8cpp.html" title="Definitions for the Symbol class." alt="" coords="197,79,295,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="295,42,259,80,255,77,292,39"/>
+<area shape="rect" id="Node000004" href="$_type_symbol_8cpp.html" title="Definitions for the TypeSymbol class." alt="" coords="319,79,447,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="337,39,374,77,370,80,333,43"/>
+<area shape="rect" id="Node000005" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="472,79,527,104"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="358,33,472,77,470,82,356,38"/>
+<area shape="rect" id="Node000006" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="445,152,553,177"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="502,118,502,152,497,152,497,118"/>
 </map>

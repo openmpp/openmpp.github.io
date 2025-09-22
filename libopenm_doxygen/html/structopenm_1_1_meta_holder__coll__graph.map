@@ -1,6 +1,9 @@
 <map id="openm::MetaHolder" name="openm::MetaHolder">
-<area shape="rect" id="node1" title="Holder for model metadata core part (not include model text)." alt="" coords="38,261,189,288"/>
-<area shape="rect" id="node2" href="$structopenm_1_1_model_dic_row.html" title="model_dic table row." alt="" coords="31,172,195,199"/>
-<area shape="rect" id="node3" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="5,81,221,123"/>
-<area shape="rect" id="node4" href="$structopenm_1_1_i_row_base.html" title="db&#45;row abstract base" alt="" coords="44,5,183,32"/>
+<area shape="rect" id="Node000001" title="Holder for model metadata core part (not include model text)." alt="" coords="38,257,189,283"/>
+<area shape="rect" id="Node000002" href="$structopenm_1_1_model_dic_row.html" title="model_dic table row." alt="" coords="31,169,195,195"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,209,116,257,111,257,111,209"/>
+<area shape="rect" id="Node000003" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="5,80,221,120"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="116,134,116,169,111,169,111,134"/>
+<area shape="rect" id="Node000004" href="$structopenm_1_1_i_row_base.html" title="db&#45;row abstract base" alt="" coords="44,5,183,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="116,44,116,80,111,80,111,44"/>
 </map>

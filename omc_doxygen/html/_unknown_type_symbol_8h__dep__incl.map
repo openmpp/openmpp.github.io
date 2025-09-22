@@ -1,22 +1,53 @@
 <map id="UnknownTypeSymbol.h" name="UnknownTypeSymbol.h">
-<area shape="rect" id="node1" title="Declarations for the UnknownTypeSymbol class." alt="" coords="1331,5,1505,32"/>
-<area shape="rect" id="node2" href="$_derived_attribute_symbol_8h.html" title="Declarations for the DerivedAttributeSymbol class." alt="" coords="1163,80,1353,107"/>
-<area shape="rect" id="node4" href="$_entity_data_member_symbol_8cpp.html" title="Definitions for the EntityDataMemberSymbol class." alt="" coords="563,155,785,181"/>
-<area shape="rect" id="node7" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="1205,229,1260,256"/>
-<area shape="rect" id="node11" href="$_symbol_8cpp.html" title="Definitions for the Symbol class." alt="" coords="1499,155,1598,181"/>
-<area shape="rect" id="node13" href="$_entity_increment_symbol_8h.html" title="Declarations for the EntityIncrementSymbol class." alt="" coords="1455,80,1642,107"/>
-<area shape="rect" id="node16" href="$_identity_attribute_symbol_8cpp.html" title="Definitions for the IdentityAttributeSymbol class." alt="" coords="1666,80,1871,107"/>
-<area shape="rect" id="node17" href="$_multilink_attribute_symbol_8h.html" title="Declarations for the MultilinkAttributeSymbol class." alt="" coords="326,80,523,107"/>
-<area shape="rect" id="node19" href="$_type_symbol_8cpp.html" title="Definitions for the TypeSymbol class." alt="" coords="1895,80,2023,107"/>
-<area shape="rect" id="node20" href="$_unknown_type_symbol_8cpp.html" title="Definitions for the UnknownTypeSymbol class." alt="" coords="2047,80,2237,107"/>
-<area shape="rect" id="node3" href="$_derived_attribute_symbol_8cpp.html" title="Definitions for the DerivedAttributeSymbol class." alt="" coords="988,155,1195,181"/>
-<area shape="rect" id="node5" href="$_entity_hook_symbol_8cpp.html" title="Definitions for the EntityHookSymbol class." alt="" coords="1330,229,1501,256"/>
-<area shape="rect" id="node6" href="$_entity_hook_symbol_8h.html" title="Declarations for the EntityHookSymbol class." alt="" coords="1270,155,1425,181"/>
-<area shape="rect" id="node9" href="$_entity_symbol_8cpp.html" title="Implements the EntitySymbol derived class of the Symbol class." alt="" coords="1622,155,1758,181"/>
-<area shape="rect" id="node10" href="$_maintained_attribute_symbol_8cpp.html" title="Definitions for the MaintainedAttributeSymbol class." alt="" coords="311,155,539,181"/>
-<area shape="rect" id="node12" href="$omc__model__doc_8cpp.html" title="Function to create Model doc." alt="" coords="809,155,963,181"/>
-<area shape="rect" id="node8" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="1179,304,1287,331"/>
-<area shape="rect" id="node14" href="$_entity_increment_symbol_8cpp.html" title="Definitions for the EntityIncrementSymbol class." alt="" coords="2027,155,2230,181"/>
-<area shape="rect" id="node15" href="$_entity_table_symbol_8cpp.html" title="Definitions for the EntityTableSymbol class." alt="" coords="1833,155,2003,181"/>
-<area shape="rect" id="node18" href="$_multilink_attribute_symbol_8cpp.html" title="Definitions for the MultilinkAttributeSymbol class." alt="" coords="24,155,236,181"/>
+<area shape="rect" id="Node000001" title="Declarations for the UnknownTypeSymbol class." alt="" coords="1330,5,1505,31"/>
+<area shape="rect" id="Node000002" href="$_derived_attribute_symbol_8h.html" title="Declarations for the DerivedAttributeSymbol class." alt="" coords="1162,79,1353,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1381,39,1285,81,1283,76,1379,34"/>
+<area shape="rect" id="Node000004" href="$_entity_data_member_symbol_8cpp.html" title="Definitions for the EntityDataMemberSymbol class." alt="" coords="563,152,784,177"/>
+<area shape="poly" id="edge14_Node000001_Node000004" title=" " alt="" coords="1346,36,733,155,732,149,1345,31"/>
+<area shape="rect" id="Node000007" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="1205,225,1260,251"/>
+<area shape="poly" id="edge31_Node000001_Node000007" title=" " alt="" coords="1316,23,993,32,789,40,578,53,378,69,206,92,135,105,78,120,37,136,13,154,8,165,13,175,30,183,68,190,191,203,558,220,950,230,1205,234,1205,239,950,235,558,226,190,208,67,195,29,188,9,179,3,165,9,150,34,131,77,115,134,100,205,86,378,64,578,47,789,35,993,26,1316,18"/>
+<area shape="rect" id="Node000011" href="$_symbol_8cpp.html" title="Definitions for the Symbol class." alt="" coords="1499,152,1598,177"/>
+<area shape="poly" id="edge28_Node000001_Node000011" title=" " alt="" coords="1423,44,1430,74,1445,102,1460,118,1478,131,1516,150,1513,154,1475,135,1457,122,1441,106,1425,76,1418,45"/>
+<area shape="rect" id="Node000013" href="$_entity_increment_symbol_8h.html" title="Declarations for the EntityIncrementSymbol class." alt="" coords="1455,79,1642,104"/>
+<area shape="poly" id="edge15_Node000001_Node000013" title=" " alt="" coords="1452,35,1528,76,1526,81,1450,40"/>
+<area shape="rect" id="Node000016" href="$_identity_attribute_symbol_8cpp.html" title="Definitions for the IdentityAttributeSymbol class." alt="" coords="1666,79,1871,104"/>
+<area shape="poly" id="edge22_Node000001_Node000016" title=" " alt="" coords="1488,31,1712,76,1711,81,1487,36"/>
+<area shape="rect" id="Node000017" href="$_multilink_attribute_symbol_8h.html" title="Declarations for the MultilinkAttributeSymbol class." alt="" coords="326,79,523,104"/>
+<area shape="poly" id="edge23_Node000001_Node000017" title=" " alt="" coords="1317,29,523,86,523,80,1316,24"/>
+<area shape="rect" id="Node000019" href="$_type_symbol_8cpp.html" title="Definitions for the TypeSymbol class." alt="" coords="1895,79,2023,104"/>
+<area shape="poly" id="edge29_Node000001_Node000019" title=" " alt="" coords="1519,29,1883,76,1895,78,1894,83,1883,81,1518,34"/>
+<area shape="rect" id="Node000020" href="$_unknown_type_symbol_8cpp.html" title="Definitions for the UnknownTypeSymbol class." alt="" coords="2047,79,2236,104"/>
+<area shape="poly" id="edge30_Node000001_Node000020" title=" " alt="" coords="1519,26,2035,76,2047,77,2047,83,2035,81,1518,31"/>
+<area shape="rect" id="Node000003" href="$_derived_attribute_symbol_8cpp.html" title="Definitions for the DerivedAttributeSymbol class." alt="" coords="988,152,1194,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1219,112,1119,154,1117,149,1217,107"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="1151,108,768,155,767,149,1150,103"/>
+<area shape="rect" id="Node000005" href="$_entity_hook_symbol_8cpp.html" title="Definitions for the EntityHookSymbol class." alt="" coords="1330,225,1500,251"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="1367,103,1406,121,1424,134,1439,151,1445,170,1443,191,1426,226,1421,224,1438,190,1440,171,1434,153,1420,138,1404,126,1365,108"/>
+<area shape="rect" id="Node000006" href="$_entity_hook_symbol_8h.html" title="Declarations for the EntityHookSymbol class." alt="" coords="1270,152,1424,177"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="1284,110,1334,150,1331,154,1281,115"/>
+<area shape="poly" id="edge12_Node000002_Node000007" title=" " alt="" coords="1256,118,1237,226,1232,225,1251,117"/>
+<area shape="rect" id="Node000009" href="$_entity_symbol_8cpp.html" title="Implements the EntitySymbol derived class of the Symbol class." alt="" coords="1622,152,1758,177"/>
+<area shape="poly" id="edge9_Node000002_Node000009" title=" " alt="" coords="1341,104,1622,150,1621,155,1340,109"/>
+<area shape="rect" id="Node000010" href="$_maintained_attribute_symbol_8cpp.html" title="Definitions for the MaintainedAttributeSymbol class." alt="" coords="310,152,538,177"/>
+<area shape="poly" id="edge10_Node000002_Node000010" title=" " alt="" coords="1149,104,551,155,539,156,538,150,551,149,1148,99"/>
+<area shape="poly" id="edge11_Node000002_Node000011" title=" " alt="" coords="1318,105,1502,149,1501,154,1317,110"/>
+<area shape="rect" id="Node000012" href="$omc__model__doc_8cpp.html" title="Function to create Model doc." alt="" coords="808,152,963,177"/>
+<area shape="poly" id="edge13_Node000002_Node000012" title=" " alt="" coords="1185,109,946,155,945,149,1184,104"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="1369,185,1406,223,1402,227,1366,189"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="1318,187,1252,227,1250,223,1316,182"/>
+<area shape="rect" id="Node000008" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="1178,299,1286,324"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="1235,264,1235,299,1230,299,1230,264"/>
+<area shape="poly" id="edge16_Node000013_Node000004" title=" " alt="" coords="1441,103,797,155,785,156,784,150,796,149,1441,98"/>
+<area shape="poly" id="edge21_Node000013_Node000007" title=" " alt="" coords="1644,104,1721,123,1752,135,1772,150,1778,165,1772,179,1756,192,1736,203,1685,217,1624,225,1556,228,1421,226,1318,228,1260,235,1260,230,1317,223,1421,221,1556,222,1623,220,1684,212,1734,198,1753,188,1767,176,1772,165,1768,154,1749,140,1719,128,1643,109"/>
+<area shape="poly" id="edge18_Node000013_Node000009" title=" " alt="" coords="1584,108,1668,149,1665,154,1582,112"/>
+<area shape="poly" id="edge20_Node000013_Node000011" title=" " alt="" coords="1551,118,1551,152,1546,152,1546,118"/>
+<area shape="rect" id="Node000014" href="$_entity_increment_symbol_8cpp.html" title="Definitions for the EntityIncrementSymbol class." alt="" coords="2027,152,2230,177"/>
+<area shape="poly" id="edge17_Node000013_Node000014" title=" " alt="" coords="1655,103,2035,149,2035,155,1655,108"/>
+<area shape="rect" id="Node000015" href="$_entity_table_symbol_8cpp.html" title="Definitions for the EntityTableSymbol class." alt="" coords="1832,152,2003,177"/>
+<area shape="poly" id="edge19_Node000013_Node000015" title=" " alt="" coords="1622,104,1858,149,1857,155,1621,109"/>
+<area shape="poly" id="edge24_Node000017_Node000004" title=" " alt="" coords="478,105,634,149,633,154,477,110"/>
+<area shape="poly" id="edge27_Node000017_Node000007" title=" " alt="" coords="367,111,334,124,306,139,297,148,293,157,293,166,299,175,312,181,340,187,432,198,707,215,1205,233,1205,239,706,221,431,203,339,192,311,186,296,179,288,167,288,156,293,145,303,135,332,119,366,106"/>
+<area shape="poly" id="edge25_Node000017_Node000010" title=" " alt="" coords="427,118,427,152,422,152,422,118"/>
+<area shape="rect" id="Node000018" href="$_multilink_attribute_symbol_8cpp.html" title="Definitions for the MultilinkAttributeSymbol class." alt="" coords="24,152,236,177"/>
+<area shape="poly" id="edge26_Node000017_Node000018" title=" " alt="" coords="364,110,178,154,177,149,363,105"/>
 </map>

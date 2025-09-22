@@ -1,6 +1,9 @@
 <map id="openm::IMsgRecvPacked" name="openm::IMsgRecvPacked">
-<area shape="rect" id="node1" title="public interface to receive packed data" alt="" coords="113,80,295,107"/>
-<area shape="rect" id="node3" href="$classopenm_1_1_mpi_recv_packed.html" title="non&#45;blocking receive of packed data" alt="" coords="5,155,181,181"/>
-<area shape="rect" id="node4" href="$classopenm_1_1_msg_empty_recv_packed.html" title="non&#45;blocking receive of packed data (empty implementation)" alt="" coords="205,155,427,181"/>
-<area shape="rect" id="node2" href="$classopenm_1_1_i_msg_recv.html" title="public interface for message receiver" alt="" coords="135,5,273,32"/>
+<area shape="rect" id="Node000001" title="public interface to receive packed data" alt="" coords="113,79,295,104"/>
+<area shape="rect" id="Node000003" href="$classopenm_1_1_mpi_recv_packed.html" title="non&#45;blocking receive of packed data" alt="" coords="5,152,181,177"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="176,114,113,154,110,150,173,109"/>
+<area shape="rect" id="Node000004" href="$classopenm_1_1_msg_empty_recv_packed.html" title="non&#45;blocking receive of packed data (empty implementation)" alt="" coords="205,152,427,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="235,109,299,150,296,154,232,114"/>
+<area shape="rect" id="Node000002" href="$classopenm_1_1_i_msg_recv.html" title="public interface for message receiver" alt="" coords="135,5,273,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="207,44,207,79,201,79,201,44"/>
 </map>

@@ -1,4 +1,5 @@
 <map id="openm::IModelRunState" name="openm::IModelRunState">
-<area shape="rect" id="node1" title="model run state public interface: thread safe" alt="" coords="5,80,184,107"/>
-<area shape="rect" id="node2" href="$structopenm_1_1_i_final_state.html" title="final model run state public interface: thread safe" alt="" coords="23,5,167,32"/>
+<area shape="rect" id="Node000001" title="model run state public interface: thread safe" alt="" coords="5,79,184,104"/>
+<area shape="rect" id="Node000002" href="$structopenm_1_1_i_final_state.html" title="final model run state public interface: thread safe" alt="" coords="23,5,167,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,44,97,79,92,79,92,44"/>
 </map>

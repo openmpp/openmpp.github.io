@@ -1,11 +1,22 @@
 <map id="EnumeratorSymbol" name="EnumeratorSymbol">
-<area shape="rect" id="node1" title=" " alt="" coords="5,573,152,600"/>
-<area shape="rect" id="node2" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="97,228,167,255"/>
-<area shape="rect" id="node5" href="$class_module_symbol.html" title="Symbol for a source code module." alt="" coords="117,317,235,344"/>
-<area shape="rect" id="node9" href="$class_type_symbol.html" title="TypeSymbol." alt="" coords="260,317,361,344"/>
-<area shape="rect" id="node3" href="$classomc_1_1location.html" title="Two points in a source file." alt="" coords="10,109,121,136"/>
-<area shape="rect" id="node4" href="$classomc_1_1position.html" title="A point in a source file." alt="" coords="10,5,121,32"/>
-<area shape="rect" id="node6" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="145,109,255,136"/>
-<area shape="rect" id="node7" href="$class_enumeration_with_enumerators_symbol.html" title="EnumerationWithEnumeratorsSymbol." alt="" coords="137,469,356,511"/>
-<area shape="rect" id="node8" href="$class_enumeration_symbol.html" title="EnumerationSymbol." alt="" coords="212,393,367,420"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,565,152,591"/>
+<area shape="rect" id="Node000002" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="97,225,167,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,257,61,268,41,283,26,302,20,325,20,484,25,508,36,530,66,563,62,567,32,533,20,510,15,484,15,324,21,299,37,279,59,263,83,252"/>
+<area shape="poly" id="edge7_Node000001_Node000002" title=" " alt="" coords="111,263,91,291,84,307,81,325,81,484,81,565,76,565,76,484,76,324,79,306,86,288,107,259"/>
+<area shape="rect" id="Node000005" href="$class_module_symbol.html" title="Symbol for a source code module." alt="" coords="117,313,235,339"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="142,263,153,288,168,311,164,314,148,291,137,265"/>
+<area shape="rect" id="Node000009" href="$class_type_symbol.html" title="TypeSymbol." alt="" coords="260,313,361,339"/>
+<area shape="poly" id="edge11_Node000009_Node000002" title=" " alt="" coords="182,250,240,272,272,292,298,311,295,315,269,296,237,277,180,255"/>
+<area shape="rect" id="Node000003" href="$classomc_1_1location.html" title="Two points in a source file." alt="" coords="10,108,121,133"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="78,145,106,200,124,223,119,226,102,203,73,148"/>
+<area shape="rect" id="Node000004" href="$classomc_1_1position.html" title="A point in a source file." alt="" coords="10,5,121,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="68,45,68,108,63,108,63,45"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="161,302,136,252,140,250,166,300"/>
+<area shape="rect" id="Node000006" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="145,108,255,133"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="197,148,187,175,173,203,150,227,146,223,168,200,182,173,192,146"/>
+<area shape="rect" id="Node000007" href="$class_enumeration_with_enumerators_symbol.html" title="EnumerationWithEnumeratorsSymbol." alt="" coords="137,463,356,503"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="202,512,101,568,98,563,200,507"/>
+<area shape="rect" id="Node000008" href="$class_enumeration_symbol.html" title="EnumerationSymbol." alt="" coords="212,388,367,413"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="279,427,259,464,254,461,274,424"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="306,353,295,388,290,387,301,351"/>
 </map>

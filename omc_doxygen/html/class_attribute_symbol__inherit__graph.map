@@ -1,14 +1,25 @@
 <map id="AttributeSymbol" name="AttributeSymbol">
-<area shape="rect" id="node1" title=" " alt="" coords="577,81,705,108"/>
-<area shape="rect" id="node5" href="$class_builtin_attribute_symbol.html" title="BuiltinAttributeSymbol." alt="" coords="769,5,939,32"/>
-<area shape="rect" id="node6" href="$class_link_attribute_symbol.html" title="Symbol for a link member of an entity." alt="" coords="777,56,931,83"/>
-<area shape="rect" id="node7" href="$class_maintained_attribute_symbol.html" title="MaintainedAttributeSymbol." alt="" coords="753,107,955,133"/>
-<area shape="rect" id="node11" href="$class_simple_attribute_symbol.html" title="SimpleAttributeSymbol." alt="" coords="767,183,941,209"/>
-<area shape="rect" id="node2" href="$class_entity_data_member_symbol.html" title=" " alt="" coords="335,81,529,108"/>
-<area shape="rect" id="node3" href="$class_entity_member_symbol.html" title=" " alt="" coords="124,81,287,108"/>
-<area shape="rect" id="node4" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="5,81,76,108"/>
-<area shape="rect" id="node8" href="$class_derived_attribute_symbol.html" title="DerivedAttributeSymbol." alt="" coords="1019,31,1197,57"/>
-<area shape="rect" id="node9" href="$class_identity_attribute_symbol.html" title="IdentityAttributeSymbol." alt="" coords="1019,81,1197,108"/>
-<area shape="rect" id="node10" href="$class_multilink_attribute_symbol.html" title="MultilinkAttributeSymbol." alt="" coords="1015,132,1201,159"/>
-<area shape="rect" id="node12" href="$class_simple_attribute_enum_symbol.html" title="SimpleAttributeEnumSymbol." alt="" coords="1003,183,1213,209"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="577,80,705,105"/>
+<area shape="rect" id="Node000005" href="$class_builtin_attribute_symbol.html" title="BuiltinAttributeSymbol." alt="" coords="769,5,939,31"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="678,71,752,39,791,28,792,33,754,45,681,76"/>
+<area shape="rect" id="Node000006" href="$class_link_attribute_symbol.html" title="Symbol for a link member of an entity." alt="" coords="777,55,931,80"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="719,81,776,74,777,79,719,86"/>
+<area shape="rect" id="Node000007" href="$class_maintained_attribute_symbol.html" title="MaintainedAttributeSymbol." alt="" coords="753,104,955,129"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="719,99,753,103,753,108,719,104"/>
+<area shape="rect" id="Node000011" href="$class_simple_attribute_symbol.html" title="SimpleAttributeSymbol." alt="" coords="767,177,941,203"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="683,109,826,175,824,180,681,113"/>
+<area shape="rect" id="Node000002" href="$class_entity_data_member_symbol.html" title=" " alt="" coords="335,80,529,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="543,90,577,90,577,95,543,95"/>
+<area shape="rect" id="Node000003" href="$class_entity_member_symbol.html" title=" " alt="" coords="124,80,287,105"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="300,90,335,90,335,95,300,95"/>
+<area shape="rect" id="Node000004" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="5,80,76,105"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="90,90,124,90,124,95,90,95"/>
+<area shape="rect" id="Node000008" href="$class_derived_attribute_symbol.html" title="DerivedAttributeSymbol." alt="" coords="1019,29,1197,55"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="927,98,954,89,977,76,1002,64,1039,52,1041,57,1004,68,980,81,956,94,929,103"/>
+<area shape="rect" id="Node000009" href="$class_identity_attribute_symbol.html" title="IdentityAttributeSymbol." alt="" coords="1019,79,1197,104"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="968,103,1018,98,1019,103,968,108"/>
+<area shape="rect" id="Node000010" href="$class_multilink_attribute_symbol.html" title="MultilinkAttributeSymbol." alt="" coords="1015,128,1201,153"/>
+<area shape="poly" id="edge9_Node000007_Node000010" title=" " alt="" coords="969,125,1015,129,1015,135,968,130"/>
+<area shape="rect" id="Node000012" href="$class_simple_attribute_enum_symbol.html" title="SimpleAttributeEnumSymbol." alt="" coords="1003,177,1213,203"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="954,187,1002,187,1002,193,954,193"/>
 </map>

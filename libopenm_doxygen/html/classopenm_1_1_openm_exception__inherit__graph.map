@@ -1,5 +1,7 @@
 <map id="openm::OpenmException&lt; maxMsgSize, defaultMessage &gt;" name="openm::OpenmException&lt; maxMsgSize, defaultMessage &gt;">
-<area shape="rect" id="node1" title="openM++ exceptions" alt="" coords="17,80,264,121"/>
-<area shape="rect" id="node3" href="$classopenm_1_1_mpi_exception.html" title="messaging library MPI exception" alt="" coords="5,169,276,211"/>
-<area shape="rect" id="node2" title=" " alt="" coords="83,5,198,32"/>
+<area shape="rect" id="Node000001" title="openM++ exceptions" alt="" coords="17,79,264,119"/>
+<area shape="rect" id="Node000003" href="$classopenm_1_1_mpi_exception.html" title="messaging library MPI exception" alt="" coords="5,167,276,207"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="143,133,143,166,138,166,138,133"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="83,5,198,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="143,44,143,79,138,79,138,44"/>
 </map>

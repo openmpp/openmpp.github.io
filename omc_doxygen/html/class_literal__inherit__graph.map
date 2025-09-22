@@ -1,10 +1,17 @@
 <map id="Literal" name="Literal">
-<area shape="rect" id="node1" title="Literal encapsulates a C++ literal or an openM++ literal." alt="" coords="5,157,68,184"/>
-<area shape="rect" id="node2" href="$class_boolean_literal.html" title="A C++ boolean literal." alt="" coords="133,5,249,32"/>
-<area shape="rect" id="node3" href="$class_character_literal.html" title="A C++ character literal." alt="" coords="127,56,254,83"/>
-<area shape="rect" id="node4" href="$class_floating_point_literal.html" title="A C++ floating point literal." alt="" coords="116,107,265,133"/>
-<area shape="rect" id="node5" href="$class_integer_literal.html" title="A C++ integer literal." alt="" coords="136,157,245,184"/>
-<area shape="rect" id="node6" href="$class_pointer_literal.html" title="A C++ pointer literal." alt="" coords="136,208,245,235"/>
-<area shape="rect" id="node7" href="$class_string_literal.html" title="A C++ string literal." alt="" coords="140,259,241,285"/>
-<area shape="rect" id="node8" href="$class_time_literal.html" title="An openM++ time literal." alt="" coords="143,309,239,336"/>
+<area shape="rect" id="Node000001" title="Literal encapsulates a C++ literal or an openM++ literal." alt="" coords="5,153,68,179"/>
+<area shape="rect" id="Node000002" href="$class_boolean_literal.html" title="A C++ boolean literal." alt="" coords="133,5,249,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="45,139,72,89,91,63,114,40,134,28,137,33,118,44,95,66,76,92,50,142"/>
+<area shape="rect" id="Node000003" href="$class_character_literal.html" title="A C++ character literal." alt="" coords="127,55,254,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="55,141,82,114,115,89,139,78,141,82,117,94,85,118,59,145"/>
+<area shape="rect" id="Node000004" href="$class_floating_point_literal.html" title="A C++ floating point literal." alt="" coords="116,104,265,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="80,149,149,127,151,132,82,154"/>
+<area shape="rect" id="Node000005" href="$class_integer_literal.html" title="A C++ integer literal." alt="" coords="136,153,245,179"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="82,163,136,163,136,169,82,169"/>
+<area shape="rect" id="Node000006" href="$class_pointer_literal.html" title="A C++ pointer literal." alt="" coords="136,203,245,228"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="82,178,151,200,149,205,80,183"/>
+<area shape="rect" id="Node000007" href="$class_string_literal.html" title="A C++ string literal." alt="" coords="140,252,241,277"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="60,187,86,213,117,237,144,250,142,254,115,242,82,217,56,191"/>
+<area shape="rect" id="Node000008" href="$class_time_literal.html" title="An openM++ time literal." alt="" coords="143,301,239,327"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="50,190,76,239,95,265,118,287,144,301,141,305,114,291,91,268,72,242,46,192"/>
 </map>

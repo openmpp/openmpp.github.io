@@ -1,13 +1,28 @@
 <map id="ConstantSymbol" name="ConstantSymbol">
-<area shape="rect" id="node1" title="ConstantSymbol &#45; Refers to either a Literal or an EnumeratorSymbol." alt="" coords="49,676,178,703"/>
-<area shape="rect" id="node2" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="118,228,189,255"/>
-<area shape="rect" id="node5" href="$class_module_symbol.html" title="Symbol for a source code module." alt="" coords="94,317,213,344"/>
-<area shape="rect" id="node7" href="$class_enumerator_symbol.html" title=" " alt="" coords="172,587,319,613"/>
-<area shape="rect" id="node10" href="$class_type_symbol.html" title="TypeSymbol." alt="" coords="395,317,496,344"/>
-<area shape="rect" id="node3" href="$classomc_1_1location.html" title="Two points in a source file." alt="" coords="31,109,142,136"/>
-<area shape="rect" id="node4" href="$classomc_1_1position.html" title="A point in a source file." alt="" coords="31,5,142,32"/>
-<area shape="rect" id="node6" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="166,109,277,136"/>
-<area shape="rect" id="node8" href="$class_enumeration_with_enumerators_symbol.html" title="EnumerationWithEnumeratorsSymbol." alt="" coords="365,483,584,524"/>
-<area shape="rect" id="node9" href="$class_enumeration_symbol.html" title="EnumerationSymbol." alt="" coords="419,393,573,420"/>
-<area shape="rect" id="node11" href="$class_literal.html" title="Literal encapsulates a C++ literal or an openM++ literal." alt="" coords="343,587,406,613"/>
+<area shape="rect" id="Node000001" title="ConstantSymbol &#45; Refers to either a Literal or an EnumeratorSymbol." alt="" coords="49,667,178,692"/>
+<area shape="rect" id="Node000002" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="118,225,189,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,249,72,259,40,274,17,296,10,309,8,325,8,592,15,617,32,637,55,653,79,664,77,669,52,657,28,641,10,620,3,593,3,324,5,308,13,293,37,270,70,254,104,244"/>
+<area shape="poly" id="edge7_Node000001_Node000002" title=" " alt="" coords="113,259,93,271,76,286,63,304,59,325,59,592,63,614,73,634,101,665,97,668,69,637,58,616,53,593,53,324,59,302,72,282,90,267,110,254"/>
+<area shape="rect" id="Node000005" href="$class_module_symbol.html" title="Symbol for a source code module." alt="" coords="94,313,213,339"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="152,265,151,275,154,313,148,313,145,275,146,264"/>
+<area shape="rect" id="Node000007" href="$class_enumerator_symbol.html" title=" " alt="" coords="172,579,319,604"/>
+<area shape="poly" id="edge9_Node000007_Node000002" title=" " alt="" coords="203,249,220,259,234,273,255,313,267,357,273,403,273,447,264,527,251,579,246,578,258,526,268,447,268,403,262,358,250,315,230,276,217,263,200,254"/>
+<area shape="poly" id="edge10_Node000007_Node000002" title=" " alt="" coords="203,243,238,253,273,268,299,292,307,307,309,324,309,498,304,523,292,546,262,580,258,577,288,543,299,521,304,497,304,325,301,309,295,295,270,273,237,258,202,248"/>
+<area shape="rect" id="Node000010" href="$class_type_symbol.html" title="TypeSymbol." alt="" coords="395,313,496,339"/>
+<area shape="poly" id="edge14_Node000010_Node000002" title=" " alt="" coords="203,244,262,256,326,272,379,291,423,311,421,316,377,296,325,277,261,261,202,249"/>
+<area shape="rect" id="Node000003" href="$classomc_1_1location.html" title="Two points in a source file." alt="" coords="31,108,142,133"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="99,145,128,200,145,223,141,226,123,203,94,148"/>
+<area shape="rect" id="Node000004" href="$classomc_1_1position.html" title="A point in a source file." alt="" coords="31,5,142,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="89,45,89,108,84,108,84,45"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="151,299,151,251,156,251,156,299"/>
+<area shape="rect" id="Node000006" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="166,108,277,133"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="218,148,209,175,194,203,171,227,167,223,190,200,204,173,213,146"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="218,614,133,669,130,664,215,609"/>
+<area shape="rect" id="Node000008" href="$class_enumeration_with_enumerators_symbol.html" title="EnumerationWithEnumeratorsSymbol." alt="" coords="365,476,584,516"/>
+<area shape="poly" id="edge11_Node000007_Node000008" title=" " alt="" coords="417,524,275,581,273,576,415,519"/>
+<area shape="rect" id="Node000009" href="$class_enumeration_symbol.html" title="EnumerationSymbol." alt="" coords="419,388,573,413"/>
+<area shape="poly" id="edge12_Node000008_Node000009" title=" " alt="" coords="493,427,482,476,476,475,488,426"/>
+<area shape="poly" id="edge13_Node000009_Node000010" title=" " alt="" coords="464,349,490,386,486,389,459,352"/>
+<area shape="rect" id="Node000011" href="$class_literal.html" title="Literal encapsulates a C++ literal or an openM++ literal." alt="" coords="343,579,406,604"/>
+<area shape="poly" id="edge15_Node000001_Node000011" title=" " alt="" coords="351,614,326,631,297,645,237,663,179,674,178,669,236,658,295,640,323,626,348,610"/>
 </map>

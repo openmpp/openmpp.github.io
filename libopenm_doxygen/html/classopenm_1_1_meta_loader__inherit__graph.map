@@ -1,8 +1,13 @@
 <map id="openm::MetaLoader" name="openm::MetaLoader">
-<area shape="rect" id="node1" title="model metadata loader: read and broadcast metadata and run options." alt="" coords="5,81,157,108"/>
-<area shape="rect" id="node2" href="$classopenm_1_1_run_controller.html" title="run controller: create new model run(s) and support data exchange." alt="" coords="205,81,369,108"/>
-<area shape="rect" id="node3" href="$classopenm_1_1_child_controller.html" title="controller for child process: receive input parameters from root and send output tables." alt="" coords="425,5,597,32"/>
-<area shape="rect" id="node4" href="$classopenm_1_1_restart_controller.html" title="controller for &quot;restart run&quot;: calculate outstanding sub&#45;values for existing run" alt="" coords="417,56,604,83"/>
-<area shape="rect" id="node5" href="$classopenm_1_1_root_controller.html" title="controller for root process: create new model run(s), send input parameters to children and receieve ..." alt="" coords="426,107,595,133"/>
-<area shape="rect" id="node6" href="$classopenm_1_1_single_controller.html" title="controller for single process: create new model run(s), read input parameters and write output tables..." alt="" coords="421,157,600,184"/>
+<area shape="rect" id="Node000001" title="model metadata loader: read and broadcast metadata and run options." alt="" coords="5,80,157,105"/>
+<area shape="rect" id="Node000002" href="$classopenm_1_1_run_controller.html" title="run controller: create new model run(s) and support data exchange." alt="" coords="205,80,369,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="171,90,205,90,205,95,171,95"/>
+<area shape="rect" id="Node000003" href="$classopenm_1_1_child_controller.html" title="controller for child process: receive input parameters from root and send output tables." alt="" coords="425,5,597,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="329,72,416,39,455,28,457,33,418,45,331,77"/>
+<area shape="rect" id="Node000004" href="$classopenm_1_1_restart_controller.html" title="controller for &quot;restart run&quot;: calculate outstanding sub&#45;values for existing run" alt="" coords="417,55,604,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="383,79,417,75,418,81,384,84"/>
+<area shape="rect" id="Node000005" href="$classopenm_1_1_root_controller.html" title="controller for root process: create new model run(s), send input parameters to children and receieve ..." alt="" coords="426,104,595,129"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="383,100,426,105,426,110,383,106"/>
+<area shape="rect" id="Node000006" href="$classopenm_1_1_single_controller.html" title="controller for single process: create new model run(s), read input parameters and write output tables..." alt="" coords="421,153,600,179"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="334,108,418,138,461,151,459,156,417,143,332,113"/>
 </map>

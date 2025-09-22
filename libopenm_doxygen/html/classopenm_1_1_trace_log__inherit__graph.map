@@ -1,6 +1,10 @@
 <map id="openm::TraceLog" name="openm::TraceLog">
-<area shape="rect" id="node1" title="trace log implementation class: model event log to console and into log files." alt="" coords="78,155,210,181"/>
-<area shape="rect" id="node2" href="$classopenm_1_1_log_base.html" title="Log base class: log to console and into log files." alt="" coords="5,80,136,107"/>
-<area shape="rect" id="node3" href="$structopenm_1_1_i_log_base.html" title="base for log public interface" alt="" coords="77,5,211,32"/>
-<area shape="rect" id="node4" href="$structopenm_1_1_i_trace.html" title="trace log public interface: model event log to console and into log files" alt="" coords="161,80,274,107"/>
+<area shape="rect" id="Node000001" title="trace log implementation class: model event log to console and into log files." alt="" coords="78,152,210,177"/>
+<area shape="rect" id="Node000002" href="$classopenm_1_1_log_base.html" title="Log base class: log to console and into log files." alt="" coords="5,79,136,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,112,134,150,130,154,91,116"/>
+<area shape="rect" id="Node000003" href="$structopenm_1_1_i_log_base.html" title="base for log public interface" alt="" coords="77,5,211,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="124,42,84,80,81,77,120,38"/>
+<area shape="rect" id="Node000004" href="$structopenm_1_1_i_trace.html" title="trace log public interface: model event log to console and into log files" alt="" coords="161,79,274,104"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="168,38,207,77,204,80,164,42"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="197,116,158,154,154,150,194,112"/>
 </map>

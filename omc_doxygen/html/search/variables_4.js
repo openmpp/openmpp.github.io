@@ -2,13 +2,13 @@ var searchData=
 [
   ['eligible_5ffor_5fextrema_5fcollections_0',['eligible_for_extrema_collections',['../class_entity_table_accumulator_symbol.html#ab45cb60cd5335ec8d1b1289d736c1d01',1,'EntityTableAccumulatorSymbol']]],
   ['end_1',['end',['../classomc_1_1location.html#a896a553499448687055b6cc0ffb23d06',1,'omc::location']]],
-  ['entity_2',['entity',['../class_attribute_group_symbol.html#ab24103280b063eb11dff9c23158cd913',1,'AttributeGroupSymbol::entity()'],['../class_entity_hook_symbol.html#aa41d3e520b9d95c5fe2092e0b1f5fcc1',1,'EntityHookSymbol::entity()'],['../class_entity_member_symbol.html#a578aeed32d58460d0e45db2e9fc5a87a',1,'EntityMemberSymbol::entity()'],['../class_entity_set_symbol.html#ad6c04a3df8f3ed9cf24d42a5b50785a2',1,'EntitySetSymbol::entity()'],['../class_entity_table_symbol.html#af52f3209f9d852f57c96f4dddd79dbb6',1,'EntityTableSymbol::entity()']]],
+  ['entity_2',['entity',['../class_attribute_group_symbol.html#ab24103280b063eb11dff9c23158cd913',1,'AttributeGroupSymbol::entity'],['../class_entity_hook_symbol.html#aa41d3e520b9d95c5fe2092e0b1f5fcc1',1,'EntityHookSymbol::entity'],['../class_entity_member_symbol.html#a578aeed32d58460d0e45db2e9fc5a87a',1,'EntityMemberSymbol::entity'],['../class_entity_set_symbol.html#ad6c04a3df8f3ed9cf24d42a5b50785a2',1,'EntitySetSymbol::entity'],['../class_entity_table_symbol.html#af52f3209f9d852f57c96f4dddd79dbb6',1,'EntityTableSymbol::entity']]],
   ['entity_5fcontext_3',['entity_context',['../class_link_to_attribute_symbol.html#a3593cbadb26773cdeb1260a0350da072',1,'LinkToAttributeSymbol']]],
-  ['enumeration_4',['enumeration',['../class_dimension_symbol.html#a936bf8ceba1c3a7f5c8ba7ebef541baf',1,'DimensionSymbol::enumeration()'],['../class_enumerator_symbol.html#a07ff46a2358ce1c1a5c5f54256ffb78c',1,'EnumeratorSymbol::enumeration()']]],
+  ['enumeration_4',['enumeration',['../class_dimension_symbol.html#a936bf8ceba1c3a7f5c8ba7ebef541baf',1,'DimensionSymbol::enumeration'],['../class_enumerator_symbol.html#a07ff46a2358ce1c1a5c5f54256ffb78c',1,'EnumeratorSymbol::enumeration']]],
   ['enumeration_5flist_5',['enumeration_list',['../class_parameter_symbol.html#a3747893b7860fd141f4588092eeaf29d',1,'ParameterSymbol']]],
   ['enumeration_5flist2_6',['enumeration_list2',['../class_parameter_symbol.html#adb3eb7a24518ef0aac75987150a27af3',1,'ParameterSymbol']]],
-  ['enumerator_7',['enumerator',['../class_simple_attribute_enum_symbol.html#a6f5085469704e949e449aa5b2c8ee3f4',1,'SimpleAttributeEnumSymbol::enumerator()'],['../class_constant_symbol.html#a9c1490b4ff97685556cd7a62f8ddd9da',1,'ConstantSymbol::enumerator()'],['../class_constant.html#a67a4db6fadc0e25a284b7b789a7c208a',1,'Constant::enumerator()']]],
-  ['erase_5ffn_8',['erase_fn',['../class_entity_multilink_symbol.html#a9e3cceb1e9282d1ad5324f7fd51144ea',1,'EntityMultilinkSymbol::erase_fn()'],['../class_entity_set_symbol.html#a92101b28ce121c2c343a92e632513543',1,'EntitySetSymbol::erase_fn()']]],
+  ['enumerator_7',['enumerator',['../class_simple_attribute_enum_symbol.html#a6f5085469704e949e449aa5b2c8ee3f4',1,'SimpleAttributeEnumSymbol::enumerator'],['../class_constant_symbol.html#a9c1490b4ff97685556cd7a62f8ddd9da',1,'ConstantSymbol::enumerator'],['../class_constant.html#a67a4db6fadc0e25a284b7b789a7c208a',1,'Constant::enumerator']]],
+  ['erase_5ffn_8',['erase_fn',['../class_entity_multilink_symbol.html#a9e3cceb1e9282d1ad5324f7fd51144ea',1,'EntityMultilinkSymbol::erase_fn'],['../class_entity_set_symbol.html#a92101b28ce121c2c343a92e632513543',1,'EntitySetSymbol::erase_fn']]],
   ['evaluate_5ffn_9',['evaluate_fn',['../class_multilink_attribute_symbol.html#ab09c33aecda1676432af2ac0ecf517be',1,'MultilinkAttributeSymbol']]],
   ['event_5fmemory_10',['event_memory',['../class_entity_event_symbol.html#ac7f8cb748fa1ec9ed62aa915f4487a31',1,'EntityEventSymbol']]],
   ['event_5fname_11',['event_name',['../class_entity_event_symbol.html#a5a0e0a1038f5acb1bdb165239e54013a',1,'EntityEventSymbol']]],
@@ -17,7 +17,7 @@ var searchData=
   ['explicit_5flabels_14',['explicit_labels',['../class_symbol.html#aa547cf2ae45449c8ffae153bb9ebaa69',1,'Symbol']]],
   ['explicit_5fnames_15',['explicit_names',['../class_symbol.html#a43b2031c57331acaaf5fc069efb3b77f',1,'Symbol']]],
   ['expression_5ffn_16',['expression_fn',['../class_identity_attribute_symbol.html#a74cac5958ab04051d74fba6cdf0d9386',1,'IdentityAttributeSymbol']]],
-  ['external_5fname_17',['external_name',['../class_model_symbol.html#a5586f57ce0e467d7f7dcb890bb560a6d',1,'ModelSymbol::external_name()'],['../class_scenario_symbol.html#a7049a92c40c4af9c4c230aa55c1c8424',1,'ScenarioSymbol::external_name()']]],
+  ['external_5fname_17',['external_name',['../class_model_symbol.html#a5586f57ce0e467d7f7dcb890bb560a6d',1,'ModelSymbol::external_name'],['../class_scenario_symbol.html#a7049a92c40c4af9c4c230aa55c1c8424',1,'ScenarioSymbol::external_name']]],
   ['extra_5findex_18',['extra_index',['../class_entity_table_accumulator_symbol.html#a824cfc8d846a9de7b61af87d54faa30d',1,'EntityTableAccumulatorSymbol']]],
   ['extrema_5fcollections_5findex_19',['extrema_collections_index',['../class_entity_table_accumulator_symbol.html#aa305a1ab17b93c33557c39b67e7a6d33',1,'EntityTableAccumulatorSymbol']]]
 ];

@@ -1,12 +1,21 @@
 <map id="ModuleSymbol.h" name="ModuleSymbol.h">
-<area shape="rect" id="node1" title="Declarations for the ModuleSymbol class." alt="" coords="632,5,763,32"/>
-<area shape="rect" id="node2" href="$_attribute_group_symbol_8cpp.html" title="Definitions for the AttributeGroupSymbol class." alt="" coords="5,80,200,107"/>
-<area shape="rect" id="node3" href="$_driver_8cpp.html" title="Implements the driver class." alt="" coords="224,80,312,107"/>
-<area shape="rect" id="node4" href="$_module_symbol_8cpp.html" title="Definitions for the ModuleSymbol class." alt="" coords="336,80,483,107"/>
-<area shape="rect" id="node5" href="$_parameter_group_symbol_8cpp.html" title="Definitions for the ParameterGroupSymbol class." alt="" coords="507,80,711,107"/>
-<area shape="rect" id="node6" href="$_symbol_8cpp.html" title="Definitions for the Symbol class." alt="" coords="736,80,835,107"/>
-<area shape="rect" id="node7" href="$_table_group_symbol_8cpp.html" title="Definitions for the TableGroupSymbol class." alt="" coords="859,80,1029,107"/>
-<area shape="rect" id="node8" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="1054,80,1109,107"/>
-<area shape="rect" id="node10" href="$omc__model__doc_8cpp.html" title="Function to create Model doc." alt="" coords="1133,80,1288,107"/>
-<area shape="rect" id="node9" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="1027,155,1135,181"/>
+<area shape="rect" id="Node000001" title="Declarations for the ModuleSymbol class." alt="" coords="632,5,763,31"/>
+<area shape="rect" id="Node000002" href="$_attribute_group_symbol_8cpp.html" title="Definitions for the AttributeGroupSymbol class." alt="" coords="5,79,200,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="619,31,199,81,198,76,618,26"/>
+<area shape="rect" id="Node000003" href="$_driver_8cpp.html" title="Implements the driver class." alt="" coords="224,79,312,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="619,34,324,81,313,83,312,78,324,76,618,28"/>
+<area shape="rect" id="Node000004" href="$_module_symbol_8cpp.html" title="Definitions for the ModuleSymbol class." alt="" coords="336,79,483,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="639,37,457,81,455,76,637,31"/>
+<area shape="rect" id="Node000005" href="$_parameter_group_symbol_8cpp.html" title="Definitions for the ParameterGroupSymbol class." alt="" coords="507,79,711,104"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="674,41,625,81,622,76,671,37"/>
+<area shape="rect" id="Node000006" href="$_symbol_8cpp.html" title="Definitions for the Symbol class." alt="" coords="736,79,835,104"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="724,37,773,76,769,81,720,41"/>
+<area shape="rect" id="Node000007" href="$_table_group_symbol_8cpp.html" title="Definitions for the TableGroupSymbol class." alt="" coords="859,79,1029,104"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="751,32,905,76,903,81,749,37"/>
+<area shape="rect" id="Node000008" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="1054,79,1109,104"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="777,28,902,48,1042,76,1055,79,1053,84,1041,81,901,54,776,33"/>
+<area shape="rect" id="Node000010" href="$omc__model__doc_8cpp.html" title="Function to create Model doc." alt="" coords="1133,79,1288,104"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="776,28,1133,77,1133,82,776,33"/>
+<area shape="rect" id="Node000009" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="1027,152,1135,177"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="1084,118,1084,152,1079,152,1079,118"/>
 </map>

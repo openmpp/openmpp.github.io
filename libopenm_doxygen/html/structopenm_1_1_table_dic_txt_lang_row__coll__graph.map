@@ -1,6 +1,9 @@
 <map id="openm::TableDicTxtLangRow" name="openm::TableDicTxtLangRow">
-<area shape="rect" id="node1" title="table_dic_txt table row and language code." alt="" coords="5,244,216,271"/>
-<area shape="rect" id="node2" href="$structopenm_1_1_table_dic_txt_row.html" title="table_dic_txt table row." alt="" coords="21,169,200,196"/>
-<area shape="rect" id="node3" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="5,80,216,121"/>
-<area shape="rect" id="node4" href="$structopenm_1_1_i_row_base.html" title="db&#45;row abstract base" alt="" coords="41,5,180,32"/>
+<area shape="rect" id="Node000001" title="table_dic_txt table row and language code." alt="" coords="5,240,216,265"/>
+<area shape="rect" id="Node000002" href="$structopenm_1_1_table_dic_txt_row.html" title="table_dic_txt table row." alt="" coords="21,167,200,192"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,206,113,240,108,240,108,206"/>
+<area shape="rect" id="Node000003" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="5,79,216,119"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="113,132,113,166,108,166,108,132"/>
+<area shape="rect" id="Node000004" href="$structopenm_1_1_i_row_base.html" title="db&#45;row abstract base" alt="" coords="41,5,180,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="113,44,113,79,108,79,108,44"/>
 </map>

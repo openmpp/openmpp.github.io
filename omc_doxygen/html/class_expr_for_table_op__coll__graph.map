@@ -1,4 +1,6 @@
 <map id="ExprForTableOp" name="ExprForTableOp">
-<area shape="rect" id="node1" title=" " alt="" coords="5,109,128,136"/>
-<area shape="rect" id="node2" href="$class_expr_for_table.html" title="Table expression tree element." alt="" coords="14,5,119,32"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,108,128,133"/>
+<area shape="rect" id="Node000002" href="$class_expr_for_table.html" title="Table expression tree element." alt="" coords="14,5,119,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="67,45,67,55,67,84,68,107,63,108,61,84,61,55,62,44"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="69,45,69,108,64,108,64,45"/>
 </map>

@@ -1,8 +1,13 @@
 <map id="EntityArrayMemberSymbol.h" name="EntityArrayMemberSymbol.h">
-<area shape="rect" id="node1" title="Declarations for the EntityArrayMemberSymbol class." alt="" coords="342,5,553,32"/>
-<area shape="rect" id="node2" href="$_entity_array_member_symbol_8cpp.html" title="Definitions for the EntityArrayMemberSymbol class." alt="" coords="5,80,231,107"/>
-<area shape="rect" id="node3" href="$_entity_data_member_symbol_8cpp.html" title="Definitions for the EntityDataMemberSymbol class." alt="" coords="255,80,477,107"/>
-<area shape="rect" id="node4" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="501,80,556,107"/>
-<area shape="rect" id="node6" href="$omc__markup_8cpp.html" title="Function to markup model code file." alt="" coords="581,80,714,107"/>
-<area shape="rect" id="node5" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="475,155,583,181"/>
+<area shape="rect" id="Node000001" title="Declarations for the EntityArrayMemberSymbol class." alt="" coords="342,5,553,31"/>
+<area shape="rect" id="Node000002" href="$_entity_array_member_symbol_8cpp.html" title="Definitions for the EntityArrayMemberSymbol class." alt="" coords="5,79,231,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="382,36,172,81,171,76,381,31"/>
+<area shape="rect" id="Node000003" href="$_entity_data_member_symbol_8cpp.html" title="Definitions for the EntityDataMemberSymbol class." alt="" coords="255,79,477,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="426,42,381,80,378,76,422,38"/>
+<area shape="rect" id="Node000004" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="501,79,556,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="472,38,517,76,514,80,469,42"/>
+<area shape="rect" id="Node000006" href="$omc__markup_8cpp.html" title="Function to markup model code file." alt="" coords="581,79,714,104"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="493,33,616,76,614,81,492,38"/>
+<area shape="rect" id="Node000005" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="475,152,583,177"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="531,118,531,152,526,152,526,118"/>
 </map>

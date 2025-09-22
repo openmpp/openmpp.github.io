@@ -1,6 +1,9 @@
 <map id="BoolEnumeratorSymbol.h" name="BoolEnumeratorSymbol.h">
-<area shape="rect" id="node1" title="Declarations for the BoolEnumeratorSymbol class." alt="" coords="32,5,220,32"/>
-<area shape="rect" id="node2" href="$_bool_symbol_8cpp.html" title="Definitions for the BoolSymbol class." alt="" coords="5,80,132,107"/>
-<area shape="rect" id="node3" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="156,80,211,107"/>
-<area shape="rect" id="node4" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="129,155,237,181"/>
+<area shape="rect" id="Node000001" title="Declarations for the BoolEnumeratorSymbol class." alt="" coords="32,5,220,31"/>
+<area shape="rect" id="Node000002" href="$_bool_symbol_8cpp.html" title="Definitions for the BoolSymbol class." alt="" coords="5,79,132,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="110,43,80,80,76,77,106,40"/>
+<area shape="rect" id="Node000003" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="156,79,211,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="146,40,176,77,172,80,142,43"/>
+<area shape="rect" id="Node000004" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="129,152,237,177"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="186,118,186,152,181,152,181,118"/>
 </map>

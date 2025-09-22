@@ -1,4 +1,5 @@
 <map id="openm::IDbExec" name="openm::IDbExec">
-<area shape="rect" id="node1" title="database connection wrapper to execute sql commands." alt="" coords="22,5,149,32"/>
-<area shape="rect" id="node2" href="$classopenm_1_1_db_exec_sqlite.html" title="db connection wrapper for SQLite." alt="" coords="5,80,165,107"/>
+<area shape="rect" id="Node000001" title="database connection wrapper to execute sql commands." alt="" coords="22,5,149,31"/>
+<area shape="rect" id="Node000002" href="$classopenm_1_1_db_exec_sqlite.html" title="db connection wrapper for SQLite." alt="" coords="5,79,165,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="88,44,88,79,83,79,83,44"/>
 </map>

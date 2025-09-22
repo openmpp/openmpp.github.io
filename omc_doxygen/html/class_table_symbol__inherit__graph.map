@@ -1,6 +1,9 @@
 <map id="TableSymbol" name="TableSymbol">
-<area shape="rect" id="node1" title="TableSymbol." alt="" coords="117,80,223,107"/>
-<area shape="rect" id="node3" href="$class_derived_table_symbol.html" title="DerivedTableSymbol." alt="" coords="5,155,161,181"/>
-<area shape="rect" id="node4" href="$class_entity_table_symbol.html" title="EntityTableSymbol." alt="" coords="185,155,328,181"/>
-<area shape="rect" id="node2" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="135,5,205,32"/>
+<area shape="rect" id="Node000001" title="TableSymbol." alt="" coords="117,79,223,104"/>
+<area shape="rect" id="Node000003" href="$class_derived_table_symbol.html" title="DerivedTableSymbol." alt="" coords="5,152,161,177"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="147,115,99,154,96,150,144,110"/>
+<area shape="rect" id="Node000004" href="$class_entity_table_symbol.html" title="EntityTableSymbol." alt="" coords="185,152,328,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="196,110,244,150,241,154,193,115"/>
+<area shape="rect" id="Node000002" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="135,5,205,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="173,44,173,79,167,79,167,44"/>
 </map>

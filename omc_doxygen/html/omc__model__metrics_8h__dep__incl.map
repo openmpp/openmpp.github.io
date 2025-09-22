@@ -1,6 +1,9 @@
 <map id="omc_model_metrics.h" name="omc_model_metrics.h">
-<area shape="rect" id="node1" title="Function to create Model Metrics Report." alt="" coords="101,5,267,32"/>
-<area shape="rect" id="node2" href="$omc_8cpp.html" title="OpenM++ compiler (omc): main entry point." alt="" coords="5,80,83,107"/>
-<area shape="rect" id="node3" href="$omc__model__doc_8cpp.html" title="Function to create Model doc." alt="" coords="107,80,261,107"/>
-<area shape="rect" id="node4" href="$omc__model__metrics_8cpp.html" title="Function to create Model Metrics Report." alt="" coords="285,80,467,107"/>
+<area shape="rect" id="Node000001" title="Function to create Model Metrics Report." alt="" coords="101,5,267,31"/>
+<area shape="rect" id="Node000002" href="$omc_8cpp.html" title="OpenM++ compiler (omc): main entry point." alt="" coords="5,79,83,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="151,39,68,81,66,76,148,34"/>
+<area shape="rect" id="Node000003" href="$omc__model__doc_8cpp.html" title="Function to create Model doc." alt="" coords="107,79,261,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="187,44,187,79,181,79,181,44"/>
+<area shape="rect" id="Node000004" href="$omc__model__metrics_8cpp.html" title="Function to create Model Metrics Report." alt="" coords="285,79,467,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="229,33,346,76,344,81,227,38"/>
 </map>

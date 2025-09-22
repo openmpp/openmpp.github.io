@@ -1,29 +1,77 @@
 <map id="MeasureDimensionSymbol.h" name="MeasureDimensionSymbol.h">
-<area shape="rect" id="node1" title="Definitions for the MeasureDimensionSymbol class." alt="" coords="1633,5,1843,32"/>
-<area shape="rect" id="node2" href="$_table_symbol_8h.html" title="Declarations for the TableSymbol class." alt="" coords="1679,80,1797,107"/>
-<area shape="rect" id="node7" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="588,319,643,345"/>
-<area shape="rect" id="node3" href="$_anon_group_symbol_8cpp.html" title="Definitions for the AnonGroupSymbol class." alt="" coords="2386,155,2557,181"/>
-<area shape="rect" id="node4" href="$_dependency_group_symbol_8cpp.html" title="Definitions for the DependencyGroupSymbol class." alt="" coords="359,237,578,263"/>
-<area shape="rect" id="node5" href="$_dependency_group_symbol_8h.html" title="Declarations for the DependencyGroupSymbol class." alt="" coords="506,155,709,181"/>
-<area shape="rect" id="node6" href="$_symbol_8cpp.html" title="Definitions for the Symbol class." alt="" coords="667,319,766,345"/>
-<area shape="rect" id="node9" href="$_derived_table_symbol_8h.html" title="Declarations for the DerivedTableSymbol class." alt="" coords="117,237,285,263"/>
-<area shape="rect" id="node12" href="$_entity_table_symbol_8h.html" title="Declares the EntityTableSymbol derived class of the Symbol class." alt="" coords="1455,155,1610,181"/>
-<area shape="rect" id="node20" href="$omc__model__doc_8cpp.html" title="Function to create Model doc." alt="" coords="1894,319,2049,345"/>
-<area shape="rect" id="node22" href="$_table_symbol_8cpp.html" title="Definitions for the TableSymbol class." alt="" coords="1763,237,1895,263"/>
-<area shape="rect" id="node23" href="$omc__missing__documentation_8cpp.html" title="Function which emits warnings for missing model documentation." alt="" coords="1919,237,2159,263"/>
-<area shape="rect" id="node24" href="$omc__model__metrics_8cpp.html" title="Function to create Model Metrics Report." alt="" coords="2183,237,2365,263"/>
-<area shape="rect" id="node25" href="$_model_symbol_8cpp.html" title="Definitions for the ModelSymbol class." alt="" coords="1927,155,2066,181"/>
-<area shape="rect" id="node26" href="$_table_group_symbol_8cpp.html" title="Definitions for the TableGroupSymbol class." alt="" coords="2090,155,2261,181"/>
-<area shape="rect" id="node27" href="$omc_8cpp.html" title="OpenM++ compiler (omc): main entry point." alt="" coords="2285,155,2362,181"/>
-<area shape="rect" id="node8" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="561,393,669,420"/>
-<area shape="rect" id="node10" href="$_derived_table_symbol_8cpp.html" title="Definitions for the DerivedTableSymbol class." alt="" coords="5,319,188,345"/>
-<area shape="rect" id="node11" href="$_table_measure_symbol_8cpp.html" title="Definitions for the TableMeasureSymbol class." alt="" coords="212,319,400,345"/>
-<area shape="rect" id="node13" href="$_entity_increment_symbol_8h.html" title="Declarations for the EntityIncrementSymbol class." alt="" coords="1218,237,1405,263"/>
-<area shape="rect" id="node16" href="$_entity_symbol_8cpp.html" title="Implements the EntitySymbol derived class of the Symbol class." alt="" coords="1734,319,1870,345"/>
-<area shape="rect" id="node17" href="$_entity_table_symbol_8cpp.html" title="Definitions for the EntityTableSymbol class." alt="" coords="1067,319,1238,345"/>
-<area shape="rect" id="node18" href="$_entity_table_accumulator_symbol_8cpp.html" title="Definitions for the EntityTableAccumulatorSymbol class." alt="" coords="791,319,1043,345"/>
-<area shape="rect" id="node19" href="$_entity_table_accumulator_symbol_8h.html" title="Declarations for the EntityTableAccumulatorSymbol class." alt="" coords="855,237,1093,263"/>
-<area shape="rect" id="node21" href="$_entity_table_measure_attribute_symbol_8cpp.html" title="Definitions for the EntityTableMeasureAttributeSymbol class." alt="" coords="1429,229,1636,271"/>
-<area shape="rect" id="node14" href="$_entity_data_member_symbol_8cpp.html" title="Definitions for the EntityDataMemberSymbol class." alt="" coords="1262,319,1483,345"/>
-<area shape="rect" id="node15" href="$_entity_increment_symbol_8cpp.html" title="Definitions for the EntityIncrementSymbol class." alt="" coords="1507,319,1710,345"/>
+<area shape="rect" id="Node000001" title="Definitions for the MeasureDimensionSymbol class." alt="" coords="1633,5,1843,31"/>
+<area shape="rect" id="Node000002" href="$_table_symbol_8h.html" title="Declarations for the TableSymbol class." alt="" coords="1679,79,1797,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1732,44,1734,78,1728,79,1727,45"/>
+<area shape="rect" id="Node000007" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="588,313,643,339"/>
+<area shape="poly" id="edge48_Node000001_Node000007" title=" " alt="" coords="1619,27,1314,43,920,70,720,87,535,107,377,129,257,155,169,175,137,192,122,207,107,227,99,246,101,255,106,263,127,270,173,278,314,295,588,320,588,325,313,300,172,283,125,275,103,267,96,257,94,246,102,224,118,203,134,188,168,170,256,149,376,124,534,102,720,82,920,64,1314,38,1619,22"/>
+<area shape="poly" id="edge38_Node000002_Node000001" title=" " alt="" coords="1744,65,1742,31,1748,31,1749,65"/>
+<area shape="rect" id="Node000003" href="$_anon_group_symbol_8cpp.html" title="Definitions for the AnonGroupSymbol class." alt="" coords="2386,152,2557,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1810,96,2374,149,2386,151,2386,156,2374,155,1810,102"/>
+<area shape="rect" id="Node000004" href="$_dependency_group_symbol_8cpp.html" title="Definitions for the DependencyGroupSymbol class." alt="" coords="359,233,578,258"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="1666,96,1380,102,1000,113,660,131,547,142,513,148,496,154,482,171,474,192,471,232,465,232,469,191,477,169,492,150,511,143,547,136,660,125,1000,108,1380,97,1666,91"/>
+<area shape="rect" id="Node000005" href="$_dependency_group_symbol_8h.html" title="Declarations for the DependencyGroupSymbol class." alt="" coords="506,152,709,177"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="1666,99,1266,120,728,155,709,156,709,151,727,149,1266,114,1666,93"/>
+<area shape="rect" id="Node000006" href="$_symbol_8cpp.html" title="Definitions for the Symbol class." alt="" coords="667,313,766,339"/>
+<area shape="poly" id="edge40_Node000002_Node000006" title=" " alt="" coords="1665,98,1466,109,1209,133,1079,150,960,171,860,197,820,212,789,228,766,247,747,271,724,314,719,312,742,268,762,243,786,223,818,207,859,192,959,166,1078,144,1208,127,1466,104,1665,93"/>
+<area shape="poly" id="edge43_Node000002_Node000007" title=" " alt="" coords="1666,97,1017,115,671,132,545,143,472,155,431,166,399,177,373,195,350,227,343,242,342,255,346,267,354,277,381,294,419,306,464,315,510,319,588,322,587,328,509,325,463,320,418,312,379,299,350,281,341,269,337,256,338,241,345,224,370,191,397,172,430,161,471,149,545,137,671,127,1017,109,1665,91"/>
+<area shape="rect" id="Node000009" href="$_derived_table_symbol_8h.html" title="Declarations for the DerivedTableSymbol class." alt="" coords="117,233,285,258"/>
+<area shape="poly" id="edge9_Node000002_Node000009" title=" " alt="" coords="1665,95,1355,98,929,106,718,114,531,124,387,137,337,145,304,154,275,171,248,193,211,234,207,230,245,189,272,167,302,150,336,140,387,132,531,119,718,108,929,101,1355,93,1665,90"/>
+<area shape="rect" id="Node000012" href="$_entity_table_symbol_8h.html" title="Declares the EntityTableSymbol derived class of the Symbol class." alt="" coords="1455,152,1610,177"/>
+<area shape="poly" id="edge14_Node000002_Node000012" title=" " alt="" coords="1693,111,1567,154,1565,149,1691,106"/>
+<area shape="rect" id="Node000020" href="$omc__model__doc_8cpp.html" title="Function to create Model doc." alt="" coords="1894,313,2049,339"/>
+<area shape="poly" id="edge46_Node000002_Node000020" title=" " alt="" coords="1777,107,1869,150,1892,164,1916,175,1961,182,2019,184,2157,181,2227,182,2290,187,2342,200,2363,210,2379,224,2386,234,2388,246,2379,267,2356,284,2324,297,2237,315,2139,324,2049,328,2049,322,2139,319,2236,310,2322,292,2354,279,2375,264,2383,245,2381,236,2375,227,2360,215,2340,205,2289,192,2226,187,2157,187,2019,189,1960,188,1915,180,1890,168,1866,154,1775,112"/>
+<area shape="rect" id="Node000022" href="$_table_symbol_8cpp.html" title="Definitions for the TableSymbol class." alt="" coords="1763,233,1895,258"/>
+<area shape="poly" id="edge42_Node000002_Node000022" title=" " alt="" coords="1747,116,1758,146,1772,176,1795,206,1818,230,1814,234,1791,210,1768,179,1753,148,1742,118"/>
+<area shape="rect" id="Node000023" href="$omc__missing__documentation_8cpp.html" title="Function which emits warnings for missing model documentation." alt="" coords="1919,233,2159,258"/>
+<area shape="poly" id="edge45_Node000002_Node000023" title=" " alt="" coords="1757,113,1785,145,1822,175,1859,194,1898,209,1973,230,1971,235,1896,214,1857,199,1819,180,1781,149,1753,117"/>
+<area shape="rect" id="Node000024" href="$omc__model__metrics_8cpp.html" title="Function to create Model Metrics Report." alt="" coords="2183,233,2365,258"/>
+<area shape="poly" id="edge47_Node000002_Node000024" title=" " alt="" coords="1767,110,1824,148,1872,175,1953,199,2019,208,2086,212,2172,223,2213,230,2212,235,2171,228,2086,218,2019,213,1952,204,1870,180,1821,152,1764,114"/>
+<area shape="rect" id="Node000025" href="$_model_symbol_8cpp.html" title="Definitions for the ModelSymbol class." alt="" coords="1927,152,2066,177"/>
+<area shape="poly" id="edge39_Node000002_Node000025" title=" " alt="" coords="1793,105,1955,149,1954,154,1792,110"/>
+<area shape="rect" id="Node000026" href="$_table_group_symbol_8cpp.html" title="Definitions for the TableGroupSymbol class." alt="" coords="2090,152,2261,177"/>
+<area shape="poly" id="edge41_Node000002_Node000026" title=" " alt="" coords="1811,102,2105,149,2105,155,1810,107"/>
+<area shape="rect" id="Node000027" href="$omc_8cpp.html" title="OpenM++ compiler (omc): main entry point." alt="" coords="2285,152,2362,177"/>
+<area shape="poly" id="edge44_Node000002_Node000027" title=" " alt="" coords="1810,95,2019,115,2146,131,2273,149,2285,151,2284,157,2272,155,2145,136,2018,121,1810,101"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="576,186,491,235,488,230,574,182"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="625,187,711,311,706,314,621,190"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="611,191,617,313,612,313,606,191"/>
+<area shape="rect" id="Node000008" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="561,387,669,412"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="618,352,618,387,613,387,613,352"/>
+<area shape="poly" id="edge11_Node000009_Node000006" title=" " alt="" coords="298,257,654,311,668,313,667,318,654,316,297,263"/>
+<area shape="poly" id="edge13_Node000009_Node000007" title=" " alt="" coords="275,258,588,317,587,322,274,263"/>
+<area shape="rect" id="Node000010" href="$_derived_table_symbol_8cpp.html" title="Definitions for the DerivedTableSymbol class." alt="" coords="5,313,188,339"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="176,268,114,315,110,311,173,264"/>
+<area shape="rect" id="Node000011" href="$_table_measure_symbol_8cpp.html" title="Definitions for the TableMeasureSymbol class." alt="" coords="212,313,400,339"/>
+<area shape="poly" id="edge12_Node000009_Node000011" title=" " alt="" coords="229,264,292,311,289,315,225,268"/>
+<area shape="poly" id="edge32_Node000012_Node000006" title=" " alt="" coords="1441,170,1295,175,1122,185,959,202,894,214,845,228,795,264,732,315,729,311,792,260,842,223,892,208,959,196,1121,179,1294,169,1441,165"/>
+<area shape="poly" id="edge34_Node000012_Node000007" title=" " alt="" coords="1441,171,1284,177,1095,187,916,204,843,215,788,228,741,247,697,271,631,315,628,311,694,266,739,242,787,223,842,210,916,199,1095,182,1283,171,1441,166"/>
+<area shape="rect" id="Node000013" href="$_entity_increment_symbol_8h.html" title="Declarations for the EntityIncrementSymbol class." alt="" coords="1218,233,1405,258"/>
+<area shape="poly" id="edge15_Node000012_Node000013" title=" " alt="" coords="1488,184,1344,235,1343,230,1486,179"/>
+<area shape="rect" id="Node000016" href="$_entity_symbol_8cpp.html" title="Implements the EntitySymbol derived class of the Symbol class." alt="" coords="1734,313,1870,339"/>
+<area shape="poly" id="edge22_Node000012_Node000016" title=" " alt="" coords="1570,181,1650,223,1707,263,1784,311,1781,315,1705,268,1647,228,1568,185"/>
+<area shape="rect" id="Node000017" href="$_entity_table_symbol_8cpp.html" title="Definitions for the EntityTableSymbol class." alt="" coords="1067,313,1238,339"/>
+<area shape="poly" id="edge31_Node000012_Node000017" title=" " alt="" coords="1442,176,1307,195,1247,210,1208,228,1188,247,1174,271,1158,314,1153,312,1169,269,1184,244,1204,223,1246,205,1306,190,1441,171"/>
+<area shape="rect" id="Node000018" href="$_entity_table_accumulator_symbol_8cpp.html" title="Definitions for the EntityTableAccumulatorSymbol class." alt="" coords="791,313,1043,339"/>
+<area shape="poly" id="edge23_Node000012_Node000018" title=" " alt="" coords="1442,173,1310,190,1238,206,1168,228,1150,237,1137,247,1106,268,1033,296,965,316,964,311,1031,291,1103,263,1134,242,1147,232,1166,223,1237,201,1309,185,1441,168"/>
+<area shape="rect" id="Node000019" href="$_entity_table_accumulator_symbol_8h.html" title="Declarations for the EntityTableAccumulatorSymbol class." alt="" coords="855,233,1093,258"/>
+<area shape="poly" id="edge24_Node000012_Node000019" title=" " alt="" coords="1442,181,1056,235,1055,230,1441,176"/>
+<area shape="poly" id="edge36_Node000012_Node000020" title=" " alt="" coords="1587,179,1641,198,1697,223,1725,244,1753,263,1831,292,1906,311,1905,316,1829,297,1750,268,1722,248,1694,228,1639,203,1585,184"/>
+<area shape="rect" id="Node000021" href="$_entity_table_measure_attribute_symbol_8cpp.html" title="Definitions for the EntityTableMeasureAttributeSymbol class." alt="" coords="1429,225,1636,265"/>
+<area shape="poly" id="edge30_Node000012_Node000021" title=" " alt="" coords="1535,191,1535,225,1530,225,1530,191"/>
+<area shape="poly" id="edge33_Node000012_Node000022" title=" " alt="" coords="1590,178,1786,230,1785,235,1588,183"/>
+<area shape="poly" id="edge35_Node000012_Node000023" title=" " alt="" coords="1620,177,1966,230,1965,235,1619,182"/>
+<area shape="poly" id="edge37_Node000012_Node000024" title=" " alt="" coords="1624,169,1871,189,2172,223,2217,230,2216,235,2171,228,1871,195,1623,175"/>
+<area shape="poly" id="edge20_Node000013_Node000006" title=" " alt="" coords="1204,261,1006,284,778,316,767,318,766,313,778,311,1006,279,1204,256"/>
+<area shape="poly" id="edge21_Node000013_Node000007" title=" " alt="" coords="1204,259,885,290,656,316,643,319,642,314,655,311,884,285,1204,254"/>
+<area shape="rect" id="Node000014" href="$_entity_data_member_symbol_8cpp.html" title="Definitions for the EntityDataMemberSymbol class." alt="" coords="1262,313,1483,339"/>
+<area shape="poly" id="edge16_Node000013_Node000014" title=" " alt="" coords="1331,267,1366,311,1361,315,1327,270"/>
+<area shape="rect" id="Node000015" href="$_entity_increment_symbol_8cpp.html" title="Definitions for the EntityIncrementSymbol class." alt="" coords="1507,313,1710,339"/>
+<area shape="poly" id="edge17_Node000013_Node000015" title=" " alt="" coords="1368,259,1566,311,1565,316,1367,264"/>
+<area shape="poly" id="edge18_Node000013_Node000016" title=" " alt="" coords="1389,258,1418,263,1734,312,1734,317,1418,268,1388,263"/>
+<area shape="poly" id="edge19_Node000013_Node000017" title=" " alt="" coords="1277,266,1177,316,1175,311,1275,262"/>
+<area shape="poly" id="edge27_Node000019_Node000006" title=" " alt="" coords="924,265,755,316,753,311,922,259"/>
+<area shape="poly" id="edge28_Node000019_Node000007" title=" " alt="" coords="900,263,656,316,643,319,642,314,655,311,899,258"/>
+<area shape="poly" id="edge26_Node000019_Node000017" title=" " alt="" coords="1013,261,1128,311,1126,316,1011,266"/>
+<area shape="poly" id="edge25_Node000019_Node000018" title=" " alt="" coords="960,271,927,315,923,312,955,268"/>
+<area shape="poly" id="edge29_Node000019_Node000020" title=" " alt="" coords="1107,255,1206,263,1544,284,1692,294,1882,311,1894,312,1894,317,1882,316,1692,299,1544,289,1206,268,1106,260"/>
 </map>

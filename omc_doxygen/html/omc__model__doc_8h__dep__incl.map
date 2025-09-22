@@ -1,4 +1,5 @@
 <map id="omc_model_doc.h" name="omc_model_doc.h">
-<area shape="rect" id="node1" title="Function to create Model doc." alt="" coords="5,5,145,32"/>
-<area shape="rect" id="node2" href="$omc_8cpp.html" title="OpenM++ compiler (omc): main entry point." alt="" coords="37,80,114,107"/>
+<area shape="rect" id="Node000001" title="Function to create Model doc." alt="" coords="5,5,145,31"/>
+<area shape="rect" id="Node000002" href="$omc_8cpp.html" title="OpenM++ compiler (omc): main entry point." alt="" coords="37,79,114,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="78,44,78,79,73,79,73,44"/>
 </map>

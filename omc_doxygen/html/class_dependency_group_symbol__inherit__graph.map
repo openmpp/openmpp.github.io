@@ -1,5 +1,7 @@
 <map id="DependencyGroupSymbol" name="DependencyGroupSymbol">
-<area shape="rect" id="node1" title="DependencyGroupSymbol." alt="" coords="5,155,196,181"/>
-<area shape="rect" id="node2" href="$class_group_symbol.html" title="GroupSymbol." alt="" coords="45,80,156,107"/>
-<area shape="rect" id="node3" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="65,5,136,32"/>
+<area shape="rect" id="Node000001" title="DependencyGroupSymbol." alt="" coords="5,152,196,177"/>
+<area shape="rect" id="Node000002" href="$class_group_symbol.html" title="GroupSymbol." alt="" coords="45,79,156,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,118,103,152,98,152,98,118"/>
+<area shape="rect" id="Node000003" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="65,5,136,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="103,44,103,79,98,79,98,44"/>
 </map>

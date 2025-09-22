@@ -1,4 +1,5 @@
 <map id="openm::EmptyPackedAdapter" name="openm::EmptyPackedAdapter">
-<area shape="rect" id="node1" title="pack and unpack adapter for metadata table db rows (empty implementation)." alt="" coords="5,80,219,107"/>
-<area shape="rect" id="node2" href="$structopenm_1_1_i_packed_adapter.html" title="public interface to pack and unpack rows of metadata db&#45;table" alt="" coords="25,5,199,32"/>
+<area shape="rect" id="Node000001" title="pack and unpack adapter for metadata table db rows (empty implementation)." alt="" coords="5,79,219,104"/>
+<area shape="rect" id="Node000002" href="$structopenm_1_1_i_packed_adapter.html" title="public interface to pack and unpack rows of metadata db&#45;table" alt="" coords="25,5,199,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,44,115,79,109,79,109,44"/>
 </map>

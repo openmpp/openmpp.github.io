@@ -1,5 +1,7 @@
 <map id="openm::IMsgExec" name="openm::IMsgExec">
-<area shape="rect" id="node1" title="public interface for message passing" alt="" coords="90,5,226,32"/>
-<area shape="rect" id="node2" href="$classopenm_1_1_mpi_exec.html" title="message passing library main class for MPI&#45;based implementation" alt="" coords="5,80,135,107"/>
-<area shape="rect" id="node3" href="$classopenm_1_1_msg_empty_exec.html" title="message passing main class." alt="" coords="159,80,333,107"/>
+<area shape="rect" id="Node000001" title="public interface for message passing" alt="" coords="90,5,226,31"/>
+<area shape="rect" id="Node000002" href="$classopenm_1_1_mpi_exec.html" title="message passing library main class for MPI&#45;based implementation" alt="" coords="5,79,135,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="135,41,86,81,83,76,132,37"/>
+<area shape="rect" id="Node000003" href="$classopenm_1_1_msg_empty_exec.html" title="message passing main class." alt="" coords="159,79,333,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="184,37,233,76,230,81,181,41"/>
 </map>

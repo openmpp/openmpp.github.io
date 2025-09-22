@@ -1,8 +1,15 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structopenm_1_1_i_log_base.html" title="base for log public interface" alt="" coords="5,56,140,83"/>
-<area shape="rect" id="node2" href="$structopenm_1_1_i_log.html" title="log public interface: log to console and into log files" alt="" coords="202,5,305,32"/>
-<area shape="rect" id="node4" href="$structopenm_1_1_i_trace.html" title="trace log public interface: model event log to console and into log files" alt="" coords="197,107,310,133"/>
-<area shape="rect" id="node6" href="$classopenm_1_1_log_base.html" title="Log base class: log to console and into log files." alt="" coords="188,56,319,83"/>
-<area shape="rect" id="node3" href="$classopenm_1_1_log.html" title="log implementation class: log to console and into log files." alt="" coords="383,31,482,57"/>
-<area shape="rect" id="node5" href="$classopenm_1_1_trace_log.html" title="trace log implementation class: model event log to console and into log files." alt="" coords="367,93,499,120"/>
+<area shape="rect" id="Node000000" href="$structopenm_1_1_i_log_base.html" title="base for log public interface" alt="" coords="5,55,140,80"/>
+<area shape="rect" id="Node000001" href="$structopenm_1_1_i_log.html" title="log public interface: log to console and into log files" alt="" coords="202,5,305,31"/>
+<area shape="poly" id="edge6_Node000000_Node000001" title=" " alt="" coords="133,48,205,28,206,33,134,53"/>
+<area shape="rect" id="Node000005" href="$structopenm_1_1_i_trace.html" title="trace log public interface: model event log to console and into log files" alt="" coords="197,104,310,129"/>
+<area shape="poly" id="edge8_Node000000_Node000005" title=" " alt="" coords="134,81,206,101,205,106,133,86"/>
+<area shape="rect" id="Node000003" href="$classopenm_1_1_log_base.html" title="Log base class: log to console and into log files." alt="" coords="188,55,319,80"/>
+<area shape="poly" id="edge10_Node000000_Node000003" title=" " alt="" coords="154,65,187,65,187,70,154,70"/>
+<area shape="rect" id="Node000002" href="$classopenm_1_1_log.html" title="log implementation class: log to console and into log files." alt="" coords="383,31,482,56"/>
+<area shape="poly" id="edge7_Node000001_Node000002" title=" " alt="" coords="319,25,383,34,383,39,318,30"/>
+<area shape="rect" id="Node000004" href="$classopenm_1_1_trace_log.html" title="trace log implementation class: model event log to console and into log files." alt="" coords="367,92,499,117"/>
+<area shape="poly" id="edge9_Node000005_Node000004" title=" " alt="" coords="324,109,366,106,366,112,324,115"/>
+<area shape="poly" id="edge11_Node000003_Node000002" title=" " alt="" coords="332,54,383,47,383,53,333,59"/>
+<area shape="poly" id="edge12_Node000003_Node000004" title=" " alt="" coords="329,80,372,89,371,95,328,86"/>
 </map>

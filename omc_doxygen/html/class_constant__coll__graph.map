@@ -1,9 +1,17 @@
 <map id="Constant" name="Constant">
-<area shape="rect" id="node1" title="Constant &#45; Refers to either a Literal or an EnumeratorSymbol." alt="" coords="229,317,309,344"/>
-<area shape="rect" id="node2" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="84,228,155,255"/>
-<area shape="rect" id="node5" href="$class_module_symbol.html" title="Symbol for a source code module." alt="" coords="5,317,124,344"/>
-<area shape="rect" id="node3" href="$classomc_1_1location.html" title="Two points in a source file." alt="" coords="247,109,357,136"/>
-<area shape="rect" id="node4" href="$classomc_1_1position.html" title="A point in a source file." alt="" coords="247,5,357,32"/>
-<area shape="rect" id="node6" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="64,109,175,136"/>
-<area shape="rect" id="node7" href="$class_literal.html" title="Literal encapsulates a C++ literal or an openM++ literal." alt="" coords="235,228,297,255"/>
+<area shape="rect" id="Node000001" title="Constant &#45; Refers to either a Literal or an EnumeratorSymbol." alt="" coords="229,313,309,339"/>
+<area shape="rect" id="Node000002" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="84,225,155,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="143,258,182,287,234,311,232,316,179,292,140,262"/>
+<area shape="rect" id="Node000005" href="$class_module_symbol.html" title="Symbol for a source code module." alt="" coords="5,313,124,339"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="111,264,96,291,78,314,74,311,92,288,106,262"/>
+<area shape="rect" id="Node000003" href="$classomc_1_1location.html" title="Two points in a source file." alt="" coords="247,108,357,133"/>
+<area shape="poly" id="edge8_Node000001_Node000003" title=" " alt="" coords="324,143,330,157,332,190,329,233,319,290,307,305,293,315,290,311,304,301,314,288,324,232,327,190,325,158,319,146"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="278,144,263,159,248,182,242,193,230,204,193,223,156,234,154,228,191,218,227,199,238,189,244,179,259,156,274,141"/>
+<area shape="rect" id="Node000004" href="$classomc_1_1position.html" title="A point in a source file." alt="" coords="247,5,357,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="305,45,305,108,299,108,299,45"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="27,308,13,292,11,283,14,273,29,259,46,249,83,239,84,244,48,254,32,263,19,276,16,283,18,290,31,304"/>
+<area shape="rect" id="Node000006" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="64,108,175,133"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="122,147,122,225,117,225,117,147"/>
+<area shape="rect" id="Node000007" href="$class_literal.html" title="Literal encapsulates a C++ literal or an openM++ literal." alt="" coords="235,225,297,251"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="269,264,271,313,266,313,264,265"/>
 </map>

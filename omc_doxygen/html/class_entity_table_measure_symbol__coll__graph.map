@@ -1,12 +1,26 @@
 <map id="EntityTableMeasureSymbol" name="EntityTableMeasureSymbol">
-<area shape="rect" id="node1" title="EntityTableMeasureSymbol." alt="" coords="181,496,380,523"/>
-<area shape="rect" id="node2" href="$class_table_measure_symbol.html" title="TableMeasureSymbol." alt="" coords="5,407,167,433"/>
-<area shape="rect" id="node3" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="139,228,209,255"/>
-<area shape="rect" id="node6" href="$class_module_symbol.html" title="Symbol for a source code module." alt="" coords="128,317,247,344"/>
-<area shape="rect" id="node8" href="$class_table_symbol.html" title="TableSymbol." alt="" coords="271,317,376,344"/>
-<area shape="rect" id="node9" href="$class_measure_dimension_symbol.html" title="MeasureDimensionSymbol." alt="" coords="201,407,398,433"/>
-<area shape="rect" id="node4" href="$classomc_1_1location.html" title="Two points in a source file." alt="" coords="52,109,163,136"/>
-<area shape="rect" id="node5" href="$classomc_1_1position.html" title="A point in a source file." alt="" coords="52,5,163,32"/>
-<area shape="rect" id="node7" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="187,109,297,136"/>
-<area shape="rect" id="node10" href="$class_expr_for_table.html" title="Table expression tree element." alt="" coords="423,407,528,433"/>
+<area shape="rect" id="Node000001" title="EntityTableMeasureSymbol." alt="" coords="181,489,380,515"/>
+<area shape="rect" id="Node000002" href="$class_table_measure_symbol.html" title="TableMeasureSymbol." alt="" coords="5,401,167,427"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="126,430,255,487,253,492,124,435"/>
+<area shape="rect" id="Node000003" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="139,225,209,251"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="125,244,85,255,66,264,49,277,33,300,29,323,35,348,50,376,72,399,68,403,45,379,30,350,24,324,28,298,45,273,63,259,83,249,124,239"/>
+<area shape="poly" id="edge8_Node000002_Node000003" title=" " alt="" coords="138,259,106,283,91,298,80,314,74,337,74,360,84,400,79,402,69,361,69,336,76,312,87,294,102,279,135,255"/>
+<area shape="rect" id="Node000006" href="$class_module_symbol.html" title="Symbol for a source code module." alt="" coords="128,313,247,339"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="176,265,178,289,185,312,180,314,173,290,171,265"/>
+<area shape="rect" id="Node000008" href="$class_table_symbol.html" title="TableSymbol." alt="" coords="271,313,376,339"/>
+<area shape="poly" id="edge10_Node000008_Node000003" title=" " alt="" coords="223,252,266,272,293,292,314,311,310,315,289,296,263,277,221,257"/>
+<area shape="rect" id="Node000009" href="$class_measure_dimension_symbol.html" title="MeasureDimensionSymbol." alt="" coords="201,401,398,427"/>
+<area shape="poly" id="edge12_Node000009_Node000003" title=" " alt="" coords="224,241,282,251,347,272,379,288,408,308,432,332,451,362,454,370,451,379,426,394,388,404,387,399,424,389,447,376,449,370,446,364,428,335,404,312,376,292,345,277,281,256,223,246"/>
+<area shape="rect" id="Node000004" href="$classomc_1_1location.html" title="Two points in a source file." alt="" coords="52,108,163,133"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="120,145,148,200,166,223,161,226,144,203,115,148"/>
+<area shape="rect" id="Node000005" href="$classomc_1_1position.html" title="A point in a source file." alt="" coords="52,5,163,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="110,45,110,108,105,108,105,45"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="181,300,173,251,178,250,186,299"/>
+<area shape="rect" id="Node000007" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="187,108,297,133"/>
+<area shape="poly" id="edge7_Node000003_Node000007" title=" " alt="" coords="239,148,229,175,215,203,192,227,188,223,210,200,224,173,234,146"/>
+<area shape="poly" id="edge9_Node000002_Node000008" title=" " alt="" coords="264,345,199,365,110,404,108,399,197,360,263,340"/>
+<area shape="poly" id="edge13_Node000009_Node000008" title=" " alt="" coords="283,348,268,364,266,373,269,382,285,399,281,403,265,385,261,373,264,361,279,344"/>
+<area shape="poly" id="edge11_Node000008_Node000009" title=" " alt="" coords="302,387,309,362,317,338,322,340,314,363,307,389"/>
+<area shape="rect" id="Node000010" href="$class_expr_for_table.html" title="Table expression tree element." alt="" coords="423,401,528,427"/>
+<area shape="poly" id="edge14_Node000001_Node000010" title=" " alt="" coords="437,435,308,492,306,487,435,430"/>
 </map>

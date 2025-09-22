@@ -1,52 +1,132 @@
 <map id="/home/build_doc/ompp&#45;make&#45;doc/ompp&#45;main/include/libopenm/omLog.h" name="/home/build_doc/ompp&#45;make&#45;doc/ompp&#45;main/include/libopenm/omLog.h">
-<area shape="rect" id="node1" title="OpenM++: public interface for log and trace support." alt="" coords="1893,5,2115,61"/>
-<area shape="rect" id="node2" href="$db_meta_row_8h.html" title="OpenM++ data library: db rows of model metadata tables." alt="" coords="517,109,739,165"/>
-<area shape="rect" id="node21" href="$model_8h.html" title="OpenM++ modeling library: modeling thread implementation to calculate model sub&#45;value." alt="" coords="1841,496,1967,523"/>
-<area shape="rect" id="node28" href="$om_model_8h.html" title="OpenM++ modeling library: public interface." alt="" coords="1941,317,2163,373"/>
-<area shape="rect" id="node30" href="$arg_reader_8cpp.html" title="OpenM++ arguments reader: parse command line and ini&#45;file arguments." alt="" coords="2092,124,2268,151"/>
-<area shape="rect" id="node31" href="$log_8h.html" title="OpenM++: log to console and into log files." alt="" coords="2648,124,2763,151"/>
-<area shape="rect" id="node36" href="$db_exec_8h.html" title="OpenM++ data library: public interface." alt="" coords="1393,124,1524,151"/>
-<area shape="rect" id="node43" href="$msg_8h.html" title="OpenM++: message passing library public interface." alt="" coords="2327,228,2441,255"/>
-<area shape="rect" id="node3" href="$meta_model_holder_8h.html" title="OpenM++ modeling library: holder struct for model metadata." alt="" coords="153,213,391,269"/>
-<area shape="rect" id="node4" href="$model_builder_8h.html" title="OpenM++ data library: public interface to produce model creation script." alt="" coords="248,317,469,373"/>
-<area shape="rect" id="node5" href="$model_insert_sql_8h.html" title="OpenM++ data library: class to produce insert sql statements for new model." alt="" coords="415,421,599,448"/>
-<area shape="rect" id="node7" href="$meta_set_holder_8h.html" title="OpenM++ modeling library: holder struct for working sets metadata." alt="" coords="517,213,739,269"/>
-<area shape="rect" id="node17" href="$model_expression_sql_8h.html" title="OpenM++ data library: classes to translate output table accumulators and expressions into sql." alt="" coords="5,332,224,359"/>
-<area shape="rect" id="node18" href="$db_meta_table_8h.html" title="OpenM++ data library: db tables for model metadata." alt="" coords="915,228,1083,255"/>
-<area shape="rect" id="node19" href="$meta_holder_8h.html" title="OpenM++ modeling library: holder struct for metadata tables used by model." alt="" coords="1101,332,1262,359"/>
-<area shape="rect" id="node6" href="$model_sql_builder_8h.html" title="OpenM++ data library: class to produce sql creation script for new model." alt="" coords="411,496,603,523"/>
-<area shape="rect" id="node8" href="$db_parameter_8h.html" title="OpenM++ data library: input parameter interfaces." alt="" coords="782,421,949,448"/>
-<area shape="rect" id="node9" href="$run_controller_impl_8h.html" title="OpenM++ modeling library: impelementation of controllers for modeling process run." alt="" coords="1157,496,1350,523"/>
-<area shape="rect" id="node10" href="$child_controller_8cpp.html" title="OpenM++ modeling library: child process run controller class to receive input parameters from root an..." alt="" coords="1866,571,2054,597"/>
-<area shape="rect" id="node11" href="$restart_controller_8cpp.html" title="OpenM++ modeling library: process run controller class for model &quot;restart run&quot; to calculate outstandi..." alt="" coords="501,571,701,597"/>
-<area shape="rect" id="node12" href="$root_controller_8cpp.html" title="OpenM++ modeling library: root process run controller class to create new model run(s),..." alt="" coords="726,571,909,597"/>
-<area shape="rect" id="node13" href="$run_controller_8cpp.html" title="OpenM++ modeling library: run controller class to create new model run(s) and support data exchange." alt="" coords="933,571,1112,597"/>
-<area shape="rect" id="node14" href="$run_controller_new_run_8cpp.html" title="OpenM++ modeling library: run controller class to create new model run(s) and support data exchange (..." alt="" coords="1137,571,1370,597"/>
-<area shape="rect" id="node15" href="$run_controller_params_8cpp.html" title="OpenM++ modeling library: run controller class to create new model run(s) and support data exchange (..." alt="" coords="1395,571,1621,597"/>
-<area shape="rect" id="node16" href="$single_controller_8cpp.html" title="OpenM++ modeling library: single process run controller class to create new model run(s),..." alt="" coords="1646,571,1842,597"/>
-<area shape="rect" id="node20" href="$db_output_table_8h.html" title="OpenM++ data library: output table interfaces." alt="" coords="1219,421,1397,448"/>
-<area shape="rect" id="node27" href="$meta_holder_8cpp.html" title="OpenM++ modeling library: holder struct for metadata tables used by model." alt="" coords="973,421,1144,448"/>
-<area shape="rect" id="node22" href="$main_8cpp.html" title="OpenM++ model: main entry point." alt="" coords="2739,571,2821,597"/>
-<area shape="rect" id="node23" href="$meta_loader_8cpp.html" title="OpenM++ modeling library: model metadata loader to read and broadcast metadata and run options." alt="" coords="2845,571,3016,597"/>
-<area shape="rect" id="node24" href="$model_base_8cpp.html" title="OpenM++ modeling library: modeling thread implementation to calculate model sub&#45;value." alt="" coords="2078,571,2245,597"/>
-<area shape="rect" id="node25" href="$model_helper_8cpp.html" title="OpenM++ modeling library: helper classes for process run controller." alt="" coords="2269,571,2446,597"/>
-<area shape="rect" id="node26" href="$run_controller_microdata_8cpp.html" title="OpenM++ modeling library: run controller class to create new model run(s) and support data exchange." alt="" coords="2470,571,2714,597"/>
-<area shape="rect" id="node29" href="$model_run_state_8h.html" title="OpenM++ modeling library: implementation." alt="" coords="1993,421,2178,448"/>
-<area shape="rect" id="node32" href="$file_8cpp.html" title="OpenM++ common file utility functions." alt="" coords="2465,228,2596,255"/>
-<area shape="rect" id="node33" href="$ini_reader_8cpp.html" title="OpenM++ ini&#45;file reader: load ini&#45;file and return values." alt="" coords="2620,228,2791,255"/>
-<area shape="rect" id="node34" href="$log_8cpp.html" title="OpenM++: log to console and into log files." alt="" coords="2815,228,2945,255"/>
-<area shape="rect" id="node35" href="$utf8_convert_8cpp.html" title="OpenM++ UTF&#45;8 converter: text bytes from source encoding (from Windows code page) to UTF&#45;8." alt="" coords="2969,228,3156,255"/>
-<area shape="rect" id="node37" href="$db_exec_8cpp.html" title="OpenM++ data library: db connection wrapper public interface." alt="" coords="1755,228,1869,255"/>
-<area shape="rect" id="node38" href="$db_exec_base_8cpp.html" title="OpenM++ data library: base class for db connection wrapper." alt="" coords="1445,332,1592,359"/>
-<area shape="rect" id="node39" href="$db_exec_base_8h.html" title="OpenM++ data library: common classes for db connection wrapper." alt="" coords="1497,228,1629,255"/>
-<area shape="rect" id="node40" href="$db_exec_sqlite_8h.html" title="OpenM++ data library: db connection wrapper for SQLite." alt="" coords="1617,332,1754,359"/>
-<area shape="rect" id="node41" href="$db_exec_provider_8cpp.html" title="OpenM++ data library: base class for db connection wrapper." alt="" coords="1699,421,1867,448"/>
-<area shape="rect" id="node42" href="$db_exec_sqlite_8cpp.html" title="OpenM++ data library: db connection wrapper for SQLite." alt="" coords="1523,421,1675,448"/>
-<area shape="rect" id="node44" href="$meta_loader_8h.html" title="OpenM++ modeling library: model metadata loader to read and broadcast metadata and run options." alt="" coords="2209,332,2372,359"/>
-<area shape="rect" id="node46" href="$msg_common_8h.html" title="OpenM++: message passing library common classes and interfaces." alt="" coords="2401,332,2554,359"/>
-<area shape="rect" id="node49" href="$msg_exec_base_8h.html" title="OpenM++: message passing library base class." alt="" coords="2610,332,2766,359"/>
-<area shape="rect" id="node50" href="$msg_mpi_8h.html" title="OpenM++: message passing library common classes and interfaces." alt="" coords="2778,421,2897,448"/>
-<area shape="rect" id="node45" href="$run_controller_8h.html" title="OpenM++ modeling library: public base class for run controller to run modeling process." alt="" coords="2202,421,2371,448"/>
-<area shape="rect" id="node47" href="$msg_exec_base_8cpp.html" title="OpenM++: message passing library base class." alt="" coords="2583,421,2753,448"/>
-<area shape="rect" id="node48" href="$msg_mpi_exec_8cpp.html" title="OpenM++: message passing library main class for MPI&#45;based implementation." alt="" coords="2396,421,2559,448"/>
+<area shape="rect" id="Node000001" title="OpenM++: public interface for log and trace support." alt="" coords="1893,5,2115,60"/>
+<area shape="rect" id="Node000002" href="$db_meta_row_8h.html" title="OpenM++ data library: db rows of model metadata tables." alt="" coords="517,108,739,163"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1880,46,739,129,738,123,1879,40"/>
+<area shape="rect" id="Node000021" href="$model_8h.html" title="OpenM++ modeling library: modeling thread implementation to calculate model sub&#45;value." alt="" coords="1841,489,1967,515"/>
+<area shape="poly" id="edge70_Node000001_Node000021" title=" " alt="" coords="1994,74,1964,182,1932,314,1916,415,1908,489,1902,489,1911,415,1927,313,1958,180,1989,73"/>
+<area shape="rect" id="Node000028" href="$om_model_8h.html" title="OpenM++ modeling library: public interface." alt="" coords="1941,313,2163,368"/>
+<area shape="poly" id="edge45_Node000001_Node000028" title=" " alt="" coords="2013,73,2050,313,2045,313,2008,74"/>
+<area shape="rect" id="Node000030" href="$arg_reader_8cpp.html" title="OpenM++ arguments reader: parse command line and ini&#45;file arguments." alt="" coords="2092,123,2268,148"/>
+<area shape="poly" id="edge49_Node000001_Node000030" title=" " alt="" coords="2063,64,2161,120,2159,125,2060,69"/>
+<area shape="rect" id="Node000031" href="$log_8h.html" title="OpenM++: log to console and into log files." alt="" coords="2648,123,2763,148"/>
+<area shape="poly" id="edge50_Node000001_Node000031" title=" " alt="" coords="2129,49,2648,123,2647,128,2128,54"/>
+<area shape="rect" id="Node000036" href="$db_exec_8h.html" title="OpenM++ data library: public interface." alt="" coords="1393,123,1524,148"/>
+<area shape="poly" id="edge55_Node000001_Node000036" title=" " alt="" coords="1880,59,1521,125,1520,120,1879,54"/>
+<area shape="rect" id="Node000043" href="$msg_8h.html" title="OpenM++: message passing library public interface." alt="" coords="2327,225,2441,251"/>
+<area shape="poly" id="edge71_Node000001_Node000043" title=" " alt="" coords="2020,72,2044,119,2061,142,2082,161,2110,179,2141,194,2207,216,2271,228,2327,233,2327,238,2271,233,2206,221,2139,199,2108,184,2078,165,2057,145,2040,122,2015,74"/>
+<area shape="rect" id="Node000003" href="$meta_model_holder_8h.html" title="OpenM++ modeling library: holder struct for model metadata." alt="" coords="153,211,391,265"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="523,169,365,213,364,208,521,164"/>
+<area shape="rect" id="Node000004" href="$model_builder_8h.html" title="OpenM++ data library: public interface to produce model creation script." alt="" coords="248,313,469,368"/>
+<area shape="poly" id="edge18_Node000002_Node000004" title=" " alt="" coords="538,170,499,189,463,213,436,237,413,264,376,315,372,311,408,260,433,233,460,209,496,185,535,166"/>
+<area shape="rect" id="Node000005" href="$model_insert_sql_8h.html" title="OpenM++ data library: class to produce insert sql statements for new model." alt="" coords="415,416,599,441"/>
+<area shape="poly" id="edge21_Node000002_Node000005" title=" " alt="" coords="548,172,525,190,508,212,496,239,490,267,488,326,496,378,505,415,500,416,491,379,483,326,484,267,491,237,503,209,521,186,545,168"/>
+<area shape="rect" id="Node000007" href="$meta_set_holder_8h.html" title="OpenM++ modeling library: holder struct for working sets metadata." alt="" coords="517,211,739,265"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="631,176,631,211,625,211,625,176"/>
+<area shape="rect" id="Node000017" href="$model_expression_sql_8h.html" title="OpenM++ data library: classes to translate output table accumulators and expressions into sql." alt="" coords="5,328,224,353"/>
+<area shape="poly" id="edge19_Node000002_Node000017" title=" " alt="" coords="504,142,400,149,293,162,201,182,166,196,142,213,124,240,116,272,114,303,116,328,110,328,109,303,111,271,119,238,138,209,164,192,200,177,293,157,400,144,503,137"/>
+<area shape="rect" id="Node000018" href="$db_meta_table_8h.html" title="OpenM++ data library: db tables for model metadata." alt="" coords="915,225,1083,251"/>
+<area shape="poly" id="edge22_Node000002_Node000018" title=" " alt="" coords="738,164,957,223,956,228,737,169"/>
+<area shape="rect" id="Node000019" href="$meta_holder_8h.html" title="OpenM++ modeling library: holder struct for metadata tables used by model." alt="" coords="1101,328,1262,353"/>
+<area shape="poly" id="edge43_Node000002_Node000019" title=" " alt="" coords="690,167,789,215,904,263,1023,300,1128,325,1126,331,1021,305,902,268,787,220,688,171"/>
+<area shape="poly" id="edge44_Node000002_Node000021" title=" " alt="" coords="753,145,917,168,1007,186,1095,208,1165,230,1219,250,1335,311,1386,346,1422,380,1458,410,1512,439,1598,467,1687,484,1771,494,1841,498,1840,503,1771,499,1687,489,1597,472,1510,444,1455,415,1418,384,1382,350,1332,316,1217,255,1164,235,1094,213,1006,191,916,174,752,151"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="306,274,338,311,334,315,301,277"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="417,372,488,414,485,418,414,377"/>
+<area shape="rect" id="Node000006" href="$model_sql_builder_8h.html" title="OpenM++ data library: class to produce sql creation script for new model." alt="" coords="411,489,603,515"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="372,380,385,411,405,440,440,468,477,487,475,492,437,472,401,443,381,414,367,382"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="509,455,509,489,504,489,504,455"/>
+<area shape="poly" id="edge8_Node000007_Node000004" title=" " alt="" coords="546,273,430,316,428,311,544,268"/>
+<area shape="rect" id="Node000008" href="$db_parameter_8h.html" title="OpenM++ data library: input parameter interfaces." alt="" coords="782,416,949,441"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="673,272,853,414,849,418,670,276"/>
+<area shape="rect" id="Node000009" href="$run_controller_impl_8h.html" title="OpenM++ modeling library: impelementation of controllers for modeling process run." alt="" coords="1157,489,1350,515"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="941,441,1191,487,1190,492,940,446"/>
+<area shape="rect" id="Node000010" href="$child_controller_8cpp.html" title="OpenM++ modeling library: child process run controller class to receive input parameters from root an..." alt="" coords="1866,563,2054,588"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="1364,511,1854,560,1866,561,1866,567,1853,565,1364,517"/>
+<area shape="rect" id="Node000011" href="$restart_controller_8cpp.html" title="OpenM++ modeling library: process run controller class for model &quot;restart run&quot; to calculate outstandi..." alt="" coords="501,563,701,588"/>
+<area shape="poly" id="edge12_Node000009_Node000011" title=" " alt="" coords="1143,518,702,566,701,560,1143,513"/>
+<area shape="rect" id="Node000012" href="$root_controller_8cpp.html" title="OpenM++ modeling library: root process run controller class to create new model run(s),..." alt="" coords="726,563,909,588"/>
+<area shape="poly" id="edge13_Node000009_Node000012" title=" " alt="" coords="1170,519,888,565,887,560,1170,514"/>
+<area shape="rect" id="Node000013" href="$run_controller_8cpp.html" title="OpenM++ modeling library: run controller class to create new model run(s) and support data exchange." alt="" coords="933,563,1112,588"/>
+<area shape="poly" id="edge14_Node000009_Node000013" title=" " alt="" coords="1204,521,1061,565,1059,560,1202,516"/>
+<area shape="rect" id="Node000014" href="$run_controller_new_run_8cpp.html" title="OpenM++ modeling library: run controller class to create new model run(s) and support data exchange (..." alt="" coords="1137,563,1370,588"/>
+<area shape="poly" id="edge15_Node000009_Node000014" title=" " alt="" coords="1256,528,1256,563,1251,563,1251,528"/>
+<area shape="rect" id="Node000015" href="$run_controller_params_8cpp.html" title="OpenM++ modeling library: run controller class to create new model run(s) and support data exchange (..." alt="" coords="1395,563,1621,588"/>
+<area shape="poly" id="edge16_Node000009_Node000015" title=" " alt="" coords="1308,516,1467,560,1466,565,1307,521"/>
+<area shape="rect" id="Node000016" href="$single_controller_8cpp.html" title="OpenM++ modeling library: single process run controller class to create new model run(s),..." alt="" coords="1646,563,1842,588"/>
+<area shape="poly" id="edge17_Node000009_Node000016" title=" " alt="" coords="1346,514,1665,560,1665,565,1345,519"/>
+<area shape="poly" id="edge20_Node000017_Node000006" title=" " alt="" coords="156,356,479,487,477,492,154,361"/>
+<area shape="poly" id="edge23_Node000018_Node000006" title=" " alt="" coords="977,262,868,349,793,400,713,444,636,473,563,492,562,487,634,468,711,439,791,395,865,345,974,258"/>
+<area shape="poly" id="edge24_Node000018_Node000019" title=" " alt="" coords="1033,255,1162,326,1159,330,1030,260"/>
+<area shape="poly" id="edge42_Node000018_Node000021" title=" " alt="" coords="1078,251,1173,275,1225,291,1275,311,1331,344,1371,378,1411,410,1436,425,1468,439,1567,468,1669,486,1764,495,1841,498,1841,504,1763,500,1668,491,1566,473,1466,444,1433,430,1407,414,1367,382,1328,348,1272,316,1223,296,1172,280,1076,256"/>
+<area shape="poly" id="edge27_Node000019_Node000008" title=" " alt="" coords="1126,360,908,418,907,413,1125,354"/>
+<area shape="rect" id="Node000020" href="$db_output_table_8h.html" title="OpenM++ data library: output table interfaces." alt="" coords="1219,416,1397,441"/>
+<area shape="poly" id="edge25_Node000019_Node000020" title=" " alt="" coords="1211,359,1292,414,1289,418,1208,363"/>
+<area shape="poly" id="edge28_Node000019_Node000021" title=" " alt="" coords="1183,366,1188,405,1196,424,1208,439,1242,453,1303,464,1481,481,1680,492,1841,497,1841,502,1680,497,1480,487,1303,470,1240,458,1205,443,1191,427,1183,407,1178,367"/>
+<area shape="rect" id="Node000027" href="$meta_holder_8cpp.html" title="OpenM++ modeling library: holder struct for metadata tables used by model." alt="" coords="973,416,1144,441"/>
+<area shape="poly" id="edge41_Node000019_Node000027" title=" " alt="" coords="1155,364,1077,418,1074,414,1152,359"/>
+<area shape="poly" id="edge26_Node000020_Node000009" title=" " alt="" coords="1293,454,1264,491,1260,488,1289,451"/>
+<area shape="poly" id="edge30_Node000021_Node000010" title=" " alt="" coords="1924,524,1953,561,1949,564,1920,527"/>
+<area shape="poly" id="edge34_Node000021_Node000011" title=" " alt="" coords="1826,508,1356,527,1038,544,714,565,702,566,701,561,713,560,1037,539,1356,522,1826,503"/>
+<area shape="poly" id="edge35_Node000021_Node000012" title=" " alt="" coords="1827,509,1438,530,922,565,909,566,909,561,921,560,1438,524,1827,504"/>
+<area shape="poly" id="edge36_Node000021_Node000013" title=" " alt="" coords="1827,511,1519,533,1124,565,1112,566,1112,561,1124,560,1519,527,1827,506"/>
+<area shape="poly" id="edge38_Node000021_Node000014" title=" " alt="" coords="1827,514,1359,565,1358,560,1827,509"/>
+<area shape="poly" id="edge39_Node000021_Node000015" title=" " alt="" coords="1827,520,1573,565,1572,560,1826,514"/>
+<area shape="poly" id="edge40_Node000021_Node000016" title=" " alt="" coords="1867,523,1771,565,1769,560,1865,518"/>
+<area shape="rect" id="Node000022" href="$main_8cpp.html" title="OpenM++ model: main entry point." alt="" coords="2739,563,2821,588"/>
+<area shape="poly" id="edge29_Node000021_Node000022" title=" " alt="" coords="1982,503,2307,519,2516,535,2727,560,2739,562,2738,567,2726,565,2516,541,2307,524,1981,508"/>
+<area shape="rect" id="Node000023" href="$meta_loader_8cpp.html" title="OpenM++ modeling library: model metadata loader to read and broadcast metadata and run options." alt="" coords="2845,563,3016,588"/>
+<area shape="poly" id="edge31_Node000021_Node000023" title=" " alt="" coords="1981,504,2349,524,2834,560,2845,561,2845,566,2833,565,2348,530,1981,510"/>
+<area shape="rect" id="Node000024" href="$model_base_8cpp.html" title="OpenM++ modeling library: modeling thread implementation to calculate model sub&#45;value." alt="" coords="2078,563,2245,588"/>
+<area shape="poly" id="edge32_Node000021_Node000024" title=" " alt="" coords="1959,516,2120,560,2119,565,1958,521"/>
+<area shape="rect" id="Node000025" href="$model_helper_8cpp.html" title="OpenM++ modeling library: helper classes for process run controller." alt="" coords="2269,563,2446,588"/>
+<area shape="poly" id="edge33_Node000021_Node000025" title=" " alt="" coords="1982,513,2285,560,2284,565,1981,518"/>
+<area shape="rect" id="Node000026" href="$run_controller_microdata_8cpp.html" title="OpenM++ modeling library: run controller class to create new model run(s) and support data exchange." alt="" coords="2470,563,2714,588"/>
+<area shape="poly" id="edge37_Node000021_Node000026" title=" " alt="" coords="1981,509,2482,560,2481,565,1981,514"/>
+<area shape="poly" id="edge46_Node000028_Node000021" title=" " alt="" coords="2019,380,1982,418,1916,491,1912,487,1978,414,2015,376"/>
+<area shape="rect" id="Node000029" href="$model_run_state_8h.html" title="OpenM++ modeling library: implementation." alt="" coords="1993,416,2178,441"/>
+<area shape="poly" id="edge47_Node000028_Node000029" title=" " alt="" coords="2070,380,2083,415,2078,417,2065,381"/>
+<area shape="poly" id="edge48_Node000029_Node000021" title=" " alt="" coords="2045,449,1935,492,1933,487,2043,444"/>
+<area shape="rect" id="Node000032" href="$file_8cpp.html" title="OpenM++ common file utility functions." alt="" coords="2465,225,2596,251"/>
+<area shape="poly" id="edge51_Node000031_Node000032" title=" " alt="" coords="2675,157,2552,228,2549,223,2672,153"/>
+<area shape="rect" id="Node000033" href="$ini_reader_8cpp.html" title="OpenM++ ini&#45;file reader: load ini&#45;file and return values." alt="" coords="2620,225,2791,251"/>
+<area shape="poly" id="edge52_Node000031_Node000033" title=" " alt="" coords="2708,162,2708,225,2703,225,2703,162"/>
+<area shape="rect" id="Node000034" href="$log_8cpp.html" title="OpenM++: log to console and into log files." alt="" coords="2815,225,2945,251"/>
+<area shape="poly" id="edge53_Node000031_Node000034" title=" " alt="" coords="2738,153,2862,223,2859,228,2736,157"/>
+<area shape="rect" id="Node000035" href="$utf8_convert_8cpp.html" title="OpenM++ UTF&#45;8 converter: text bytes from source encoding (from Windows code page) to UTF&#45;8." alt="" coords="2969,225,3156,251"/>
+<area shape="poly" id="edge54_Node000031_Node000035" title=" " alt="" coords="2760,149,3023,223,3021,228,2758,154"/>
+<area shape="poly" id="edge65_Node000036_Node000005" title=" " alt="" coords="1380,138,1274,142,1143,153,1000,175,928,192,860,213,785,250,687,310,525,418,522,414,684,305,782,246,858,208,927,187,999,170,1142,147,1274,136,1380,133"/>
+<area shape="poly" id="edge66_Node000036_Node000006" title=" " alt="" coords="1380,145,1123,169,995,189,943,200,904,213,758,327,612,444,530,492,527,487,609,439,754,323,901,208,941,195,994,184,1123,164,1379,139"/>
+<area shape="poly" id="edge69_Node000036_Node000008" title=" " alt="" coords="1423,156,1089,316,889,418,886,413,1087,311,1421,151"/>
+<area shape="poly" id="edge67_Node000036_Node000018" title=" " alt="" coords="1387,153,1102,213,1043,228,1041,223,1101,208,1386,148"/>
+<area shape="poly" id="edge68_Node000036_Node000020" title=" " alt="" coords="1449,161,1316,417,1312,414,1444,159"/>
+<area shape="rect" id="Node000037" href="$db_exec_8cpp.html" title="OpenM++ data library: db connection wrapper public interface." alt="" coords="1755,225,1869,251"/>
+<area shape="poly" id="edge56_Node000036_Node000037" title=" " alt="" coords="1519,149,1737,208,1781,223,1780,228,1735,213,1517,154"/>
+<area shape="rect" id="Node000038" href="$db_exec_base_8cpp.html" title="OpenM++ data library: base class for db connection wrapper." alt="" coords="1445,328,1592,353"/>
+<area shape="poly" id="edge57_Node000036_Node000038" title=" " alt="" coords="1464,161,1473,210,1487,264,1515,327,1510,329,1481,266,1467,211,1459,162"/>
+<area shape="rect" id="Node000039" href="$db_exec_base_8h.html" title="OpenM++ data library: common classes for db connection wrapper." alt="" coords="1497,225,1629,251"/>
+<area shape="poly" id="edge58_Node000036_Node000039" title=" " alt="" coords="1483,156,1553,223,1549,227,1479,160"/>
+<area shape="rect" id="Node000040" href="$db_exec_sqlite_8h.html" title="OpenM++ data library: db connection wrapper for SQLite." alt="" coords="1617,328,1754,353"/>
+<area shape="poly" id="edge64_Node000036_Node000040" title=" " alt="" coords="1534,149,1591,172,1618,188,1642,209,1663,239,1676,272,1687,327,1682,328,1671,273,1658,241,1638,212,1615,193,1588,176,1532,154"/>
+<area shape="rect" id="Node000041" href="$db_exec_provider_8cpp.html" title="OpenM++ data library: base class for db connection wrapper." alt="" coords="1699,416,1867,441"/>
+<area shape="poly" id="edge63_Node000036_Node000041" title=" " alt="" coords="1531,149,1604,172,1641,188,1676,208,1708,231,1731,252,1750,277,1768,312,1778,340,1783,369,1786,416,1780,416,1778,370,1772,342,1763,314,1745,280,1727,256,1705,235,1673,213,1639,193,1602,177,1529,154"/>
+<area shape="poly" id="edge59_Node000039_Node000038" title=" " alt="" coords="1554,265,1526,329,1521,327,1550,262"/>
+<area shape="poly" id="edge60_Node000039_Node000040" title=" " alt="" coords="1589,257,1673,326,1670,330,1586,261"/>
+<area shape="poly" id="edge61_Node000040_Node000041" title=" " alt="" coords="1710,360,1771,413,1767,417,1707,364"/>
+<area shape="rect" id="Node000042" href="$db_exec_sqlite_8cpp.html" title="OpenM++ data library: db connection wrapper for SQLite." alt="" coords="1523,416,1675,441"/>
+<area shape="poly" id="edge62_Node000040_Node000042" title=" " alt="" coords="1666,365,1613,417,1609,414,1662,361"/>
+<area shape="rect" id="Node000044" href="$meta_loader_8h.html" title="OpenM++ modeling library: model metadata loader to read and broadcast metadata and run options." alt="" coords="2209,328,2372,353"/>
+<area shape="poly" id="edge72_Node000043_Node000044" title=" " alt="" coords="2366,263,2303,330,2299,326,2362,259"/>
+<area shape="rect" id="Node000046" href="$msg_common_8h.html" title="OpenM++: message passing library common classes and interfaces." alt="" coords="2401,328,2554,353"/>
+<area shape="poly" id="edge75_Node000043_Node000046" title=" " alt="" coords="2406,259,2469,326,2465,330,2402,263"/>
+<area shape="rect" id="Node000057" href="$msg_exec_base_8h.html" title="OpenM++: message passing library base class." alt="" coords="2610,328,2766,353"/>
+<area shape="poly" id="edge78_Node000043_Node000057" title=" " alt="" coords="2427,253,2454,263,2650,325,2649,330,2452,268,2425,258"/>
+<area shape="rect" id="Node000050" href="$msg_mpi_8h.html" title="OpenM++: message passing library common classes and interfaces." alt="" coords="2778,416,2897,441"/>
+<area shape="poly" id="edge80_Node000043_Node000050" title=" " alt="" coords="2424,253,2454,263,2503,272,2547,274,2624,268,2661,268,2698,272,2737,286,2780,311,2804,335,2821,364,2838,415,2832,417,2816,366,2800,338,2777,315,2735,291,2697,278,2661,273,2625,274,2547,279,2503,277,2453,268,2422,258"/>
+<area shape="rect" id="Node000045" href="$run_controller_8h.html" title="OpenM++ modeling library: public base class for run controller to run modeling process." alt="" coords="2202,416,2371,441"/>
+<area shape="poly" id="edge73_Node000044_Node000045" title=" " alt="" coords="2292,367,2290,416,2285,415,2287,367"/>
+<area shape="poly" id="edge74_Node000045_Node000021" title=" " alt="" coords="2212,446,1966,492,1965,487,2211,441"/>
+<area shape="rect" id="Node000047" href="$msg_exec_base_8cpp.html" title="OpenM++: message passing library base class." alt="" coords="2583,416,2753,441"/>
+<area shape="poly" id="edge76_Node000046_Node000047" title=" " alt="" coords="2517,357,2643,413,2641,418,2514,362"/>
+<area shape="rect" id="Node000048" href="$msg_mpi_exec_8cpp.html" title="OpenM++: message passing library main class for MPI&#45;based implementation." alt="" coords="2396,416,2559,441"/>
+<area shape="poly" id="edge77_Node000046_Node000048" title=" " alt="" coords="2480,367,2480,415,2475,415,2475,367"/>
+<area shape="poly" id="edge79_Node000057_Node000050" title=" " alt="" coords="2721,358,2818,413,2816,418,2719,363"/>
 </map>

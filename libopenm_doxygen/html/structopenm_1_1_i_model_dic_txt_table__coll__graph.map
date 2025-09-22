@@ -1,5 +1,7 @@
 <map id="openm::IModelDicTxtTable" name="openm::IModelDicTxtTable">
-<area shape="rect" id="node1" title="model_dic_txt table public interface." alt="" coords="5,184,200,211"/>
-<area shape="rect" id="node2" href="$structopenm_1_1_i_meta_loaded_table.html" title=" " alt="" coords="6,95,199,136"/>
-<area shape="rect" id="node3" href="$structopenm_1_1_i_meta_table.html" title=" " alt="" coords="24,5,181,47"/>
+<area shape="rect" id="Node000001" title="model_dic_txt table public interface." alt="" coords="5,181,200,207"/>
+<area shape="rect" id="Node000002" href="$structopenm_1_1_i_meta_loaded_table.html" title=" " alt="" coords="6,93,199,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,147,105,181,100,181,100,147"/>
+<area shape="rect" id="Node000003" href="$structopenm_1_1_i_meta_table.html" title="base class for metadata db&#45;tables" alt="" coords="24,5,181,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="105,59,105,93,100,93,100,59"/>
 </map>

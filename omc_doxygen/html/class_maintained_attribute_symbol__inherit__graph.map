@@ -1,10 +1,17 @@
 <map id="MaintainedAttributeSymbol" name="MaintainedAttributeSymbol">
-<area shape="rect" id="node1" title="MaintainedAttributeSymbol." alt="" coords="197,304,398,331"/>
-<area shape="rect" id="node6" href="$class_derived_attribute_symbol.html" title="DerivedAttributeSymbol." alt="" coords="5,379,184,405"/>
-<area shape="rect" id="node7" href="$class_identity_attribute_symbol.html" title="IdentityAttributeSymbol." alt="" coords="208,379,387,405"/>
-<area shape="rect" id="node8" href="$class_multilink_attribute_symbol.html" title="MultilinkAttributeSymbol." alt="" coords="411,379,597,405"/>
-<area shape="rect" id="node2" href="$class_attribute_symbol.html" title=" " alt="" coords="233,229,361,256"/>
-<area shape="rect" id="node3" href="$class_entity_data_member_symbol.html" title=" " alt="" coords="200,155,395,181"/>
-<area shape="rect" id="node4" href="$class_entity_member_symbol.html" title=" " alt="" coords="216,80,379,107"/>
-<area shape="rect" id="node5" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="262,5,333,32"/>
+<area shape="rect" id="Node000001" title="MaintainedAttributeSymbol." alt="" coords="197,299,398,324"/>
+<area shape="rect" id="Node000006" href="$class_derived_attribute_symbol.html" title="DerivedAttributeSymbol." alt="" coords="5,372,184,397"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="253,331,128,374,127,369,251,326"/>
+<area shape="rect" id="Node000007" href="$class_identity_attribute_symbol.html" title="IdentityAttributeSymbol." alt="" coords="208,372,387,397"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="300,338,300,372,295,372,295,338"/>
+<area shape="rect" id="Node000008" href="$class_multilink_attribute_symbol.html" title="MultilinkAttributeSymbol." alt="" coords="411,372,597,397"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="344,326,471,369,470,374,343,331"/>
+<area shape="rect" id="Node000002" href="$class_attribute_symbol.html" title=" " alt="" coords="233,225,361,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="300,264,300,299,295,299,295,264"/>
+<area shape="rect" id="Node000003" href="$class_entity_data_member_symbol.html" title=" " alt="" coords="200,152,395,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="300,191,300,225,295,225,295,191"/>
+<area shape="rect" id="Node000004" href="$class_entity_member_symbol.html" title=" " alt="" coords="216,79,379,104"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="300,118,300,152,295,152,295,118"/>
+<area shape="rect" id="Node000005" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="262,5,333,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="300,44,300,79,295,79,295,44"/>
 </map>

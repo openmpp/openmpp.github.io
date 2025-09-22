@@ -1,10 +1,18 @@
 <map id="GlobalFuncSymbol" name="GlobalFuncSymbol">
-<area shape="rect" id="node1" title="GlobalFuncSymbol." alt="" coords="253,332,396,359"/>
-<area shape="rect" id="node2" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="156,228,227,255"/>
-<area shape="rect" id="node5" href="$class_module_symbol.html" title="Symbol for a source code module." alt="" coords="103,332,221,359"/>
-<area shape="rect" id="node3" href="$classomc_1_1location.html" title="Two points in a source file." alt="" coords="5,109,116,136"/>
-<area shape="rect" id="node4" href="$classomc_1_1position.html" title="A point in a source file." alt="" coords="5,5,116,32"/>
-<area shape="rect" id="node6" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="140,109,251,136"/>
-<area shape="rect" id="node7" href="$class_code_block.html" title=" " alt="" coords="287,228,378,255"/>
-<area shape="rect" id="node8" title=" " alt="" coords="278,109,387,136"/>
+<area shape="rect" id="Node000001" title="GlobalFuncSymbol." alt="" coords="253,328,396,353"/>
+<area shape="rect" id="Node000002" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="156,225,227,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="234,254,265,273,295,300,318,326,314,329,291,304,262,277,231,259"/>
+<area shape="rect" id="Node000005" href="$class_module_symbol.html" title="Symbol for a source code module." alt="" coords="103,328,221,353"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="177,264,171,276,165,303,164,328,159,327,160,302,166,274,172,261"/>
+<area shape="rect" id="Node000003" href="$classomc_1_1location.html" title="Two points in a source file." alt="" coords="5,108,116,133"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="76,144,96,172,122,199,162,223,160,227,119,203,92,176,72,147"/>
+<area shape="rect" id="Node000004" href="$classomc_1_1position.html" title="A point in a source file." alt="" coords="5,5,116,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="63,45,63,108,58,108,58,45"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="167,314,185,250,191,252,172,316"/>
+<area shape="rect" id="Node000006" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="140,108,251,133"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="197,147,194,225,189,225,192,147"/>
+<area shape="rect" id="Node000007" href="$class_code_block.html" title=" " alt="" coords="287,225,378,251"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="333,265,328,328,323,328,328,264"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="278,108,387,133"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="335,147,335,225,330,225,330,147"/>
 </map>

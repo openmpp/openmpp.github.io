@@ -1,8 +1,13 @@
 <map id="SimpleAttributeSymbol" name="SimpleAttributeSymbol">
-<area shape="rect" id="node1" title="SimpleAttributeSymbol." alt="" coords="24,304,197,331"/>
-<area shape="rect" id="node6" href="$class_simple_attribute_enum_symbol.html" title="SimpleAttributeEnumSymbol." alt="" coords="5,379,216,405"/>
-<area shape="rect" id="node2" href="$class_attribute_symbol.html" title=" " alt="" coords="47,229,175,256"/>
-<area shape="rect" id="node3" href="$class_entity_data_member_symbol.html" title=" " alt="" coords="13,155,208,181"/>
-<area shape="rect" id="node4" href="$class_entity_member_symbol.html" title=" " alt="" coords="29,80,192,107"/>
-<area shape="rect" id="node5" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="75,5,146,32"/>
+<area shape="rect" id="Node000001" title="SimpleAttributeSymbol." alt="" coords="24,299,197,324"/>
+<area shape="rect" id="Node000006" href="$class_simple_attribute_enum_symbol.html" title="SimpleAttributeEnumSymbol." alt="" coords="5,372,216,397"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="113,338,113,372,108,372,108,338"/>
+<area shape="rect" id="Node000002" href="$class_attribute_symbol.html" title=" " alt="" coords="47,225,175,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,264,113,299,108,299,108,264"/>
+<area shape="rect" id="Node000003" href="$class_entity_data_member_symbol.html" title=" " alt="" coords="13,152,208,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="113,191,113,225,108,225,108,191"/>
+<area shape="rect" id="Node000004" href="$class_entity_member_symbol.html" title=" " alt="" coords="29,79,192,104"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="113,118,113,152,108,152,108,118"/>
+<area shape="rect" id="Node000005" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="75,5,146,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="113,44,113,79,108,79,108,44"/>
 </map>

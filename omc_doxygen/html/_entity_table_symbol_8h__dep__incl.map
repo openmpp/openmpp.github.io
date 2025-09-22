@@ -1,18 +1,42 @@
 <map id="EntityTableSymbol.h" name="EntityTableSymbol.h">
-<area shape="rect" id="node1" title="Declares the EntityTableSymbol derived class of the Symbol class." alt="" coords="1057,5,1212,32"/>
-<area shape="rect" id="node2" href="$_entity_increment_symbol_8h.html" title="Declarations for the EntityIncrementSymbol class." alt="" coords="523,87,709,114"/>
-<area shape="rect" id="node5" href="$_entity_symbol_8cpp.html" title="Implements the EntitySymbol derived class of the Symbol class." alt="" coords="5,169,141,196"/>
-<area shape="rect" id="node6" href="$_entity_table_symbol_8cpp.html" title="Definitions for the EntityTableSymbol class." alt="" coords="637,169,808,196"/>
-<area shape="rect" id="node7" href="$_symbol_8cpp.html" title="Definitions for the Symbol class." alt="" coords="832,169,931,196"/>
-<area shape="rect" id="node8" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="955,169,1010,196"/>
-<area shape="rect" id="node10" href="$_entity_table_accumulator_symbol_8cpp.html" title="Definitions for the EntityTableAccumulatorSymbol class." alt="" coords="1034,169,1286,196"/>
-<area shape="rect" id="node11" href="$_entity_table_accumulator_symbol_8h.html" title="Declarations for the EntityTableAccumulatorSymbol class." alt="" coords="835,87,1072,114"/>
-<area shape="rect" id="node12" href="$omc__model__doc_8cpp.html" title="Function to create Model doc." alt="" coords="1311,169,1465,196"/>
-<area shape="rect" id="node13" href="$_entity_table_measure_attribute_symbol_8cpp.html" title="Definitions for the EntityTableMeasureAttributeSymbol class." alt="" coords="1249,80,1455,121"/>
-<area shape="rect" id="node14" href="$_table_symbol_8cpp.html" title="Definitions for the TableSymbol class." alt="" coords="1479,87,1611,114"/>
-<area shape="rect" id="node15" href="$omc__missing__documentation_8cpp.html" title="Function which emits warnings for missing model documentation." alt="" coords="1636,87,1876,114"/>
-<area shape="rect" id="node16" href="$omc__model__metrics_8cpp.html" title="Function to create Model Metrics Report." alt="" coords="1900,87,2081,114"/>
-<area shape="rect" id="node3" href="$_entity_data_member_symbol_8cpp.html" title="Definitions for the EntityDataMemberSymbol class." alt="" coords="165,169,387,196"/>
-<area shape="rect" id="node4" href="$_entity_increment_symbol_8cpp.html" title="Definitions for the EntityIncrementSymbol class." alt="" coords="411,169,613,196"/>
-<area shape="rect" id="node9" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="929,244,1037,271"/>
+<area shape="rect" id="Node000001" title="Declares the EntityTableSymbol derived class of the Symbol class." alt="" coords="1057,5,1212,31"/>
+<area shape="rect" id="Node000002" href="$_entity_increment_symbol_8h.html" title="Declarations for the EntityIncrementSymbol class." alt="" coords="523,86,709,111"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1044,35,728,81,683,89,682,83,728,76,1043,29"/>
+<area shape="rect" id="Node000005" href="$_entity_symbol_8cpp.html" title="Implements the EntitySymbol derived class of the Symbol class." alt="" coords="5,167,141,192"/>
+<area shape="poly" id="edge9_Node000001_Node000005" title=" " alt="" coords="1043,27,802,46,656,61,511,81,398,102,288,126,116,169,115,164,286,121,397,97,510,76,656,56,801,40,1043,22"/>
+<area shape="rect" id="Node000006" href="$_entity_table_symbol_8cpp.html" title="Definitions for the EntityTableSymbol class." alt="" coords="637,167,808,192"/>
+<area shape="poly" id="edge18_Node000001_Node000006" title=" " alt="" coords="1044,23,989,28,929,39,869,56,812,81,785,101,762,125,731,168,727,165,758,121,782,97,809,76,867,51,928,33,988,23,1043,18"/>
+<area shape="rect" id="Node000007" href="$_symbol_8cpp.html" title="Definitions for the Symbol class." alt="" coords="832,167,931,192"/>
+<area shape="poly" id="edge19_Node000001_Node000007" title=" " alt="" coords="1044,27,979,33,914,44,858,59,838,69,825,80,819,91,818,101,828,125,847,147,867,165,864,169,843,151,824,128,813,102,814,89,821,77,835,65,856,54,912,39,978,28,1044,21"/>
+<area shape="rect" id="Node000008" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="955,167,1010,192"/>
+<area shape="poly" id="edge21_Node000001_Node000008" title=" " alt="" coords="1129,45,1112,82,1086,120,1049,150,1011,170,1009,165,1046,145,1082,117,1108,80,1124,43"/>
+<area shape="rect" id="Node000010" href="$_entity_table_accumulator_symbol_8cpp.html" title="Definitions for the EntityTableAccumulatorSymbol class." alt="" coords="1034,167,1286,192"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="1141,44,1161,166,1155,167,1136,45"/>
+<area shape="rect" id="Node000011" href="$_entity_table_accumulator_symbol_8h.html" title="Declarations for the EntityTableAccumulatorSymbol class." alt="" coords="835,86,1072,111"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="1097,39,981,88,979,84,1095,34"/>
+<area shape="rect" id="Node000012" href="$omc__model__doc_8cpp.html" title="Function to create Model doc." alt="" coords="1311,167,1465,192"/>
+<area shape="poly" id="edge23_Node000001_Node000012" title=" " alt="" coords="1155,40,1192,78,1239,116,1294,145,1348,164,1346,169,1292,150,1236,121,1188,82,1151,43"/>
+<area shape="rect" id="Node000013" href="$_entity_table_measure_attribute_symbol_8cpp.html" title="Definitions for the EntityTableMeasureAttributeSymbol class." alt="" coords="1249,79,1455,119"/>
+<area shape="poly" id="edge17_Node000001_Node000013" title=" " alt="" coords="1180,33,1301,76,1299,81,1178,38"/>
+<area shape="rect" id="Node000014" href="$_table_symbol_8cpp.html" title="Definitions for the TableSymbol class." alt="" coords="1479,86,1611,111"/>
+<area shape="poly" id="edge20_Node000001_Node000014" title=" " alt="" coords="1220,30,1469,76,1501,83,1499,89,1467,81,1219,36"/>
+<area shape="rect" id="Node000015" href="$omc__missing__documentation_8cpp.html" title="Function which emits warnings for missing model documentation." alt="" coords="1636,86,1876,111"/>
+<area shape="poly" id="edge22_Node000001_Node000015" title=" " alt="" coords="1226,27,1624,76,1678,83,1677,89,1624,81,1225,32"/>
+<area shape="rect" id="Node000016" href="$omc__model__metrics_8cpp.html" title="Function to create Model Metrics Report." alt="" coords="1900,86,2081,111"/>
+<area shape="poly" id="edge24_Node000001_Node000016" title=" " alt="" coords="1226,21,1521,40,1705,55,1888,76,1934,83,1933,89,1888,81,1704,61,1521,45,1226,26"/>
+<area shape="rect" id="Node000003" href="$_entity_data_member_symbol_8cpp.html" title="Definitions for the EntityDataMemberSymbol class." alt="" coords="165,167,387,192"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="554,117,326,169,325,164,553,112"/>
+<area shape="rect" id="Node000004" href="$_entity_increment_symbol_8cpp.html" title="Definitions for the EntityIncrementSymbol class." alt="" coords="411,167,613,192"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="592,122,529,169,526,164,588,117"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="524,116,142,171,141,166,523,111"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="644,117,708,164,705,169,641,122"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="668,113,843,164,842,169,667,118"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="693,111,811,135,943,164,956,167,955,173,942,169,810,140,692,116"/>
+<area shape="rect" id="Node000009" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="929,240,1037,265"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="985,206,985,240,980,240,980,206"/>
+<area shape="poly" id="edge13_Node000011_Node000006" title=" " alt="" coords="908,118,757,169,755,164,906,113"/>
+<area shape="poly" id="edge14_Node000011_Node000007" title=" " alt="" coords="935,123,894,168,890,165,931,120"/>
+<area shape="poly" id="edge15_Node000011_Node000008" title=" " alt="" coords="965,123,981,166,976,167,960,125"/>
+<area shape="poly" id="edge12_Node000011_Node000010" title=" " alt="" coords="997,114,1131,164,1129,169,995,119"/>
+<area shape="poly" id="edge16_Node000011_Node000012" title=" " alt="" coords="1031,111,1325,164,1324,169,1030,116"/>
 </map>

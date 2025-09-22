@@ -1,6 +1,9 @@
 <map id="openm::ParamDimsTxtLangRow" name="openm::ParamDimsTxtLangRow">
-<area shape="rect" id="node1" title="parameter_dims_txt table row and language code." alt="" coords="5,244,236,271"/>
-<area shape="rect" id="node2" href="$structopenm_1_1_param_dims_txt_row.html" title="parameter_dims_txt join to model_parameter_dic table row." alt="" coords="21,169,220,196"/>
-<area shape="rect" id="node3" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="5,80,236,121"/>
-<area shape="rect" id="node4" href="$structopenm_1_1_i_row_base.html" title="db&#45;row abstract base" alt="" coords="51,5,190,32"/>
+<area shape="rect" id="Node000001" title="parameter_dims_txt table row and language code." alt="" coords="5,240,236,265"/>
+<area shape="rect" id="Node000002" href="$structopenm_1_1_param_dims_txt_row.html" title="parameter_dims_txt join to model_parameter_dic table row." alt="" coords="21,167,220,192"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,206,123,240,118,240,118,206"/>
+<area shape="rect" id="Node000003" href="$structopenm_1_1_i_meta_row.html" title=" " alt="" coords="5,79,236,119"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="123,132,123,166,118,166,118,132"/>
+<area shape="rect" id="Node000004" href="$structopenm_1_1_i_row_base.html" title="db&#45;row abstract base" alt="" coords="51,5,190,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="123,44,123,79,118,79,118,44"/>
 </map>

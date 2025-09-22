@@ -1,5 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" title=" " alt="" coords="5,13,120,39"/>
-<area shape="rect" id="node2" href="$classopenm_1_1_openm_exception.html" title="openM++ exceptions" alt="" coords="168,5,415,47"/>
-<area shape="rect" id="node3" href="$classopenm_1_1_mpi_exception.html" title="messaging library MPI exception" alt="" coords="463,13,625,39"/>
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,13,120,38"/>
+<area shape="rect" id="Node000001" href="$classopenm_1_1_openm_exception.html" title="openM++ exceptions" alt="" coords="168,5,415,45"/>
+<area shape="poly" id="edge355_Node000000_Node000001" title=" " alt="" coords="134,23,168,23,168,28,134,28"/>
+<area shape="rect" id="Node000002" href="$classopenm_1_1_mpi_exception.html" title="messaging library MPI exception" alt="" coords="463,13,625,38"/>
+<area shape="poly" id="edge356_Node000001_Node000002" title=" " alt="" coords="428,23,463,23,463,28,428,28"/>
 </map>

@@ -1,7 +1,12 @@
 <map id="ModuleSymbol" name="ModuleSymbol">
-<area shape="rect" id="node1" title="Symbol for a source code module." alt="" coords="5,109,124,136"/>
-<area shape="rect" id="node2" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="147,228,217,255"/>
-<area shape="rect" id="node3" href="$classomc_1_1location.html" title="Two points in a source file." alt="" coords="148,109,259,136"/>
-<area shape="rect" id="node4" href="$classomc_1_1position.html" title="A point in a source file." alt="" coords="148,5,259,32"/>
-<area shape="rect" id="node5" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="283,109,393,136"/>
+<area shape="rect" id="Node000001" title="Symbol for a source code module." alt="" coords="5,108,124,133"/>
+<area shape="rect" id="Node000002" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="147,225,217,251"/>
+<area shape="poly" id="edge4_Node000002_Node000001" title=" " alt="" coords="58,147,54,174,56,188,61,200,79,216,101,226,147,235,146,240,99,231,76,220,57,203,51,189,48,174,53,146"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="172,213,159,185,140,159,122,146,102,136,104,131,125,141,144,155,164,183,177,211"/>
+<area shape="rect" id="Node000003" href="$classomc_1_1location.html" title="Two points in a source file." alt="" coords="148,108,259,133"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="201,147,187,226,181,225,196,146"/>
+<area shape="rect" id="Node000004" href="$classomc_1_1position.html" title="A point in a source file." alt="" coords="148,5,259,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="206,45,206,108,201,108,201,45"/>
+<area shape="rect" id="Node000005" href="$class_special_global.html" title="Helper class for special global functions PreSimulation, PostSimulation, UserTables." alt="" coords="283,108,393,133"/>
+<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="325,146,301,176,270,203,245,218,219,229,217,224,242,213,267,199,297,172,321,143"/>
 </map>

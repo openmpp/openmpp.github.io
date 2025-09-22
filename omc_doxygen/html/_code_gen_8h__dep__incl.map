@@ -1,10 +1,19 @@
 <map id="CodeGen.h" name="CodeGen.h">
-<area shape="rect" id="node1" title="Declares the code generation class." alt="" coords="245,5,338,32"/>
-<area shape="rect" id="node2" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="5,80,113,107"/>
-<area shape="rect" id="node3" href="$omc_8cpp.html" title="OpenM++ compiler (omc): main entry point." alt="" coords="449,155,526,181"/>
-<area shape="rect" id="node4" href="$omc__model__code__metrics_8h.html" title="omc function to rpoduce Model Code Metrics Report" alt="" coords="189,80,393,107"/>
-<area shape="rect" id="node5" href="$omc__model__doc_8h.html" title="Function to create Model doc." alt="" coords="417,80,557,107"/>
-<area shape="rect" id="node6" href="$omc__model__metrics_8h.html" title="Function to create Model Metrics Report." alt="" coords="581,80,748,107"/>
-<area shape="rect" id="node7" href="$omc__model__doc_8cpp.html" title="Function to create Model doc." alt="" coords="569,155,723,181"/>
-<area shape="rect" id="node8" href="$omc__model__metrics_8cpp.html" title="Function to create Model Metrics Report." alt="" coords="747,155,929,181"/>
+<area shape="rect" id="Node000001" title="Declares the code generation class." alt="" coords="245,5,338,31"/>
+<area shape="rect" id="Node000002" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="5,79,113,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="242,37,98,81,96,76,240,32"/>
+<area shape="rect" id="Node000003" href="$omc_8cpp.html" title="OpenM++ compiler (omc): main entry point." alt="" coords="449,152,526,177"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="240,38,210,51,185,66,173,84,173,93,179,102,196,116,224,127,298,144,379,154,449,159,448,165,379,160,297,150,222,132,194,120,175,106,168,94,168,82,182,62,207,46,238,33"/>
+<area shape="rect" id="Node000004" href="$omc__model__code__metrics_8h.html" title="omc function to rpoduce Model Code Metrics Report" alt="" coords="189,79,393,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="294,44,294,79,289,79,289,44"/>
+<area shape="rect" id="Node000005" href="$omc__model__doc_8h.html" title="Function to create Model doc." alt="" coords="417,79,557,104"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="336,33,456,76,454,81,335,38"/>
+<area shape="rect" id="Node000006" href="$omc__model__metrics_8h.html" title="Function to create Model Metrics Report." alt="" coords="581,79,748,104"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="352,28,605,76,604,81,351,33"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="490,118,490,152,485,152,485,118"/>
+<area shape="poly" id="edge7_Node000006_Node000003" title=" " alt="" coords="624,112,517,154,515,149,622,107"/>
+<area shape="rect" id="Node000007" href="$omc__model__doc_8cpp.html" title="Function to create Model doc." alt="" coords="569,152,723,177"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="661,118,652,153,646,151,656,117"/>
+<area shape="rect" id="Node000008" href="$omc__model__metrics_8cpp.html" title="Function to create Model Metrics Report." alt="" coords="747,152,929,177"/>
+<area shape="poly" id="edge9_Node000006_Node000008" title=" " alt="" coords="706,107,811,149,809,154,704,112"/>
 </map>

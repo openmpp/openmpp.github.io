@@ -1,16 +1,29 @@
 <map id="TypeSymbol" name="TypeSymbol">
-<area shape="rect" id="node1" title="TypeSymbol." alt="" coords="661,80,762,107"/>
-<area shape="rect" id="node3" href="$class_enumeration_symbol.html" title="EnumerationSymbol." alt="" coords="311,155,466,181"/>
-<area shape="rect" id="node9" href="$class_numeric_symbol.html" title="NumericSymbol." alt="" coords="491,155,617,181"/>
-<area shape="rect" id="node12" href="$class_string_type_symbol.html" title="StringTypeSymbol." alt="" coords="642,155,781,181"/>
-<area shape="rect" id="node13" href="$class_type_of_link_symbol.html" title="TypeOfLinkSymbol." alt="" coords="805,155,948,181"/>
-<area shape="rect" id="node14" href="$class_unknown_type_symbol.html" title="BoolSymbol." alt="" coords="973,155,1135,181"/>
-<area shape="rect" id="node2" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="676,5,747,32"/>
-<area shape="rect" id="node4" href="$class_enumeration_with_enumerators_symbol.html" title="EnumerationWithEnumeratorsSymbol." alt="" coords="99,229,318,271"/>
-<area shape="rect" id="node8" href="$class_range_symbol.html" title="RangeSymbol." alt="" coords="342,237,454,263"/>
-<area shape="rect" id="node5" href="$class_bool_symbol.html" title="BoolSymbol." alt="" coords="5,319,105,345"/>
-<area shape="rect" id="node6" href="$class_classification_symbol.html" title="ClassificationSymbol." alt="" coords="129,319,288,345"/>
-<area shape="rect" id="node7" href="$class_partition_symbol.html" title="PartitionSymbol." alt="" coords="313,319,438,345"/>
-<area shape="rect" id="node10" href="$class_real_symbol.html" title=" " alt="" coords="495,237,595,263"/>
-<area shape="rect" id="node11" href="$class_time_symbol.html" title=" " alt="" coords="619,237,723,263"/>
+<area shape="rect" id="Node000001" title="TypeSymbol." alt="" coords="661,79,762,104"/>
+<area shape="rect" id="Node000003" href="$class_enumeration_symbol.html" title="EnumerationSymbol." alt="" coords="311,152,466,177"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="648,109,441,155,440,149,647,104"/>
+<area shape="rect" id="Node000009" href="$class_numeric_symbol.html" title="NumericSymbol." alt="" coords="491,152,617,177"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="675,112,581,154,579,149,672,107"/>
+<area shape="rect" id="Node000012" href="$class_string_type_symbol.html" title="StringTypeSymbol." alt="" coords="642,152,781,177"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="714,118,714,152,709,152,709,118"/>
+<area shape="rect" id="Node000013" href="$class_type_of_link_symbol.html" title="TypeOfLinkSymbol." alt="" coords="805,152,948,177"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="751,107,851,149,849,154,749,112"/>
+<area shape="rect" id="Node000014" href="$class_unknown_type_symbol.html" title="BoolSymbol." alt="" coords="973,152,1135,177"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="776,103,999,149,998,155,775,109"/>
+<area shape="rect" id="Node000002" href="$class_symbol.html" title="A Symbol is a named syntactic entity in openM++." alt="" coords="676,5,747,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="714,44,714,79,709,79,709,44"/>
+<area shape="rect" id="Node000004" href="$class_enumeration_with_enumerators_symbol.html" title="EnumerationWithEnumeratorsSymbol." alt="" coords="99,225,318,265"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="351,185,253,228,251,223,349,180"/>
+<area shape="rect" id="Node000008" href="$class_range_symbol.html" title="RangeSymbol." alt="" coords="342,233,454,258"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="394,191,399,232,394,233,389,191"/>
+<area shape="rect" id="Node000005" href="$class_bool_symbol.html" title="BoolSymbol." alt="" coords="5,313,105,339"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="161,274,79,316,77,311,159,269"/>
+<area shape="rect" id="Node000006" href="$class_classification_symbol.html" title="ClassificationSymbol." alt="" coords="129,313,288,339"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="211,279,211,313,206,313,206,279"/>
+<area shape="rect" id="Node000007" href="$class_partition_symbol.html" title="PartitionSymbol." alt="" coords="313,313,438,339"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="262,269,352,311,350,316,260,274"/>
+<area shape="rect" id="Node000010" href="$class_real_symbol.html" title=" " alt="" coords="495,233,595,258"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="554,191,549,233,543,232,548,191"/>
+<area shape="rect" id="Node000011" href="$class_time_symbol.html" title=" " alt="" coords="619,233,723,258"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="584,183,655,230,652,235,581,187"/>
 </map>

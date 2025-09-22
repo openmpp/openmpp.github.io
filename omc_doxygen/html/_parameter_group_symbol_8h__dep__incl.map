@@ -1,10 +1,17 @@
 <map id="ParameterGroupSymbol.h" name="ParameterGroupSymbol.h">
-<area shape="rect" id="node1" title="Declarations for the ParameterGroupSymbol class." alt="" coords="375,5,565,32"/>
-<area shape="rect" id="node2" href="$_parameter_group_symbol_8cpp.html" title="Definitions for the ParameterGroupSymbol class." alt="" coords="5,80,209,107"/>
-<area shape="rect" id="node3" href="$_symbol_8cpp.html" title="Definitions for the Symbol class." alt="" coords="234,80,333,107"/>
-<area shape="rect" id="node4" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="357,80,412,107"/>
-<area shape="rect" id="node6" href="$omc__missing__documentation_8cpp.html" title="Function which emits warnings for missing model documentation." alt="" coords="437,80,677,107"/>
-<area shape="rect" id="node7" href="$omc__model__doc_8cpp.html" title="Function to create Model doc." alt="" coords="701,80,855,107"/>
-<area shape="rect" id="node8" href="$omc__model__metrics_8cpp.html" title="Function to create Model Metrics Report." alt="" coords="879,80,1061,107"/>
-<area shape="rect" id="node5" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="331,155,439,181"/>
+<area shape="rect" id="Node000001" title="Declarations for the ParameterGroupSymbol class." alt="" coords="375,5,565,31"/>
+<area shape="rect" id="Node000002" href="$_parameter_group_symbol_8cpp.html" title="Definitions for the ParameterGroupSymbol class." alt="" coords="5,79,209,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="399,36,167,81,166,76,398,31"/>
+<area shape="rect" id="Node000003" href="$_symbol_8cpp.html" title="Definitions for the Symbol class." alt="" coords="234,79,333,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="428,38,315,81,313,76,427,33"/>
+<area shape="rect" id="Node000004" href="$ast_8h.html" title="Includes all headers associated with a parsed representation of an openM++ model." alt="" coords="357,79,412,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="448,41,400,80,397,76,444,37"/>
+<area shape="rect" id="Node000006" href="$omc__missing__documentation_8cpp.html" title="Function which emits warnings for missing model documentation." alt="" coords="437,79,677,104"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="496,37,544,76,541,81,493,41"/>
+<area shape="rect" id="Node000007" href="$omc__model__doc_8cpp.html" title="Function to create Model doc." alt="" coords="701,79,855,104"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="533,31,729,76,728,81,532,36"/>
+<area shape="rect" id="Node000008" href="$omc__model__metrics_8cpp.html" title="Function to create Model Metrics Report." alt="" coords="879,79,1061,104"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="564,30,890,76,889,81,563,35"/>
+<area shape="rect" id="Node000005" href="$_code_gen_8cpp.html" title="Implements the code generation class." alt="" coords="331,152,439,177"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="387,118,387,152,382,152,382,118"/>
 </map>

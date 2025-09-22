@@ -1,4 +1,5 @@
 <map id="openm::IMetaLoadedTable&lt; TRow &gt;" name="openm::IMetaLoadedTable&lt; TRow &gt;">
-<area shape="rect" id="node1" title="base class for preloaded metadata db&#45;tables" alt="" coords="5,95,199,136"/>
-<area shape="rect" id="node2" href="$structopenm_1_1_i_meta_table.html" title="base class for metadata db&#45;tables" alt="" coords="23,5,181,47"/>
+<area shape="rect" id="Node000001" title="base class for preloaded metadata db&#45;tables" alt="" coords="5,93,199,133"/>
+<area shape="rect" id="Node000002" href="$structopenm_1_1_i_meta_table.html" title="base class for metadata db&#45;tables" alt="" coords="23,5,181,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,59,105,93,99,93,99,59"/>
 </map>
