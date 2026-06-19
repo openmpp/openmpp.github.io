@@ -46,6 +46,7 @@ var classopenm_1_1_run_controller =
     [ "shutdownRun", "classopenm_1_1_run_controller.html#a8bfa85d698ed65c511dd81821634abe6", null ],
     [ "shutdownWaitAll", "classopenm_1_1_run_controller.html#a4bf007be043a10724eae9c9efb0576e3", null ],
     [ "strOption", "classopenm_1_1_run_controller.html#a4807e924840f111a917e0094a24aad9f", null ],
+    [ "totalSubCount", "classopenm_1_1_run_controller.html#ababfe65ac5387729ebd4c9553a66a1df", null ],
     [ "updateRestartSubValueId", "classopenm_1_1_run_controller.html#a94fbe6b057877701fc3e4bf4725d9fa3", null ],
     [ "updateRunState", "classopenm_1_1_run_controller.html#a02e7272675f2eb6895c42d12a24f4ffa", null ],
     [ "writeAccumulators", "classopenm_1_1_run_controller.html#a099bbd592f3a3e9f6cf3ca5294f1d694", null ],

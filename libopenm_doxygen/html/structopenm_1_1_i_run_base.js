@@ -7,5 +7,6 @@ var structopenm_1_1_i_run_base =
     [ "parameterSelfSubCount", "structopenm_1_1_i_run_base.html#a908e71332aadc90382f62012b4e7e661", null ],
     [ "parameterSubCount", "structopenm_1_1_i_run_base.html#a99a574e93f3e07e888870467dfaefd59", null ],
     [ "parameterSubValueIndex", "structopenm_1_1_i_run_base.html#a6c76425f69a15135fea0d027a462d92f", null ],
-    [ "readParameter", "structopenm_1_1_i_run_base.html#a84612ac0177d89f0a0c7efc7f0df9fad", null ]
+    [ "readParameter", "structopenm_1_1_i_run_base.html#a84612ac0177d89f0a0c7efc7f0df9fad", null ],
+    [ "totalSubCount", "structopenm_1_1_i_run_base.html#adcef45a288a2c064a673f1f436da28b2", null ]
 ];

@@ -342,12 +342,13 @@ thread::id&#160;</td><td class="memItemRight" valign="bottom"><b>trxThreadId</b>
   </dd>
 </dl>
 <p>connection string example: <br  />
- Database=fileName.sqlite; Timeout=86400; OpenMode=ReadWrite; DeleteExisting=true; <br  />
+ Database=fileName.sqlite; Timeout=86400; OpenMode=ReadWrite; ForeignKeys=true; DeleteExisting=true; <br  />
  connection string options: <br  />
  Database (required) database file name or URI, it can be empty <br  />
  Timeout (optional) timeout in seconds for table lock, default=0 <br  />
  OpenMode (optional) open mode: ReadOnly, ReadWrite, Create, default=ReadOnly <br  />
  DeleteExisting (optional) if true the delete existing database file, default=false <br  />
+ ForeignKeys (optional) if not true then do not check foreign keys, default=true <br  />
 </p>
 
 </div>
@@ -501,9 +502,9 @@ thread::id&#160;</td><td class="memItemRight" valign="bottom"><b>trxThreadId</b>
 <div class="line">    <a class="code hl_function" href="classopenm_1_1_db_exec_sqlite.html#a907fa603cd67d3405950b48178f74f45">executeStatement</a>(paramCount, valueArr); </div>
 <div class="line">} </div>
 <div class="line"><a class="code hl_function" href="classopenm_1_1_db_exec_sqlite.html#a94edc5c30329f870214c5776e44c28a8">releaseStatement</a>(); </div>
-<div class="ttc" id="aclassopenm_1_1_db_exec_sqlite_html_a0c81bb96785bd20e8b00e7748545bd4e"><div class="ttname"><a href="classopenm_1_1_db_exec_sqlite.html#a0c81bb96785bd20e8b00e7748545bd4e">openm::DbExecSqlite::createStatement</a></div><div class="ttdeci">void createStatement(const string &amp;i_sql, int i_paramCount, const type_info **i_typeArr) override</div><div class="ttdoc">create new statement with specified parameters.</div><div class="ttdef"><b>Definition</b> dbExecSqlite.cpp:768</div></div>
-<div class="ttc" id="aclassopenm_1_1_db_exec_sqlite_html_a907fa603cd67d3405950b48178f74f45"><div class="ttname"><a href="classopenm_1_1_db_exec_sqlite.html#a907fa603cd67d3405950b48178f74f45">openm::DbExecSqlite::executeStatement</a></div><div class="ttdeci">void executeStatement(int i_paramCount, const DbValue *i_valueArr) override</div><div class="ttdoc">execute statement with parameters.</div><div class="ttdef"><b>Definition</b> dbExecSqlite.cpp:860</div></div>
-<div class="ttc" id="aclassopenm_1_1_db_exec_sqlite_html_a94edc5c30329f870214c5776e44c28a8"><div class="ttname"><a href="classopenm_1_1_db_exec_sqlite.html#a94edc5c30329f870214c5776e44c28a8">openm::DbExecSqlite::releaseStatement</a></div><div class="ttdeci">void releaseStatement(void) noexcept override</div><div class="ttdoc">release statement resources.</div><div class="ttdef"><b>Definition</b> dbExecSqlite.cpp:116</div></div>
+<div class="ttc" id="aclassopenm_1_1_db_exec_sqlite_html_a0c81bb96785bd20e8b00e7748545bd4e"><div class="ttname"><a href="classopenm_1_1_db_exec_sqlite.html#a0c81bb96785bd20e8b00e7748545bd4e">openm::DbExecSqlite::createStatement</a></div><div class="ttdeci">void createStatement(const string &amp;i_sql, int i_paramCount, const type_info **i_typeArr) override</div><div class="ttdoc">create new statement with specified parameters.</div><div class="ttdef"><b>Definition</b> dbExecSqlite.cpp:779</div></div>
+<div class="ttc" id="aclassopenm_1_1_db_exec_sqlite_html_a907fa603cd67d3405950b48178f74f45"><div class="ttname"><a href="classopenm_1_1_db_exec_sqlite.html#a907fa603cd67d3405950b48178f74f45">openm::DbExecSqlite::executeStatement</a></div><div class="ttdeci">void executeStatement(int i_paramCount, const DbValue *i_valueArr) override</div><div class="ttdoc">execute statement with parameters.</div><div class="ttdef"><b>Definition</b> dbExecSqlite.cpp:871</div></div>
+<div class="ttc" id="aclassopenm_1_1_db_exec_sqlite_html_a94edc5c30329f870214c5776e44c28a8"><div class="ttname"><a href="classopenm_1_1_db_exec_sqlite.html#a94edc5c30329f870214c5776e44c28a8">openm::DbExecSqlite::releaseStatement</a></div><div class="ttdeci">void releaseStatement(void) noexcept override</div><div class="ttdoc">release statement resources.</div><div class="ttdef"><b>Definition</b> dbExecSqlite.cpp:126</div></div>
 </div><!-- fragment --> 
 <p>Implements <a class="el" href="classopenm_1_1_i_db_exec.html#a54b4aa6ed8deee5a81429b9ce39dbf14">openm::IDbExec</a>.</p>
 
@@ -1243,7 +1244,7 @@ it may throw exception if selected row count not equal i_size </p>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceopenm.html">openm</a></li><li class="navelem"><a class="el" href="classopenm_1_1_db_exec_sqlite.html">DbExecSqlite</a></li>
-    <li class="footer">Generated on Wed Mar 25 2026 19:25:16 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Thu Jun 18 2026 23:46:25 for OpenM++ runtime library (libopenm) by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>
